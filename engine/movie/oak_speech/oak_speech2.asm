@@ -53,7 +53,7 @@ ChooseRivalName:
 	jr z, .customName
 	call ClearScreen
 	call Delay3
-	ld de, Rival1Pic
+	ld de, Iscaria1Pic
 	ld b, $13
 	call IntroDisplayPicCenteredOrUpperRight
 .done

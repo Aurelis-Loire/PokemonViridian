@@ -86,8 +86,8 @@ OakSpeech:
 	call ChoosePlayerName
 	call GBFadeOutToWhite
 	call ClearScreen
-	ld de, Rival1Pic
-	lb bc, BANK(Rival1Pic), $00
+	ld de, Iscaria1Pic
+	lb bc, BANK(Iscaria1Pic), $00
 	call IntroDisplayPicCenteredOrUpperRight
 	call FadeInIntroPic
 	ld hl, IntroduceRivalText

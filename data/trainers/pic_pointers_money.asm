@@ -31,7 +31,7 @@ TrainerPicAndMoneyPointers::
 	pic_money TamerPic,        4000
 	pic_money BirdKeeperPic,   2500
 	pic_money BlackbeltPic,    2500
-	pic_money Rival1Pic,       3500
+	pic_money Iscaria1Pic,     3500
 	pic_money ProfOakPic,      9900
 	pic_money ChiefPic,        3000
 	pic_money ScientistPic,    5000
