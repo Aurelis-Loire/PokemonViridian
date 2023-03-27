@@ -2,7 +2,7 @@ MonsterNames::
 	table_width NAME_LENGTH - 1, MonsterNames
 	db "RHYDON@@@@"
 	db "KANGASKHAN"
-	db "NIDORAN♂@@"
+	db "SKWOVET@@@"
 	db "CLEFAIRY@@"
 	db "SPEAROW@@@"
 	db "VOLTORB@@@"

@@ -2,7 +2,7 @@ PokedexEntryPointers:
 	table_width 2, PokedexEntryPointers
 	dw RhydonDexEntry
 	dw KangaskhanDexEntry
-	dw NidoranMDexEntry
+	dw SkwovetDexEntry
 	dw ClefairyDexEntry
 	dw SpearowDexEntry
 	dw VoltorbDexEntry
@@ -211,11 +211,11 @@ KangaskhanDexEntry:
 	text_far _KangaskhanDexEntry
 	text_end
 
-NidoranMDexEntry:
-	db "POISON PIN@"
-	db 1,8
-	dw 200
-	text_far _NidoranMDexEntry
+SkwovetDexEntry:
+	db "CHEEKY@"
+	db 1,0
+	dw 55
+	text_far _SkwovetDexEntry
 	text_end
 
 ClefairyDexEntry:

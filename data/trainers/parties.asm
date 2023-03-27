@@ -71,12 +71,12 @@ YoungsterData:
 	db 17, SLOWPOKE, 0
 	db 14, EKANS, SANDSHREW, 0
 ; SS Anne 1F Rooms
-	db 21, NIDORAN_M, 0
+	db 21, SKWOVET, 0
 ; Route 11
 	db 21, EKANS, 0
 	db 19, SANDSHREW, ZUBAT, 0
 	db 17, RATTATA, RATTATA, RATICATE, 0
-	db 18, NIDORAN_M, NIDORINO, 0
+	db 18, SKWOVET, NIDORINO, 0
 ; Unused
 	db 17, SPEAROW, RATTATA, RATTATA, SPEAROW, 0
 
@@ -106,7 +106,7 @@ BugCatcherData:
 LassData:
 ; Route 3
 	db 9, PIDGEY, PIDGEY, 0
-	db 10, RATTATA, NIDORAN_M, 0
+	db 10, RATTATA, SKWOVET, 0
 	db 14, JIGGLYPUFF, 0
 ; Route 4
 	db 31, PARAS, PARAS, PARASECT, 0
@@ -117,7 +117,7 @@ LassData:
 	db 16, PIDGEY, NIDORAN_F, 0
 	db 14, PIDGEY, NIDORAN_F, 0
 ; Route 25
-	db 15, NIDORAN_M, NIDORAN_F, 0
+	db 15, SKWOVET, NIDORAN_F, 0
 	db 13, ODDISH, PIDGEY, ODDISH, 0
 ; SS Anne 1F Rooms
 	db 18, PIDGEY, NIDORAN_F, 0
@@ -126,7 +126,7 @@ LassData:
 ; Route 8
 	db 23, NIDORAN_F, NIDORINA, 0
 	db 24, MEOWTH, MEOWTH, MEOWTH, 0
-	db 19, PIDGEY, RATTATA, NIDORAN_M, MEOWTH, PIKACHU, 0
+	db 19, PIDGEY, RATTATA, SKWOVET, MEOWTH, PIKACHU, 0
 	db 22, CLEFAIRY, CLEFAIRY, 0
 ; Celadon Gym
 	db 23, BELLSPROUT, WEEPINBELL, 0
@@ -161,7 +161,7 @@ JrTrainerMData:
 	db 21, GROWLITHE, CHARMANDER, 0
 	db 19, RATTATA, DIGLETT, EKANS, SANDSHREW, 0
 ; Route 12
-	db 29, NIDORAN_M, NIDORINO, 0
+	db 29, SKWOVET, NIDORINO, 0
 
 JrTrainerFData:
 ; Cerulean Gym
@@ -664,7 +664,7 @@ SabrinaData:
 GentlemanData:
 ; SS Anne 1F Rooms
 	db 18, GROWLITHE, GROWLITHE, 0
-	db 19, NIDORAN_M, NIDORAN_F, 0
+	db 19, SKWOVET, NIDORAN_F, 0
 ; SS Anne 2F Rooms/Vermilion Gym
 	db 23, PIKACHU, 0
 ; Unused

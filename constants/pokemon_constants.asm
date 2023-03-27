@@ -9,7 +9,7 @@
 	const NO_MON             ; $00
 	const RHYDON             ; $01
 	const KANGASKHAN         ; $02
-	const NIDORAN_M          ; $03
+	const SKWOVET            ; $03
 	const CLEFAIRY           ; $04
 	const SPEAROW            ; $05
 	const VOLTORB            ; $06

@@ -2,7 +2,7 @@ PokedexOrder:
 	table_width 1, PokedexOrder
 	db DEX_RHYDON
 	db DEX_KANGASKHAN
-	db DEX_NIDORAN_M
+	db DEX_SKWOVET
 	db DEX_CLEFAIRY
 	db DEX_SPEAROW
 	db DEX_VOLTORB

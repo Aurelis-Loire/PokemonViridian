@@ -18,14 +18,13 @@ _KangaskhanDexEntry::
 	next "years old"
 	dex
 
-_NidoranMDexEntry::
-	text "Stiffens its ears"
-	next "to sense danger."
-	next "The larger its"
+_SkwovetDexEntry::
+	text "This #MON"
+	next "becomes uneasy if"
+	next "its cheeks are"
 
-	page "horns, the more"
-	next "powerful its"
-	next "secreted venom"
+	page "ever completely"
+	next "empty of berries"
 	dex
 
 _ClefairyDexEntry::

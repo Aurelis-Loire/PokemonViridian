@@ -8,7 +8,7 @@ CryData::
 	; base cry, pitch, length
 	mon_cry SFX_CRY_11, $00, $80 ; Rhydon
 	mon_cry SFX_CRY_03, $00, $80 ; Kangaskhan
-	mon_cry SFX_CRY_00, $00, $80 ; Nidoran♂
+	mon_cry SFX_CRY_22, $8F, $73 ; Skwovet
 	mon_cry SFX_CRY_19, $CC, $01 ; Clefairy
 	mon_cry SFX_CRY_10, $00, $80 ; Spearow
 	mon_cry SFX_CRY_06, $ED, $80 ; Voltorb

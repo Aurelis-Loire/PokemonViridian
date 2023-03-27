@@ -30,7 +30,7 @@ MonPartyData:
 	nybble ICON_MON       ; Sandslash
 	nybble ICON_MON       ; NidoranF
 	nybble ICON_MON       ; Nidorina
-	nybble ICON_MON       ; Nidoqueen
+	nybble ICON_QUADRUPED ; Skwovet
 	nybble ICON_MON       ; NidoranM
 	nybble ICON_MON       ; Nidorino
 	nybble ICON_MON       ; Nidoking

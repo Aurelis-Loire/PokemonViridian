@@ -5,7 +5,7 @@ EvosMovesPointerTable:
 	table_width 2, EvosMovesPointerTable
 	dw RhydonEvosMoves
 	dw KangaskhanEvosMoves
-	dw NidoranMEvosMoves
+	dw SkwovetEvosMoves
 	dw ClefairyEvosMoves
 	dw SpearowEvosMoves
 	dw VoltorbEvosMoves
@@ -218,17 +218,14 @@ KangaskhanEvosMoves:
 	db 46, DIZZY_PUNCH
 	db 0
 
-NidoranMEvosMoves:
+SkwovetEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 16, NIDORINO
 	db 0
 ; Learnset
-	db 8, HORN_ATTACK
-	db 14, POISON_STING
-	db 21, FOCUS_ENERGY
-	db 29, FURY_ATTACK
-	db 36, HORN_DRILL
-	db 43, DOUBLE_KICK
+	db 7,  BITE
+	db 14, BODY_SLAM
+	db 23, REST
+	db 34, COUNTER
 	db 0
 
 ClefairyEvosMoves:
@@ -509,9 +506,9 @@ BlastoiseEvosMoves:
 	db 0
 ; Learnset
 	db 8, BUBBLE
+	db 10, WITHDRAW
 	db 15, WATER_GUN
 	db 24, BITE
-	db 31, WITHDRAW
 	db 42, SKULL_BASH
 	db 52, HYDRO_PUMP
 	db 0
@@ -1994,9 +1991,9 @@ SquirtleEvosMoves:
 	db 0
 ; Learnset
 	db 8, BUBBLE
+	db 10, WITHDRAW
 	db 15, WATER_GUN
 	db 22, BITE
-	db 28, WITHDRAW
 	db 35, SKULL_BASH
 	db 42, HYDRO_PUMP
 	db 0
@@ -2020,9 +2017,9 @@ WartortleEvosMoves:
 	db 0
 ; Learnset
 	db 8, BUBBLE
+	db 10, WITHDRAW
 	db 15, WATER_GUN
 	db 24, BITE
-	db 31, WITHDRAW
 	db 39, SKULL_BASH
 	db 47, HYDRO_PUMP
 	db 0

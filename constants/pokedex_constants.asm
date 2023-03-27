@@ -22,20 +22,20 @@
 	const DEX_PIDGEY     ; 16
 	const DEX_PIDGEOTTO  ; 17
 	const DEX_PIDGEOT    ; 18
-	const DEX_RATTATA    ; 19
-	const DEX_RATICATE   ; 20
-	const DEX_SPEAROW    ; 21
-	const DEX_FEAROW     ; 22
+	const DEX_PIKACHU    ; 19
+	const DEX_RAICHU     ; 20
+	const DEX_RATTATA    ; 21
+	const DEX_RATICATE   ; 22
 	const DEX_EKANS      ; 23
 	const DEX_ARBOK      ; 24
-	const DEX_PIKACHU    ; 25
-	const DEX_RAICHU     ; 26
+	const DEX_SPEAROW    ; 25
+	const DEX_FEAROW     ; 26
 	const DEX_SANDSHREW  ; 27
 	const DEX_SANDSLASH  ; 28
 	const DEX_NIDORAN_F  ; 29
 	const DEX_NIDORINA   ; 30
-	const DEX_NIDOQUEEN  ; 31
-	const DEX_NIDORAN_M  ; 32
+	const DEX_SKWOVET    ; 31
+	const DEX_NIDOQUEEN  ; 32
 	const DEX_NIDORINO   ; 33
 	const DEX_NIDOKING   ; 34
 	const DEX_CLEFAIRY   ; 35
