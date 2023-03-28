@@ -37,14 +37,14 @@ _ClefairyDexEntry::
 	next "certain areas"
 	dex
 
-_SpearowDexEntry::
-	text "Eats bugs in"
-	next "grassy areas. It"
-	next "has to flap its"
+_ScatterbugDexEntry::
+	text "When under attack,"
+	next "it spews a"
+	next "poisonous black"
 
-	page "short wings at"
-	next "high speed to"
-	next "stay airborne"
+	page "powder that causes"
+	next "paralysis on"
+	next "contact"
 	dex
 
 _VoltorbDexEntry::

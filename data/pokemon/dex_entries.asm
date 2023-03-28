@@ -4,7 +4,7 @@ PokedexEntryPointers:
 	dw KangaskhanDexEntry
 	dw SkwovetDexEntry
 	dw ClefairyDexEntry
-	dw SpearowDexEntry
+	dw ScatterbugDexEntry
 	dw VoltorbDexEntry
 	dw NidokingDexEntry
 	dw SlowbroDexEntry
@@ -225,11 +225,11 @@ ClefairyDexEntry:
 	text_far _ClefairyDexEntry
 	text_end
 
-SpearowDexEntry:
-	db "TINY BIRD@"
+ScatterbugDexEntry:
+	db "DUST@"
 	db 1,0
-	dw 40
-	text_far _SpearowDexEntry
+	dw 55
+	text_far _ScatterbugDexEntry
 	text_end
 
 VoltorbDexEntry:

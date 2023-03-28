@@ -7,7 +7,7 @@ EvosMovesPointerTable:
 	dw KangaskhanEvosMoves
 	dw SkwovetEvosMoves
 	dw ClefairyEvosMoves
-	dw SpearowEvosMoves
+	dw ScatterbugEvosMoves
 	dw VoltorbEvosMoves
 	dw NidokingEvosMoves
 	dw SlowbroEvosMoves
@@ -241,16 +241,11 @@ ClefairyEvosMoves:
 	db 48, LIGHT_SCREEN
 	db 0
 
-SpearowEvosMoves:
+ScatterbugEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 20, FEAROW
 	db 0
 ; Learnset
-	db 9, LEER
-	db 15, FURY_ATTACK
-	db 22, MIRROR_MOVE
-	db 29, DRILL_PECK
-	db 36, AGILITY
+	db 6,  STUN_SPORE
 	db 0
 
 VoltorbEvosMoves:

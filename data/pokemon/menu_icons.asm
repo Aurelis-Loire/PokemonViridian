@@ -27,7 +27,7 @@ MonPartyData:
 	nybble ICON_FAIRY     ; Pikachu
 	nybble ICON_FAIRY     ; Raichu
 	nybble ICON_MON       ; Sandshrew
-	nybble ICON_MON       ; Sandslash
+	nybble ICON_BUG       ; Scatterbug
 	nybble ICON_MON       ; NidoranF
 	nybble ICON_MON       ; Nidorina
 	nybble ICON_QUADRUPED ; Skwovet

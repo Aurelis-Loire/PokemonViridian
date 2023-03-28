@@ -28,10 +28,10 @@
 	const DEX_RATICATE   ; 22
 	const DEX_EKANS      ; 23
 	const DEX_ARBOK      ; 24
-	const DEX_SPEAROW    ; 25
+	const DEX_SANDSLASH  ; 25
 	const DEX_FEAROW     ; 26
 	const DEX_SANDSHREW  ; 27
-	const DEX_SANDSLASH  ; 28
+	const DEX_SCATTERBUG ; 28
 	const DEX_NIDORAN_F  ; 29
 	const DEX_NIDORINA   ; 30
 	const DEX_SKWOVET    ; 31

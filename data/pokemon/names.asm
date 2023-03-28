@@ -4,7 +4,7 @@ MonsterNames::
 	db "KANGASKHAN"
 	db "SKWOVET@@@"
 	db "CLEFAIRY@@"
-	db "SPEAROW@@@"
+	db "SCATTERBUG"
 	db "VOLTORB@@@"
 	db "NIDOKING@@"
 	db "SLOWBRO@@@"
