@@ -32,12 +32,12 @@
 	const DEX_FEAROW     ; 26
 	const DEX_SANDSHREW  ; 27
 	const DEX_SCATTERBUG ; 28
-	const DEX_NIDORAN_F  ; 29
+	const DEX_SPEWPA     ; 29
 	const DEX_NIDORINA   ; 30
 	const DEX_SKWOVET    ; 31
 	const DEX_NIDOQUEEN  ; 32
 	const DEX_NIDORINO   ; 33
-	const DEX_NIDOKING   ; 34
+	const DEX_NIDORAN_F  ; 34
 	const DEX_CLEFAIRY   ; 35
 	const DEX_CLEFABLE   ; 36
 	const DEX_VULPIX     ; 37

@@ -57,14 +57,14 @@ _VoltorbDexEntry::
 	next "many people"
 	dex
 
-_NidokingDexEntry::
-	text "It uses its"
-	next "powerful tail in"
-	next "battle to smash,"
+_SpewpaDexEntry::
+	text "When predators"
+	next "attack, it quickly"
+	next "bristles the fur"
 
-	page "constrict, then"
-	next "break the prey's"
-	next "bones"
+	page "covering its body"
+	next "in an effort to"
+	next "threaten them"
 	dex
 
 _SlowbroDexEntry::

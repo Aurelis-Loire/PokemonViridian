@@ -6,7 +6,7 @@ PokedexEntryPointers:
 	dw ClefairyDexEntry
 	dw ScatterbugDexEntry
 	dw VoltorbDexEntry
-	dw NidokingDexEntry
+	dw SpewpaDexEntry
 	dw SlowbroDexEntry
 	dw IvysaurDexEntry
 	dw ExeggutorDexEntry
@@ -239,11 +239,11 @@ VoltorbDexEntry:
 	text_far _VoltorbDexEntry
 	text_end
 
-NidokingDexEntry:
-	db "DRILL@"
-	db 4,7
-	dw 1370
-	text_far _NidokingDexEntry
+SpewpaDexEntry:
+	db "DUST@"
+	db 1,0
+	dw 185
+	text_far _SpewpaDexEntry
 	text_end
 
 SlowbroDexEntry:

@@ -9,7 +9,7 @@ EvosMovesPointerTable:
 	dw ClefairyEvosMoves
 	dw ScatterbugEvosMoves
 	dw VoltorbEvosMoves
-	dw NidokingEvosMoves
+	dw SpewpaEvosMoves
 	dw SlowbroEvosMoves
 	dw IvysaurEvosMoves
 	dw ExeggutorEvosMoves
@@ -243,6 +243,7 @@ ClefairyEvosMoves:
 
 ScatterbugEvosMoves:
 ; Evolutions
+    db EV_LEVEL, 9, SPEWPA
 	db 0
 ; Learnset
 	db 6,  STUN_SPORE
@@ -260,13 +261,11 @@ VoltorbEvosMoves:
 	db 43, EXPLOSION
 	db 0
 
-NidokingEvosMoves:
+SpewpaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 8, HORN_ATTACK
-	db 14, POISON_STING
-	db 23, THRASH
+	db 9,  HARDEN
 	db 0
 
 SlowbroEvosMoves:
@@ -1879,7 +1878,6 @@ RaticateEvosMoves:
 
 NidorinoEvosMoves:
 ; Evolutions
-	db EV_ITEM, MOON_STONE, 1, NIDOKING
 	db 0
 ; Learnset
 	db 8, HORN_ATTACK

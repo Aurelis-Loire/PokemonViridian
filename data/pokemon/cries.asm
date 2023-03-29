@@ -12,7 +12,7 @@ CryData::
 	mon_cry SFX_CRY_19, $CC, $01 ; Clefairy
 	mon_cry SFX_CRY_16, $05, $B6 ; Scatterbug
 	mon_cry SFX_CRY_06, $ED, $80 ; Voltorb
-	mon_cry SFX_CRY_09, $00, $80 ; Nidoking
+	mon_cry SFX_CRY_1C, $6F, $2C ; Spewpa
 	mon_cry SFX_CRY_1F, $00, $80 ; Slowbro
 	mon_cry SFX_CRY_0F, $20, $80 ; Ivysaur
 	mon_cry SFX_CRY_0D, $00, $80 ; Exeggutor

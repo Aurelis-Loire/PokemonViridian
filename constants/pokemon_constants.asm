@@ -13,7 +13,7 @@
 	const CLEFAIRY           ; $04
 	const SCATTERBUG         ; $05
 	const VOLTORB            ; $06
-	const NIDOKING           ; $07
+	const SPEWPA             ; $07
 	const SLOWBRO            ; $08
 	const IVYSAUR            ; $09
 	const EXEGGUTOR          ; $0A

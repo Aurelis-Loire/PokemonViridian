@@ -13,5 +13,5 @@ CreditsMons:
 	db DITTO
 	db OMASTAR
 	db VILEPLUME
-	db NIDOKING
+	db PONYTA
 	db PARASECT
