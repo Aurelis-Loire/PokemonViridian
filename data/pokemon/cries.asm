@@ -18,7 +18,7 @@ CryData::
 	mon_cry SFX_CRY_0D, $00, $80 ; Exeggutor
 	mon_cry SFX_CRY_0C, $00, $80 ; Lickitung
 	mon_cry SFX_CRY_0B, $00, $80 ; Exeggcute
-	mon_cry SFX_CRY_05, $00, $80 ; Grimer
+	mon_cry SFX_CRY_09, $03, $1B ; Vivillon
 	mon_cry SFX_CRY_07, $00, $FF ; Gengar
 	mon_cry SFX_CRY_01, $00, $80 ; Nidoran♀
 	mon_cry SFX_CRY_0A, $00, $80 ; Nidoqueen

@@ -15,7 +15,7 @@ EvosMovesPointerTable:
 	dw ExeggutorEvosMoves
 	dw LickitungEvosMoves
 	dw ExeggcuteEvosMoves
-	dw GrimerEvosMoves
+	dw VivillonEvosMoves
 	dw GengarEvosMoves
 	dw NidoranFEvosMoves
 	dw NidoqueenEvosMoves
@@ -263,6 +263,7 @@ VoltorbEvosMoves:
 
 SpewpaEvosMoves:
 ; Evolutions
+    db EV_LEVEL, 12, VIVILLON
 	db 0
 ; Learnset
 	db 9,  HARDEN
@@ -326,17 +327,16 @@ ExeggcuteEvosMoves:
 	db 48, SLEEP_POWDER
 	db 0
 
-GrimerEvosMoves:
+VivillonEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 38, MUK
 	db 0
 ; Learnset
-	db 30, POISON_GAS
-	db 33, MINIMIZE
-	db 37, SLUDGE
-	db 42, HARDEN
-	db 48, SCREECH
-	db 55, ACID_ARMOR
+	db 12, POISONPOWDER
+	db 16, GUST
+	db 21, LIGHT_SCREEN
+	db 29, SLEEP_POWDER
+	db 36, PSYBEAM
+	db 43, SUPERSONIC
 	db 0
 
 GengarEvosMoves:

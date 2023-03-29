@@ -19,7 +19,7 @@
 	const EXEGGUTOR          ; $0A
 	const LICKITUNG          ; $0B
 	const EXEGGCUTE          ; $0C
-	const GRIMER             ; $0D
+	const VIVILLON           ; $0D
 	const GENGAR             ; $0E
 	const NIDORAN_F          ; $0F
 	const NIDOQUEEN          ; $10

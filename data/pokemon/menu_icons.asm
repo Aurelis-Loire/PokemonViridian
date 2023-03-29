@@ -29,7 +29,7 @@ MonPartyData:
 	nybble ICON_MON       ; Sandshrew
 	nybble ICON_BUG       ; Scatterbug
 	nybble ICON_BUG       ; Spewpa
-	nybble ICON_MON       ; Nidorina
+	nybble ICON_BUG       ; Vivillon
 	nybble ICON_QUADRUPED ; Skwovet
 	nybble ICON_MON       ; NidoranM
 	nybble ICON_MON       ; Nidorino

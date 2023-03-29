@@ -117,14 +117,14 @@ _ExeggcuteDexEntry::
 	next "in swarms"
 	dex
 
-_GrimerDexEntry::
-	text "Appears in filthy"
-	next "areas. Thrives by"
-	next "sucking up"
+_VivillonDexEntry::
+	text "Vivillon with many"
+	next "different patterns"
+	next "are found all over"
 
-	page "polluted sludge"
-	next "that is pumped"
-	next "out of factories"
+	page "the world. They"
+	next "are affected by"
+	next "the climate"
 	dex
 
 _GengarDexEntry::

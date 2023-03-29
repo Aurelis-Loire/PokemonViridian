@@ -12,7 +12,7 @@ MonsterNames::
 	db "EXEGGUTOR@"
 	db "LICKITUNG@"
 	db "EXEGGCUTE@"
-	db "GRIMER@@@@"
+	db "VIVILLON@@"
 	db "GENGAR@@@@"
 	db "NIDORAN♀@@"
 	db "NIDOQUEEN@"
