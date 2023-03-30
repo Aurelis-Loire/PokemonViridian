@@ -17,7 +17,7 @@ EvosMovesPointerTable:
 	dw ExeggcuteEvosMoves
 	dw VivillonEvosMoves
 	dw GengarEvosMoves
-	dw NidoranFEvosMoves
+	dw WooperEvosMoves
 	dw NidoqueenEvosMoves
 	dw CuboneEvosMoves
 	dw RhyhornEvosMoves
@@ -347,17 +347,15 @@ GengarEvosMoves:
 	db 38, DREAM_EATER
 	db 0
 
-NidoranFEvosMoves:
+WooperEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 16, NIDORINA
 	db 0
 ; Learnset
-	db 8, SCRATCH
-	db 14, POISON_STING
-	db 21, TAIL_WHIP
-	db 29, BITE
-	db 36, FURY_SWIPES
-	db 43, DOUBLE_KICK
+	db 10, TAIL_WHIP
+	db 17, SLAM
+	db 24, AMNESIA
+	db 31, EARTHQUAKE
+	db 38, MIST
 	db 0
 
 NidoqueenEvosMoves:

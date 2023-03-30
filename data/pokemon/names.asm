@@ -14,7 +14,7 @@ MonsterNames::
 	db "EXEGGCUTE@"
 	db "VIVILLON@@"
 	db "GENGAR@@@@"
-	db "NIDORAN♀@@"
+	db "WOOPER@@@@"
 	db "NIDOQUEEN@"
 	db "CUBONE@@@@"
 	db "RHYHORN@@@"

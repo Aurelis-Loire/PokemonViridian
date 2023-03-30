@@ -18,19 +18,19 @@ MonPartyData:
 	nybble ICON_BIRD      ; Pidgey
 	nybble ICON_BIRD      ; Pidgeotto
 	nybble ICON_BIRD      ; Pidgeot
-	nybble ICON_QUADRUPED ; Rattata
-	nybble ICON_QUADRUPED ; Raticate
-	nybble ICON_BIRD      ; Spearow
-	nybble ICON_BIRD      ; Fearow
+	nybble ICON_FAIRY     ; Pikachu
+	nybble ICON_QUADRUPED ; Raichu
+	nybble ICON_QUADRUPED ; Mankey
+	nybble ICON_BIRD      ; Primeape
 	nybble ICON_SNAKE     ; Ekans
 	nybble ICON_SNAKE     ; Arbok
-	nybble ICON_FAIRY     ; Pikachu
-	nybble ICON_FAIRY     ; Raichu
-	nybble ICON_MON       ; Sandshrew
+	nybble ICON_WATER     ; Wooper
+	nybble ICON_MON       ; Rattata
 	nybble ICON_BUG       ; Scatterbug
 	nybble ICON_BUG       ; Spewpa
 	nybble ICON_BUG       ; Vivillon
 	nybble ICON_QUADRUPED ; Skwovet
+    nybble ICON_BIRD      ; Nidoqueen
 	nybble ICON_MON       ; NidoranM
 	nybble ICON_MON       ; Nidorino
 	nybble ICON_MON       ; Nidoking

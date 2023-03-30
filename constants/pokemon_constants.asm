@@ -21,7 +21,7 @@
 	const EXEGGCUTE          ; $0C
 	const VIVILLON           ; $0D
 	const GENGAR             ; $0E
-	const NIDORAN_F          ; $0F
+	const WOOPER             ; $0F
 	const NIDOQUEEN          ; $10
 	const CUBONE             ; $11
 	const RHYHORN            ; $12

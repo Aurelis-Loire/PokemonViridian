@@ -14,7 +14,7 @@ PokedexEntryPointers:
 	dw ExeggcuteDexEntry
 	dw VivillonDexEntry
 	dw GengarDexEntry
-	dw NidoranFDexEntry
+	dw WooperDexEntry
 	dw NidoqueenDexEntry
 	dw CuboneDexEntry
 	dw RhyhornDexEntry
@@ -295,11 +295,11 @@ GengarDexEntry:
 	text_far _GengarDexEntry
 	text_end
 
-NidoranFDexEntry:
-	db "POISON PIN@"
+WooperDexEntry:
+	db "WATER FISH@"
 	db 1,4
-	dw 150
-	text_far _NidoranFDexEntry
+	dw 187
+	text_far _WooperDexEntry
 	text_end
 
 NidoqueenDexEntry:

@@ -24,20 +24,20 @@
 	const DEX_PIDGEOT    ; 18
 	const DEX_PIKACHU    ; 19
 	const DEX_RAICHU     ; 20
-	const DEX_RATTATA    ; 21
-	const DEX_RATICATE   ; 22
+	const DEX_MANKEY     ; 21
+	const DEX_PRIMEAPE   ; 22
 	const DEX_EKANS      ; 23
 	const DEX_ARBOK      ; 24
-	const DEX_SANDSLASH  ; 25
-	const DEX_FEAROW     ; 26
-	const DEX_SANDSHREW  ; 27
-	const DEX_SCATTERBUG ; 28
-	const DEX_SPEWPA     ; 29
-	const DEX_VIVILLON   ; 30
-	const DEX_SKWOVET    ; 31
-	const DEX_NIDOQUEEN  ; 32
+	const DEX_WOOPER     ; 25
+	const DEX_RATTATA    ; 26
+	const DEX_SCATTERBUG ; 27
+	const DEX_SPEWPA     ; 28
+	const DEX_VIVILLON   ; 29
+	const DEX_SKWOVET    ; 30
+	const DEX_NIDOQUEEN  ; 31
+	const DEX_FEAROW     ; 32
 	const DEX_NIDORINO   ; 33
-	const DEX_NIDORAN_F  ; 34
+	const DEX_RATICATE   ; 34
 	const DEX_CLEFAIRY   ; 35
 	const DEX_CLEFABLE   ; 36
 	const DEX_VULPIX     ; 37
@@ -59,8 +59,8 @@
 	const DEX_PERSIAN    ; 53
 	const DEX_PSYDUCK    ; 54
 	const DEX_GOLDUCK    ; 55
-	const DEX_MANKEY     ; 56
-	const DEX_PRIMEAPE   ; 57
+	const DEX_SANDSHREW  ; 56
+	const DEX_SANDSLASH  ; 57
 	const DEX_GROWLITHE  ; 58
 	const DEX_ARCANINE   ; 59
 	const DEX_POLIWAG    ; 60

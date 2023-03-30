@@ -137,14 +137,14 @@ _GengarDexEntry::
 	next "at their fright"
 	dex
 
-_NidoranFDexEntry::
-	text "Although small,"
-	next "its venomous"
-	next "barbs render this"
+_WooperDexEntry::
+	text "This #MON lives"
+	next "in cold water. It"
+	next "will leave the"
 
-	page "#MON dangerous."
-	next "The female has"
-	next "smaller horns"
+	page "water to search"
+	next "for food when it"
+	next "gets cold outside"
 	dex
 
 _NidoqueenDexEntry::

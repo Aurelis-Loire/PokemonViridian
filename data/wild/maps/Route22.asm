@@ -6,10 +6,10 @@ Route22WildMons:
 	db  4, SCATTERBUG
 	db  2, SKWOVET
 	db  2, SCATTERBUG
-	db  3, IVYSAUR
-	db  5, IVYSAUR
-	db  3, NIDORAN_F
-	db  4, NIDORAN_F
+	db  3, WOOPER
+	db  5, WOOPER
+	db  3, CHARMANDER
+	db  4, CHARMANDER
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
