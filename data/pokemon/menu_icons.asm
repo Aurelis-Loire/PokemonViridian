@@ -20,7 +20,7 @@ MonPartyData:
 	nybble ICON_BIRD      ; Pidgeot
 	nybble ICON_FAIRY     ; Pikachu
 	nybble ICON_QUADRUPED ; Raichu
-	nybble ICON_QUADRUPED ; Mankey
+	nybble ICON_MON       ; Mankey
 	nybble ICON_BIRD      ; Primeape
 	nybble ICON_SNAKE     ; Ekans
 	nybble ICON_SNAKE     ; Arbok

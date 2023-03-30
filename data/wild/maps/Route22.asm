@@ -8,8 +8,8 @@ Route22WildMons:
 	db  2, SCATTERBUG
 	db  3, WOOPER
 	db  5, WOOPER
-	db  3, CHARMANDER
-	db  4, CHARMANDER
+	db  3, MANKEY
+	db  4, MANKEY
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
