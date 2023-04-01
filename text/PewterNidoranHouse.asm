@@ -1,9 +1,9 @@
 _PewterHouse1Text1::
-	text "NIDORAN: Bowbow!@"
+	text "CHARMANDER: Char!@"
 	text_end
 
 _PewterHouse1Text2::
-	text "NIDORAN sit!"
+	text "CHARMANDER sit!"
 	done
 
 _PewterHouse1Text3::
