@@ -10,7 +10,7 @@ MoveNames::
 	li "ICE PUNCH"
 	li "THUNDERPUNCH"
 	li "SCRATCH"
-	li "VICEGRIP"
+	li "POWDER SNOW"
 	li "GUILLOTINE"
 	li "RAZOR WIND"
 	li "SWORDS DANCE"
