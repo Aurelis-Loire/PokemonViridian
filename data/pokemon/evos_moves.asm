@@ -1045,6 +1045,7 @@ VulpixEvosMoves:
 	db EV_ITEM, FIRE_STONE, 1, NINETALES
 	db 0
 ; Learnset
+	db 9, GROWL
 	db 16, QUICK_ATTACK
 	db 21, ROAR
 	db 28, CONFUSE_RAY
