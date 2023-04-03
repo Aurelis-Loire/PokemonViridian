@@ -30,7 +30,7 @@ MonPartyData:
 	nybble ICON_BUG       ; Spewpa
 	nybble ICON_BUG       ; Vivillon
 	nybble ICON_QUADRUPED ; Skwovet
-    nybble ICON_BIRD      ; Nidoqueen
+    nybble ICON_MON       ; Frigibax
 	nybble ICON_MON       ; NidoranM
 	nybble ICON_MON       ; Nidorino
 	nybble ICON_MON       ; Nidoking

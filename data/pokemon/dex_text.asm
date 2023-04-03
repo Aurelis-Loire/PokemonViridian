@@ -147,14 +147,13 @@ _WooperDexEntry::
 	next "gets cold outside"
 	dex
 
-_NidoqueenDexEntry::
-	text "Its hard scales"
-	next "provide strong"
-	next "protection. It"
+_FrigibaxDexEntry::
+	text "Frigibax absorbs"
+	next "heat through its"
+	next "dorsal fin and"
 
-	page "uses its hefty"
-	next "bulk to execute"
-	next "powerful moves"
+	page "converts the heat"
+	next "into ice energy"
 	dex
 
 _CuboneDexEntry::

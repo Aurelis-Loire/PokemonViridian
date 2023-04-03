@@ -21,7 +21,7 @@ CryData::
 	mon_cry SFX_CRY_09, $03, $1B ; Vivillon
 	mon_cry SFX_CRY_07, $00, $FF ; Gengar
 	mon_cry SFX_CRY_25, $E6, $39 ; Wooper
-	mon_cry SFX_CRY_0A, $00, $80 ; Nidoqueen
+	mon_cry SFX_CRY_0A, $1C, $12 ; Frigibax
 	mon_cry SFX_CRY_19, $00, $80 ; Cubone
 	mon_cry SFX_CRY_04, $00, $80 ; Rhyhorn
 	mon_cry SFX_CRY_1B, $00, $80 ; Lapras

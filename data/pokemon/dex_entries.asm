@@ -15,7 +15,7 @@ PokedexEntryPointers:
 	dw VivillonDexEntry
 	dw GengarDexEntry
 	dw WooperDexEntry
-	dw NidoqueenDexEntry
+	dw FrigibaxDexEntry
 	dw CuboneDexEntry
 	dw RhyhornDexEntry
 	dw LaprasDexEntry
@@ -302,11 +302,11 @@ WooperDexEntry:
 	text_far _WooperDexEntry
 	text_end
 
-NidoqueenDexEntry:
-	db "DRILL@"
-	db 4,3
-	dw 1320
-	text_far _NidoqueenDexEntry
+FrigibaxDexEntry:
+	db "ICE FIN@"
+	db 1,8
+	dw 375
+	text_far _FrigibaxDexEntry
 	text_end
 
 CuboneDexEntry:

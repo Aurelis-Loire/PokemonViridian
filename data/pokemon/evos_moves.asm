@@ -18,7 +18,7 @@ EvosMovesPointerTable:
 	dw VivillonEvosMoves
 	dw GengarEvosMoves
 	dw WooperEvosMoves
-	dw NidoqueenEvosMoves
+	dw FrigibaxEvosMoves
 	dw CuboneEvosMoves
 	dw RhyhornEvosMoves
 	dw LaprasEvosMoves
@@ -358,13 +358,15 @@ WooperEvosMoves:
 	db 38, MIST
 	db 0
 
-NidoqueenEvosMoves:
+FrigibaxEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 8, SCRATCH
-	db 14, POISON_STING
-	db 23, BODY_SLAM
+	db 16, LEER
+	db 25, FOCUS_ENERGY
+	db 31, BITE
+	db 38, TAKE_DOWN
+	db 45, ICE_BEAM
 	db 0
 
 CuboneEvosMoves:
@@ -1892,7 +1894,6 @@ NidorinoEvosMoves:
 
 NidorinaEvosMoves:
 ; Evolutions
-	db EV_ITEM, MOON_STONE, 1, NIDOQUEEN
 	db 0
 ; Learnset
 	db 8, SCRATCH

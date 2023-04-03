@@ -15,7 +15,7 @@ MonsterNames::
 	db "VIVILLON@@"
 	db "GENGAR@@@@"
 	db "WOOPER@@@@"
-	db "NIDOQUEEN@"
+	db "FRIGIBAX@@"
 	db "CUBONE@@@@"
 	db "RHYHORN@@@"
 	db "LAPRAS@@@@"

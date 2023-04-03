@@ -34,7 +34,7 @@
 	const DEX_SPEWPA     ; 28
 	const DEX_VIVILLON   ; 29
 	const DEX_SKWOVET    ; 30
-	const DEX_NIDOQUEEN  ; 31
+	const DEX_FRIGIBAX   ; 31
 	const DEX_FEAROW     ; 32
 	const DEX_NIDORINO   ; 33
 	const DEX_RATICATE   ; 34
