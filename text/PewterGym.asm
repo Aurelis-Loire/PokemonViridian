@@ -1,15 +1,15 @@
 _BrockPreBattleText::
-	text "I'm BROCK!"
+	text "I'm DIANA!"
 	line "I'm PEWTER's GYM"
 	cont "LEADER!"
 
-	para "I believe in rock"
-	line "hard defense and"
-	cont "determination!"
+	para "I believe in the"
+	line "harshness of"
+	cont "winter."
 
 	para "That's why my"
 	line "#MON are all"
-	cont "the rock-type!"
+	cont "the ice-type!"
 
 	para "Do you still want"
 	line "to challenge me?"

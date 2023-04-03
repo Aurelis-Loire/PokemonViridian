@@ -19,7 +19,7 @@ _BeforeReceivedTM34Text::
 
 _ReceivedTM34Text::
 	text "<PLAYER> received"
-	line "TM34!@"
+	line "TM20!@"
 	text_end
 
 _TM34ExplanationText::
@@ -37,13 +37,14 @@ _TM34ExplanationText::
 	cont "pick the #MON"
 	cont "carefully!"
 
-	para "TM34 contains"
-	line "BIDE!"
+	para "TM20 contains"
+	line "POWDER SNOW!"
 
 	para "Your #MON will"
-	line "absorb damage in"
-	cont "battle then pay"
-	cont "it back double!"
+	line "blast the foe"
+	cont "with a snowy gust"
+	cont "that may cause it"
+	cont "to freeze!"
 	done
 
 _TM34NoRoomText::
@@ -57,10 +58,10 @@ _ReceivedBoulderBadgeText::
 
 	para "As proof of your"
 	line "victory, here's"
-	cont "the BOULDERBADGE!"
+	cont "the GLACIERBADGE!"
 
 	para "<PLAYER> received"
-	line "the BOULDERBADGE!@"
+	line "the GLACIERBADGE!@"
 	text_end
 
 _BrockBoulerBadgeInfoText::
@@ -85,7 +86,7 @@ _PewterGymBattleText1::
 
 	para "You're still light"
 	line "years from facing"
-	cont "BROCK!"
+	cont "DIANA!"
 	done
 
 _PewterGymEndBattleText1::
@@ -97,9 +98,9 @@ _PewterGymEndBattleText1::
 	prompt
 
 _PewterGymAfterBattleText1::
-	text "You're pretty hot,"
-	line "but not as hot"
-	cont "as BROCK!"
+	text "You're pretty cool"
+	line "but not as cool"
+	cont "as DIANA!"
 	done
 
 _PewterGymGuidePreAdviceText::
