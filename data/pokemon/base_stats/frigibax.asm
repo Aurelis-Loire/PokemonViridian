@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     DRAGON_RAGE,  DIG,          \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SKULL_BASH,   REST,         \
-	     SUBSTITUTE
+	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     POWDER_SNOW,  DRAGON_RAGE,  \
+	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         SKULL_BASH,   \
+	     REST,         SUBSTITUTE
 	; end
 
 	db 0 ; padding
