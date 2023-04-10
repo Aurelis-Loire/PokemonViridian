@@ -1069,6 +1069,8 @@ PikachuEvosMoves:
 	db 6, TAIL_WHIP
 	db 8, THUNDER_WAVE
 	db 11, QUICK_ATTACK
+	db 15, DOUBLE_TEAM
+	db 20, SLAM
 	db 26, SWIFT
 	db 33, AGILITY
 	db 43, THUNDER
@@ -1484,8 +1486,8 @@ ButterfreeEvosMoves:
 	db 10, CONFUSION
 	db 13, POISONPOWDER
 	db 14, STUN_SPORE
-	db 17, SLEEP_POWDER
-	db 21, SUPERSONIC
+	db 15, SLEEP_POWDER
+	db 18, SUPERSONIC
 	db 26, WHIRLWIND
 	db 32, PSYBEAM
 	db 0
@@ -1974,7 +1976,7 @@ CharmanderEvosMoves:
 	db 0
 ; Learnset
 	db 9, EMBER
-	db 15, LEER
+	db 15, SMOKESCREEN
 	db 22, RAGE
 	db 30, SLASH
 	db 38, FLAMETHROWER
@@ -2000,7 +2002,7 @@ CharmeleonEvosMoves:
 	db 0
 ; Learnset
 	db 9, EMBER
-	db 15, LEER
+	db 15, SMOKESCREEN
 	db 24, RAGE
 	db 33, SLASH
 	db 42, FLAMETHROWER
@@ -2025,7 +2027,7 @@ CharizardEvosMoves:
 	db 0
 ; Learnset
 	db 9, EMBER
-	db 15, LEER
+	db 15, SMOKESCREEN
 	db 24, RAGE
 	db 36, SLASH
 	db 46, FLAMETHROWER
