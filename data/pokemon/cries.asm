@@ -29,7 +29,7 @@ CryData::
 	mon_cry SFX_CRY_1E, $EE, $FF ; Mew
 	mon_cry SFX_CRY_17, $00, $80 ; Gyarados
 	mon_cry SFX_CRY_18, $00, $80 ; Shellder
-	mon_cry SFX_CRY_1A, $00, $80 ; Tentacool
+	mon_cry SFX_CRY_25, $EA, $95 ; Quagsire
 	mon_cry SFX_CRY_1C, $00, $80 ; Gastly
 	mon_cry SFX_CRY_16, $00, $80 ; Scyther
 	mon_cry SFX_CRY_1E, $02, $20 ; Staryu

@@ -71,7 +71,7 @@ MonPartyData:
 	nybble ICON_GRASS     ; Bellsprout
 	nybble ICON_GRASS     ; Weepinbell
 	nybble ICON_GRASS     ; Victreebel
-	nybble ICON_WATER     ; Tentacool
+	nybble ICON_WATER     ; Quagsire
 	nybble ICON_WATER     ; Tentacruel
 	nybble ICON_MON       ; Geodude
 	nybble ICON_MON       ; Graveler

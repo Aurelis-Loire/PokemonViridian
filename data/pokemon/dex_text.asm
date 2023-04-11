@@ -226,14 +226,14 @@ _ShellderDexEntry::
 	next "shell is open"
 	dex
 
-_TentacoolDexEntry::
-	text "Drifts in shallow"
-	next "seas. Anglers who"
-	next "hook them by"
+_QuagsireDexEntry::
+	text "This carefree"
+	next "#MON has an"
+	next "easy-going nature."
 
-	page "accident are"
-	next "often punished by"
-	next "its stinging acid"
+	page "While swimming, it"
+	next "always bumps into"
+	next "boat hulls"
 	dex
 
 _GastlyDexEntry::

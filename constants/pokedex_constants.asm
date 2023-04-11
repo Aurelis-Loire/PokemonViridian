@@ -75,7 +75,7 @@
 	const DEX_BELLSPROUT ; 69
 	const DEX_WEEPINBELL ; 70
 	const DEX_VICTREEBEL ; 71
-	const DEX_TENTACOOL  ; 72
+	const DEX_QUAGSIRE   ; 72
 	const DEX_TENTACRUEL ; 73
 	const DEX_GEODUDE    ; 74
 	const DEX_GRAVELER   ; 75

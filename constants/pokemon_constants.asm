@@ -30,7 +30,7 @@
 	const MEW                ; $15
 	const GYARADOS           ; $16
 	const SHELLDER           ; $17
-	const TENTACOOL          ; $18
+	const QUAGSIRE           ; $18
 	const GASTLY             ; $19
 	const SCYTHER            ; $1A
 	const STARYU             ; $1B

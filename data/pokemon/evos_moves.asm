@@ -26,7 +26,7 @@ EvosMovesPointerTable:
 	dw MewEvosMoves
 	dw GyaradosEvosMoves
 	dw ShellderEvosMoves
-	dw TentacoolEvosMoves
+	dw QuagsireEvosMoves
 	dw GastlyEvosMoves
 	dw ScytherEvosMoves
 	dw StaryuEvosMoves
@@ -349,6 +349,7 @@ GengarEvosMoves:
 
 WooperEvosMoves:
 ; Evolutions
+    db EV_LEVEL, 20, QUAGSIRE
 	db 0
 ; Learnset
 	db 10, TAIL_WHIP
@@ -445,19 +446,15 @@ ShellderEvosMoves:
 	db 50, ICE_BEAM
 	db 0
 
-TentacoolEvosMoves:
+QuagsireEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 30, TENTACRUEL
 	db 0
 ; Learnset
-	db 7, SUPERSONIC
-	db 13, WRAP
-	db 18, POISON_STING
-	db 22, WATER_GUN
-	db 27, CONSTRICT
-	db 33, BARRIER
-	db 40, SCREECH
-	db 48, HYDRO_PUMP
+	db 10, TAIL_WHIP
+	db 17, SLAM
+	db 27, AMNESIA
+	db 36, EARTHQUAKE
+	db 47, MIST
 	db 0
 
 GastlyEvosMoves:

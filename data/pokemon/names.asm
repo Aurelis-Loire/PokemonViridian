@@ -23,7 +23,7 @@ MonsterNames::
 	db "MEW@@@@@@@"
 	db "GYARADOS@@"
 	db "SHELLDER@@"
-	db "TENTACOOL@"
+	db "QUAGSIRE@@"
 	db "GASTLY@@@@"
 	db "SCYTHER@@@"
 	db "STARYU@@@@"

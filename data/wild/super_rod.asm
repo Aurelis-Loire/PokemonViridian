@@ -41,7 +41,7 @@ SuperRodData:
 
 .Group1:
 	db 2
-	db 15, TENTACOOL
+	db 15, QUAGSIRE
 	db 15, POLIWAG
 
 .Group2:
@@ -74,7 +74,7 @@ SuperRodData:
 
 .Group7:
 	db 4
-	db 5, TENTACOOL
+	db 5, QUAGSIRE
 	db 15, KRABBY
 	db 15, GOLDEEN
 	db 15, MAGIKARP

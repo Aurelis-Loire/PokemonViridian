@@ -23,7 +23,7 @@ PokedexEntryPointers:
 	dw MewDexEntry
 	dw GyaradosDexEntry
 	dw ShellderDexEntry
-	dw TentacoolDexEntry
+	dw QuagsireDexEntry
 	dw GastlyDexEntry
 	dw ScytherDexEntry
 	dw StaryuDexEntry
@@ -358,11 +358,11 @@ ShellderDexEntry:
 	text_far _ShellderDexEntry
 	text_end
 
-TentacoolDexEntry:
-	db "JELLYFISH@"
-	db 2,11
-	dw 1000
-	text_far _TentacoolDexEntry
+QuagsireDexEntry:
+	db "WATER FISH@"
+	db 4,7
+	dw 1653
+	text_far _QuagsireDexEntry
 	text_end
 
 GastlyDexEntry:
