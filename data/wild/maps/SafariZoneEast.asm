@@ -22,7 +22,7 @@ IF DEF(_BLUE)
 	db 24, BULBASAUR
 	db 25, PARASECT
 	db 25, KANGASKHAN
-	db 28, PINSIR
+	db 28, CHARMELEON
 ENDC
 	end_grass_wildmons
 

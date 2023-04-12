@@ -31,7 +31,7 @@ EvosMovesPointerTable:
 	dw ScytherEvosMoves
 	dw StaryuEvosMoves
 	dw BlastoiseEvosMoves
-	dw PinsirEvosMoves
+	dw RaltsEvosMoves
 	dw TangelaEvosMoves
 	dw MissingNo1FEvosMoves
 	dw MissingNo20EvosMoves
@@ -504,16 +504,17 @@ BlastoiseEvosMoves:
 	db 52, HYDRO_PUMP
 	db 0
 
-PinsirEvosMoves:
+RaltsEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, SEISMIC_TOSS
-	db 30, GUILLOTINE
-	db 36, FOCUS_ENERGY
-	db 43, HARDEN
-	db 49, SLASH
-	db 54, SWORDS_DANCE
+	db 8, CONFUSION
+	db 15, DOUBLE_TEAM
+	db 17, TELEPORT
+	db 19, PSYBEAM
+	db 24, GROWTH
+	db 33, PSYCHIC_M
+	db 46, HYPNOSIS
 	db 0
 
 TangelaEvosMoves:

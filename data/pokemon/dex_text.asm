@@ -276,14 +276,14 @@ _BlastoiseDexEntry::
 	next "speed tackles"
 	dex
 
-_PinsirDexEntry::
-	text "If it fails to"
-	next "crush the victim"
-	next "in its pincers,"
+_RaltsDexEntry::
+	text "Ralts senses the"
+	next "emotions of people"
+	next "using the horns on"
 
-	page "it will swing it"
-	next "around and toss"
-	next "it hard"
+	page "its head. This"
+	next "#MON rarely"
+	next "appears to people"
 	dex
 
 _TangelaDexEntry::

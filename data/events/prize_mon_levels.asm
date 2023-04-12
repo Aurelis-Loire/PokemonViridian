@@ -13,7 +13,7 @@ IF DEF(_BLUE)
 	db CLEFAIRY, 12
 	db NIDORINO, 17
 
-	db PINSIR,   20
+	db IVYSAUR,  20
 	db DRATINI,  24
 	db PORYGON,  18
 ENDC

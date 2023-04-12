@@ -28,7 +28,7 @@ MonsterNames::
 	db "SCYTHER@@@"
 	db "STARYU@@@@"
 	db "BLASTOISE@"
-	db "PINSIR@@@@"
+	db "RALTS@@@@@"
 	db "TANGELA@@@"
 	db "MISSINGNO."
 	db "MISSINGNO."

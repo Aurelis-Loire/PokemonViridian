@@ -130,7 +130,7 @@
 	const DEX_JYNX       ; 124
 	const DEX_ELECTABUZZ ; 125
 	const DEX_MAGMAR     ; 126
-	const DEX_PINSIR     ; 127
+	const DEX_RALTS      ; 127
 	const DEX_TAUROS     ; 128
 	const DEX_MAGIKARP   ; 129
 	const DEX_GYARADOS   ; 130

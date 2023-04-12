@@ -28,7 +28,7 @@ PokedexOrder:
 	db DEX_SCYTHER
 	db DEX_STARYU
 	db DEX_BLASTOISE
-	db DEX_PINSIR
+	db DEX_RALTS
 	db DEX_TANGELA
 	db 0 ; MISSINGNO.
 	db 0 ; MISSINGNO.

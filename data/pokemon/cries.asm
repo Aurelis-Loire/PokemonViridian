@@ -34,7 +34,7 @@ CryData::
 	mon_cry SFX_CRY_16, $00, $80 ; Scyther
 	mon_cry SFX_CRY_1E, $02, $20 ; Staryu
 	mon_cry SFX_CRY_13, $00, $80 ; Blastoise
-	mon_cry SFX_CRY_14, $00, $80 ; Pinsir
+	mon_cry SFX_CRY_10, $F6, $2E ; Ralts
 	mon_cry SFX_CRY_12, $00, $80 ; Tangela
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.

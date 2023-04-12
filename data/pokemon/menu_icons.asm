@@ -126,7 +126,7 @@ MonPartyData:
 	nybble ICON_MON       ; Jynx
 	nybble ICON_MON       ; Electabuzz
 	nybble ICON_MON       ; Magmar
-	nybble ICON_BUG       ; Pinsir
+	nybble ICON_FAIRY     ; Ralts
 	nybble ICON_QUADRUPED ; Tauros
 	nybble ICON_WATER     ; Magikarp
 	nybble ICON_SNAKE     ; Gyarados

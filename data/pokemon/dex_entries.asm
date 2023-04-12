@@ -28,7 +28,7 @@ PokedexEntryPointers:
 	dw ScytherDexEntry
 	dw StaryuDexEntry
 	dw BlastoiseDexEntry
-	dw PinsirDexEntry
+	dw RaltsDexEntry
 	dw TangelaDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
@@ -393,11 +393,11 @@ BlastoiseDexEntry:
 	text_far _BlastoiseDexEntry
 	text_end
 
-PinsirDexEntry:
-	db "STAGBEETLE@"
-	db 4,11
-	dw 1210
-	text_far _PinsirDexEntry
+RaltsDexEntry:
+	db "FEELING@"
+	db 1,4
+	dw 146
+	text_far _RaltsDexEntry
 	text_end
 
 TangelaDexEntry:

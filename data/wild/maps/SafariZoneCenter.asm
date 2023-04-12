@@ -20,7 +20,7 @@ IF DEF(_BLUE)
 	db 25, EXEGGCUTE
 	db 31, NIDORINO
 	db 30, PARASECT
-	db 23, PINSIR
+	db 23, CHARMELEON
 ENDC
 	db 23, CHANSEY
 	end_grass_wildmons

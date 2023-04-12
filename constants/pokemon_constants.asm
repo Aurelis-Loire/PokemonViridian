@@ -35,7 +35,7 @@
 	const SCYTHER            ; $1A
 	const STARYU             ; $1B
 	const BLASTOISE          ; $1C
-	const PINSIR             ; $1D
+	const RALTS              ; $1D
 	const TANGELA            ; $1E
 	const_skip               ; $1F
 	const_skip               ; $20
