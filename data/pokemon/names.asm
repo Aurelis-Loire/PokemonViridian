@@ -29,7 +29,7 @@ MonsterNames::
 	db "STARYU@@@@"
 	db "BLASTOISE@"
 	db "RALTS@@@@@"
-	db "TANGELA@@@"
+	db "KIRLIA@@@@"
 	db "MISSINGNO."
 	db "MISSINGNO."
 	db "GROWLITHE@"

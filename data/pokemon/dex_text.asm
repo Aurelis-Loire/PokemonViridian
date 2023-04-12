@@ -286,14 +286,14 @@ _RaltsDexEntry::
 	next "appears to people"
 	dex
 
-_TangelaDexEntry::
-	text "The whole body is"
-	next "swathed with wide"
-	next "vines that are"
+_KirliaDexEntry::
+	text "It is said that a"
+	next "Kirlia that is"
+	next "exposed to the"
 
-	page "similar to sea-"
-	next "weed. Its vines"
-	next "shake as it walks"
+	page "positive emotions"
+	next "of its Trainer"
+	next "grows beautiful"
 	dex
 
 _GrowlitheDexEntry::

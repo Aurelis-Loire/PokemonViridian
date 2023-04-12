@@ -117,7 +117,7 @@
 	const DEX_RHYHORN    ; 111
 	const DEX_RHYDON     ; 112
 	const DEX_CHANSEY    ; 113
-	const DEX_TANGELA    ; 114
+	const DEX_KIRLIA     ; 114
 	const DEX_KANGASKHAN ; 115
 	const DEX_HORSEA     ; 116
 	const DEX_SEADRA     ; 117

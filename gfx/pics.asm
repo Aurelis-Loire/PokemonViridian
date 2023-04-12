@@ -56,8 +56,8 @@ BlastoisePicFront::   INCBIN "gfx/pokemon/front/blastoise.pic"
 BlastoisePicBack::    INCBIN "gfx/pokemon/back/blastoiseb.pic"
 RaltsPicFront::       INCBIN "gfx/pokemon/front/ralts.pic"
 RaltsPicBack::        INCBIN "gfx/pokemon/back/raltsb.pic"
-TangelaPicFront::     INCBIN "gfx/pokemon/front/tangela.pic"
-TangelaPicBack::      INCBIN "gfx/pokemon/back/tangelab.pic"
+KirliaPicFront::      INCBIN "gfx/pokemon/front/kirlia.pic"
+KirliaPicBack::       INCBIN "gfx/pokemon/back/kirliab.pic"
 
 
 SECTION "Pics 2", ROMX

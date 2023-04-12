@@ -32,7 +32,7 @@ EvosMovesPointerTable:
 	dw StaryuEvosMoves
 	dw BlastoiseEvosMoves
 	dw RaltsEvosMoves
-	dw TangelaEvosMoves
+	dw KirliaEvosMoves
 	dw MissingNo1FEvosMoves
 	dw MissingNo20EvosMoves
 	dw GrowlitheEvosMoves
@@ -506,6 +506,7 @@ BlastoiseEvosMoves:
 
 RaltsEvosMoves:
 ; Evolutions
+    db EV_LEVEL, 20, KIRLIA
 	db 0
 ; Learnset
 	db 8, CONFUSION
@@ -517,16 +518,17 @@ RaltsEvosMoves:
 	db 46, HYPNOSIS
 	db 0
 
-TangelaEvosMoves:
+KirliaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 29, ABSORB
-	db 32, POISONPOWDER
-	db 36, STUN_SPORE
-	db 39, SLEEP_POWDER
-	db 45, SLAM
-	db 49, GROWTH
+	db 8, CONFUSION
+	db 15, DOUBLE_TEAM
+	db 17, TELEPORT
+	db 19, PSYBEAM
+	db 28, GROWTH
+	db 38, PSYCHIC_M
+	db 52, HYPNOSIS
 	db 0
 
 MissingNo1FEvosMoves:

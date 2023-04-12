@@ -7,7 +7,7 @@ CreditsMons:
 	db ABRA
 	db GRAVELER
 	db HITMONLEE
-	db TANGELA
+	db JOLTEON
 	db STARMIE
 	db GYARADOS
 	db DITTO

@@ -29,7 +29,7 @@ PokedexEntryPointers:
 	dw StaryuDexEntry
 	dw BlastoiseDexEntry
 	dw RaltsDexEntry
-	dw TangelaDexEntry
+	dw KirliaDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw GrowlitheDexEntry
@@ -400,11 +400,11 @@ RaltsDexEntry:
 	text_far _RaltsDexEntry
 	text_end
 
-TangelaDexEntry:
-	db "VINE@"
-	db 3,3
-	dw 770
-	text_far _TangelaDexEntry
+KirliaDexEntry:
+	db "EMOTION@"
+	db 2,7
+	dw 445
+	text_far _KirliaDexEntry
 	text_end
 
 GrowlitheDexEntry:

@@ -7,9 +7,9 @@ Route21WildMons:
 	db 21, PIDGEY
 	db 30, PIDGEOTTO
 	db 32, PIDGEOTTO
-	db 28, TANGELA
-	db 30, TANGELA
-	db 32, TANGELA
+	db 28, CHARIZARD
+	db 30, CHARIZARD
+	db 32, CHARIZARD
 	end_grass_wildmons
 
 	def_water_wildmons 5 ; encounter rate
