@@ -60,8 +60,8 @@ TrainerDataPointers:
 
 YoungsterData:
 ; Route 3
-	db 11, RATTATA, EKANS, 0
-	db 14, SCATTERBUG, 0
+	db 11, SKWOVET, EKANS, 0
+	db 14, BEEDRILL, 0
 ; Mt. Moon 1F
 	db 10, RATTATA, RATTATA, ZUBAT, 0
 ; Route 24
@@ -86,9 +86,9 @@ BugCatcherData:
 	db 7, SCATTERBUG, KAKUNA, METAPOD, 0
 	db 9, SPEWPA, 0
 ; Route 3
-	db 10, CATERPIE, WEEDLE, CATERPIE, 0
-	db 9, WEEDLE, KAKUNA, CATERPIE, METAPOD, 0
-	db 11, CATERPIE, METAPOD, 0
+	db 10, BUTTERFREE, BEEDRILL, SPEWPA, 0
+	db 9, SPEWPA, SPEWPA, SPEWPA, KAKUNA, 0
+	db 11, BEEDRILL, BUTTERFREE, 0
 ; Mt. Moon 1F
 	db 11, WEEDLE, KAKUNA, 0
 	db 10, CATERPIE, METAPOD, CATERPIE, 0
@@ -106,8 +106,8 @@ BugCatcherData:
 LassData:
 ; Route 3
 	db 9, PIDGEY, PIDGEY, 0
-	db 10, RATTATA, SKWOVET, 0
-	db 14, JIGGLYPUFF, 0
+	db 10, SKWOVET, PIKACHU, 0
+	db 14, PIKACHU, 0
 ; Route 4
 	db 31, PARAS, PARAS, PARASECT, 0
 ; Mt. Moon 1F
