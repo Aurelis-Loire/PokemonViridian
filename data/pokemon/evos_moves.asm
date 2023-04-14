@@ -606,9 +606,11 @@ SlowpokeEvosMoves:
 KadabraEvosMoves:
 ; Evolutions
 	db EV_TRADE, 1, ALAKAZAM
+	db EV_LEVEL, 35, ALAKAZAM
 	db 0
 ; Learnset
 	db 16, CONFUSION
+	db 17, KINESIS
 	db 20, DISABLE
 	db 27, PSYBEAM
 	db 31, RECOVER
@@ -1640,6 +1642,12 @@ ClefableEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+    db 13, SING
+	db 18, DOUBLESLAP
+	db 24, MINIMIZE
+	db 31, METRONOME
+	db 39, DEFENSE_CURL
+	db 48, LIGHT_SCREEN
 	db 0
 
 WeezingEvosMoves:
@@ -1702,6 +1710,7 @@ AlakazamEvosMoves:
 	db 0
 ; Learnset
 	db 16, CONFUSION
+	db 17, KINESIS
 	db 20, DISABLE
 	db 27, PSYBEAM
 	db 31, RECOVER
