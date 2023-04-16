@@ -63,7 +63,7 @@ YoungsterData:
 	db 11, SKWOVET, EKANS, 0
 	db 14, BEEDRILL, 0
 ; Mt. Moon 1F
-	db 10, RATTATA, RATTATA, ZUBAT, 0
+	db 10, ONIX, BUTTERFREE, ZUBAT, 0
 ; Route 24
 	db 14, RATTATA, EKANS, ZUBAT, 0
 ; Route 25
@@ -90,8 +90,8 @@ BugCatcherData:
 	db 9, SPEWPA, SPEWPA, SPEWPA, KAKUNA, 0
 	db 11, BEEDRILL, BUTTERFREE, 0
 ; Mt. Moon 1F
-	db 11, WEEDLE, KAKUNA, 0
-	db 10, CATERPIE, METAPOD, CATERPIE, 0
+	db 11, SPEWPA, SPEWPA, 0
+	db 10, SPEWPA, BEEDRILL, SPEWPA, 0
 ; Route 24
 	db 14, CATERPIE, WEEDLE, 0
 ; Route 6
@@ -218,7 +218,7 @@ SuperNerdData:
 ; Mt. Moon 1F
 	db 11, MAGNEMITE, VOLTORB, 0
 ; Mt. Moon B2F
-	db 12, VIVILLON, VOLTORB, KOFFING, 0
+	db 12, ZUBAT, PIKACHU, BEEDRILL, 0
 ; Route 8
 	db 20, VOLTORB, KOFFING, VOLTORB, MAGNEMITE, 0
 	db 22, VIVILLON, MUK, VIVILLON, 0
@@ -235,7 +235,7 @@ SuperNerdData:
 
 HikerData:
 ; Mt. Moon 1F
-	db 10, GEODUDE, GEODUDE, ONIX, 0
+	db 10, ONIX, ONIX, ONIX, 0
 ; Route 25
 	db 15, MACHOP, GEODUDE, 0
 	db 13, GEODUDE, GEODUDE, MACHOP, GEODUDE, 0
@@ -543,10 +543,10 @@ GiovanniData:
 
 RocketData:
 ; Mt. Moon B2F
-	db 13, RATTATA, ZUBAT, 0
-	db 11, SANDSHREW, RATTATA, ZUBAT, 0
-	db 12, ZUBAT, EKANS, 0
-	db 16, RATICATE, 0
+	db 13, EKANS, VENONAT, 0
+	db 11, ZUBAT, ZUBAT, ZUBAT, 0
+	db 12, CUBONE, MANKEY, 0
+	db 16, MANKEY, 0
 ; Cerulean City
 	db 17, MACHOP, DROWZEE, 0
 ; Route 24
