@@ -25,7 +25,7 @@ MonPartyData:
 	nybble ICON_SNAKE     ; Ekans
 	nybble ICON_SNAKE     ; Arbok
 	nybble ICON_WATER     ; Wooper
-	nybble ICON_MON       ; Rattata
+	nybble ICON_GRASS     ; Bounsweet
 	nybble ICON_BUG       ; Scatterbug
 	nybble ICON_BUG       ; Spewpa
 	nybble ICON_BUG       ; Vivillon

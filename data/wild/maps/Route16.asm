@@ -2,12 +2,12 @@ Route16WildMons:
 	def_grass_wildmons 25 ; encounter rate
 	db 20, SCATTERBUG
 	db 22, SCATTERBUG
-	db 18, RATTATA
+	db 18, SQUIRTLE
 	db 20, DODUO
-	db 20, RATTATA
+	db 20, SQUIRTLE
 	db 18, DODUO
 	db 22, DODUO
-	db 22, RATTATA
+	db 22, SQUIRTLE
 	db 23, RATICATE
 	db 25, RATICATE
 	end_grass_wildmons

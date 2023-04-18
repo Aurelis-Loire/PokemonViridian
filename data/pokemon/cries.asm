@@ -35,8 +35,8 @@ CryData::
 	mon_cry SFX_CRY_1E, $02, $20 ; Staryu
 	mon_cry SFX_CRY_13, $00, $80 ; Blastoise
 	mon_cry SFX_CRY_10, $F6, $2E ; Ralts
-	mon_cry SFX_CRY_05, $AB, $9E ; Kirlia
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_10, $AB, $9E ; Kirlia
+	mon_cry SFX_CRY_05, $8C, $3F ; Bounsweet
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_1F, $20, $40 ; Growlithe
 	mon_cry SFX_CRY_17, $FF, $C0 ; Onix
@@ -170,7 +170,7 @@ CryData::
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_25, $00, $80 ; Ponyta
 	mon_cry SFX_CRY_25, $20, $C0 ; Rapidash
-	mon_cry SFX_CRY_22, $00, $80 ; Rattata
+	mon_cry SFX_CRY_22, $00, $80 ; MissingNo.
 	mon_cry SFX_CRY_22, $20, $FF ; Raticate
 	mon_cry SFX_CRY_00, $2C, $C0 ; Nidorino
 	mon_cry SFX_CRY_01, $2C, $E0 ; Nidorina

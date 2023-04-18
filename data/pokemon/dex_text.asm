@@ -296,6 +296,16 @@ _KirliaDexEntry::
 	next "grows beautiful"
 	dex
 
+_BounsweetDexEntry::
+	text "A delectable aroma"
+	next "pours from its"
+	next "body. They are"
+
+	page "often swallowed"
+	next "whole by Pidgeot"
+	next "lured by it"
+	dex	
+
 _GrowlitheDexEntry::
 	text "Very protective"
 	next "of its territory."
@@ -1314,16 +1324,6 @@ _RapidashDexEntry::
 	page "that moves fast"
 	next "in the hopes of"
 	next "racing it"
-	dex
-
-_RattataDexEntry::
-	text "Bites anything"
-	next "when it attacks."
-	next "Small and very"
-
-	page "quick, it is a"
-	next "common sight in"
-	next "many places"
 	dex
 
 _RaticateDexEntry::

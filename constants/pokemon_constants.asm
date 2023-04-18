@@ -37,7 +37,7 @@
 	const BLASTOISE          ; $1C
 	const RALTS              ; $1D
 	const KIRLIA             ; $1E
-	const_skip               ; $1F
+	const BOUNSWEET          ; $1F
 	const_skip               ; $20
 	const GROWLITHE          ; $21
 	const ONIX               ; $22
@@ -171,7 +171,7 @@
 	const_skip               ; $A2
 	const PONYTA             ; $A3
 	const RAPIDASH           ; $A4
-	const RATTATA            ; $A5
+	const_skip               ; $A5
 	const RATICATE           ; $A6
 	const NIDORINO           ; $A7
 	const NIDORINA           ; $A8

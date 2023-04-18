@@ -29,7 +29,7 @@
 	const DEX_EKANS      ; 23
 	const DEX_ARBOK      ; 24
 	const DEX_WOOPER     ; 25
-	const DEX_RATTATA    ; 26
+	const DEX_BOUNSWEET  ; 26
 	const DEX_SCATTERBUG ; 27
 	const DEX_SPEWPA     ; 28
 	const DEX_VIVILLON   ; 29

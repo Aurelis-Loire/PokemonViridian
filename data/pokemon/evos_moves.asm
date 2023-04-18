@@ -33,7 +33,7 @@ EvosMovesPointerTable:
 	dw BlastoiseEvosMoves
 	dw RaltsEvosMoves
 	dw KirliaEvosMoves
-	dw MissingNo1FEvosMoves
+	dw BounsweetEvosMoves
 	dw MissingNo20EvosMoves
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
@@ -167,7 +167,7 @@ EvosMovesPointerTable:
 	dw MissingNoA2EvosMoves
 	dw PonytaEvosMoves
 	dw RapidashEvosMoves
-	dw RattataEvosMoves
+	dw MissingNoA5EvosMoves
 	dw RaticateEvosMoves
 	dw NidorinoEvosMoves
 	dw NidorinaEvosMoves
@@ -531,10 +531,13 @@ KirliaEvosMoves:
 	db 52, HYPNOSIS
 	db 0
 
-MissingNo1FEvosMoves:
+BounsweetEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 8, TACKLE
+	db 12, RAZOR_LEAF
+	db 38, PETAL_DANCE
 	db 0
 
 MissingNo20EvosMoves:
@@ -1870,15 +1873,10 @@ RapidashEvosMoves:
 	db 55, AGILITY
 	db 0
 
-RattataEvosMoves:
+MissingNoA5EvosMoves:
 ; Evolutions
-	db EV_LEVEL, 20, RATICATE
 	db 0
 ; Learnset
-	db 7, QUICK_ATTACK
-	db 14, HYPER_FANG
-	db 23, FOCUS_ENERGY
-	db 34, SUPER_FANG
 	db 0
 
 RaticateEvosMoves:
