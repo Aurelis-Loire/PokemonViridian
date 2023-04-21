@@ -31,7 +31,7 @@ PokedexEntryPointers:
 	dw RaltsDexEntry
 	dw KirliaDexEntry
 	dw BounsweetDexEntry
-	dw MissingNoDexEntry
+	dw DucklettDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
 	dw FearowDexEntry
@@ -165,7 +165,7 @@ PokedexEntryPointers:
 	dw PonytaDexEntry
 	dw RapidashDexEntry
 	dw MissingNoDexEntry
-	dw RaticateDexEntry
+	dw MissingNoDexEntry
 	dw NidorinoDexEntry
 	dw NidorinaDexEntry
 	dw GeodudeDexEntry
@@ -414,6 +414,13 @@ BounsweetDexEntry:
 	text_far _BounsweetDexEntry
 	text_end	
 
+DucklettDexEntry:
+	db "WATER BIRD@"
+	db 1,8
+	dw 121
+	text_far _DucklettDexEntry
+	text_end
+	
 GrowlitheDexEntry:
 	db "PUPPY@"
 	db 2,4
@@ -1126,13 +1133,6 @@ RapidashDexEntry:
 	db 5,7
 	dw 2090
 	text_far _RapidashDexEntry
-	text_end
-
-RaticateDexEntry:
-	db "RAT@"
-	db 2,4
-	dw 410
-	text_far _RaticateDexEntry
 	text_end
 
 NidorinoDexEntry:

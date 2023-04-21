@@ -306,6 +306,16 @@ _BounsweetDexEntry::
 	next "lured by it"
 	dex	
 
+_DucklettDexEntry::
+	text "These bird #MON"
+	next "are excellent"
+	next "divers. They swim"
+
+	page "around in the"
+	next "water eating their"
+	next "favorite food"
+	dex
+	
 _GrowlitheDexEntry::
 	text "Very protective"
 	next "of its territory."
@@ -1324,16 +1334,6 @@ _RapidashDexEntry::
 	page "that moves fast"
 	next "in the hopes of"
 	next "racing it"
-	dex
-
-_RaticateDexEntry::
-	text "It uses its whis-"
-	next "kers to maintain"
-	next "its balance."
-
-	page "It apparently"
-	next "slows down if"
-	next "they are cut off"
 	dex
 
 _NidorinoDexEntry::

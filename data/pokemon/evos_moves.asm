@@ -34,7 +34,7 @@ EvosMovesPointerTable:
 	dw RaltsEvosMoves
 	dw KirliaEvosMoves
 	dw BounsweetEvosMoves
-	dw MissingNo20EvosMoves
+	dw DucklettEvosMoves
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
 	dw FearowEvosMoves
@@ -168,7 +168,7 @@ EvosMovesPointerTable:
 	dw PonytaEvosMoves
 	dw RapidashEvosMoves
 	dw MissingNoA5EvosMoves
-	dw RaticateEvosMoves
+	dw MissingNoA6EvosMoves
 	dw NidorinoEvosMoves
 	dw NidorinaEvosMoves
 	dw GeodudeEvosMoves
@@ -540,10 +540,15 @@ BounsweetEvosMoves:
 	db 38, PETAL_DANCE
 	db 0
 
-MissingNo20EvosMoves:
+DucklettEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 9, WING_ATTACK
+	db 15, BUBBLEBEAM
+	db 22, GUST
+	db 29, WATERFALL
+	db 36, GROWL
 	db 0
 
 GrowlitheEvosMoves:
@@ -1879,14 +1884,10 @@ MissingNoA5EvosMoves:
 ; Learnset
 	db 0
 
-RaticateEvosMoves:
+MissingNoA6EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, QUICK_ATTACK
-	db 14, HYPER_FANG
-	db 27, FOCUS_ENERGY
-	db 41, SUPER_FANG
 	db 0
 
 NidorinoEvosMoves:

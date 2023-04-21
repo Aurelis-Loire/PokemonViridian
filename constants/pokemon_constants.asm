@@ -38,7 +38,7 @@
 	const RALTS              ; $1D
 	const KIRLIA             ; $1E
 	const BOUNSWEET          ; $1F
-	const_skip               ; $20
+	const DUCKLETT           ; $20
 	const GROWLITHE          ; $21
 	const ONIX               ; $22
 	const FEAROW             ; $23
@@ -172,7 +172,7 @@
 	const PONYTA             ; $A3
 	const RAPIDASH           ; $A4
 	const_skip               ; $A5
-	const RATICATE           ; $A6
+	const_skip               ; $A6
 	const NIDORINO           ; $A7
 	const NIDORINA           ; $A8
 	const GEODUDE            ; $A9

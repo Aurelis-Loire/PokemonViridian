@@ -2,12 +2,12 @@ Route17WildMons:
 	def_grass_wildmons 25 ; encounter rate
 	db 20, SCATTERBUG
 	db 22, SCATTERBUG
-	db 25, RATICATE
+	db 25, WARTORTLE
 	db 24, DODUO
-	db 27, RATICATE
+	db 27, WARTORTLE
 	db 26, DODUO
 	db 28, DODUO
-	db 29, RATICATE
+	db 29, WARTORTLE
 	db 25, FEAROW
 	db 27, FEAROW
 	end_grass_wildmons

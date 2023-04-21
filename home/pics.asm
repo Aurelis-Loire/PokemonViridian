@@ -26,19 +26,23 @@ UncompressMonSprite::
 	ld a, BANK(FossilKabutopsPic)
 	jr z, .GotBank
 	ld a, b
+	cp FOSSIL_AERODACTYL
+	ld a, BANK(FossilAerodactylPic)
+	jr z, .GotBank
+	ld a, b
 	cp KIRLIA + 1
 	ld a, BANK("Pics 1")
 	jr c, .GotBank
 	ld a, b
-	cp JYNX + 1
+	cp POLIWAG + 1
 	ld a, BANK("Pics 2")
 	jr c, .GotBank
 	ld a, b
-	cp KAKUNA + 1
+	cp WEEDLE + 1
 	ld a, BANK("Pics 3")
 	jr c, .GotBank
 	ld a, b
-	cp PIDGEOT + 1
+	cp PIDGEOTTO + 1
 	ld a, BANK("Pics 4")
 	jr c, .GotBank
 	ld a, BANK("Pics 5")

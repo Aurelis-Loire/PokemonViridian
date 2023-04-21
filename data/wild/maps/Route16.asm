@@ -8,8 +8,8 @@ Route16WildMons:
 	db 18, DODUO
 	db 22, DODUO
 	db 22, SQUIRTLE
-	db 23, RATICATE
-	db 25, RATICATE
+	db 23, WARTORTLE
+	db 25, WARTORTLE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

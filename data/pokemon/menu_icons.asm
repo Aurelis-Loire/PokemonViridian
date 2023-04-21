@@ -33,7 +33,7 @@ MonPartyData:
     nybble ICON_MON       ; Frigibax
 	nybble ICON_MON       ; NidoranM
 	nybble ICON_MON       ; Nidorino
-	nybble ICON_MON       ; Nidoking
+	nybble ICON_BIRD      ; Ducklett
 	nybble ICON_FAIRY     ; Clefairy
 	nybble ICON_FAIRY     ; Clefable
 	nybble ICON_QUADRUPED ; Vulpix
