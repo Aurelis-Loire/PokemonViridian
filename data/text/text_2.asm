@@ -521,8 +521,8 @@ _ViridianSchoolNotebookText2::
 	cont "catch, so weaken"
 	cont "it first!"
 
-	para "Poison, burns and"
-	line "other damage are"
+	para "Sleep, paralysis"
+	line "and damage is"
 	cont "effective!"
 	prompt
 
