@@ -4,12 +4,12 @@ Route18WildMons:
 	db 22, SCATTERBUG
 	db 25, WARTORTLE
 	db 24, DODUO
-	db 25, FEAROW
+	db 25, BLASTOISE
 	db 26, DODUO
 	db 28, DODUO
 	db 29, WARTORTLE
-	db 27, FEAROW
-	db 29, FEAROW
+	db 27, BLASTOISE
+	db 29, BLASTOISE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

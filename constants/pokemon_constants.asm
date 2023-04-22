@@ -41,7 +41,7 @@
 	const DUCKLETT           ; $20
 	const GROWLITHE          ; $21
 	const ONIX               ; $22
-	const FEAROW             ; $23
+	const MAREEP             ; $23
 	const PIDGEY             ; $24
 	const SLOWPOKE           ; $25
 	const KADABRA            ; $26

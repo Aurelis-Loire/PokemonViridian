@@ -37,7 +37,7 @@ EvosMovesPointerTable:
 	dw DucklettEvosMoves
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
-	dw FearowEvosMoves
+	dw MareepEvosMoves
 	dw PidgeyEvosMoves
 	dw SlowpokeEvosMoves
 	dw KadabraEvosMoves
@@ -574,15 +574,16 @@ OnixEvosMoves:
 	db 43, HARDEN
 	db 0
 
-FearowEvosMoves:
+MareepEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 9, LEER
-	db 15, FURY_ATTACK
-	db 25, MIRROR_MOVE
-	db 34, DRILL_PECK
-	db 43, AGILITY
+	db 8, THUNDERSHOCK
+	db 12, THUNDER_WAVE
+	db 17, TAKE_DOWN
+	db 23, CONFUSE_RAY
+	db 30, LIGHT_SCREEN
+	db 38, THUNDER
 	db 0
 
 PidgeyEvosMoves:

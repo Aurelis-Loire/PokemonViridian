@@ -3,7 +3,7 @@ CreditsMons:
 	db VENUSAUR
 	db ARBOK
 	db RHYHORN
-	db FEAROW
+	db TENTACRUEL
 	db ABRA
 	db GRAVELER
 	db HITMONLEE

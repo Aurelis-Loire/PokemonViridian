@@ -34,7 +34,7 @@ PokedexEntryPointers:
 	dw DucklettDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
-	dw FearowDexEntry
+	dw MareepDexEntry
 	dw PidgeyDexEntry
 	dw SlowpokeDexEntry
 	dw KadabraDexEntry
@@ -435,11 +435,11 @@ OnixDexEntry:
 	text_far _OnixDexEntry
 	text_end
 
-FearowDexEntry:
-	db "BEAK@"
-	db 3,11
-	dw 840
-	text_far _FearowDexEntry
+MareepDexEntry:
+	db "WOOL@"
+	db 2,0
+	dw 172
+	text_far _MareepDexEntry
 	text_end
 
 PidgeyDexEntry:

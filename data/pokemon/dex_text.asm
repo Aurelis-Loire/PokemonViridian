@@ -336,14 +336,14 @@ _OnixDexEntry::
 	next "colored black"
 	dex
 
-_FearowDexEntry::
-	text "With its huge and"
-	next "magnificent wings,"
-	next "it can keep aloft"
+_MareepDexEntry::
+	text "If static"
+	next "electricity builds"
+	next "in its body, its"
 
-	page "without ever"
-	next "having to land"
-	next "for rest"
+	page "fleece doubles in"
+	next "volume. Touching"
+	next "it will shock you"
 	dex
 
 _PidgeyDexEntry::

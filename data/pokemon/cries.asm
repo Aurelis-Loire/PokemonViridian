@@ -40,7 +40,7 @@ CryData::
 	mon_cry SFX_CRY_1F, $D0, $01 ; Ducklett
 	mon_cry SFX_CRY_1F, $20, $40 ; Growlithe
 	mon_cry SFX_CRY_17, $FF, $C0 ; Onix
-	mon_cry SFX_CRY_18, $40, $A0 ; Fearow
+	mon_cry SFX_CRY_03, $AF, $95 ; Mareep
 	mon_cry SFX_CRY_0E, $DF, $04 ; Pidgey
 	mon_cry SFX_CRY_02, $00, $80 ; Slowpoke
 	mon_cry SFX_CRY_1C, $A8, $C0 ; Kadabra

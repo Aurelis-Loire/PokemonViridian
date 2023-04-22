@@ -31,7 +31,7 @@ MonPartyData:
 	nybble ICON_BUG       ; Vivillon
 	nybble ICON_QUADRUPED ; Skwovet
     nybble ICON_MON       ; Frigibax
-	nybble ICON_MON       ; NidoranM
+	nybble ICON_QUADRUPED ; Mareep
 	nybble ICON_MON       ; Nidorino
 	nybble ICON_BIRD      ; Ducklett
 	nybble ICON_FAIRY     ; Clefairy
