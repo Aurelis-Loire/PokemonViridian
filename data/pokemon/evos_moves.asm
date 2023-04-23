@@ -41,7 +41,7 @@ EvosMovesPointerTable:
 	dw PidgeyEvosMoves
 	dw SlowpokeEvosMoves
 	dw KadabraEvosMoves
-	dw GravelerEvosMoves
+	dw FlaaffyEvosMoves
 	dw ChanseyEvosMoves
 	dw MachokeEvosMoves
 	dw MrMimeEvosMoves
@@ -576,6 +576,7 @@ OnixEvosMoves:
 
 MareepEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 15, FLAAFFY
 	db 0
 ; Learnset
 	db 8, THUNDERSHOCK
@@ -627,17 +628,16 @@ KadabraEvosMoves:
 	db 42, REFLECT
 	db 0
 
-GravelerEvosMoves:
+FlaaffyEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, GOLEM
 	db 0
 ; Learnset
-	db 11, DEFENSE_CURL
-	db 16, ROCK_THROW
-	db 21, SELFDESTRUCT
-	db 29, HARDEN
-	db 36, EARTHQUAKE
-	db 43, EXPLOSION
+	db 8, THUNDERSHOCK
+	db 12, THUNDER_WAVE
+	db 19, TAKE_DOWN
+	db 27, CONFUSE_RAY
+	db 36, LIGHT_SCREEN
+	db 46, THUNDER
 	db 0
 
 ChanseyEvosMoves:
@@ -1917,7 +1917,6 @@ NidorinaEvosMoves:
 
 GeodudeEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 25, GRAVELER
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL

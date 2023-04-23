@@ -245,16 +245,16 @@ HikerData:
 	db 20, GEODUDE, MACHOP, GEODUDE, 0
 ; Route 10
 	db 21, GEODUDE, ONIX, 0
-	db 19, ONIX, GRAVELER, 0
+	db 19, ONIX, FLAAFFY, 0
 ; Rock Tunnel B1F
-	db 21, GEODUDE, GEODUDE, GRAVELER, 0
+	db 21, GEODUDE, GEODUDE, FLAAFFY, 0
 	db 25, GEODUDE, 0
 ; Route 9/Rock Tunnel B1F
 	db 20, MACHOP, ONIX, 0
 ; Rock Tunnel 1F
 	db 19, GEODUDE, MACHOP, GEODUDE, GEODUDE, 0
 	db 20, ONIX, ONIX, GEODUDE, 0
-	db 21, GEODUDE, GRAVELER, 0
+	db 21, GEODUDE, FLAAFFY, 0
 
 BikerData:
 ; Route 13
@@ -375,7 +375,7 @@ GamblerData:
 ; Route 8
 	db 22, POLIWAG, POLIWAG, POLIWHIRL, 0
 ; Unused
-	db 22, ONIX, GEODUDE, GRAVELER, 0
+	db 22, ONIX, GEODUDE, FLAAFFY, 0
 ; Route 8
 	db 24, GROWLITHE, VULPIX, 0
 

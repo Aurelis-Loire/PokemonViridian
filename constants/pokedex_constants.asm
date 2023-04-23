@@ -78,7 +78,7 @@
 	const DEX_QUAGSIRE   ; 72
 	const DEX_TENTACRUEL ; 73
 	const DEX_GEODUDE    ; 74
-	const DEX_GRAVELER   ; 75
+	const DEX_FLAAFFY    ; 75
 	const DEX_GOLEM      ; 76
 	const DEX_PONYTA     ; 77
 	const DEX_RAPIDASH   ; 78

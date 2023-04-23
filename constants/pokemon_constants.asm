@@ -45,7 +45,7 @@
 	const PIDGEY             ; $24
 	const SLOWPOKE           ; $25
 	const KADABRA            ; $26
-	const GRAVELER           ; $27
+	const FLAAFFY            ; $27
 	const CHANSEY            ; $28
 	const MACHOKE            ; $29
 	const MR_MIME            ; $2A

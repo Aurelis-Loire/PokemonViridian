@@ -3,9 +3,9 @@ CreditsMons:
 	db VENUSAUR
 	db ARBOK
 	db RHYHORN
-	db TENTACRUEL
+	db TENTACRUEL ; Was Fearow
 	db ABRA
-	db GRAVELER
+	db DITTO ; Was Graveler
 	db HITMONLEE
 	db JOLTEON
 	db STARMIE
@@ -13,5 +13,5 @@ CreditsMons:
 	db DITTO
 	db OMASTAR
 	db VILEPLUME
-	db PONYTA
+	db PONYTA ; Was Nidoking
 	db PARASECT

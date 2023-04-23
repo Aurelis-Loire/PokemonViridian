@@ -6,7 +6,7 @@ VictoryRoad1FWildMons:
 	db 36, ONIX
 	db 39, ONIX
 	db 42, ONIX
-	db 41, GRAVELER
+	db 41, BUTTERFREE
 	db 41, GOLBAT
 	db 42, MACHOKE
 	db 43, MAROWAK

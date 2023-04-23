@@ -6,7 +6,7 @@ VictoryRoad3FWildMons:
 	db 42, ONIX
 	db 40, VENOMOTH
 	db 45, ONIX
-	db 43, GRAVELER
+	db 43, BUTTERFREE
 	db 41, GOLBAT
 	db 42, MACHOKE
 	db 45, MACHOKE

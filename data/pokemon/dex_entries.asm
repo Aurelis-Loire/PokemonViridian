@@ -38,7 +38,7 @@ PokedexEntryPointers:
 	dw PidgeyDexEntry
 	dw SlowpokeDexEntry
 	dw KadabraDexEntry
-	dw GravelerDexEntry
+	dw FlaaffyDexEntry
 	dw ChanseyDexEntry
 	dw MachokeDexEntry
 	dw MrMimeDexEntry
@@ -463,11 +463,11 @@ KadabraDexEntry:
 	text_far _KadabraDexEntry
 	text_end
 
-GravelerDexEntry:
-	db "ROCK@"
-	db 3,3
-	dw 2320
-	text_far _GravelerDexEntry
+FlaaffyDexEntry:
+	db "WOOL@"
+	db 2,7
+	dw 293
+	text_far _FlaaffyDexEntry
 	text_end
 
 ChanseyDexEntry:

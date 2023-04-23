@@ -38,7 +38,7 @@ MonsterNames::
 	db "PIDGEY@@@@"
 	db "SLOWPOKE@@"
 	db "KADABRA@@@"
-	db "GRAVELER@@"
+	db "FLAAFFY@@@"
 	db "CHANSEY@@@"
 	db "MACHOKE@@@"
 	db "MR.MIME@@@"

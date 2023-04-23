@@ -74,7 +74,7 @@ MonPartyData:
 	nybble ICON_WATER     ; Quagsire
 	nybble ICON_WATER     ; Tentacruel
 	nybble ICON_MON       ; Geodude
-	nybble ICON_MON       ; Graveler
+	nybble ICON_MON       ; Flaaffy
 	nybble ICON_MON       ; Golem
 	nybble ICON_QUADRUPED ; Ponyta
 	nybble ICON_QUADRUPED ; Rapidash

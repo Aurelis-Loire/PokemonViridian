@@ -376,14 +376,14 @@ _KadabraDexEntry::
 	next "close by"
 	dex
 
-_GravelerDexEntry::
-	text "Rolls down slopes"
-	next "to move. It rolls"
-	next "over any obstacle"
+_FlaaffyDexEntry::
+	text "As a result of"
+	next "storing too much"
+	next "electricity, it"
 
-	page "without slowing"
-	next "or changing its"
-	next "direction"
+	page "developed patches"
+	next "where even downy"
+	next "wool won't grow"
 	dex
 
 _ChanseyDexEntry::

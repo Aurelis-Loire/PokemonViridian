@@ -44,7 +44,7 @@ CryData::
 	mon_cry SFX_CRY_0E, $DF, $04 ; Pidgey
 	mon_cry SFX_CRY_02, $00, $80 ; Slowpoke
 	mon_cry SFX_CRY_1C, $A8, $C0 ; Kadabra
-	mon_cry SFX_CRY_24, $00, $80 ; Graveler
+	mon_cry SFX_CRY_03, $A9, $48 ; Flaaffy
 	mon_cry SFX_CRY_14, $0A, $C0 ; Chansey
 	mon_cry SFX_CRY_1F, $48, $60 ; Machoke
 	mon_cry SFX_CRY_20, $08, $40 ; Mr.Mime
