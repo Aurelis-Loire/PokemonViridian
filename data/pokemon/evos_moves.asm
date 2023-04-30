@@ -536,8 +536,8 @@ BounsweetEvosMoves:
 	db 0
 ; Learnset
 	db 8, TACKLE
+	db 11, SWEET_SCENT
 	db 12, RAZOR_LEAF
-	db 17, SWEET_SCENT
 	db 38, PETAL_DANCE
 	db 0
 
@@ -1030,7 +1030,6 @@ KrabbyEvosMoves:
 	db EV_LEVEL, 28, KINGLER
 	db 0
 ; Learnset
-	db 25, GUILLOTINE
 	db 30, STOMP
 	db 35, CRABHAMMER
 	db 40, HARDEN
@@ -1618,7 +1617,6 @@ KinglerEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, GUILLOTINE
 	db 34, STOMP
 	db 42, CRABHAMMER
 	db 49, HARDEN
