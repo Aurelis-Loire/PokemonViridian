@@ -11,7 +11,7 @@ AttackAnimationPointers:
 	dw ThunderPunchAnim
 	dw ScratchAnim
 	dw PowderSnowAnim
-	dw GuillotineAnim
+	dw SweetScentAnim
 	dw RazorWindAnim
 	dw SwordsDanceAnim
 	dw CutAnim
@@ -285,8 +285,8 @@ PowderSnowAnim:
 	battle_anim POWDER_SNOW, SUBANIM_0_ICE_RISE, 0, 16
 	db -1 ; end
 
-GuillotineAnim:
-	battle_anim GUILLOTINE, SUBANIM_0_SLICE_BOTH_SIDES, 0, 6
+SweetScentAnim:
+	battle_anim SWEET_SCENT, SE_PETALS_FALLING
 	db -1 ; end
 
 RazorWindAnim:

@@ -537,6 +537,7 @@ BounsweetEvosMoves:
 ; Learnset
 	db 8, TACKLE
 	db 12, RAZOR_LEAF
+	db 17, SWEET_SCENT
 	db 38, PETAL_DANCE
 	db 0
 

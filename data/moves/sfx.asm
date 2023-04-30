@@ -12,7 +12,7 @@ MoveSoundTable:
 	db SFX_BATTLE_0D,          $00, $a0 ; THUNDERPUNCH
 	db SFX_DAMAGE,             $00, $80 ; SCRATCH
 	db SFX_PECK,               $69, $c7 ; POWDER_SNOW
-	db SFX_BATTLE_0F,          $00, $80 ; GUILLOTINE
+	db SFX_FAINT_FALL,         $c4, $8c ; SWEET_SCENT
 	db SFX_BATTLE_0E,          $00, $a0 ; RAZOR_WIND
 	db SFX_NOT_VERY_EFFECTIVE, $10, $c0 ; SWORDS_DANCE
 	db SFX_NOT_VERY_EFFECTIVE, $00, $a0 ; CUT
