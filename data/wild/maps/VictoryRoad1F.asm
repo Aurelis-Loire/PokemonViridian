@@ -8,7 +8,7 @@ VictoryRoad1FWildMons:
 	db 42, ONIX
 	db 41, BUTTERFREE
 	db 41, GOLBAT
-	db 42, MACHOKE
+	db 42, BEEDRILL
 	db 43, MAROWAK
 	end_grass_wildmons
 

@@ -70,7 +70,7 @@
 	const DEX_KADABRA    ; 64
 	const DEX_ALAKAZAM   ; 65
 	const DEX_MACHOP     ; 66
-	const DEX_MACHOKE    ; 67
+	const DEX_STEENEE    ; 67
 	const DEX_MACHAMP    ; 68
 	const DEX_BELLSPROUT ; 69
 	const DEX_WEEPINBELL ; 70

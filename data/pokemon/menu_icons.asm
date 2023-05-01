@@ -66,7 +66,7 @@ MonPartyData:
 	nybble ICON_MON       ; Kadabra
 	nybble ICON_MON       ; Alakazam
 	nybble ICON_MON       ; Machop
-	nybble ICON_MON       ; Machoke
+	nybble ICON_GRASS     ; Steenee
 	nybble ICON_MON       ; Machamp
 	nybble ICON_GRASS     ; Bellsprout
 	nybble ICON_GRASS     ; Weepinbell

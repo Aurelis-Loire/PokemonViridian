@@ -396,14 +396,14 @@ _ChanseyDexEntry::
 	next "it"
 	dex
 
-_MachokeDexEntry::
-	text "Its muscular body"
-	next "is so powerful, it"
-	next "must wear a power"
+_SteeneeDexEntry::
+	text "The sepals on its"
+	next "head developed to"
+	next "protect its body."
 
-	page "save belt to be"
-	next "able to regulate"
-	next "its motions"
+	page "These are quite"
+	next "hard, even if"
+	next "pecked by #MON"
 	dex
 
 _MrMimeDexEntry::

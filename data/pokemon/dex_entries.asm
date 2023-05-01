@@ -40,7 +40,7 @@ PokedexEntryPointers:
 	dw KadabraDexEntry
 	dw FlaaffyDexEntry
 	dw ChanseyDexEntry
-	dw MachokeDexEntry
+	dw SteeneeDexEntry
 	dw MrMimeDexEntry
 	dw HitmonleeDexEntry
 	dw HitmonchanDexEntry
@@ -477,11 +477,11 @@ ChanseyDexEntry:
 	text_far _ChanseyDexEntry
 	text_end
 
-MachokeDexEntry:
-	db "SUPERPOWER@"
-	db 4,11
-	dw 1550
-	text_far _MachokeDexEntry
+SteeneeDexEntry:
+	db "FRUIT@"
+	db 2,4
+	dw 181
+	text_far _SteeneeDexEntry
 	text_end
 
 MrMimeDexEntry:

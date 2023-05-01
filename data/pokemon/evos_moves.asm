@@ -43,7 +43,7 @@ EvosMovesPointerTable:
 	dw KadabraEvosMoves
 	dw FlaaffyEvosMoves
 	dw ChanseyEvosMoves
-	dw MachokeEvosMoves
+	dw SteeneeEvosMoves
 	dw MrMimeEvosMoves
 	dw HitmonleeEvosMoves
 	dw HitmonchanEvosMoves
@@ -533,11 +533,12 @@ KirliaEvosMoves:
 
 BounsweetEvosMoves:
 ; Evolutions
+    db EV_LEVEL, 18, STEENEE
 	db 0
 ; Learnset
 	db 8, TACKLE
-	db 11, SWEET_SCENT
 	db 12, RAZOR_LEAF
+	db 17, SWEET_SCENT
 	db 38, PETAL_DANCE
 	db 0
 
@@ -653,16 +654,13 @@ ChanseyEvosMoves:
 	db 54, DOUBLE_EDGE
 	db 0
 
-MachokeEvosMoves:
+SteeneeEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, MACHAMP
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 36, FOCUS_ENERGY
-	db 44, SEISMIC_TOSS
-	db 52, SUBMISSION
+	db 27, DOUBLESLAP
+	db 29, STOMP
+	db 46, PETAL_DANCE
 	db 0
 
 MrMimeEvosMoves:
@@ -1306,7 +1304,6 @@ VaporeonEvosMoves:
 
 MachopEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 28, MACHOKE
 	db 0
 ; Learnset
 	db 20, LOW_KICK

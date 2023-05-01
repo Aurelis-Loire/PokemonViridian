@@ -40,7 +40,7 @@ MonsterNames::
 	db "KADABRA@@@"
 	db "FLAAFFY@@@"
 	db "CHANSEY@@@"
-	db "MACHOKE@@@"
+	db "STEENEE@@@"
 	db "MR.MIME@@@"
 	db "HITMONLEE@"
 	db "HITMONCHAN"

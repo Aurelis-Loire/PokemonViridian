@@ -47,7 +47,7 @@
 	const KADABRA            ; $26
 	const FLAAFFY            ; $27
 	const CHANSEY            ; $28
-	const MACHOKE            ; $29
+	const STEENEE            ; $29
 	const MR_MIME            ; $2A
 	const HITMONLEE          ; $2B
 	const HITMONCHAN         ; $2C
