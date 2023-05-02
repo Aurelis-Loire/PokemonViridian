@@ -687,7 +687,7 @@ _ViridianBlackboardPrlzText::
 
 _ViridianBlackboardBurnText::
 	text "A burn reduces"
-	line "power and speed."
+	line "ATTACK by half."
 	cont "It also causes"
 	cont "ongoing damage."
 
