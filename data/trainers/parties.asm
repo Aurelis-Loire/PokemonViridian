@@ -63,13 +63,13 @@ YoungsterData:
 	db 11, SKWOVET, EKANS, 0
 	db 14, BEEDRILL, 0
 ; Mt. Moon 1F
-	db 10, ONIX, BUTTERFREE, ZUBAT, 0
+	db 10, SKWOVET, SKWOVET, ZUBAT, 0
 ; Route 24
-	db 14, DODUO, BEEDRILL, DODUO, 0
+	db 14, SKWOVET, EKANS, ZUBAT, 0
 ; Route 25
-	db 15, BOUNSWEET, SCATTERBUG, 0
+	db 15, SKWOVET, ZUBAT, 0
 	db 17, SLOWPOKE, 0
-	db 14, EKANS, SANDSHREW, 0
+	db 14, EKANS, BEEDRILL, 0
 ; SS Anne 1F Rooms
 	db 21, SKWOVET, 0
 ; Route 11
@@ -117,8 +117,8 @@ LassData:
 	db 16, PIDGEY, BUTTERFREE, 0
 	db 14, PIDGEY, BEEDRILL, 0
 ; Route 25
-	db 15, SKWOVET, WOOPER, 0
-	db 13, ODDISH, PIDGEY, ODDISH, 0
+	db 15, ABRA, BEEDRILL, 0
+	db 13, BOUNSWEET, PIDGEY, BUTTERFREE, 0
 ; SS Anne 1F Rooms
 	db 18, PIDGEY, WOOPER, 0
 ; SS Anne 2F Rooms
@@ -149,9 +149,9 @@ JrTrainerMData:
 ; Pewter Gym
 	db 11, VULPIX, SHELLDER, 0
 ; Route 24/Route 25
-	db 14, ZUBAT, SQUIRTLE, 0
+	db 14, SKWOVET, EKANS, 0
 ; Route 24
-	db 18, EKANS, 0
+	db 18, MANKEY, 0
 ; Route 6
 	db 20, SQUIRTLE, 0
 	db 16, SCATTERBUG, DUCKLETT, 0
@@ -218,7 +218,7 @@ SuperNerdData:
 ; Mt. Moon 1F
 	db 11, MAGNEMITE, VOLTORB, 0
 ; Mt. Moon B2F
-	db 12, ZUBAT, PIKACHU, BEEDRILL, 0
+	db 12, ZUBAT, VOLTORB, PIKACHU, 0
 ; Route 8
 	db 20, VOLTORB, KOFFING, VOLTORB, MAGNEMITE, 0
 	db 22, VIVILLON, MUK, VIVILLON, 0
@@ -237,8 +237,8 @@ HikerData:
 ; Mt. Moon 1F
 	db 10, ONIX, ONIX, ONIX, 0
 ; Route 25
-	db 15, MACHOP, GEODUDE, 0
-	db 13, GEODUDE, GEODUDE, MACHOP, GEODUDE, 0
+	db 15, RHYHORN, ONIX, 0
+	db 13, ONIX, ONIX, CLEFAIRY, RHYHORN, 0
 	db 17, ONIX, 0
 ; Route 9
 	db 21, GEODUDE, ONIX, 0
@@ -543,14 +543,14 @@ GiovanniData:
 
 RocketData:
 ; Mt. Moon B2F
-	db 13, EKANS, VENONAT, 0
+	db 13, MANKEY, ZUBAT, 0
 	db 11, ZUBAT, ZUBAT, ZUBAT, 0
-	db 12, CUBONE, MANKEY, 0
-	db 16, MANKEY, 0
+	db 12, ZUBAT, EKANS, 0
+	db 16, CUBONE, 0
 ; Cerulean City
 	db 17, MACHOP, DROWZEE, 0
 ; Route 24
-	db 15, MANKEY, EKANS, 0
+	db 15, EKANS, ZUBAT, 0
 ; Game Corner
 	db 20, DUCKLETT, ZUBAT, 0
 ; Rocket Hideout B1F
