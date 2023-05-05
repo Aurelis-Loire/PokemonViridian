@@ -78,8 +78,13 @@ _BillsHouseText_1e8cb::
 	cont "fancy do's. Why"
 	cont "don't you go"
 	cont "instead of me?"
+	
+	para "You'll have to"
+	line "come back and let"
+	cont "me know how the"
+	cont "party went!"
 	done
-
+	
 _BillsHouseText_1e8da::
 	text "BILL: Look, bud,"
 	line "just check out"
