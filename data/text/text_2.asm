@@ -677,6 +677,9 @@ _ViridianBlackboardPrlzText::
 	text "Paralysis could"
 	line "make #MON"
 	cont "moves misfire!"
+	
+	para "It cuts SPEED"
+	line "by 75 percent."
 
 	para "Paralysis remains"
 	line "after battles."
