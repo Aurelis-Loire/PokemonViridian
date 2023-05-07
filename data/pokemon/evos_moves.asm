@@ -669,6 +669,7 @@ WailmerEvosMoves:
 ; Learnset
 	db 7, GROWL
 	db 13, WATER_GUN
+	db 18, ASTONISH
 	db 22, MIST
 	db 27, BODY_SLAM
 	db 33, REST
@@ -680,7 +681,6 @@ HitmonleeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 33, ROLLING_KICK
 	db 38, JUMP_KICK
 	db 43, FOCUS_ENERGY
 	db 48, HI_JUMP_KICK
@@ -1058,7 +1058,6 @@ VulpixEvosMoves:
 	db EV_ITEM, FIRE_STONE, 1, NINETALES
 	db 0
 ; Learnset
-	db 9, GROWL
 	db 16, QUICK_ATTACK
 	db 21, ROAR
 	db 28, CONFUSE_RAY

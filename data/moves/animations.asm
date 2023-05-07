@@ -26,7 +26,7 @@ AttackAnimationPointers:
 	dw DoubleKickAnim
 	dw MegaKickAnim
 	dw JumpKickAnim
-	dw RollingKickAnim
+	dw AstonishAnim
 	dw SandAttackAnim
 	dw HeadButtAnim
 	dw HornAttackAnim
@@ -354,9 +354,11 @@ JumpKickAnim:
 	battle_anim JUMP_KICK, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
-RollingKickAnim:
-	battle_anim ROLLING_KICK, SE_DARK_SCREEN_FLASH
-	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+AstonishAnim:
+	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION
+	battle_anim DIZZY_PUNCH, SUBANIM_0_BIRDIES_CIRCLING_ENEMY, 0, 6
 	db -1 ; end
 
 SandAttackAnim:

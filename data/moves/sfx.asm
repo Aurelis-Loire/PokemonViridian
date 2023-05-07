@@ -27,7 +27,7 @@ MoveSoundTable:
 	db SFX_BATTLE_17,          $f0, $40 ; DOUBLE_KICK
 	db SFX_SUPER_EFFECTIVE,    $00, $80 ; MEGA_KICK
 	db SFX_BATTLE_17,          $00, $80 ; JUMP_KICK
-	db SFX_BATTLE_21,          $10, $80 ; ROLLING_KICK
+	db SFX_BATTLE_09,          $79, $c2 ; ASTONISH
 	db SFX_BATTLE_1B,          $01, $a0 ; SAND_ATTACK
 	db SFX_BATTLE_18,          $00, $80 ; HEADBUTT
 	db SFX_BATTLE_1E,          $00, $60 ; HORN_ATTACK
