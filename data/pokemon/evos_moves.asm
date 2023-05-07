@@ -44,7 +44,7 @@ EvosMovesPointerTable:
 	dw FlaaffyEvosMoves
 	dw ChanseyEvosMoves
 	dw SteeneeEvosMoves
-	dw MrMimeEvosMoves
+	dw WailmerEvosMoves
 	dw HitmonleeEvosMoves
 	dw HitmonchanEvosMoves
 	dw ArbokEvosMoves
@@ -663,15 +663,17 @@ SteeneeEvosMoves:
 	db 46, PETAL_DANCE
 	db 0
 
-MrMimeEvosMoves:
+WailmerEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, CONFUSION
-	db 23, LIGHT_SCREEN
-	db 31, DOUBLESLAP
-	db 39, MEDITATE
-	db 47, SUBSTITUTE
+	db 7, GROWL
+	db 13, WATER_GUN
+	db 22, MIST
+	db 27, BODY_SLAM
+	db 33, REST
+	db 40, AMNESIA
+	db 48, HYDRO_PUMP
 	db 0
 
 HitmonleeEvosMoves:

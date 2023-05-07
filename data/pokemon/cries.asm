@@ -47,7 +47,7 @@ CryData::
 	mon_cry SFX_CRY_03, $A9, $48 ; Flaaffy
 	mon_cry SFX_CRY_14, $0A, $C0 ; Chansey
 	mon_cry SFX_CRY_05, $07, $CD ; Steenee
-	mon_cry SFX_CRY_20, $08, $40 ; Mr.Mime
+	mon_cry SFX_CRY_14, $8E, $B4 ; Wailmer
 	mon_cry SFX_CRY_12, $80, $C0 ; Hitmonlee
 	mon_cry SFX_CRY_0C, $EE, $C0 ; Hitmonchan
 	mon_cry SFX_CRY_17, $E0, $10 ; Arbok

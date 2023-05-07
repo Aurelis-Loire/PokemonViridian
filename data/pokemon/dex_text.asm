@@ -406,14 +406,14 @@ _SteeneeDexEntry::
 	next "pecked by #MON"
 	dex
 
-_MrMimeDexEntry::
-	text "If interrupted"
-	next "while it is"
-	next "miming, it will"
+_WailmerDexEntry::
+	text "This playful"
+	next "#MON loves to"
+	next "startle people by"
 
-	page "slap around the"
-	next "offender with its"
-	next "broad hands"
+	page "forecfully"
+	next "snorting out"
+	next "seawater"
 	dex
 
 _HitmonleeDexEntry::

@@ -7,7 +7,7 @@ TradeMons:
 	; Japanese Red and Green used TRADE_DIALOGSET_CASUAL, and had
 	; the same species as English Red and Blue.
 	db NIDORINO,   NIDORINA,  TRADE_DIALOGSET_CASUAL,    "TERRY@@@@@@"
-	db ABRA,       MR_MIME,   TRADE_DIALOGSET_CASUAL,    "MARCEL@@@@@"
+	db ABRA,       WAILMER,   TRADE_DIALOGSET_CASUAL,    "MARCEL@@@@@"
 	db BUTTERFREE, BEEDRILL,  TRADE_DIALOGSET_HAPPY,     "CHIKUCHIKU@" ; unused
 	db PONYTA,     SEEL,      TRADE_DIALOGSET_CASUAL,    "SAILOR@@@@@"
 	db SCATTERBUG, FARFETCHD, TRADE_DIALOGSET_HAPPY,     "DUX@@@@@@@@"

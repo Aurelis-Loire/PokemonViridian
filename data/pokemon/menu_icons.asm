@@ -121,7 +121,7 @@ MonPartyData:
 	nybble ICON_WATER     ; Seaking
 	nybble ICON_HELIX     ; Staryu
 	nybble ICON_HELIX     ; Starmie
-	nybble ICON_MON       ; Mr.Mime
+	nybble ICON_WATER     ; Wailmer
 	nybble ICON_BUG       ; Scyther
 	nybble ICON_MON       ; Jynx
 	nybble ICON_MON       ; Electabuzz

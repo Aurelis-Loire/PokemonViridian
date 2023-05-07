@@ -405,8 +405,8 @@ BeautyData:
 
 PsychicData:
 ; Saffron Gym
-	db 31, KADABRA, SLOWPOKE, MR_MIME, KADABRA, 0
-	db 34, MR_MIME, KADABRA, 0
+	db 31, KADABRA, SLOWPOKE, WAILMER, KADABRA, 0
+	db 34, WAILMER, KADABRA, 0
 	db 33, SLOWPOKE, SLOWPOKE, SLOWBRO, 0
 	db 38, SLOWBRO, 0
 
@@ -418,14 +418,14 @@ RockerData:
 
 JugglerData:
 ; Silph Co. 5F
-	db 29, KADABRA, MR_MIME, 0
+	db 29, KADABRA, WAILMER, 0
 ; Victory Road 2F
 	db 41, DROWZEE, HYPNO, KADABRA, KADABRA, 0
 ; Fuchsia Gym
 	db 31, DROWZEE, DROWZEE, KADABRA, DROWZEE, 0
 	db 34, DROWZEE, HYPNO, 0
 ; Victory Road 2F
-	db 48, MR_MIME, 0
+	db 48, WAILMER, 0
 ; Unused
 	db 33, HYPNO, 0
 ; Fuchsia Gym
@@ -659,7 +659,7 @@ BlaineData:
 	db $FF, 42, GROWLITHE, 40, PONYTA, 42, RAPIDASH, 47, ARCANINE, 0
 
 SabrinaData:
-	db $FF, 38, KADABRA, 37, MR_MIME, 38, VENOMOTH, 43, ALAKAZAM, 0
+	db $FF, 38, KADABRA, 37, WAILMER, 38, VENOMOTH, 43, ALAKAZAM, 0
 
 GentlemanData:
 ; SS Anne 1F Rooms

@@ -41,7 +41,7 @@ MonsterNames::
 	db "FLAAFFY@@@"
 	db "CHANSEY@@@"
 	db "STEENEE@@@"
-	db "MR.MIME@@@"
+	db "WAILMER@@@"
 	db "HITMONLEE@"
 	db "HITMONCHAN"
 	db "ARBOK@@@@@"

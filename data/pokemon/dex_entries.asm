@@ -41,7 +41,7 @@ PokedexEntryPointers:
 	dw FlaaffyDexEntry
 	dw ChanseyDexEntry
 	dw SteeneeDexEntry
-	dw MrMimeDexEntry
+	dw WailmerDexEntry
 	dw HitmonleeDexEntry
 	dw HitmonchanDexEntry
 	dw ArbokDexEntry
@@ -484,11 +484,11 @@ SteeneeDexEntry:
 	text_far _SteeneeDexEntry
 	text_end
 
-MrMimeDexEntry:
-	db "BARRIER@"
-	db 4,3
-	dw 1200
-	text_far _MrMimeDexEntry
+WailmerDexEntry:
+	db "BALL WHALE@"
+	db 6,7
+	dw 2866
+	text_far _WailmerDexEntry
 	text_end
 
 HitmonleeDexEntry:
