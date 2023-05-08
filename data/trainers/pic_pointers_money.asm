@@ -41,7 +41,7 @@ TrainerPicAndMoneyPointers::
 	pic_money CooltrainerFPic, 3500
 	pic_money BrunoPic,        9900
 	pic_money DianaPic,        9900
-	pic_money MistyPic,        9900
+	pic_money MattPic,         9900
 	pic_money LtSurgePic,      9900
 	pic_money ErikaPic,        9900
 	pic_money KogaPic,         9900

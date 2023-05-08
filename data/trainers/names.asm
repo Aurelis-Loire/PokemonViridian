@@ -34,7 +34,7 @@ TrainerNames::
 	li "COOLTRAINER♀"
 	li "BRUNO"
 	li "DIANA"
-	li "MISTY"
+	li "MATT"
 	li "LT.SURGE"
 	li "ERIKA"
 	li "KOGA"

@@ -18,7 +18,13 @@ SpecialTrainerMoves:
 	db 0
 
 	db MISTY, 1
-	db 2, 4, BUBBLEBEAM
+	db 1, 1, GROWL
+	db 1, 2, WATER_GUN
+	db 1, 3, ASTONISH
+	db 1, 4, NO_MOVE
+	db 2, 1, TACKLE
+	db 2, 2, BITE
+	db 2, 3, BUBBLEBEAM
 	db 0
 
 	db LT_SURGE, 1

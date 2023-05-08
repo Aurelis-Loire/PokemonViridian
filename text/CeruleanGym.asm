@@ -70,7 +70,7 @@ _CeruleanGymBattleText1::
 	text "I'm more than good"
 	line "enough for you!"
 
-	para "MISTY can wait!"
+	para "MATT can wait!"
 	done
 
 _CeruleanGymEndBattleText1::
@@ -98,10 +98,10 @@ _CeruleanGymEndBattleText2::
 	prompt
 
 _CeruleanGymAfterBattleText2::
-	text "MISTY is going to"
+	text "MATT is going to"
 	line "keep improving!"
 
-	para "She won't lose to"
+	para "He won't lose to"
 	line "someone like you!"
 	done
 
@@ -111,7 +111,7 @@ _CeruleanGymGuidePreBattleText::
 
 	para "Here's my advice!"
 
-	para "The LEADER, MISTY,"
+	para "The LEADER, MATT,"
 	line "is a pro who uses"
 	cont "water #MON!"
 
@@ -124,7 +124,7 @@ _CeruleanGymGuidePreBattleText::
 	done
 
 _CeruleanGymGuidePostBattleText::
-	text "You beat MISTY!"
+	text "You beat MATT!"
 	line "What'd I tell ya?"
 
 	para "You and me kid,"
