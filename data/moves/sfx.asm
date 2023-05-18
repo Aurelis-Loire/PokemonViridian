@@ -96,7 +96,7 @@ MoveSoundTable:
 	db SFX_BATTLE_14,          $00, $20 ; CONFUSION
 	db SFX_PSYCHIC_M,          $00, $80 ; PSYCHIC_M
 	db SFX_BATTLE_35,          $11, $18 ; HYPNOSIS
-	db SFX_BATTLE_09,          $20, $c0 ; MEDITATE
+	db SFX_POUND,              $a3, $e3 ; BULLET_SEED
 	db SFX_FAINT_FALL,         $20, $c0 ; AGILITY
 	db SFX_BATTLE_25,          $00, $10 ; QUICK_ATTACK
 	db SFX_BATTLE_26,          $f0, $20 ; RAGE

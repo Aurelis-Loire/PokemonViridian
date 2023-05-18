@@ -12,7 +12,6 @@ ExclamationPointMoveSets:
 	db 0 ; end set
 
 ; set 2
-	db MEDITATE
 	db AGILITY
 	db TELEPORT
 	db MIMIC
@@ -23,7 +22,6 @@ ExclamationPointMoveSets:
 ; set 3
 	db POUND
 	db SCRATCH
-	db POWDER_SNOW
 	db WING_ATTACK
 	db FLY
 	db BIND

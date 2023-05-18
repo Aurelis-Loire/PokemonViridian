@@ -95,7 +95,7 @@ AttackAnimationPointers:
 	dw ConfusionAnim
 	dw PsychicAnim
 	dw HypnosisAnim
-	dw MeditateAnim
+	dw BulletSeedAnim
 	dw AgilityAnim
 	dw QuickAttackAnim
 	dw RageAnim
@@ -744,9 +744,9 @@ HypnosisAnim:
 	battle_anim HYPNOSIS, SE_FLASH_SCREEN_LONG
 	db -1 ; end
 
-MeditateAnim:
-	battle_anim MEDITATE, SE_LIGHT_SCREEN_PALETTE
-	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_CLOSING, 1, 6
+BulletSeedAnim:
+	battle_anim BULLET_SEED, SE_LIGHT_SCREEN_PALETTE
+	battle_anim NO_MOVE, SUBANIM_1_SEED_TOSS, 1, 6
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end

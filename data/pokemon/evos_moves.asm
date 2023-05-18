@@ -682,6 +682,7 @@ GreedentEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 24, BULLET_SEED
 	db 41, COUNTER
 	db 0
 
@@ -740,7 +741,6 @@ DrowzeeEvosMoves:
 	db 24, HEADBUTT
 	db 29, POISON_GAS
 	db 32, PSYCHIC_M
-	db 37, MEDITATE
 	db 0
 
 GolemEvosMoves:
@@ -1535,7 +1535,6 @@ HypnoEvosMoves:
 	db 24, HEADBUTT
 	db 33, POISON_GAS
 	db 37, PSYCHIC_M
-	db 43, MEDITATE
 	db 0
 
 GolbatEvosMoves:

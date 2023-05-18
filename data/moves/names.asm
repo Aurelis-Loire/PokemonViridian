@@ -95,7 +95,7 @@ MoveNames::
 	li "CONFUSION"
 	li "PSYCHIC"
 	li "HYPNOSIS"
-	li "MEDITATE"
+	li "BULLET SEED"
 	li "AGILITY"
 	li "QUICK ATTACK"
 	li "RAGE"
