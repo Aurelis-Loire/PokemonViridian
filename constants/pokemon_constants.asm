@@ -49,7 +49,7 @@
 	const CHANSEY            ; $28
 	const STEENEE            ; $29
 	const WAILMER            ; $2A
-	const HITMONLEE          ; $2B
+	const GREEDENT           ; $2B
 	const HITMONCHAN         ; $2C
 	const ARBOK              ; $2D
 	const PARASECT           ; $2E

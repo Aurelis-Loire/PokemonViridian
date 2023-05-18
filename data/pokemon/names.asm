@@ -42,7 +42,7 @@ MonsterNames::
 	db "CHANSEY@@@"
 	db "STEENEE@@@"
 	db "WAILMER@@@"
-	db "HITMONLEE@"
+	db "GREEDENT@@"
 	db "HITMONCHAN"
 	db "ARBOK@@@@@"
 	db "PARASECT@@"

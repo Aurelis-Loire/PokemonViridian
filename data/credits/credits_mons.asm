@@ -6,7 +6,7 @@ CreditsMons:
 	db TENTACRUEL ; Was Fearow
 	db ABRA
 	db DITTO ; Was Graveler
-	db HITMONLEE
+	db PERSIAN
 	db JOLTEON
 	db STARMIE
 	db GYARADOS

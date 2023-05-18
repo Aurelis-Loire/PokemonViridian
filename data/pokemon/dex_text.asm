@@ -416,14 +416,13 @@ _WailmerDexEntry::
 	next "seawater"
 	dex
 
-_HitmonleeDexEntry::
-	text "When in a hurry,"
-	next "its legs lengthen"
-	next "progressively."
+_GreedentDexEntry::
+	text "It stashes berries"
+	next "in its tail--so"
+	next "many berries that"
 
-	page "It runs smoothly"
-	next "with extra long,"
-	next "loping strides"
+	page "they fall out"
+	next "constantly"
 	dex
 
 _HitmonchanDexEntry::

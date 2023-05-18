@@ -472,7 +472,7 @@ BirdKeeperData:
 
 BlackbeltData:
 ; Fighting Dojo
-	db 37, HITMONLEE, HITMONCHAN, 0
+	db 37, GREEDENT, HITMONCHAN, 0
 	db 31, MANKEY, MANKEY, PRIMEAPE, 0
 	db 32, MACHOP, STEENEE, 0
 	db 36, PRIMEAPE, 0
@@ -548,7 +548,7 @@ RocketData:
 	db 12, ZUBAT, EKANS, 0
 	db 16, CUBONE, 0
 ; Cerulean City
-	db 17, MACHOP, DROWZEE, 0
+	db 17, CUBONE, ZUBAT, 0
 ; Route 24
 	db 15, EKANS, ZUBAT, 0
 ; Game Corner
@@ -638,7 +638,7 @@ CooltrainerFData:
 	db 43, PERSIAN, NINETALES, RAICHU, 0
 
 BrunoData:
-	db $FF, 53, ONIX, 55, HITMONCHAN, 55, HITMONLEE, 56, ONIX, 58, MACHAMP, 0
+	db $FF, 53, ONIX, 55, HITMONCHAN, 55, GREEDENT, 56, ONIX, 58, MACHAMP, 0
 
 BrockData:
 	db $FF, 12, VULPIX, 14, FRIGIBAX, 0

@@ -105,7 +105,7 @@ MonPartyData:
 	nybble ICON_GRASS     ; Exeggutor
 	nybble ICON_MON       ; Cubone
 	nybble ICON_MON       ; Marowak
-	nybble ICON_MON       ; Hitmonlee
+	nybble ICON_QUADRUPED ; Greedent
 	nybble ICON_MON       ; Hitmonchan
 	nybble ICON_MON       ; Lickitung
 	nybble ICON_MON       ; Koffing

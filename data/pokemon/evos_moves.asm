@@ -45,7 +45,7 @@ EvosMovesPointerTable:
 	dw ChanseyEvosMoves
 	dw SteeneeEvosMoves
 	dw WailmerEvosMoves
-	dw HitmonleeEvosMoves
+	dw GreedentEvosMoves
 	dw HitmonchanEvosMoves
 	dw ArbokEvosMoves
 	dw ParasectEvosMoves
@@ -220,6 +220,7 @@ KangaskhanEvosMoves:
 
 SkwovetEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 24, GREEDENT
 	db 0
 ; Learnset
 	db 7,  BITE
@@ -677,14 +678,11 @@ WailmerEvosMoves:
 	db 48, HYDRO_PUMP
 	db 0
 
-HitmonleeEvosMoves:
+GreedentEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 38, JUMP_KICK
-	db 43, FOCUS_ENERGY
-	db 48, HI_JUMP_KICK
-	db 53, MEGA_KICK
+	db 41, COUNTER
 	db 0
 
 HitmonchanEvosMoves:

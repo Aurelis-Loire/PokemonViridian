@@ -48,7 +48,7 @@ CryData::
 	mon_cry SFX_CRY_14, $0A, $C0 ; Chansey
 	mon_cry SFX_CRY_05, $07, $CD ; Steenee
 	mon_cry SFX_CRY_14, $8E, $B4 ; Wailmer
-	mon_cry SFX_CRY_12, $80, $C0 ; Hitmonlee
+	mon_cry SFX_CRY_22, $80, $07 ; Greedent
 	mon_cry SFX_CRY_0C, $EE, $C0 ; Hitmonchan
 	mon_cry SFX_CRY_17, $E0, $10 ; Arbok
 	mon_cry SFX_CRY_1E, $42, $FF ; Parasect

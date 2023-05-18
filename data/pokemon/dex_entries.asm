@@ -42,7 +42,7 @@ PokedexEntryPointers:
 	dw ChanseyDexEntry
 	dw SteeneeDexEntry
 	dw WailmerDexEntry
-	dw HitmonleeDexEntry
+	dw GreedentDexEntry
 	dw HitmonchanDexEntry
 	dw ArbokDexEntry
 	dw ParasectDexEntry
@@ -491,11 +491,11 @@ WailmerDexEntry:
 	text_far _WailmerDexEntry
 	text_end
 
-HitmonleeDexEntry:
-	db "KICKING@"
-	db 4,11
-	dw 1100
-	text_far _HitmonleeDexEntry
+GreedentDexEntry:
+	db "GREEDY@"
+	db 2,0
+	dw 132
+	text_far _GreedentDexEntry
 	text_end
 
 HitmonchanDexEntry:

@@ -231,7 +231,7 @@ FightingDojoText6:
 	call PrintText
 	jr .done
 .GetMon
-	ld a, HITMONLEE
+	ld a, HITMONCHAN
 	call DisplayPokedex
 	ld hl, WantHitmonleeText
 	call PrintText
