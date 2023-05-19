@@ -1061,8 +1061,8 @@ VulpixEvosMoves:
 	db 16, QUICK_ATTACK
 	db 21, ROAR
 	db 28, CONFUSE_RAY
-	db 35, FLAMETHROWER
-	db 42, FIRE_SPIN
+	db 35, AURORA_BEAM
+	db 42, ICE_BEAM
 	db 0
 
 NinetalesEvosMoves:
