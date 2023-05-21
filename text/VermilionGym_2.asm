@@ -13,7 +13,7 @@ _LTSurgePostBattleAdviceText::
 _LTSurgeThunderBadgeInfoText::
 	text "The THUNDERBADGE"
 	line "cranks up your"
-	cont "#MON's SPEED!"
+	cont "#MON's DEFENSE!"
 
 	para "It also lets your"
 	line "#MON FLY any"
@@ -57,8 +57,8 @@ _ReceivedThunderBadgeText::
 
 _VermilionGymBattleText1::
 	text "When I was in the"
-	line "Army, LT.SURGE"
-	cont "was my strict CO!"
+	line "Army, ALEX was my"
+	cont "strict CO!"
 	done
 
 _VermilionGymEndBattleText1::
@@ -70,8 +70,8 @@ _VermilionGymAfterBattleText1::
 	text "The door won't"
 	line "open?"
 
-	para "LT.SURGE always"
-	line "was cautious!"
+	para "ALEX always was"
+	line "cautious!"
 	done
 
 _VermilionGymBattleText2::
@@ -87,8 +87,8 @@ _VermilionGymEndBattleText2::
 _VermilionGymAfterBattleText2::
 	text "OK, I'll talk!"
 
-	para "LT.SURGE said he"
-	line "hid door switches"
+	para "ALEX said he hid"
+	line "door switches"
 	cont "inside something!"
 	done
 
@@ -103,9 +103,9 @@ _VermilionGymEndBattleText3::
 	prompt
 
 _VermilionGymAfterBattleText3::
-	text "LT.SURGE set up"
-	line "double locks!"
-	cont "Here's a hint!"
+	text "ALEX set up double"
+	line "locks! Here's a"
+	cont "hint!"
 
 	para "When you open the"
 	line "1st lock, the 2nd"
@@ -117,7 +117,7 @@ _VermilionGymGuidePreBattleText::
 	text "Yo! Champ in"
 	line "making!"
 
-	para "LT.SURGE has a"
+	para "ALEX has a"
 	line "nickname. People"
 	cont "refer to him as"
 	cont "the Lightning"
@@ -131,7 +131,7 @@ _VermilionGymGuidePreBattleText::
 	cont "risk! Beware of"
 	cont "paralysis too!"
 
-	para "LT.SURGE is very"
+	para "ALEX is very"
 	line "cautious!"
 
 	para "You'll have to"

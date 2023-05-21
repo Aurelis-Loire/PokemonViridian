@@ -12,7 +12,7 @@ PikachuFanBetterText::
 
 SeelFanText::
 	text "I just love my"
-	line "SEEL!"
+	line "WAILMER!"
 
 	para "It squeals when I"
 	line "hug it!"
@@ -21,7 +21,7 @@ SeelFanText::
 SeelFanBetterText::
 	text "Oh dear!"
 
-	para "My SEEL is far"
+	para "My WAILMER is far"
 	line "more attractive!"
 	done
 
@@ -31,7 +31,7 @@ FanClubPikachuText::
 	done
 
 FanClubSeelText::
-	text "SEEL: Kyuoo!"
+	text "WAILMER: Kyuoo!"
 	done
 
 FanClubMeetChairText::
@@ -95,7 +95,7 @@ ExplainBikeVoucherText::
 	line "a BICYCLE!"
 
 	para "Don't worry, my"
-	line "FEAROW will FLY"
+	line "PIDGEOT will FLY"
 	cont "me anywhere!"
 
 	para "So, I don't need a"

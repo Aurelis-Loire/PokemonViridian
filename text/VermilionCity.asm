@@ -2,8 +2,9 @@ _VermilionCityText1::
 	text "We're careful"
 	line "about pollution!"
 
-	para "We've heard GRIMER"
-	line "multiplies in"
+	para "We've heard"
+	line "CROAGUNK"
+	cont "multiplies in"
 	cont "toxic sludge!"
 	done
 
@@ -67,13 +68,13 @@ _VermilionCityText4::
 	done
 
 _VermilionCityText5::
-	text "MACHOP: Guoh!"
+	text "LARVITAR: Guoh!"
 	line "Gogogoh!@"
 	text_end
 
 _VermilionCityText14::
 	text_start
-	para "A MACHOP is"
+	para "A LARVITAR is"
 	line "stomping the land"
 	cont "flat."
 	done
@@ -116,7 +117,7 @@ _VermilionCityText11::
 _VermilionCityText12::
 	text "VERMILION CITY"
 	line "#MON GYM"
-	cont "LEADER: LT.SURGE"
+	cont "LEADER: ALEX"
 
 	para "The Lightning "
 	line "American!"
