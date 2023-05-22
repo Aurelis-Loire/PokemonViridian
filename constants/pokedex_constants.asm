@@ -133,7 +133,7 @@
 	const DEX_SANDSLASH  ; 127
 	const DEX_TAUROS     ; 128
 	const DEX_PARAS      ; 129
-	const DEX_PARASECT   ; 130
+	const DEX_MILTANK    ; 130
 	const DEX_LAPRAS     ; 131
 	const DEX_DITTO      ; 132
 	const DEX_EEVEE      ; 133

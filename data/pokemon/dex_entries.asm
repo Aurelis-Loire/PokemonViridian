@@ -45,7 +45,7 @@ PokedexEntryPointers:
 	dw GreedentDexEntry
 	dw HitmonchanDexEntry
 	dw ArbokDexEntry
-	dw ParasectDexEntry
+	dw MiltankDexEntry
 	dw PsyduckDexEntry
 	dw DrowzeeDexEntry
 	dw GolemDexEntry
@@ -512,11 +512,11 @@ ArbokDexEntry:
 	text_far _ArbokDexEntry
 	text_end
 
-ParasectDexEntry:
-	db "MUSHROOM@"
-	db 3,3
-	dw 650
-	text_far _ParasectDexEntry
+MiltankDexEntry:
+	db "MILK COW@"
+	db 3,11
+	dw 1664
+	text_far _MiltankDexEntry
 	text_end
 
 PsyduckDexEntry:

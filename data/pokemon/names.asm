@@ -45,7 +45,7 @@ MonsterNames::
 	db "GREEDENT@@"
 	db "HITMONCHAN"
 	db "ARBOK@@@@@"
-	db "PARASECT@@"
+	db "MILTANK@@@"
 	db "PSYDUCK@@@"
 	db "DROWZEE@@@"
 	db "GOLEM@@@@@"

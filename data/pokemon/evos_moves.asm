@@ -48,7 +48,7 @@ EvosMovesPointerTable:
 	dw GreedentEvosMoves
 	dw HitmonchanEvosMoves
 	dw ArbokEvosMoves
-	dw ParasectEvosMoves
+	dw MiltankEvosMoves
 	dw PsyduckEvosMoves
 	dw DrowzeeEvosMoves
 	dw GolemEvosMoves
@@ -708,15 +708,15 @@ ArbokEvosMoves:
 	db 47, ACID
 	db 0
 
-ParasectEvosMoves:
+MiltankEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, STUN_SPORE
-	db 20, LEECH_LIFE
-	db 30, SPORE
-	db 39, SLASH
-	db 48, GROWTH
+	db 4, GROWL
+	db 8, DEFENSE_CURL
+	db 13, STOMP
+	db 26, BIDE
+	db 43, BODY_SLAM
 	db 0
 
 PsyduckEvosMoves:
@@ -1340,7 +1340,6 @@ EkansEvosMoves:
 
 ParasEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 24, PARASECT
 	db 0
 ; Learnset
 	db 13, STUN_SPORE

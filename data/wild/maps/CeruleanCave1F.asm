@@ -12,7 +12,7 @@ IF DEF(_BLUE)
 	db 52, SANDSLASH
 ENDC
 	db 49, KADABRA
-	db 52, PARASECT
+	db 52, PIDGEOT
 	db 53, RAICHU
 	db 53, DITTO
 	end_grass_wildmons

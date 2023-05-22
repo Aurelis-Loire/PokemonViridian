@@ -4,7 +4,7 @@ CeruleanCaveB1FWildMons:
 	db 55, MAROWAK
 	db 55, ELECTRODE
 	db 64, CHANSEY
-	db 64, PARASECT
+	db 64, PIDGEOT
 	db 64, RAICHU
 IF DEF(_RED)
 	db 57, ARBOK

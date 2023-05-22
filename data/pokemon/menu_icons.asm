@@ -129,7 +129,7 @@ MonPartyData:
 	nybble ICON_MON       ; Sandslash
 	nybble ICON_QUADRUPED ; Tauros
 	nybble ICON_BUG       ; Paras
-	nybble ICON_BUG       ; Parasect
+	nybble ICON_QUADRUPED ; Miltank
 	nybble ICON_WATER     ; Lapras
 	nybble ICON_MON       ; Ditto
 	nybble ICON_QUADRUPED ; Eevee

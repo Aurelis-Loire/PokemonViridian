@@ -52,7 +52,7 @@
 	const GREEDENT           ; $2B
 	const HITMONCHAN         ; $2C
 	const ARBOK              ; $2D
-	const PARASECT           ; $2E
+	const MILTANK            ; $2E
 	const PSYDUCK            ; $2F
 	const DROWZEE            ; $30
 	const GOLEM              ; $31

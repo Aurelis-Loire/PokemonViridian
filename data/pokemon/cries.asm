@@ -51,7 +51,7 @@ CryData::
 	mon_cry SFX_CRY_22, $80, $07 ; Greedent
 	mon_cry SFX_CRY_0C, $EE, $C0 ; Hitmonchan
 	mon_cry SFX_CRY_17, $E0, $10 ; Arbok
-	mon_cry SFX_CRY_1E, $42, $FF ; Parasect
+	mon_cry SFX_CRY_0E, $81, $FE ; Miltank
 	mon_cry SFX_CRY_21, $20, $60 ; Psyduck
 	mon_cry SFX_CRY_0D, $88, $20 ; Drowzee
 	mon_cry SFX_CRY_12, $E0, $40 ; Golem

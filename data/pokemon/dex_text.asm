@@ -445,14 +445,14 @@ _ArbokDexEntry::
 	next "to area"
 	dex
 
-_ParasectDexEntry::
-	text "A host-parasite"
-	next "pair in which the"
-	next "parasite mushroom"
+_MiltankDexEntry::
+	text "Its milk is packed"
+	next "with nutrition,"
+	next "making it the"
 
-	page "has taken over the"
-	next "host bug. Prefers"
-	next "damp places"
+	page "ultimate beverage"
+	next "for the sick or"
+	next "weary"
 	dex
 
 _PsyduckDexEntry::
