@@ -80,7 +80,7 @@ SSAnne10Text6:
 SSAnne10Text8:
 	text_far _SSAnne10Text8
 	text_asm
-	ld a, STEENEE
+	ld a, GOLDUCK
 	call PlayCry
 	jp TextScriptEnd
 

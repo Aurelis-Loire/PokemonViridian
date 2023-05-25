@@ -1,6 +1,6 @@
 _SSAnne8Text8::
-	text "WIGGLYTUFF: Puup"
-	line "pupuu!@"
+	text "RAICHU: Rai!"
+	line "Raichu!@"
 	text_end
 
 _SSAnne8BattleText1::
@@ -88,7 +88,7 @@ _SSAnne8Text6::
 
 _SSAnne8Text7::
 	text "I always travel"
-	line "with WIGGLYTUFF!"
+	line "with RAICHU!"
 	done
 
 _SSAnne8Text9::

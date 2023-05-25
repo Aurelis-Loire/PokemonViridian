@@ -1,6 +1,6 @@
 _SSAnne10Text8::
-	text "MACHOKE: Gwoh!"
-	line "Goggoh!@"
+	text "GOLDUCK: Golduck!"
+	line "Golduck!@"
 	text_end
 
 _SSAnne10BattleText1::
@@ -105,7 +105,7 @@ _SSAnne10AfterBattleText6::
 	done
 
 _SSAnne10Text7::
-	text "My buddy, MACHOKE,"
+	text "My buddy, GOLDUCK,"
 	line "is super strong!"
 
 	para "He has enough"
