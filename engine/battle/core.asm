@@ -4243,8 +4243,15 @@ GetDamageVarsForPlayerAttack:
 	rr l
 	ld a, l
 	or h ; is the player's offensive stat 0?
-	jr nz, .next
+	jr nz, .next_0
 	inc l ; if the player's offensive stat is 0, bump it up to 1
+;Following function fix is from shinpokered.
+.next_0
+	ld a, c	;load lo defense byte into 'a'
+	or b ;OR 'a' with hi defense byte 'b'
+	jr nz, .next ;if defense not zero, then move on
+	inc c ;otherwise increment the low defense byte by 1
+;;;;
 .next
 	ld b, l ; b = player's offensive stat (possibly scaled)
 	        ; (c already contains enemy's defensive stat (possibly scaled))
