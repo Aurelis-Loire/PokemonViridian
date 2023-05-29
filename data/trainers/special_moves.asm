@@ -28,10 +28,10 @@ SpecialTrainerMoves:
 	db 0
 
 	db LT_SURGE, 1
-	db 1, 1, THUNDERBOLT
-	db 1, 2, MEGA_PUNCH
-	db 1, 3, MEGA_KICK
-	db 1, 4, GROWL
+	db 3, 1, THUNDER_WAVE
+	db 3, 2, DOUBLE_TEAM
+	db 3, 3, SLAM
+	db 3, 4, THUNDERBOLT
 	db 0
 
 	db ERIKA, 1

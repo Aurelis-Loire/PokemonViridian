@@ -143,7 +143,7 @@ SailorData:
 	db 17, HORSEA, HORSEA, HORSEA, 0
 	db 20, QUAGSIRE, 0
 ; Vermilion Gym
-	db 21, PIKACHU, PIKACHU, 0
+	db 21, MAREEP, JOLTIK, 0
 
 JrTrainerMData:
 ; Pewter Gym
@@ -412,7 +412,7 @@ PsychicData:
 
 RockerData:
 ; Vermilion Gym
-	db 20, VOLTORB, MAGNEMITE, VOLTORB, 0
+	db 20, JOLTIK, MAGNEMITE, VOLTORB, 0
 ; Route 12
 	db 29, VOLTORB, ELECTRODE, 0
 
