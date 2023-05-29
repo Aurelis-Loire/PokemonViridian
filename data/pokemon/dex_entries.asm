@@ -47,7 +47,7 @@ PokedexEntryPointers:
 	dw ArbokDexEntry
 	dw MiltankDexEntry
 	dw PsyduckDexEntry
-	dw DrowzeeDexEntry
+	dw JoltikDexEntry
 	dw GolemDexEntry
 	dw MissingNoDexEntry
 	dw MagmarDexEntry
@@ -526,11 +526,11 @@ PsyduckDexEntry:
 	text_far _PsyduckDexEntry
 	text_end
 
-DrowzeeDexEntry:
-	db "HYPNOSIS@"
-	db 3,3
-	dw 710
-	text_far _DrowzeeDexEntry
+JoltikDexEntry:
+	db "ATTACHING@"
+	db 0,4
+	dw 13
+	text_far _JoltikDexEntry
 	text_end
 
 GolemDexEntry:

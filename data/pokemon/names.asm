@@ -47,7 +47,7 @@ MonsterNames::
 	db "ARBOK@@@@@"
 	db "MILTANK@@@"
 	db "PSYDUCK@@@"
-	db "DROWZEE@@@"
+	db "JOLTIK@@@@"
 	db "GOLEM@@@@@"
 	db "MISSINGNO."
 	db "MAGMAR@@@@"

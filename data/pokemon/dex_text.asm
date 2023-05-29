@@ -118,7 +118,7 @@ _ExeggcuteDexEntry::
 	dex
 
 _VivillonDexEntry::
-	text "Vivillon with many"
+	text "VIVILLON with many"
 	next "different patterns"
 	next "are found all over"
 
@@ -148,7 +148,7 @@ _WooperDexEntry::
 	dex
 
 _FrigibaxDexEntry::
-	text "Frigibax absorbs"
+	text "FRIGIBAX absorbs"
 	next "heat through its"
 	next "dorsal fin and"
 
@@ -277,7 +277,7 @@ _BlastoiseDexEntry::
 	dex
 
 _RaltsDexEntry::
-	text "Ralts senses the"
+	text "RALTS senses the"
 	next "emotions of people"
 	next "using the horns on"
 
@@ -288,7 +288,7 @@ _RaltsDexEntry::
 
 _KirliaDexEntry::
 	text "It is said that a"
-	next "Kirlia that is"
+	next "KIRLIA that is"
 	next "exposed to the"
 
 	page "positive emotions"
@@ -302,7 +302,7 @@ _BounsweetDexEntry::
 	next "body. They are"
 
 	page "often swallowed"
-	next "whole by Pidgeot"
+	next "whole by PIDGEOT"
 	next "lured by it"
 	dex	
 
@@ -465,14 +465,14 @@ _PsyduckDexEntry::
 	next "powers"
 	dex
 
-_DrowzeeDexEntry::
-	text "Puts enemies to"
-	next "sleep then eats"
-	next "their dreams."
+_JoltikDexEntry::
+	text "JOLTIK that live"
+	next "in cities have"
+	next "learned a"
 
-	page "Occasionally gets"
-	next "sick from eating"
-	next "bad dreams"
+	page "technique for"
+	next "sucking energy"
+	next "from outlets"
 	dex
 
 _GolemDexEntry::

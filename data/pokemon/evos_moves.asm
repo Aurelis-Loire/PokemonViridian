@@ -50,7 +50,7 @@ EvosMovesPointerTable:
 	dw ArbokEvosMoves
 	dw MiltankEvosMoves
 	dw PsyduckEvosMoves
-	dw DrowzeeEvosMoves
+	dw JoltikEvosMoves
 	dw GolemEvosMoves
 	dw MissingNo32EvosMoves
 	dw MagmarEvosMoves
@@ -731,16 +731,15 @@ PsyduckEvosMoves:
 	db 52, HYDRO_PUMP
 	db 0
 
-DrowzeeEvosMoves:
+JoltikEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 26, HYPNO
 	db 0
 ; Learnset
-	db 12, DISABLE
-	db 17, CONFUSION
-	db 24, HEADBUTT
-	db 29, POISON_GAS
-	db 32, PSYCHIC_M
+	db 32, ABSORB
+	db 37, THUNDER_WAVE
+	db 40, SCREECH
+	db 45, SLASH
+	db 48, AGILITY
 	db 0
 
 GolemEvosMoves:

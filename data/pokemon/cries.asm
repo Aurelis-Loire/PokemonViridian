@@ -53,7 +53,7 @@ CryData::
 	mon_cry SFX_CRY_17, $E0, $10 ; Arbok
 	mon_cry SFX_CRY_0E, $81, $FE ; Miltank
 	mon_cry SFX_CRY_21, $20, $60 ; Psyduck
-	mon_cry SFX_CRY_0D, $88, $20 ; Drowzee
+	mon_cry SFX_CRY_11, $BB, $5E ; Joltik
 	mon_cry SFX_CRY_12, $E0, $40 ; Golem
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_04, $FF, $30 ; Magmar

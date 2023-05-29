@@ -99,7 +99,7 @@
 	const DEX_HAUNTER    ; 93
 	const DEX_GENGAR     ; 94
 	const DEX_VILEPLUME  ; 95
-	const DEX_DROWZEE    ; 96
+	const DEX_JOLTIK     ; 96
 	const DEX_HYPNO      ; 97
 	const DEX_KRABBY     ; 98
 	const DEX_KINGLER    ; 99
