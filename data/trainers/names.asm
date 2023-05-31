@@ -35,7 +35,7 @@ TrainerNames::
 	li "BRUNO"
 	li "DIANA"
 	li "MATT"
-	li "LT.SURGE"
+	li "ALEX"
 	li "ERIKA"
 	li "KOGA"
 	li "BLAINE"
