@@ -376,6 +376,9 @@ CuboneEvosMoves:
 	db EV_LEVEL, 28, MAROWAK
 	db 0
 ; Learnset
+	db 10, BONE_CLUB
+	db 13, TAIL_WHIP
+	db 18, HEADBUTT
 	db 25, LEER
 	db 31, FOCUS_ENERGY
 	db 38, THRASH
@@ -412,6 +415,11 @@ ArcanineEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 18, EMBER
+	db 23, LEER
+	db 30, TAKE_DOWN
+	db 39, AGILITY
+	db 50, FLAMETHROWER
 	db 0
 
 MewEvosMoves:
@@ -1068,6 +1076,11 @@ NinetalesEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 16, QUICK_ATTACK
+	db 21, ROAR
+	db 28, CONFUSE_RAY
+	db 35, AURORA_BEAM
+	db 42, ICE_BEAM
 	db 0
 
 PikachuEvosMoves:
@@ -1081,14 +1094,27 @@ PikachuEvosMoves:
 	db 15, DOUBLE_TEAM
 	db 20, SLAM
 	db 26, SWIFT
+	db 27, THUNDERBOLT
 	db 33, AGILITY
-	db 43, THUNDER
+	db 41, THUNDER
+	db 50, LIGHT_SCREEN
 	db 0
 
 RaichuEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 6, TAIL_WHIP
+	db 8, THUNDER_WAVE
+	db 11, QUICK_ATTACK
+	db 15, DOUBLE_TEAM
+	db 20, SLAM
+	db 26, SWIFT
+	db 27, THUNDERBOLT
+	db 33, AGILITY
+	db 41, THUNDER
+	db 43, PSYCHIC_M
+	db 50, LIGHT_SCREEN
 	db 0
 
 MissingNo56EvosMoves:
@@ -1493,7 +1519,8 @@ ButterfreeEvosMoves:
 	db 15, SLEEP_POWDER
 	db 18, SUPERSONIC
 	db 23, WHIRLWIND
-	db 32, PSYBEAM
+	db 28, GUST
+	db 34, PSYBEAM
 	db 0
 
 MachampEvosMoves:

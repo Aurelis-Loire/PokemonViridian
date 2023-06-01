@@ -686,23 +686,23 @@ _KrabbyDexEntry::
 	dex
 
 _VulpixDexEntry::
-	text "At the time of"
-	next "birth, it has"
-	next "just one tail."
+	text "It exhales air"
+	next "colder than -58"
+	next "degrees. Elderly"
 
-	page "The tail splits"
-	next "from its tip as"
-	next "it grows older"
+	page "people call this"
+	next "#MON by an"
+	next "older name-Keokeo"
 	dex
 
 _NinetalesDexEntry::
-	text "Very smart and"
-	next "very vengeful."
-	next "Grabbing one of"
+	text "It creates drops"
+	next "of ice in its coat"
+	next "and showers them"
 
-	page "its many tails"
-	next "could result in a"
-	next "1000-year curse"
+	page "over its enemies."
+	next "Anyone who angers"
+	next "it will be frozen"
 	dex
 
 _PikachuDexEntry::
@@ -716,13 +716,12 @@ _PikachuDexEntry::
 	dex
 
 _RaichuDexEntry::
-	text "Its long tail"
-	next "serves as a"
-	next "ground to protect"
+	text "According to"
+	next "researchers, its"
+	next "diet is one of the"
 
-	page "itself from its"
-	next "own high voltage"
-	next "power"
+	page "causes of its"
+	next "change in form"
 	dex
 
 _DratiniDexEntry::
