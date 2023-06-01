@@ -34,7 +34,7 @@
 	const DEX_SPEWPA     ; 28
 	const DEX_VIVILLON   ; 29
 	const DEX_SKWOVET    ; 30
-	const DEX_FRIGIBAX   ; 31
+	const DEX_GREEDENT   ; 31
 	const DEX_CLEFAIRY   ; 32
 	const DEX_CLEFABLE   ; 33
 	const DEX_ZUBAT      ; 34
@@ -68,7 +68,7 @@
 	const DEX_BOUNSWEET  ; 62
 	const DEX_STEENEE    ; 63
 	const DEX_DUCKLETT   ; 64
-	const DEX_NIDORINO   ; 65
+	const DEX_MILTANK    ; 65
 	const DEX_MACHOP     ; 66
 	const DEX_WIGGLYTUFF ; 67
 	const DEX_MACHAMP    ; 68
@@ -109,7 +109,7 @@
 	const DEX_EXEGGUTOR  ; 103
 	const DEX_CUBONE     ; 104
 	const DEX_MAROWAK    ; 105
-	const DEX_GREEDENT   ; 106
+	const DEX_FRIGIBAX   ; 106
 	const DEX_HITMONCHAN ; 107
 	const DEX_LICKITUNG  ; 108
 	const DEX_KOFFING    ; 109
@@ -133,7 +133,7 @@
 	const DEX_SANDSLASH  ; 127
 	const DEX_TAUROS     ; 128
 	const DEX_PARAS      ; 129
-	const DEX_MILTANK    ; 130
+	const DEX_NIDORINO   ; 130
 	const DEX_LAPRAS     ; 131
 	const DEX_DITTO      ; 132
 	const DEX_EEVEE      ; 133

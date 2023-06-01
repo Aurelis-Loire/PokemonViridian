@@ -30,7 +30,7 @@ MonPartyData:
 	nybble ICON_BUG       ; Spewpa
 	nybble ICON_BUG       ; Vivillon
 	nybble ICON_QUADRUPED ; Skwovet
-    nybble ICON_MON       ; Frigibax
+    nybble ICON_QUADRUPED ; Greedent
     nybble ICON_FAIRY     ; Clefairy
 	nybble ICON_FAIRY     ; Clefable
 	nybble ICON_MON       ; Zubat
@@ -64,7 +64,7 @@ MonPartyData:
 	nybble ICON_GRASS     ; Bounsweet
 	nybble ICON_GRASS     ; Steenee
 	nybble ICON_BIRD      ; Ducklett
-	nybble ICON_MON       ; Nidorino
+	nybble ICON_QUADRUPED ; Miltank
 	nybble ICON_MON       ; Machop
 	nybble ICON_FAIRY     ; Wigglytuff
 	nybble ICON_MON       ; Machamp
@@ -105,7 +105,7 @@ MonPartyData:
 	nybble ICON_GRASS     ; Exeggutor
 	nybble ICON_MON       ; Cubone
 	nybble ICON_MON       ; Marowak
-	nybble ICON_QUADRUPED ; Greedent
+	nybble ICON_MON       ; Frigibax
 	nybble ICON_MON       ; Hitmonchan
 	nybble ICON_MON       ; Lickitung
 	nybble ICON_MON       ; Koffing
@@ -129,7 +129,7 @@ MonPartyData:
 	nybble ICON_MON       ; Sandslash
 	nybble ICON_QUADRUPED ; Tauros
 	nybble ICON_BUG       ; Paras
-	nybble ICON_QUADRUPED ; Miltank
+	nybble ICON_MON       ; Nidorino
 	nybble ICON_WATER     ; Lapras
 	nybble ICON_MON       ; Ditto
 	nybble ICON_QUADRUPED ; Eevee
