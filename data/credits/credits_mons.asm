@@ -14,4 +14,4 @@ CreditsMons:
 	db OMASTAR
 	db VILEPLUME
 	db PONYTA ; Was Nidoking
-	db PARASECT
+	db KRABBY ; Was Parasect
