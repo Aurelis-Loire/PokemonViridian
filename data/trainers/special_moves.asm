@@ -18,7 +18,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db MISTY, 1
-	db 1, 1, BUBBLEBEAM
+	db 1, 1, TACKLE
 	db 2, 1, TACKLE
 	db 2, 2, BITE
 	db 2, 3, BUBBLEBEAM
