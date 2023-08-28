@@ -105,7 +105,7 @@ PokedexEntryPointers:
 	dw FlareonDexEntry
 	dw JolteonDexEntry
 	dw VaporeonDexEntry
-	dw MachopDexEntry
+	dw GibleDexEntry
 	dw ZubatDexEntry
 	dw EkansDexEntry
 	dw ParasDexEntry
@@ -820,11 +820,11 @@ VaporeonDexEntry:
 	text_far _VaporeonDexEntry
 	text_end
 
-MachopDexEntry:
-	db "SUPERPOWER@"
-	db 2,7
-	dw 430
-	text_far _MachopDexEntry
+GibleDexEntry:
+	db "LAND SHARK@"
+	db 2,4
+	dw 452
+	text_far _GibleDexEntry
 	text_end
 
 ZubatDexEntry:

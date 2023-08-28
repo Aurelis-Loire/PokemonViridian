@@ -65,7 +65,7 @@ MonPartyData:
 	nybble ICON_GRASS     ; Steenee
 	nybble ICON_BIRD      ; Ducklett
 	nybble ICON_QUADRUPED ; Miltank
-	nybble ICON_MON       ; Machop
+	nybble ICON_MON       ; Gible
 	nybble ICON_FAIRY     ; Wigglytuff
 	nybble ICON_MON       ; Machamp
 	nybble ICON_GRASS     ; Bellsprout

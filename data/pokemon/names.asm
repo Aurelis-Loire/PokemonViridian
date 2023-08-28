@@ -105,7 +105,7 @@ MonsterNames::
 	db "FLAREON@@@"
 	db "JOLTEON@@@"
 	db "VAPOREON@@"
-	db "MACHOP@@@@"
+	db "GIBLE@@@@@"
 	db "ZUBAT@@@@@"
 	db "EKANS@@@@@"
 	db "PARAS@@@@@"

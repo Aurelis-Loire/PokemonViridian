@@ -884,14 +884,14 @@ _VaporeonDexEntry::
 	next "for a mermaid's"
 	dex
 
-_MachopDexEntry::
-	text "Loves to build"
-	next "its muscles."
-	next "It trains in all"
+_GibleDexEntry::
+	text "Its original home"
+	next "is hotter than"
+	next "Kanto. If planning"
 
-	page "styles of martial"
-	next "arts to become"
-	next "even stronger"
+	page "to live with one,"
+	next "your heating bill"
+	next "will soar."
 	dex
 
 _ZubatDexEntry::

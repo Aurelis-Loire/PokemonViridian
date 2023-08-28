@@ -111,7 +111,7 @@ CryData::
 	mon_cry SFX_CRY_1A, $10, $20 ; Flareon
 	mon_cry SFX_CRY_1A, $3D, $80 ; Jolteon
 	mon_cry SFX_CRY_1A, $AA, $FF ; Vaporeon
-	mon_cry SFX_CRY_1F, $EE, $01 ; Machop
+	mon_cry SFX_CRY_1F, $EE, $01 ; Gible
 	mon_cry SFX_CRY_1D, $E0, $80 ; Zubat
 	mon_cry SFX_CRY_17, $12, $40 ; Ekans
 	mon_cry SFX_CRY_1E, $20, $E0 ; Paras

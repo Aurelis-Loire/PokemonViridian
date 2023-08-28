@@ -3,12 +3,12 @@ RockTunnelB1FWildMons:
 	db 16, ZUBAT
 	db 17, ZUBAT
 	db 17, GEODUDE
-	db 15, MACHOP
+	db 15, VULPIX
 	db 16, GEODUDE
 	db 18, ZUBAT
-	db 17, MACHOP
-	db 17, ONIX
-	db 13, ONIX
+	db 17, VULPIX
+	db 17, GIBLE
+	db 13, GIBLE
 	db 18, GEODUDE
 	end_grass_wildmons
 
