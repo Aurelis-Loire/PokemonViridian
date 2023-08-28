@@ -42,7 +42,7 @@ TrainerPicAndMoneyPointers::
 	pic_money BrunoPic,        9900
 	pic_money DianaPic,        9900
 	pic_money MattPic,         9900
-	pic_money LtSurgePic,      9900
+	pic_money AlexPic,         9900
 	pic_money ErikaPic,        9900
 	pic_money KogaPic,         9900
 	pic_money BlainePic,       9900
