@@ -108,7 +108,7 @@ EvosMovesPointerTable:
 	dw FlareonEvosMoves
 	dw JolteonEvosMoves
 	dw VaporeonEvosMoves
-	dw MachopEvosMoves
+	dw GibleEvosMoves
 	dw ZubatEvosMoves
 	dw EkansEvosMoves
 	dw ParasEvosMoves
@@ -1328,15 +1328,17 @@ VaporeonEvosMoves:
 	db 54, HYDRO_PUMP
 	db 0
 
-MachopEvosMoves:
+GibleEvosMoves:
 ; Evolutions
-	db 0
+    db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 32, FOCUS_ENERGY
+    db 1, TACKLE
+	db 20, SAND_ATTACK
+	db 25, DRAGON_RAGE
+	db 32, TAKE_DOWN
 	db 39, SEISMIC_TOSS
-	db 46, SUBMISSION
+	db 43, SLASH
+    db 46, DIG
 	db 0
 
 ZubatEvosMoves:

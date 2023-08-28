@@ -112,7 +112,7 @@
 	const FLAREON            ; $67
 	const JOLTEON            ; $68
 	const VAPOREON           ; $69
-	const MACHOP             ; $6A
+	const GIBLE              ; $6A
 	const ZUBAT              ; $6B
 	const EKANS              ; $6C
 	const PARAS              ; $6D

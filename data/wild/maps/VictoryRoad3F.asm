@@ -1,6 +1,6 @@
 VictoryRoad3FWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 24, MACHOP
+	db 24, CHANSEY
 	db 26, GEODUDE
 	db 22, ZUBAT
 	db 42, ONIX

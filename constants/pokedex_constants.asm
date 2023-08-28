@@ -69,7 +69,7 @@
 	const DEX_STEENEE    ; 63
 	const DEX_DUCKLETT   ; 64
 	const DEX_MILTANK    ; 65
-	const DEX_MACHOP     ; 66
+	const DEX_GIBLE      ; 66
 	const DEX_WIGGLYTUFF ; 67
 	const DEX_MACHAMP    ; 68
 	const DEX_BELLSPROUT ; 69
