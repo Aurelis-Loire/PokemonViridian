@@ -132,7 +132,7 @@
 	const CATERPIE           ; $7B
 	const METAPOD            ; $7C
 	const BUTTERFREE         ; $7D
-	const MACHAMP            ; $7E
+	const GABITE             ; $7E
 	const_skip               ; $7F
 	const GOLDUCK            ; $80
 	const HYPNO              ; $81

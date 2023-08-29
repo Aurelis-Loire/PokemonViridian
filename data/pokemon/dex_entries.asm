@@ -125,7 +125,7 @@ PokedexEntryPointers:
 	dw CaterpieDexEntry
 	dw MetapodDexEntry
 	dw ButterfreeDexEntry
-	dw MachampDexEntry
+	dw GabiteDexEntry
 	dw MissingNoDexEntry
 	dw GolduckDexEntry
 	dw HypnoDexEntry
@@ -939,11 +939,11 @@ ButterfreeDexEntry:
 	text_far _ButterfreeDexEntry
 	text_end
 
-MachampDexEntry:
-	db "SUPERPOWER@"
-	db 5,3
-	dw 2870
-	text_far _MachampDexEntry
+GabiteDexEntry:
+	db "CAVE@"
+	db 4,7
+	dw 1235
+	text_far _GabiteDexEntry
 	text_end
 
 GolduckDexEntry:

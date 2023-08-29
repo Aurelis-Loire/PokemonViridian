@@ -891,7 +891,7 @@ _GibleDexEntry::
 
 	page "to live with one,"
 	next "your heating bill"
-	next "will soar."
+	next "will soar"
 	dex
 
 _ZubatDexEntry::
@@ -1054,14 +1054,14 @@ _ButterfreeDexEntry::
 	next "the air"
 	dex
 
-_MachampDexEntry::
-	text "Using its heavy"
-	next "muscles, it throws"
-	next "powerful punches"
+_GabiteDexEntry::
+	text "Shiny objects are"
+	next "its passion. It"
+	next "fixes its gaze on"
 
-	page "that can send the"
-	next "victim clear over"
-	next "the horizon"
+	page "the jewels its"
+	next "amassed or Carbink"
+	next "it has caught"
 	dex
 
 _GolduckDexEntry::

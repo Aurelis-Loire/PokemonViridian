@@ -128,7 +128,7 @@ EvosMovesPointerTable:
 	dw CaterpieEvosMoves
 	dw MetapodEvosMoves
 	dw ButterfreeEvosMoves
-	dw MachampEvosMoves
+	dw GabiteEvosMoves
 	dw MissingNo7FEvosMoves
 	dw GolduckEvosMoves
 	dw HypnoEvosMoves
@@ -1330,6 +1330,7 @@ VaporeonEvosMoves:
 
 GibleEvosMoves:
 ; Evolutions
+    db EV_LEVEL, 24, GABITE
     db 0
 ; Learnset
     db 1, TACKLE
@@ -1525,15 +1526,17 @@ ButterfreeEvosMoves:
 	db 34, PSYBEAM
 	db 0
 
-MachampEvosMoves:
+GabiteEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 36, FOCUS_ENERGY
+    db 1, TACKLE
+	db 20, SAND_ATTACK
+	db 26, DRAGON_RAGE
+	db 36, TAKE_DOWN
 	db 44, SEISMIC_TOSS
-	db 52, SUBMISSION
+	db 52, SLASH
+    db 53, DIG
 	db 0
 
 MissingNo7FEvosMoves:

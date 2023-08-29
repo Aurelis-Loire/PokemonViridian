@@ -125,7 +125,7 @@ MonsterNames::
 	db "CATERPIE@@"
 	db "METAPOD@@@"
 	db "BUTTERFREE"
-	db "MACHAMP@@@"
+	db "GABITE@@@@"
 	db "MISSINGNO."
 	db "GOLDUCK@@@"
 	db "HYPNO@@@@@"

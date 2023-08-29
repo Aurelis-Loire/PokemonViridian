@@ -1,17 +1,17 @@
-	db DEX_MACHAMP ; pokedex id
+	db DEX_GABITE ; pokedex id
 
-	db  90, 130,  80,  55,  65
+	db  68, 90,  65,  82,  55
 	;   hp  atk  def  spd  spc
 
-	db FIGHTING, FIGHTING ; type
+	db DRAGON, GROUND ; type
 	db 45 ; catch rate
-	db 193 ; base exp
+	db 144 ; base exp
 
-	INCBIN "gfx/pokemon/front/machamp.pic", 0, 1 ; sprite dimensions
-	dw MachampPicFront, MachampPicBack
+	INCBIN "gfx/pokemon/front/gabite.pic", 0, 1 ; sprite dimensions
+	dw GabitePicFront, GabitePicBack
 
-	db KARATE_CHOP, LOW_KICK, LEER, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db TACKLE, SAND_ATTACK, DRAGON_RAGE, NO_MOVE ; level 1 learnset
+	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \

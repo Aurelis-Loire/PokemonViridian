@@ -131,7 +131,7 @@ CryData::
 	mon_cry SFX_CRY_16, $80, $20 ; Caterpie
 	mon_cry SFX_CRY_1C, $CC, $01 ; Metapod
 	mon_cry SFX_CRY_16, $77, $40 ; Butterfree
-	mon_cry SFX_CRY_1F, $08, $C0 ; Machamp
+	mon_cry SFX_CRY_1F, $08, $C0 ; Gabite
 	mon_cry SFX_CRY_11, $20, $10 ; MissingNo.
 	mon_cry SFX_CRY_21, $FF, $40 ; Golduck
 	mon_cry SFX_CRY_0D, $EE, $40 ; Hypno

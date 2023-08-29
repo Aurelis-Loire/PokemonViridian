@@ -71,7 +71,7 @@
 	const DEX_MILTANK    ; 65
 	const DEX_GIBLE      ; 66
 	const DEX_WIGGLYTUFF ; 67
-	const DEX_MACHAMP    ; 68
+	const DEX_GABITE     ; 68
 	const DEX_BELLSPROUT ; 69
 	const DEX_WEEPINBELL ; 70
 	const DEX_VICTREEBEL ; 71
