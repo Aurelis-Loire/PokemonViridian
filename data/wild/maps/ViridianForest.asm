@@ -8,8 +8,8 @@ ViridianForestWildMons:
 	db  6, KAKUNA
 	db  3, PIKACHU
 	db  3, CATERPIE
-	db  4, METAPOD
-	db  5, SCATTERBUG
+	db  4, SCATTERBUG
+	db  5, METAPOD
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
