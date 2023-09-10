@@ -91,3 +91,43 @@ _BillsHouseText_1e8da::
 	cont "some of my rare"
 	cont "#MON on my PC!"
 	done
+
+_NeedSSTicketText::
+	text "Hey bud, do you"
+	line "happen to still"
+	cont "have that"
+	cont "S.S.TICKET?"
+	
+	para "I'd like it back"
+	line "if you're done"
+	cont "with it."
+	
+	para "I know!"
+	line "Bring that ticket"
+	cont "here and I'll"
+	cont "share one of my"
+	cont "rare #MON with"
+	cont "you!"
+	done
+	
+_HaveSSTicketText::
+	text "Hey bud, is that"
+	line "my old"
+	cont "S.S.TICKET?"
+	
+	para "I'd like it back"
+	line "if you're done"
+	cont "with it."
+	
+	para "Maybe you can help"
+	line "me out with one"
+	cont "more thing?"
+	
+	para "Do me a favor and"
+	line "take this EEVEE."
+	done
+	
+_BillEeveeText::
+	text "I knew you'd come"
+	line "through!"
+	done

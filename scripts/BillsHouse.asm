@@ -203,12 +203,45 @@ BillsHouseText_1e8cb:
 	text_far _BillsHouseText_1e8cb
 	text_end
 
-BillsHouseText3:
+BillsHouseText3: ;Give Eevee here.
 	text_asm
+	CheckEvent EVENT_GOT_EEVEE
+	jr z, .GiveEevee
 	ld hl, BillsHouseText_1e8da
+	call PrintText
+	jp TextScriptEnd
+.GiveEevee
+	ld b, S_S_TICKET
+	call IsItemInBag
+	jr z, .NeedSSTicket
+	ld hl, HaveSSTicketText
+	call PrintText
+	lb bc, EEVEE, 16
+	call GivePokemon
+	ld a, S_S_TICKET
+	ldh [hItemToRemoveID], a
+	farcall RemoveItemByID
+	SetEvent EVENT_GOT_EEVEE
+	ld hl, BillEeveeText
+	call PrintText
+	jp TextScriptEnd
+.NeedSSTicket
+	ld hl, NeedSSTicketText
 	call PrintText
 	jp TextScriptEnd
 
 BillsHouseText_1e8da:
 	text_far _BillsHouseText_1e8da
+	text_end
+
+NeedSSTicketText:
+	text_far _NeedSSTicketText
+	text_end
+	
+HaveSSTicketText:
+	text_far _HaveSSTicketText
+	text_end
+	
+BillEeveeText:
+	text_far _BillEeveeText
 	text_end
