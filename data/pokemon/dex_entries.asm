@@ -48,7 +48,7 @@ PokedexEntryPointers:
 	dw MiltankDexEntry
 	dw PsyduckDexEntry
 	dw JoltikDexEntry
-	dw GolemDexEntry
+	dw EspeonDexEntry
 	dw MissingNoDexEntry
 	dw MagmarDexEntry
 	dw MissingNoDexEntry
@@ -533,11 +533,11 @@ JoltikDexEntry:
 	text_far _JoltikDexEntry
 	text_end
 
-GolemDexEntry:
-	db "MEGATON@"
-	db 4,7
-	dw 6620
-	text_far _GolemDexEntry
+EspeonDexEntry:
+	db "SUN@"
+	db 2,11
+	dw 584
+	text_far _EspeonDexEntry
 	text_end
 
 MagmarDexEntry:

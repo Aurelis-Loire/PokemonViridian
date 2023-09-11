@@ -79,7 +79,7 @@
 	const DEX_TENTACRUEL ; 73
 	const DEX_GEODUDE    ; 74
 	const DEX_JIGGLYPUFF ; 75
-	const DEX_GOLEM      ; 76
+	const DEX_ESPEON     ; 76
 	const DEX_PONYTA     ; 77
 	const DEX_RAPIDASH   ; 78
 	const DEX_ODDISH     ; 79

@@ -48,7 +48,7 @@ PokedexOrder:
 	db DEX_MILTANK
 	db DEX_PSYDUCK
 	db DEX_JOLTIK
-	db DEX_GOLEM
+	db DEX_ESPEON
 	db 0 ; MISSINGNO.
 	db DEX_MAGMAR
 	db 0 ; MISSINGNO.

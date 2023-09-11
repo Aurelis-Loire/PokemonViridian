@@ -475,14 +475,14 @@ _JoltikDexEntry::
 	next "from outlets"
 	dex
 
-_GolemDexEntry::
-	text "Its boulder-like"
-	next "body is extremely"
-	next "hard. It can"
+_EspeonDexEntry::
+	text "It uses the fine"
+	next "hair that covers"
+	next "its body to sense"
 
-	page "easily withstand"
-	next "dynamite blasts"
-	next "without damage"
+	page "air currents and"
+	next "predict its"
+	next "enemy's actions"
 	dex
 
 _MagmarDexEntry::

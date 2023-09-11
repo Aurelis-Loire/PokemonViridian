@@ -55,7 +55,7 @@
 	const MILTANK            ; $2E
 	const PSYDUCK            ; $2F
 	const JOLTIK             ; $30
-	const GOLEM              ; $31
+	const ESPEON             ; $31
 	const_skip               ; $32
 	const MAGMAR             ; $33
 	const_skip               ; $34
