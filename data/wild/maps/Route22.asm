@@ -6,9 +6,9 @@ Route22WildMons:
 	db  4, SCATTERBUG
 	db  2, SKWOVET
 	db  2, SCATTERBUG
+	db  3, MANKEY
 	db  3, WOOPER
 	db  5, WOOPER
-	db  3, MANKEY
 	db  4, MANKEY
 	end_grass_wildmons
 
