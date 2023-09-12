@@ -720,11 +720,11 @@ MiltankEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 4, GROWL
-	db 8, DEFENSE_CURL
-	db 13, STOMP
-	db 26, BIDE
-	db 43, BODY_SLAM
+	db 20, DEFENSE_CURL
+	db 25, STOMP
+	db 34, SOFTBOILED
+	db 42, BIDE
+	db 49, BODY_SLAM
 	db 0
 
 PsyduckEvosMoves:
