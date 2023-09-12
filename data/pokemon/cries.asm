@@ -55,7 +55,7 @@ CryData::
 	mon_cry SFX_CRY_21, $20, $60 ; Psyduck
 	mon_cry SFX_CRY_11, $BB, $5E ; Joltik
 	mon_cry SFX_CRY_14, $ED, $BD ; Espeon
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_1A, $C6, $57 ; Leafeon
 	mon_cry SFX_CRY_04, $FF, $30 ; Magmar
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_06, $8F, $FF ; Electabuzz

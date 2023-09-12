@@ -49,7 +49,7 @@ PokedexEntryPointers:
 	dw PsyduckDexEntry
 	dw JoltikDexEntry
 	dw EspeonDexEntry
-	dw MissingNoDexEntry
+	dw LeafeonDexEntry
 	dw MagmarDexEntry
 	dw MissingNoDexEntry
 	dw ElectabuzzDexEntry
@@ -95,7 +95,7 @@ PokedexEntryPointers:
 	dw SeadraDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw SandshrewDexEntry
+	dw MissingNoDexEntry
 	dw SandslashDexEntry
 	dw OmanyteDexEntry
 	dw OmastarDexEntry
@@ -540,6 +540,13 @@ EspeonDexEntry:
 	text_far _EspeonDexEntry
 	text_end
 
+LeafeonDexEntry:
+	db "VERDANT@"
+	db 3,3
+	dw 562
+	text_far _LeafeonDexEntry
+	text_end	
+	
 MagmarDexEntry:
 	db "SPITFIRE@"
 	db 4,3
@@ -748,13 +755,6 @@ SeadraDexEntry:
 	db 3,11
 	dw 550
 	text_far _SeadraDexEntry
-	text_end
-
-SandshrewDexEntry:
-	db "MOUSE@"
-	db 2,0
-	dw 260
-	text_far _SandshrewDexEntry
 	text_end
 
 SandslashDexEntry:

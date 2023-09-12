@@ -49,7 +49,7 @@ MonPartyData:
 	nybble ICON_SNAKE     ; Gyarados
 	nybble ICON_QUADRUPED ; Mareep
 	nybble ICON_MON       ; Flaaffy
-	nybble ICON_MON       ; Sandshrew
+	nybble ICON_QUADRUPED ; Leafeon
 	nybble ICON_MON       ; Diglett
 	nybble ICON_MON       ; Dugtrio
 	nybble ICON_MON       ; Meowth

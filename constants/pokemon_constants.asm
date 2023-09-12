@@ -56,7 +56,7 @@
 	const PSYDUCK            ; $2F
 	const JOLTIK             ; $30
 	const ESPEON             ; $31
-	const_skip               ; $32
+	const LEAFEON            ; $32
 	const MAGMAR             ; $33
 	const_skip               ; $34
 	const ELECTABUZZ         ; $35
@@ -102,7 +102,7 @@
 	const SEADRA             ; $5D
 	const_skip               ; $5E
 	const_skip               ; $5F
-	const SANDSHREW          ; $60
+	const_skip               ; $60
 	const SANDSLASH          ; $61
 	const OMANYTE            ; $62
 	const OMASTAR            ; $63

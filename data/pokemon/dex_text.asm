@@ -484,6 +484,16 @@ _EspeonDexEntry::
 	next "predict its"
 	next "enemy's actions"
 	dex
+	
+_LeafeonDexEntry::
+	text "Just like a plant,"
+	next "it uses"
+	next "photosynthesis. As"
+
+	page "a result, it is"
+	next "always enveloped"
+	next "in clear air"
+	dex
 
 _MagmarDexEntry::
 	text "Its body always"
@@ -782,16 +792,6 @@ _SeadraDexEntry::
 	page "its wing-like"
 	next "pectoral fins and"
 	next "stout tail"
-	dex
-
-_SandshrewDexEntry::
-	text "Burrows deep"
-	next "underground in"
-	next "arid locations"
-
-	page "far from water."
-	next "It only emerges"
-	next "to hunt for food"
 	dex
 
 _SandslashDexEntry::

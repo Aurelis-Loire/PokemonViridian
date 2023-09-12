@@ -53,7 +53,7 @@
 	const DEX_GYARADOS   ; 47
 	const DEX_MAREEP     ; 48
 	const DEX_FLAAFFY    ; 49
-	const DEX_SANDSHREW  ; 50
+	const DEX_LEAFEON    ; 50
 	const DEX_DIGLETT    ; 51
 	const DEX_DUGTRIO    ; 52
 	const DEX_MEOWTH     ; 53

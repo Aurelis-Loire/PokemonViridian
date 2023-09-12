@@ -52,7 +52,7 @@ EvosMovesPointerTable:
 	dw PsyduckEvosMoves
 	dw JoltikEvosMoves
 	dw EspeonEvosMoves
-	dw MissingNo32EvosMoves
+	dw LeafeonEvosMoves
 	dw MagmarEvosMoves
 	dw MissingNo34EvosMoves
 	dw ElectabuzzEvosMoves
@@ -98,7 +98,7 @@ EvosMovesPointerTable:
 	dw SeadraEvosMoves
 	dw MissingNo5EEvosMoves
 	dw MissingNo5FEvosMoves
-	dw SandshrewEvosMoves
+	dw MissingNo60EvosMoves
 	dw SandslashEvosMoves
 	dw OmanyteEvosMoves
 	dw OmastarEvosMoves
@@ -764,10 +764,18 @@ EspeonEvosMoves:
 	db 52, BITE
 	db 0
 
-MissingNo32EvosMoves:
+LeafeonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 8, SAND_ATTACK
+	db 16, RAZOR_LEAF
+	db 23, QUICK_ATTACK
+	db 30, GROWL
+	db 36, LEECH_SEED
+	db 42, SWIFT
+	db 47, BITE
+	db 52, SWORDS_DANCE
 	db 0
 
 MagmarEvosMoves:
@@ -1211,16 +1219,10 @@ MissingNo5FEvosMoves:
 ; Learnset
 	db 0
 
-SandshrewEvosMoves:
+MissingNo60EvosMoves:
 ; Evolutions
-	db EV_LEVEL, 22, SANDSLASH
 	db 0
 ; Learnset
-	db 10, SAND_ATTACK
-	db 17, SLASH
-	db 24, POISON_STING
-	db 31, SWIFT
-	db 38, FURY_SWIPES
 	db 0
 
 SandslashEvosMoves:
@@ -1280,6 +1282,7 @@ EeveeEvosMoves:
     db EV_ITEM, MOON_STONE, 1, ESPEON
 	db EV_ITEM, FIRE_STONE, 1, FLAREON
 	db EV_ITEM, THUNDER_STONE, 1, JOLTEON
+	db EV_ITEM, LEAF_STONE, 1, LEAFEON
 	db EV_ITEM, WATER_STONE, 1, VAPOREON
 	db 0
 ; Learnset
