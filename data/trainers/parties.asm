@@ -250,7 +250,7 @@ HikerData:
 	db 21, GEODUDE, GEODUDE, FLAAFFY, 0
 	db 25, GEODUDE, 0
 ; Route 9/Rock Tunnel B1F
-	db 20, CHANSEY, ONIX, 0
+	db 20, DIGLETT, ONIX, 0
 ; Rock Tunnel 1F
 	db 19, GEODUDE, CHANSEY, GEODUDE, GEODUDE, 0
 	db 20, ONIX, ONIX, GEODUDE, 0
