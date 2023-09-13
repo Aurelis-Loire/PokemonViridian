@@ -1,26 +1,15 @@
 Route9WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 16, SQUIRTLE
-	db 16, SCATTERBUG
-	db 14, SQUIRTLE
-IF DEF(_RED)
-	db 11, EKANS
-	db 13, SCATTERBUG
-	db 15, EKANS
-	db 17, SQUIRTLE
-	db 17, SCATTERBUG
+	db 16, SKWOVET
+	db 16, PIDGEY
+	db 14, SKWOVET
 	db 13, EKANS
+	db 13, PIDGEY
+	db 15, EKANS
+	db 17, SKWOVET
+	db 17, PIDGEY
+	db 11, MAREEP
 	db 17, EKANS
-ENDC
-IF DEF(_BLUE)
-	db 11, CLEFABLE
-	db 13, SCATTERBUG
-	db 15, CLEFABLE
-	db 17, SQUIRTLE
-	db 17, SCATTERBUG
-	db 13, CLEFABLE
-	db 17, CLEFABLE
-ENDC
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

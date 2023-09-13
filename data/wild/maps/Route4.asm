@@ -3,13 +3,13 @@ Route4WildMons:
 	db 10, SKWOVET
 	db 10, PIDGEY
 	db  8, SKWOVET
-	db  6, EKANS
+	db  8, EKANS
 	db  8, PIDGEY
-	db 10, EKANS
+	db 12, EKANS
 	db 12, SKWOVET
 	db 12, PIDGEY
-	db  8, EKANS
-	db 12, MAREEP
+	db 10, EKANS
+	db  6, MAREEP
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
