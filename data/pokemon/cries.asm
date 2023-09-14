@@ -111,7 +111,7 @@ CryData::
 	mon_cry SFX_CRY_1A, $10, $20 ; Flareon
 	mon_cry SFX_CRY_1A, $3D, $80 ; Jolteon
 	mon_cry SFX_CRY_1A, $AA, $FF ; Vaporeon
-	mon_cry SFX_CRY_1F, $EE, $01 ; Gible
+	mon_cry SFX_CRY_11, $20, $F8 ; Gible
 	mon_cry SFX_CRY_1D, $E0, $80 ; Zubat
 	mon_cry SFX_CRY_17, $12, $40 ; Ekans
 	mon_cry SFX_CRY_1E, $20, $E0 ; Paras
@@ -131,7 +131,7 @@ CryData::
 	mon_cry SFX_CRY_16, $80, $20 ; Caterpie
 	mon_cry SFX_CRY_1C, $CC, $01 ; Metapod
 	mon_cry SFX_CRY_16, $77, $40 ; Butterfree
-	mon_cry SFX_CRY_1F, $08, $C0 ; Gabite
+	mon_cry SFX_CRY_11, $04, $A1 ; Gabite
 	mon_cry SFX_CRY_11, $20, $10 ; MissingNo.
 	mon_cry SFX_CRY_21, $FF, $40 ; Golduck
 	mon_cry SFX_CRY_0D, $EE, $40 ; Hypno
