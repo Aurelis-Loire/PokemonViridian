@@ -504,6 +504,16 @@ _MagmarDexEntry::
 	next "hide perfectly"
 	next "among flames"
 	dex
+	
+_LarvitarDexEntry::
+	text "It feeds on soil."
+	next "After it has eaten"
+	next "a large mountain,"
+
+	page "it will fall"
+	next "asleep so it can"
+	next "grow"
+	dex
 
 _ElectabuzzDexEntry::
 	text "Normally found"
@@ -792,16 +802,6 @@ _SeadraDexEntry::
 	page "its wing-like"
 	next "pectoral fins and"
 	next "stout tail"
-	dex
-
-_SandslashDexEntry::
-	text "Curls up into a"
-	next "spiny ball when"
-	next "threatened. It"
-
-	page "can roll while"
-	next "curled up to"
-	next "attack or escape"
 	dex
 
 _OmanyteDexEntry::

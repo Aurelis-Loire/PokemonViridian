@@ -58,7 +58,7 @@
 	const ESPEON             ; $31
 	const LEAFEON            ; $32
 	const MAGMAR             ; $33
-	const_skip               ; $34
+	const LARVITAR           ; $34
 	const ELECTABUZZ         ; $35
 	const MAGNETON           ; $36
 	const KOFFING            ; $37
@@ -103,7 +103,7 @@
 	const_skip               ; $5E
 	const_skip               ; $5F
 	const_skip               ; $60
-	const SANDSLASH          ; $61
+	const_skip               ; $61
 	const OMANYTE            ; $62
 	const OMASTAR            ; $63
 	const JIGGLYPUFF         ; $64

@@ -126,7 +126,7 @@ MonPartyData:
 	nybble ICON_MON       ; Jynx
 	nybble ICON_MON       ; Electabuzz
 	nybble ICON_MON       ; Magmar
-	nybble ICON_MON       ; Sandslash
+	nybble ICON_MON       ; Larvitar
 	nybble ICON_QUADRUPED ; Tauros
 	nybble ICON_BUG       ; Paras
 	nybble ICON_MON       ; Nidorino

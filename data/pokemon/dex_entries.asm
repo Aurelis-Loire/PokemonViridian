@@ -51,7 +51,7 @@ PokedexEntryPointers:
 	dw EspeonDexEntry
 	dw LeafeonDexEntry
 	dw MagmarDexEntry
-	dw MissingNoDexEntry
+	dw LarvitarDexEntry
 	dw ElectabuzzDexEntry
 	dw MagnetonDexEntry
 	dw KoffingDexEntry
@@ -96,7 +96,7 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw SandslashDexEntry
+	dw MissingNoDexEntry
 	dw OmanyteDexEntry
 	dw OmastarDexEntry
 	dw JigglypuffDexEntry
@@ -553,6 +553,13 @@ MagmarDexEntry:
 	dw 980
 	text_far _MagmarDexEntry
 	text_end
+	
+LarvitarDexEntry:
+	db "ROCK SKIN@"
+	db 2,0
+	dw 1587
+	text_far _LarvitarDexEntry
+	text_end
 
 ElectabuzzDexEntry:
 	db "ELECTRIC@"
@@ -755,13 +762,6 @@ SeadraDexEntry:
 	db 3,11
 	dw 550
 	text_far _SeadraDexEntry
-	text_end
-
-SandslashDexEntry:
-	db "MOUSE@"
-	db 3,3
-	dw 650
-	text_far _SandslashDexEntry
 	text_end
 
 OmanyteDexEntry:

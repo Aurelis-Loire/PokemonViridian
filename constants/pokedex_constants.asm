@@ -130,7 +130,7 @@
 	const DEX_JYNX       ; 124
 	const DEX_ELECTABUZZ ; 125
 	const DEX_MAGMAR     ; 126
-	const DEX_SANDSLASH  ; 127
+	const DEX_LARVITAR   ; 127
 	const DEX_TAUROS     ; 128
 	const DEX_PARAS      ; 129
 	const DEX_NIDORINO   ; 130

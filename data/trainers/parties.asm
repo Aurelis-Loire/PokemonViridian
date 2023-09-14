@@ -434,8 +434,8 @@ JugglerData:
 
 TamerData:
 ; Fuchsia Gym
-	db 34, SANDSLASH, ARBOK, 0
-	db 33, ARBOK, SANDSLASH, ARBOK, 0
+	db 34, LARVITAR, ARBOK, 0
+	db 33, ARBOK, LARVITAR, ARBOK, 0
 ; Viridian Gym
 	db 43, RHYHORN, 0
 	db 39, ARBOK, TAUROS, 0
@@ -565,7 +565,7 @@ RocketData:
 	db 20, BOUNSWEET, DUCKLETT, JOLTIK, 0
 	db 21, CHANSEY, CHANSEY, 0
 ; Rocket Hideout B4F
-	db 23, LEAFEON, EKANS, SANDSLASH, 0
+	db 23, LEAFEON, EKANS, LARVITAR, 0
 	db 23, EKANS, LEAFEON, ARBOK, 0
 	db 21, KOFFING, ZUBAT, 0
 ; Pokémon Tower 7F
@@ -591,7 +591,7 @@ RocketData:
 ; Silph Co. 7F
 	db 26, DUCKLETT, ARBOK, KOFFING, GOLBAT, 0
 	db 29, CUBONE, CUBONE, 0
-	db 29, LEAFEON, SANDSLASH, 0
+	db 29, LEAFEON, LARVITAR, 0
 ; Silph Co. 8F
 	db 26, DUCKLETT, ZUBAT, GOLBAT, BOUNSWEET, 0
 	db 28, WEEZING, GOLBAT, KOFFING, 0
@@ -619,7 +619,7 @@ CooltrainerMData:
 	db 49, SPEWPA, 0
 	db 44, KINGLER, CLOYSTER, 0
 ; Viridian Gym
-	db 39, SANDSLASH, DUGTRIO, 0
+	db 39, LARVITAR, DUGTRIO, 0
 	db 43, RHYHORN, 0
 
 CooltrainerFData:

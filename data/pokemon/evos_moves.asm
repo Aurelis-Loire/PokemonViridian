@@ -54,7 +54,7 @@ EvosMovesPointerTable:
 	dw EspeonEvosMoves
 	dw LeafeonEvosMoves
 	dw MagmarEvosMoves
-	dw MissingNo34EvosMoves
+	dw LarvitarEvosMoves
 	dw ElectabuzzEvosMoves
 	dw MagnetonEvosMoves
 	dw KoffingEvosMoves
@@ -99,7 +99,7 @@ EvosMovesPointerTable:
 	dw MissingNo5EEvosMoves
 	dw MissingNo5FEvosMoves
 	dw MissingNo60EvosMoves
-	dw SandslashEvosMoves
+	dw MissingNo61EvosMoves
 	dw OmanyteEvosMoves
 	dw OmastarEvosMoves
 	dw JigglypuffEvosMoves
@@ -790,10 +790,17 @@ MagmarEvosMoves:
 	db 55, FLAMETHROWER
 	db 0
 
-MissingNo34EvosMoves:
+LarvitarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 13, ROCK_THROW
+	db 15, BITE
+	db 18, SCREECH
+	db 21, ROCK_SLIDE
+	db 26, THRASH
+	db 33, EARTHQUAKE
+	db 42, HYPER_BEAM
 	db 0
 
 ElectabuzzEvosMoves:
@@ -1225,15 +1232,10 @@ MissingNo60EvosMoves:
 ; Learnset
 	db 0
 
-SandslashEvosMoves:
+MissingNo61EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, SAND_ATTACK
-	db 17, SLASH
-	db 27, POISON_STING
-	db 36, SWIFT
-	db 47, FURY_SWIPES
 	db 0
 
 OmanyteEvosMoves:
@@ -1343,7 +1345,6 @@ GibleEvosMoves:
     db EV_LEVEL, 24, GABITE
     db 0
 ; Learnset
-    db 1, TACKLE
 	db 20, SAND_ATTACK
 	db 25, DRAGON_RAGE
 	db 32, TAKE_DOWN
@@ -1540,8 +1541,6 @@ GabiteEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-    db 1, TACKLE
-	db 20, SAND_ATTACK
 	db 26, DRAGON_RAGE
 	db 36, TAKE_DOWN
 	db 44, SEISMIC_TOSS

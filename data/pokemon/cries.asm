@@ -57,7 +57,7 @@ CryData::
 	mon_cry SFX_CRY_14, $ED, $BD ; Espeon
 	mon_cry SFX_CRY_1A, $C6, $57 ; Leafeon
 	mon_cry SFX_CRY_04, $FF, $30 ; Magmar
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_17, $D4, $FE ; Larvitar
 	mon_cry SFX_CRY_06, $8F, $FF ; Electabuzz
 	mon_cry SFX_CRY_1C, $20, $C0 ; Magneton
 	mon_cry SFX_CRY_12, $E6, $DD ; Koffing
@@ -101,8 +101,8 @@ CryData::
 	mon_cry SFX_CRY_19, $3C, $01 ; Seadra
 	mon_cry SFX_CRY_0F, $40, $C0 ; MissingNo.
 	mon_cry SFX_CRY_0F, $20, $C0 ; MissingNo.
-	mon_cry SFX_CRY_00, $20, $40 ; Sandshrew
-	mon_cry SFX_CRY_00, $FF, $FF ; Sandslash
+	mon_cry SFX_CRY_00, $20, $40 ; MissingNo.
+	mon_cry SFX_CRY_00, $FF, $FF ; MissingNo.
 	mon_cry SFX_CRY_1F, $F0, $01 ; Omanyte
 	mon_cry SFX_CRY_1F, $FF, $40 ; Omastar
 	mon_cry SFX_CRY_0E, $FF, $35 ; Jigglypuff
