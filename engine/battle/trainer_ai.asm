@@ -208,6 +208,11 @@ AIMoveChoiceModification3:
 	jr nz, .skipout	;get out of this section if non-zero power
 	jp .nextMove	;else neither encourage nor discourage
 .skipout
+	ld a, [wEnemyMovePower]	;get the base power of the enemy's attack
+	cp $1	;check if it is 1. special damage moves assumed to have 1 base power
+	jr nz, .skipout2	;skip down if it's not a special damage move
+	jp .nextMove	;else neither encourage nor discourage
+.skipout2
 	push hl
 	push bc
 	push de
