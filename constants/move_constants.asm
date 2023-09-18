@@ -129,7 +129,7 @@
 	const EGG_BOMB     ; 79
 	const LICK         ; 7a
 	const SMOG         ; 7b
-	const SLUDGE       ; 7c
+	const REFRESH      ; 7c
 	const BONE_CLUB    ; 7d
 	const FIRE_BLAST   ; 7e
 	const WATERFALL    ; 7f

@@ -124,7 +124,7 @@ MoveSoundTable:
 	db SFX_BATTLE_34,          $00, $40 ; EGG_BOMB
 	db SFX_BATTLE_09,          $00, $40 ; LICK
 	db SFX_NOT_VERY_EFFECTIVE, $10, $ff ; SMOG
-	db SFX_BATTLE_2A,          $20, $20 ; SLUDGE
+	db SFX_BATTLE_0B,          $87, $45 ; REFRESH
 	db SFX_BATTLE_32,          $00, $80 ; BONE_CLUB
 	db SFX_BATTLE_29,          $1f, $20 ; FIRE_BLAST
 	db SFX_BATTLE_25,          $2f, $80 ; WATERFALL

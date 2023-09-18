@@ -830,6 +830,7 @@ MiloticEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 28, REFRESH
 	db 38, RECOVER
 	db 43, HYDRO_PUMP
 	db 0
@@ -1630,7 +1631,6 @@ MukEvosMoves:
 ; Learnset
 	db 30, POISON_GAS
 	db 33, MINIMIZE
-	db 37, SLUDGE
 	db 45, HARDEN
 	db 53, SCREECH
 	db 60, ACID_ARMOR
@@ -1691,7 +1691,6 @@ WeezingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 32, SLUDGE
 	db 39, SMOKESCREEN
 	db 43, SELFDESTRUCT
 	db 49, HAZE

@@ -123,7 +123,7 @@ MoveNames::
 	li "EGG BOMB"
 	li "LICK"
 	li "SMOG"
-	li "SLUDGE"
+	li "REFRESH"
 	li "BONE CLUB"
 	li "FIRE BLAST"
 	li "WATERFALL"

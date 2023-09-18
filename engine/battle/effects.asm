@@ -1376,6 +1376,9 @@ ConversionEffect:
 
 HazeEffect:
 	jpfar HazeEffect_
+	
+RefreshEffect:
+	jpfar RefreshEffect_
 
 HealEffect:
 	jpfar HealEffect_

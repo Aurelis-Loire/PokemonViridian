@@ -134,7 +134,7 @@ Moves:
 	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,       100, NORMAL,        75, 10
 	move LICK,         PARALYZE_SIDE_EFFECT2,       20, GHOST,        100, 30
 	move SMOG,         POISON_SIDE_EFFECT2,         20, POISON,        70, 20
-	move SLUDGE,       POISON_SIDE_EFFECT2,         65, POISON,       100, 20
+	move REFRESH,      REFRESH_EFFECT,               0, NORMAL,       100, 20
 	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,        85, 20
 	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,          85,  5
 	move WATERFALL,    NO_ADDITIONAL_EFFECT,        80, WATER,        100, 15

@@ -123,7 +123,7 @@ AttackAnimationPointers:
 	dw EggBombAnim
 	dw LickAnim
 	dw SmogAnim
-	dw SludgeAnim
+	dw RefreshAnim
 	dw BoneClubAnim
 	dw FireBlastAnim
 	dw WaterfallAnim
@@ -745,8 +745,8 @@ HypnosisAnim:
 	db -1 ; end
 
 BulletSeedAnim:
-	battle_anim BULLET_SEED, SE_LIGHT_SCREEN_PALETTE
-	battle_anim NO_MOVE, SUBANIM_1_SEED_TOSS, 1, 6
+	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim BULLET_SEED, SUBANIM_1_SEED_TOSS, 1, 6
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
@@ -914,7 +914,7 @@ EggBombAnim:
 	db -1 ; end
 
 LickAnim:
-	battle_anim SLUDGE, SUBANIM_1_BLOB_DRIP_ENEMY, 1, 6
+	battle_anim REFRESH, SUBANIM_1_BLOB_DRIP_ENEMY, 1, 6
 	db -1 ; end
 
 SmogAnim:
@@ -923,9 +923,10 @@ SmogAnim:
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
-SludgeAnim:
-	battle_anim SLUDGE, SUBANIM_1_BLOB_TOSS, 1, 6
-	battle_anim SLUDGE, SUBANIM_1_BLOB_DRIP_ENEMY, 1, 6
+RefreshAnim:
+	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim REFRESH, SE_SPIRAL_BALLS_INWARD
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
 BoneClubAnim:
