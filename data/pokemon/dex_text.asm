@@ -535,14 +535,14 @@ _MagnetonDexEntry::
 	next "flare up"
 	dex
 
-_KoffingDexEntry::
-	text "Because it stores"
-	next "several kinds of"
-	next "toxic gases in"
+_MiloticDexEntry::
+	text "Milotic is said to"
+	next "be breathtakingly"
+	next "beautiful. Those"
 
-	page "its body, it is"
-	next "prone to exploding"
-	next "without warning"
+	page "that see it are"
+	next "said to becalm"
+	next "their spirits"
 	dex
 
 _MankeyDexEntry::

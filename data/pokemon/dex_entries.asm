@@ -54,7 +54,7 @@ PokedexEntryPointers:
 	dw LarvitarDexEntry
 	dw ElectabuzzDexEntry
 	dw MagnetonDexEntry
-	dw KoffingDexEntry
+	dw MiloticDexEntry
 	dw MissingNoDexEntry
 	dw MankeyDexEntry
 	dw SeelDexEntry
@@ -575,11 +575,11 @@ MagnetonDexEntry:
 	text_far _MagnetonDexEntry
 	text_end
 
-KoffingDexEntry:
-	db "POISON GAS@"
-	db 2,0
-	dw 20
-	text_far _KoffingDexEntry
+MiloticDexEntry:
+	db "TENDER@"
+	db 20,4
+	dw 3571
+	text_far _MiloticDexEntry
 	text_end
 
 MankeyDexEntry:

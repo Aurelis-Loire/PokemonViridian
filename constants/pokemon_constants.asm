@@ -61,7 +61,7 @@
 	const LARVITAR           ; $34
 	const ELECTABUZZ         ; $35
 	const MAGNETON           ; $36
-	const KOFFING            ; $37
+	const MILOTIC            ; $37
 	const_skip               ; $38
 	const MANKEY             ; $39
 	const SEEL               ; $3A

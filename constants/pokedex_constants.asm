@@ -112,7 +112,7 @@
 	const DEX_FRIGIBAX   ; 106
 	const DEX_HITMONCHAN ; 107
 	const DEX_LICKITUNG  ; 108
-	const DEX_KOFFING    ; 109
+	const DEX_MILOTIC    ; 109
 	const DEX_WEEZING    ; 110
 	const DEX_RHYHORN    ; 111
 	const DEX_RHYDON     ; 112

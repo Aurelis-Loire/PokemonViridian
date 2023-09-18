@@ -60,7 +60,7 @@ CryData::
 	mon_cry SFX_CRY_17, $D4, $FE ; Larvitar
 	mon_cry SFX_CRY_06, $8F, $FF ; Electabuzz
 	mon_cry SFX_CRY_1C, $20, $C0 ; Magneton
-	mon_cry SFX_CRY_12, $E6, $DD ; Koffing
+	mon_cry SFX_CRY_1E, $67, $87 ; Milotic
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_0A, $DD, $60 ; Mankey
 	mon_cry SFX_CRY_0C, $88, $C0 ; Seel

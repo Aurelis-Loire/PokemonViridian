@@ -54,7 +54,7 @@ MonsterNames::
 	db "LARVITAR@@"
 	db "ELECTABUZZ"
 	db "MAGNETON@@"
-	db "KOFFING@@@"
+	db "MILOTIC@@@"
 	db "MISSINGNO."
 	db "MANKEY@@@@"
 	db "SEEL@@@@@@"
