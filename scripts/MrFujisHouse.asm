@@ -62,7 +62,7 @@ LavenderHouse1Text3:
 LavenderHouse1Text4:
 	text_far _LavenderHouse1Text4
 	text_asm
-	ld a, NIDORINO
+	ld a, MEOWTH
 	call PlayCry
 	jp TextScriptEnd
 

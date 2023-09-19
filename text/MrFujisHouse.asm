@@ -32,7 +32,7 @@ _LavenderHouse1Text3::
 	text_end
 
 _LavenderHouse1Text4::
-	text "NIDORINO: Gaoo!@"
+	text "MEOWTH: Meowth!@"
 	text_end
 
 _LavenderHouse1Text_1d94c::
