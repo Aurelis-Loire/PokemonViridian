@@ -87,7 +87,7 @@ MonPartyData:
 	nybble ICON_BIRD      ; Dodrio
 	nybble ICON_WATER     ; Seel
 	nybble ICON_WATER     ; Dewgong
-	nybble ICON_MON       ; Nidorina
+	nybble ICON_MON       ; Salandit
 	nybble ICON_MON       ; Muk
 	nybble ICON_HELIX     ; Shellder
 	nybble ICON_HELIX     ; Cloyster

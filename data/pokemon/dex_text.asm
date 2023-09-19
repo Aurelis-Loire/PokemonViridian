@@ -544,6 +544,16 @@ _MiloticDexEntry::
 	next "said to becalm"
 	next "their spirits"
 	dex
+	
+_SalanditDexEntry::
+	text "It burns its"
+	next "bodily fluids to"
+	next "create a poisonous"
+
+	page "gas. It uses this"
+	next "to disorient and"
+	next "attack #MON"
+	dex
 
 _MankeyDexEntry::
 	text "Extremely quick to"

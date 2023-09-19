@@ -91,7 +91,7 @@
 	const DEX_DODRIO     ; 85
 	const DEX_SEEL       ; 86
 	const DEX_DEWGONG    ; 87
-	const DEX_NIDORINA   ; 88
+	const DEX_SALANDIT   ; 88
 	const DEX_MUK        ; 89
 	const DEX_SHELLDER   ; 90
 	const DEX_CLOYSTER   ; 91

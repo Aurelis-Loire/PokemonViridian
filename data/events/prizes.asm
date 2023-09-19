@@ -10,7 +10,7 @@ PrizeMenuMon1Entries:
 	db ABRA
 	db CLEFAIRY
 IF DEF(_RED)
-	db NIDORINA
+	db PRIMEAPE
 ENDC
 IF DEF(_BLUE)
 	db NIDORINO

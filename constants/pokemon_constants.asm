@@ -62,7 +62,7 @@
 	const ELECTABUZZ         ; $35
 	const MAGNETON           ; $36
 	const MILOTIC            ; $37
-	const_skip               ; $38
+	const SALANDIT           ; $38
 	const MANKEY             ; $39
 	const SEEL               ; $3A
 	const DIGLETT            ; $3B
@@ -174,7 +174,7 @@
 	const_skip               ; $A5
 	const_skip               ; $A6
 	const NIDORINO           ; $A7
-	const NIDORINA           ; $A8
+	const_skip               ; $A8
 	const GEODUDE            ; $A9
 	const PORYGON            ; $AA
 	const AERODACTYL         ; $AB

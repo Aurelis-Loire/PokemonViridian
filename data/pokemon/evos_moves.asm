@@ -58,7 +58,7 @@ EvosMovesPointerTable:
 	dw ElectabuzzEvosMoves
 	dw MagnetonEvosMoves
 	dw MiloticEvosMoves
-	dw MissingNo38EvosMoves
+	dw SalanditEvosMoves
 	dw MankeyEvosMoves
 	dw SeelEvosMoves
 	dw DiglettEvosMoves
@@ -170,7 +170,7 @@ EvosMovesPointerTable:
 	dw MissingNoA5EvosMoves
 	dw MissingNoA6EvosMoves
 	dw NidorinoEvosMoves
-	dw NidorinaEvosMoves
+	dw MissingNoA8EvosMoves
 	dw GeodudeEvosMoves
 	dw PorygonEvosMoves
 	dw AerodactylEvosMoves
@@ -835,10 +835,15 @@ MiloticEvosMoves:
 	db 43, HYDRO_PUMP
 	db 0
 
-MissingNo38EvosMoves:
+SalanditEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 30, POISON_GAS
+	db 35, EMBER
+	db 40, SWEET_SCENT
+	db 45, DRAGON_RAGE
+	db 50, SMOG
 	db 0
 
 MankeyEvosMoves:
@@ -1930,16 +1935,10 @@ NidorinoEvosMoves:
 	db 50, DOUBLE_KICK
 	db 0
 
-NidorinaEvosMoves:
+MissingNoA8EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 8, SCRATCH
-	db 14, POISON_STING
-	db 23, TAIL_WHIP
-	db 32, BITE
-	db 41, FURY_SWIPES
-	db 50, DOUBLE_KICK
 	db 0
 
 GeodudeEvosMoves:

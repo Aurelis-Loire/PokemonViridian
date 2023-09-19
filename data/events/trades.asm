@@ -6,7 +6,7 @@ TradeMons:
 	; from the Japanese Blue trades, which used species that evolve.
 	; Japanese Red and Green used TRADE_DIALOGSET_CASUAL, and had
 	; the same species as English Red and Blue.
-	db NIDORINO,   NIDORINA,  TRADE_DIALOGSET_CASUAL,    "TERRY@@@@@@"
+	db QUAGSIRE,   ZUBAT,     TRADE_DIALOGSET_CASUAL,    "ZUBATMAN@@@"
 	db ABRA,       WAILMER,   TRADE_DIALOGSET_CASUAL,    "MARCEL@@@@@"
 	db BUTTERFREE, BEEDRILL,  TRADE_DIALOGSET_HAPPY,     "CHIKUCHIKU@" ; unused
 	db PONYTA,     SEEL,      TRADE_DIALOGSET_CASUAL,    "SAILOR@@@@@"

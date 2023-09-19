@@ -61,7 +61,7 @@ CryData::
 	mon_cry SFX_CRY_06, $8F, $FF ; Electabuzz
 	mon_cry SFX_CRY_1C, $20, $C0 ; Magneton
 	mon_cry SFX_CRY_1E, $67, $87 ; Milotic
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_25, $1F, $A9 ; Salandit
 	mon_cry SFX_CRY_0A, $DD, $60 ; Mankey
 	mon_cry SFX_CRY_0C, $88, $C0 ; Seel
 	mon_cry SFX_CRY_0B, $AA, $01 ; Diglett
@@ -173,7 +173,7 @@ CryData::
 	mon_cry SFX_CRY_22, $00, $80 ; MissingNo.
 	mon_cry SFX_CRY_22, $20, $FF ; MissingNo.
 	mon_cry SFX_CRY_00, $2C, $C0 ; Nidorino
-	mon_cry SFX_CRY_01, $2C, $E0 ; Nidorina
+	mon_cry SFX_CRY_01, $2C, $E0 ; MissingNo.
 	mon_cry SFX_CRY_24, $F0, $10 ; Geodude
 	mon_cry SFX_CRY_25, $AA, $FF ; Porygon
 	mon_cry SFX_CRY_23, $20, $F0 ; Aerodactyl

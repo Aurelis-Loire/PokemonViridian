@@ -55,7 +55,7 @@ PokedexEntryPointers:
 	dw ElectabuzzDexEntry
 	dw MagnetonDexEntry
 	dw MiloticDexEntry
-	dw MissingNoDexEntry
+	dw SalanditDexEntry
 	dw MankeyDexEntry
 	dw SeelDexEntry
 	dw DiglettDexEntry
@@ -167,7 +167,7 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw NidorinoDexEntry
-	dw NidorinaDexEntry
+	dw MissingNoDexEntry
 	dw GeodudeDexEntry
 	dw PorygonDexEntry
 	dw AerodactylDexEntry
@@ -580,6 +580,13 @@ MiloticDexEntry:
 	db 20,4
 	dw 3571
 	text_far _MiloticDexEntry
+	text_end
+	
+SalanditDexEntry:
+	db "TOXIC@"
+	db 2,0
+	dw 106
+	text_far _SalanditDexEntry
 	text_end
 
 MankeyDexEntry:
