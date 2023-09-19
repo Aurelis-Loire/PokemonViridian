@@ -33,6 +33,24 @@ SpecialTrainerMoves:
 	db 3, 4, THUNDERBOLT
 	db 0
 
+	db RIVAL2, 4
+	db 1, 3, GROWL
+	db 4, 1, TACKLE
+	db 5, 2, TACKLE
+	db 0
+
+	db RIVAL2, 5
+	db 1, 3, GROWL
+	db 4, 1, TACKLE
+	db 5, 1, TACKLE
+	db 0
+
+	db RIVAL2, 6
+	db 1, 3, GROWL
+	db 4, 1, TACKLE
+	db 5, 4, SCRATCH
+	db 0
+	
 	db ERIKA, 1
 	db 1, 3, MEGA_DRAIN
 	db 2, 1, RAZOR_LEAF
