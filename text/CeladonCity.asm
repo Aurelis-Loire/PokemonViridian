@@ -1,6 +1,6 @@
 _CeladonCityText1::
-	text "I got my KOFFING"
-	line "in CINNABAR!"
+	text "I got my SALANDIT"
+	line "outside the city!"
 
 	para "It's nice, but it"
 	line "breathes poison"
@@ -64,16 +64,17 @@ _TM41NoRoomText::
 
 _CeladonCityText6::
 	text "This is my trusted"
-	line "pal, POLIWRATH!"
+	line "pal, RAICHU!"
 
 	para "It evolved from"
-	line "POLIWHIRL when I"
-	cont "used WATER STONE!"
+	line "PIKACHU when I"
+	cont "used a THUNDER"
+	cont "STONE!"
 	done
 
 _CeladonCityText7::
-	text "POLIWRATH: Ribi"
-	line "ribit!@"
+	text "RAICHU: Rai"
+	line "Raichu!@"
 	text_end
 
 _CeladonCityText8::
@@ -111,7 +112,7 @@ _CeladonCityText11::
 _CeladonCityText13::
 	text "CELADON CITY"
 	line "#MON GYM"
-	cont "LEADER: ERIKA"
+	cont "LEADER: ALYSSA"
 
 	para "The Nature Loving"
 	line "Princess!"

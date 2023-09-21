@@ -16,8 +16,7 @@ _CeladonMansion1Text3::
 	text_end
 
 _CeladonMansion1Text4::
-	text "NIDORAN: Kya"
-	line "kyaoo!@"
+	text "MANKEY: Man-KEY!@"
 	text_end
 
 _CeladonMansion1Text5::

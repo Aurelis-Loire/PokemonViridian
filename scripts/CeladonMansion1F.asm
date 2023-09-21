@@ -31,7 +31,7 @@ CeladonMansion1Text3:
 CeladonMansion1Text4:
 	text_far _CeladonMansion1Text4
 	text_asm
-	ld a, WOOPER
+	ld a, MANKEY
 	jp CeladonMansion1_PlayCryScript
 
 CeladonMansion1Text5:

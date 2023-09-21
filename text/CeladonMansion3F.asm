@@ -11,12 +11,12 @@ _GraphicArtistText::
 
 _WriterText::
 	text "I wrote the story!"
-	line "Isn't ERIKA cute?"
+	line "Isn't ALYSSA cute?"
 
-	para "I like MISTY a"
+	para "I like DIANA a"
 	line "lot too!"
 
-	para "Oh, and SABRINA,"
+	para "Oh, and JOHANNA,"
 	line "I like her!"
 	done
 
