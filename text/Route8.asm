@@ -40,13 +40,13 @@ _Route8EndBattleText3::
 	prompt
 
 _Route8AfterBattleText3::
-	text "Go with GRIMER"
+	text "Go with MAGNEMITE"
 	line "first...and..."
 	cont "...and...then..."
 	done
 
 _Route8BattleText4::
-	text "I like NIDORAN, so"
+	text "I like VULPIX, so"
 	line "I collect them!"
 	done
 
@@ -88,8 +88,8 @@ _Route8EndBattleText6::
 
 _Route8AfterBattleText6::
 	text "I think PIDGEY"
-	line "and RATTATA"
-	cont "are cute too!"
+	line "and SKWOVET are"
+	cont "cute too!"
 	done
 
 _Route8BattleText7::
