@@ -11,11 +11,36 @@ CeladonMansion5Text1:
 
 CeladonMansion5Text2:
 	text_asm
-	lb bc, EEVEE, 25
+	ld a, [wPlayerStarter]
+	cp STARTER1
+	jr z, .getJolteon
+	cp STARTER2
+	jr z, .getFlareon
+	cp STARTER3
+	jr z, .getVaporeon
+.getVaporeon
+	lb bc, VAPOREON, 25
 	call GivePokemon
-	jr nc, .party_full
+	jr nc, .done
 	ld a, HS_CELADON_MANSION_EEVEE_GIFT
 	ld [wMissableObjectIndex], a
 	predef HideObject
-.party_full
+	jr .done
+.getJolteon
+	lb bc, JOLTEON, 25
+	call GivePokemon
+	jr nc, .done
+	ld a, HS_CELADON_MANSION_EEVEE_GIFT
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	jr .done
+.getFlareon
+	lb bc, FLAREON, 25
+	call GivePokemon
+	jr nc, .done
+	ld a, HS_CELADON_MANSION_EEVEE_GIFT
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	jr .done
+.done
 	jp TextScriptEnd
