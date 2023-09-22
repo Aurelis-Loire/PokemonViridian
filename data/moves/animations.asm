@@ -141,7 +141,7 @@ AttackAnimationPointers:
 	dw PoisonGasAnim
 	dw BarrageAnim
 	dw LeechLifeAnim
-	dw LovelyKissAnim
+	dw SandTombAnim
 	dw SkyAttackAnim
 	dw TransformAnim
 	dw BubbleAnim
@@ -1024,8 +1024,11 @@ LeechLifeAnim:
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
 	db -1 ; end
 
-LovelyKissAnim:
-	battle_anim LOVELY_KISS, SUBANIM_0_HEART_1_MUSIC, 0, 6
+SandTombAnim:
+	battle_anim ROCK_THROW, SUBANIM_0_ROCKS_FALL_ENEMY, 0, 4
+    battle_anim WRAP, SUBANIM_0_BIND, 0, 4
+    battle_anim WRAP, SUBANIM_0_BIND, 0, 4
+    battle_anim WRAP, SUBANIM_0_BIND, 0, 4
 	db -1 ; end
 
 SkyAttackAnim:
