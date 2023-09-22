@@ -57,7 +57,7 @@ PokedexEntryPointers:
 	dw MiloticDexEntry
 	dw SalanditDexEntry
 	dw MankeyDexEntry
-	dw SeelDexEntry
+	dw CroagunkDexEntry
 	dw DiglettDexEntry
 	dw TaurosDexEntry
 	dw MissingNoDexEntry
@@ -596,11 +596,11 @@ MankeyDexEntry:
 	text_far _MankeyDexEntry
 	text_end
 
-SeelDexEntry:
-	db "SEA LION@"
-	db 3,7
-	dw 1980
-	text_far _SeelDexEntry
+CroagunkDexEntry:
+	db "TOXIC FROG@"
+	db 2,4
+	dw 507
+	text_far _CroagunkDexEntry
 	text_end
 
 DiglettDexEntry:

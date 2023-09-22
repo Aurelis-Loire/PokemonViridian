@@ -1,6 +1,6 @@
 SeafoamIslands1FWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 30, SEEL
+	db 30, ARCANINE
 IF DEF(_RED)
 	db 30, SLOWPOKE
 	db 30, SHELLDER

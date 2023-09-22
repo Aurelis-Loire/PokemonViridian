@@ -19,9 +19,9 @@ MonPartyData:
 	nybble ICON_BIRD      ; Pidgeotto
 	nybble ICON_BIRD      ; Pidgeot
 	nybble ICON_FAIRY     ; Pikachu
-	nybble ICON_QUADRUPED ; Raichu
+	nybble ICON_FAIRY     ; Raichu
 	nybble ICON_MON       ; Mankey
-	nybble ICON_BIRD      ; Primeape
+	nybble ICON_MON       ; Primeape
 	nybble ICON_SNAKE     ; Ekans
 	nybble ICON_SNAKE     ; Arbok
 	nybble ICON_WATER     ; Wooper
@@ -85,7 +85,7 @@ MonPartyData:
 	nybble ICON_BIRD      ; Farfetch'd
 	nybble ICON_BIRD      ; Doduo
 	nybble ICON_BIRD      ; Dodrio
-	nybble ICON_WATER     ; Seel
+	nybble ICON_MON       ; Croagunk
 	nybble ICON_WATER     ; Dewgong
 	nybble ICON_MON       ; Salandit
 	nybble ICON_MON       ; Muk

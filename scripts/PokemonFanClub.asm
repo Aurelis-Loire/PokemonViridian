@@ -84,11 +84,11 @@ FanClubText3:
 	text_end
 
 FanClubText4:
-; seel
+; wailmer
 	text_asm
 	ld hl, .text
 	call PrintText
-	ld a, SEEL
+	ld a, WAILMER
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

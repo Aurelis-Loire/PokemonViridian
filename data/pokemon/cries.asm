@@ -63,7 +63,7 @@ CryData::
 	mon_cry SFX_CRY_1E, $67, $87 ; Milotic
 	mon_cry SFX_CRY_25, $1F, $A9 ; Salandit
 	mon_cry SFX_CRY_0A, $DD, $60 ; Mankey
-	mon_cry SFX_CRY_0C, $88, $C0 ; Seel
+	mon_cry SFX_CRY_19, $7A, $14 ; Croagunk
 	mon_cry SFX_CRY_0B, $AA, $01 ; Diglett
 	mon_cry SFX_CRY_1D, $11, $40 ; Tauros
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.

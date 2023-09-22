@@ -64,7 +64,7 @@
 	const MILOTIC            ; $37
 	const SALANDIT           ; $38
 	const MANKEY             ; $39
-	const SEEL               ; $3A
+	const CROAGUNK           ; $3A
 	const DIGLETT            ; $3B
 	const TAUROS             ; $3C
 	const_skip               ; $3D

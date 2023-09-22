@@ -199,7 +199,7 @@ JrTrainerFData:
 	db 33, CLEFAIRY, 0
 	db 29, BELLSPROUT, ODDISH, KIRLIA, 0
 ; Route 20
-	db 30, QUAGSIRE, HORSEA, SEEL, 0
+	db 30, QUAGSIRE, HORSEA, CROAGUNK, 0
 
 PokemaniacData:
 ; Route 10
@@ -218,7 +218,7 @@ SuperNerdData:
 ; Mt. Moon 1F
 	db 11, MAGNEMITE, VOLTORB, 0
 ; Mt. Moon B2F
-	db 12, ZUBAT, VOLTORB, SALANDIT, 0
+	db 12, CROAGUNK, VOLTORB, SALANDIT, 0
 ; Route 8
 	db 20, VOLTORB, SALANDIT, VOLTORB, MAGNEMITE, 0
 	db 22, MAGNEMITE, MAGNEMITE, PIKACHU, 0
@@ -552,7 +552,7 @@ RocketData:
 ; Route 24
 	db 15, EKANS, ZUBAT, 0
 ; Game Corner
-	db 20, DUCKLETT, ZUBAT, 0
+	db 20, EKANS, ZUBAT, 0
 ; Rocket Hideout B1F
 	db 21, JOLTIK, CHANSEY, 0
 	db 21, DUCKLETT, DUCKLETT, 0

@@ -1,9 +1,9 @@
 SeafoamIslandsB2FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 30, SEEL
+	db 30, ARCANINE
 IF DEF(_RED)
 	db 30, SLOWPOKE
-	db 32, SEEL
+	db 32, ARCANINE
 	db 32, SLOWPOKE
 	db 28, HORSEA
 	db 30, STARYU
@@ -14,7 +14,7 @@ IF DEF(_RED)
 ENDC
 IF DEF(_BLUE)
 	db 30, PSYDUCK
-	db 32, SEEL
+	db 32, ARCANINE
 	db 32, PSYDUCK
 	db 28, KRABBY
 	db 30, SHELLDER

@@ -57,7 +57,7 @@ MonsterNames::
 	db "MILOTIC@@@"
 	db "SALANDIT@@"
 	db "MANKEY@@@@"
-	db "SEEL@@@@@@"
+	db "CROAGUNK@@"
 	db "DIGLETT@@@"
 	db "TAUROS@@@@"
 	db "MISSINGNO."

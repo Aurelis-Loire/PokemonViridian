@@ -60,7 +60,7 @@ EvosMovesPointerTable:
 	dw MiloticEvosMoves
 	dw SalanditEvosMoves
 	dw MankeyEvosMoves
-	dw SeelEvosMoves
+	dw CroagunkEvosMoves
 	dw DiglettEvosMoves
 	dw TaurosEvosMoves
 	dw MissingNo3DEvosMoves
@@ -860,16 +860,16 @@ MankeyEvosMoves:
 	db 45, SCREECH
 	db 0
 
-SeelEvosMoves:
+CroagunkEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 34, DEWGONG
 	db 0
 ; Learnset
-	db 30, GROWL
-	db 35, AURORA_BEAM
-	db 40, REST
-	db 45, TAKE_DOWN
-	db 50, ICE_BEAM
+	db 30, POISON_STING
+	db 33, POUND
+	db 37, LOW_KICK
+	db 42, SWIFT
+	db 48, TOXIC
+	db 55, COUNTER
 	db 0
 
 DiglettEvosMoves:

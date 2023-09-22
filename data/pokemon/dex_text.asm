@@ -565,14 +565,14 @@ _MankeyDexEntry::
 	next "the next instant"
 	dex
 
-_SeelDexEntry::
-	text "The protruding"
-	next "horn on its head"
-	next "is very hard."
+_CroagunkDexEntry::
+	text "Its cheeks hold"
+	next "poison sacs. It"
+	next "tries to catch"
 
-	page "It is used for"
-	next "bashing through"
-	next "thick ice"
+	page "foes off guard to"
+	next "jab them with"
+	next "toxic fingers"
 	dex
 
 _DiglettDexEntry::

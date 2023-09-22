@@ -89,7 +89,7 @@
 	const DEX_FARFETCHD  ; 83
 	const DEX_DODUO      ; 84
 	const DEX_DODRIO     ; 85
-	const DEX_SEEL       ; 86
+	const DEX_CROAGUNK   ; 86
 	const DEX_DEWGONG    ; 87
 	const DEX_SALANDIT   ; 88
 	const DEX_MUK        ; 89
