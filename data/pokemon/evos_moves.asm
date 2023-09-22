@@ -1337,7 +1337,7 @@ GibleEvosMoves:
 	db 20, SAND_ATTACK
 	db 25, DRAGON_RAGE
 	db 32, TAKE_DOWN
-	db 39, SEISMIC_TOSS
+	db 39, SAND_TOMB
 	db 43, SLASH
     db 46, DIG
 	db 0
@@ -1534,7 +1534,7 @@ GabiteEvosMoves:
 	db 20, SAND_ATTACK
 	db 26, DRAGON_RAGE
 	db 36, TAKE_DOWN
-	db 44, SEISMIC_TOSS
+	db 44, SAND_TOMB
 	db 52, SLASH
     db 53, DIG
 	db 0
