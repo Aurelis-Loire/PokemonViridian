@@ -172,7 +172,7 @@ CryData::
 	mon_cry SFX_CRY_25, $20, $C0 ; Rapidash
 	mon_cry SFX_CRY_22, $00, $80 ; MissingNo.
 	mon_cry SFX_CRY_22, $20, $FF ; MissingNo.
-	mon_cry SFX_CRY_00, $2C, $C0 ; Nidorino
+	mon_cry SFX_CRY_19, $00, $7A ; Sigilyph
 	mon_cry SFX_CRY_01, $2C, $E0 ; MissingNo.
 	mon_cry SFX_CRY_24, $F0, $10 ; Geodude
 	mon_cry SFX_CRY_25, $AA, $FF ; Porygon

@@ -67,7 +67,7 @@
 	const CROAGUNK           ; $3A
 	const DIGLETT            ; $3B
 	const TAUROS             ; $3C
-	const_skip               ; $3D
+	const SIGILYPH           ; $3D
 	const_skip               ; $3E
 	const_skip               ; $3F
 	const FARFETCHD          ; $40
@@ -173,7 +173,7 @@
 	const RAPIDASH           ; $A4
 	const_skip               ; $A5
 	const_skip               ; $A6
-	const NIDORINO           ; $A7
+	const_skip               ; $A7
 	const_skip               ; $A8
 	const GEODUDE            ; $A9
 	const PORYGON            ; $AA

@@ -166,7 +166,7 @@ MonsterNames::
 	db "RAPIDASH@@"
 	db "MISSINGNO."
 	db "MISSINGNO."
-	db "NIDORINO@@"
+	db "SIGILYPH@@"
 	db "MISSINGNO."
 	db "GEODUDE@@@"
 	db "PORYGON@@@"

@@ -63,7 +63,7 @@ EvosMovesPointerTable:
 	dw CroagunkEvosMoves
 	dw DiglettEvosMoves
 	dw TaurosEvosMoves
-	dw MissingNo3DEvosMoves
+	dw SigilyphEvosMoves
 	dw MissingNo3EEvosMoves
 	dw MissingNo3FEvosMoves
 	dw FarfetchdEvosMoves
@@ -169,7 +169,7 @@ EvosMovesPointerTable:
 	dw RapidashEvosMoves
 	dw MissingNoA5EvosMoves
 	dw MissingNoA6EvosMoves
-	dw NidorinoEvosMoves
+	dw MissingNoA7EvosMoves
 	dw MissingNoA8EvosMoves
 	dw GeodudeEvosMoves
 	dw PorygonEvosMoves
@@ -895,10 +895,14 @@ TaurosEvosMoves:
 	db 51, TAKE_DOWN
 	db 0
 
-MissingNo3DEvosMoves:
+SigilyphEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 23, WHIRLWIND
+	db 28, PSYBEAM
+	db 35, LIGHT_SCREEN
+	db 44, REFLECT
 	db 0
 
 MissingNo3EEvosMoves:
@@ -1923,16 +1927,10 @@ MissingNoA6EvosMoves:
 ; Learnset
 	db 0
 
-NidorinoEvosMoves:
+MissingNoA7EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 8, HORN_ATTACK
-	db 14, POISON_STING
-	db 23, FOCUS_ENERGY
-	db 32, FURY_ATTACK
-	db 41, HORN_DRILL
-	db 50, DOUBLE_KICK
 	db 0
 
 MissingNoA8EvosMoves:

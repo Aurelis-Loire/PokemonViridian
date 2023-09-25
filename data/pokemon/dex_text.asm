@@ -594,6 +594,16 @@ _TaurosDexEntry::
 	next "body with its"
 	next "long tails"
 	dex
+	
+_SigilyphDexEntry::
+	text "They never vary"
+	next "the route they"
+	next "fly, due to their"
+
+	page "memories of"
+	next "guarding an"
+	next "ancient city"
+	dex
 
 _FarfetchdDexEntry::
 	text "The sprig of"

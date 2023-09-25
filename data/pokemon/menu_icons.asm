@@ -129,7 +129,7 @@ MonPartyData:
 	nybble ICON_MON       ; Larvitar
 	nybble ICON_QUADRUPED ; Tauros
 	nybble ICON_BUG       ; Paras
-	nybble ICON_MON       ; Nidorino
+	nybble ICON_BIRD      ; Sigilyph
 	nybble ICON_WATER     ; Lapras
 	nybble ICON_MON       ; Ditto
 	nybble ICON_QUADRUPED ; Eevee

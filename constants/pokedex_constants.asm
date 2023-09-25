@@ -133,7 +133,7 @@
 	const DEX_LARVITAR   ; 127
 	const DEX_TAUROS     ; 128
 	const DEX_PARAS      ; 129
-	const DEX_NIDORINO   ; 130
+	const DEX_SIGILYPH   ; 130
 	const DEX_LAPRAS     ; 131
 	const DEX_DITTO      ; 132
 	const DEX_EEVEE      ; 133

@@ -60,7 +60,7 @@ PokedexEntryPointers:
 	dw CroagunkDexEntry
 	dw DiglettDexEntry
 	dw TaurosDexEntry
-	dw MissingNoDexEntry
+	dw SigilyphDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw FarfetchdDexEntry
@@ -166,7 +166,7 @@ PokedexEntryPointers:
 	dw RapidashDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw NidorinoDexEntry
+	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw GeodudeDexEntry
 	dw PorygonDexEntry
@@ -615,6 +615,13 @@ TaurosDexEntry:
 	db 4,7
 	dw 1950
 	text_far _TaurosDexEntry
+	text_end
+	
+SigilyphDexEntry:
+	db "AVIANOID@"
+	db 4,7
+	dw 309
+	text_far _SigilyphDexEntry
 	text_end
 
 FarfetchdDexEntry:
@@ -1140,13 +1147,6 @@ RapidashDexEntry:
 	db 5,7
 	dw 2090
 	text_far _RapidashDexEntry
-	text_end
-
-NidorinoDexEntry:
-	db "POISON PIN@"
-	db 2,11
-	dw 430
-	text_far _NidorinoDexEntry
 	text_end
 
 NidorinaDexEntry:

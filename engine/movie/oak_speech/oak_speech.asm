@@ -66,7 +66,7 @@ OakSpeech:
 	call PrintText
 	call GBFadeOutToWhite
 	call ClearScreen
-	ld a, NIDORINO
+	ld a, WOOPER
 	ld [wd0b5], a
 	ld [wcf91], a
 	call GetMonHeader
@@ -159,7 +159,7 @@ OakSpeechText1:
 	text_end
 OakSpeechText2:
 	text_far _OakSpeechText2A
-	sound_cry_nidorino
+	sound_cry_wooper
 	text_far _OakSpeechText2B
 	text_end
 IntroducePlayerText:
