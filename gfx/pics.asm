@@ -348,7 +348,7 @@ Iscaria1Pic::      INCBIN "gfx/trainers/iscaria1.pic"
 ProfOakPic::       INCBIN "gfx/trainers/prof.oak.pic"
 ChiefPic::
 ScientistPic::     INCBIN "gfx/trainers/scientist.pic"
-GiovanniPic::      INCBIN "gfx/trainers/giovanni.pic"
+JohannaPic::       INCBIN "gfx/trainers/johanna.pic"
 RocketPic::        INCBIN "gfx/trainers/rocket.pic"
 CooltrainerMPic::  INCBIN "gfx/trainers/cooltrainerm.pic"
 CooltrainerFPic::  INCBIN "gfx/trainers/cooltrainerf.pic"

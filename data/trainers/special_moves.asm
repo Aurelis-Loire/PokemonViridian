@@ -85,6 +85,10 @@ SpecialTrainerMoves:
 	db 3, 1, PSYWAVE
 	db 0
 
+	db GIOVANNI, 1
+	db 1, 1, GROWL
+	db 0
+	
 	db GIOVANNI, 3
 	db 1, 3, FISSURE
 	db 2, 2, DOUBLE_TEAM

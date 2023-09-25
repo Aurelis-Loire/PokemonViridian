@@ -28,7 +28,7 @@ TrainerNames::
 	li "PROF.OAK"
 	li "CHIEF"
 	li "SCIENTIST"
-	li "GIOVANNI"
+	li "JOHANNA"
 	li "ROCKET"
 	li "COOLTRAINER♂"
 	li "COOLTRAINER♀"
