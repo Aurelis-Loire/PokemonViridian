@@ -66,7 +66,7 @@ CryData::
 	mon_cry SFX_CRY_19, $7A, $14 ; Croagunk
 	mon_cry SFX_CRY_0B, $AA, $01 ; Diglett
 	mon_cry SFX_CRY_1D, $11, $40 ; Tauros
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_19, $00, $7A ; Sigilyph
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_10, $DD, $01 ; Farfetch'd
@@ -172,7 +172,7 @@ CryData::
 	mon_cry SFX_CRY_25, $20, $C0 ; Rapidash
 	mon_cry SFX_CRY_22, $00, $80 ; MissingNo.
 	mon_cry SFX_CRY_22, $20, $FF ; MissingNo.
-	mon_cry SFX_CRY_19, $00, $7A ; Sigilyph
+	mon_cry SFX_CRY_19, $00, $7A ; MissingNo.
 	mon_cry SFX_CRY_01, $2C, $E0 ; MissingNo.
 	mon_cry SFX_CRY_24, $F0, $10 ; Geodude
 	mon_cry SFX_CRY_25, $AA, $FF ; Porygon
