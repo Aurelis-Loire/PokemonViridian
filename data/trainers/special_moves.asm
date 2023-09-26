@@ -106,7 +106,7 @@ SpecialTrainerMoves:
 	db 2, 3, ICE_BEAM
 	db 3, 1, PSYCHIC_M
 	db 3, 2, SURF
-	db 4, 3, LOVELY_KISS
+	db 4, 3, POWDER_SNOW
 	db 5, 3, BLIZZARD
 	db 0
 

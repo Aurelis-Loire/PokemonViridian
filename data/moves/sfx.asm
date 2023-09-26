@@ -142,7 +142,7 @@ MoveSoundTable:
 	db SFX_BATTLE_1C,          $00, $ff ; POISON_GAS
 	db SFX_BATTLE_32,          $08, $e0 ; BARRAGE
 	db SFX_BATTLE_24,          $00, $80 ; LEECH_LIFE
-	db SFX_BATTLE_09,          $88, $10 ; LOVELY_KISS
+	db SFX_BATTLE_14,          $88, $10 ; SAND_TOMB
 	db SFX_BATTLE_25,          $48, $ff ; SKY_ATTACK
 	db SFX_FAINT_FALL,         $ff, $ff ; TRANSFORM
 	db SFX_BATTLE_24,          $ff, $10 ; BUBBLE
