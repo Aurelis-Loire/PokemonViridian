@@ -74,7 +74,7 @@ MonPartyData:
 	nybble ICON_MON       ; Poliwrath
 	nybble ICON_WATER     ; Tentacruel
 	nybble ICON_MON       ; Geodude
-	nybble ICON_FAIRY     ; Jigglypuff
+	nybble ICON_MON       ; Golett
 	nybble ICON_QUADRUPED ; Espeon
 	nybble ICON_QUADRUPED ; Ponyta
 	nybble ICON_QUADRUPED ; Rapidash

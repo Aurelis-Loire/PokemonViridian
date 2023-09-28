@@ -604,6 +604,16 @@ _SigilyphDexEntry::
 	next "guarding an"
 	next "ancient city"
 	dex
+	
+_GolettDexEntry::
+	text "The energy that"
+	next "burns inside it"
+	next "enables it to"
+
+	page "move, but no one"
+	next "has yet been able"
+	next "to identify it"
+	dex
 
 _FarfetchdDexEntry::
 	text "The sprig of"

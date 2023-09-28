@@ -61,7 +61,7 @@ PokedexEntryPointers:
 	dw DiglettDexEntry
 	dw TaurosDexEntry
 	dw SigilyphDexEntry
-	dw MissingNoDexEntry
+	dw GolettDexEntry
 	dw MissingNoDexEntry
 	dw FarfetchdDexEntry
 	dw VenonatDexEntry
@@ -99,7 +99,7 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw OmanyteDexEntry
 	dw OmastarDexEntry
-	dw JigglypuffDexEntry
+	dw MissingNoDexEntry
 	dw WigglytuffDexEntry
 	dw EeveeDexEntry
 	dw FlareonDexEntry
@@ -624,6 +624,13 @@ SigilyphDexEntry:
 	text_far _SigilyphDexEntry
 	text_end
 
+GolettDexEntry:
+	db "AUTOMATON@"
+	db 3,3
+	dw 2028
+	text_far _GolettDexEntry
+	text_end
+	
 FarfetchdDexEntry:
 	db "WILD DUCK@"
 	db 2,7
@@ -790,13 +797,6 @@ OmastarDexEntry:
 	db 3,3
 	dw 770
 	text_far _OmastarDexEntry
-	text_end
-
-JigglypuffDexEntry:
-	db "BALLOON@"
-	db 1,8
-	dw 120
-	text_far _JigglypuffDexEntry
 	text_end
 
 WigglytuffDexEntry:
@@ -1147,13 +1147,6 @@ RapidashDexEntry:
 	db 5,7
 	dw 2090
 	text_far _RapidashDexEntry
-	text_end
-
-NidorinaDexEntry:
-	db "POISON PIN@"
-	db 2,7
-	dw 440
-	text_far _NidorinaDexEntry
 	text_end
 
 GeodudeDexEntry:

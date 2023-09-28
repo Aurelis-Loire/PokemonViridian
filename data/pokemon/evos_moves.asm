@@ -64,7 +64,7 @@ EvosMovesPointerTable:
 	dw DiglettEvosMoves
 	dw TaurosEvosMoves
 	dw SigilyphEvosMoves
-	dw MissingNo3EEvosMoves
+	dw GolettEvosMoves
 	dw MissingNo3FEvosMoves
 	dw FarfetchdEvosMoves
 	dw VenonatEvosMoves
@@ -102,7 +102,7 @@ EvosMovesPointerTable:
 	dw MissingNo61EvosMoves
 	dw OmanyteEvosMoves
 	dw OmastarEvosMoves
-	dw JigglypuffEvosMoves
+	dw MissingNo64EvosMoves
 	dw WigglytuffEvosMoves
 	dw EeveeEvosMoves
 	dw FlareonEvosMoves
@@ -905,10 +905,16 @@ SigilyphEvosMoves:
 	db 44, REFLECT
 	db 0
 
-MissingNo3EEvosMoves:
+GolettEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 12, DEFENSE_CURL
+	db 17, BONE_CLUB
+	db 24, ROCK_THROW
+	db 29, MEGA_PUNCH
+	db 32, NIGHT_SHADE
+	db 37, EARTHQUAKE
 	db 0
 
 MissingNo3FEvosMoves:
@@ -1265,18 +1271,10 @@ OmastarEvosMoves:
 	db 49, HYDRO_PUMP
 	db 0
 
-JigglypuffEvosMoves:
+MissingNo64EvosMoves:
 ; Evolutions
-	db EV_ITEM, MOON_STONE, 1, WIGGLYTUFF
 	db 0
 ; Learnset
-	db 9, POUND
-	db 14, DISABLE
-	db 19, DEFENSE_CURL
-	db 24, DOUBLESLAP
-	db 29, REST
-	db 34, BODY_SLAM
-	db 39, DOUBLE_EDGE
 	db 0
 
 WigglytuffEvosMoves:
