@@ -69,7 +69,7 @@
 	const TAUROS             ; $3C
 	const SIGILYPH           ; $3D
 	const GOLETT             ; $3E
-	const_skip               ; $3F
+	const DRIFLOON           ; $3F
 	const FARFETCHD          ; $40
 	const VENONAT            ; $41
 	const DRAGONITE          ; $42
@@ -107,7 +107,7 @@
 	const OMANYTE            ; $62
 	const OMASTAR            ; $63
 	const_skip               ; $64
-	const WIGGLYTUFF         ; $65
+	const_skip               ; $65
 	const EEVEE              ; $66
 	const FLAREON            ; $67
 	const JOLTEON            ; $68

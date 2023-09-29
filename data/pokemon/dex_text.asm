@@ -614,6 +614,16 @@ _GolettDexEntry::
 	next "has yet been able"
 	next "to identify it"
 	dex
+	
+_DrifloonDexEntry::
+	text "A #MON formed"
+	next "by the spirits of"
+	next "people and"
+
+	page "#MON. It loves"
+	next "damp, humid"
+	next "seasons"
+	dex
 
 _FarfetchdDexEntry::
 	text "The sprig of"
@@ -852,26 +862,6 @@ _OmastarDexEntry::
 	page "heavy shell made"
 	next "it impossible to"
 	next "catch prey"
-	dex
-
-_JigglypuffDexEntry::
-	text "When its huge eyes"
-	next "light up, it sings"
-	next "a mysteriously"
-
-	page "soothing melody"
-	next "that lulls its"
-	next "enemies to sleep"
-	dex
-
-_WigglytuffDexEntry::
-	text "The body is soft"
-	next "and rubbery. When"
-	next "angered, it will"
-
-	page "suck in air and"
-	next "inflate itself to"
-	next "an enormous size"
 	dex
 
 _EeveeDexEntry::
@@ -1362,26 +1352,6 @@ _RapidashDexEntry::
 	page "that moves fast"
 	next "in the hopes of"
 	next "racing it"
-	dex
-
-_NidorinoDexEntry::
-	text "An aggressive"
-	next "#MON that is"
-	next "quick to attack."
-
-	page "The horn on its"
-	next "head secretes a"
-	next "powerful venom"
-	dex
-
-_NidorinaDexEntry::
-	text "The female's horn"
-	next "develops slowly."
-	next "Prefers physical"
-
-	page "attacks such as"
-	next "clawing and"
-	next "biting"
 	dex
 
 _GeodudeDexEntry::

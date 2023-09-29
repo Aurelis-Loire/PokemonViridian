@@ -65,7 +65,7 @@ EvosMovesPointerTable:
 	dw TaurosEvosMoves
 	dw SigilyphEvosMoves
 	dw GolettEvosMoves
-	dw MissingNo3FEvosMoves
+	dw DrifloonEvosMoves
 	dw FarfetchdEvosMoves
 	dw VenonatEvosMoves
 	dw DragoniteEvosMoves
@@ -103,7 +103,7 @@ EvosMovesPointerTable:
 	dw OmanyteEvosMoves
 	dw OmastarEvosMoves
 	dw MissingNo64EvosMoves
-	dw WigglytuffEvosMoves
+	dw MissingNo65EvosMoves
 	dw EeveeEvosMoves
 	dw FlareonEvosMoves
 	dw JolteonEvosMoves
@@ -917,10 +917,15 @@ GolettEvosMoves:
 	db 37, EARTHQUAKE
 	db 0
 
-MissingNo3FEvosMoves:
+DrifloonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 13, MINIMIZE
+	db 20, ASTONISH
+	db 27, GUST
+	db 34, FOCUS_ENERGY
+	db 41, EXPLOSION
 	db 0
 
 FarfetchdEvosMoves:
@@ -1277,7 +1282,7 @@ MissingNo64EvosMoves:
 ; Learnset
 	db 0
 
-WigglytuffEvosMoves:
+MissingNo65EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset

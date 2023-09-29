@@ -66,7 +66,7 @@ MonPartyData:
 	nybble ICON_BIRD      ; Ducklett
 	nybble ICON_QUADRUPED ; Miltank
 	nybble ICON_MON       ; Gible
-	nybble ICON_FAIRY     ; Wigglytuff
+	nybble ICON_BALL      ; Drifloon
 	nybble ICON_MON       ; Gabite
 	nybble ICON_GRASS     ; Bellsprout
 	nybble ICON_GRASS     ; Weepinbell

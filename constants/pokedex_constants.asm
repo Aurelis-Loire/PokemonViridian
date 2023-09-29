@@ -70,7 +70,7 @@
 	const DEX_DUCKLETT   ; 64
 	const DEX_MILTANK    ; 65
 	const DEX_GIBLE      ; 66
-	const DEX_WIGGLYTUFF ; 67
+	const DEX_DRIFLOON   ; 67
 	const DEX_GABITE     ; 68
 	const DEX_BELLSPROUT ; 69
 	const DEX_WEEPINBELL ; 70

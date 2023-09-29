@@ -62,7 +62,7 @@ PokedexEntryPointers:
 	dw TaurosDexEntry
 	dw SigilyphDexEntry
 	dw GolettDexEntry
-	dw MissingNoDexEntry
+	dw DrifloonDexEntry
 	dw FarfetchdDexEntry
 	dw VenonatDexEntry
 	dw DragoniteDexEntry
@@ -100,7 +100,7 @@ PokedexEntryPointers:
 	dw OmanyteDexEntry
 	dw OmastarDexEntry
 	dw MissingNoDexEntry
-	dw WigglytuffDexEntry
+	dw MissingNoDexEntry
 	dw EeveeDexEntry
 	dw FlareonDexEntry
 	dw JolteonDexEntry
@@ -631,6 +631,13 @@ GolettDexEntry:
 	text_far _GolettDexEntry
 	text_end
 	
+DrifloonDexEntry:
+	db "BALLOON@"
+	db 1,4
+	dw 26
+	text_far _DrifloonDexEntry
+	text_end
+	
 FarfetchdDexEntry:
 	db "WILD DUCK@"
 	db 2,7
@@ -797,13 +804,6 @@ OmastarDexEntry:
 	db 3,3
 	dw 770
 	text_far _OmastarDexEntry
-	text_end
-
-WigglytuffDexEntry:
-	db "BALLOON@"
-	db 3,3
-	dw 260
-	text_far _WigglytuffDexEntry
 	text_end
 
 EeveeDexEntry:

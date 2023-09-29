@@ -7,7 +7,7 @@ CeruleanCave2FWildMons:
 	db 52, MAROWAK
 	db 52, ELECTRODE
 	db 56, CHANSEY
-	db 54, WIGGLYTUFF
+	db 54, RAPIDASH
 	db 55, DITTO
 	db 60, DITTO
 	end_grass_wildmons
