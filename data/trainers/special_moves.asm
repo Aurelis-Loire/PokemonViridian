@@ -12,6 +12,19 @@ SpecialTrainerMoves:
 	db YOUNGSTER, 14
 	db 1, 4, FISSURE
 	db 0
+	
+	db BEAUTY, 2
+	db 1, 4, CONFUSE_RAY
+	db 2, 4, CONFUSE_RAY
+	db 0
+	
+	db JR_TRAINER_F, 11
+	db 1, 4, CONFUSE_RAY
+	db 0
+	
+	db LASS, 18
+	db 1, 4, CONFUSE_RAY
+	db 0
 
 	db BROCK, 1
 	db 2, 2, POWDER_SNOW
