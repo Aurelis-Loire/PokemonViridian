@@ -498,10 +498,40 @@ UpdateStatDone:
 	                             ; even to those not affected by the stat-up move (will be boosted further)
 	ld hl, MonsStatsRoseText
 	call PrintText
-
 ; these shouldn't be here
-	call QuarterSpeedDueToParalysis ; apply speed penalty to the player whose turn is not, if it's paralyzed
-	jp HalveAttackDueToBurn ; apply attack penalty to the player whose turn is not, if it's burned
+	;call QuarterSpeedDueToParalysis ; apply speed penalty to the player whose turn is not, if it's paralyzed
+	;jp HalveAttackDueToBurn ; apply attack penalty to the player whose turn is not, if it's burned
+	;Below code is from shinpokered to apply the appropriate application of Burn/Paralysis stat penalties.
+	push de	;preserve de on the stack
+	ld de, wPlayerMoveEffect	;get the player move effect
+	ld a, [hWhoseTurn]	;load the turn
+	and a	;check the turn
+	jr z, .skip1	;if it is not the player's turn...
+	ld de, wEnemyMoveEffect	;...then it's the enemy's turn - load enemy move effect
+.skip1
+	xor $1	;invert the turn
+	ld [hWhoseTurn], a	;store the inverted turn
+	ld a, [de]	;get the move effect into a
+	cp ATTACK_UP1_EFFECT
+	jr z, .skip_brn	;attack effect. skip to brn penalty
+	cp ATTACK_UP2_EFFECT
+	jr z, .skip_brn	;attack effect. skip to brn penalty
+	cp SPEED_UP1_EFFECT
+	jr z, .skip_par	;speed effect. skip to par penalty.
+	cp SPEED_UP2_EFFECT
+	jr z, .skip_par	;speed effect. skip to par penalty.
+	jr .skip_end	;no attack or speed effect if at this line. skip to end.
+.skip_brn
+	call HalveAttackDueToBurn	;the active pkmn has a new recalculated attack. the non-active pkmn applies brn penalty to its opponent.
+	jr .skip_end
+.skip_par
+	call QuarterSpeedDueToParalysis	;the active pkmn has a new recalculated speed. the non-active pkmn applies par penalty to its opponent.
+.skip_end
+	ld a, [hWhoseTurn]	;load the inverted turn
+	xor $1	;revert the turn back to normal
+	ld [hWhoseTurn], a	;store the normal turn
+	pop de	;restore de from the stack
+	ret	;remember to return
 
 RestoreOriginalStatModifier:
 	pop hl
