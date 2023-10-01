@@ -7,14 +7,14 @@ _ErikaPreBattleText::
 	line "I must have dozed"
 	cont "off. Welcome."
 
-	para "My name is ERIKA."
+	para "My name is ALYSSA."
 	line "I am the LEADER"
 	cont "of CELADON GYM."
 
 	para "I teach the art of"
 	line "flower arranging."
 	cont "My #MON are of"
-	cont "the grass-type."
+	cont "the ghost-type."
 
 	para "Oh, I'm sorry, I"
 	line "had no idea that"
@@ -99,7 +99,7 @@ _CeladonGymEndBattleText2::
 
 _CeladonGymAfterBattleText2::
 	text "Bleaah!"
-	line "I hope ERIKA"
+	line "I hope ALYSSA"
 	cont "wipes you out!"
 	done
 
@@ -114,13 +114,14 @@ _CeladonGymEndBattleText3::
 	prompt
 
 _CeladonGymAfterBattleText3::
-	text "Grass-type #MON"
+	text "Ghost-type #MON"
 	line "are tough against"
-	cont "the water-type!"
+	cont "other ghosts!"
 
-	para "They also have an"
-	line "edge on rock and"
-	cont "ground #MON!"
+	para "They are also"
+	line "immune to normal"
+	cont "and fighting"
+	cont "#MON!"
 	done
 
 _CeladonGymBattleText4::
@@ -140,7 +141,7 @@ _CeladonGymAfterBattleText4::
 	done
 
 _CeladonGymBattleText5::
-	text "Look at my grass"
+	text "Look at my spooky"
 	line "#MON!"
 
 	para "They're so easy"
@@ -152,19 +153,18 @@ _CeladonGymEndBattleText5::
 	prompt
 
 _CeladonGymAfterBattleText5::
-	text "We only use grass-"
+	text "We only use ghost-"
 	line "type #MON at"
 	cont "our GYM!"
 
 	para "We also use them"
-	line "for making flower"
-	cont "arrangements!"
+	line "for creating"
+	cont "haunted houses!"
 	done
 
 _CeladonGymBattleText6::
 	text "Don't bring any"
-	line "bugs or fire"
-	cont "#MON in here!"
+	line "wailmers in here!"
 	done
 
 _CeladonGymEndBattleText6::
@@ -173,10 +173,11 @@ _CeladonGymEndBattleText6::
 	prompt
 
 _CeladonGymAfterBattleText6::
-	text "Our LEADER, ERIKA,"
-	line "might be quiet,"
-	cont "but she's also"
-	cont "very skilled!"
+	text "Our LEADER,"
+	line "ALYSSA, might be"
+	cont "cute, but she's"
+	cont "also very"
+	cont "skilled!"
 	done
 
 _CeladonGymBattleText7::
