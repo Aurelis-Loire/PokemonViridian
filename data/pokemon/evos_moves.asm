@@ -1724,11 +1724,10 @@ MarowakEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, LEER
-	db 33, FOCUS_ENERGY
+	db 33, EMBER
 	db 41, THRASH
 	db 48, BONEMERANG
-	db 55, RAGE
+	db 55, ASTONISH
 	db 0
 
 MissingNo92EvosMoves:

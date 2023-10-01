@@ -1215,13 +1215,13 @@ _PersianDexEntry::
 	dex
 
 _MarowakDexEntry::
-	text "The bone it holds"
-	next "is its key weapon."
-	next "It throws the"
+	text "The bones it"
+	next "possesses were"
+	next "once its mother's."
 
-	page "bone skillfully"
-	next "like a boomerang"
-	next "to KO targets"
+	page "Its mother's"
+	next "regrets have"
+	next "protected it"
 	dex
 
 _HaunterDexEntry::

@@ -1054,7 +1054,7 @@ PersianDexEntry:
 MarowakDexEntry:
 	db "BONEKEEPER@"
 	db 3,3
-	dw 990
+	dw 750
 	text_far _MarowakDexEntry
 	text_end
 
