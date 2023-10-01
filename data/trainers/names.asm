@@ -36,7 +36,7 @@ TrainerNames::
 	li "DIANA"
 	li "MATT"
 	li "ALEX"
-	li "ERIKA"
+	li "ALYSSA"
 	li "KOGA"
 	li "BLAINE"
 	li "SABRINA"
