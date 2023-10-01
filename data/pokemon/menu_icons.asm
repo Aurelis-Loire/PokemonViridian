@@ -82,7 +82,7 @@ MonPartyData:
 	nybble ICON_GRASS     ; Gloom
 	nybble ICON_BALL      ; Magnemite
 	nybble ICON_BALL      ; Magneton
-	nybble ICON_BIRD      ; Farfetch'd
+	nybble ICON_BALL      ; Chandelure
 	nybble ICON_BIRD      ; Doduo
 	nybble ICON_BIRD      ; Dodrio
 	nybble ICON_MON       ; Croagunk

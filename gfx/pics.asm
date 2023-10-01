@@ -132,8 +132,8 @@ SECTION "Pics 3", ROMX
 
 DrifloonPicFront::    INCBIN "gfx/pokemon/front/drifloon.pic"
 DrifloonPicBack::     INCBIN "gfx/pokemon/back/drifloonb.pic"
-FarfetchdPicFront::   INCBIN "gfx/pokemon/front/farfetchd.pic"
-FarfetchdPicBack::    INCBIN "gfx/pokemon/back/farfetchdb.pic"
+ChandelurePicFront::  INCBIN "gfx/pokemon/front/chandelure.pic"
+ChandelurePicBack::   INCBIN "gfx/pokemon/back/chandelureb.pic"
 VenonatPicFront::     INCBIN "gfx/pokemon/front/venonat.pic"
 VenonatPicBack::      INCBIN "gfx/pokemon/back/venonatb.pic"
 DragonitePicFront::   INCBIN "gfx/pokemon/front/dragonite.pic"

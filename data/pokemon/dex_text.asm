@@ -625,14 +625,14 @@ _DrifloonDexEntry::
 	next "seasons"
 	dex
 
-_FarfetchdDexEntry::
-	text "The sprig of"
-	next "green onions it"
-	next "holds is its"
+_ChandelureDexEntry::
+	text "It absorbs a"
+	next "spirit, which it"
+	next "then burns. By"
 
-	page "weapon. It is"
-	next "used much like a"
-	next "metal sword"
+	page "waving the flames"
+	next "on its arms, it"
+	next "hypnotizes foes"
 	dex
 
 _VenonatDexEntry::

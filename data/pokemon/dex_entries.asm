@@ -63,7 +63,7 @@ PokedexEntryPointers:
 	dw SigilyphDexEntry
 	dw GolettDexEntry
 	dw DrifloonDexEntry
-	dw FarfetchdDexEntry
+	dw ChandelureDexEntry
 	dw VenonatDexEntry
 	dw DragoniteDexEntry
 	dw MissingNoDexEntry
@@ -638,11 +638,11 @@ DrifloonDexEntry:
 	text_far _DrifloonDexEntry
 	text_end
 	
-FarfetchdDexEntry:
-	db "WILD DUCK@"
-	db 2,7
-	dw 330
-	text_far _FarfetchdDexEntry
+ChandelureDexEntry:
+	db "LURING@"
+	db 3,3
+	dw 756
+	text_far _ChandelureDexEntry
 	text_end
 
 VenonatDexEntry:

@@ -70,7 +70,7 @@
 	const SIGILYPH           ; $3D
 	const GOLETT             ; $3E
 	const DRIFLOON           ; $3F
-	const FARFETCHD          ; $40
+	const CHANDELURE         ; $40
 	const VENONAT            ; $41
 	const DRAGONITE          ; $42
 	const_skip               ; $43

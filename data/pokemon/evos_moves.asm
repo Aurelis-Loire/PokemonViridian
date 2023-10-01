@@ -66,7 +66,7 @@ EvosMovesPointerTable:
 	dw SigilyphEvosMoves
 	dw GolettEvosMoves
 	dw DrifloonEvosMoves
-	dw FarfetchdEvosMoves
+	dw ChandelureEvosMoves
 	dw VenonatEvosMoves
 	dw DragoniteEvosMoves
 	dw MissingNo43EvosMoves
@@ -928,15 +928,15 @@ DrifloonEvosMoves:
 	db 41, EXPLOSION
 	db 0
 
-FarfetchdEvosMoves:
+ChandelureEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, LEER
-	db 15, FURY_ATTACK
-	db 23, SWORDS_DANCE
-	db 31, AGILITY
-	db 39, SLASH
+	db 15, MINIMIZE
+	db 23, SMOG
+	db 31, FIRE_SPIN
+	db 39, CONFUSE_RAY
+	db 47, NIGHT_SHADE
 	db 0
 
 VenonatEvosMoves:

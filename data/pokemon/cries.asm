@@ -69,7 +69,7 @@ CryData::
 	mon_cry SFX_CRY_19, $00, $7A ; Sigilyph
 	mon_cry SFX_CRY_1C, $50, $5E ; Golett
 	mon_cry SFX_CRY_24, $35, $6D ; Drifloon
-	mon_cry SFX_CRY_10, $DD, $01 ; Farfetch'd
+	mon_cry SFX_CRY_1D, $E3, $66 ; Chandelure
 	mon_cry SFX_CRY_1A, $44, $40 ; Venonat
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Dragonite
 	mon_cry SFX_CRY_00, $80, $10 ; MissingNo.

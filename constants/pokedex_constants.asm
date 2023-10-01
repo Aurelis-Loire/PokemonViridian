@@ -86,7 +86,7 @@
 	const DEX_GLOOM      ; 80
 	const DEX_MAGNEMITE  ; 81
 	const DEX_MAGNETON   ; 82
-	const DEX_FARFETCHD  ; 83
+	const DEX_CHANDELURE ; 83
 	const DEX_DODUO      ; 84
 	const DEX_DODRIO     ; 85
 	const DEX_CROAGUNK   ; 86

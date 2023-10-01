@@ -63,7 +63,7 @@ MonsterNames::
 	db "SIGILYPH@@"
 	db "GOLETT@@@@"
 	db "DRIFLOON@@"
-	db "FARFETCH'D"
+	db "CHANDELURE"
 	db "VENONAT@@@"
 	db "DRAGONITE@"
 	db "MISSINGNO."
