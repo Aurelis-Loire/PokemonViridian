@@ -292,6 +292,7 @@ IvysaurEvosMoves:
 	db 13, VINE_WHIP
 	db 22, POISONPOWDER
 	db 30, RAZOR_LEAF
+	db 34, SWEET_SCENT
 	db 38, GROWTH
 	db 46, SLEEP_POWDER
 	db 54, SOLARBEAM
@@ -485,6 +486,7 @@ ScytherEvosMoves:
 	db 29, SLASH
 	db 35, SWORDS_DANCE
 	db 42, AGILITY
+	db 50, WING_ATTACK
 	db 0
 
 StaryuEvosMoves:
@@ -655,6 +657,7 @@ ChanseyEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 12, DOUBLESLAP
 	db 24, SING
 	db 30, GROWL
 	db 38, MINIMIZE
@@ -839,8 +842,8 @@ SalanditEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, POISON_GAS
-	db 35, EMBER
+	db 5, POISON_GAS
+	db 16, EMBER
 	db 40, SWEET_SCENT
 	db 45, DRAGON_RAGE
 	db 50, SMOG
@@ -1805,6 +1808,7 @@ BulbasaurEvosMoves:
 	db 13, VINE_WHIP
 	db 20, POISONPOWDER
 	db 27, RAZOR_LEAF
+	db 30, SWEET_SCENT
 	db 34, GROWTH
 	db 41, SLEEP_POWDER
 	db 48, SOLARBEAM
@@ -1818,6 +1822,7 @@ VenusaurEvosMoves:
 	db 13, VINE_WHIP
 	db 22, POISONPOWDER
 	db 30, RAZOR_LEAF
+	db 37, SWEET_SCENT
 	db 43, GROWTH
 	db 55, SLEEP_POWDER
 	db 65, SOLARBEAM
