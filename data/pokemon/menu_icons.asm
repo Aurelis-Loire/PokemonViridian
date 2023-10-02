@@ -49,7 +49,7 @@ MonPartyData:
 	nybble ICON_SNAKE     ; Gyarados
 	nybble ICON_QUADRUPED ; Mareep
 	nybble ICON_MON       ; Flaaffy
-	nybble ICON_QUADRUPED ; Leafeon
+	nybble ICON_WATER     ; Tentacruel
 	nybble ICON_MON       ; Diglett
 	nybble ICON_MON       ; Dugtrio
 	nybble ICON_MON       ; Meowth
@@ -63,31 +63,31 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Arcanine
 	nybble ICON_GRASS     ; Bounsweet
 	nybble ICON_GRASS     ; Steenee
-	nybble ICON_BIRD      ; Ducklett
+	nybble ICON_GRASS     ; Oddish
 	nybble ICON_QUADRUPED ; Miltank
-	nybble ICON_MON       ; Gible
-	nybble ICON_BALL      ; Drifloon
-	nybble ICON_MON       ; Gabite
-	nybble ICON_GRASS     ; Bellsprout
-	nybble ICON_GRASS     ; Weepinbell
-	nybble ICON_GRASS     ; Victreebel
-	nybble ICON_MON       ; Poliwrath
-	nybble ICON_WATER     ; Tentacruel
-	nybble ICON_MON       ; Geodude
-	nybble ICON_MON       ; Golett
+	nybble ICON_BALL      ; Voltorb
+	nybble ICON_BALL      ; Electrode
+	nybble ICON_QUADRUPED ; Eevee
+	nybble ICON_QUADRUPED ; Vaporeon
+	nybble ICON_QUADRUPED ; Jolteon
+	nybble ICON_QUADRUPED ; Flareon
 	nybble ICON_QUADRUPED ; Espeon
+	nybble ICON_QUADRUPED ; Leafeon
+	nybble ICON_MON       ; Gible
+	nybble ICON_MON       ; Gabite
+	nybble ICON_MON       ; Poliwrath
 	nybble ICON_QUADRUPED ; Ponyta
 	nybble ICON_QUADRUPED ; Rapidash
-	nybble ICON_GRASS     ; Oddish
+	nybble ICON_BIRD      ; Ducklett
 	nybble ICON_GRASS     ; Gloom
 	nybble ICON_BALL      ; Magnemite
 	nybble ICON_BALL      ; Magneton
-	nybble ICON_BALL      ; Chandelure
+	nybble ICON_MON       ; Salandit
 	nybble ICON_BIRD      ; Doduo
 	nybble ICON_BIRD      ; Dodrio
 	nybble ICON_MON       ; Croagunk
 	nybble ICON_WATER     ; Dewgong
-	nybble ICON_MON       ; Salandit
+	nybble ICON_BALL      ; Chandelure
 	nybble ICON_MON       ; Muk
 	nybble ICON_HELIX     ; Shellder
 	nybble ICON_HELIX     ; Cloyster
@@ -99,8 +99,8 @@ MonPartyData:
 	nybble ICON_MON       ; Hypno
 	nybble ICON_WATER     ; Krabby
 	nybble ICON_WATER     ; Kingler
-	nybble ICON_BALL      ; Voltorb
-	nybble ICON_BALL      ; Electrode
+	nybble ICON_MON       ; Geodude
+	nybble ICON_BALL      ; Drifloon
 	nybble ICON_GRASS     ; Exeggcute
 	nybble ICON_GRASS     ; Exeggutor
 	nybble ICON_MON       ; Cubone
@@ -132,10 +132,10 @@ MonPartyData:
 	nybble ICON_BIRD      ; Sigilyph
 	nybble ICON_WATER     ; Lapras
 	nybble ICON_MON       ; Ditto
-	nybble ICON_QUADRUPED ; Eevee
-	nybble ICON_QUADRUPED ; Vaporeon
-	nybble ICON_QUADRUPED ; Jolteon
-	nybble ICON_QUADRUPED ; Flareon
+	nybble ICON_MON       ; Golett
+	nybble ICON_GRASS     ; Bellsprout
+	nybble ICON_GRASS     ; Weepinbell
+	nybble ICON_GRASS     ; Victreebel
 	nybble ICON_MON       ; Porygon
 	nybble ICON_HELIX     ; Omanyte
 	nybble ICON_HELIX     ; Omastar

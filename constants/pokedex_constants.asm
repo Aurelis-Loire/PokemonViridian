@@ -53,7 +53,7 @@
 	const DEX_GYARADOS   ; 47
 	const DEX_MAREEP     ; 48
 	const DEX_FLAAFFY    ; 49
-	const DEX_LEAFEON    ; 50
+	const DEX_TENTACRUEL ; 50
 	const DEX_DIGLETT    ; 51
 	const DEX_DUGTRIO    ; 52
 	const DEX_MEOWTH     ; 53
@@ -67,31 +67,31 @@
 	const DEX_ARCANINE   ; 61
 	const DEX_BOUNSWEET  ; 62
 	const DEX_STEENEE    ; 63
-	const DEX_DUCKLETT   ; 64
+	const DEX_ODDISH     ; 64
 	const DEX_MILTANK    ; 65
-	const DEX_GIBLE      ; 66
-	const DEX_DRIFLOON   ; 67
-	const DEX_GABITE     ; 68
-	const DEX_BELLSPROUT ; 69
-	const DEX_WEEPINBELL ; 70
-	const DEX_VICTREEBEL ; 71
-	const DEX_POLIWRATH  ; 72
-	const DEX_TENTACRUEL ; 73
-	const DEX_GEODUDE    ; 74
-	const DEX_GOLETT     ; 75
-	const DEX_ESPEON     ; 76
+	const DEX_VOLTORB    ; 66
+	const DEX_ELECTRODE  ; 67
+	const DEX_EEVEE      ; 68
+	const DEX_VAPOREON   ; 69
+	const DEX_JOLTEON    ; 70
+	const DEX_FLAREON    ; 71
+	const DEX_ESPEON     ; 72
+	const DEX_LEAFEON    ; 73
+	const DEX_GIBLE      ; 74
+	const DEX_GABITE     ; 75
+	const DEX_POLIWRATH  ; 76
 	const DEX_PONYTA     ; 77
 	const DEX_RAPIDASH   ; 78
-	const DEX_ODDISH     ; 79
+	const DEX_DUCKLETT   ; 79
 	const DEX_GLOOM      ; 80
 	const DEX_MAGNEMITE  ; 81
 	const DEX_MAGNETON   ; 82
-	const DEX_CHANDELURE ; 83
+	const DEX_SALANDIT   ; 83
 	const DEX_DODUO      ; 84
 	const DEX_DODRIO     ; 85
 	const DEX_CROAGUNK   ; 86
 	const DEX_DEWGONG    ; 87
-	const DEX_SALANDIT   ; 88
+	const DEX_CHANDELURE ; 88
 	const DEX_MUK        ; 89
 	const DEX_SHELLDER   ; 90
 	const DEX_CLOYSTER   ; 91
@@ -103,8 +103,8 @@
 	const DEX_HYPNO      ; 97
 	const DEX_KRABBY     ; 98
 	const DEX_KINGLER    ; 99
-	const DEX_VOLTORB    ; 100
-	const DEX_ELECTRODE  ; 101
+	const DEX_GEODUDE    ; 100
+	const DEX_DRIFLOON   ; 101
 	const DEX_EXEGGCUTE  ; 102
 	const DEX_EXEGGUTOR  ; 103
 	const DEX_CUBONE     ; 104
@@ -136,10 +136,10 @@
 	const DEX_SIGILYPH   ; 130
 	const DEX_LAPRAS     ; 131
 	const DEX_DITTO      ; 132
-	const DEX_EEVEE      ; 133
-	const DEX_VAPOREON   ; 134
-	const DEX_JOLTEON    ; 135
-	const DEX_FLAREON    ; 136
+	const DEX_GOLETT     ; 133
+	const DEX_BELLSPROUT ; 134
+	const DEX_WEEPINBELL ; 135
+	const DEX_VICTREEBEL ; 136
 	const DEX_PORYGON    ; 137
 	const DEX_OMANYTE    ; 138
 	const DEX_OMASTAR    ; 139
