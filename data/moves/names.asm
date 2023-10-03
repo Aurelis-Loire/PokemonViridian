@@ -146,7 +146,7 @@ MoveNames::
 	li "TRANSFORM"
 	li "BUBBLE"
 	li "DIZZY PUNCH"
-	li "SPORE"
+	li "SAFEGUARD"
 	li "FLASH"
 	li "PSYWAVE"
 	li "SPLASH"

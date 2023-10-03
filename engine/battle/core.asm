@@ -5428,6 +5428,36 @@ MoveHitTest:
 	bit PROTECTED_BY_MIST, a ; is mon protected by mist?
 	jp nz, .moveMissed
 .skipEnemyMistCheck
+	cp POISON_SIDE_EFFECT1
+	jr c, .skipEnemySafeguardCheck
+	cp POISON_SIDE_EFFECT1 + 1
+	jr c, .enemySafeguardCheck
+	cp BURN_SIDE_EFFECT1
+	jr c, .skipEnemySafeguardCheck
+	cp PARALYZE_SIDE_EFFECT1 + 1
+	jr c, .enemySafeguardCheck
+	cp SLEEP_EFFECT
+	jr c, .skipEnemySafeguardCheck
+	cp PARALYZE_SIDE_EFFECT2 + 1
+	jr c, .enemySafeguardCheck
+	cp CONFUSION_EFFECT
+	jr c, .skipEnemySafeguardCheck
+	cp CONFUSION_EFFECT + 1
+	jr c, .enemySafeguardCheck
+	cp POISON_EFFECT
+	jr c, .skipEnemySafeguardCheck
+	cp PARALYZE_EFFECT + 1
+	jr c, .enemySafeguardCheck
+	cp CONFUSION_SIDE_EFFECT
+	jr c, .skipEnemySafeguardCheck
+	cp CONFUSION_SIDE_EFFECT + 1
+	jr c, .enemySafeguardCheck
+	jr .skipEnemySafeguardCheck
+.enemySafeguardCheck
+	ld a, [wEnemyBattleStatus2]
+	bit HAS_SAFEGUARD, a ; is mon protected by safeguard?
+	jp nz, .moveMissed
+.skipEnemySafeguardCheck
 	ld a, [wPlayerBattleStatus2]
 	bit USING_X_ACCURACY, a ; is the player using X Accuracy?
 	ret nz ; if so, always hit regardless of accuracy/evasion
@@ -5449,6 +5479,36 @@ MoveHitTest:
 	bit PROTECTED_BY_MIST, a ; is mon protected by mist?
 	jp nz, .moveMissed
 .skipPlayerMistCheck
+	cp POISON_SIDE_EFFECT1
+	jr c, .skipPlayerSafeguardCheck
+	cp POISON_SIDE_EFFECT1 + 1
+	jr c, .playerSafeguardCheck
+	cp BURN_SIDE_EFFECT1
+	jr c, .skipPlayerSafeguardCheck
+	cp PARALYZE_SIDE_EFFECT1 + 1
+	jr c, .playerSafeguardCheck
+	cp SLEEP_EFFECT
+	jr c, .skipPlayerSafeguardCheck
+	cp PARALYZE_SIDE_EFFECT2 + 1
+	jr c, .playerSafeguardCheck
+	cp CONFUSION_EFFECT
+	jr c, .skipPlayerSafeguardCheck
+	cp CONFUSION_EFFECT + 1
+	jr c, .playerSafeguardCheck
+	cp POISON_EFFECT
+	jr c, .skipPlayerSafeguardCheck
+	cp PARALYZE_EFFECT + 1
+	jr c, .playerSafeguardCheck
+	cp CONFUSION_SIDE_EFFECT
+	jr c, .skipPlayerSafeguardCheck
+	cp CONFUSION_SIDE_EFFECT + 1
+	jr c, .playerSafeguardCheck
+	jr .skipPlayerSafeguardCheck
+.playerSafeguardCheck
+	ld a, [wPlayerBattleStatus2]
+	bit HAS_SAFEGUARD, a ; is mon protected by safeguard?
+	jp nz, .moveMissed
+.skipPlayerSafeguardCheck
 	ld a, [wEnemyBattleStatus2]
 	bit USING_X_ACCURACY, a ; is the enemy using X Accuracy?
 	ret nz ; if so, always hit regardless of accuracy/evasion

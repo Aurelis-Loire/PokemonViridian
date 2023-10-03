@@ -147,7 +147,7 @@ MoveSoundTable:
 	db SFX_FAINT_FALL,         $ff, $ff ; TRANSFORM
 	db SFX_BATTLE_24,          $ff, $10 ; BUBBLE
 	db SFX_FAINT_FALL,         $ff, $04 ; DIZZY_PUNCH
-	db SFX_BATTLE_1C,          $01, $ff ; SPORE
+	db SFX_BATTLE_0C,          $18, $a6 ; SAFEGUARD
 	db SFX_BATTLE_13,          $f8, $ff ; FLASH
 	db SFX_BATTLE_0C,          $f0, $f0 ; PSYWAVE
 	db SFX_BATTLE_0F,          $08, $10 ; SPLASH

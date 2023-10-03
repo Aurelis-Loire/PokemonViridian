@@ -1409,6 +1409,9 @@ HazeEffect:
 	
 RefreshEffect:
 	jpfar RefreshEffect_
+	
+SafeguardEffect:
+	jpfar SafeguardEffect_
 
 HealEffect:
 	jpfar HealEffect_

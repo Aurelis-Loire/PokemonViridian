@@ -310,6 +310,11 @@ _ShroudedInMistText::
 	text "<USER>'s"
 	line "shrouded in mist!"
 	prompt
+	
+_SafeguardText::
+	text "<USER>'s"
+	line "covered by a veil!"
+	prompt
 
 _SuckedHealthText::
 	text "Sucked health from"

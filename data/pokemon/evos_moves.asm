@@ -836,6 +836,7 @@ MiloticEvosMoves:
 	db 28, REFRESH
 	db 38, RECOVER
 	db 43, HYDRO_PUMP
+	db 48, SAFEGUARD
 	db 0
 
 SalanditEvosMoves:
@@ -1395,7 +1396,6 @@ ParasEvosMoves:
 ; Learnset
 	db 13, STUN_SPORE
 	db 20, LEECH_LIFE
-	db 27, SPORE
 	db 34, SLASH
 	db 41, GROWTH
 	db 0
@@ -1547,6 +1547,7 @@ ButterfreeEvosMoves:
 	db 23, WHIRLWIND
 	db 28, GUST
 	db 34, PSYBEAM
+	db 40, SAFEGUARD
 	db 0
 
 GabiteEvosMoves:

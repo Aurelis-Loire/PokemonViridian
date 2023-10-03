@@ -170,6 +170,7 @@ INCLUDE "engine/slots/game_corner_slots2.asm"
 SECTION "Battle Engine 6", ROMX
 
 INCLUDE "engine/battle/move_effects/mist.asm"
+INCLUDE "engine/battle/move_effects/safeguard.asm"
 INCLUDE "engine/battle/move_effects/one_hit_ko.asm"
 
 

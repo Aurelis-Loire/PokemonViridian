@@ -146,7 +146,7 @@ AttackAnimationPointers:
 	dw TransformAnim
 	dw BubbleAnim
 	dw DizzyPunchAnim
-	dw SporeAnim
+	dw SafeguardAnim
 	dw FlashAnim
 	dw PsywaveAnim
 	dw SplashAnim
@@ -1057,8 +1057,8 @@ DizzyPunchAnim:
 	battle_anim DOUBLESLAP, SUBANIM_0_STAR_THRICE, 0, 6
 	db -1 ; end
 
-SporeAnim:
-	battle_anim SPORE, SUBANIM_0_CIRCLES_FALLING, 0, 6
+SafeguardAnim:
+	battle_anim SAFEGUARD, SE_SPIRAL_BALLS_INWARD
 	db -1 ; end
 
 FlashAnim:
