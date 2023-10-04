@@ -14,8 +14,9 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        HYPER_BEAM,   SOLARBEAM,    PSYCHIC_M,    DOUBLE_TEAM,  \
-	     FIRE_BLAST,   DREAM_EATER,  REST,         SUBSTITUTE,   FLASH
+	tmhm SHADOW_BALL,  TOXIC,        HYPER_BEAM,   SOLARBEAM,    PSYCHIC_M,    \
+	     DOUBLE_TEAM,  FIRE_BLAST,   DREAM_EATER,  REST,         SUBSTITUTE,   \
+		 FLASH
 	; end
 
 	db 0 ; padding

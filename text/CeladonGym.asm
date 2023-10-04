@@ -71,13 +71,11 @@ _ReceivedTM21Text::
 _TM21ExplanationText::
 	text_start
 
-	para "TM21 contains"
-	line "MEGA DRAIN."
+	para "TM04 contains"
+	line "SHADOW BALL."
 
-	para "Half the damage"
-	line "it inflicts is"
-	cont "drained to heal"
-	cont "your #MON!"
+	para "Use it on your"
+	line "spookiest #MON!"
 	done
 
 _TM21NoRoomText::

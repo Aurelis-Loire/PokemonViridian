@@ -14,9 +14,9 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    DOUBLE_EDGE,  THUNDERBOLT,  PSYCHIC_M,    \
-	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      DREAM_EATER,  \
-	     REST,         THUNDER_WAVE, SUBSTITUTE,   FLASH
+	tmhm SHADOW_BALL,  TOXIC,        BODY_SLAM,    DOUBLE_EDGE,  THUNDERBOLT,  \
+	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     DREAM_EATER,  REST,         THUNDER_WAVE, SUBSTITUTE,   FLASH
 	; end
 
 	db 0 ; padding
