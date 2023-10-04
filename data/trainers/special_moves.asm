@@ -65,7 +65,7 @@ SpecialTrainerMoves:
 	db 0
 	
 	db ERIKA, 1
-	db 3, 2, NIGHT_SHADE
+	db 3, 2, SHADOW_BALL
 	db 0
 
 	db KOGA, 1
