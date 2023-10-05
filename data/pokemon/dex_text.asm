@@ -664,6 +664,16 @@ _GardevoirDexEntry::
 	next "danger it will"
 	next "unleash energy"
 	dex
+	
+_AmpharosDexEntry::
+	text "The tail's tip"
+	next "shines brightly"
+	next "and can be seen"
+
+	page "from far away. It"
+	next "acts as a beacon"
+	next "for lost people"
+	dex
 
 _DoduoDexEntry::
 	text "A bird that makes"
@@ -1452,16 +1462,6 @@ _CharizardDexEntry::
 	page "Known to cause"
 	next "forest fires"
 	next "unintentionally"
-	dex
-
-_GloomDexEntry::
-	text "The fluid that"
-	next "oozes from its"
-	next "mouth isn't drool."
-
-	page "It is a nectar"
-	next "that is used to"
-	next "attract prey"
 	dex
 
 _VileplumeDexEntry::

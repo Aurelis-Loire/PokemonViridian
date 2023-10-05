@@ -83,7 +83,7 @@
 	const DEX_PONYTA     ; 77
 	const DEX_RAPIDASH   ; 78
 	const DEX_DUCKLETT   ; 79
-	const DEX_GLOOM      ; 80
+	const DEX_AMPHAROS   ; 80
 	const DEX_MAGNEMITE  ; 81
 	const DEX_MAGNETON   ; 82
 	const DEX_SALANDIT   ; 83

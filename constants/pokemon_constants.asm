@@ -74,7 +74,7 @@
 	const VENONAT            ; $41
 	const DRAGONITE          ; $42
 	const GARDEVOIR          ; $43
-	const_skip               ; $44
+	const AMPHAROS           ; $44
 	const_skip               ; $45
 	const DODUO              ; $46
 	const POLIWAG            ; $47
@@ -192,7 +192,7 @@
 	const FOSSIL_AERODACTYL  ; $B7
 	const MON_GHOST          ; $B8
 	const_skip               ; $B9
-	const GLOOM              ; $BA
+	const_skip               ; $BA
 	const VILEPLUME          ; $BB
 	const BELLSPROUT         ; $BC
 	const WEEPINBELL         ; $BD

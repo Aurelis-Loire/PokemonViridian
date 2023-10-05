@@ -70,7 +70,7 @@ EvosMovesPointerTable:
 	dw VenonatEvosMoves
 	dw DragoniteEvosMoves
 	dw GardevoirEvosMoves
-	dw MissingNo44EvosMoves
+	dw AmpharosEvosMoves
 	dw MissingNo45EvosMoves
 	dw DoduoEvosMoves
 	dw PoliwagEvosMoves
@@ -139,7 +139,7 @@ EvosMovesPointerTable:
 	dw MissingNo86EvosMoves
 	dw MissingNo87EvosMoves
 	dw MukEvosMoves
-	dw MissingNo8AEvosMoves
+	dw MissingNo89EvosMoves
 	dw KinglerEvosMoves
 	dw CloysterEvosMoves
 	dw MissingNo8CEvosMoves
@@ -188,7 +188,7 @@ EvosMovesPointerTable:
 	dw FossilAerodactylEvosMoves
 	dw MonGhostEvosMoves
 	dw MissingNoB9EvosMoves
-	dw GloomEvosMoves
+	dw MissingNoBAEvosMoves
 	dw VileplumeEvosMoves
 	dw BellsproutEvosMoves
 	dw WeepinbellEvosMoves
@@ -644,6 +644,7 @@ KadabraEvosMoves:
 
 FlaaffyEvosMoves:
 ; Evolutions
+    db EV_LEVEL, 30, AMPHAROS
 	db 0
 ; Learnset
 	db 8, THUNDERSHOCK
@@ -978,10 +979,13 @@ GardevoirEvosMoves:
 	db 54, HYPNOSIS
 	db 0
 
-MissingNo44EvosMoves:
+AmpharosEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 30, THUNDERPUNCH
+	db 37, LIGHT_SCREEN
+	db 48, THUNDER
 	db 0
 
 MissingNo45EvosMoves:
@@ -1655,7 +1659,7 @@ MukEvosMoves:
 	db 60, ACID_ARMOR
 	db 0
 
-MissingNo8AEvosMoves:
+MissingNo89EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
@@ -2107,17 +2111,10 @@ MissingNoB9EvosMoves:
 ; Learnset
 	db 0
 
-GloomEvosMoves:
+MissingNoBAEvosMoves:
 ; Evolutions
-	db EV_ITEM, LEAF_STONE, 1, VILEPLUME
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
-	db 28, ACID
-	db 38, PETAL_DANCE
-	db 52, SOLARBEAM
 	db 0
 
 VileplumeEvosMoves:

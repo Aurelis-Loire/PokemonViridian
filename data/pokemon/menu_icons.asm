@@ -79,7 +79,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Ponyta
 	nybble ICON_QUADRUPED ; Rapidash
 	nybble ICON_BIRD      ; Ducklett
-	nybble ICON_GRASS     ; Gloom
+	nybble ICON_MON       ; Ampharos
 	nybble ICON_BALL      ; Magnemite
 	nybble ICON_BALL      ; Magneton
 	nybble ICON_MON       ; Salandit
