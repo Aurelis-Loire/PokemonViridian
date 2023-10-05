@@ -654,6 +654,16 @@ _DragoniteDexEntry::
 	next "is said to match"
 	next "that of humans"
 	dex
+	
+_GardevoirDexEntry::
+	text "Gardevoir has the"
+	next "ability to read"
+	next "the future. If it"
+
+	page "senses impending"
+	next "danger it will"
+	next "unleash energy"
+	dex
 
 _DoduoDexEntry::
 	text "A bird that makes"
@@ -1442,16 +1452,6 @@ _CharizardDexEntry::
 	page "Known to cause"
 	next "forest fires"
 	next "unintentionally"
-	dex
-
-_OddishDexEntry::
-	text "During the day,"
-	next "it keeps its face"
-	next "buried in the"
-
-	page "ground. At night,"
-	next "it wanders around"
-	next "sowing its seeds"
 	dex
 
 _GloomDexEntry::

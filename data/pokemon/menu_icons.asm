@@ -63,7 +63,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Arcanine
 	nybble ICON_GRASS     ; Bounsweet
 	nybble ICON_GRASS     ; Steenee
-	nybble ICON_GRASS     ; Oddish
+	nybble ICON_FAIRY     ; Gardevoir
 	nybble ICON_QUADRUPED ; Miltank
 	nybble ICON_BALL      ; Voltorb
 	nybble ICON_BALL      ; Electrode

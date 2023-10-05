@@ -66,7 +66,7 @@ PokedexEntryPointers:
 	dw ChandelureDexEntry
 	dw VenonatDexEntry
 	dw DragoniteDexEntry
-	dw MissingNoDexEntry
+	dw GardevoirDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw DoduoDexEntry
@@ -184,7 +184,7 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw OddishDexEntry
+	dw MissingNoDexEntry
 	dw GloomDexEntry
 	dw VileplumeDexEntry
 	dw BellsproutDexEntry
@@ -657,6 +657,13 @@ DragoniteDexEntry:
 	db 7,3
 	dw 4630
 	text_far _DragoniteDexEntry
+	text_end
+	
+GardevoirDexEntry:
+	db "EMBRACE@"
+	db 5,3
+	dw 1067
+	text_far _GardevoirDexEntry
 	text_end
 
 DoduoDexEntry:
@@ -1210,13 +1217,6 @@ CharizardDexEntry:
 	db 5,7
 	dw 2000
 	text_far _CharizardDexEntry
-	text_end
-
-OddishDexEntry:
-	db "WEED@"
-	db 1,8
-	dw 120
-	text_far _OddishDexEntry
 	text_end
 
 GloomDexEntry:

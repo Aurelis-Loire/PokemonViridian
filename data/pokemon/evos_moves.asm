@@ -69,7 +69,7 @@ EvosMovesPointerTable:
 	dw ChandelureEvosMoves
 	dw VenonatEvosMoves
 	dw DragoniteEvosMoves
-	dw MissingNo43EvosMoves
+	dw GardevoirEvosMoves
 	dw MissingNo44EvosMoves
 	dw MissingNo45EvosMoves
 	dw DoduoEvosMoves
@@ -187,7 +187,7 @@ EvosMovesPointerTable:
 	dw FossilKabutopsEvosMoves
 	dw FossilAerodactylEvosMoves
 	dw MonGhostEvosMoves
-	dw OddishEvosMoves
+	dw MissingNoB9EvosMoves
 	dw GloomEvosMoves
 	dw VileplumeEvosMoves
 	dw BellsproutEvosMoves
@@ -531,6 +531,7 @@ RaltsEvosMoves:
 
 KirliaEvosMoves:
 ; Evolutions
+    db EV_LEVEL, 30, GARDEVOIR
 	db 0
 ; Learnset
 	db 8, CONFUSION
@@ -969,10 +970,12 @@ DragoniteEvosMoves:
 	db 60, HYPER_BEAM
 	db 0
 
-MissingNo43EvosMoves:
+GardevoirEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 39, PSYCHIC_M
+	db 54, HYPNOSIS
 	db 0
 
 MissingNo44EvosMoves:
@@ -2098,17 +2101,10 @@ MonGhostEvosMoves:
 ; Learnset
 	db 0
 
-OddishEvosMoves:
+MissingNoB9EvosMoves:
 ; Evolutions
-	db EV_LEVEL, 21, GLOOM
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
-	db 24, ACID
-	db 33, PETAL_DANCE
-	db 46, SOLARBEAM
 	db 0
 
 GloomEvosMoves:

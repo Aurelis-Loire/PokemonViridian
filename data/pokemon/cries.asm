@@ -72,7 +72,7 @@ CryData::
 	mon_cry SFX_CRY_1D, $E3, $66 ; Chandelure
 	mon_cry SFX_CRY_1A, $44, $40 ; Venonat
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Dragonite
-	mon_cry SFX_CRY_00, $80, $10 ; MissingNo.
+	mon_cry SFX_CRY_03, $BF, $CB ; Gardevoir
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_1D, $E0, $80 ; MissingNo.
 	mon_cry SFX_CRY_0B, $BB, $01 ; Doduo

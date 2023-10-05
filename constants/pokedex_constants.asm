@@ -67,7 +67,7 @@
 	const DEX_ARCANINE   ; 61
 	const DEX_BOUNSWEET  ; 62
 	const DEX_STEENEE    ; 63
-	const DEX_ODDISH     ; 64
+	const DEX_GARDEVOIR  ; 64
 	const DEX_MILTANK    ; 65
 	const DEX_VOLTORB    ; 66
 	const DEX_ELECTRODE  ; 67

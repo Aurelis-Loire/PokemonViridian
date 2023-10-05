@@ -1,13 +1,13 @@
 Route14WildMons:
 	def_grass_wildmons 15 ; encounter rate
 IF DEF(_RED)
-	db 24, ODDISH
+	db 24, CLOYSTER
 	db 26, PIDGEY
 	db 23, DITTO
 	db 24, VENONAT
-	db 22, ODDISH
+	db 22, CLOYSTER
 	db 26, VENONAT
-	db 26, ODDISH
+	db 26, CLOYSTER
 	db 30, GLOOM
 ENDC
 IF DEF(_BLUE)

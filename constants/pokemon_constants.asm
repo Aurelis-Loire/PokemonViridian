@@ -73,7 +73,7 @@
 	const CHANDELURE         ; $40
 	const VENONAT            ; $41
 	const DRAGONITE          ; $42
-	const_skip               ; $43
+	const GARDEVOIR          ; $43
 	const_skip               ; $44
 	const_skip               ; $45
 	const DODUO              ; $46
@@ -191,7 +191,7 @@
 	const FOSSIL_KABUTOPS    ; $B6
 	const FOSSIL_AERODACTYL  ; $B7
 	const MON_GHOST          ; $B8
-	const ODDISH             ; $B9
+	const_skip               ; $B9
 	const GLOOM              ; $BA
 	const VILEPLUME          ; $BB
 	const BELLSPROUT         ; $BC

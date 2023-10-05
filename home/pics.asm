@@ -30,6 +30,10 @@ UncompressMonSprite::
 	ld a, BANK(FossilAerodactylPic)
 	jr z, .GotBank
 	ld a, b
+	cp GHOST
+	ld a, BANK(GhostPic)
+	jr z, .GotBank
+	ld a, b
 	cp KIRLIA + 1
 	ld a, BANK("Pics 1")
 	jr c, .GotBank
