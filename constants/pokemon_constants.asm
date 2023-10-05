@@ -75,7 +75,7 @@
 	const DRAGONITE          ; $42
 	const GARDEVOIR          ; $43
 	const AMPHAROS           ; $44
-	const_skip               ; $45
+	const TSAREENA           ; $45
 	const DODUO              ; $46
 	const POLIWAG            ; $47
 	const JYNX               ; $48
@@ -193,7 +193,7 @@
 	const MON_GHOST          ; $B8
 	const_skip               ; $B9
 	const_skip               ; $BA
-	const VILEPLUME          ; $BB
+	const_skip               ; $BB
 	const BELLSPROUT         ; $BC
 	const WEEPINBELL         ; $BD
 	const VICTREEBEL         ; $BE

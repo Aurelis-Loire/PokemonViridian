@@ -674,6 +674,16 @@ _AmpharosDexEntry::
 	next "acts as a beacon"
 	next "for lost people"
 	dex
+	
+_TsareenaDexEntry::
+	text "Its long, striking"
+	next "legs aren't just"
+	next "for show but to be"
+
+	page "used to kick with"
+	next "skill. It shows"
+	next "off by laughing"
+	dex
 
 _DoduoDexEntry::
 	text "A bird that makes"
@@ -1462,16 +1472,6 @@ _CharizardDexEntry::
 	page "Known to cause"
 	next "forest fires"
 	next "unintentionally"
-	dex
-
-_VileplumeDexEntry::
-	text "The larger its"
-	next "petals, the more"
-	next "toxic pollen it"
-
-	page "contains. Its big"
-	next "head is heavy and"
-	next "hard to hold up"
 	dex
 
 _BellsproutDexEntry::

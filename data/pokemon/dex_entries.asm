@@ -68,7 +68,7 @@ PokedexEntryPointers:
 	dw DragoniteDexEntry
 	dw GardevoirDexEntry
 	dw AmpharosDexEntry
-	dw MissingNoDexEntry
+	dw TsareenaDexEntry
 	dw DoduoDexEntry
 	dw PoliwagDexEntry
 	dw JynxDexEntry
@@ -186,7 +186,7 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw VileplumeDexEntry
+	dw MissingNoDexEntry
 	dw BellsproutDexEntry
 	dw WeepinbellDexEntry
 	dw VictreebelDexEntry
@@ -671,6 +671,13 @@ AmpharosDexEntry:
 	db 4,7
 	dw 1356
 	text_far _AmpharosDexEntry
+	text_end
+	
+TsareenaDexEntry:
+	db "FRUIT@"
+	db 3,11
+	dw 472
+	text_far _TsareenaDexEntry
 	text_end
 
 DoduoDexEntry:
@@ -1224,13 +1231,6 @@ CharizardDexEntry:
 	db 5,7
 	dw 2000
 	text_far _CharizardDexEntry
-	text_end
-
-VileplumeDexEntry:
-	db "FLOWER@"
-	db 3,11
-	dw 410
-	text_far _VileplumeDexEntry
 	text_end
 
 BellsproutDexEntry:

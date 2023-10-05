@@ -74,7 +74,7 @@ CryData::
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Dragonite
 	mon_cry SFX_CRY_03, $BF, $CB ; Gardevoir
 	mon_cry SFX_CRY_03, $A2, $8B ; Ampharos
-	mon_cry SFX_CRY_1D, $E0, $80 ; MissingNo.
+	mon_cry SFX_CRY_14, $F8, $7E ; Tsareena
 	mon_cry SFX_CRY_0B, $BB, $01 ; Doduo
 	mon_cry SFX_CRY_0E, $FF, $FF ; Poliwag
 	mon_cry SFX_CRY_0D, $FF, $FF ; Jynx
@@ -190,9 +190,9 @@ CryData::
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_08, $DD, $01 ; Oddish
-	mon_cry SFX_CRY_08, $AA, $40 ; Gloom
-	mon_cry SFX_CRY_23, $22, $FF ; Vileplume
+	mon_cry SFX_CRY_08, $DD, $01 ; MissingNo.
+	mon_cry SFX_CRY_08, $AA, $40 ; MissingNo.
+	mon_cry SFX_CRY_23, $22, $FF ; MissingNo.
 	mon_cry SFX_CRY_21, $55, $01 ; Bellsprout
 	mon_cry SFX_CRY_25, $44, $20 ; Weepinbell
 	mon_cry SFX_CRY_25, $66, $CC ; Victreebel

@@ -94,7 +94,7 @@ MonPartyData:
 	nybble ICON_MON       ; Gastly
 	nybble ICON_MON       ; Haunter
 	nybble ICON_MON       ; Gengar
-	nybble ICON_GRASS     ; Vileplume
+	nybble ICON_GRASS     ; Tsareena
 	nybble ICON_BUG       ; Joltik
 	nybble ICON_MON       ; Hypno
 	nybble ICON_WATER     ; Krabby

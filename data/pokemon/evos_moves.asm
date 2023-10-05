@@ -71,7 +71,7 @@ EvosMovesPointerTable:
 	dw DragoniteEvosMoves
 	dw GardevoirEvosMoves
 	dw AmpharosEvosMoves
-	dw MissingNo45EvosMoves
+	dw TsareenaEvosMoves
 	dw DoduoEvosMoves
 	dw PoliwagEvosMoves
 	dw JynxEvosMoves
@@ -189,7 +189,7 @@ EvosMovesPointerTable:
 	dw MonGhostEvosMoves
 	dw MissingNoB9EvosMoves
 	dw MissingNoBAEvosMoves
-	dw VileplumeEvosMoves
+	dw MissingNoBBEvosMoves
 	dw BellsproutEvosMoves
 	dw WeepinbellEvosMoves
 	dw VictreebelEvosMoves
@@ -670,6 +670,7 @@ ChanseyEvosMoves:
 
 SteeneeEvosMoves:
 ; Evolutions
+    db EV_LEVEL, 30, TSAREENA
 	db 0
 ; Learnset
 	db 27, DOUBLESLAP
@@ -988,10 +989,12 @@ AmpharosEvosMoves:
 	db 48, THUNDER
 	db 0
 
-MissingNo45EvosMoves:
+TsareenaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 36, HI_JUMP_KICK
+	db 47, PETAL_DANCE
 	db 0
 
 DoduoEvosMoves:
@@ -2117,13 +2120,10 @@ MissingNoBAEvosMoves:
 ; Learnset
 	db 0
 
-VileplumeEvosMoves:
+MissingNoBBEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
 	db 0
 
 BellsproutEvosMoves:
