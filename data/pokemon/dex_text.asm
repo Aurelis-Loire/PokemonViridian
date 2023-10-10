@@ -695,14 +695,14 @@ _DoduoDexEntry::
 	next "footprints"
 	dex
 
-_PoliwagDexEntry::
-	text "Its newly grown"
-	next "legs prevent it"
-	next "from running. It"
+_SwannaDexEntry::
+	text "Swanna start to"
+	next "dance at dusk. The"
+	next "one dancing in the"
 
-	page "appears to prefer"
-	next "swimming than"
-	next "trying to stand"
+	page "middle is the"
+	next "leader of the"
+	next "flock"
 	dex
 
 _JynxDexEntry::

@@ -70,7 +70,7 @@ PokedexEntryPointers:
 	dw AmpharosDexEntry
 	dw TsareenaDexEntry
 	dw DoduoDexEntry
-	dw PoliwagDexEntry
+	dw SwannaDexEntry
 	dw JynxDexEntry
 	dw MoltresDexEntry
 	dw ArticunoDexEntry
@@ -687,11 +687,11 @@ DoduoDexEntry:
 	text_far _DoduoDexEntry
 	text_end
 
-PoliwagDexEntry:
-	db "TADPOLE@"
-	db 2,0
-	dw 270
-	text_far _PoliwagDexEntry
+SwannaDexEntry:
+	db "WHITE BIRD@"
+	db 4,3
+	dw 534
+	text_far _SwannaDexEntry
 	text_end
 
 JynxDexEntry:

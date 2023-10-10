@@ -70,7 +70,7 @@ MonsterNames::
 	db "AMPHAROS@@"
 	db "TSAREENA@@"
 	db "DODUO@@@@@"
-	db "POLIWAG@@@"
+	db "SWANNA@@@@"
 	db "JYNX@@@@@@"
 	db "MOLTRES@@@"
 	db "ARTICUNO@@"

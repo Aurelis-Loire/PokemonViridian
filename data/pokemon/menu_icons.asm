@@ -113,7 +113,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Rhyhorn
 	nybble ICON_MON       ; Rhydon
 	nybble ICON_FAIRY     ; Chansey
-	nybble ICON_MON       ; Poliwag
+	nybble ICON_BIRD      ; Ducklett
 	nybble ICON_MON       ; Kangaskhan
 	nybble ICON_WATER     ; Horsea
 	nybble ICON_WATER     ; Seadra

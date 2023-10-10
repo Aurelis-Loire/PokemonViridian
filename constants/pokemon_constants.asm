@@ -77,7 +77,7 @@
 	const AMPHAROS           ; $44
 	const TSAREENA           ; $45
 	const DODUO              ; $46
-	const POLIWAG            ; $47
+	const SWANNA             ; $47
 	const JYNX               ; $48
 	const MOLTRES            ; $49
 	const ARTICUNO           ; $4A

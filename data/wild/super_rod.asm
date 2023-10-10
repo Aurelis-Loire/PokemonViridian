@@ -42,12 +42,12 @@ SuperRodData:
 .Group1:
 	db 2
 	db 15, QUAGSIRE
-	db 15, POLIWAG
+	db 15, EXEGGUTOR
 
 .Group2:
 	db 2
 	db 15, GOLDEEN
-	db 15, POLIWAG
+	db 15, EXEGGUTOR
 
 .Group3:
 	db 3

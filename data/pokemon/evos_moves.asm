@@ -73,7 +73,7 @@ EvosMovesPointerTable:
 	dw AmpharosEvosMoves
 	dw TsareenaEvosMoves
 	dw DoduoEvosMoves
-	dw PoliwagEvosMoves
+	dw SwannaEvosMoves
 	dw JynxEvosMoves
 	dw MoltresEvosMoves
 	dw ArticunoEvosMoves
@@ -1010,17 +1010,11 @@ DoduoEvosMoves:
 	db 44, AGILITY
 	db 0
 
-PoliwagEvosMoves:
+SwannaEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 25, POLIWHIRL
 	db 0
 ; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
-	db 25, DOUBLESLAP
-	db 31, BODY_SLAM
-	db 38, AMNESIA
-	db 45, HYDRO_PUMP
+	db 43, GROWL
 	db 0
 
 JynxEvosMoves:
