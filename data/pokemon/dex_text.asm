@@ -705,14 +705,14 @@ _SwannaDexEntry::
 	next "flock"
 	dex
 
-_JynxDexEntry::
-	text "It seductively"
-	next "wiggles its hips"
-	next "as it walks. It"
+_SalazzleDexEntry::
+	text "For some reason,"
+	next "only females have"
+	next "been found. It"
 
-	page "can cause people"
-	next "to dance in"
-	next "unison with it"
+	page "creates a reverse"
+	next "harem of male"
+	next "Salandit"
 	dex
 
 _MoltresDexEntry::

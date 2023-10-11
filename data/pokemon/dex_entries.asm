@@ -71,7 +71,7 @@ PokedexEntryPointers:
 	dw TsareenaDexEntry
 	dw DoduoDexEntry
 	dw SwannaDexEntry
-	dw JynxDexEntry
+	dw SalazzleDexEntry
 	dw MoltresDexEntry
 	dw ArticunoDexEntry
 	dw ZapdosDexEntry
@@ -694,11 +694,11 @@ SwannaDexEntry:
 	text_far _SwannaDexEntry
 	text_end
 
-JynxDexEntry:
-	db "HUMANSHAPE@"
-	db 4,7
-	dw 900
-	text_far _JynxDexEntry
+SalazzleDexEntry:
+	db "TOXIC@"
+	db 3,11
+	dw 489
+	text_far _SalazzleDexEntry
 	text_end
 
 MoltresDexEntry:

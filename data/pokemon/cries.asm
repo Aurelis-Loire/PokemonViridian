@@ -77,7 +77,7 @@ CryData::
 	mon_cry SFX_CRY_14, $F8, $7E ; Tsareena
 	mon_cry SFX_CRY_0B, $BB, $01 ; Doduo
 	mon_cry SFX_CRY_0E, $D5, $06 ; Swanna
-	mon_cry SFX_CRY_0D, $FF, $FF ; Jynx
+	mon_cry SFX_CRY_00, $2D, $E6 ; Salazzle
 	mon_cry SFX_CRY_09, $F8, $40 ; Moltres
 	mon_cry SFX_CRY_09, $80, $40 ; Articuno
 	mon_cry SFX_CRY_18, $FF, $80 ; Zapdos

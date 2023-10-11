@@ -74,7 +74,7 @@ EvosMovesPointerTable:
 	dw TsareenaEvosMoves
 	dw DoduoEvosMoves
 	dw SwannaEvosMoves
-	dw JynxEvosMoves
+	dw SalazzleEvosMoves
 	dw MoltresEvosMoves
 	dw ArticunoEvosMoves
 	dw ZapdosEvosMoves
@@ -556,6 +556,7 @@ BounsweetEvosMoves:
 
 DucklettEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 35, SWANNA
 	db 0
 ; Learnset
 	db 9, WING_ATTACK
@@ -845,6 +846,7 @@ MiloticEvosMoves:
 
 SalanditEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 33, SALAZZLE
 	db 0
 ; Learnset
 	db 5, POISON_GAS
@@ -1018,16 +1020,13 @@ SwannaEvosMoves:
 	db 43, WATER_PULSE
 	db 0
 
-JynxEvosMoves:
+SalazzleEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 18, LICK
-	db 23, DOUBLESLAP
-	db 31, ICE_PUNCH
-	db 39, BODY_SLAM
-	db 47, THRASH
-	db 58, BLIZZARD
+	db 44, SWEET_SCENT
+	db 50, DRAGON_RAGE
+	db 56, SMOG
 	db 0
 
 MoltresEvosMoves:

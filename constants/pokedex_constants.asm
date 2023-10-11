@@ -127,7 +127,7 @@
 	const DEX_STARMIE    ; 121
 	const DEX_WAILMER    ; 122
 	const DEX_SCYTHER    ; 123
-	const DEX_JYNX       ; 124
+	const DEX_SALAZZLE   ; 124
 	const DEX_ELECTABUZZ ; 125
 	const DEX_MAGMAR     ; 126
 	const DEX_LARVITAR   ; 127

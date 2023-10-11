@@ -71,7 +71,7 @@ MonsterNames::
 	db "TSAREENA@@"
 	db "DODUO@@@@@"
 	db "SWANNA@@@@"
-	db "JYNX@@@@@@"
+	db "SALAZZLE@@"
 	db "MOLTRES@@@"
 	db "ARTICUNO@@"
 	db "ZAPDOS@@@@"

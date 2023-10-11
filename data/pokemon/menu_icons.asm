@@ -123,7 +123,7 @@ MonPartyData:
 	nybble ICON_HELIX     ; Starmie
 	nybble ICON_WATER     ; Wailmer
 	nybble ICON_BUG       ; Scyther
-	nybble ICON_MON       ; Jynx
+	nybble ICON_MON       ; Salazzle
 	nybble ICON_MON       ; Electabuzz
 	nybble ICON_MON       ; Magmar
 	nybble ICON_MON       ; Larvitar
