@@ -151,7 +151,7 @@ AttackAnimationPointers:
 	dw PsywaveAnim
 	dw SplashAnim
 	dw AcidArmorAnim
-	dw CrabHammerAnim
+	dw WaterPulseAnim
 	dw ExplosionAnim
 	dw FurySwipesAnim
 	dw BonemerangAnim
@@ -1082,9 +1082,9 @@ AcidArmorAnim:
 	battle_anim ACID_ARMOR, SE_SLIDE_MON_DOWN_AND_HIDE
 	db -1 ; end
 
-CrabHammerAnim:
-	battle_anim CRABHAMMER, SUBANIM_1_STAR_BIG, 1, 6
-	battle_anim NO_MOVE, SUBANIM_0_SLICE_BOTH_SIDES, 0, 6
+WaterPulseAnim:
+	battle_anim WATER_PULSE, SUBANIM_1_STAR_BIG, 1, 6
+	battle_anim HYDRO_PUMP, SUBANIM_0_WATER_COLUMNS, 0, 6
 	db -1 ; end
 
 ExplosionAnim:

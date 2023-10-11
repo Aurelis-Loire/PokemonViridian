@@ -17,4 +17,6 @@ ResidualEffects1:
 	db MIMIC_EFFECT
 	db LEECH_SEED_EFFECT
 	db SPLASH_EFFECT
+	db REFRESH_EFFECT
+	db SAFEGUARD_EFFECT
 	db -1 ; end

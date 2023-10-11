@@ -151,7 +151,7 @@ MoveNames::
 	li "PSYWAVE"
 	li "SPLASH"
 	li "ACID ARMOR"
-	li "CRABHAMMER"
+	li "WATER PULSE"
 	li "EXPLOSION"
 	li "FURY SWIPES"
 	li "BONEMERANG"

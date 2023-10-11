@@ -562,7 +562,7 @@ DucklettEvosMoves:
 	db 15, BUBBLEBEAM
 	db 22, GUST
 	db 29, WATERFALL
-	db 36, GROWL
+	db 36, WATER_PULSE
 	db 0
 
 GrowlitheEvosMoves:
@@ -840,6 +840,7 @@ MiloticEvosMoves:
 	db 38, RECOVER
 	db 43, HYDRO_PUMP
 	db 48, SAFEGUARD
+	db 53, WATER_PULSE
 	db 0
 
 SalanditEvosMoves:
@@ -1014,7 +1015,7 @@ SwannaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 43, GROWL
+	db 43, WATER_PULSE
 	db 0
 
 JynxEvosMoves:
@@ -1080,7 +1081,6 @@ KrabbyEvosMoves:
 	db 0
 ; Learnset
 	db 30, STOMP
-	db 35, CRABHAMMER
 	db 40, HARDEN
 	db 0
 
@@ -1353,6 +1353,7 @@ VaporeonEvosMoves:
 	db 36, AURORA_BEAM
 	db 42, HAZE
 	db 43, MIST
+	db 44, WATER_PULSE
 	db 47, ACID_ARMOR
 	db 52, HYDRO_PUMP
 	db 0
@@ -1667,7 +1668,6 @@ KinglerEvosMoves:
 	db 0
 ; Learnset
 	db 34, STOMP
-	db 42, CRABHAMMER
 	db 49, HARDEN
 	db 0
 

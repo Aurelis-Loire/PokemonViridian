@@ -152,7 +152,7 @@ MoveSoundTable:
 	db SFX_BATTLE_0C,          $f0, $f0 ; PSYWAVE
 	db SFX_BATTLE_0F,          $08, $10 ; SPLASH
 	db SFX_BATTLE_0D,          $f0, $ff ; ACID_ARMOR
-	db SFX_SUPER_EFFECTIVE,    $f0, $ff ; CRABHAMMER
+	db SFX_BATTLE_0D,          $b8, $05 ; WATER_PULSE
 	db SFX_BATTLE_34,          $10, $ff ; EXPLOSION
 	db SFX_BATTLE_0E,          $f0, $20 ; FURY_SWIPES
 	db SFX_BATTLE_2B,          $f0, $60 ; BONEMERANG
