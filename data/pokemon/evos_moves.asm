@@ -75,7 +75,7 @@ EvosMovesPointerTable:
 	dw DoduoEvosMoves
 	dw SwannaEvosMoves
 	dw SalazzleEvosMoves
-	dw MoltresEvosMoves
+	dw DrifblimEvosMoves
 	dw ArticunoEvosMoves
 	dw ZapdosEvosMoves
 	dw DittoEvosMoves
@@ -929,6 +929,7 @@ GolettEvosMoves:
 
 DrifloonEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 28, DRIFBLIM
 	db 0
 ; Learnset
 	db 13, MINIMIZE
@@ -1029,13 +1030,12 @@ SalazzleEvosMoves:
 	db 56, SMOG
 	db 0
 
-MoltresEvosMoves:
+DrifblimEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 51, LEER
-	db 55, AGILITY
-	db 60, SKY_ATTACK
+	db 39, FOCUS_ENERGY
+	db 48, EXPLOSION
 	db 0
 
 ArticunoEvosMoves:

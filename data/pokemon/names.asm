@@ -72,7 +72,7 @@ MonsterNames::
 	db "DODUO@@@@@"
 	db "SWANNA@@@@"
 	db "SALAZZLE@@"
-	db "MOLTRES@@@"
+	db "DRIFBLIM@@"
 	db "ARTICUNO@@"
 	db "ZAPDOS@@@@"
 	db "DITTO@@@@@"

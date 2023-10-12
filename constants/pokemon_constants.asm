@@ -79,7 +79,7 @@
 	const DODUO              ; $46
 	const SWANNA             ; $47
 	const SALAZZLE           ; $48
-	const MOLTRES            ; $49
+	const DRIFBLIM           ; $49
 	const ARTICUNO           ; $4A
 	const ZAPDOS             ; $4B
 	const DITTO              ; $4C

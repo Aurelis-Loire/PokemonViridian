@@ -715,14 +715,14 @@ _SalazzleDexEntry::
 	next "Salandit"
 	dex
 
-_MoltresDexEntry::
-	text "Known as the"
-	next "legendary bird of"
-	next "fire. Every flap"
+_DrifblimDexEntry::
+	text "It's drowzy in"
+	next "daytime, but flies"
+	next "off in the evening"
 
-	page "of its wings"
-	next "creates a dazzling"
-	next "flash of flames"
+	page "in big groups. No"
+	next "one knows where"
+	next "they go"
 	dex
 
 _ArticunoDexEntry::

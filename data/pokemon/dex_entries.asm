@@ -72,7 +72,7 @@ PokedexEntryPointers:
 	dw DoduoDexEntry
 	dw SwannaDexEntry
 	dw SalazzleDexEntry
-	dw MoltresDexEntry
+	dw DrifblimDexEntry
 	dw ArticunoDexEntry
 	dw ZapdosDexEntry
 	dw DittoDexEntry
@@ -701,11 +701,11 @@ SalazzleDexEntry:
 	text_far _SalazzleDexEntry
 	text_end
 
-MoltresDexEntry:
-	db "FLAME@"
-	db 6,7
-	dw 1320
-	text_far _MoltresDexEntry
+DrifblimDexEntry:
+	db "BLIMP@"
+	db 3,11
+	dw 331
+	text_far _DrifblimDexEntry
 	text_end
 
 ArticunoDexEntry:

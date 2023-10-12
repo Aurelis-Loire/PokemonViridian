@@ -145,7 +145,7 @@ MonPartyData:
 	nybble ICON_MON       ; Snorlax
 	nybble ICON_BIRD      ; Articuno
 	nybble ICON_BIRD      ; Zapdos
-	nybble ICON_BIRD      ; Moltres
+	nybble ICON_BALL      ; Drifblim
 	nybble ICON_SNAKE     ; Dratini
 	nybble ICON_SNAKE     ; Dragonair
 	nybble ICON_SNAKE     ; Dragonite
