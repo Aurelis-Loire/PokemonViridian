@@ -129,7 +129,7 @@ LassData:
 	db 19, PIDGEOTTO, SKWOVET, STEENEE, MEOWTH, PIKACHU, 0
 	db 22, CLEFAIRY, CLEFAIRY, 0
 ; Celadon Gym
-	db 23, GOLETT, GASTLY, 0
+	db 23, VENONAT, JOLTIK, 0
 	db 23, VULPIX, CROAGUNK, 0
 
 SailorData:
@@ -569,9 +569,9 @@ RocketData:
 	db 23, ARBOK, CROAGUNK, ARBOK, 0
 	db 21, SALANDIT, ZUBAT, 0
 ; Pokémon Tower 7F
-	db 25, ZUBAT, ZUBAT, GOLBAT, 0
-	db 26, MILOTIC, JOLTIK, 0
-	db 23, ZUBAT, BOUNSWEET, DUCKLETT, ZUBAT, 0
+	db 25, GOLBAT, GOLBAT, GOLBAT, 0
+	db 26, SALANDIT, CUBONE, 0
+	db 23, GOLBAT, MEOWTH, SALANDIT, GOLBAT, 0
 ; Unused
 	db 26, JOLTIK, MILOTIC, 0
 ; Silph Co. 2F
@@ -721,13 +721,13 @@ ChannelerData:
 ; Unused
 	db 24, GASTLY, 0
 ; Pokémon Tower 5F
-	db 23, HAUNTER, 0
+	db 23, DRIFLOON, 0
 ; Unused
 	db 24, GASTLY, 0
 ; Pokémon Tower 5F
 	db 22, GASTLY, 0
 	db 24, GASTLY, 0
-	db 22, HAUNTER, 0
+	db 22, DRIFLOON, 0
 ; Pokémon Tower 6F
 	db 22, GASTLY, GASTLY, GASTLY, 0
 	db 24, GASTLY, 0
