@@ -130,4 +130,4 @@ _HaveSSTicketText::
 _BillEeveeText::
 	text "I knew you'd come"
 	line "through!"
-	done
+	prompt

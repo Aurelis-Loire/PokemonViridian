@@ -85,6 +85,7 @@ Route24_TextPointers:
 	dw Route24Text6
 	dw Route24Text7
 	dw PickUpItemText
+	dw Route24Text9
 
 Route24TrainerHeaders:
 	def_trainers 2
@@ -206,6 +207,89 @@ Route24Text7:
 	ld hl, Route24TrainerHeader5
 	call TalkToTrainer
 	jp TextScriptEnd
+	
+Route24Text9:
+	text_asm
+	CheckEvent EVENT_GOT_STARTER_3, 1
+	jr c, .got_mon
+	ld a, 50
+	ldh [hOaksAideRequirement], a
+	ld hl, Rt24HiText
+	call PrintText
+	call YesNoChoice
+	ld a, [wCurrentMenuItem]
+	and a
+	jr nz, .choseNo
+	ld hl, wPokedexOwned
+	ld b, wPokedexOwnedEnd - wPokedexOwned
+	call CountSetBits
+	ld a, [wNumSetBits]
+	ldh [hOaksAideNumMonsOwned], a
+	ld b, a
+	ldh a, [hOaksAideRequirement]
+	cp b
+	jr z, .giveStarter
+	jr nc, .notEnough
+.giveStarter
+	ld hl, Rt24YesText
+	call PrintText
+	ld a, [wPlayerStarter]
+	cp STARTER1
+	jr z, .getBulbasaur
+	cp STARTER2
+	jr z, .getCharmander
+	cp STARTER3
+	jr z, .getSquirtle
+.got_mon
+	ld hl, Rt24HowText
+	call PrintText
+	jr .done
+.done
+	jp TextScriptEnd
+.choseNo
+	ld hl, Rt24NoText
+	call PrintText
+	jr .done
+.notEnough
+	ld hl, Rt24SorryText
+	call PrintText
+	jr .done
+.getBulbasaur
+	lb bc, BULBASAUR, 13
+	call GivePokemon
+	jr nc, .done
+	ld a, [wSimulatedJoypadStatesEnd]
+	and a
+	call z, WaitForTextScrollButtonPress
+	call EnableAutoTextBoxDrawing
+	ld hl, Rt24GivenText
+	call PrintText
+	SetEvent EVENT_GOT_STARTER_3
+	jr .done
+.getCharmander
+	lb bc, CHARMANDER, 13
+	call GivePokemon
+	jr nc, .done
+	ld a, [wSimulatedJoypadStatesEnd]
+	and a
+	call z, WaitForTextScrollButtonPress
+	call EnableAutoTextBoxDrawing
+	ld hl, Rt24GivenText
+	call PrintText
+	SetEvent EVENT_GOT_STARTER_3
+	jr .done
+.getSquirtle
+	lb bc, SQUIRTLE, 13
+	call GivePokemon
+	jr nc, .done
+	ld a, [wSimulatedJoypadStatesEnd]
+	and a
+	call z, WaitForTextScrollButtonPress
+	call EnableAutoTextBoxDrawing
+	ld hl, Rt24GivenText
+	call PrintText
+	SetEvent EVENT_GOT_STARTER_3
+	jr .done
 
 Route24BattleText1:
 	text_far _Route24BattleText1
@@ -277,4 +361,28 @@ Route24EndBattleText6:
 
 Route24AfterBattleText6:
 	text_far _Route24AfterBattleText6
+	text_end
+
+Rt24HowText:
+	text_far _Rt24HowText
+	text_end
+	
+Rt24HiText:
+	text_far _Rt24HiText
+	text_end
+
+Rt24YesText:
+	text_far _Rt24YesText
+	text_end
+	
+Rt24NoText:
+	text_far _Rt24NoText
+	text_end
+	
+Rt24SorryText:
+	text_far _Rt24SorryText
+	text_end
+	
+Rt24GivenText:
+	text_far _Rt24GivenText
 	text_end
