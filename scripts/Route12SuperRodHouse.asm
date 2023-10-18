@@ -15,7 +15,7 @@ Route12HouseText1:
 	ld a, [wCurrentMenuItem]
 	and a
 	jr nz, .refused
-	lb bc, SUPER_ROD, 1
+	lb bc, GOOD_ROD, 1 ;changed from Super Rod to Good Rod.
 	call GiveItem
 	jr nc, .bag_full
 	ld hl, wd728

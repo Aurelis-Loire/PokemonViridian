@@ -2,4 +2,4 @@
 GoodRodMons:
 	; level, species
 	db 10, GOLDEEN
-	db 10, EXEGGUTOR
+	db 10, PSYDUCK
