@@ -10,7 +10,7 @@ CryData::
 	mon_cry SFX_CRY_03, $00, $80 ; Kangaskhan
 	mon_cry SFX_CRY_22, $8F, $73 ; Skwovet
 	mon_cry SFX_CRY_19, $CC, $01 ; Clefairy
-	mon_cry SFX_CRY_16, $05, $B6 ; Scatterbug
+	mon_cry SFX_CRY_00, $00, $80 ; Nidoran
 	mon_cry SFX_CRY_06, $ED, $80 ; Voltorb
 	mon_cry SFX_CRY_1C, $6F, $2C ; Spewpa
 	mon_cry SFX_CRY_1F, $00, $80 ; Slowbro

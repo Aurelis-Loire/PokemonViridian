@@ -37,14 +37,14 @@ _ClefairyDexEntry::
 	next "certain areas"
 	dex
 
-_ScatterbugDexEntry::
-	text "When under attack,"
-	next "it spews a"
-	next "poisonous black"
+_NidoranDexEntry::
+	text "Stiffens its ears"
+	next "to sense danger."
+	next "The larger its"
 
-	page "powder that causes"
-	next "paralysis on"
-	next "contact"
+	page "horns, the more"
+	next "powerful its"
+	next "secreted venom"
 	dex
 
 _VoltorbDexEntry::

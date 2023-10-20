@@ -1,7 +1,7 @@
 Route18WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db 20, SCATTERBUG
-	db 22, SCATTERBUG
+	db 20, NIDORAN
+	db 22, NIDORAN
 	db 25, WARTORTLE
 	db 24, DODUO
 	db 25, BLASTOISE

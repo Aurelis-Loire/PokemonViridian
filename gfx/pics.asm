@@ -8,8 +8,8 @@ SkwovetPicFront::     INCBIN "gfx/pokemon/front/skwovet.pic"
 SkwovetPicBack::      INCBIN "gfx/pokemon/back/skwovetb.pic"
 ClefairyPicFront::    INCBIN "gfx/pokemon/front/clefairy.pic"
 ClefairyPicBack::     INCBIN "gfx/pokemon/back/clefairyb.pic"
-ScatterbugPicFront::  INCBIN "gfx/pokemon/front/scatterbug.pic"
-ScatterbugPicBack::   INCBIN "gfx/pokemon/back/scatterbugb.pic"
+NidoranPicFront::     INCBIN "gfx/pokemon/front/nidoran.pic"
+NidoranPicBack::      INCBIN "gfx/pokemon/back/nidoranb.pic"
 VoltorbPicFront::     INCBIN "gfx/pokemon/front/voltorb.pic"
 VoltorbPicBack::      INCBIN "gfx/pokemon/back/voltorbb.pic"
 SpewpaPicFront::      INCBIN "gfx/pokemon/front/spewpa.pic"
@@ -368,10 +368,10 @@ LancePic::         INCBIN "gfx/trainers/john.pic"
 
 SECTION "Pics 7", ROMX
 
-ChiefPic::
-ProfOakPic::           INCBIN "gfx/trainers/prof.oak.pic"
 FossilKabutopsPic::    INCBIN "gfx/pokemon/front/fossilkabutops.pic"
-RedPicBack::           INCBIN "gfx/player/redb.pic"
-OldManPicBack::        INCBIN "gfx/battle/oldmanb.pic"
 FossilAerodactylPic::  INCBIN "gfx/pokemon/front/fossilaerodactyl.pic"
 GhostPic::             INCBIN "gfx/battle/ghost.pic"
+ChiefPic::
+ProfOakPic::           INCBIN "gfx/trainers/prof.oak.pic"
+RedPicBack::           INCBIN "gfx/player/redb.pic"
+OldManPicBack::        INCBIN "gfx/battle/oldmanb.pic"

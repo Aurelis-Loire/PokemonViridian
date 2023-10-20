@@ -30,7 +30,7 @@
 	const DEX_ARBOK      ; 24
 	const DEX_WOOPER     ; 25
 	const DEX_QUAGSIRE   ; 26
-	const DEX_SCATTERBUG ; 27
+	const DEX_NIDORAN    ; 27
 	const DEX_SPEWPA     ; 28
 	const DEX_VIVILLON   ; 29
 	const DEX_SKWOVET    ; 30

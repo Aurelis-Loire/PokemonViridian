@@ -11,7 +11,7 @@
 	const KANGASKHAN         ; $02
 	const SKWOVET            ; $03
 	const CLEFAIRY           ; $04
-	const SCATTERBUG         ; $05
+	const NIDORAN            ; $05
 	const VOLTORB            ; $06
 	const SPEWPA             ; $07
 	const SLOWBRO            ; $08

@@ -4,7 +4,7 @@ TitleMons:
 	db STARTER2
 	db STARTER3
 	db WEEDLE
-	db VAPOREON ; Was Nidoran_M
+	db NIDORAN
 	db SCYTHER
 	db PIKACHU
 	db CLEFAIRY

@@ -7,7 +7,7 @@ EvosMovesPointerTable:
 	dw KangaskhanEvosMoves
 	dw SkwovetEvosMoves
 	dw ClefairyEvosMoves
-	dw ScatterbugEvosMoves
+	dw NidoranEvosMoves
 	dw VoltorbEvosMoves
 	dw SpewpaEvosMoves
 	dw SlowbroEvosMoves
@@ -242,12 +242,16 @@ ClefairyEvosMoves:
 	db 48, LIGHT_SCREEN
 	db 0
 
-ScatterbugEvosMoves:
+NidoranEvosMoves:
 ; Evolutions
-    db EV_LEVEL, 9, SPEWPA
 	db 0
 ; Learnset
-	db 6,  STUN_SPORE
+	db 8, HORN_ATTACK
+	db 12, DOUBLE_KICK
+	db 17, POISON_STING
+	db 23, FOCUS_ENERGY
+	db 30, FURY_ATTACK
+	db 38, HORN_DRILL
 	db 0
 
 VoltorbEvosMoves:
@@ -750,7 +754,7 @@ JoltikEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 32, ABSORB
+	db 17, ABSORB
 	db 37, THUNDER_WAVE
 	db 40, SCREECH
 	db 45, SLASH

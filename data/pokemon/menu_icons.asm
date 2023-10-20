@@ -26,7 +26,7 @@ MonPartyData:
 	nybble ICON_SNAKE     ; Arbok
 	nybble ICON_WATER     ; Wooper
 	nybble ICON_WATER     ; Quagsire
-	nybble ICON_BUG       ; Scatterbug
+	nybble ICON_MON       ; Nidoran
 	nybble ICON_BUG       ; Spewpa
 	nybble ICON_BUG       ; Vivillon
 	nybble ICON_QUADRUPED ; Skwovet

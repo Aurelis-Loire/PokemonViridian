@@ -4,7 +4,7 @@ PokedexEntryPointers:
 	dw KangaskhanDexEntry
 	dw SkwovetDexEntry
 	dw ClefairyDexEntry
-	dw ScatterbugDexEntry
+	dw NidoranDexEntry
 	dw VoltorbDexEntry
 	dw SpewpaDexEntry
 	dw SlowbroDexEntry
@@ -225,11 +225,11 @@ ClefairyDexEntry:
 	text_far _ClefairyDexEntry
 	text_end
 
-ScatterbugDexEntry:
-	db "DUST@"
-	db 1,0
-	dw 55
-	text_far _ScatterbugDexEntry
+NidoranDexEntry:
+	db "POISON PIN@"
+	db 1,8
+	dw 200
+	text_far _NidoranDexEntry
 	text_end
 
 VoltorbDexEntry:
