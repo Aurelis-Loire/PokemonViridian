@@ -37,7 +37,7 @@ CryData::
 	mon_cry SFX_CRY_10, $F6, $2E ; Ralts
 	mon_cry SFX_CRY_10, $AB, $9E ; Kirlia
 	mon_cry SFX_CRY_05, $8C, $3F ; Bounsweet
-	mon_cry SFX_CRY_1F, $D0, $01 ; Ducklett
+	mon_cry SFX_CRY_1F, $77, $B6 ; Ducklett
 	mon_cry SFX_CRY_1F, $20, $40 ; Growlithe
 	mon_cry SFX_CRY_17, $FF, $C0 ; Onix
 	mon_cry SFX_CRY_03, $AF, $95 ; Mareep
@@ -63,7 +63,7 @@ CryData::
 	mon_cry SFX_CRY_1E, $67, $87 ; Milotic
 	mon_cry SFX_CRY_25, $1F, $A9 ; Salandit
 	mon_cry SFX_CRY_0A, $DD, $60 ; Mankey
-	mon_cry SFX_CRY_19, $7A, $14 ; Croagunk
+	mon_cry SFX_CRY_1F, $6B, $28 ; Croagunk
 	mon_cry SFX_CRY_0B, $AA, $01 ; Diglett
 	mon_cry SFX_CRY_1D, $11, $40 ; Tauros
 	mon_cry SFX_CRY_19, $00, $7A ; Sigilyph
