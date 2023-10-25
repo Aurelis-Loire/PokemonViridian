@@ -55,7 +55,7 @@ _FuchsiaCityText17::
 _FuchsiaCityText18::
 	text "FUCHSIA CITY"
 	line "#MON GYM"
-	cont "LEADER: KOGA"
+	cont "LEADER: ALYSSA"
 
 	para "The Poisonous"
 	line "Ninja Master"
