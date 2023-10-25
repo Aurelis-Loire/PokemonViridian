@@ -57,8 +57,7 @@ _FuchsiaCityText18::
 	line "#MON GYM"
 	cont "LEADER: ALYSSA"
 
-	para "The Poisonous"
-	line "Ninja Master"
+	para "The Haunted Honey"
 	done
 
 _FuchsiaCityChanseyText::
