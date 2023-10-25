@@ -79,9 +79,10 @@ _Route14EndBattleText5::
 	prompt
 
 _Route14AfterBattleText5::
-	text "The 3 legendary"
-	line "#MON are all"
-	cont "birds of prey."
+	text "One of the 3"
+	line "legendary #MON"
+	cont "is a bird of" 
+	cont "prey."
 	done
 
 _Route14BattleText6::

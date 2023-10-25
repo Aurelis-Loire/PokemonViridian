@@ -1,25 +1,13 @@
 Route15WildMons:
 	def_grass_wildmons 15 ; encounter rate
-IF DEF(_RED)
-	db 24, CLOYSTER
-	db 26, DITTO
-	db 23, PIDGEY
+	db 24, STEENEE
+	db 26, DRIFLOON
+	db 23, PIDGEOTTO
 	db 26, VENONAT
-	db 22, CLOYSTER
+	db 22, STEENEE
 	db 28, VENONAT
-	db 26, CLOYSTER
-	db 30, GENGAR
-ENDC
-IF DEF(_BLUE)
-	db 24, BELLSPROUT
-	db 26, DITTO
-	db 23, PIDGEY
-	db 26, VENONAT
-	db 22, BELLSPROUT
-	db 28, VENONAT
-	db 26, BELLSPROUT
-	db 30, WEEPINBELL
-ENDC
+	db 26, STEENEE
+	db 30, TSAREENA
 	db 28, PIDGEOTTO
 	db 30, PIDGEOTTO
 	end_grass_wildmons

@@ -13,17 +13,12 @@ SpecialTrainerMoves:
 	db 1, 4, FISSURE
 	db 0
 	
-	db BEAUTY, 2
-	db 1, 4, CONFUSE_RAY
-	db 2, 4, CONFUSE_RAY
-	db 0
-	
-	db JR_TRAINER_F, 11
-	db 1, 4, CONFUSE_RAY
-	db 0
-	
 	db LASS, 18
-	db 1, 4, CONFUSE_RAY
+	db 1, 4, LEECH_LIFE
+	db 0
+	
+	db COOLTRAINER_F, 1
+	db 2, 1, PIN_MISSILE
 	db 0
 
 	db BROCK, 1
