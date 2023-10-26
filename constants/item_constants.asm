@@ -186,7 +186,7 @@ DEF TM01 EQU const_value
 	add_tm FISSURE      ; $E3
 	add_tm DIG          ; $E4
 	add_tm PSYCHIC_M    ; $E5
-	add_tm TELEPORT     ; $E6
+	add_tm PIN_MISSILE  ; $E6
 	add_tm MIMIC        ; $E7
 	add_tm DOUBLE_TEAM  ; $E8
 	add_tm REFLECT      ; $E9

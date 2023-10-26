@@ -18,7 +18,7 @@ SpecialTrainerMoves:
 	db 0
 	
 	db COOLTRAINER_F, 1
-	db 2, 1, PIN_MISSILE
+	db 2, 1, TWINEEDLE
 	db 0
 
 	db BROCK, 1
