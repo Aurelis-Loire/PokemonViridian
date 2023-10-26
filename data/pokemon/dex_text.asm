@@ -735,14 +735,14 @@ _ArticunoDexEntry::
 	next "mountains"
 	dex
 
-_ZapdosDexEntry::
-	text "A legendary bird"
-	next "#MON that is"
-	next "said to appear"
+_WailordDexEntry::
+	text "It is among the"
+	next "largest of all"
+	next "#MON. It herds"
 
-	page "from clouds while"
-	next "dropping enormous"
-	next "lightning bolts"
+	page "prey in a pack"
+	next "then swallows them"
+	next "in one gulp"
 	dex
 
 _DittoDexEntry::

@@ -81,7 +81,7 @@
 	const SALAZZLE           ; $48
 	const DRIFBLIM           ; $49
 	const ARTICUNO           ; $4A
-	const ZAPDOS             ; $4B
+	const WAILORD            ; $4B
 	const DITTO              ; $4C
 	const MEOWTH             ; $4D
 	const KRABBY             ; $4E

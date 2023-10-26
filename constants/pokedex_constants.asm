@@ -148,7 +148,7 @@
 	const DEX_AERODACTYL ; 142
 	const DEX_SNORLAX    ; 143
 	const DEX_ARTICUNO   ; 144
-	const DEX_ZAPDOS     ; 145
+	const DEX_WAILORD    ; 145
 	const DEX_DRIFBLIM   ; 146
 	const DEX_DRATINI    ; 147
 	const DEX_DRAGONAIR  ; 148

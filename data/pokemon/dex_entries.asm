@@ -74,7 +74,7 @@ PokedexEntryPointers:
 	dw SalazzleDexEntry
 	dw DrifblimDexEntry
 	dw ArticunoDexEntry
-	dw ZapdosDexEntry
+	dw WailordDexEntry
 	dw DittoDexEntry
 	dw MeowthDexEntry
 	dw KrabbyDexEntry
@@ -715,11 +715,11 @@ ArticunoDexEntry:
 	text_far _ArticunoDexEntry
 	text_end
 
-ZapdosDexEntry:
-	db "ELECTRIC@"
-	db 5,3
-	dw 1160
-	text_far _ZapdosDexEntry
+WailordDexEntry:
+	db "FLOATWHALE@"
+	db 47,7
+	dw 8774
+	text_far _WailordDexEntry
 	text_end
 
 DittoDexEntry:

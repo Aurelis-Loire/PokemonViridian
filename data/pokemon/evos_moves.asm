@@ -77,7 +77,7 @@ EvosMovesPointerTable:
 	dw SalazzleEvosMoves
 	dw DrifblimEvosMoves
 	dw ArticunoEvosMoves
-	dw ZapdosEvosMoves
+	dw WailordEvosMoves
 	dw DittoEvosMoves
 	dw MeowthEvosMoves
 	dw KrabbyEvosMoves
@@ -685,6 +685,7 @@ SteeneeEvosMoves:
 
 WailmerEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 40, WAILORD
 	db 0
 ; Learnset
 	db 7, GROWL
@@ -1051,13 +1052,11 @@ ArticunoEvosMoves:
 	db 60, MIST
 	db 0
 
-ZapdosEvosMoves:
+WailordEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 51, THUNDER
-	db 55, AGILITY
-	db 60, LIGHT_SCREEN
+	db 50, HYDRO_PUMP
 	db 0
 
 DittoEvosMoves:
@@ -1750,6 +1749,7 @@ MissingNo92EvosMoves:
 HaunterEvosMoves:
 ; Evolutions
 	db EV_TRADE, 1, GENGAR
+	db EV_LEVEL, 39, GENGAR
 	db 0
 ; Learnset
 	db 29, HYPNOSIS

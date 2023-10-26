@@ -80,7 +80,7 @@ CryData::
 	mon_cry SFX_CRY_00, $2D, $E6 ; Salazzle
 	mon_cry SFX_CRY_1D, $6D, $BB ; Drifblim
 	mon_cry SFX_CRY_09, $80, $40 ; Articuno
-	mon_cry SFX_CRY_18, $FF, $80 ; Zapdos
+	mon_cry SFX_CRY_14, $73, $71 ; Wailord
 	mon_cry SFX_CRY_0E, $FF, $FF ; Ditto
 	mon_cry SFX_CRY_19, $77, $10 ; Meowth
 	mon_cry SFX_CRY_20, $20, $E0 ; Krabby

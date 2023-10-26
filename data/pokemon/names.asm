@@ -74,7 +74,7 @@ MonsterNames::
 	db "SALAZZLE@@"
 	db "DRIFBLIM@@"
 	db "ARTICUNO@@"
-	db "ZAPDOS@@@@"
+	db "WAILORD@@@"
 	db "DITTO@@@@@"
 	db "MEOWTH@@@@"
 	db "KRABBY@@@@"
