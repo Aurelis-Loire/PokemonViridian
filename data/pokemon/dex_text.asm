@@ -57,14 +57,14 @@ _VoltorbDexEntry::
 	next "many people"
 	dex
 
-_SpewpaDexEntry::
-	text "When predators"
-	next "attack, it quickly"
-	next "bristles the fur"
+_NidorinoDexEntry::
+	text "An aggressive"
+	next "#MON that is"
+	next "quick to attack."
 
-	page "covering its body"
-	next "in an effort to"
-	next "threaten them"
+	page "The horn on its"
+	next "head secretes a"
+	next "powerful venom"
 	dex
 
 _SlowbroDexEntry::

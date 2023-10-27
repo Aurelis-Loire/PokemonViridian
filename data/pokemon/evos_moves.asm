@@ -9,7 +9,7 @@ EvosMovesPointerTable:
 	dw ClefairyEvosMoves
 	dw NidoranEvosMoves
 	dw VoltorbEvosMoves
-	dw SpewpaEvosMoves
+	dw NidorinoEvosMoves
 	dw SlowbroEvosMoves
 	dw IvysaurEvosMoves
 	dw ExeggutorEvosMoves
@@ -244,6 +244,7 @@ ClefairyEvosMoves:
 
 NidoranEvosMoves:
 ; Evolutions
+    db EV_LEVEL, 16, NIDORINO
 	db 0
 ; Learnset
 	db 8, HORN_ATTACK
@@ -266,12 +267,16 @@ VoltorbEvosMoves:
 	db 43, EXPLOSION
 	db 0
 
-SpewpaEvosMoves:
+NidorinoEvosMoves:
 ; Evolutions
-    db EV_LEVEL, 12, VIVILLON
 	db 0
 ; Learnset
-	db 9,  HARDEN
+	db 8, HORN_ATTACK
+	db 12, DOUBLE_KICK
+	db 19, POISON_STING
+	db 27, FOCUS_ENERGY
+	db 36, FURY_ATTACK
+	db 46, HORN_DRILL
 	db 0
 
 SlowbroEvosMoves:

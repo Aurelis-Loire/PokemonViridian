@@ -27,7 +27,7 @@ MonPartyData:
 	nybble ICON_WATER     ; Wooper
 	nybble ICON_WATER     ; Quagsire
 	nybble ICON_MON       ; Nidoran
-	nybble ICON_BUG       ; Spewpa
+	nybble ICON_MON       ; Nidorino
 	nybble ICON_BUG       ; Vivillon
 	nybble ICON_QUADRUPED ; Skwovet
     nybble ICON_QUADRUPED ; Greedent

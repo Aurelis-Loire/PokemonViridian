@@ -6,7 +6,7 @@ MonsterNames::
 	db "CLEFAIRY@@"
 	db "NIDORAN@@@"
 	db "VOLTORB@@@"
-	db "SPEWPA@@@@"
+	db "NIDORINO@@"
 	db "SLOWBRO@@@"
 	db "IVYSAUR@@@"
 	db "EXEGGUTOR@"
