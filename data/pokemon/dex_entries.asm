@@ -75,7 +75,7 @@ PokedexEntryPointers:
 	dw DrifblimDexEntry
 	dw ArticunoDexEntry
 	dw WailordDexEntry
-	dw DittoDexEntry
+	dw LopunnyDexEntry
 	dw MeowthDexEntry
 	dw KrabbyDexEntry
 	dw MissingNoDexEntry
@@ -722,11 +722,11 @@ WailordDexEntry:
 	text_far _WailordDexEntry
 	text_end
 
-DittoDexEntry:
-	db "TRANSFORM@"
-	db 1,0
-	dw 90
-	text_far _DittoDexEntry
+LopunnyDexEntry:
+	db "RABBIT@"
+	db 3,11
+	dw 734
+	text_far _LopunnyDexEntry
 	text_end
 
 MeowthDexEntry:

@@ -78,7 +78,7 @@ EvosMovesPointerTable:
 	dw DrifblimEvosMoves
 	dw ArticunoEvosMoves
 	dw WailordEvosMoves
-	dw DittoEvosMoves
+	dw LopunnyEvosMoves
 	dw MeowthEvosMoves
 	dw KrabbyEvosMoves
 	dw MissingNo4FEvosMoves
@@ -1070,10 +1070,17 @@ WailordEvosMoves:
 	db 50, HYDRO_PUMP
 	db 0
 
-DittoEvosMoves:
+LopunnyEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 24, POUND
+	db 29, DEFENSE_CURL
+	db 32, QUICK_ATTACK
+	db 36, JUMP_KICK
+	db 39, AGILITY
+	db 45, DIZZY_PUNCH
+	db 48, HI_JUMP_KICK
 	db 0
 
 MeowthEvosMoves:

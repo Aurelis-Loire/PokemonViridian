@@ -11,7 +11,7 @@ TitleMons:
 	db RHYDON
 	db ABRA
 	db GASTLY
-	db DITTO
+	db SEADRA ;was Ditto
 	db PIDGEOTTO
 	db ONIX
 	db PONYTA

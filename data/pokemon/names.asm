@@ -75,7 +75,7 @@ MonsterNames::
 	db "DRIFBLIM@@"
 	db "ARTICUNO@@"
 	db "WAILORD@@@"
-	db "DITTO@@@@@"
+	db "LOPUNNY@@@"
 	db "MEOWTH@@@@"
 	db "KRABBY@@@@"
 	db "MISSINGNO."

@@ -5,12 +5,12 @@ CreditsMons:
 	db RHYHORN
 	db TENTACRUEL ; Was Fearow
 	db ABRA
-	db DITTO ; Was Graveler
+	db SLOWPOKE ; Was Graveler
 	db PERSIAN
 	db JOLTEON
 	db STARMIE
 	db GYARADOS
-	db DITTO
+	db KABUTOPS ; Was Ditto
 	db OMASTAR
 	db OMANYTE ; Was Vileplume
 	db NIDOKING

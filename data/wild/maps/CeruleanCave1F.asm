@@ -14,7 +14,7 @@ ENDC
 	db 49, KADABRA
 	db 52, PIDGEOT
 	db 53, RAICHU
-	db 53, DITTO
+	db 53, HITMONCHAN
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

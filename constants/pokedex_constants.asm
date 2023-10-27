@@ -135,7 +135,7 @@
 	const DEX_PARAS      ; 129
 	const DEX_SIGILYPH   ; 130
 	const DEX_LAPRAS     ; 131
-	const DEX_DITTO      ; 132
+	const DEX_LOPUNNY    ; 132
 	const DEX_GOLETT     ; 133
 	const DEX_BELLSPROUT ; 134
 	const DEX_WEEPINBELL ; 135

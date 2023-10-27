@@ -82,7 +82,7 @@
 	const DRIFBLIM           ; $49
 	const ARTICUNO           ; $4A
 	const WAILORD            ; $4B
-	const DITTO              ; $4C
+	const LOPUNNY            ; $4C
 	const MEOWTH             ; $4D
 	const KRABBY             ; $4E
 	const_skip               ; $4F

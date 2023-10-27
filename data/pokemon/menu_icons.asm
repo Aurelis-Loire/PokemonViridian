@@ -131,7 +131,7 @@ MonPartyData:
 	nybble ICON_BUG       ; Paras
 	nybble ICON_BIRD      ; Sigilyph
 	nybble ICON_WATER     ; Lapras
-	nybble ICON_MON       ; Ditto
+	nybble ICON_MON       ; Lopunny
 	nybble ICON_MON       ; Golett
 	nybble ICON_GRASS     ; Bellsprout
 	nybble ICON_GRASS     ; Weepinbell

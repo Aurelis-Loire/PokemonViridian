@@ -745,14 +745,14 @@ _WailordDexEntry::
 	next "in one gulp"
 	dex
 
-_DittoDexEntry::
-	text "Capable of copying"
-	next "an enemy's genetic"
-	next "code to instantly"
+_LopunnyDexEntry::
+	text "An extremely"
+	next "cautious #MON."
+	next "It cloaks its body"
 
-	page "transform itself"
-	next "into a duplicate"
-	next "of the enemy"
+	page "with its fluffy"
+	next "ear fur when it"
+	next "senses danger"
 	dex
 
 _MeowthDexEntry::

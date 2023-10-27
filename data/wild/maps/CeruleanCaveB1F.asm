@@ -12,9 +12,9 @@ ENDC
 IF DEF(_BLUE)
 	db 57, NINETALES
 ENDC
-	db 65, DITTO
-	db 63, DITTO
-	db 67, DITTO
+	db 65, HITMONCHAN
+	db 63, HITMONCHAN
+	db 67, HITMONCHAN
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
