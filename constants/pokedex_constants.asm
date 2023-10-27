@@ -32,7 +32,7 @@
 	const DEX_QUAGSIRE   ; 26
 	const DEX_NIDORAN    ; 27
 	const DEX_NIDORINO   ; 28
-	const DEX_VIVILLON   ; 29
+	const DEX_NIDOKING   ; 29
 	const DEX_SKWOVET    ; 30
 	const DEX_GREEDENT   ; 31
 	const DEX_CLEFAIRY   ; 32

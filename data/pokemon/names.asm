@@ -12,7 +12,7 @@ MonsterNames::
 	db "EXEGGUTOR@"
 	db "LICKITUNG@"
 	db "EXEGGCUTE@"
-	db "VIVILLON@@"
+	db "NIDOKING@@"
 	db "GENGAR@@@@"
 	db "WOOPER@@@@"
 	db "FRIGIBAX@@"

@@ -117,14 +117,14 @@ _ExeggcuteDexEntry::
 	next "in swarms"
 	dex
 
-_VivillonDexEntry::
-	text "VIVILLON with many"
-	next "different patterns"
-	next "are found all over"
+_NidokingDexEntry::
+	text "It uses its"
+	next "powerful tail in"
+	next "battle to smash,"
 
-	page "the world. They"
-	next "are affected by"
-	next "the climate"
+	page "constrict, then"
+	next "break the prey's"
+	next "bones"
 	dex
 
 _GengarDexEntry::

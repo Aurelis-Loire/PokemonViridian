@@ -19,7 +19,7 @@
 	const EXEGGUTOR          ; $0A
 	const LICKITUNG          ; $0B
 	const EXEGGCUTE          ; $0C
-	const VIVILLON           ; $0D
+	const NIDOKING           ; $0D
 	const GENGAR             ; $0E
 	const WOOPER             ; $0F
 	const FRIGIBAX           ; $10

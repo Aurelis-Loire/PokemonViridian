@@ -28,7 +28,7 @@ MonPartyData:
 	nybble ICON_WATER     ; Quagsire
 	nybble ICON_MON       ; Nidoran
 	nybble ICON_MON       ; Nidorino
-	nybble ICON_BUG       ; Vivillon
+	nybble ICON_MON       ; Nidoking
 	nybble ICON_QUADRUPED ; Skwovet
     nybble ICON_QUADRUPED ; Greedent
     nybble ICON_FAIRY     ; Clefairy

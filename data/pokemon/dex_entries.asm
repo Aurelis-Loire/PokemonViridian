@@ -12,7 +12,7 @@ PokedexEntryPointers:
 	dw ExeggutorDexEntry
 	dw LickitungDexEntry
 	dw ExeggcuteDexEntry
-	dw VivillonDexEntry
+	dw NidokingDexEntry
 	dw GengarDexEntry
 	dw WooperDexEntry
 	dw FrigibaxDexEntry
@@ -281,11 +281,11 @@ ExeggcuteDexEntry:
 	text_far _ExeggcuteDexEntry
 	text_end
 
-VivillonDexEntry:
-	db "SCALE@"
-	db 3,11
-	dw 375
-	text_far _VivillonDexEntry
+NidokingDexEntry:
+	db "DRILL@"
+	db 4,7
+	dw 1370
+	text_far _NidokingDexEntry
 	text_end
 
 GengarDexEntry:

@@ -18,7 +18,7 @@ CryData::
 	mon_cry SFX_CRY_0D, $00, $80 ; Exeggutor
 	mon_cry SFX_CRY_0C, $00, $80 ; Lickitung
 	mon_cry SFX_CRY_0B, $00, $80 ; Exeggcute
-	mon_cry SFX_CRY_09, $03, $1B ; Vivillon
+	mon_cry SFX_CRY_09, $00, $80 ; Vivillon
 	mon_cry SFX_CRY_07, $00, $FF ; Gengar
 	mon_cry SFX_CRY_25, $E6, $39 ; Wooper
 	mon_cry SFX_CRY_0A, $1C, $12 ; Frigibax

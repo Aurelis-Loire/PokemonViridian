@@ -13,5 +13,5 @@ CreditsMons:
 	db DITTO
 	db OMASTAR
 	db OMANYTE ; Was Vileplume
-	db PONYTA ; Was Nidoking
+	db NIDOKING
 	db KRABBY ; Was Parasect

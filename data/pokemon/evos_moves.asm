@@ -15,7 +15,7 @@ EvosMovesPointerTable:
 	dw ExeggutorEvosMoves
 	dw LickitungEvosMoves
 	dw ExeggcuteEvosMoves
-	dw VivillonEvosMoves
+	dw NidokingEvosMoves
 	dw GengarEvosMoves
 	dw WooperEvosMoves
 	dw FrigibaxEvosMoves
@@ -269,6 +269,7 @@ VoltorbEvosMoves:
 
 NidorinoEvosMoves:
 ; Evolutions
+	db EV_ITEM, MOON_STONE, 1, NIDOKING
 	db 0
 ; Learnset
 	db 8, HORN_ATTACK
@@ -311,7 +312,13 @@ ExeggutorEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 28, STOMP
+	db 25, REFLECT
+	db 28, LEECH_SEED
+	db 29, STOMP
+	db 32, STUN_SPORE
+	db 37, POISONPOWDER
+	db 42, SOLARBEAM
+	db 48, SLEEP_POWDER
 	db 0
 
 LickitungEvosMoves:
@@ -338,16 +345,15 @@ ExeggcuteEvosMoves:
 	db 48, SLEEP_POWDER
 	db 0
 
-VivillonEvosMoves:
+NidokingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, POISONPOWDER
-	db 16, GUST
-	db 21, LIGHT_SCREEN
-	db 29, SLEEP_POWDER
-	db 36, PSYBEAM
-	db 43, SUPERSONIC
+	db 19, POISON_STING
+	db 23, THRASH
+	db 27, FOCUS_ENERGY
+	db 36, FURY_ATTACK
+	db 46, HORN_DRILL
 	db 0
 
 GengarEvosMoves:
@@ -1682,7 +1688,12 @@ CloysterEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 50, SPIKE_CANNON
+	db 18, SUPERSONIC
+	db 23, CLAMP
+	db 30, AURORA_BEAM
+	db 39, LEER
+	db 50, ICE_BEAM
+	db 51, SPIKE_CANNON
 	db 0
 
 MissingNo8CEvosMoves:
@@ -1810,6 +1821,13 @@ StarmieEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 17, WATER_GUN
+	db 22, HARDEN
+	db 27, RECOVER
+	db 32, SWIFT
+	db 37, MINIMIZE
+	db 42, LIGHT_SCREEN
+	db 47, HYDRO_PUMP
 	db 0
 
 BulbasaurEvosMoves:
