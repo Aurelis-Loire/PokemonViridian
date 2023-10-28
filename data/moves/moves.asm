@@ -168,7 +168,7 @@ Moves:
 	move BONEMERANG,   ATTACK_TWICE_EFFECT,         50, GROUND,        90, 10
 	move REST,         HEAL_EFFECT,                  0, PSYCHIC_TYPE, 100, 10
 	move ROCK_SLIDE,   NO_ADDITIONAL_EFFECT,        75, ROCK,          90, 10
-	move HYPER_FANG,   FLINCH_SIDE_EFFECT1,         80, NORMAL,        90, 15
+	move DRAGON_TAIL,  NO_ADDITIONAL_EFFECT,        60, DRAGON,        90, 10
 	move SHARPEN,      ATTACK_UP1_EFFECT,            0, NORMAL,       100, 30
 	move CONVERSION,   CONVERSION_EFFECT,            0, NORMAL,       100, 30
 	move TRI_ATTACK,   NO_ADDITIONAL_EFFECT,        80, NORMAL,       100, 10

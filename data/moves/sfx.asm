@@ -158,7 +158,7 @@ MoveSoundTable:
 	db SFX_BATTLE_2B,          $f0, $60 ; BONEMERANG
 	db SFX_BATTLE_21,          $12, $10 ; REST
 	db SFX_BATTLE_36,          $f0, $20 ; ROCK_SLIDE
-	db SFX_BATTLE_1E,          $12, $ff ; HYPER_FANG
+	db SFX_BATTLE_0E,          $3a, $98 ; DRAGON_TAIL
 	db SFX_BATTLE_31,          $80, $04 ; SHARPEN
 	db SFX_BATTLE_33,          $f0, $10 ; CONVERSION
 	db SFX_BATTLE_29,          $f8, $ff ; TRI_ATTACK

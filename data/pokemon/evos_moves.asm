@@ -381,6 +381,7 @@ FrigibaxEvosMoves:
 	db 0
 ; Learnset
 	db 16, LEER
+	db 19, DRAGON_TAIL
 	db 25, FOCUS_ENERGY
 	db 31, BITE
 	db 38, TAKE_DOWN
@@ -854,6 +855,7 @@ MiloticEvosMoves:
 	db 0
 ; Learnset
 	db 28, REFRESH
+	db 33, DRAGON_TAIL
 	db 38, RECOVER
 	db 43, HYDRO_PUMP
 	db 48, SAFEGUARD

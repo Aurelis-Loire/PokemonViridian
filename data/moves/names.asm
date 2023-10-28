@@ -157,7 +157,7 @@ MoveNames::
 	li "BONEMERANG"
 	li "REST"
 	li "ROCK SLIDE"
-	li "HYPER FANG"
+	li "DRAGON TAIL"
 	li "SHARPEN"
 	li "CONVERSION"
 	li "TRI ATTACK"

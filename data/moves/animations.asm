@@ -157,7 +157,7 @@ AttackAnimationPointers:
 	dw BonemerangAnim
 	dw RestAnim
 	dw RockSlideAnim
-	dw HyperFangAnim
+	dw DragonTailAnim
 	dw SharpenAnim
 	dw ConversionAnim
 	dw TriAttackAnim
@@ -1107,11 +1107,11 @@ RestAnim:
 RockSlideAnim:
 	battle_anim ROCK_SLIDE, SUBANIM_0_ROCKS_LIFT, 0, 4
 	battle_anim ROCK_SLIDE, SUBANIM_0_ROCKS_TOSS, 0, 3
-	battle_anim HYPER_FANG, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim DRAGON_TAIL, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
-HyperFangAnim:
-	battle_anim HYPER_FANG, SUBANIM_0_STAR_THRICE, 0, 6
+DragonTailAnim:
+	battle_anim DRAGON_TAIL, SUBANIM_0_STAR_THRICE, 0, 6
 	db -1 ; end
 
 SharpenAnim:
