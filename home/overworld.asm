@@ -283,6 +283,9 @@ OverworldLoopLessDelay::
 	bit 6, a ; jumping a ledge?
 	jr nz, .normalPlayerSpriteAdvancement
 	call DoBikeSpeedup
+	call DoBikeSpeedup
+	call DoBikeSpeedup
+	jr .notRunning
 .normalPlayerSpriteAdvancement
 	; surf at 2x walking speed
 	ld a, [wWalkBikeSurfState]
