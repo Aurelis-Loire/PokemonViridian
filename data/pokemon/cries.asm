@@ -83,7 +83,7 @@ CryData::
 	mon_cry SFX_CRY_14, $73, $71 ; Wailord
 	mon_cry SFX_CRY_0F, $27, $66 ; Lopunny
 	mon_cry SFX_CRY_19, $77, $10 ; Meowth
-	mon_cry SFX_CRY_20, $20, $E0 ; Krabby
+	mon_cry SFX_CRY_16, $1E, $F5 ; Froslass
 	mon_cry SFX_CRY_22, $FF, $40 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_0E, $E0, $60 ; MissingNo.

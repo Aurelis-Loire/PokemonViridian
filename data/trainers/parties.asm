@@ -422,20 +422,20 @@ JugglerData:
 ; Victory Road 2F
 	db 41, JOLTIK, HYPNO, KADABRA, KADABRA, 0
 ; Fuchsia Gym
-	db 31, JOLTIK, JOLTIK, KADABRA, JOLTIK, 0
-	db 34, JOLTIK, HYPNO, 0
+	db 31, FROSLASS, DRIFBLIM, FROSLASS, MAROWAK, 0
+	db 34, GOLETT, MAROWAK, 0
 ; Victory Road 2F
 	db 48, WAILMER, 0
 ; Unused
 	db 33, HYPNO, 0
 ; Fuchsia Gym
-	db 38, HYPNO, 0
-	db 34, JOLTIK, KADABRA, 0
+	db 38, MAROWAK, 0
+	db 34, GOLETT, HAUNTER, 0
 
 TamerData:
 ; Fuchsia Gym
-	db 34, LARVITAR, ARBOK, 0
-	db 33, ARBOK, LARVITAR, ARBOK, 0
+	db 34, LAPRAS, VULPIX, 0
+	db 33, GOLETT, DRIFBLIM, DRIFBLIM, 0
 ; Viridian Gym
 	db 43, RHYHORN, 0
 	db 39, ARBOK, TAUROS, 0

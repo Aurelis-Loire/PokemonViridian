@@ -765,14 +765,14 @@ _MeowthDexEntry::
 	next "loose change"
 	dex
 
-_KrabbyDexEntry::
-	text "Its pincers are"
-	next "not only powerful"
-	next "weapons, they are"
+_FroslassDexEntry::
+	text "It freezes foes"
+	next "with an icy breath"
+	next "nearly -60 degrees"
 
-	page "used for balance"
-	next "when walking"
-	next "sideways"
+	page "F. What seems to"
+	next "be its body is"
+	next "actually hollow"
 	dex
 
 _VulpixDexEntry::

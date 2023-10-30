@@ -80,7 +80,7 @@ EvosMovesPointerTable:
 	dw WailordEvosMoves
 	dw LopunnyEvosMoves
 	dw MeowthEvosMoves
-	dw KrabbyEvosMoves
+	dw FroslassEvosMoves
 	dw MissingNo4FEvosMoves
 	dw MissingNo50EvosMoves
 	dw MissingNo51EvosMoves
@@ -1097,13 +1097,16 @@ MeowthEvosMoves:
 	db 44, SLASH
 	db 0
 
-KrabbyEvosMoves:
+FroslassEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 28, KINGLER
 	db 0
 ; Learnset
-	db 30, STOMP
-	db 40, HARDEN
+	db 18, DOUBLE_TEAM
+	db 23, ASTONISH
+	db 31, BITE
+	db 39, CONFUSE_RAY
+	db 47, HEADBUTT
+	db 58, BLIZZARD
 	db 0
 
 MissingNo4FEvosMoves:

@@ -101,7 +101,7 @@
 	const DEX_TSAREENA   ; 95
 	const DEX_JOLTIK     ; 96
 	const DEX_HYPNO      ; 97
-	const DEX_KRABBY     ; 98
+	const DEX_FROSLASS   ; 98
 	const DEX_KINGLER    ; 99
 	const DEX_GEODUDE    ; 100
 	const DEX_DRIFLOON   ; 101

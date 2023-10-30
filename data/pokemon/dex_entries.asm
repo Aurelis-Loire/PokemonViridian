@@ -77,7 +77,7 @@ PokedexEntryPointers:
 	dw WailordDexEntry
 	dw LopunnyDexEntry
 	dw MeowthDexEntry
-	dw KrabbyDexEntry
+	dw FroslassDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
@@ -736,11 +736,11 @@ MeowthDexEntry:
 	text_far _MeowthDexEntry
 	text_end
 
-KrabbyDexEntry:
-	db "RIVER CRAB@"
-	db 1,4
-	dw 140
-	text_far _KrabbyDexEntry
+FroslassDexEntry:
+	db "SNOW LAND@"
+	db 4,3
+	dw 586
+	text_far _FroslassDexEntry
 	text_end
 
 VulpixDexEntry:

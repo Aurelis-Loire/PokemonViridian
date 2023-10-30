@@ -97,7 +97,7 @@ MonPartyData:
 	nybble ICON_GRASS     ; Tsareena
 	nybble ICON_BUG       ; Joltik
 	nybble ICON_MON       ; Hypno
-	nybble ICON_WATER     ; Krabby
+	nybble ICON_MON       ; Froslass
 	nybble ICON_WATER     ; Kingler
 	nybble ICON_MON       ; Geodude
 	nybble ICON_BALL      ; Drifloon

@@ -77,7 +77,7 @@ PokedexOrder:
 	db DEX_WAILORD
 	db DEX_LOPUNNY
 	db DEX_MEOWTH
-	db DEX_KRABBY
+	db DEX_FROSLASS
 	db 0 ; MISSINGNO.
 	db 0 ; MISSINGNO.
 	db 0 ; MISSINGNO.

@@ -77,7 +77,7 @@ MonsterNames::
 	db "WAILORD@@@"
 	db "LOPUNNY@@@"
 	db "MEOWTH@@@@"
-	db "KRABBY@@@@"
+	db "FROSLASS@@"
 	db "MISSINGNO."
 	db "MISSINGNO."
 	db "MISSINGNO."

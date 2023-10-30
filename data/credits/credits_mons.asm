@@ -14,4 +14,4 @@ CreditsMons:
 	db OMASTAR
 	db OMANYTE ; Was Vileplume
 	db NIDOKING
-	db KRABBY ; Was Parasect
+	db IVYSAUR ; Was Parasect
