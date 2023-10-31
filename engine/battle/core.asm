@@ -2772,6 +2772,12 @@ NoMovesLeftText:
 	text_end
 
 SwapMovesInMenu:
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Below is taken from shinpokered
+;joenote - do not allow move swapping if transformed
+	ld a, [wPlayerBattleStatus3]	;load the player status
+	bit TRANSFORMED, a ; is pkmn transformed?
+	ret nz	;return if transformed
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	ld a, [wMenuItemToSwap]
 	and a
 	jr z, .noMenuItemSelected
