@@ -85,7 +85,7 @@
 	const LOPUNNY            ; $4C
 	const MEOWTH             ; $4D
 	const FROSLASS           ; $4E
-	const_skip               ; $4F
+	const TOXICROAK          ; $4F
 	const_skip               ; $50
 	const_skip               ; $51
 	const VULPIX             ; $52
@@ -115,7 +115,7 @@
 	const GIBLE              ; $6A
 	const ZUBAT              ; $6B
 	const EKANS              ; $6C
-	const PARAS              ; $6D
+	const_skip               ; $6D
 	const POLIWHIRL          ; $6E
 	const POLIWRATH          ; $6F
 	const WEEDLE             ; $70

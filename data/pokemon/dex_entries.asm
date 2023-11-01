@@ -78,7 +78,7 @@ PokedexEntryPointers:
 	dw LopunnyDexEntry
 	dw MeowthDexEntry
 	dw FroslassDexEntry
-	dw MissingNoDexEntry
+	dw ToxicroakDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw VulpixDexEntry
@@ -108,7 +108,7 @@ PokedexEntryPointers:
 	dw GibleDexEntry
 	dw ZubatDexEntry
 	dw EkansDexEntry
-	dw ParasDexEntry
+	dw MissingNoDexEntry
 	dw PoliwhirlDexEntry
 	dw PoliwrathDexEntry
 	dw WeedleDexEntry
@@ -597,7 +597,7 @@ MankeyDexEntry:
 	text_end
 
 CroagunkDexEntry:
-	db "TOXIC FROG@"
+	db "TOXICMOUTH@"
 	db 2,4
 	dw 507
 	text_far _CroagunkDexEntry
@@ -742,6 +742,13 @@ FroslassDexEntry:
 	dw 586
 	text_far _FroslassDexEntry
 	text_end
+	
+ToxicroakDexEntry:
+	db "TOXICMOUTH@"
+	db 4,3
+	dw 979
+	text_far _ToxicroakDexEntry
+	text_end
 
 VulpixDexEntry:
 	db "FOX@"
@@ -874,13 +881,6 @@ EkansDexEntry:
 	db 6,7
 	dw 150
 	text_far _EkansDexEntry
-	text_end
-
-ParasDexEntry:
-	db "MUSHROOM@"
-	db 1,0
-	dw 120
-	text_far _ParasDexEntry
 	text_end
 
 PoliwhirlDexEntry:

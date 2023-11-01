@@ -774,6 +774,15 @@ _FroslassDexEntry::
 	next "be its body is"
 	next "actually hollow"
 	dex
+	
+_ToxicroakDexEntry::
+	text "Its knuckle claws"
+	next "secrete a toxin so"
+	next "vile that even a"
+
+	page "scratch could"
+	next "prove fatal"
+	dex
 
 _VulpixDexEntry::
 	text "It exhales air"
@@ -962,16 +971,6 @@ _EkansDexEntry::
 	page "birds, such as"
 	next "PIDGEY and"
 	next "SPEAROW, whole"
-	dex
-
-_ParasDexEntry::
-	text "Burrows to suck"
-	next "tree roots. The"
-	next "mushrooms on its"
-
-	page "back grow by draw-"
-	next "ing nutrients from"
-	next "the bug host"
 	dex
 
 _PoliwhirlDexEntry::

@@ -81,7 +81,7 @@ EvosMovesPointerTable:
 	dw LopunnyEvosMoves
 	dw MeowthEvosMoves
 	dw FroslassEvosMoves
-	dw MissingNo4FEvosMoves
+	dw ToxicroakEvosMoves
 	dw MissingNo50EvosMoves
 	dw MissingNo51EvosMoves
 	dw VulpixEvosMoves
@@ -111,7 +111,7 @@ EvosMovesPointerTable:
 	dw GibleEvosMoves
 	dw ZubatEvosMoves
 	dw EkansEvosMoves
-	dw ParasEvosMoves
+	dw MissingNo6DEvosMoves
 	dw PoliwhirlEvosMoves
 	dw PoliwrathEvosMoves
 	dw WeedleEvosMoves
@@ -890,6 +890,7 @@ MankeyEvosMoves:
 
 CroagunkEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 37, TOXICROAK
 	db 0
 ; Learnset
 	db 30, POISON_STING
@@ -1109,10 +1110,16 @@ FroslassEvosMoves:
 	db 58, BLIZZARD
 	db 0
 
-MissingNo4FEvosMoves:
+ToxicroakEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 30, POISON_STING
+	db 33, POUND
+	db 37, LOW_KICK
+	db 45, SWIFT
+	db 53, TOXIC
+	db 60, COUNTER
 	db 0
 
 MissingNo50EvosMoves:
@@ -1420,14 +1427,10 @@ EkansEvosMoves:
 	db 38, ACID
 	db 0
 
-ParasEvosMoves:
+MissingNo6DEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, STUN_SPORE
-	db 20, LEECH_LIFE
-	db 34, SLASH
-	db 41, GROWTH
 	db 0
 
 PoliwhirlEvosMoves:

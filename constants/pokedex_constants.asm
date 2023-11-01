@@ -132,7 +132,7 @@
 	const DEX_MAGMAR     ; 126
 	const DEX_LARVITAR   ; 127
 	const DEX_TAUROS     ; 128
-	const DEX_PARAS      ; 129
+	const DEX_TOXICROAK  ; 129
 	const DEX_SIGILYPH   ; 130
 	const DEX_LAPRAS     ; 131
 	const DEX_LOPUNNY    ; 132
