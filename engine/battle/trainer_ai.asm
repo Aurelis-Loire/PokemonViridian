@@ -411,7 +411,7 @@ ErikaAI:
 KogaAI:
 	cp 25 percent + 1
 	ret nc
-	jp AIUseXAttack
+	jp AIUseXSpecial
 
 BlaineAI:
 	cp 25 percent + 1

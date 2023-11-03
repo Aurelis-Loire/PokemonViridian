@@ -394,7 +394,6 @@ CuboneEvosMoves:
 	db 0
 ; Learnset
 	db 10, BONE_CLUB
-	db 13, TAIL_WHIP
 	db 18, HEADBUTT
 	db 25, LEER
 	db 31, FOCUS_ENERGY
@@ -1765,6 +1764,9 @@ MarowakEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 10, BONE_CLUB
+	db 18, HEADBUTT
+	db 25, LEER
 	db 33, EMBER
 	db 41, THRASH
 	db 48, BONEMERANG
@@ -1851,7 +1853,7 @@ BulbasaurEvosMoves:
 	db 0
 ; Learnset
 	db 7, LEECH_SEED
-	db 13, VINE_WHIP
+	db 10, VINE_WHIP
 	db 20, POISONPOWDER
 	db 27, RAZOR_LEAF
 	db 30, SWEET_SCENT
