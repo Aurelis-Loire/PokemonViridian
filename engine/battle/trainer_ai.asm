@@ -113,7 +113,8 @@ AIMoveChoiceModificationFunctionPointers:
 AIMoveChoiceModification1:
 	ld a, [wBattleMonStatus]
 	and a
-	ret z ; return if no status ailment on player's mon
+	;joenote - don't return yet. going to check for dream eater. will do this later
+	;ret z ; return if no status ailment on player's mon
 	ld hl, wBuffer - 1 ; temp move selection array (-1 byte offset)
 	ld de, wEnemyMonMoves ; enemy moves
 	ld b, NUM_MOVES + 1
@@ -126,6 +127,17 @@ AIMoveChoiceModification1:
 	ret z ; no more moves in move set
 	inc de
 	call ReadMove
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;joenote - do not use dream eater if enemy not asleep, otherwise encourage it
+	ld a, [wEnemyMoveEffect]	;load the move effect
+	cp DREAM_EATER_EFFECT	;see if it is dream eater
+	jr nz, .notdreameater	;skip out if move is not dream eater
+	ld a, [wBattleMonStatus]	;load the player pkmn non-volatile status
+	and $7	;check bits 0 to 2 for sleeping turns
+	jp z, .heavydiscourage	;heavily discourage using dream eater on non-sleeping pkmn
+	dec [hl]	;else slightly encourage dream eater's use on a sleeping pkmn
+	jp .nextMove
+.notdreameater
 	ld a, [wEnemyMovePower]
 	and a
 	jr nz, .nextMove
@@ -144,6 +156,11 @@ AIMoveChoiceModification1:
 	add $5 ; heavily discourage move
 	ld [hl], a
 	jr .nextMove
+.heavydiscourage	;joenote - added marker
+	ld a, [hl]
+	add $5 ; heavily discourage move
+	ld [hl], a
+	jp .nextMove
 
 StatusAilmentMoveEffects:
 	db EFFECT_01 ; unused sleep effect
