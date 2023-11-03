@@ -7,14 +7,15 @@ _ErikaPreBattleText::
 	line "I must have dozed"
 	cont "off. Welcome."
 
-	para "My name is ALYSSA."
-	line "I am the LEADER"
-	cont "of CELADON GYM."
+	para "My name is"
+	line "SPECTRE. I am the"
+	cont "LEADER of CELADON"
+	cont "GYM."
 
 	para "I teach the art of"
 	line "flower arranging."
 	cont "My #MON are of"
-	cont "the ghost-type."
+	cont "the bug-type."
 
 	para "Oh, I'm sorry, I"
 	line "had no idea that"
@@ -72,10 +73,13 @@ _TM21ExplanationText::
 	text_start
 
 	para "TM04 contains"
-	line "SHADOW BALL."
+	line "PIN MISSILE."
 
-	para "Use it on your"
-	line "spookiest #MON!"
+	para "It will launch a"
+	line "rain of needles"
+	cont "that psychic and"
+	cont "grass #MON"
+	cont "hate!"
 	done
 
 _TM21NoRoomText::
@@ -97,7 +101,7 @@ _CeladonGymEndBattleText2::
 
 _CeladonGymAfterBattleText2::
 	text "Bleaah!"
-	line "I hope ALYSSA"
+	line "I hope SPECTRE"
 	cont "wipes you out!"
 	done
 
@@ -112,13 +116,13 @@ _CeladonGymEndBattleText3::
 	prompt
 
 _CeladonGymAfterBattleText3::
-	text "Ghost-type #MON"
+	text "Bug-type #MON"
 	line "are tough against"
-	cont "other ghosts!"
+	cont "the grass-type!"
 
-	para "They are also"
-	line "immune to normal"
-	cont "and fighting"
+	para "They also have an"
+	line "edge on psychic"
+	cont "and ground"
 	cont "#MON!"
 	done
 
@@ -139,7 +143,7 @@ _CeladonGymAfterBattleText4::
 	done
 
 _CeladonGymBattleText5::
-	text "Look at my spooky"
+	text "Look at my bug"
 	line "#MON!"
 
 	para "They're so easy"
@@ -151,18 +155,19 @@ _CeladonGymEndBattleText5::
 	prompt
 
 _CeladonGymAfterBattleText5::
-	text "We only use ghost-"
+	text "We only use bug-"
 	line "type #MON at"
 	cont "our GYM!"
 
 	para "We also use them"
-	line "for creating"
-	cont "haunted houses!"
+	line "to help in our"
+	cont "experiments!"
 	done
 
 _CeladonGymBattleText6::
 	text "Don't bring any"
-	line "wailmers in here!"
+	line "birds or fire"
+	cont "#MON in here!"
 	done
 
 _CeladonGymEndBattleText6::
@@ -172,9 +177,9 @@ _CeladonGymEndBattleText6::
 
 _CeladonGymAfterBattleText6::
 	text "Our LEADER,"
-	line "ALYSSA, might be"
-	cont "cute, but she's"
-	cont "also very"
+	line "SPECTRE, might be"
+	cont "intense, but"
+	cont "she's also very"
 	cont "skilled!"
 	done
 

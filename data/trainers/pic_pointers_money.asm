@@ -43,8 +43,8 @@ TrainerPicAndMoneyPointers::
 	pic_money DianaPic,        9900
 	pic_money MattPic,         9900
 	pic_money AlexPic,         9900
+	pic_money SpectrePic,      9900
 	pic_money AlyssaPic,       9900
-	pic_money KogaPic,         9900
 	pic_money BlainePic,       9900
 	pic_money SabrinaPic,      9900
 	pic_money GentlemanPic,    7000

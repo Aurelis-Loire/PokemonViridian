@@ -64,16 +64,10 @@ SpecialTrainerMoves:
 	db 0
 
 	db KOGA, 1
-	db 1, 1, TOXIC
-	db 1, 2, TACKLE
-	db 2, 1, TOXIC
-	db 2, 3, SUPERSONIC
-	db 3, 1, TOXIC
-	db 3, 2, DOUBLE_EDGE
-	db 4, 1, LEECH_LIFE
-	db 4, 2, DOUBLE_TEAM
-	db 4, 3, PSYCHIC_M
-	db 4, 4, TOXIC
+	db 1, 4, EMBER
+	db 3, 4, POWDER_SNOW
+	db 4, 1, BONE_CLUB
+	db 4, 4, SHADOW_BALL
 	db 0
 
 	db BLAINE, 1
