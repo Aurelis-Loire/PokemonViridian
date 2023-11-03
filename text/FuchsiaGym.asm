@@ -1,5 +1,5 @@
 _KogaBeforeBattleText::
-	text "KOGA: Fwahahaha!"
+	text "ALYSSA: Fwahahaha!"
 
 	para "A mere child like"
 	line "you dares to"
@@ -8,7 +8,7 @@ _KogaBeforeBattleText::
 	para "Very well, I"
 	line "shall show you"
 	cont "true terror as a"
-	cont "ninja master!"
+	cont "high witch!"
 
 	para "You shall feel"
 	line "the despair of"
