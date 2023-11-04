@@ -34,15 +34,15 @@ UncompressMonSprite::
 	ld a, BANK(GhostPic)
 	jr z, .GotBank
 	ld a, b
-	cp KIRLIA + 1
+	cp BOUNSWEET + 1
 	ld a, BANK("Pics 1")
 	jr c, .GotBank
 	ld a, b
-	cp GOLETT + 1
+	cp DRIFLOON + 1
 	ld a, BANK("Pics 2")
 	jr c, .GotBank
 	ld a, b
-	cp GIBLE + 1
+	cp VAPOREON + 1
 	ld a, BANK("Pics 3")
 	jr c, .GotBank
 	ld a, b

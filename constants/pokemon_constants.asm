@@ -86,7 +86,7 @@
 	const MEOWTH             ; $4D
 	const FROSLASS           ; $4E
 	const TOXICROAK          ; $4F
-	const_skip               ; $50
+	const LUCARIO            ; $50
 	const_skip               ; $51
 	const VULPIX             ; $52
 	const NINETALES          ; $53
@@ -116,7 +116,7 @@
 	const ZUBAT              ; $6B
 	const EKANS              ; $6C
 	const_skip               ; $6D
-	const POLIWHIRL          ; $6E
+	const_skip               ; $6E
 	const POLIWRATH          ; $6F
 	const WEEDLE             ; $70
 	const KAKUNA             ; $71

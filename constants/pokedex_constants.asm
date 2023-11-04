@@ -123,7 +123,7 @@
 	const DEX_TOXICROAK  ; 117
 	const DEX_SIGILYPH   ; 118
 	const DEX_CHANDELURE ; 119
-	const DEX_POLIWHIRL  ; 120
+	const DEX_LUCARIO    ; 120
 	const DEX_FRIGIBAX   ; 121
 	const DEX_WEEZING    ; 122
 	const DEX_JOLTIK     ; 123

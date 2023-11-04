@@ -783,6 +783,15 @@ _ToxicroakDexEntry::
 	page "scratch could"
 	next "prove fatal"
 	dex
+	
+_LucarioDexEntry::
+	text "It has the ability"
+	next "to sense the Auras"
+	next "of all things. It"
+
+	page "understands human"
+	next "speech"
+	dex
 
 _VulpixDexEntry::
 	text "It exhales air"
@@ -970,17 +979,7 @@ _EkansDexEntry::
 
 	page "birds, such as"
 	next "PIDGEY and"
-	next "SPEAROW, whole"
-	dex
-
-_PoliwhirlDexEntry::
-	text "Capable of living"
-	next "in or out of"
-	next "water. When out"
-
-	page "of water, it"
-	next "sweats to keep"
-	next "its body slimy"
+	next "DUCKLETT, whole"
 	dex
 
 _PoliwrathDexEntry::

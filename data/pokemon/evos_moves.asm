@@ -82,7 +82,7 @@ EvosMovesPointerTable:
 	dw MeowthEvosMoves
 	dw FroslassEvosMoves
 	dw ToxicroakEvosMoves
-	dw MissingNo50EvosMoves
+	dw LucarioEvosMoves
 	dw MissingNo51EvosMoves
 	dw VulpixEvosMoves
 	dw NinetalesEvosMoves
@@ -112,7 +112,7 @@ EvosMovesPointerTable:
 	dw ZubatEvosMoves
 	dw EkansEvosMoves
 	dw MissingNo6DEvosMoves
-	dw PoliwhirlEvosMoves
+	dw MissingNo6EEvosMoves
 	dw PoliwrathEvosMoves
 	dw WeedleEvosMoves
 	dw KakunaEvosMoves
@@ -1121,10 +1121,16 @@ ToxicroakEvosMoves:
 	db 60, COUNTER
 	db 0
 
-MissingNo50EvosMoves:
+LucarioEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 21, COUNTER
+	db 30, SEISMIC_TOSS
+	db 36, BONE_CLUB
+	db 43, SCREECH
+	db 49, SWORDS_DANCE
+	db 54, GROWTH
 	db 0
 
 MissingNo51EvosMoves:
@@ -1432,17 +1438,10 @@ MissingNo6DEvosMoves:
 ; Learnset
 	db 0
 
-PoliwhirlEvosMoves:
+MissingNo6EEvosMoves:
 ; Evolutions
-	db EV_ITEM, WATER_STONE, 1, POLIWRATH
 	db 0
 ; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
-	db 26, DOUBLESLAP
-	db 33, BODY_SLAM
-	db 41, AMNESIA
-	db 49, HYDRO_PUMP
 	db 0
 
 PoliwrathEvosMoves:

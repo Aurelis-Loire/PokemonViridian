@@ -119,7 +119,7 @@ MonPartyData:
 	nybble ICON_MON       ; Toxicroak
 	nybble ICON_BIRD      ; Sigilyph
 	nybble ICON_BALL      ; Chandelure
-	nybble ICON_MON       ; Poliwhirl
+	nybble ICON_MON       ; Lucario
 	nybble ICON_MON       ; Frigibax
 	nybble ICON_MON       ; Weezing
 	nybble ICON_BUG       ; Joltik
