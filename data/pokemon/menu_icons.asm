@@ -20,15 +20,15 @@ MonPartyData:
 	nybble ICON_BIRD      ; Pidgeot
 	nybble ICON_FAIRY     ; Pikachu
 	nybble ICON_FAIRY     ; Raichu
+	nybble ICON_MON       ; Nidoran
+	nybble ICON_MON       ; Nidorino
+	nybble ICON_MON       ; Nidoking
 	nybble ICON_MON       ; Mankey
 	nybble ICON_MON       ; Primeape
 	nybble ICON_SNAKE     ; Ekans
 	nybble ICON_SNAKE     ; Arbok
 	nybble ICON_WATER     ; Wooper
 	nybble ICON_WATER     ; Quagsire
-	nybble ICON_MON       ; Nidoran
-	nybble ICON_MON       ; Nidorino
-	nybble ICON_MON       ; Nidoking
 	nybble ICON_QUADRUPED ; Skwovet
     nybble ICON_QUADRUPED ; Greedent
     nybble ICON_FAIRY     ; Clefairy
@@ -49,7 +49,7 @@ MonPartyData:
 	nybble ICON_SNAKE     ; Gyarados
 	nybble ICON_QUADRUPED ; Mareep
 	nybble ICON_MON       ; Flaaffy
-	nybble ICON_WATER     ; Tentacruel
+	nybble ICON_MON       ; Ampharos
 	nybble ICON_MON       ; Diglett
 	nybble ICON_MON       ; Dugtrio
 	nybble ICON_MON       ; Meowth
@@ -58,12 +58,12 @@ MonPartyData:
 	nybble ICON_MON       ; Golduck
 	nybble ICON_FAIRY     ; Ralts
 	nybble ICON_FAIRY     ; Kirlia
-	nybble ICON_MON       ; Poliwhirl
+	nybble ICON_FAIRY     ; Gardevoir
 	nybble ICON_QUADRUPED ; Growlithe
 	nybble ICON_QUADRUPED ; Arcanine
 	nybble ICON_GRASS     ; Bounsweet
 	nybble ICON_GRASS     ; Steenee
-	nybble ICON_FAIRY     ; Gardevoir
+	nybble ICON_GRASS     ; Tsareena
 	nybble ICON_QUADRUPED ; Miltank
 	nybble ICON_BALL      ; Voltorb
 	nybble ICON_BALL      ; Electrode
@@ -79,41 +79,26 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Ponyta
 	nybble ICON_QUADRUPED ; Rapidash
 	nybble ICON_BIRD      ; Ducklett
-	nybble ICON_MON       ; Ampharos
+	nybble ICON_BIRD      ; Swanna
 	nybble ICON_BALL      ; Magnemite
 	nybble ICON_BALL      ; Magneton
 	nybble ICON_MON       ; Salandit
+	nybble ICON_MON       ; Salazzle
 	nybble ICON_BIRD      ; Doduo
 	nybble ICON_BIRD      ; Dodrio
-	nybble ICON_MON       ; Croagunk
-	nybble ICON_WATER     ; Dewgong
-	nybble ICON_BALL      ; Chandelure
-	nybble ICON_MON       ; Muk
 	nybble ICON_HELIX     ; Shellder
 	nybble ICON_HELIX     ; Cloyster
 	nybble ICON_MON       ; Gastly
 	nybble ICON_MON       ; Haunter
 	nybble ICON_MON       ; Gengar
-	nybble ICON_GRASS     ; Tsareena
-	nybble ICON_BUG       ; Joltik
-	nybble ICON_MON       ; Hypno
-	nybble ICON_MON       ; Froslass
-	nybble ICON_WATER     ; Kingler
-	nybble ICON_MON       ; Geodude
-	nybble ICON_BALL      ; Drifloon
 	nybble ICON_GRASS     ; Exeggcute
 	nybble ICON_GRASS     ; Exeggutor
 	nybble ICON_MON       ; Cubone
 	nybble ICON_MON       ; Marowak
-	nybble ICON_MON       ; Frigibax
-	nybble ICON_MON       ; Hitmonchan
 	nybble ICON_MON       ; Lickitung
-	nybble ICON_SNAKE     ; Milotic
-	nybble ICON_MON       ; Weezing
 	nybble ICON_QUADRUPED ; Rhyhorn
 	nybble ICON_MON       ; Rhydon
 	nybble ICON_FAIRY     ; Chansey
-	nybble ICON_BIRD      ; Ducklett
 	nybble ICON_MON       ; Kangaskhan
 	nybble ICON_WATER     ; Horsea
 	nybble ICON_WATER     ; Seadra
@@ -121,17 +106,32 @@ MonPartyData:
 	nybble ICON_WATER     ; Seaking
 	nybble ICON_HELIX     ; Staryu
 	nybble ICON_HELIX     ; Starmie
-	nybble ICON_WATER     ; Wailmer
+	nybble ICON_MON       ; Hitmonchan
 	nybble ICON_BUG       ; Scyther
-	nybble ICON_MON       ; Salazzle
+	nybble ICON_QUADRUPED ; Tauros
+	nybble ICON_WATER     ; Wailmer
+	nybble ICON_WATER     ; Wailord
+	nybble ICON_SNAKE     ; Milotic
+	nybble ICON_BALL      ; Drifloon
+	nybble ICON_BALL      ; Drifblim
+	nybble ICON_MON       ; Lopunny
+	nybble ICON_MON       ; Croagunk
+	nybble ICON_MON       ; Toxicroak
+	nybble ICON_BIRD      ; Sigilyph
+	nybble ICON_BALL      ; Chandelure
+	nybble ICON_MON       ; Poliwhirl
+	nybble ICON_MON       ; Frigibax
+	nybble ICON_MON       ; Weezing
+	nybble ICON_BUG       ; Joltik
+	nybble ICON_WATER     ; Kingler
 	nybble ICON_MON       ; Electabuzz
 	nybble ICON_MON       ; Magmar
 	nybble ICON_MON       ; Larvitar
-	nybble ICON_QUADRUPED ; Tauros
-	nybble ICON_MON       ; Toxicroak
-	nybble ICON_BIRD      ; Sigilyph
+	nybble ICON_MON       ; Froslass
+	nybble ICON_MON       ; Muk
+	nybble ICON_WATER     ; Dewgong
 	nybble ICON_WATER     ; Lapras
-	nybble ICON_MON       ; Lopunny
+	nybble ICON_MON       ; Geodude
 	nybble ICON_MON       ; Golett
 	nybble ICON_GRASS     ; Bellsprout
 	nybble ICON_GRASS     ; Weepinbell
@@ -144,8 +144,8 @@ MonPartyData:
 	nybble ICON_BIRD      ; Aerodactyl
 	nybble ICON_MON       ; Snorlax
 	nybble ICON_BIRD      ; Articuno
-	nybble ICON_WATER     ; Wailord
-	nybble ICON_BALL      ; Drifblim
+	nybble ICON_MON       ; Hypno
+	nybble ICON_WATER     ; Tentacruel
 	nybble ICON_SNAKE     ; Dratini
 	nybble ICON_SNAKE     ; Dragonair
 	nybble ICON_SNAKE     ; Dragonite
