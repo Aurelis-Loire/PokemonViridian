@@ -146,24 +146,25 @@ AttackAnimationPointers:
 	dw TransformAnim
 	dw BubbleAnim
 	dw DizzyPunchAnim
-	dw SporeAnim
+	dw SafeguardAnim
 	dw FlashAnim
 	dw PsywaveAnim
 	dw SplashAnim
 	dw AcidArmorAnim
-	dw CrabHammerAnim
+	dw WaterPulseAnim
 	dw ExplosionAnim
 	dw FurySwipesAnim
 	dw BonemerangAnim
 	dw RestAnim
 	dw RockSlideAnim
-	dw HyperFangAnim
+	dw DragonTailAnim
 	dw SharpenAnim
 	dw ConversionAnim
 	dw TriAttackAnim
 	dw SuperFangAnim
 	dw SlashAnim
 	dw SubstituteAnim
+	dw ShadowBallAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -1057,8 +1058,8 @@ DizzyPunchAnim:
 	battle_anim DOUBLESLAP, SUBANIM_0_STAR_THRICE, 0, 6
 	db -1 ; end
 
-SporeAnim:
-	battle_anim SPORE, SUBANIM_0_CIRCLES_FALLING, 0, 6
+SafeguardAnim:
+	battle_anim SAFEGUARD, SE_SPIRAL_BALLS_INWARD
 	db -1 ; end
 
 FlashAnim:
@@ -1081,9 +1082,9 @@ AcidArmorAnim:
 	battle_anim ACID_ARMOR, SE_SLIDE_MON_DOWN_AND_HIDE
 	db -1 ; end
 
-CrabHammerAnim:
-	battle_anim CRABHAMMER, SUBANIM_1_STAR_BIG, 1, 6
-	battle_anim NO_MOVE, SUBANIM_0_SLICE_BOTH_SIDES, 0, 6
+WaterPulseAnim:
+	battle_anim WATER_PULSE, SUBANIM_1_STAR_BIG, 1, 6
+	battle_anim HYDRO_PUMP, SUBANIM_0_WATER_COLUMNS, 0, 6
 	db -1 ; end
 
 ExplosionAnim:
@@ -1106,11 +1107,11 @@ RestAnim:
 RockSlideAnim:
 	battle_anim ROCK_SLIDE, SUBANIM_0_ROCKS_LIFT, 0, 4
 	battle_anim ROCK_SLIDE, SUBANIM_0_ROCKS_TOSS, 0, 3
-	battle_anim HYPER_FANG, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim DRAGON_TAIL, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
-HyperFangAnim:
-	battle_anim HYPER_FANG, SUBANIM_0_STAR_THRICE, 0, 6
+DragonTailAnim:
+	battle_anim DRAGON_TAIL, SUBANIM_0_STAR_THRICE, 0, 6
 	db -1 ; end
 
 SharpenAnim:
@@ -1147,6 +1148,10 @@ SubstituteAnim:
 	battle_anim SUBSTITUTE, SE_SLIDE_MON_OFF
 	battle_anim NO_MOVE, SUBANIM_0_BALL_POOF, 0, 8
 	battle_anim NO_MOVE, SE_SUBSTITUTE_MON
+	db -1 ; end
+	
+ShadowBallAnim:
+	battle_anim SHADOW_BALL, SUBANIM_1_BLOB_TOSS, 1, 6
 	db -1 ; end
 
 BallTossAnim:

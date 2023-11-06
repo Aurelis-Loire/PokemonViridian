@@ -152,25 +152,26 @@
 	const TRANSFORM    ; 90
 	const BUBBLE       ; 91
 	const DIZZY_PUNCH  ; 92
-	const SPORE        ; 93
+	const SAFEGUARD    ; 93
 	const FLASH        ; 94
 	const PSYWAVE      ; 95
 	const SPLASH       ; 96
 	const ACID_ARMOR   ; 97
-	const CRABHAMMER   ; 98
+	const WATER_PULSE  ; 98
 	const EXPLOSION    ; 99
 	const FURY_SWIPES  ; 9a
 	const BONEMERANG   ; 9b
 	const REST         ; 9c
 	const ROCK_SLIDE   ; 9d
-	const HYPER_FANG   ; 9e
+	const DRAGON_TAIL  ; 9e
 	const SHARPEN      ; 9f
 	const CONVERSION   ; a0
 	const TRI_ATTACK   ; a1
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
-	const STRUGGLE     ; a5
+	const SHADOW_BALL  ; a5
+	const STRUGGLE     ; a6
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

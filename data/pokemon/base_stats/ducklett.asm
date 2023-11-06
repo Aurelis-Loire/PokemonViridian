@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/ducklett.pic", 0, 1 ; sprite dimensions
 	dw DucklettPicFront, DucklettPicBack
 
-	db WATER_GUN, HAZE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db WATER_GUN, SWEET_SCENT, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

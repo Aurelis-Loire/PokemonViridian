@@ -28,5 +28,5 @@ _HM02NoRoomText::
 	done
 
 _Route16HouseText_1e652::
-	text "FEAROW: Kyueen!"
+	text "PIDGEOTTO: Kyueen!"
 	done

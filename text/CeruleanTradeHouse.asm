@@ -34,7 +34,7 @@ _CeruleanHouse1HowText::
 _CeruleanHouse1YesText::
 	text "Please take this"
 	line "#MON with you."
-	done
+	prompt
 	
 _CeruleanHouse1GivenText::
 	text "It won't be a"

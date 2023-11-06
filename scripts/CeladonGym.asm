@@ -20,7 +20,7 @@ CeladonGym_Script:
 	db "CELADON CITY@"
 
 .LeaderName:
-	db "ERIKA@"
+	db "SPECTRE@"
 
 CeladonGymResetScripts:
 	xor a
@@ -47,7 +47,7 @@ CeladonGymReceiveTM21:
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	SetEvent EVENT_BEAT_ERIKA
-	lb bc, TM_MEGA_DRAIN, 1
+	lb bc, TM_PIN_MISSILE, 1
 	call GiveItem
 	jr nc, .BagFull
 	ld a, $a

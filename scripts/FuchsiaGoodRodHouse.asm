@@ -15,7 +15,7 @@ FuchsiaHouse3Text1:
 	ld a, [wCurrentMenuItem]
 	and a
 	jr nz, .refused
-	lb bc, GOOD_ROD, 1
+	lb bc, SUPER_ROD, 1 ;changed to Super Rod.
 	call GiveItem
 	jr nc, .bag_full
 	ld hl, wd728

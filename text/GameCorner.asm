@@ -91,8 +91,8 @@ _CeladonGameCornerText_48dca::
 	cont "champ in making!"
 
 	para "CELADON GYM's"
-	line "LEADER is ALYSSA!"
-	cont "She uses ghost-"
+	line "LEADER is SPECTRE!"
+	cont "She uses bug-"
 	cont "type #MON!"
 
 	para "She might appear"

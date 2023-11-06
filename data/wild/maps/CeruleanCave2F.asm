@@ -7,9 +7,9 @@ CeruleanCave2FWildMons:
 	db 52, MAROWAK
 	db 52, ELECTRODE
 	db 56, CHANSEY
-	db 54, WIGGLYTUFF
-	db 55, DITTO
-	db 60, DITTO
+	db 54, RAPIDASH
+	db 55, HITMONCHAN
+	db 60, HITMONCHAN
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

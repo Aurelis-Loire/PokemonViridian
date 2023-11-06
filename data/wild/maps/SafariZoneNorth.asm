@@ -1,23 +1,12 @@
 SafariZoneNorthWildMons:
 	def_grass_wildmons 30 ; encounter rate
-IF DEF(_RED)
-	db 22, BULBASAUR
+	db 22, NIDORINO
 	db 26, RHYHORN
-	db 23, PARAS
+	db 23, LICKITUNG
 	db 25, EXEGGCUTE
-	db 30, ALAKAZAM
+	db 30, NIDORINO
 	db 27, EXEGGCUTE
-	db 30, PRIMEAPE
-ENDC
-IF DEF(_BLUE)
-	db 22, CHARMANDER
-	db 26, RHYHORN
-	db 23, PARAS
-	db 25, EXEGGCUTE
-	db 30, PRIMEAPE
-	db 27, EXEGGCUTE
-	db 30, ALAKAZAM
-ENDC
+	db 30, LOPUNNY
 	db 32, VENOMOTH
 	db 26, CHANSEY
 	db 28, TAUROS

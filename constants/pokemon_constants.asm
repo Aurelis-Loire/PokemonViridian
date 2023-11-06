@@ -11,15 +11,15 @@
 	const KANGASKHAN         ; $02
 	const SKWOVET            ; $03
 	const CLEFAIRY           ; $04
-	const SCATTERBUG         ; $05
+	const NIDORAN            ; $05
 	const VOLTORB            ; $06
-	const SPEWPA             ; $07
+	const NIDORINO           ; $07
 	const SLOWBRO            ; $08
 	const IVYSAUR            ; $09
 	const EXEGGUTOR          ; $0A
 	const LICKITUNG          ; $0B
 	const EXEGGCUTE          ; $0C
-	const VIVILLON           ; $0D
+	const NIDOKING           ; $0D
 	const GENGAR             ; $0E
 	const WOOPER             ; $0F
 	const FRIGIBAX           ; $10
@@ -68,25 +68,25 @@
 	const DIGLETT            ; $3B
 	const TAUROS             ; $3C
 	const SIGILYPH           ; $3D
-	const_skip               ; $3E
-	const_skip               ; $3F
-	const FARFETCHD          ; $40
+	const GOLETT             ; $3E
+	const DRIFLOON           ; $3F
+	const CHANDELURE         ; $40
 	const VENONAT            ; $41
 	const DRAGONITE          ; $42
-	const_skip               ; $43
-	const_skip               ; $44
-	const_skip               ; $45
+	const GARDEVOIR          ; $43
+	const AMPHAROS           ; $44
+	const TSAREENA           ; $45
 	const DODUO              ; $46
-	const POLIWAG            ; $47
-	const JYNX               ; $48
-	const MOLTRES            ; $49
+	const SWANNA             ; $47
+	const SALAZZLE           ; $48
+	const DRIFBLIM           ; $49
 	const ARTICUNO           ; $4A
-	const ZAPDOS             ; $4B
-	const DITTO              ; $4C
+	const WAILORD            ; $4B
+	const LOPUNNY            ; $4C
 	const MEOWTH             ; $4D
-	const KRABBY             ; $4E
-	const_skip               ; $4F
-	const_skip               ; $50
+	const FROSLASS           ; $4E
+	const TOXICROAK          ; $4F
+	const LUCARIO            ; $50
 	const_skip               ; $51
 	const VULPIX             ; $52
 	const NINETALES          ; $53
@@ -106,8 +106,8 @@
 	const_skip               ; $61
 	const OMANYTE            ; $62
 	const OMASTAR            ; $63
-	const JIGGLYPUFF         ; $64
-	const WIGGLYTUFF         ; $65
+	const_skip               ; $64
+	const_skip               ; $65
 	const EEVEE              ; $66
 	const FLAREON            ; $67
 	const JOLTEON            ; $68
@@ -115,8 +115,8 @@
 	const GIBLE              ; $6A
 	const ZUBAT              ; $6B
 	const EKANS              ; $6C
-	const PARAS              ; $6D
-	const POLIWHIRL          ; $6E
+	const_skip               ; $6D
+	const_skip               ; $6E
 	const POLIWRATH          ; $6F
 	const WEEDLE             ; $70
 	const KAKUNA             ; $71
@@ -191,9 +191,9 @@
 	const FOSSIL_KABUTOPS    ; $B6
 	const FOSSIL_AERODACTYL  ; $B7
 	const MON_GHOST          ; $B8
-	const ODDISH             ; $B9
-	const GLOOM              ; $BA
-	const VILEPLUME          ; $BB
+	const_skip               ; $B9
+	const_skip               ; $BA
+	const_skip               ; $BB
 	const BELLSPROUT         ; $BC
 	const WEEPINBELL         ; $BD
 	const VICTREEBEL         ; $BE

@@ -214,6 +214,7 @@ DEF SHOW EQU $15
 	const HS_SAFARI_ZONE_WEST_ITEM_2       ; CA X
 	const HS_SAFARI_ZONE_WEST_ITEM_3       ; CB X
 	const HS_SAFARI_ZONE_WEST_ITEM_4       ; CC X
+	const HS_SAFARI_ZONE_WEST_ITEM_5	   ; Newly added.
 	const HS_SAFARI_ZONE_CENTER_ITEM       ; CD X
 	const HS_CERULEAN_CAVE_2F_ITEM_1       ; CE X
 	const HS_CERULEAN_CAVE_2F_ITEM_2       ; CF X

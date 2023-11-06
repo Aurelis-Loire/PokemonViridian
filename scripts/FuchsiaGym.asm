@@ -22,7 +22,7 @@ FuchsiaGym_Script:
 	db "FUCHSIA CITY@"
 
 .LeaderName:
-	db "KOGA@"
+	db "ALYSSA@"
 
 FuchsiaGymResetScripts:
 	xor a
@@ -49,7 +49,7 @@ FuchsiaGymReceiveTM06:
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	SetEvent EVENT_BEAT_KOGA
-	lb bc, TM_TOXIC, 1
+	lb bc, TM_SHADOW_BALL, 1
 	call GiveItem
 	jr nc, .BagFull
 	ld a, $a

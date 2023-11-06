@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm WHIRLWIND,    TOXIC,        ICE_BEAM,     HYPER_BEAM,   POWDER_SNOW,  \
+	tmhm SHADOW_BALL,  TOXIC,        ICE_BEAM,     HYPER_BEAM,   POWDER_SNOW,  \
 	     SOLARBEAM,    PSYCHIC_M,    DOUBLE_TEAM,  REFLECT,      SWIFT,        \
 	     DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, PSYWAVE,      \
 	     SUBSTITUTE,   FLY,          FLASH

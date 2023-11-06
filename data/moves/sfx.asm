@@ -147,24 +147,25 @@ MoveSoundTable:
 	db SFX_FAINT_FALL,         $ff, $ff ; TRANSFORM
 	db SFX_BATTLE_24,          $ff, $10 ; BUBBLE
 	db SFX_FAINT_FALL,         $ff, $04 ; DIZZY_PUNCH
-	db SFX_BATTLE_1C,          $01, $ff ; SPORE
+	db SFX_BATTLE_0C,          $18, $a6 ; SAFEGUARD
 	db SFX_BATTLE_13,          $f8, $ff ; FLASH
 	db SFX_BATTLE_0C,          $f0, $f0 ; PSYWAVE
 	db SFX_BATTLE_0F,          $08, $10 ; SPLASH
 	db SFX_BATTLE_0D,          $f0, $ff ; ACID_ARMOR
-	db SFX_SUPER_EFFECTIVE,    $f0, $ff ; CRABHAMMER
+	db SFX_BATTLE_0D,          $b8, $05 ; WATER_PULSE
 	db SFX_BATTLE_34,          $10, $ff ; EXPLOSION
 	db SFX_BATTLE_0E,          $f0, $20 ; FURY_SWIPES
 	db SFX_BATTLE_2B,          $f0, $60 ; BONEMERANG
 	db SFX_BATTLE_21,          $12, $10 ; REST
 	db SFX_BATTLE_36,          $f0, $20 ; ROCK_SLIDE
-	db SFX_BATTLE_1E,          $12, $ff ; HYPER_FANG
+	db SFX_BATTLE_0E,          $3a, $98 ; DRAGON_TAIL
 	db SFX_BATTLE_31,          $80, $04 ; SHARPEN
 	db SFX_BATTLE_33,          $f0, $10 ; CONVERSION
 	db SFX_BATTLE_29,          $f8, $ff ; TRI_ATTACK
 	db SFX_BATTLE_26,          $f0, $ff ; SUPER_FANG
 	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; SLASH
 	db SFX_BATTLE_2C,          $d8, $04 ; SUBSTITUTE
+	db SFX_BATTLE_26,          $30, $43 ; SHADOW_BALL
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

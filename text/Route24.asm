@@ -65,3 +65,54 @@ _Route24BattleText1::
 	text "I saw your feat"
 	line "from the grass!"
 	done
+
+_Rt24HowText::
+	text "How's my #MON"
+	line "doing?"
+	done
+	
+_Rt24HiText::
+	text "I'm not good at"
+	line "raising #MON."
+
+	para "I should release"
+	line "my #MON"
+	cont "because I haven't"
+	cont "raised it well..."
+
+	para "If you can find me"
+	line "a trainer that'll"
+	cont "care for it"
+	cont "properly, it's"
+	cont "theirs."
+	done
+	
+_Rt24YesText::
+	text "Excellent! Here"
+	line "you go!"
+	prompt
+	
+_Rt24NoText::
+	text "Oh... I'd better"
+	line "release it then."
+	done
+	
+_Rt24SorryText::
+	text "Hmmm. I don't"
+	line "think you'd be a"
+	cont "better trainer"
+	cont "than I was."
+	done
+	
+	text "If you were to add"
+	line "more #MON to"
+	cont "your #DEX,"
+	cont "that would prove"
+	cont "you're a better"
+	cont "trainer!"
+	done
+	
+_Rt24GivenText::
+	text "Take good care of"
+	line "my #MON!"
+	done

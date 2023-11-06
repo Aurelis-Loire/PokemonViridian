@@ -60,7 +60,7 @@ ItemUsePtrTable:
 	dw UnusableItem      ; DOME_FOSSIL
 	dw UnusableItem      ; HELIX_FOSSIL
 	dw UnusableItem      ; SECRET_KEY
-	dw UnusableItem
+	dw UnusableItem		 ; CLAW_FOSSIL
 	dw UnusableItem      ; BIKE_VOUCHER
 	dw ItemUseXAccuracy  ; X_ACCURACY
 	dw ItemUseEvoStone   ; LEAF_STONE
@@ -474,7 +474,7 @@ ItemUseBall:
 	ld hl, wEnemyBattleStatus3
 	bit TRANSFORMED, [hl]
 	jr z, .notTransformed
-	ld a, DITTO
+	ld a, MEW
 	ld [wEnemyMonSpecies2], a
 	jr .skip6
 
@@ -1665,7 +1665,9 @@ ItemUseXStat:
 ItemUsePokeflute:
 	ld a, [wIsInBattle]
 	and a
-	jr nz, .inBattle
+	jp nz, ItemUseNotTime
+;; commenting out all of the battle code for Pokeflute.
+	;	jr nz, .inBattle
 ; if not in battle
 	call ItemUseReloadOverworldData
 	ld a, [wCurMap]
@@ -1697,40 +1699,40 @@ ItemUsePokeflute:
 .noSnorlaxToWakeUp
 	ld hl, PlayedFluteNoEffectText
 	jp PrintText
-.inBattle
-	xor a
-	ld [wWereAnyMonsAsleep], a
-	ld b, ~SLP_MASK
-	ld hl, wPartyMon1Status
-	call WakeUpEntireParty
-	ld a, [wIsInBattle]
-	dec a ; is it a trainer battle?
-	jr z, .skipWakingUpEnemyParty
+;.inBattle
+;	xor a
+;	ld [wWereAnyMonsAsleep], a
+;	ld b, ~SLP_MASK
+;	ld hl, wPartyMon1Status
+;	call WakeUpEntireParty
+;	ld a, [wIsInBattle]
+;	dec a ; is it a trainer battle?
+;	jr z, .skipWakingUpEnemyParty
 ; if it's a trainer battle
-	ld hl, wEnemyMon1Status
-	call WakeUpEntireParty
-.skipWakingUpEnemyParty
-	ld hl, wBattleMonStatus
-	ld a, [hl]
-	and b ; remove Sleep status
-	ld [hl], a
-	ld hl, wEnemyMonStatus
-	ld a, [hl]
-	and b ; remove Sleep status
-	ld [hl], a
-	call LoadScreenTilesFromBuffer2 ; restore saved screen
-	ld a, [wWereAnyMonsAsleep]
-	and a ; were any pokemon asleep before playing the flute?
-	ld hl, PlayedFluteNoEffectText
-	jp z, PrintText ; if no pokemon were asleep
+;	ld hl, wEnemyMon1Status
+;	call WakeUpEntireParty
+;.skipWakingUpEnemyParty
+;	ld hl, wBattleMonStatus
+;	ld a, [hl]
+;	and b ; remove Sleep status
+;	ld [hl], a
+;	ld hl, wEnemyMonStatus
+;	ld a, [hl]
+;	and b ; remove Sleep status
+;	ld [hl], a
+;	call LoadScreenTilesFromBuffer2 ; restore saved screen
+;	ld a, [wWereAnyMonsAsleep]
+;	and a ; were any pokemon asleep before playing the flute?
+;	ld hl, PlayedFluteNoEffectText
+;	jp z, PrintText ; if no pokemon were asleep
 ; if some pokemon were asleep
-	ld hl, PlayedFluteHadEffectText
-	call PrintText
-	ld a, [wLowHealthAlarm]
-	and $80
-	jr nz, .skipMusic
-	call WaitForSoundToFinish ; wait for sound to end
-	farcall Music_PokeFluteInBattle ; play in-battle pokeflute music
+;	ld hl, PlayedFluteHadEffectText
+;	call PrintText
+;	ld a, [wLowHealthAlarm]
+;	and $80
+;	jr nz, .skipMusic
+;	call WaitForSoundToFinish ; wait for sound to end
+;	farcall Music_PokeFluteInBattle ; play in-battle pokeflute music
 .musicWaitLoop ; wait for music to finish playing
 	ld a, [wChannelSoundIDs + CHAN7]
 	and a ; music off?

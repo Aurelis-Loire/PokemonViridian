@@ -1,9 +1,9 @@
 _KogaPostBattleAdviceText::
-	text "When afflicted by"
-	line "TOXIC, #MON"
-	cont "suffer more and"
-	cont "more as battle"
-	cont "progresses!"
+	text "SHADOW BALL is a"
+	line "sinister attack"
+	cont "that will shred"
+	cont "your opponent's"
+	cont "SPECIAL!"
 
 	para "It will surely"
 	line "terrorize foes!"
@@ -12,7 +12,7 @@ _KogaPostBattleAdviceText::
 _KogaSoulBadgeInfoText::
 	text "Now that you have"
 	line "the SOULBADGE,"
-	cont "the DEFENSE of"
+	cont "the SPEED of"
 	cont "your #MON"
 	cont "increases!"
 
@@ -33,8 +33,8 @@ _ReceivedTM06Text::
 
 _TM06ExplanationText::
 	text_start
-	para "TM06 contains"
-	line "TOXIC!"
+	para "TM04 contains"
+	line "SHADOW BALL!"
 
 	para "It is a secret"
 	line "technique over"
@@ -71,7 +71,7 @@ _FuchsiaGymAfterBattleText1::
 
 _FuchsiaGymBattleText2::
 	text "I wanted to become"
-	line "a ninja, so I"
+	line "a witch, so I"
 	cont "joined this GYM!"
 	done
 
@@ -83,8 +83,8 @@ _FuchsiaGymEndBattleText2::
 _FuchsiaGymAfterBattleText2::
 	text "I will keep on"
 	line "training under"
-	cont "KOGA, my ninja"
-	cont "master!"
+	cont "ALYSSA, my witch"
+	cont "mistress!"
 	done
 
 _FuchsiaGymBattleText3::
@@ -129,12 +129,13 @@ _FuchsiaGymAfterBattleText4::
 
 _FuchsiaGymBattleText5::
 	text "I also study the"
-	line "way of the ninja"
-	cont "with master KOGA!"
+	line "way of the witch"
+	cont "with mistress"
+	cont "ALYSSA!"
 
-	para "Ninja have a long"
-	line "history of using"
-	cont "animals!"
+	para "Witches have a"
+	line "long history of"
+	cont "using familiars!"
 	done
 
 _FuchsiaGymEndBattleText5::
@@ -147,9 +148,9 @@ _FuchsiaGymAfterBattleText5::
 	done
 
 _FuchsiaGymBattleText6::
-	text "Master KOGA comes"
-	line "from a long line"
-	cont "of ninjas!"
+	text "Mistress ALYSSA"
+	line "comes from a long"
+	cont "line of witches!"
 
 	para "What did you"
 	line "descend from?"
@@ -178,17 +179,18 @@ _FuchsiaGymGuidePreBattleText::
 	line "riddled with"
 	cont "invisible walls!"
 
-	para "KOGA might appear"
-	line "close, but he's"
-	cont "blocked off!"
+	para "ALYSSA might"
+	line "appear close, but"
+	cont "she's blocked"
+	cont "off!"
 
 	para "You have to find"
 	line "gaps in the walls"
-	cont "to reach him!"
+	cont "to reach her!"
 	done
 
 _FuchsiaGymGuidePostBattleText::
 	text "It's amazing how"
-	line "ninja can terrify"
-	cont "even now!"
+	line "witches can"
+	cont "terrify even now!"
 	done

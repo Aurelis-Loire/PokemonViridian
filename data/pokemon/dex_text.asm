@@ -37,14 +37,14 @@ _ClefairyDexEntry::
 	next "certain areas"
 	dex
 
-_ScatterbugDexEntry::
-	text "When under attack,"
-	next "it spews a"
-	next "poisonous black"
+_NidoranDexEntry::
+	text "Stiffens its ears"
+	next "to sense danger."
+	next "The larger its"
 
-	page "powder that causes"
-	next "paralysis on"
-	next "contact"
+	page "horns, the more"
+	next "powerful its"
+	next "secreted venom"
 	dex
 
 _VoltorbDexEntry::
@@ -57,14 +57,14 @@ _VoltorbDexEntry::
 	next "many people"
 	dex
 
-_SpewpaDexEntry::
-	text "When predators"
-	next "attack, it quickly"
-	next "bristles the fur"
+_NidorinoDexEntry::
+	text "An aggressive"
+	next "#MON that is"
+	next "quick to attack."
 
-	page "covering its body"
-	next "in an effort to"
-	next "threaten them"
+	page "The horn on its"
+	next "head secretes a"
+	next "powerful venom"
 	dex
 
 _SlowbroDexEntry::
@@ -117,14 +117,14 @@ _ExeggcuteDexEntry::
 	next "in swarms"
 	dex
 
-_VivillonDexEntry::
-	text "VIVILLON with many"
-	next "different patterns"
-	next "are found all over"
+_NidokingDexEntry::
+	text "It uses its"
+	next "powerful tail in"
+	next "battle to smash,"
 
-	page "the world. They"
-	next "are affected by"
-	next "the climate"
+	page "constrict, then"
+	next "break the prey's"
+	next "bones"
 	dex
 
 _GengarDexEntry::
@@ -604,15 +604,35 @@ _SigilyphDexEntry::
 	next "guarding an"
 	next "ancient city"
 	dex
+	
+_GolettDexEntry::
+	text "The energy that"
+	next "burns inside it"
+	next "enables it to"
 
-_FarfetchdDexEntry::
-	text "The sprig of"
-	next "green onions it"
-	next "holds is its"
+	page "move, but no one"
+	next "has yet been able"
+	next "to identify it"
+	dex
+	
+_DrifloonDexEntry::
+	text "A #MON formed"
+	next "by the spirits of"
+	next "people and"
 
-	page "weapon. It is"
-	next "used much like a"
-	next "metal sword"
+	page "#MON. It loves"
+	next "damp, humid"
+	next "seasons"
+	dex
+
+_ChandelureDexEntry::
+	text "It absorbs a"
+	next "spirit, which it"
+	next "then burns. By"
+
+	page "waving the flames"
+	next "on its arms, it"
+	next "hypnotizes foes"
 	dex
 
 _VenonatDexEntry::
@@ -634,6 +654,36 @@ _DragoniteDexEntry::
 	next "is said to match"
 	next "that of humans"
 	dex
+	
+_GardevoirDexEntry::
+	text "Gardevoir has the"
+	next "ability to read"
+	next "the future. If it"
+
+	page "senses impending"
+	next "danger it will"
+	next "unleash energy"
+	dex
+	
+_AmpharosDexEntry::
+	text "The tail's tip"
+	next "shines brightly"
+	next "and can be seen"
+
+	page "from far away. It"
+	next "acts as a beacon"
+	next "for lost people"
+	dex
+	
+_TsareenaDexEntry::
+	text "Its long, striking"
+	next "legs aren't just"
+	next "for show but to be"
+
+	page "used to kick with"
+	next "skill. It shows"
+	next "off by laughing"
+	dex
 
 _DoduoDexEntry::
 	text "A bird that makes"
@@ -645,34 +695,34 @@ _DoduoDexEntry::
 	next "footprints"
 	dex
 
-_PoliwagDexEntry::
-	text "Its newly grown"
-	next "legs prevent it"
-	next "from running. It"
+_SwannaDexEntry::
+	text "Swanna start to"
+	next "dance at dusk. The"
+	next "one dancing in the"
 
-	page "appears to prefer"
-	next "swimming than"
-	next "trying to stand"
+	page "middle is the"
+	next "leader of the"
+	next "flock"
 	dex
 
-_JynxDexEntry::
-	text "It seductively"
-	next "wiggles its hips"
-	next "as it walks. It"
+_SalazzleDexEntry::
+	text "For some reason,"
+	next "only females have"
+	next "been found. It"
 
-	page "can cause people"
-	next "to dance in"
-	next "unison with it"
+	page "creates a reverse"
+	next "harem of male"
+	next "Salandit"
 	dex
 
-_MoltresDexEntry::
-	text "Known as the"
-	next "legendary bird of"
-	next "fire. Every flap"
+_DrifblimDexEntry::
+	text "It's drowzy in"
+	next "daytime, but flies"
+	next "off in the evening"
 
-	page "of its wings"
-	next "creates a dazzling"
-	next "flash of flames"
+	page "in big groups. No"
+	next "one knows where"
+	next "they go"
 	dex
 
 _ArticunoDexEntry::
@@ -685,24 +735,24 @@ _ArticunoDexEntry::
 	next "mountains"
 	dex
 
-_ZapdosDexEntry::
-	text "A legendary bird"
-	next "#MON that is"
-	next "said to appear"
+_WailordDexEntry::
+	text "It is among the"
+	next "largest of all"
+	next "#MON. It herds"
 
-	page "from clouds while"
-	next "dropping enormous"
-	next "lightning bolts"
+	page "prey in a pack"
+	next "then swallows them"
+	next "in one gulp"
 	dex
 
-_DittoDexEntry::
-	text "Capable of copying"
-	next "an enemy's genetic"
-	next "code to instantly"
+_LopunnyDexEntry::
+	text "An extremely"
+	next "cautious #MON."
+	next "It cloaks its body"
 
-	page "transform itself"
-	next "into a duplicate"
-	next "of the enemy"
+	page "with its fluffy"
+	next "ear fur when it"
+	next "senses danger"
 	dex
 
 _MeowthDexEntry::
@@ -715,14 +765,32 @@ _MeowthDexEntry::
 	next "loose change"
 	dex
 
-_KrabbyDexEntry::
-	text "Its pincers are"
-	next "not only powerful"
-	next "weapons, they are"
+_FroslassDexEntry::
+	text "It freezes foes"
+	next "with an icy breath"
+	next "nearly -60 degrees"
 
-	page "used for balance"
-	next "when walking"
-	next "sideways"
+	page "F. What seems to"
+	next "be its body is"
+	next "actually hollow"
+	dex
+	
+_ToxicroakDexEntry::
+	text "Its knuckle claws"
+	next "secrete a toxin so"
+	next "vile that even a"
+
+	page "scratch could"
+	next "prove fatal"
+	dex
+	
+_LucarioDexEntry::
+	text "It has the ability"
+	next "to sense the Auras"
+	next "of all things. It"
+
+	page "understands human"
+	next "speech"
 	dex
 
 _VulpixDexEntry::
@@ -844,26 +912,6 @@ _OmastarDexEntry::
 	next "catch prey"
 	dex
 
-_JigglypuffDexEntry::
-	text "When its huge eyes"
-	next "light up, it sings"
-	next "a mysteriously"
-
-	page "soothing melody"
-	next "that lulls its"
-	next "enemies to sleep"
-	dex
-
-_WigglytuffDexEntry::
-	text "The body is soft"
-	next "and rubbery. When"
-	next "angered, it will"
-
-	page "suck in air and"
-	next "inflate itself to"
-	next "an enormous size"
-	dex
-
 _EeveeDexEntry::
 	text "Its genetic code"
 	next "is irregular."
@@ -931,27 +979,7 @@ _EkansDexEntry::
 
 	page "birds, such as"
 	next "PIDGEY and"
-	next "SPEAROW, whole"
-	dex
-
-_ParasDexEntry::
-	text "Burrows to suck"
-	next "tree roots. The"
-	next "mushrooms on its"
-
-	page "back grow by draw-"
-	next "ing nutrients from"
-	next "the bug host"
-	dex
-
-_PoliwhirlDexEntry::
-	text "Capable of living"
-	next "in or out of"
-	next "water. When out"
-
-	page "of water, it"
-	next "sweats to keep"
-	next "its body slimy"
+	next "DUCKLETT, whole"
 	dex
 
 _PoliwrathDexEntry::
@@ -1215,13 +1243,13 @@ _PersianDexEntry::
 	dex
 
 _MarowakDexEntry::
-	text "The bone it holds"
-	next "is its key weapon."
-	next "It throws the"
+	text "The bones it"
+	next "possesses were"
+	next "once its mother's."
 
-	page "bone skillfully"
-	next "like a boomerang"
-	next "to KO targets"
+	page "Its mother's"
+	next "regrets have"
+	next "protected it"
 	dex
 
 _HaunterDexEntry::
@@ -1354,26 +1382,6 @@ _RapidashDexEntry::
 	next "racing it"
 	dex
 
-_NidorinoDexEntry::
-	text "An aggressive"
-	next "#MON that is"
-	next "quick to attack."
-
-	page "The horn on its"
-	next "head secretes a"
-	next "powerful venom"
-	dex
-
-_NidorinaDexEntry::
-	text "The female's horn"
-	next "develops slowly."
-	next "Prefers physical"
-
-	page "attacks such as"
-	next "clawing and"
-	next "biting"
-	dex
-
 _GeodudeDexEntry::
 	text "Found in fields"
 	next "and mountains."
@@ -1462,36 +1470,6 @@ _CharizardDexEntry::
 	page "Known to cause"
 	next "forest fires"
 	next "unintentionally"
-	dex
-
-_OddishDexEntry::
-	text "During the day,"
-	next "it keeps its face"
-	next "buried in the"
-
-	page "ground. At night,"
-	next "it wanders around"
-	next "sowing its seeds"
-	dex
-
-_GloomDexEntry::
-	text "The fluid that"
-	next "oozes from its"
-	next "mouth isn't drool."
-
-	page "It is a nectar"
-	next "that is used to"
-	next "attract prey"
-	dex
-
-_VileplumeDexEntry::
-	text "The larger its"
-	next "petals, the more"
-	next "toxic pollen it"
-
-	page "contains. Its big"
-	next "head is heavy and"
-	next "hard to hold up"
 	dex
 
 _BellsproutDexEntry::

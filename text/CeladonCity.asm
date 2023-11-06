@@ -112,7 +112,7 @@ _CeladonCityText11::
 _CeladonCityText13::
 	text "CELADON CITY"
 	line "#MON GYM"
-	cont "LEADER: ALYSSA"
+	cont "LEADER: SPECTRE"
 
 	para "The Nature Loving"
 	line "Princess!"

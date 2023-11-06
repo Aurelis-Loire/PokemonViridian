@@ -32,8 +32,14 @@ _FuchsiaHouse3Text_56217::
 	text "Hello there,"
 	line "<PLAYER>!"
 
-	para "How are the fish"
-	line "biting?"
+	para "Use the SUPER ROD"
+	line "in any water!"
+	cont "You can catch"
+	cont "different kinds"
+	cont "of #MON."
+
+	para "Try fishing"
+	line "wherever you can!"
 	done
 
 _FuchsiaHouse3Text_5621c::

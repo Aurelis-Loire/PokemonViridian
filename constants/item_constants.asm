@@ -52,7 +52,7 @@ DEF SAFARI_ROCK EQU $16 ; overload
 	const DOME_FOSSIL   ; $29
 	const HELIX_FOSSIL  ; $2A
 	const SECRET_KEY    ; $2B
-	const UNUSED_ITEM   ; $2C "?????"
+	const CLAW_FOSSIL   ; $2C New Item
 	const BIKE_VOUCHER  ; $2D
 	const X_ACCURACY    ; $2E
 	const LEAF_STONE    ; $2F
@@ -160,7 +160,7 @@ DEF TM01 EQU const_value
 	add_tm MEGA_PUNCH   ; $C9
 	add_tm RAZOR_WIND   ; $CA
 	add_tm SWORDS_DANCE ; $CB
-	add_tm WHIRLWIND    ; $CC
+	add_tm SHADOW_BALL  ; $CC
 	add_tm MEGA_KICK    ; $CD
 	add_tm TOXIC        ; $CE
 	add_tm HORN_DRILL   ; $CF
@@ -186,7 +186,7 @@ DEF TM01 EQU const_value
 	add_tm FISSURE      ; $E3
 	add_tm DIG          ; $E4
 	add_tm PSYCHIC_M    ; $E5
-	add_tm TELEPORT     ; $E6
+	add_tm PIN_MISSILE  ; $E6
 	add_tm MIMIC        ; $E7
 	add_tm DOUBLE_TEAM  ; $E8
 	add_tm REFLECT      ; $E9

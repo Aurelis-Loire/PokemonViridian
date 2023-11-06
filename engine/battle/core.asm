@@ -308,7 +308,9 @@ MainInBattleLoop:
 	and a
 	ret nz ; return if pokedoll was used to escape from battle
 	ld a, [wBattleMonStatus]
-	and (1 << FRZ) | SLP_MASK
+	;;Commenting out the following code to allow use of moves on wake up.
+	;	and (1 << FRZ) | SLP_MASK
+	and (1 << FRZ)
 	jr nz, .selectEnemyMove ; if so, jump
 	ld a, [wPlayerBattleStatus1]
 	and (1 << STORING_ENERGY) | (1 << USING_TRAPPING_MOVE) ; check player is using Bide or using a multi-turn attack like wrap
@@ -1878,6 +1880,27 @@ DrawEnemyHUDAndHPBar:
 	lb bc, 4, 12
 	call ClearScreenArea
 	callfar PlaceEnemyHUDTiles
+	;==============================start of caught code
+	push hl
+	ld a, [wEnemyMonSpecies2]
+	ld [wd11e], a
+	ld hl, IndexToPokedex
+	ld b, BANK(IndexToPokedex)
+	call Bankswitch
+	ld a, [wd11e]
+	dec a
+	ld c, a
+	ld b, FLAG_TEST
+	ld hl, wPokedexOwned
+	predef FlagActionPredef
+	ld a, c
+	and a
+	jr z, .notOwned
+	coord hl, 1, 1;horizontal/vertical
+	ld [hl], $72;replace this with your Poké Ball icon or other character
+	.notOwned
+	pop hl
+	;==============================end
 	ld de, wEnemyMonNick
 	hlcoord 1, 0
 	call CenterMonName
@@ -2751,6 +2774,12 @@ NoMovesLeftText:
 	text_end
 
 SwapMovesInMenu:
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Below is taken from shinpokered
+;joenote - do not allow move swapping if transformed
+	ld a, [wPlayerBattleStatus3]	;load the player status
+	bit TRANSFORMED, a ; is pkmn transformed?
+	ret nz	;return if transformed
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	ld a, [wMenuItemToSwap]
 	and a
 	jr z, .noMenuItemSelected
@@ -3335,6 +3364,7 @@ CheckPlayerStatusConditions:
 .WakeUp
 	ld hl, WokeUpText
 	call PrintText
+	jr z, .FrozenCheck
 .sleepDone
 	xor a
 	ld [wPlayerUsedMove], a
@@ -5428,6 +5458,36 @@ MoveHitTest:
 	bit PROTECTED_BY_MIST, a ; is mon protected by mist?
 	jp nz, .moveMissed
 .skipEnemyMistCheck
+	cp POISON_SIDE_EFFECT1
+	jr c, .skipEnemySafeguardCheck
+	cp POISON_SIDE_EFFECT1 + 1
+	jr c, .enemySafeguardCheck
+	cp BURN_SIDE_EFFECT1
+	jr c, .skipEnemySafeguardCheck
+	cp PARALYZE_SIDE_EFFECT1 + 1
+	jr c, .enemySafeguardCheck
+	cp SLEEP_EFFECT
+	jr c, .skipEnemySafeguardCheck
+	cp PARALYZE_SIDE_EFFECT2 + 1
+	jr c, .enemySafeguardCheck
+	cp CONFUSION_EFFECT
+	jr c, .skipEnemySafeguardCheck
+	cp CONFUSION_EFFECT + 1
+	jr c, .enemySafeguardCheck
+	cp POISON_EFFECT
+	jr c, .skipEnemySafeguardCheck
+	cp PARALYZE_EFFECT + 1
+	jr c, .enemySafeguardCheck
+	cp CONFUSION_SIDE_EFFECT
+	jr c, .skipEnemySafeguardCheck
+	cp CONFUSION_SIDE_EFFECT + 1
+	jr c, .enemySafeguardCheck
+	jr .skipEnemySafeguardCheck
+.enemySafeguardCheck
+	ld a, [wEnemyBattleStatus2]
+	bit HAS_SAFEGUARD, a ; is mon protected by safeguard?
+	jp nz, .moveMissed
+.skipEnemySafeguardCheck
 	ld a, [wPlayerBattleStatus2]
 	bit USING_X_ACCURACY, a ; is the player using X Accuracy?
 	ret nz ; if so, always hit regardless of accuracy/evasion
@@ -5449,6 +5509,36 @@ MoveHitTest:
 	bit PROTECTED_BY_MIST, a ; is mon protected by mist?
 	jp nz, .moveMissed
 .skipPlayerMistCheck
+	cp POISON_SIDE_EFFECT1
+	jr c, .skipPlayerSafeguardCheck
+	cp POISON_SIDE_EFFECT1 + 1
+	jr c, .playerSafeguardCheck
+	cp BURN_SIDE_EFFECT1
+	jr c, .skipPlayerSafeguardCheck
+	cp PARALYZE_SIDE_EFFECT1 + 1
+	jr c, .playerSafeguardCheck
+	cp SLEEP_EFFECT
+	jr c, .skipPlayerSafeguardCheck
+	cp PARALYZE_SIDE_EFFECT2 + 1
+	jr c, .playerSafeguardCheck
+	cp CONFUSION_EFFECT
+	jr c, .skipPlayerSafeguardCheck
+	cp CONFUSION_EFFECT + 1
+	jr c, .playerSafeguardCheck
+	cp POISON_EFFECT
+	jr c, .skipPlayerSafeguardCheck
+	cp PARALYZE_EFFECT + 1
+	jr c, .playerSafeguardCheck
+	cp CONFUSION_SIDE_EFFECT
+	jr c, .skipPlayerSafeguardCheck
+	cp CONFUSION_SIDE_EFFECT + 1
+	jr c, .playerSafeguardCheck
+	jr .skipPlayerSafeguardCheck
+.playerSafeguardCheck
+	ld a, [wPlayerBattleStatus2]
+	bit HAS_SAFEGUARD, a ; is mon protected by safeguard?
+	jp nz, .moveMissed
+.skipPlayerSafeguardCheck
 	ld a, [wEnemyBattleStatus2]
 	bit USING_X_ACCURACY, a ; is the enemy using X Accuracy?
 	ret nz ; if so, always hit regardless of accuracy/evasion
@@ -5838,6 +5928,7 @@ CheckEnemyStatusConditions:
 .wokeUp
 	ld hl, WokeUpText
 	call PrintText
+	jr z, .checkIfFrozen
 .sleepDone
 	xor a
 	ld [wEnemyUsedMove], a

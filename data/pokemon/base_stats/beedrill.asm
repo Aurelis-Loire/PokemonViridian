@@ -15,8 +15,9 @@
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   CUT
+	     MEGA_DRAIN,   PIN_MISSILE,  MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     BIDE,         SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   \
+		 CUT
 	; end
 
 	db 0 ; padding

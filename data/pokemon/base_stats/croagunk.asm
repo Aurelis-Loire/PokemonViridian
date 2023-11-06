@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/croagunk.pic", 0, 1 ; sprite dimensions
 	dw CroagunkPicFront, CroagunkPicBack
 
-	db ASTONISH, DIG, NO_MOVE, NO_MOVE ; level 1 learnset
+	db ASTONISH, BONE_CLUB, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        TAKE_DOWN,    COUNTER,      \
-	     EARTHQUAKE,   DIG,          DOUBLE_TEAM,  REST,         ROCK_SLIDE,   \
-	     SUBSTITUTE,   STRENGTH
+	tmhm MEGA_PUNCH,   SHADOW_BALL,  MEGA_KICK,    TOXIC,        TAKE_DOWN,    \
+	     COUNTER,      EARTHQUAKE,   DIG,          DOUBLE_TEAM,  REST,         \
+	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 
 	db 0 ; padding

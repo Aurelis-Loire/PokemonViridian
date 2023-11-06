@@ -14,8 +14,8 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        THUNDERBOLT,  DOUBLE_TEAM,  SWIFT,        REST,         \
-	     THUNDER_WAVE, SUBSTITUTE,   CUT
+	tmhm TOXIC,        THUNDERBOLT,  PIN_MISSILE,  DOUBLE_TEAM,  SWIFT,        \
+	     REST,         THUNDER_WAVE, SUBSTITUTE,   CUT
 	; end
 
 	db 0 ; padding

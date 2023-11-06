@@ -10,15 +10,15 @@ CryData::
 	mon_cry SFX_CRY_03, $00, $80 ; Kangaskhan
 	mon_cry SFX_CRY_22, $8F, $73 ; Skwovet
 	mon_cry SFX_CRY_19, $CC, $01 ; Clefairy
-	mon_cry SFX_CRY_16, $05, $B6 ; Scatterbug
+	mon_cry SFX_CRY_00, $00, $80 ; Nidoran
 	mon_cry SFX_CRY_06, $ED, $80 ; Voltorb
-	mon_cry SFX_CRY_1C, $6F, $2C ; Spewpa
+	mon_cry SFX_CRY_00, $2C, $C0 ; Nidorino
 	mon_cry SFX_CRY_1F, $00, $80 ; Slowbro
 	mon_cry SFX_CRY_0F, $20, $80 ; Ivysaur
 	mon_cry SFX_CRY_0D, $00, $80 ; Exeggutor
 	mon_cry SFX_CRY_0C, $00, $80 ; Lickitung
 	mon_cry SFX_CRY_0B, $00, $80 ; Exeggcute
-	mon_cry SFX_CRY_09, $03, $1B ; Vivillon
+	mon_cry SFX_CRY_09, $00, $80 ; Vivillon
 	mon_cry SFX_CRY_07, $00, $FF ; Gengar
 	mon_cry SFX_CRY_25, $E6, $39 ; Wooper
 	mon_cry SFX_CRY_0A, $1C, $12 ; Frigibax
@@ -37,7 +37,7 @@ CryData::
 	mon_cry SFX_CRY_10, $F6, $2E ; Ralts
 	mon_cry SFX_CRY_10, $AB, $9E ; Kirlia
 	mon_cry SFX_CRY_05, $8C, $3F ; Bounsweet
-	mon_cry SFX_CRY_1F, $D0, $01 ; Ducklett
+	mon_cry SFX_CRY_1F, $77, $B6 ; Ducklett
 	mon_cry SFX_CRY_1F, $20, $40 ; Growlithe
 	mon_cry SFX_CRY_17, $FF, $C0 ; Onix
 	mon_cry SFX_CRY_03, $AF, $95 ; Mareep
@@ -63,29 +63,29 @@ CryData::
 	mon_cry SFX_CRY_1E, $67, $87 ; Milotic
 	mon_cry SFX_CRY_25, $1F, $A9 ; Salandit
 	mon_cry SFX_CRY_0A, $DD, $60 ; Mankey
-	mon_cry SFX_CRY_19, $7A, $14 ; Croagunk
+	mon_cry SFX_CRY_1F, $6B, $28 ; Croagunk
 	mon_cry SFX_CRY_0B, $AA, $01 ; Diglett
 	mon_cry SFX_CRY_1D, $11, $40 ; Tauros
 	mon_cry SFX_CRY_19, $00, $7A ; Sigilyph
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_10, $DD, $01 ; Farfetch'd
+	mon_cry SFX_CRY_1C, $50, $5E ; Golett
+	mon_cry SFX_CRY_24, $35, $6D ; Drifloon
+	mon_cry SFX_CRY_1D, $E3, $66 ; Chandelure
 	mon_cry SFX_CRY_1A, $44, $40 ; Venonat
 	mon_cry SFX_CRY_0F, $3C, $C0 ; Dragonite
-	mon_cry SFX_CRY_00, $80, $10 ; MissingNo.
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_1D, $E0, $80 ; MissingNo.
+	mon_cry SFX_CRY_03, $BF, $CB ; Gardevoir
+	mon_cry SFX_CRY_03, $A2, $8B ; Ampharos
+	mon_cry SFX_CRY_14, $F8, $7E ; Tsareena
 	mon_cry SFX_CRY_0B, $BB, $01 ; Doduo
-	mon_cry SFX_CRY_0E, $FF, $FF ; Poliwag
-	mon_cry SFX_CRY_0D, $FF, $FF ; Jynx
-	mon_cry SFX_CRY_09, $F8, $40 ; Moltres
+	mon_cry SFX_CRY_0E, $D5, $06 ; Swanna
+	mon_cry SFX_CRY_00, $2D, $E6 ; Salazzle
+	mon_cry SFX_CRY_1D, $6D, $BB ; Drifblim
 	mon_cry SFX_CRY_09, $80, $40 ; Articuno
-	mon_cry SFX_CRY_18, $FF, $80 ; Zapdos
-	mon_cry SFX_CRY_0E, $FF, $FF ; Ditto
+	mon_cry SFX_CRY_14, $73, $71 ; Wailord
+	mon_cry SFX_CRY_0F, $27, $66 ; Lopunny
 	mon_cry SFX_CRY_19, $77, $10 ; Meowth
-	mon_cry SFX_CRY_20, $20, $E0 ; Krabby
-	mon_cry SFX_CRY_22, $FF, $40 ; MissingNo.
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_16, $1E, $F5 ; Froslass
+	mon_cry SFX_CRY_17, $B7, $33 ; Toxicroak
+	mon_cry SFX_CRY_17, $5C, $9E ; Lucario
 	mon_cry SFX_CRY_0E, $E0, $60 ; MissingNo.
 	mon_cry SFX_CRY_24, $4F, $10 ; Vulpix
 	mon_cry SFX_CRY_24, $88, $60 ; Ninetales
@@ -105,8 +105,8 @@ CryData::
 	mon_cry SFX_CRY_00, $FF, $FF ; MissingNo.
 	mon_cry SFX_CRY_1F, $F0, $01 ; Omanyte
 	mon_cry SFX_CRY_1F, $FF, $40 ; Omastar
-	mon_cry SFX_CRY_0E, $FF, $35 ; Jigglypuff
-	mon_cry SFX_CRY_0E, $68, $60 ; Wigglytuff
+	mon_cry SFX_CRY_0E, $FF, $35 ; MissingNo.
+	mon_cry SFX_CRY_0E, $68, $60 ; MissingNo.
 	mon_cry SFX_CRY_1A, $88, $60 ; Eevee
 	mon_cry SFX_CRY_1A, $10, $20 ; Flareon
 	mon_cry SFX_CRY_1A, $3D, $80 ; Jolteon
@@ -114,8 +114,8 @@ CryData::
 	mon_cry SFX_CRY_11, $20, $F8 ; Gible
 	mon_cry SFX_CRY_1D, $E0, $80 ; Zubat
 	mon_cry SFX_CRY_17, $12, $40 ; Ekans
-	mon_cry SFX_CRY_1E, $20, $E0 ; Paras
-	mon_cry SFX_CRY_0E, $77, $60 ; Poliwhirl
+	mon_cry SFX_CRY_1E, $20, $E0 ; MissingNo.
+	mon_cry SFX_CRY_0E, $77, $60 ; MissingNo.
 	mon_cry SFX_CRY_0E, $00, $FF ; Poliwrath
 	mon_cry SFX_CRY_15, $EE, $01 ; Weedle
 	mon_cry SFX_CRY_13, $FF, $01 ; Kakuna
@@ -190,9 +190,9 @@ CryData::
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_08, $DD, $01 ; Oddish
-	mon_cry SFX_CRY_08, $AA, $40 ; Gloom
-	mon_cry SFX_CRY_23, $22, $FF ; Vileplume
+	mon_cry SFX_CRY_08, $DD, $01 ; MissingNo.
+	mon_cry SFX_CRY_08, $AA, $40 ; MissingNo.
+	mon_cry SFX_CRY_23, $22, $FF ; MissingNo.
 	mon_cry SFX_CRY_21, $55, $01 ; Bellsprout
 	mon_cry SFX_CRY_25, $44, $20 ; Weepinbell
 	mon_cry SFX_CRY_25, $66, $CC ; Victreebel

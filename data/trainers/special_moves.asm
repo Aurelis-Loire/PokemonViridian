@@ -12,6 +12,14 @@ SpecialTrainerMoves:
 	db YOUNGSTER, 14
 	db 1, 4, FISSURE
 	db 0
+	
+	db LASS, 18
+	db 1, 4, LEECH_LIFE
+	db 0
+	
+	db COOLTRAINER_F, 1
+	db 2, 1, TWINEEDLE
+	db 0
 
 	db BROCK, 1
 	db 2, 2, POWDER_SNOW
@@ -52,22 +60,14 @@ SpecialTrainerMoves:
 	db 0
 	
 	db ERIKA, 1
-	db 1, 3, MEGA_DRAIN
-	db 2, 1, RAZOR_LEAF
-	db 3, 1, PETAL_DANCE
+	db 3, 2, SHADOW_BALL
 	db 0
 
 	db KOGA, 1
-	db 1, 1, TOXIC
-	db 1, 2, TACKLE
-	db 2, 1, TOXIC
-	db 2, 3, SUPERSONIC
-	db 3, 1, TOXIC
-	db 3, 2, DOUBLE_EDGE
-	db 4, 1, LEECH_LIFE
-	db 4, 2, DOUBLE_TEAM
-	db 4, 3, PSYCHIC_M
-	db 4, 4, TOXIC
+	db 1, 4, EMBER
+	db 3, 4, POWDER_SNOW
+	db 4, 1, BONE_CLUB
+	db 4, 4, SHADOW_BALL
 	db 0
 
 	db BLAINE, 1
