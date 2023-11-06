@@ -158,7 +158,7 @@ MoveNames::
 	li "REST"
 	li "ROCK SLIDE"
 	li "DRAGON TAIL"
-	li "SHARPEN"
+	li "FORCE PALM"
 	li "CONVERSION"
 	li "TRI ATTACK"
 	li "SUPER FANG"
