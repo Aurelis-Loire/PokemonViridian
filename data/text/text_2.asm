@@ -17,6 +17,11 @@ _AIBattleUseItemText::
 	text "!"
 	prompt
 
+_BoyGirlText::
+    text "Play as a boy, or"
+    line "as a girl?"
+    done
+
 _TradeWentToText::
 	text_ram wStringBuffer
 	text " went"

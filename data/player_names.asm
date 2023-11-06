@@ -6,6 +6,13 @@ DefaultNamesPlayer:
 	next "ASH"
 	db   "@"
 
+DefaultNamesGirl:
+    db   "NEW NAME"
+    next "JOHANNA"
+    next "GREEN"
+    next "LEAF"
+    db   "@"
+
 DefaultNamesRival:
 	db   "NEW NAME"
 	next "ISCARIA"
@@ -21,6 +28,13 @@ DefaultNamesPlayer:
 	next "GARY"
 	next "JOHN"
 	db   "@"
+
+DefaultNamesGirl:
+    db   "NEW NAME"
+    next "JOHANNA"
+    next "GREEN"
+    next "LEAF"
+    db   "@"
 
 DefaultNamesRival:
 	db   "NEW NAME"
