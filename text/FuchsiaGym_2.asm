@@ -83,8 +83,8 @@ _FuchsiaGymEndBattleText2::
 _FuchsiaGymAfterBattleText2::
 	text "I will keep on"
 	line "training under"
-	cont "ALYSSA, my witch"
-	cont "mistress!"
+	cont "ALYSSA, my magic"
+	cont "mentor!"
 	done
 
 _FuchsiaGymBattleText3::

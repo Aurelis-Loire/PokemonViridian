@@ -30,8 +30,7 @@ _FightingDojoText_5ce98::
 	line "give you a prized"
 	cont "fighting #MON!"
 
-	para "Choose whichever"
-	line "one you like!"
+	para "You may proceed."
 	done
 
 _FightingDojoText_5ce9d::
