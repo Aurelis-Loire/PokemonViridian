@@ -84,7 +84,7 @@ DEF SHOW EQU $15
 	const HS_POKEMON_MANSION_1F_ITEM_1     ; 48 X
 	const HS_POKEMON_MANSION_1F_ITEM_2     ; 49 X
 	const HS_FIGHTING_DOJO_GIFT_1          ; 4A
-	const HS_FIGHTING_DOJO_GIFT_2          ; 4B
+	const HS_FIGHTING_DOJO_GIFT_2          ; 4B No longer used due to One Pokeball.
 	const HS_SILPH_CO_1F_RECEPTIONIST      ; 4C
 	const HS_VOLTORB_1                     ; 4D X
 	const HS_VOLTORB_2                     ; 4E X
