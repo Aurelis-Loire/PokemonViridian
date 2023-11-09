@@ -19,4 +19,5 @@
 	     REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH,     FLASH
 	; end
 
-	db 0 ; padding
+	db BANK(GolettPicFront)
+	assert BANK(GolettPicFront) == BANK(GolettPicBack)

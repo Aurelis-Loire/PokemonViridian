@@ -20,4 +20,5 @@
 	     THUNDER_WAVE, SUBSTITUTE,   STRENGTH,     FLASH
 	; end
 
-	db 0 ; padding
+	db BANK(FlaaffyPicFront)
+	assert BANK(FlaaffyPicFront) == BANK(FlaaffyPicBack)

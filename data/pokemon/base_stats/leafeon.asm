@@ -20,4 +20,5 @@
 		 FLASH
 	; end
 
-	db 0 ; padding
+	db BANK(LeafeonPicFront)
+	assert BANK(LeafeonPicFront) == BANK(LeafeonPicBack)

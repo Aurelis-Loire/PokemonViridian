@@ -22,4 +22,5 @@
 	     SKULL_BASH,   DREAM_EATER,  REST,         SUBSTITUTE,   STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(MarowakPicFront)
+	assert BANK(MarowakPicFront) == BANK(MarowakPicBack)

@@ -20,4 +20,5 @@
 		 CUT,          FLY,          FLASH
 	; end
 
-	db 0 ; padding
+	db BANK(DrifblimPicFront)
+	assert BANK(DrifblimPicFront) == BANK(DrifblimPicBack)

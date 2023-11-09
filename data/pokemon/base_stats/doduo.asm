@@ -19,4 +19,5 @@
 	     REST,         TRI_ATTACK,   SUBSTITUTE,   FLY
 	; end
 
-	db 0 ; padding
+	db BANK(DoduoPicFront)
+	assert BANK(DoduoPicFront) == BANK(DoduoPicBack)

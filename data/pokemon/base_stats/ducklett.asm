@@ -18,4 +18,5 @@
 	     DOUBLE_TEAM,  REST,         SUBSTITUTE,   FLY,          SURF
 	; end
 
-	db 0 ; padding
+	db BANK(DucklettPicFront)
+	assert BANK(DucklettPicFront) == BANK(DucklettPicBack)

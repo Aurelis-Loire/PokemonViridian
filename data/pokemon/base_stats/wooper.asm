@@ -20,4 +20,5 @@
 		 SUBSTITUTE,   SURF,         FLASH
 	; end
 
-	db 0 ; padding
+	db BANK(WooperPicFront)
+	assert BANK(WooperPicFront) == BANK(WooperPicBack)

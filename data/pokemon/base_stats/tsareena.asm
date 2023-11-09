@@ -18,4 +18,5 @@
 	     DOUBLE_TEAM,  REFLECT,      SWIFT,        REST,         SUBSTITUTE
 	; end
 
-	db 0 ; padding
+	db BANK(TsareenaPicFront)
+	assert BANK(TsareenaPicFront) == BANK(TsareenaPicBack)

@@ -20,4 +20,5 @@
 	     SURF,         STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(WailmerPicFront)
+	assert BANK(WailmerPicFront) == BANK(WailmerPicBack)

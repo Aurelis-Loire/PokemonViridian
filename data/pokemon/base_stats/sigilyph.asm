@@ -20,4 +20,5 @@
 	     SUBSTITUTE,   FLY,          FLASH
 	; end
 
-	db 0 ; padding
+	db BANK(SigilyphPicFront)
+	assert BANK(SigilyphPicFront) == BANK(SigilyphPicBack)

@@ -20,4 +20,5 @@
 	     THUNDER_WAVE, SUBSTITUTE,   CUT,          STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(LopunnyPicFront)
+	assert BANK(LopunnyPicFront) == BANK(LopunnyPicBack)
