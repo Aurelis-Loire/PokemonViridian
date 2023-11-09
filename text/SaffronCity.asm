@@ -4,7 +4,7 @@ _SaffronCityText1::
 	done
 
 _SaffronCityText2::
-	text "BOSS said he'll"
+	text "BOSS said she'll"
 	line "take this town!"
 	done
 
@@ -103,10 +103,10 @@ _SaffronCityText17::
 _SaffronCityText18::
 	text "SAFFRON CITY"
 	line "#MON GYM"
-	cont "LEADER: SABRINA"
+	cont "LEADER: ANDREW"
 
 	para "The Master of"
-	line "Psychic #MON!"
+	line "Poison #MON!"
 	done
 
 _SaffronCityText20::

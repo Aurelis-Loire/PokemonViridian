@@ -1126,6 +1126,7 @@ LucarioEvosMoves:
 	db 0
 ; Learnset
 	db 21, COUNTER
+	db 25, FORCE_PALM
 	db 30, SEISMIC_TOSS
 	db 36, BONE_CLUB
 	db 43, SCREECH

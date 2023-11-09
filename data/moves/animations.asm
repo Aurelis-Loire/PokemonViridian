@@ -158,7 +158,7 @@ AttackAnimationPointers:
 	dw RestAnim
 	dw RockSlideAnim
 	dw DragonTailAnim
-	dw SharpenAnim
+	dw ForcePalmAnim
 	dw ConversionAnim
 	dw TriAttackAnim
 	dw SuperFangAnim
@@ -1114,11 +1114,8 @@ DragonTailAnim:
 	battle_anim DRAGON_TAIL, SUBANIM_0_STAR_THRICE, 0, 6
 	db -1 ; end
 
-SharpenAnim:
-	battle_anim SHARPEN, SE_LIGHT_SCREEN_PALETTE
-	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_CLOSING, 1, 6
-	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
-	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+ForcePalmAnim:
+	battle_anim FORCE_PALM, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
 ConversionAnim:

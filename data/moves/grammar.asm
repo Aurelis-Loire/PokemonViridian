@@ -62,7 +62,7 @@ ExclamationPointMoveSets:
 	db ACID_ARMOR
 	db FURY_SWIPES
 	db REST
-	db SHARPEN
+	db FORCE_PALM
 	db SLASH
 	db SUBSTITUTE
 	db 0 ; end set

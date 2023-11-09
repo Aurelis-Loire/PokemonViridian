@@ -60,7 +60,8 @@ SpecialTrainerMoves:
 	db 0
 	
 	db ERIKA, 1
-	db 3, 2, SHADOW_BALL
+	db 1, 1, DISABLE
+	db 3, 4, PIN_MISSILE
 	db 0
 
 	db KOGA, 1
