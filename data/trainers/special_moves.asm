@@ -18,7 +18,8 @@ SpecialTrainerMoves:
 	db 0
 	
 	db COOLTRAINER_F, 1
-	db 2, 1, TWINEEDLE
+	db 2, 2, TWINEEDLE
+	db 3, 1, TACKLE
 	db 0
 
 	db BROCK, 1
@@ -57,6 +58,21 @@ SpecialTrainerMoves:
 	db 1, 3, GROWL
 	db 4, 1, TACKLE
 	db 5, 4, SCRATCH
+	db 0
+	
+	db RIVAL2, 7
+	db 1, 2, CONFUSION
+	db 5, 1, TAIL_WHIP
+	db 0
+	
+	db RIVAL2, 8
+	db 1, 2, CONFUSION
+	db 5, 4, LEECH_SEED
+	db 0
+	
+	db RIVAL2, 9
+	db 1, 2, CONFUSION
+	db 2, 2, RAZOR_LEAF
 	db 0
 	
 	db ERIKA, 1
