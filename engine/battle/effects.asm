@@ -33,11 +33,11 @@ SleepEffect:
 	ld bc, wPlayerBattleStatus2
 
 .sleepEffect
-	ld a, [bc]
-	bit NEEDS_TO_RECHARGE, a ; does the target need to recharge? (hyper beam)
-	res NEEDS_TO_RECHARGE, a ; target no longer needs to recharge
-	ld [bc], a
-	jr nz, .setSleepCounter ; if the target had to recharge, all hit tests will be skipped
+;	ld a, [bc]
+;	bit NEEDS_TO_RECHARGE, a ; does the target need to recharge? (hyper beam)
+;	res NEEDS_TO_RECHARGE, a ; target no longer needs to recharge
+;	ld [bc], a
+;	jr nz, .setSleepCounter ; if the target had to recharge, all hit tests will be skipped
 	                        ; including the event where the target already has another status
 	ld a, [de]
 	ld b, a
@@ -49,6 +49,12 @@ SleepEffect:
 	ld a, b
 	and a
 	jr nz, .didntAffect ; can't affect a mon that is already statused
+	;Added from above.
+	ld a, [bc]
+	bit NEEDS_TO_RECHARGE, a ; does the target need to recharge? (hyper beam)
+	res NEEDS_TO_RECHARGE, a ; target no longer needs to recharge
+	ld [bc], a
+	;;;;
 	push de
 	call MoveHitTest ; apply accuracy tests
 	pop de
