@@ -299,7 +299,7 @@ IvysaurEvosMoves:
 	db 0
 ; Learnset
 	db 7, LEECH_SEED
-	db 13, VINE_WHIP
+	db 10, VINE_WHIP
 	db 22, POISONPOWDER
 	db 30, RAZOR_LEAF
 	db 34, SWEET_SCENT
@@ -866,7 +866,6 @@ SalanditEvosMoves:
 	db EV_LEVEL, 33, SALAZZLE
 	db 0
 ; Learnset
-	db 5, POISON_GAS
 	db 16, EMBER
 	db 40, SWEET_SCENT
 	db 45, DRAGON_RAGE
@@ -1043,6 +1042,7 @@ SalazzleEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 16, EMBER
 	db 44, SWEET_SCENT
 	db 50, DRAGON_RAGE
 	db 56, SMOG
@@ -1867,7 +1867,7 @@ VenusaurEvosMoves:
 	db 0
 ; Learnset
 	db 7, LEECH_SEED
-	db 13, VINE_WHIP
+	db 10, VINE_WHIP
 	db 22, POISONPOWDER
 	db 30, RAZOR_LEAF
 	db 37, SWEET_SCENT

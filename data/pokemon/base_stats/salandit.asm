@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/salandit.pic", 0, 1 ; sprite dimensions
 	dw SalanditPicFront, SalanditPicBack
 
-	db SCRATCH, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db SCRATCH, POISON_GAS, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
