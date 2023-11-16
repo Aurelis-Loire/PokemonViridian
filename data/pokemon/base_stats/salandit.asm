@@ -18,4 +18,5 @@
 	     SWIFT,        BIDE,         REST,         THUNDER_WAVE, SUBSTITUTE
 	; end
 
-	db 0 ; padding
+	db BANK(SalanditPicFront)
+	assert BANK(SalanditPicFront) == BANK(SalanditPicBack)

@@ -18,4 +18,5 @@
 	     REFLECT,      SWIFT,        REST,         SUBSTITUTE
 	; end
 
-	db 0 ; padding
+	db BANK(SteeneePicFront)
+	assert BANK(SteeneePicFront) == BANK(SteeneePicBack)

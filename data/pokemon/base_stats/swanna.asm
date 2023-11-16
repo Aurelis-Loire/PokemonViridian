@@ -19,4 +19,5 @@
 		 FLY,          SURF
 	; end
 
-	db 0 ; padding
+	db BANK(SwannaPicFront)
+	assert BANK(SwannaPicFront) == BANK(SwannaPicBack)

@@ -19,4 +19,5 @@
 	     REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT,          STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(GabitePicFront)
+	assert BANK(GabitePicFront) == BANK(GabitePicBack)

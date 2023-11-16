@@ -20,4 +20,5 @@
 	     REST,         SUBSTITUTE
 	; end
 
-	db 0 ; padding
+	db BANK(FrigibaxPicFront)
+	assert BANK(FrigibaxPicFront) == BANK(FrigibaxPicBack)

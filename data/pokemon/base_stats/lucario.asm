@@ -20,4 +20,5 @@
 	     SUBSTITUTE,   STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(LucarioPicFront)
+	assert BANK(LucarioPicFront) == BANK(LucarioPicBack)

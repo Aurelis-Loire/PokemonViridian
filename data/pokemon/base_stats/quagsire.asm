@@ -20,4 +20,5 @@
 		 ROCK_SLIDE,   SUBSTITUTE,   SURF,         STRENGTH,     FLASH
 	; end
 
-	db 0 ; padding
+	db BANK(QuagsirePicFront)
+	assert BANK(QuagsirePicFront) == BANK(QuagsirePicBack)

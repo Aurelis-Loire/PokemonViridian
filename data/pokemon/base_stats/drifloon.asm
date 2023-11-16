@@ -20,4 +20,5 @@
 		 FLASH
 	; end
 
-	db 0 ; padding
+	db BANK(DrifloonPicFront)
+	assert BANK(DrifloonPicFront) == BANK(DrifloonPicBack)

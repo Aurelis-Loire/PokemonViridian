@@ -20,4 +20,5 @@
 	     SUBSTITUTE
 	; end
 
-	db 0 ; padding
+	db BANK(NidoranPicFront)
+	assert BANK(NidoranPicFront) == BANK(NidoranPicBack)

@@ -19,4 +19,5 @@
 		 FLASH
 	; end
 
-	db 0 ; padding
+	db BANK(ChandelurePicFront)
+	assert BANK(ChandelurePicFront) == BANK(ChandelurePicBack)
