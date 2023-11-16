@@ -20,4 +20,5 @@
 	     SUBSTITUTE
 	; end
 
-	db 0 ; padding
+	db BANK(ArcaninePicFront)
+	assert BANK(ArcaninePicFront) == BANK(ArcaninePicBack)

@@ -20,4 +20,5 @@
 	     SUBSTITUTE,   FLASH
 	; end
 
-	db 0 ; padding
+	db BANK(GardevoirPicFront)
+	assert BANK(GardevoirPicFront) == BANK(GardevoirPicBack)

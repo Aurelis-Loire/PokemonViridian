@@ -20,4 +20,5 @@
 	     EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   SURF
 	; end
 
-	db 0 ; padding
+	db BANK(ShellderPicFront)
+	assert BANK(ShellderPicFront) == BANK(ShellderPicBack)

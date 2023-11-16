@@ -18,4 +18,5 @@
 	     REFLECT,      REST,         SUBSTITUTE
 	; end
 
-	db 0 ; padding
+	db BANK(BounsweetPicFront)
+	assert BANK(BounsweetPicFront) == BANK(BounsweetPicBack)

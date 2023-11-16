@@ -21,4 +21,5 @@
 	     THUNDER_WAVE, ROCK_SLIDE,   SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(MiltankPicFront)
+	assert BANK(MiltankPicFront) == BANK(MiltankPicBack)

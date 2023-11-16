@@ -20,4 +20,5 @@
 	     FLY
 	; end
 
-	db 0 ; padding
+	db BANK(AerodactylPicFront)
+	assert BANK(AerodactylPicFront) == BANK(AerodactylPicBack)
