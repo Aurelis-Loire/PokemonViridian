@@ -79,7 +79,7 @@
 	const DEX_LEAFEON    ; 73
 	const DEX_GIBLE      ; 74
 	const DEX_GABITE     ; 75
-	const DEX_POLIWRATH  ; 76
+	const DEX_ARCTIBAX   ; 76
 	const DEX_PONYTA     ; 77
 	const DEX_RAPIDASH   ; 78
 	const DEX_DUCKLETT   ; 79

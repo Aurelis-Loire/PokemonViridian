@@ -75,7 +75,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Leafeon
 	nybble ICON_MON       ; Gible
 	nybble ICON_MON       ; Gabite
-	nybble ICON_MON       ; Poliwrath
+	nybble ICON_MON       ; Arctibax
 	nybble ICON_QUADRUPED ; Ponyta
 	nybble ICON_QUADRUPED ; Rapidash
 	nybble ICON_BIRD      ; Ducklett

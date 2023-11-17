@@ -87,7 +87,7 @@
 	const FROSLASS           ; $4E
 	const TOXICROAK          ; $4F
 	const LUCARIO            ; $50
-	const_skip               ; $51
+	const ARCTIBAX           ; $51
 	const VULPIX             ; $52
 	const NINETALES          ; $53
 	const PIKACHU            ; $54
@@ -117,7 +117,7 @@
 	const EKANS              ; $6C
 	const_skip               ; $6D
 	const_skip               ; $6E
-	const POLIWRATH          ; $6F
+	const_skip               ; $6F
 	const WEEDLE             ; $70
 	const KAKUNA             ; $71
 	const BEEDRILL           ; $72

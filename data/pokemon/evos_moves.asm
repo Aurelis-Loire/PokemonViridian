@@ -83,7 +83,7 @@ EvosMovesPointerTable:
 	dw FroslassEvosMoves
 	dw ToxicroakEvosMoves
 	dw LucarioEvosMoves
-	dw MissingNo51EvosMoves
+	dw ArctibaxEvosMoves
 	dw VulpixEvosMoves
 	dw NinetalesEvosMoves
 	dw PikachuEvosMoves
@@ -113,7 +113,7 @@ EvosMovesPointerTable:
 	dw EkansEvosMoves
 	dw MissingNo6DEvosMoves
 	dw MissingNo6EEvosMoves
-	dw PoliwrathEvosMoves
+	dw MissingNo6FEvosMoves
 	dw WeedleEvosMoves
 	dw KakunaEvosMoves
 	dw BeedrillEvosMoves
@@ -378,6 +378,7 @@ WooperEvosMoves:
 
 FrigibaxEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 35, ARCTIBAX
 	db 0
 ; Learnset
 	db 16, LEER
@@ -1134,10 +1135,16 @@ LucarioEvosMoves:
 	db 54, GROWTH
 	db 0
 
-MissingNo51EvosMoves:
+ArctibaxEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 16, LEER
+	db 19, DRAGON_TAIL
+	db 25, FOCUS_ENERGY
+	db 31, BITE
+	db 41, TAKE_DOWN
+	db 49, ICE_BEAM
 	db 0
 
 VulpixEvosMoves:
@@ -1445,12 +1452,10 @@ MissingNo6EEvosMoves:
 ; Learnset
 	db 0
 
-PoliwrathEvosMoves:
+MissingNo6FEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
 	db 0
 
 WeedleEvosMoves:
