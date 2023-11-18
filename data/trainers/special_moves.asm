@@ -106,6 +106,10 @@ SpecialTrainerMoves:
 	db 1, 1, GROWL
 	db 0
 	
+	db GIOVANNI, 2
+	db 1, 1, WRAP
+	db 0
+	
 	db GIOVANNI, 3
 	db 1, 3, FISSURE
 	db 2, 2, DOUBLE_TEAM
