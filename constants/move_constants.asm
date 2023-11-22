@@ -165,7 +165,7 @@
 	const ROCK_SLIDE   ; 9d
 	const DRAGON_TAIL  ; 9e
 	const FORCE_PALM   ; 9f
-	const CONVERSION   ; a0
+	const SLUDGE_BOMB  ; a0
 	const TRI_ATTACK   ; a1
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
