@@ -96,10 +96,10 @@ SpecialTrainerMoves:
 	db 0
 
 	db SABRINA, 1
-	db 1, 1, FLASH
-	db 2, 1, KINESIS
-	db 2, 4, PSYWAVE
-	db 3, 1, PSYWAVE
+	db 1, 3, DOUBLE_KICK
+	db 2, 4, EMBER
+	db 4, 2, ASTONISH
+	db 4, 3, SLUDGE_BOMB
 	db 0
 
 	db GIOVANNI, 1

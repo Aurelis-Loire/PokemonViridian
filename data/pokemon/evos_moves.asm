@@ -349,6 +349,8 @@ NidokingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 8, HORN_ATTACK
+	db 12, DOUBLE_KICK
 	db 19, POISON_STING
 	db 23, THRASH
 	db 27, FOCUS_ENERGY
@@ -868,7 +870,7 @@ SalanditEvosMoves:
 	db 0
 ; Learnset
 	db 16, EMBER
-	db 40, SWEET_SCENT
+	db 21, SWEET_SCENT
 	db 45, DRAGON_RAGE
 	db 50, SMOG
 	db 0
@@ -1044,7 +1046,7 @@ SalazzleEvosMoves:
 	db 0
 ; Learnset
 	db 16, EMBER
-	db 44, SWEET_SCENT
+	db 21, SWEET_SCENT
 	db 50, DRAGON_RAGE
 	db 56, SMOG
 	db 0
