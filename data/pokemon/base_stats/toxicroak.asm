@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, SHADOW_BALL,  MEGA_KICK,    TOXIC,        \
-	     TAKE_DOWN,    HYPER_BEAM,   COUNTER,      EARTHQUAKE,   DIG,          \
-	     DOUBLE_TEAM,  REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT,          \
-		 STRENGTH
+	     SLUDGE_BOMB,  TAKE_DOWN,    HYPER_BEAM,   COUNTER,      EARTHQUAKE,   \
+	     DIG,          DOUBLE_TEAM,  REST,         ROCK_SLIDE,   SUBSTITUTE,   \
+		 CUT,          STRENGTH
 	; end
 
 	db BANK(ToxicroakPicFront)

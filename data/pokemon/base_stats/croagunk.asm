@@ -14,9 +14,9 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm MEGA_PUNCH,   SHADOW_BALL,  MEGA_KICK,    TOXIC,        TAKE_DOWN,    \
-	     COUNTER,      EARTHQUAKE,   DIG,          DOUBLE_TEAM,  REST,         \
-	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	tmhm MEGA_PUNCH,   SHADOW_BALL,  MEGA_KICK,    TOXIC,        SLUDGE_BOMB,  \
+	     TAKE_DOWN,    COUNTER,      EARTHQUAKE,   DIG,          DOUBLE_TEAM,  \
+	     REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(CroagunkPicFront)
