@@ -21,6 +21,9 @@ SpecialTrainerMoves:
 	db 2, 2, TWINEEDLE
 	db 3, 1, TACKLE
 	db 0
+	
+	db RIVAL1, 8
+	db 4, 1, TACKLE
 
 	db BROCK, 1
 	db 2, 2, POWDER_SNOW

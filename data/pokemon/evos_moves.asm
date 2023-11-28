@@ -300,7 +300,7 @@ IvysaurEvosMoves:
 ; Learnset
 	db 7, LEECH_SEED
 	db 10, VINE_WHIP
-	db 22, POISONPOWDER
+	db 15, POISONPOWDER
 	db 30, RAZOR_LEAF
 	db 34, SWEET_SCENT
 	db 38, GROWTH
@@ -894,7 +894,7 @@ CroagunkEvosMoves:
 	db EV_LEVEL, 37, TOXICROAK
 	db 0
 ; Learnset
-	db 30, POISON_STING
+	db 5, POISON_STING
 	db 33, POUND
 	db 37, LOW_KICK
 	db 42, SWIFT
@@ -940,7 +940,7 @@ GolettEvosMoves:
 	db 0
 ; Learnset
 	db 12, DEFENSE_CURL
-	db 17, BONE_CLUB
+	db 17, MUD_SLAP
 	db 24, ROCK_THROW
 	db 29, MEGA_PUNCH
 	db 32, NIGHT_SHADE
@@ -1116,7 +1116,7 @@ ToxicroakEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, POISON_STING
+	db 5, POISON_STING
 	db 33, POUND
 	db 37, LOW_KICK
 	db 45, SWIFT
@@ -1861,7 +1861,7 @@ BulbasaurEvosMoves:
 ; Learnset
 	db 7, LEECH_SEED
 	db 10, VINE_WHIP
-	db 20, POISONPOWDER
+	db 15, POISONPOWDER
 	db 27, RAZOR_LEAF
 	db 30, SWEET_SCENT
 	db 34, GROWTH
@@ -1875,7 +1875,7 @@ VenusaurEvosMoves:
 ; Learnset
 	db 7, LEECH_SEED
 	db 10, VINE_WHIP
-	db 22, POISONPOWDER
+	db 15, POISONPOWDER
 	db 30, RAZOR_LEAF
 	db 37, SWEET_SCENT
 	db 43, GROWTH

@@ -165,5 +165,6 @@ MoveNames::
 	li "SLASH"
 	li "SUBSTITUTE"
 	li "SHADOW BALL"
+	li "MUD-SLAP"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS
