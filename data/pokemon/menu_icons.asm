@@ -118,7 +118,7 @@ MonPartyData:
 	nybble ICON_MON       ; Croagunk
 	nybble ICON_MON       ; Toxicroak
 	nybble ICON_BIRD      ; Sigilyph
-	nybble ICON_BALL      ; Chandelure
+	nybble ICON_WATER     ; Lapras
 	nybble ICON_MON       ; Lucario
 	nybble ICON_MON       ; Frigibax
 	nybble ICON_MON       ; Weezing
@@ -130,7 +130,7 @@ MonPartyData:
 	nybble ICON_MON       ; Froslass
 	nybble ICON_MON       ; Muk
 	nybble ICON_WATER     ; Dewgong
-	nybble ICON_WATER     ; Lapras
+	nybble ICON_BALL      ; Chandelure
 	nybble ICON_MON       ; Geodude
 	nybble ICON_MON       ; Golett
 	nybble ICON_GRASS     ; Bellsprout
