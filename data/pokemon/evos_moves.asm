@@ -88,7 +88,7 @@ EvosMovesPointerTable:
 	dw NinetalesEvosMoves
 	dw PikachuEvosMoves
 	dw RaichuEvosMoves
-	dw MissingNo56EvosMoves
+	dw GarchompEvosMoves
 	dw MissingNo57EvosMoves
 	dw DratiniEvosMoves
 	dw DragonairEvosMoves
@@ -190,7 +190,7 @@ EvosMovesPointerTable:
 	dw MissingNoB9EvosMoves
 	dw MissingNoBAEvosMoves
 	dw MissingNoBBEvosMoves
-	dw BellsproutEvosMoves
+	dw MissingNoBCEvosMoves
 	dw WeepinbellEvosMoves
 	dw VictreebelEvosMoves
 	assert_table_length NUM_POKEMON_INDEXES
@@ -612,8 +612,9 @@ MareepEvosMoves:
 	db EV_LEVEL, 15, FLAAFFY
 	db 0
 ; Learnset
-	db 8, THUNDERSHOCK
-	db 12, THUNDER_WAVE
+	db 11, GROWL
+	db 12, THUNDERSHOCK
+	db 13, THUNDER_WAVE
 	db 17, TAKE_DOWN
 	db 23, CONFUSE_RAY
 	db 30, LIGHT_SCREEN
@@ -666,8 +667,9 @@ FlaaffyEvosMoves:
     db EV_LEVEL, 30, AMPHAROS
 	db 0
 ; Learnset
-	db 8, THUNDERSHOCK
-	db 12, THUNDER_WAVE
+    db 11, GROWL
+	db 12, THUNDERSHOCK
+	db 13, THUNDER_WAVE
 	db 19, TAKE_DOWN
 	db 27, CONFUSE_RAY
 	db 36, LIGHT_SCREEN
@@ -1008,6 +1010,11 @@ AmpharosEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 11, GROWL
+	db 12, THUNDERSHOCK
+	db 13, THUNDER_WAVE
+	db 19, TAKE_DOWN
+	db 27, CONFUSE_RAY
 	db 30, THUNDERPUNCH
 	db 37, LIGHT_SCREEN
 	db 48, THUNDER
@@ -1206,10 +1213,16 @@ RaichuEvosMoves:
 	db 50, LIGHT_SCREEN
 	db 0
 
-MissingNo56EvosMoves:
+GarchompEvosMoves:
 ; Evolutions
-	db 0
+    db 0
 ; Learnset
+	db 20, SAND_ATTACK
+	db 26, DRAGON_RAGE
+	db 36, TAKE_DOWN
+	db 44, SAND_TOMB
+	db 53, SLASH
+    db 55, DIG
 	db 0
 
 MissingNo57EvosMoves:
@@ -1591,8 +1604,10 @@ ButterfreeEvosMoves:
 
 GabiteEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 48, GARCHOMP
 	db 0
 ; Learnset
+	db 20, SAND_ATTACK
 	db 26, DRAGON_RAGE
 	db 36, TAKE_DOWN
 	db 44, SAND_TOMB
@@ -2170,18 +2185,10 @@ MissingNoBBEvosMoves:
 ; Learnset
 	db 0
 
-BellsproutEvosMoves:
+MissingNoBCEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 21, WEEPINBELL
 	db 0
 ; Learnset
-	db 13, WRAP
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
-	db 21, STUN_SPORE
-	db 26, ACID
-	db 33, RAZOR_LEAF
-	db 42, SLAM
 	db 0
 
 WeepinbellEvosMoves:

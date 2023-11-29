@@ -133,7 +133,7 @@ MonPartyData:
 	nybble ICON_BALL      ; Chandelure
 	nybble ICON_MON       ; Geodude
 	nybble ICON_MON       ; Golett
-	nybble ICON_GRASS     ; Bellsprout
+	nybble ICON_MON       ; Garchomp
 	nybble ICON_GRASS     ; Weepinbell
 	nybble ICON_GRASS     ; Victreebel
 	nybble ICON_MON       ; Porygon

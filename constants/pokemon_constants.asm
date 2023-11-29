@@ -92,7 +92,7 @@
 	const NINETALES          ; $53
 	const PIKACHU            ; $54
 	const RAICHU             ; $55
-	const_skip               ; $56
+	const GARCHOMP           ; $56
 	const_skip               ; $57
 	const DRATINI            ; $58
 	const DRAGONAIR          ; $59
@@ -194,7 +194,7 @@
 	const_skip               ; $B9
 	const_skip               ; $BA
 	const_skip               ; $BB
-	const BELLSPROUT         ; $BC
+	const_skip               ; $BC
 	const WEEPINBELL         ; $BD
 	const VICTREEBEL         ; $BE
 

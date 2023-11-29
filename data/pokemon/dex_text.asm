@@ -841,6 +841,16 @@ _RaichuDexEntry::
 	page "causes of its"
 	next "change in form"
 	dex
+	
+_GarchompDexEntry::
+	text "When it folds up"
+	next "its body and"
+	next "extends its wings,"
+
+	page "it looks like a"
+	next "jet plane. It"
+	next "flies at Mach 1"
+	dex
 
 _DratiniDexEntry::
 	text "Long considered a"

@@ -137,7 +137,7 @@
 	const DEX_CHANDELURE ; 131
 	const DEX_GEODUDE    ; 132
 	const DEX_GOLETT     ; 133
-	const DEX_BELLSPROUT ; 134
+	const DEX_GARCHOMP   ; 134
 	const DEX_WEEPINBELL ; 135
 	const DEX_VICTREEBEL ; 136
 	const DEX_PORYGON    ; 137
