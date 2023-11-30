@@ -792,6 +792,16 @@ _LucarioDexEntry::
 	page "understands human"
 	next "speech"
 	dex
+	
+_ArctibaxDexEntry::
+	text "Arctibax freezes"
+	next "the air around it,"
+	next "protecting its"
+
+	page "face with an ice"
+	next "mask and turning"
+	next "its fin into ice"
+	dex
 
 _VulpixDexEntry::
 	text "It exhales air"
@@ -980,16 +990,6 @@ _EkansDexEntry::
 	page "birds, such as"
 	next "PIDGEY and"
 	next "DUCKLETT, whole"
-	dex
-
-_PoliwrathDexEntry::
-	text "An adept swimmer"
-	next "at both the front"
-	next "crawl and breast"
-
-	page "stroke. Easily"
-	next "overtakes the best"
-	next "human swimmers"
 	dex
 
 _WeedleDexEntry::

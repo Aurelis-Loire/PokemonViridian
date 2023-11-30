@@ -86,7 +86,7 @@ CryData::
 	mon_cry SFX_CRY_16, $1E, $F5 ; Froslass
 	mon_cry SFX_CRY_17, $B7, $33 ; Toxicroak
 	mon_cry SFX_CRY_17, $5C, $9E ; Lucario
-	mon_cry SFX_CRY_0E, $E0, $60 ; MissingNo.
+	mon_cry SFX_CRY_04, $BC, $BE ; Arctibax
 	mon_cry SFX_CRY_24, $4F, $10 ; Vulpix
 	mon_cry SFX_CRY_24, $88, $60 ; Ninetales
 	mon_cry SFX_CRY_0F, $EE, $01 ; Pikachu
@@ -116,7 +116,7 @@ CryData::
 	mon_cry SFX_CRY_17, $12, $40 ; Ekans
 	mon_cry SFX_CRY_1E, $20, $E0 ; MissingNo.
 	mon_cry SFX_CRY_0E, $77, $60 ; MissingNo.
-	mon_cry SFX_CRY_0E, $00, $FF ; Poliwrath
+	mon_cry SFX_CRY_0E, $00, $FF ; MissingNo.
 	mon_cry SFX_CRY_15, $EE, $01 ; Weedle
 	mon_cry SFX_CRY_13, $FF, $01 ; Kakuna
 	mon_cry SFX_CRY_13, $60, $80 ; Beedrill

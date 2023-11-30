@@ -80,7 +80,7 @@ PokedexEntryPointers:
 	dw FroslassDexEntry
 	dw ToxicroakDexEntry
 	dw LucarioDexEntry
-	dw MissingNoDexEntry
+	dw ArctibaxDexEntry
 	dw VulpixDexEntry
 	dw NinetalesDexEntry
 	dw PikachuDexEntry
@@ -110,7 +110,7 @@ PokedexEntryPointers:
 	dw EkansDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw PoliwrathDexEntry
+	dw MissingNoDexEntry
 	dw WeedleDexEntry
 	dw KakunaDexEntry
 	dw BeedrillDexEntry
@@ -756,6 +756,13 @@ LucarioDexEntry:
 	dw 1190
 	text_far _LucarioDexEntry
 	text_end
+	
+ArctibaxDexEntry:
+	db "ICE FIN@"
+	db 2,7
+	dw 661
+	text_far _ArctibaxDexEntry
+	text_end
 
 VulpixDexEntry:
 	db "FOX@"
@@ -888,13 +895,6 @@ EkansDexEntry:
 	db 6,7
 	dw 150
 	text_far _EkansDexEntry
-	text_end
-
-PoliwrathDexEntry:
-	db "TADPOLE@"
-	db 4,3
-	dw 1190
-	text_far _PoliwrathDexEntry
 	text_end
 
 WeedleDexEntry:

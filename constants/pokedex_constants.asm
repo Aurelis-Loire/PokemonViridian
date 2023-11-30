@@ -79,7 +79,7 @@
 	const DEX_LEAFEON    ; 73
 	const DEX_GIBLE      ; 74
 	const DEX_GABITE     ; 75
-	const DEX_POLIWRATH  ; 76
+	const DEX_ARCTIBAX   ; 76
 	const DEX_PONYTA     ; 77
 	const DEX_RAPIDASH   ; 78
 	const DEX_DUCKLETT   ; 79
@@ -122,7 +122,7 @@
 	const DEX_CROAGUNK   ; 116
 	const DEX_TOXICROAK  ; 117
 	const DEX_SIGILYPH   ; 118
-	const DEX_CHANDELURE ; 119
+	const DEX_LAPRAS     ; 119
 	const DEX_LUCARIO    ; 120
 	const DEX_FRIGIBAX   ; 121
 	const DEX_WEEZING    ; 122
@@ -134,7 +134,7 @@
 	const DEX_FROSLASS   ; 128
 	const DEX_MUK        ; 129
 	const DEX_DEWGONG    ; 130
-	const DEX_LAPRAS     ; 131
+	const DEX_CHANDELURE ; 131
 	const DEX_GEODUDE    ; 132
 	const DEX_GOLETT     ; 133
 	const DEX_BELLSPROUT ; 134

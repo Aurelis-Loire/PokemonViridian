@@ -159,11 +159,12 @@ MoveNames::
 	li "ROCK SLIDE"
 	li "DRAGON TAIL"
 	li "FORCE PALM"
-	li "CONVERSION"
+	li "SLUDGE BOMB"
 	li "TRI ATTACK"
 	li "SUPER FANG"
 	li "SLASH"
 	li "SUBSTITUTE"
 	li "SHADOW BALL"
+	li "MUD-SLAP"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

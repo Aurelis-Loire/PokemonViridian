@@ -20,7 +20,7 @@ SaffronGym_Script:
 	db "SAFFRON CITY@"
 
 .LeaderName:
-	db "SABRINA@"
+	db "ANDREW@"
 
 SaffronGymResetScripts:
 	xor a
@@ -47,7 +47,7 @@ SaffronGymReceiveTM46:
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	SetEvent EVENT_BEAT_SABRINA
-	lb bc, TM_PSYWAVE, 1
+	lb bc, TM_SLUDGE_BOMB, 1
 	call GiveItem
 	jr nc, .BagFull
 	ld a, $b
