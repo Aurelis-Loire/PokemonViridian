@@ -159,12 +159,13 @@ AttackAnimationPointers:
 	dw RockSlideAnim
 	dw DragonTailAnim
 	dw ForcePalmAnim
-	dw ConversionAnim
+	dw SludgeBombAnim
 	dw TriAttackAnim
 	dw SuperFangAnim
 	dw SlashAnim
 	dw SubstituteAnim
 	dw ShadowBallAnim
+	dw MudSlapAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -915,7 +916,7 @@ EggBombAnim:
 	db -1 ; end
 
 LickAnim:
-	battle_anim REFRESH, SUBANIM_1_BLOB_DRIP_ENEMY, 1, 6
+	battle_anim SLUDGE_BOMB, SUBANIM_1_BLOB_DRIP_ENEMY, 1, 6
 	db -1 ; end
 
 SmogAnim:
@@ -1118,11 +1119,9 @@ ForcePalmAnim:
 	battle_anim FORCE_PALM, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
-ConversionAnim:
-	battle_anim CONVERSION, SE_DARK_SCREEN_FLASH
-	battle_anim NO_MOVE, SUBANIM_0_CIRCLES_1_SQUARES_CENTERING_ENEMY, 1, 6
-	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_TOSS_BACK, 1, 6
-	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+SludgeBombAnim:
+	battle_anim SLUDGE_BOMB, SUBANIM_1_BLOB_TOSS, 1, 6
+	battle_anim SLUDGE_BOMB, SUBANIM_1_EXPLOSION_SMALL_ENEMY, 1, 6
 	db -1 ; end
 
 TriAttackAnim:
@@ -1149,6 +1148,11 @@ SubstituteAnim:
 	
 ShadowBallAnim:
 	battle_anim SHADOW_BALL, SUBANIM_1_BLOB_TOSS, 1, 6
+	db -1 ; end
+	
+MudSlapAnim:
+	battle_anim MUD_SLAP, SUBANIM_1_SAND, 1, 6
+	battle_anim NO_MOVE, SUBANIM_1_BLOB_DRIP_ENEMY, 1, 6
 	db -1 ; end
 
 BallTossAnim:

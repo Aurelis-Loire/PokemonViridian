@@ -83,7 +83,7 @@ EvosMovesPointerTable:
 	dw FroslassEvosMoves
 	dw ToxicroakEvosMoves
 	dw LucarioEvosMoves
-	dw MissingNo51EvosMoves
+	dw ArctibaxEvosMoves
 	dw VulpixEvosMoves
 	dw NinetalesEvosMoves
 	dw PikachuEvosMoves
@@ -113,7 +113,7 @@ EvosMovesPointerTable:
 	dw EkansEvosMoves
 	dw MissingNo6DEvosMoves
 	dw MissingNo6EEvosMoves
-	dw PoliwrathEvosMoves
+	dw MissingNo6FEvosMoves
 	dw WeedleEvosMoves
 	dw KakunaEvosMoves
 	dw BeedrillEvosMoves
@@ -299,12 +299,12 @@ IvysaurEvosMoves:
 	db 0
 ; Learnset
 	db 7, LEECH_SEED
-	db 13, VINE_WHIP
-	db 22, POISONPOWDER
+	db 10, VINE_WHIP
+	db 15, POISONPOWDER
+	db 16, SLEEP_POWDER
 	db 30, RAZOR_LEAF
 	db 34, SWEET_SCENT
 	db 38, GROWTH
-	db 46, SLEEP_POWDER
 	db 54, SOLARBEAM
 	db 0
 
@@ -349,6 +349,8 @@ NidokingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 8, HORN_ATTACK
+	db 12, DOUBLE_KICK
 	db 19, POISON_STING
 	db 23, THRASH
 	db 27, FOCUS_ENERGY
@@ -378,6 +380,7 @@ WooperEvosMoves:
 
 FrigibaxEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 35, ARCTIBAX
 	db 0
 ; Learnset
 	db 16, LEER
@@ -866,9 +869,8 @@ SalanditEvosMoves:
 	db EV_LEVEL, 33, SALAZZLE
 	db 0
 ; Learnset
-	db 5, POISON_GAS
 	db 16, EMBER
-	db 40, SWEET_SCENT
+	db 21, SWEET_SCENT
 	db 45, DRAGON_RAGE
 	db 50, SMOG
 	db 0
@@ -892,8 +894,8 @@ CroagunkEvosMoves:
 	db EV_LEVEL, 37, TOXICROAK
 	db 0
 ; Learnset
-	db 30, POISON_STING
-	db 33, POUND
+	db 5, POISON_STING
+	db 10, POUND
 	db 37, LOW_KICK
 	db 42, SWIFT
 	db 48, TOXIC
@@ -938,7 +940,7 @@ GolettEvosMoves:
 	db 0
 ; Learnset
 	db 12, DEFENSE_CURL
-	db 17, BONE_CLUB
+	db 17, MUD_SLAP
 	db 24, ROCK_THROW
 	db 29, MEGA_PUNCH
 	db 32, NIGHT_SHADE
@@ -1043,7 +1045,8 @@ SalazzleEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 44, SWEET_SCENT
+	db 16, EMBER
+	db 21, SWEET_SCENT
 	db 50, DRAGON_RAGE
 	db 56, SMOG
 	db 0
@@ -1113,8 +1116,8 @@ ToxicroakEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, POISON_STING
-	db 33, POUND
+	db 5, POISON_STING
+	db 10, POUND
 	db 37, LOW_KICK
 	db 45, SWIFT
 	db 53, TOXIC
@@ -1134,10 +1137,16 @@ LucarioEvosMoves:
 	db 54, GROWTH
 	db 0
 
-MissingNo51EvosMoves:
+ArctibaxEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 16, LEER
+	db 19, DRAGON_TAIL
+	db 25, FOCUS_ENERGY
+	db 31, BITE
+	db 41, TAKE_DOWN
+	db 49, ICE_BEAM
 	db 0
 
 VulpixEvosMoves:
@@ -1445,12 +1454,10 @@ MissingNo6EEvosMoves:
 ; Learnset
 	db 0
 
-PoliwrathEvosMoves:
+MissingNo6FEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
 	db 0
 
 WeedleEvosMoves:
@@ -1854,11 +1861,11 @@ BulbasaurEvosMoves:
 ; Learnset
 	db 7, LEECH_SEED
 	db 10, VINE_WHIP
-	db 20, POISONPOWDER
+	db 15, POISONPOWDER
+	db 16, SLEEP_POWDER
 	db 27, RAZOR_LEAF
 	db 30, SWEET_SCENT
 	db 34, GROWTH
-	db 41, SLEEP_POWDER
 	db 48, SOLARBEAM
 	db 0
 
@@ -1867,12 +1874,12 @@ VenusaurEvosMoves:
 	db 0
 ; Learnset
 	db 7, LEECH_SEED
-	db 13, VINE_WHIP
-	db 22, POISONPOWDER
+	db 10, VINE_WHIP
+	db 15, POISONPOWDER
+	db 16, SLEEP_POWDER
 	db 30, RAZOR_LEAF
 	db 37, SWEET_SCENT
 	db 43, GROWTH
-	db 55, SLEEP_POWDER
 	db 65, SOLARBEAM
 	db 0
 

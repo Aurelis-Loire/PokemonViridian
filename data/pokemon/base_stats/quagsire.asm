@@ -14,10 +14,11 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  WATER_GUN,    \
-	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   POWDER_SNOW,  EARTHQUAKE,   \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         REST,         \
-		 ROCK_SLIDE,   SUBSTITUTE,   SURF,         STRENGTH,     FLASH
+	tmhm TOXIC,        SLUDGE_BOMB,  BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   POWDER_SNOW,  \
+	     EARTHQUAKE,   DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
+		 REST,         ROCK_SLIDE,   SUBSTITUTE,   SURF,         STRENGTH,     \
+		 FLASH
 	; end
 
 	db BANK(QuagsirePicFront)

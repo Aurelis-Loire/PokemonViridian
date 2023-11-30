@@ -125,7 +125,7 @@ _SilphCo11EndBattleText2::
 
 _SilphCo11AfterBattleText2::
 	text "Watch your step,"
-	line "my BOSS likes his"
+	line "my BOSS likes her"
 	cont "#MON tough!"
 	done
 

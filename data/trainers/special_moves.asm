@@ -18,8 +18,12 @@ SpecialTrainerMoves:
 	db 0
 	
 	db COOLTRAINER_F, 1
-	db 2, 1, TWINEEDLE
+	db 2, 2, TWINEEDLE
+	db 3, 1, TACKLE
 	db 0
+	
+	db RIVAL1, 8
+	db 4, 3, TACKLE
 
 	db BROCK, 1
 	db 2, 2, POWDER_SNOW
@@ -41,6 +45,10 @@ SpecialTrainerMoves:
 	db 3, 4, THUNDERBOLT
 	db 0
 
+	db RIVAL2, 2
+	db 4, 3, TACKLE
+	db 0
+	
 	db RIVAL2, 4
 	db 1, 3, GROWL
 	db 4, 1, TACKLE
@@ -50,13 +58,29 @@ SpecialTrainerMoves:
 	db RIVAL2, 5
 	db 1, 3, GROWL
 	db 4, 1, TACKLE
-	db 5, 1, TACKLE
+	db 5, 3, TACKLE
 	db 0
 
 	db RIVAL2, 6
 	db 1, 3, GROWL
 	db 4, 1, TACKLE
 	db 5, 4, SCRATCH
+	db 0
+	
+	db RIVAL2, 7
+	db 1, 2, CONFUSION
+	db 5, 1, TAIL_WHIP
+	db 0
+	
+	db RIVAL2, 8
+	db 1, 2, CONFUSION
+	db 5, 1, LEECH_SEED
+	db 5, 4, VINE_WHIP
+	db 0
+	
+	db RIVAL2, 9
+	db 1, 2, CONFUSION
+	db 2, 2, RAZOR_LEAF
 	db 0
 	
 	db ERIKA, 1
@@ -80,14 +104,18 @@ SpecialTrainerMoves:
 	db 0
 
 	db SABRINA, 1
-	db 1, 1, FLASH
-	db 2, 1, KINESIS
-	db 2, 4, PSYWAVE
-	db 3, 1, PSYWAVE
+	db 1, 3, DOUBLE_KICK
+	db 2, 4, EMBER
+	db 4, 2, ROCK_SLIDE
+	db 4, 3, SLUDGE_BOMB
 	db 0
 
 	db GIOVANNI, 1
 	db 1, 1, GROWL
+	db 0
+	
+	db GIOVANNI, 2
+	db 1, 1, WRAP
 	db 0
 	
 	db GIOVANNI, 3

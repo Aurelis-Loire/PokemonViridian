@@ -170,11 +170,12 @@ Moves:
 	move ROCK_SLIDE,   NO_ADDITIONAL_EFFECT,        75, ROCK,          90, 10
 	move DRAGON_TAIL,  NO_ADDITIONAL_EFFECT,        60, DRAGON,        90, 10
 	move FORCE_PALM,   PARALYZE_SIDE_EFFECT2,       60, FIGHTING,     100, 10
-	move CONVERSION,   CONVERSION_EFFECT,            0, NORMAL,       100, 30
+	move SLUDGE_BOMB,  POISON_SIDE_EFFECT2,         90, POISON,       100, 10
 	move TRI_ATTACK,   NO_ADDITIONAL_EFFECT,        80, NORMAL,       100, 10
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,        90, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10
 	move SHADOW_BALL,  SPECIAL_DOWN_SIDE_EFFECT,    80, GHOST,        100, 15
+	move MUD_SLAP,     ACCURACY_DOWN_SIDE_EFFECT,   20, GROUND,       100, 10
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

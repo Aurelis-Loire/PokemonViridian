@@ -46,7 +46,7 @@ TrainerPicAndMoneyPointers::
 	pic_money SpectrePic,      9900
 	pic_money AlyssaPic,       9900
 	pic_money BlainePic,       9900
-	pic_money SabrinaPic,      9900
+	pic_money AndrewPic,       9900
 	pic_money GentlemanPic,    7000
 	pic_money Rival2Pic,       6500
 	pic_money Rival3Pic,       9900

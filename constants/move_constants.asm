@@ -165,13 +165,14 @@
 	const ROCK_SLIDE   ; 9d
 	const DRAGON_TAIL  ; 9e
 	const FORCE_PALM   ; 9f
-	const CONVERSION   ; a0
+	const SLUDGE_BOMB  ; a0
 	const TRI_ATTACK   ; a1
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
 	const SHADOW_BALL  ; a5
-	const STRUGGLE     ; a6
+	const MUD_SLAP	   ; a6
+	const STRUGGLE     ; a7
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

@@ -39,7 +39,7 @@ TrainerNames::
 	li "SPECTRE"
 	li "ALYSSA"
 	li "BLAINE"
-	li "SABRINA"
+	li "ANDREW"
 	li "GENTLEMAN"
 	li "RIVAL2"
 	li "RIVAL3"

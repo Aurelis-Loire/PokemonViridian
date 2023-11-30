@@ -152,10 +152,15 @@ AIMoveChoiceModification1:
 	pop de
 	pop hl
 	jr nc, .nextMove
-	ld a, [hl]
-	add $5 ; heavily discourage move
-	ld [hl], a
-	jr .nextMove
+	;Added the following code to hopefully make trainers use status effects again.
+	ld a, [wBattleMonStatus]
+	and a
+	jp z, .nextMove
+	;commented out the below code that may be working improperly.
+;	ld a, [hl]
+;	add $5 ; heavily discourage move
+;	ld [hl], a
+;	jr .nextMove
 .heavydiscourage	;joenote - added marker
 	ld a, [hl]
 	add $5 ; heavily discourage move
