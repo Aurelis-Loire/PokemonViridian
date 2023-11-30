@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/venusaur.pic", 0, 1 ; sprite dimensions
 	dw VenusaurPicFront, VenusaurPicBack
 
-	db VINE_WHIP, POISONPOWDER, SLEEP_POWDER, RAZOR_LEAF ; level 1 learnset
+	db POISONPOWDER, SLEEP_POWDER, RAZOR_LEAF, SWEET_SCENT ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

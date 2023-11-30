@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/toxicroak.pic", 0, 1 ; sprite dimensions
 	dw ToxicroakPicFront, ToxicroakPicBack
 
-	db MUD_SLAP, POISON_STING, POUND, LOW_KICK ; level 1 learnset
+	db POISON_STING, POUND, SWIFT, LOW_KICK ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
