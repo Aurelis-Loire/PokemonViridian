@@ -108,7 +108,7 @@ SpecialTrainerMoves:
 	db 1, 3, SHADOW_BALL
 	db 1, 4, THUNDERBOLT
 	db 2, 1, SHADOW_BALL
-	db 2, 4, EMBER
+	db 2, 4, FIRE_BLAST
 	db 3, 1, DRAGON_RAGE
 	db 3, 2, SLUDGE_BOMB
 	db 3, 3, FIRE_BLAST
