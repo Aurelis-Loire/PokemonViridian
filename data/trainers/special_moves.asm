@@ -104,8 +104,16 @@ SpecialTrainerMoves:
 	db 0
 
 	db SABRINA, 1
-	db 1, 3, DOUBLE_KICK
+	db 1, 2, EARTHQUAKE
+	db 1, 3, SHADOW_BALL
+	db 1, 4, THUNDERBOLT
+	db 2, 1, SHADOW_BALL
 	db 2, 4, EMBER
+	db 3, 1, DRAGON_RAGE
+	db 3, 2, SLUDGE_BOMB
+	db 3, 3, FIRE_BLAST
+	db 3, 4, THUNDER_WAVE
+	db 4, 1, DOUBLE_TEAM
 	db 4, 2, ROCK_SLIDE
 	db 4, 3, SLUDGE_BOMB
 	db 0
