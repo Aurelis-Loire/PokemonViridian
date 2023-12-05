@@ -314,8 +314,6 @@ CharizardPicFront::    INCBIN "gfx/pokemon/front/charizard.pic"
 CharizardPicBack::     INCBIN "gfx/pokemon/back/charizardb.pic"
 WeepinbellPicFront::   INCBIN "gfx/pokemon/front/weepinbell.pic"
 WeepinbellPicBack::    INCBIN "gfx/pokemon/back/weepinbellb.pic"
-VictreebelPicFront::   INCBIN "gfx/pokemon/front/victreebel.pic"
-VictreebelPicBack::    INCBIN "gfx/pokemon/back/victreebelb.pic"
 
 
 SECTION "Pics 6", ROMX
@@ -368,6 +366,8 @@ LancePic::         INCBIN "gfx/trainers/john.pic"
 
 SECTION "Pics 7", ROMX
 
+VictreebelPicFront::   INCBIN "gfx/pokemon/front/victreebel.pic"
+VictreebelPicBack::    INCBIN "gfx/pokemon/back/victreebelb.pic"
 FossilKabutopsPic::    INCBIN "gfx/pokemon/front/fossilkabutops.pic"
 FossilAerodactylPic::  INCBIN "gfx/pokemon/front/fossilaerodactyl.pic"
 GhostPic::             INCBIN "gfx/battle/ghost.pic"
