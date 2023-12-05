@@ -305,7 +305,7 @@ IvysaurEvosMoves:
 	db 22, RAZOR_LEAF
 	db 29, SWEET_SCENT
 	db 38, GROWTH
-	db 54, SOLARBEAM
+	db 56, SOLARBEAM
 	db 0
 
 ExeggutorEvosMoves:
@@ -873,7 +873,7 @@ SalanditEvosMoves:
 ; Learnset
 	db 16, EMBER
 	db 21, SWEET_SCENT
-	db 45, DRAGON_RAGE
+	db 32, DRAGON_RAGE
 	db 50, SMOG
 	db 0
 
@@ -899,9 +899,10 @@ CroagunkEvosMoves:
 	db 5, POISON_STING
 	db 10, POUND
 	db 17, SWIFT
-	db 37, LOW_KICK
-	db 48, TOXIC
-	db 55, COUNTER
+	db 23, LOW_KICK
+	db 31, CONFUSE_RAY
+	db 40, TOXIC
+	db 55, SLUDGE_BOMB
 	db 0
 
 DiglettEvosMoves:
@@ -1054,7 +1055,7 @@ SalazzleEvosMoves:
 ; Learnset
 	db 16, EMBER
 	db 21, SWEET_SCENT
-	db 50, DRAGON_RAGE
+	db 32, DRAGON_RAGE
 	db 56, SMOG
 	db 0
 
@@ -1126,9 +1127,10 @@ ToxicroakEvosMoves:
 	db 5, POISON_STING
 	db 10, POUND
 	db 17, SWIFT
-	db 37, LOW_KICK
-	db 53, TOXIC
-	db 60, COUNTER
+	db 23, LOW_KICK
+	db 31, CONFUSE_RAY
+	db 45, TOXIC
+	db 60, SLUDGE_BOMB
 	db 0
 
 LucarioEvosMoves:
@@ -1880,8 +1882,8 @@ BulbasaurEvosMoves:
 	db 16, SLEEP_POWDER
 	db 20, RAZOR_LEAF
 	db 25, SWEET_SCENT
-	db 34, GROWTH
-	db 48, SOLARBEAM
+	db 32, GROWTH
+	db 46, SOLARBEAM
 	db 0
 
 VenusaurEvosMoves:
@@ -1894,7 +1896,7 @@ VenusaurEvosMoves:
 	db 16, SLEEP_POWDER
 	db 22, RAZOR_LEAF
 	db 29, SWEET_SCENT
-	db 43, GROWTH
+	db 41, GROWTH
 	db 65, SOLARBEAM
 	db 0
 
@@ -2084,9 +2086,9 @@ CharmanderEvosMoves:
 	db EV_LEVEL, 16, CHARMELEON
 	db 0
 ; Learnset
-	db 9, EMBER
-	db 15, SMOKESCREEN
-	db 22, RAGE
+	db 7, EMBER
+	db 13, SMOKESCREEN
+	db 19, RAGE
 	db 30, SLASH
 	db 38, FLAMETHROWER
 	db 46, FIRE_SPIN
@@ -2110,9 +2112,9 @@ CharmeleonEvosMoves:
 	db EV_LEVEL, 36, CHARIZARD
 	db 0
 ; Learnset
-	db 9, EMBER
-	db 15, SMOKESCREEN
-	db 24, RAGE
+	db 7, EMBER
+	db 13, SMOKESCREEN
+	db 20, RAGE
 	db 33, SLASH
 	db 42, FLAMETHROWER
 	db 56, FIRE_SPIN
