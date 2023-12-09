@@ -49,6 +49,10 @@ SpecialTrainerMoves:
 	db 4, 3, TACKLE
 	db 0
 	
+	db RIVAL2, 3
+	db 4, 1, SCRATCH
+	db 0
+	
 	db RIVAL2, 4
 	db 1, 3, GROWL
 	db 4, 1, TACKLE
@@ -58,13 +62,13 @@ SpecialTrainerMoves:
 	db RIVAL2, 5
 	db 1, 3, GROWL
 	db 4, 1, TACKLE
-	db 5, 3, TACKLE
+	db 5, 2, LEECH_SEED
 	db 0
 
 	db RIVAL2, 6
 	db 1, 3, GROWL
 	db 4, 1, TACKLE
-	db 5, 4, SCRATCH
+	db 5, 1, SCRATCH
 	db 0
 	
 	db RIVAL2, 7
@@ -109,13 +113,12 @@ SpecialTrainerMoves:
 	db 1, 4, THUNDERBOLT
 	db 2, 1, SHADOW_BALL
 	db 2, 4, FIRE_BLAST
-	db 3, 1, DRAGON_RAGE
+	db 3, 1, FIRE_BLAST
 	db 3, 2, SLUDGE_BOMB
-	db 3, 3, FIRE_BLAST
-	db 3, 4, THUNDER_WAVE
+	db 3, 3, THUNDER_WAVE
 	db 4, 1, DOUBLE_TEAM
 	db 4, 2, ROCK_SLIDE
-	db 4, 3, SLUDGE_BOMB
+	db 4, 4, SLUDGE_BOMB
 	db 0
 
 	db GIOVANNI, 1
@@ -124,6 +127,7 @@ SpecialTrainerMoves:
 	
 	db GIOVANNI, 2
 	db 1, 1, WRAP
+	db 2, 3, SCRATCH
 	db 0
 	
 	db GIOVANNI, 3
