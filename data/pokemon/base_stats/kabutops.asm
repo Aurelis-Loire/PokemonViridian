@@ -18,7 +18,7 @@
 	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   SEISMIC_TOSS, POWDER_SNOW,  \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SKULL_BASH,   \
-	     REST,         SUBSTITUTE,   SURF
+	     HEADBUTT,     REST,         SUBSTITUTE,   SURF
 	; end
 
 	db BANK(KabutopsPicFront)

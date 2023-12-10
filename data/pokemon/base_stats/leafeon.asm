@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, SHADOW_BALL,  TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   SOLARBEAM,    DIG,          MIMIC,        \
-	     DOUBLE_TEAM,  SWIFT,        REST,         SUBSTITUTE,   STRENGTH,     \
-		 FLASH
+	     DOUBLE_TEAM,  SWIFT,        HEADBUTT,     REST,         SUBSTITUTE,   \
+		 STRENGTH,     FLASH
 	; end
 
 	db BANK(LeafeonPicFront)

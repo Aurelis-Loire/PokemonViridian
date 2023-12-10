@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   \
-	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
+	     SWIFT,        SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE
 	; end
 
 	db BANK(RapidashPicFront)

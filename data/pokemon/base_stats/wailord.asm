@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
 	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   POWDER_SNOW,  EARTHQUAKE,   \
-	     FISSURE,      MIMIC,        DOUBLE_TEAM,  SELFDESTRUCT, REST,         \
-	     SUBSTITUTE,   SURF,         STRENGTH
+	     FISSURE,      MIMIC,        DOUBLE_TEAM,  SELFDESTRUCT, HEADBUTT,     \
+	     REST,         SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
 	db BANK(WailordPicFront)

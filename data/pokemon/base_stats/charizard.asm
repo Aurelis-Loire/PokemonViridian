@@ -18,8 +18,8 @@
 	     TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, DRAGON_RAGE,  EARTHQUAKE,   FISSURE,      DIG,          \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   \
-	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   CUT,          \
-	     FLY,          STRENGTH
+	     SWIFT,        SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE,   \
+	     CUT,          FLY,          STRENGTH
 	; end
 
 	db BANK(CharizardPicFront)

@@ -197,7 +197,7 @@ DEF TM01 EQU const_value
 	add_tm FIRE_BLAST   ; $EE
 	add_tm SWIFT        ; $EF
 	add_tm SKULL_BASH   ; $F0
-	add_tm SOFTBOILED   ; $F1
+	add_tm HEADBUTT     ; $F1
 	add_tm DREAM_EATER  ; $F2
 	add_tm SKY_ATTACK   ; $F3
 	add_tm REST         ; $F4

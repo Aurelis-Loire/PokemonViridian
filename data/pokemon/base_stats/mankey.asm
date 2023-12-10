@@ -17,8 +17,8 @@
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     THUNDERBOLT,  THUNDER,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         METRONOME,    SWIFT,        SKULL_BASH,   REST,         \
-	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     BIDE,         METRONOME,    SWIFT,        SKULL_BASH,   HEADBUTT,     \
+	     REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(MankeyPicFront)

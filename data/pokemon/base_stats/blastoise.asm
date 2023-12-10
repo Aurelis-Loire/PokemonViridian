@@ -18,8 +18,8 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, POWDER_SNOW,  \
 	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SKULL_BASH,   REST,         SUBSTITUTE,   \
-	     SURF,         STRENGTH
+	     REFLECT,      BIDE,         SKULL_BASH,   HEADBUTT,     REST,         \
+	     SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
 	db BANK(BlastoisePicFront)

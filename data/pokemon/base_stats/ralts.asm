@@ -15,8 +15,8 @@
 
 	; tm/hm learnset
 	tmhm SHADOW_BALL,  TOXIC,        BODY_SLAM,    DOUBLE_EDGE,  THUNDERBOLT,  \
-	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      DREAM_EATER,  \
-	     REST,         THUNDER_WAVE, SUBSTITUTE,   FLASH
+	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      HEADBUTT,     \
+	     DREAM_EATER,  REST,         THUNDER_WAVE, SUBSTITUTE,   FLASH
 	; end
 
 	db BANK(RaltsPicFront)

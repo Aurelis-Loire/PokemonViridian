@@ -18,7 +18,7 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, POWDER_SNOW,  DIG,          \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SKULL_BASH,   \
-	     REST,         SUBSTITUTE,   SURF,         STRENGTH
+	     HEADBUTT,     REST,         SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
 	db BANK(SquirtlePicFront)

@@ -450,6 +450,9 @@ MewEvosMoves:
 	db 20, MEGA_PUNCH
 	db 30, METRONOME
 	db 40, PSYCHIC_M
+	db 50, BARRIER
+	db 70, AMNESIA
+	db 80, SOFTBOILED
 	db 0
 
 GyaradosEvosMoves:
@@ -682,6 +685,7 @@ ChanseyEvosMoves:
 	db 0
 ; Learnset
 	db 12, DOUBLESLAP
+	db 13, SOFTBOILED
 	db 24, SING
 	db 30, GROWL
 	db 38, MINIMIZE

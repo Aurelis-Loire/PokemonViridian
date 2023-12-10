@@ -19,8 +19,8 @@
 	     BLIZZARD,     SUBMISSION,   COUNTER,      SEISMIC_TOSS, POWDER_SNOW,  \
 	     SOLARBEAM,    THUNDERBOLT,  THUNDER,      PSYCHIC_M,    MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    FIRE_BLAST,   \
-	     SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   \
-	     SUBSTITUTE,   STRENGTH,     FLASH
+	     SKULL_BASH,   HEADBUTT,     REST,         THUNDER_WAVE, PSYWAVE,      \
+	     TRI_ATTACK,   SUBSTITUTE,   STRENGTH,     FLASH
 	; end
 
 	db BANK(ClefairyPicFront)

@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SHADOW_BALL,  MEGA_KICK,    TOXIC,        ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   POWDER_SNOW,  SOLARBEAM,    THUNDERBOLT,  \
-	     THUNDER,      DIG,          DOUBLE_TEAM,  SWIFT,        REST,         \
-	     THUNDER_WAVE, SUBSTITUTE,   CUT,          STRENGTH
+	     THUNDER,      DIG,          DOUBLE_TEAM,  SWIFT,        HEADBUTT,     \
+	     REST,         THUNDER_WAVE, SUBSTITUTE,   CUT,          STRENGTH
 	; end
 
 	db BANK(LopunnyPicFront)
