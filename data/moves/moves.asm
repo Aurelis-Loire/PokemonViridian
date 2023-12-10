@@ -177,5 +177,6 @@ Moves:
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10
 	move SHADOW_BALL,  SPECIAL_DOWN_SIDE_EFFECT,    80, GHOST,        100, 15
 	move MUD_SLAP,     ACCURACY_DOWN_SIDE_EFFECT,   20, GROUND,       100, 10
+	move SYNTHESIS,    HEAL_EFFECT,                  0, GRASS,        100, 5
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

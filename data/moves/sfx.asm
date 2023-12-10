@@ -167,6 +167,7 @@ MoveSoundTable:
 	db SFX_BATTLE_2C,          $d8, $04 ; SUBSTITUTE
 	db SFX_BATTLE_26,          $30, $43 ; SHADOW_BALL
 	db SFX_DAMAGE,             $1e, $23 ; MUD_SLAP
+	db SFX_NOT_VERY_EFFECTIVE, $6d, $a3 ; SYNTHESIS
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

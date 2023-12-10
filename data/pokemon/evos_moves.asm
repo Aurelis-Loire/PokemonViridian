@@ -305,6 +305,7 @@ IvysaurEvosMoves:
 	db 22, RAZOR_LEAF
 	db 29, SWEET_SCENT
 	db 38, GROWTH
+	db 47, SYNTHESIS
 	db 56, SOLARBEAM
 	db 0
 
@@ -799,8 +800,8 @@ LeafeonEvosMoves:
 	db 8, SAND_ATTACK
 	db 16, RAZOR_LEAF
 	db 23, QUICK_ATTACK
-	db 30, GROWL
-	db 36, LEECH_SEED
+	db 30, SYNTHESIS
+	db 36, GROWL
 	db 42, SWIFT
 	db 47, BITE
 	db 52, SWORDS_DANCE
@@ -1883,6 +1884,7 @@ BulbasaurEvosMoves:
 	db 20, RAZOR_LEAF
 	db 25, SWEET_SCENT
 	db 32, GROWTH
+	db 39, SYNTHESIS
 	db 46, SOLARBEAM
 	db 0
 
@@ -1897,6 +1899,7 @@ VenusaurEvosMoves:
 	db 22, RAZOR_LEAF
 	db 29, SWEET_SCENT
 	db 41, GROWTH
+	db 53, SYNTHESIS
 	db 65, SOLARBEAM
 	db 0
 

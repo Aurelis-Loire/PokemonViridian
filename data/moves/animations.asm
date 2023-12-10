@@ -166,6 +166,7 @@ AttackAnimationPointers:
 	dw SubstituteAnim
 	dw ShadowBallAnim
 	dw MudSlapAnim
+	dw SynthesisAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -1153,6 +1154,12 @@ ShadowBallAnim:
 MudSlapAnim:
 	battle_anim MUD_SLAP, SUBANIM_1_SAND, 1, 6
 	battle_anim NO_MOVE, SUBANIM_1_BLOB_DRIP_ENEMY, 1, 6
+	db -1 ; end
+	
+SynthesisAnim:
+	battle_anim SYNTHESIS, SE_LIGHT_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
 BallTossAnim:
