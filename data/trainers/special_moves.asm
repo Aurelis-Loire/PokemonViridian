@@ -85,6 +85,7 @@ SpecialTrainerMoves:
 	db RIVAL2, 9
 	db 1, 2, CONFUSION
 	db 2, 2, RAZOR_LEAF
+	db 5, 3, EMBER
 	db 0
 	
 	db ERIKA, 1

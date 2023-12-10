@@ -828,6 +828,7 @@ LarvitarEvosMoves:
 	db 18, SCREECH
 	db 21, ROCK_SLIDE
 	db 26, THRASH
+	db 30, SCARY_FACE
 	db 33, EARTHQUAKE
 	db 42, HYPER_BEAM
 	db 0
@@ -2092,6 +2093,7 @@ CharmanderEvosMoves:
 	db 7, EMBER
 	db 13, SMOKESCREEN
 	db 19, RAGE
+	db 25, SCARY_FACE
 	db 30, SLASH
 	db 38, FLAMETHROWER
 	db 46, FIRE_SPIN
@@ -2118,6 +2120,7 @@ CharmeleonEvosMoves:
 	db 7, EMBER
 	db 13, SMOKESCREEN
 	db 20, RAGE
+	db 27, SCARY_FACE
 	db 33, SLASH
 	db 42, FLAMETHROWER
 	db 56, FIRE_SPIN
@@ -2142,7 +2145,8 @@ CharizardEvosMoves:
 ; Learnset
 	db 9, EMBER
 	db 15, SMOKESCREEN
-	db 24, RAGE
+	db 20, RAGE
+	db 27, SCARY_FACE
 	db 36, SLASH
 	db 46, FLAMETHROWER
 	db 55, FIRE_SPIN

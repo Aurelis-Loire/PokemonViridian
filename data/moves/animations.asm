@@ -167,6 +167,7 @@ AttackAnimationPointers:
 	dw ShadowBallAnim
 	dw MudSlapAnim
 	dw SynthesisAnim
+	dw ScaryFaceAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -1159,6 +1160,13 @@ MudSlapAnim:
 SynthesisAnim:
 	battle_anim SYNTHESIS, SE_LIGHT_SCREEN_PALETTE
 	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+	
+ScaryFaceAnim:
+	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
+	battle_anim SCARY_FACE, SE_DARK_SCREEN_FLASH
+	battle_anim SCARY_FACE, SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 

@@ -173,7 +173,8 @@
 	const SHADOW_BALL  ; a5
 	const MUD_SLAP	   ; a6
 	const SYNTHESIS    ; a7
-	const STRUGGLE     ; a8
+	const SCARY_FACE   ; a8
+	const STRUGGLE     ; a9
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.
