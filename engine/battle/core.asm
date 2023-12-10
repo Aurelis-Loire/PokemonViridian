@@ -4940,6 +4940,10 @@ ApplyAttackToPlayerPokemon:
 ; it's possible for the enemy to do 0 damage with Psywave, but the player always does at least 1 damage
 .loop
 	call BattleRandom
+	;;Psywave fix from shinpokered.
+	and a
+	jr z, .loop
+	;;
 	cp b
 	jr nc, .loop
 	ld b, a
