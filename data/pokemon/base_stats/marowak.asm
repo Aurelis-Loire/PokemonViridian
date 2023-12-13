@@ -18,9 +18,9 @@
 	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     POWDER_SNOW,  THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         FIRE_BLAST,   \
-	     SKULL_BASH,   HEADBUTT,     DREAM_EATER,  REST,         SUBSTITUTE,   \
-		 STRENGTH
+	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         FIRE_PUNCH,   \
+	     FIRE_BLAST,   SKULL_BASH,   HEADBUTT,     DREAM_EATER,  REST,         \
+		 SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(MarowakPicFront)

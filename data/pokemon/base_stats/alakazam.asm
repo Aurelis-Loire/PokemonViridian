@@ -17,9 +17,9 @@
 	tmhm MEGA_PUNCH,   SHADOW_BALL,  MEGA_KICK,    TOXIC,        BODY_SLAM,    \
 	     TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, DIG,          PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         METRONOME,    SKULL_BASH,   HEADBUTT,     \
-	     REST,         THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   \
-		 FLASH
+	     REFLECT,      BIDE,         METRONOME,    FIRE_PUNCH,   SKULL_BASH,   \
+	     HEADBUTT,     REST,         THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   \
+		 SUBSTITUTE,   FLASH
 	; end
 
 	db BANK(AlakazamPicFront)

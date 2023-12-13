@@ -16,9 +16,9 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   COUNTER,      SEISMIC_TOSS, THUNDERBOLT,  \
-	     THUNDER,      MIMIC,        DOUBLE_TEAM,  REFLECT,      SWIFT,        \
-	     HEADBUTT,     REST,         THUNDER_WAVE, SUBSTITUTE,   STRENGTH,     \
-		 FLASH
+	     THUNDER,      MIMIC,        DOUBLE_TEAM,  REFLECT,      FIRE_PUNCH,   \
+	     SWIFT,        HEADBUTT,     REST,         THUNDER_WAVE, SUBSTITUTE,   \
+		 STRENGTH,     FLASH
 	; end
 
 	db BANK(AmpharosPicFront)

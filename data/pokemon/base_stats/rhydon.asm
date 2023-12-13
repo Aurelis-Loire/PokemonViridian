@@ -18,9 +18,9 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     POWDER_SNOW,  THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         FIRE_BLAST,   \
-	     SKULL_BASH,   HEADBUTT,     REST,         ROCK_SLIDE,   SUBSTITUTE,   \
-	     SURF,         STRENGTH
+	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         FIRE_PUNCH,   \
+	     FIRE_BLAST,   SKULL_BASH,   HEADBUTT,     REST,         ROCK_SLIDE,   \
+	     SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
 	db BANK(RhydonPicFront)

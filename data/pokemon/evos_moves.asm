@@ -316,6 +316,7 @@ ExeggutorEvosMoves:
 	db 25, REFLECT
 	db 28, LEECH_SEED
 	db 29, STOMP
+	db 31, EGG_BOMB
 	db 32, STUN_SPORE
 	db 37, POISONPOWDER
 	db 42, SOLARBEAM
@@ -688,6 +689,7 @@ ChanseyEvosMoves:
 	db 13, SOFTBOILED
 	db 24, SING
 	db 30, GROWL
+	db 35, EGG_BOMB
 	db 38, MINIMIZE
 	db 44, DEFENSE_CURL
 	db 48, LIGHT_SCREEN

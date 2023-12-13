@@ -19,9 +19,9 @@
 	     BLIZZARD,     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, POWDER_SNOW,  SOLARBEAM,    THUNDERBOLT,  THUNDER,      \
 	     EARTHQUAKE,   FISSURE,      PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         METRONOME,    SELFDESTRUCT, FIRE_BLAST,   \
-	     SKULL_BASH,   HEADBUTT,     REST,         PSYWAVE,      ROCK_SLIDE,   \
-	     SUBSTITUTE,   SURF,         STRENGTH
+	     REFLECT,      BIDE,         METRONOME,    SELFDESTRUCT, FIRE_PUNCH,   \
+	     FIRE_BLAST,   SKULL_BASH,   HEADBUTT,     REST,         PSYWAVE,      \
+	     ROCK_SLIDE,   SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
 	db BANK(SnorlaxPicFront)

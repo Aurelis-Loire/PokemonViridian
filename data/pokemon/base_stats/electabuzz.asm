@@ -17,9 +17,9 @@
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     THUNDERBOLT,  THUNDER,      PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         METRONOME,    SWIFT,        SKULL_BASH,   \
-	     HEADBUTT,     REST,         THUNDER_WAVE, PSYWAVE,      SUBSTITUTE,   \
-	     STRENGTH,     FLASH
+	     REFLECT,      BIDE,         METRONOME,    FIRE_PUNCH,   SWIFT,        \
+	     SKULL_BASH,   HEADBUTT,     REST,         THUNDER_WAVE, PSYWAVE,      \
+	     SUBSTITUTE,   STRENGTH,     FLASH
 	; end
 
 	db BANK(ElectabuzzPicFront)
