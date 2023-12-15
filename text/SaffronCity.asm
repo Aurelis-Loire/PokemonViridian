@@ -105,8 +105,8 @@ _SaffronCityText18::
 	line "#MON GYM"
 	cont "LEADER: ANDREW"
 
-	para "The Master of"
-	line "Poison #MON!"
+	para "The Virulent Light"
+	line "of Hope!"
 	done
 
 _SaffronCityText20::
@@ -139,7 +139,7 @@ _SaffronCityText22::
 	done
 
 _SaffronCityText24::
-	text "MR.PSYCHIC's"
+	text "MR.BURN's"
 	line "HOUSE"
 	done
 

@@ -1,72 +1,77 @@
 _SabrinaPreBattleText::
-	text "I had a vision of"
-	line "your arrival!"
+	text "Another visitor,"
+	line "at this hour?"
 
-	para "I have had psychic"
-	line "powers since I"
-	cont "was a child."
+	para "Whatever... if"
+	line "this has to happen"
+	cont "let's make it"
+	cont "quick!"
 
-	para "I first learned"
-	line "to bend spoons"
-	cont "with my mind."
+	para "If you need"
+	line "someone to play"
+	cont "your villain"
+	cont "allow me to"
+	cont "cooperate!"
 
-	para "I dislike fight-"
-	line "ing, but if you"
-	cont "wish, I will show"
-	cont "you my powers!"
+	para "Time to take it to"
+	line "the extreme; keep"
+	cont "your eyes on me!"
 	done
 
 _ReceivedMarshBadgeText::
-	text "I'm"
-	line "shocked!"
+	text "Well damn, looks"
+	line "like Croak choked!"
 	cont "But, a loss is a"
 	cont "loss."
 
-	para "I admit I didn't"
-	line "work hard enough"
-	cont "to win!"
+	para "At least I suck"
+	line "less than Koga!"
 
 	para "You earned the"
-	line "MARSHBADGE!@"
+	line "FLAREBADGE!@"
 	text_end
 
 _SabrinaPostBattleAdviceText::
-	text "Everyone has"
-	line "psychic power!"
-	cont "People just don't"
-	cont "realize it!"
+	text "Sometimes it's okay"
+	line "okay to be a"
+	cont "little toxic! Ask"
+	cont "Taylor Swift"
+	cont "she's made a"
+	cont "career of it!"
 	done
 
 _KogaMarshBadgeInfoText::
-	text "The MARSHBADGE"
+	text "The FLAREBADGE"
 	line "makes #MON up"
 	cont "to L70 obey you!"
 
 	para "Stronger #MON"
-	line "will become wild,"
-	cont "ignoring your"
-	cont "orders in battle!"
+	line "will hate you,"
+	cont "ignore you and"
+	cont "cost you a fight!"
 
 	para "Just don't raise"
 	line "your #MON too"
 	cont "much!"
 
-	para "Wait, please take"
-	line "this TM with you!"
+	para "You might as well"
+	line "take this TM with"
+	cont "you!"
 	done
 
 _ReceivedTM46Text::
 	text "<PLAYER> received"
-	line "TM46!@"
+	line "TM07!@"
 	text_end
 
 _TM46ExplanationText::
 	text_start
 
-	para "TM46 is PSYWAVE!"
-	line "It uses powerful"
-	cont "psychic waves to"
-	cont "inflict damage!"
+	para "TM07 is SLUDGE"
+	line "BOMB! It uses"
+	cont "powerful toxic"
+	cont "bombs to inflict"
+	cont "damage!"
 	done
 
 _TM46NoRoomText::
@@ -78,64 +83,67 @@ _SaffronGymGuidePreBattleText::
 	text "Yo! Champ in"
 	line "making!"
 
-	para "SABRINA's #MON"
-	line "use psychic power"
+	para "ANDREW's #MON"
+	line "use poison power"
 	cont "instead of force!"
 
-	para "Fighting #MON"
-	line "are weak against"
-	cont "psychic #MON!"
+	para "Grass #MON are"
+	line "weak against"
+	cont "poison #MON!"
 
-	para "They get creamed"
+	para "They shrivel"
 	line "before they can"
-	cont "even aim a punch!"
+	cont "even blossom!"
 	done
 
 _SaffronGymGuidePostBattleText::
-	text "Psychic power,"
-	line "huh?"
+	text "Tumultuous and"
+	line "toxic, huh?"
 
-	para "If I had that,"
-	line "I'd make a bundle"
-	cont "at the slots!"
+	para "Sounds like my"
+	line "last girlfriend,"
+	cont "hehehe!"
 	done
 
 _SaffronGymBattleText1::
-	text "SABRINA is younger"
-	line "than I, but I"
-	cont "respect her!"
+	text "ANDREW doesn't"
+	line "really want to be"
+	cont "bothered so try"
+	cont "and get through"
+	cont "me!"
 	done
 
 _SaffronGymEndBattleText1::
-	text "Not"
-	line "good enough!"
+	text "Damn it,"
+	line "not good enough!"
 	prompt
 
 _SaffronGymAfterBattleText1::
 	text "In a battle of"
 	line "equals, the one"
-	cont "with the stronger"
-	cont "will wins!"
+	cont "with the best"
+	cont "strategy wins!"
 
 	para "If you wish"
-	line "to beat SABRINA,"
-	cont "focus on winning!"
+	line "to beat ANDREW,"
+	cont "be crafty!"
 	done
 
 _SaffronGymBattleText2::
-	text "Does our unseen"
-	line "power scare you?"
+	text "Venom courses"
+	line "through this gym."
+	cont "Are you scared?"
 	done
 
 _SaffronGymEndBattleText2::
-	text "I never"
-	line "foresaw this!"
+	text "Well... looks like"
+	line "you're brave!"
 	prompt
 
 _SaffronGymAfterBattleText2::
-	text "Psychic #MON"
-	line "fear only ghosts"
-	cont "and bugs!"
+	text "Poison #MON"
+	line "fear only psychic"
+	cont "and ground types!"
 	done
 
 _SaffronGymBattleText3::
@@ -148,14 +156,13 @@ _SaffronGymBattleText3::
 	done
 
 _SaffronGymEndBattleText3::
-	text "I knew"
-	line "it!"
+	text "Hello and goodbye!"
 	prompt
 
 _SaffronGymAfterBattleText3::
-	text "I must teach"
-	line "better techniques"
-	cont "to my #MON!"
+	text "My #MON know"
+	line "what you did in"
+	cont "the dark!"
 	done
 
 _SaffronGymBattleText4::
@@ -170,9 +177,9 @@ _SaffronGymEndBattleText4::
 	prompt
 
 _SaffronGymAfterBattleText4::
-	text "SABRINA just wiped"
-	line "out the KARATE"
-	cont "MASTER next door!"
+	text "ANDREW just wiped"
+	line "the floor with the"
+	cont "KARATE MASTER!"
 	done
 
 _SaffronGymBattleText5::
@@ -193,17 +200,16 @@ _SaffronGymAfterBattleText5::
 	done
 
 _SaffronGymBattleText6::
-	text "SABRINA is young,"
-	line "but she's also"
-	cont "our LEADER!"
+	text "Can your eyes keep"
+	line "up with our fight?"
 
 	para "You won't reach"
-	line "her easily!"
+	line "him easily!"
 	done
 
 _SaffronGymEndBattleText6::
-	text "I lost"
-	line "my concentration!"
+	text "You saw through my"
+	line "illusion!"
 	prompt
 
 _SaffronGymAfterBattleText6::
@@ -221,10 +227,10 @@ _SaffronGymAfterBattleText6::
 _SaffronGymBattleText7::
 	text "SAFFRON #MON"
 	line "GYM is famous for"
-	cont "its psychics!"
+	cont "its toxins!"
 
 	para "You want to see"
-	line "SABRINA!"
+	line "ANDREW!"
 	cont "I can tell!"
 	done
 
@@ -234,6 +240,6 @@ _SaffronGymEndBattleText7::
 
 _SaffronGymAfterBattleText7::
 	text "That's right! I"
-	line "used telepathy to"
-	cont "read your mind!"
+	line "will cancel you on"
+	cont "Twitter! Er... X!"
 	done
