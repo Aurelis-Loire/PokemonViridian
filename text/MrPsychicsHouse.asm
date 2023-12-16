@@ -13,8 +13,7 @@ _ReceivedTM29Text::
 	text_end
 
 _TM29ExplanationText::
-	text "TM38 is FIRE"
-	line "BLAST!
+	text "TM38's FIRE BLAST!"
 
 	para "It can leave the"
 	line "target with a sick"
