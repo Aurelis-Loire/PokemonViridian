@@ -92,7 +92,7 @@ CryData::
 	mon_cry SFX_CRY_0F, $EE, $01 ; Pikachu
 	mon_cry SFX_CRY_09, $EE, $08 ; Raichu
 	mon_cry SFX_CRY_0F, $C4, $13 ; Garchomp
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_02, $F1, $2E ; Mamoswine
 	mon_cry SFX_CRY_0F, $60, $40 ; Dratini
 	mon_cry SFX_CRY_0F, $40, $80 ; Dragonair
 	mon_cry SFX_CRY_16, $BB, $40 ; Kabuto
@@ -194,6 +194,6 @@ CryData::
 	mon_cry SFX_CRY_08, $AA, $40 ; MissingNo.
 	mon_cry SFX_CRY_23, $22, $FF ; MissingNo.
 	mon_cry SFX_CRY_21, $55, $01 ; MissingNo.
-	mon_cry SFX_CRY_25, $44, $20 ; Weepinbell
+	mon_cry SFX_CRY_25, $44, $20 ; MissingNo.
 	mon_cry SFX_CRY_25, $66, $CC ; Victreebel
 	assert_table_length NUM_POKEMON_INDEXES

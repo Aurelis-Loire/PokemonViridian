@@ -86,7 +86,7 @@ PokedexEntryPointers:
 	dw PikachuDexEntry
 	dw RaichuDexEntry
 	dw GarchompDexEntry
-	dw MissingNoDexEntry
+	dw MamoswineDexEntry
 	dw DratiniDexEntry
 	dw DragonairDexEntry
 	dw KabutoDexEntry
@@ -188,7 +188,7 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw WeepinbellDexEntry
+	dw MissingNoDexEntry
 	dw VictreebelDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
 
@@ -798,6 +798,13 @@ GarchompDexEntry:
 	dw 2094
 	text_far _GarchompDexEntry
 	text_end
+	
+MamoswineDexEntry:
+	db "TWIN TUSK@"
+	db 8,2
+	dw 6415
+	text_far _MamoswineDexEntry
+	text_end
 
 DratiniDexEntry:
 	db "DRAGON@"
@@ -1238,13 +1245,6 @@ CharizardDexEntry:
 	db 5,7
 	dw 2000
 	text_far _CharizardDexEntry
-	text_end
-
-WeepinbellDexEntry:
-	db "FLYCATCHER@"
-	db 3,3
-	dw 140
-	text_far _WeepinbellDexEntry
 	text_end
 
 VictreebelDexEntry:

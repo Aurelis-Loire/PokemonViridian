@@ -178,6 +178,8 @@ RaichuPicFront::      INCBIN "gfx/pokemon/front/raichu.pic"
 RaichuPicBack::       INCBIN "gfx/pokemon/back/raichub.pic"
 GarchompPicFront::    INCBIN "gfx/pokemon/front/garchomp.pic"
 GarchompPicBack::     INCBIN "gfx/pokemon/back/garchompb.pic"
+MamoswinePicFront::   INCBIN "gfx/pokemon/front/mamoswine.pic"
+MamoswinePicBack::    INCBIN "gfx/pokemon/back/mamoswineb.pic"
 DratiniPicFront::     INCBIN "gfx/pokemon/front/dratini.pic"
 DratiniPicBack::      INCBIN "gfx/pokemon/back/dratinib.pic"
 DragonairPicFront::   INCBIN "gfx/pokemon/front/dragonair.pic"
@@ -196,12 +198,12 @@ OmastarPicFront::     INCBIN "gfx/pokemon/front/omastar.pic"
 OmastarPicBack::      INCBIN "gfx/pokemon/back/omastarb.pic"
 EeveePicFront::       INCBIN "gfx/pokemon/front/eevee.pic"
 EeveePicBack::        INCBIN "gfx/pokemon/back/eeveeb.pic"
-FlareonPicFront::     INCBIN "gfx/pokemon/front/flareon.pic"
-FlareonPicBack::      INCBIN "gfx/pokemon/back/flareonb.pic"
 
 
 SECTION "Pics 4", ROMX
 
+FlareonPicFront::      INCBIN "gfx/pokemon/front/flareon.pic"
+FlareonPicBack::       INCBIN "gfx/pokemon/back/flareonb.pic"
 JolteonPicFront::      INCBIN "gfx/pokemon/front/jolteon.pic"
 JolteonPicBack::       INCBIN "gfx/pokemon/back/jolteonb.pic"
 VaporeonPicFront::     INCBIN "gfx/pokemon/front/vaporeon.pic"
@@ -260,12 +262,12 @@ ClefablePicFront::     INCBIN "gfx/pokemon/front/clefable.pic"
 ClefablePicBack::      INCBIN "gfx/pokemon/back/clefableb.pic"
 WeezingPicFront::      INCBIN "gfx/pokemon/front/weezing.pic"
 WeezingPicBack::       INCBIN "gfx/pokemon/back/weezingb.pic"
-PersianPicFront::      INCBIN "gfx/pokemon/front/persian.pic"
-PersianPicBack::       INCBIN "gfx/pokemon/back/persianb.pic"
 
 
 SECTION "Pics 5", ROMX
 
+PersianPicFront::      INCBIN "gfx/pokemon/front/persian.pic"
+PersianPicBack::       INCBIN "gfx/pokemon/back/persianb.pic"
 MarowakPicFront::      INCBIN "gfx/pokemon/front/marowak.pic"
 MarowakPicBack::       INCBIN "gfx/pokemon/back/marowakb.pic"
 HaunterPicFront::      INCBIN "gfx/pokemon/front/haunter.pic"
@@ -312,8 +314,6 @@ WartortlePicFront::    INCBIN "gfx/pokemon/front/wartortle.pic"
 WartortlePicBack::     INCBIN "gfx/pokemon/back/wartortleb.pic"
 CharizardPicFront::    INCBIN "gfx/pokemon/front/charizard.pic"
 CharizardPicBack::     INCBIN "gfx/pokemon/back/charizardb.pic"
-WeepinbellPicFront::   INCBIN "gfx/pokemon/front/weepinbell.pic"
-WeepinbellPicBack::    INCBIN "gfx/pokemon/back/weepinbellb.pic"
 
 
 SECTION "Pics 6", ROMX

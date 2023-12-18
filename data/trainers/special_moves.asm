@@ -37,7 +37,6 @@ SpecialTrainerMoves:
 	db 0
 
 	db LT_SURGE, 1
-	db 1, 1, TACKLE
 	db 2, 1, TAIL_WHIP
 	db 3, 1, THUNDER_WAVE
 	db 3, 2, DOUBLE_TEAM

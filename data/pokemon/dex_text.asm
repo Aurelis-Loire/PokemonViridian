@@ -851,6 +851,16 @@ _GarchompDexEntry::
 	next "jet plane. It"
 	next "flies at Mach 1"
 	dex
+	
+_MamoswineDexEntry::
+	text "Its impressive"
+	next "tusks are made of"
+	next "ice. The"
+
+	page "population thinned"
+	next "when it turned"
+	next "warm post-ice age"
+	dex
 
 _DratiniDexEntry::
 	text "Long considered a"

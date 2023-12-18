@@ -89,7 +89,7 @@ EvosMovesPointerTable:
 	dw PikachuEvosMoves
 	dw RaichuEvosMoves
 	dw GarchompEvosMoves
-	dw MissingNo57EvosMoves
+	dw MamoswineEvosMoves
 	dw DratiniEvosMoves
 	dw DragonairEvosMoves
 	dw KabutoEvosMoves
@@ -191,7 +191,7 @@ EvosMovesPointerTable:
 	dw MissingNoBAEvosMoves
 	dw MissingNoBBEvosMoves
 	dw MissingNoBCEvosMoves
-	dw WeepinbellEvosMoves
+	dw MissingNoBDEvosMoves
 	dw VictreebelEvosMoves
 	assert_table_length NUM_POKEMON_INDEXES
 
@@ -618,12 +618,10 @@ MareepEvosMoves:
 	db 0
 ; Learnset
 	db 11, GROWL
-	db 12, THUNDERSHOCK
-	db 13, THUNDER_WAVE
-	db 17, TAKE_DOWN
-	db 23, CONFUSE_RAY
-	db 30, LIGHT_SCREEN
-	db 38, THUNDER
+	db 16, THUNDERSHOCK
+	db 21, THUNDER_WAVE
+	db 31, LIGHT_SCREEN
+	db 36, THUNDER
 	db 0
 
 PidgeyEvosMoves:
@@ -673,12 +671,10 @@ FlaaffyEvosMoves:
 	db 0
 ; Learnset
     db 11, GROWL
-	db 12, THUNDERSHOCK
-	db 13, THUNDER_WAVE
-	db 19, TAKE_DOWN
-	db 27, CONFUSE_RAY
+	db 17, THUNDERSHOCK
+	db 23, THUNDER_WAVE
 	db 36, LIGHT_SCREEN
-	db 46, THUNDER
+	db 43, THUNDER
 	db 0
 
 ChanseyEvosMoves:
@@ -1020,13 +1016,11 @@ AmpharosEvosMoves:
 	db 0
 ; Learnset
 	db 11, GROWL
-	db 12, THUNDERSHOCK
-	db 13, THUNDER_WAVE
-	db 19, TAKE_DOWN
-	db 27, CONFUSE_RAY
+	db 17, THUNDERSHOCK
+	db 23, THUNDER_WAVE
 	db 30, THUNDERPUNCH
 	db 37, LIGHT_SCREEN
-	db 48, THUNDER
+	db 45, THUNDER
 	db 0
 
 TsareenaEvosMoves:
@@ -1235,10 +1229,14 @@ GarchompEvosMoves:
     db 55, DIG
 	db 0
 
-MissingNo57EvosMoves:
+MamoswineEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 7, TAKE_DOWN
+	db 15, FURY_ATTACK
+	db 23, HORN_ATTACK
+	db 39, MIST
 	db 0
 
 DratiniEvosMoves:
@@ -2102,6 +2100,7 @@ CharmanderEvosMoves:
 	db 25, SCARY_FACE
 	db 30, SLASH
 	db 38, FLAMETHROWER
+	db 43, DRAGON_RAGE
 	db 46, FIRE_SPIN
 	db 0
 
@@ -2129,6 +2128,7 @@ CharmeleonEvosMoves:
 	db 27, SCARY_FACE
 	db 33, SLASH
 	db 42, FLAMETHROWER
+	db 48, DRAGON_RAGE
 	db 56, FIRE_SPIN
 	db 0
 
@@ -2155,6 +2155,7 @@ CharizardEvosMoves:
 	db 27, SCARY_FACE
 	db 36, SLASH
 	db 46, FLAMETHROWER
+	DB 54, DRAGON_RAGE
 	db 55, FIRE_SPIN
 	db 0
 
@@ -2206,18 +2207,10 @@ MissingNoBCEvosMoves:
 ; Learnset
 	db 0
 
-WeepinbellEvosMoves:
+MissingNoBDEvosMoves:
 ; Evolutions
-	db EV_ITEM, LEAF_STONE, 1, VICTREEBEL
 	db 0
 ; Learnset
-	db 13, WRAP
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
-	db 23, STUN_SPORE
-	db 29, ACID
-	db 38, RAZOR_LEAF
-	db 49, SLAM
 	db 0
 
 VictreebelEvosMoves:

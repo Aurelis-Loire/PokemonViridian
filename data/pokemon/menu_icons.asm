@@ -134,7 +134,7 @@ MonPartyData:
 	nybble ICON_MON       ; Geodude
 	nybble ICON_MON       ; Golett
 	nybble ICON_MON       ; Garchomp
-	nybble ICON_GRASS     ; Weepinbell
+	nybble ICON_QUADRUPED ; Mamoswine
 	nybble ICON_GRASS     ; Victreebel
 	nybble ICON_MON       ; Porygon
 	nybble ICON_HELIX     ; Omanyte

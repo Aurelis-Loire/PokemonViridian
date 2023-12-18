@@ -93,7 +93,7 @@
 	const PIKACHU            ; $54
 	const RAICHU             ; $55
 	const GARCHOMP           ; $56
-	const_skip               ; $57
+	const MAMOSWINE          ; $57
 	const DRATINI            ; $58
 	const DRAGONAIR          ; $59
 	const KABUTO             ; $5A
@@ -195,7 +195,7 @@
 	const_skip               ; $BA
 	const_skip               ; $BB
 	const_skip               ; $BC
-	const WEEPINBELL         ; $BD
+	const_skip               ; $BD
 	const VICTREEBEL         ; $BE
 
 DEF NUM_POKEMON_INDEXES EQU const_value - 1

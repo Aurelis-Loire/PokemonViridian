@@ -86,7 +86,7 @@ MonsterNames::
 	db "PIKACHU@@@"
 	db "RAICHU@@@@"
 	db "GARCHOMP@@"
-	db "MISSINGNO."
+	db "MAMOSWINE@"
 	db "DRATINI@@@"
 	db "DRAGONAIR@"
 	db "KABUTO@@@@"
@@ -188,6 +188,6 @@ MonsterNames::
 	db "MISSINGNO."
 	db "MISSINGNO."
 	db "MISSINGNO."
-	db "WEEPINBELL"
+	db "MISSINGNO."
 	db "VICTREEBEL"
 	assert_table_length NUM_POKEMON_INDEXES

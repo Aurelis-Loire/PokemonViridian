@@ -86,7 +86,7 @@ PokedexOrder:
 	db DEX_PIKACHU
 	db DEX_RAICHU
 	db DEX_GARCHOMP
-	db 0 ; MISSINGNO.
+	db DEX_MAMOSWINE
 	db DEX_DRATINI
 	db DEX_DRAGONAIR
 	db DEX_KABUTO
@@ -188,6 +188,6 @@ PokedexOrder:
 	db 0 ; MISSINGNO.
 	db 0 ; MISSINGNO.
 	db 0 ; MISSINGNO.
-	db DEX_WEEPINBELL
+	db 0 ; MISSINGNO.
 	db DEX_VICTREEBEL
 	assert_table_length NUM_POKEMON_INDEXES
