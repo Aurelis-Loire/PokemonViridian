@@ -162,7 +162,7 @@ MoveSoundTable:
 	db SFX_BATTLE_0F,          $ee, $61 ; FORCE_PALM
 	db SFX_BATTLE_2A,          $20, $20 ; SLUDGE_BOMB
 	db SFX_BATTLE_29,          $f8, $ff ; TRI_ATTACK
-	db SFX_BATTLE_26,          $f0, $ff ; SUPER_FANG
+	db SFX_BATTLE_13,          $f0, $ff ; ANCIENTPOWER
 	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; SLASH
 	db SFX_BATTLE_2C,          $d8, $04 ; SUBSTITUTE
 	db SFX_BATTLE_26,          $30, $43 ; SHADOW_BALL

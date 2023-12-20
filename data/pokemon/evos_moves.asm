@@ -452,6 +452,7 @@ MewEvosMoves:
 	db 30, METRONOME
 	db 40, PSYCHIC_M
 	db 50, BARRIER
+	db 60, ANCIENTPOWER
 	db 70, AMNESIA
 	db 80, SOFTBOILED
 	db 0
@@ -1236,6 +1237,7 @@ MamoswineEvosMoves:
 	db 7, TAKE_DOWN
 	db 15, FURY_ATTACK
 	db 23, HORN_ATTACK
+	db 31, ANCIENTPOWER
 	db 39, MIST
 	db 0
 

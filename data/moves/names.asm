@@ -161,7 +161,7 @@ MoveNames::
 	li "FORCE PALM"
 	li "SLUDGE BOMB"
 	li "TRI ATTACK"
-	li "SUPER FANG"
+	li "ANCIENTPOWER"
 	li "SLASH"
 	li "SUBSTITUTE"
 	li "SHADOW BALL"

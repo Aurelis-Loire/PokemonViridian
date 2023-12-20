@@ -161,7 +161,7 @@ AttackAnimationPointers:
 	dw ForcePalmAnim
 	dw SludgeBombAnim
 	dw TriAttackAnim
-	dw SuperFangAnim
+	dw AncientPowerAnim
 	dw SlashAnim
 	dw SubstituteAnim
 	dw ShadowBallAnim
@@ -1132,10 +1132,10 @@ TriAttackAnim:
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
 	db -1 ; end
 
-SuperFangAnim:
-	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
-	battle_anim SUPER_FANG, SUBANIM_1_STAR_BIG_MOVING, 1, 6
-	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+AncientPowerAnim:
+	battle_anim ANCIENTPOWER, SUBANIM_0_ROCKS_LIFT, 0, 4
+	battle_anim ANCIENTPOWER, SUBANIM_0_ROCKS_TOSS, 0, 3
+	battle_anim BITE, SUBANIM_0_STAR_TWICE, 0, 8
 	db -1 ; end
 
 SlashAnim:

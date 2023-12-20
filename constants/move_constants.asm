@@ -167,7 +167,7 @@
 	const FORCE_PALM   ; 9f
 	const SLUDGE_BOMB  ; a0
 	const TRI_ATTACK   ; a1
-	const SUPER_FANG   ; a2
+	const ANCIENTPOWER ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
 	const SHADOW_BALL  ; a5
