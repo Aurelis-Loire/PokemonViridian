@@ -96,7 +96,7 @@ EvosMovesPointerTable:
 	dw KabutopsEvosMoves
 	dw HorseaEvosMoves
 	dw SeadraEvosMoves
-	dw MissingNo5EEvosMoves
+	dw GalvantulaEvosMoves
 	dw MissingNo5FEvosMoves
 	dw MissingNo60EvosMoves
 	dw MissingNo61EvosMoves
@@ -192,7 +192,7 @@ EvosMovesPointerTable:
 	dw MissingNoBBEvosMoves
 	dw MissingNoBCEvosMoves
 	dw MissingNoBDEvosMoves
-	dw VictreebelEvosMoves
+	dw MissingNoBEEvosMoves
 	assert_table_length NUM_POKEMON_INDEXES
 
 RhydonEvosMoves:
@@ -773,6 +773,7 @@ PsyduckEvosMoves:
 
 JoltikEvosMoves:
 ; Evolutions
+    db EV_LEVEL, 36, GALVANTULA
 	db 0
 ; Learnset
 	db 17, ABSORB
@@ -1309,10 +1310,14 @@ SeadraEvosMoves:
 	db 52, HYDRO_PUMP
 	db 0
 
-MissingNo5EEvosMoves:
+GalvantulaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 39, THUNDER_WAVE
+	db 43, SCREECH
+	db 49, SLASH
+	db 53, AGILITY
 	db 0
 
 MissingNo5FEvosMoves:
@@ -2215,11 +2220,8 @@ MissingNoBDEvosMoves:
 ; Learnset
 	db 0
 
-VictreebelEvosMoves:
+MissingNoBEEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, WRAP
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
 	db 0

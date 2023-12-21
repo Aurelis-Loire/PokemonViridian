@@ -100,7 +100,7 @@
 	const KABUTOPS           ; $5B
 	const HORSEA             ; $5C
 	const SEADRA             ; $5D
-	const_skip               ; $5E
+	const GALVANTULA         ; $5E
 	const_skip               ; $5F
 	const_skip               ; $60
 	const_skip               ; $61
@@ -196,7 +196,7 @@
 	const_skip               ; $BB
 	const_skip               ; $BC
 	const_skip               ; $BD
-	const VICTREEBEL         ; $BE
+	const_skip               ; $BE
 
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 

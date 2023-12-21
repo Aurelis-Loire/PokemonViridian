@@ -93,7 +93,7 @@ PokedexOrder:
 	db DEX_KABUTOPS
 	db DEX_HORSEA
 	db DEX_SEADRA
-	db 0 ; MISSINGNO.
+	db DEX_GALVANTULA
 	db 0 ; MISSINGNO.
 	db 0 ; MISSINGNO.
 	db 0 ; MISSINGNO.
@@ -189,5 +189,5 @@ PokedexOrder:
 	db 0 ; MISSINGNO.
 	db 0 ; MISSINGNO.
 	db 0 ; MISSINGNO.
-	db DEX_VICTREEBEL
+	db 0 ; MISSINGNO.
 	assert_table_length NUM_POKEMON_INDEXES

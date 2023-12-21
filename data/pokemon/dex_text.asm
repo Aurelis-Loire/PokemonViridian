@@ -921,6 +921,16 @@ _SeadraDexEntry::
 	next "pectoral fins and"
 	next "stout tail"
 	dex
+	
+_GalvantulaDexEntry::
+	text "When attacked,"
+	next "they create an"
+	next "electric barrier"
+
+	page "by spitting out"
+	next "many electrically"
+	next "charged threads"
+	dex
 
 _OmanyteDexEntry::
 	text "Although long"

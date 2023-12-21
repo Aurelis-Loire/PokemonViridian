@@ -93,7 +93,7 @@ PokedexEntryPointers:
 	dw KabutopsDexEntry
 	dw HorseaDexEntry
 	dw SeadraDexEntry
-	dw MissingNoDexEntry
+	dw GalvantulaDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
@@ -189,7 +189,7 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw VictreebelDexEntry
+	dw MissingNoDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
 
 ; string: species name
@@ -847,6 +847,13 @@ SeadraDexEntry:
 	dw 550
 	text_far _SeadraDexEntry
 	text_end
+	
+GalvantulaDexEntry:
+	db "ELESPIDER@"
+	db 2,7
+	dw 315
+	text_far _GalvantulaDexEntry
+	text_end
 
 OmanyteDexEntry:
 	db "SPIRAL@"
@@ -1245,13 +1252,6 @@ CharizardDexEntry:
 	db 5,7
 	dw 2000
 	text_far _CharizardDexEntry
-	text_end
-
-VictreebelDexEntry:
-	db "FLYCATCHER@"
-	db 5,7
-	dw 340
-	text_far _VictreebelDexEntry
 	text_end
 
 MissingNoDexEntry:

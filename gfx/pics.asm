@@ -366,8 +366,8 @@ LancePic::         INCBIN "gfx/trainers/john.pic"
 
 SECTION "Pics 7", ROMX
 
-VictreebelPicFront::   INCBIN "gfx/pokemon/front/victreebel.pic"
-VictreebelPicBack::    INCBIN "gfx/pokemon/back/victreebelb.pic"
+GalvantulaPicFront::   INCBIN "gfx/pokemon/front/galvantula.pic"
+GalvantulaPicBack::    INCBIN "gfx/pokemon/back/galvantulab.pic"
 FossilKabutopsPic::    INCBIN "gfx/pokemon/front/fossilkabutops.pic"
 FossilAerodactylPic::  INCBIN "gfx/pokemon/front/fossilaerodactyl.pic"
 GhostPic::             INCBIN "gfx/battle/ghost.pic"

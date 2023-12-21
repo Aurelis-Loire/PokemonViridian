@@ -93,7 +93,7 @@ MonsterNames::
 	db "KABUTOPS@@"
 	db "HORSEA@@@@"
 	db "SEADRA@@@@"
-	db "MISSINGNO."
+	db "GALVANTULA"
 	db "MISSINGNO."
 	db "MISSINGNO."
 	db "MISSINGNO."
@@ -189,5 +189,5 @@ MonsterNames::
 	db "MISSINGNO."
 	db "MISSINGNO."
 	db "MISSINGNO."
-	db "VICTREEBEL"
+	db "MISSINGNO."
 	assert_table_length NUM_POKEMON_INDEXES
