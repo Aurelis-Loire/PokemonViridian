@@ -6,7 +6,7 @@ SeaRoutesWildMons:
 	db  5, MAGIKARP
 	db 10, MAGIKARP
 	db 15, MAGIKARP
-	db  5, MAGIKARP
+	db  5, PSYDUCK
 	db 10, MAGIKARP
 	db 15, MAGIKARP
 	db 20, MAGIKARP
