@@ -58,12 +58,12 @@ RaltsPicFront::       INCBIN "gfx/pokemon/front/ralts.pic"
 RaltsPicBack::        INCBIN "gfx/pokemon/back/raltsb.pic"
 KirliaPicFront::      INCBIN "gfx/pokemon/front/kirlia.pic"
 KirliaPicBack::       INCBIN "gfx/pokemon/back/kirliab.pic"
-BounsweetPicFront::   INCBIN "gfx/pokemon/front/bounsweet.pic"
-BounsweetPicBack::    INCBIN "gfx/pokemon/back/bounsweetb.pic"
 
 
 SECTION "Pics 2", ROMX
 
+BounsweetPicFront::   INCBIN "gfx/pokemon/front/bounsweet.pic"
+BounsweetPicBack::    INCBIN "gfx/pokemon/back/bounsweetb.pic"
 DucklettPicFront::    INCBIN "gfx/pokemon/front/ducklett.pic"
 DucklettPicBack::     INCBIN "gfx/pokemon/back/ducklettb.pic"
 GrowlithePicFront::   INCBIN "gfx/pokemon/front/growlithe.pic"
