@@ -100,7 +100,7 @@ CryData::
 	mon_cry SFX_CRY_19, $99, $10 ; Horsea
 	mon_cry SFX_CRY_19, $3C, $01 ; Seadra
 	mon_cry SFX_CRY_11, $7A, $0A ; Galvantula
-	mon_cry SFX_CRY_0F, $20, $C0 ; MissingNo.
+	mon_cry SFX_CRY_05, $77, $55 ; Landorus
 	mon_cry SFX_CRY_00, $20, $40 ; MissingNo.
 	mon_cry SFX_CRY_00, $FF, $FF ; MissingNo.
 	mon_cry SFX_CRY_1F, $F0, $01 ; Omanyte

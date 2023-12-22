@@ -97,7 +97,7 @@ EvosMovesPointerTable:
 	dw HorseaEvosMoves
 	dw SeadraEvosMoves
 	dw GalvantulaEvosMoves
-	dw MissingNo5FEvosMoves
+	dw LandorusEvosMoves
 	dw MissingNo60EvosMoves
 	dw MissingNo61EvosMoves
 	dw OmanyteEvosMoves
@@ -157,7 +157,7 @@ EvosMovesPointerTable:
 	dw StarmieEvosMoves
 	dw BulbasaurEvosMoves
 	dw VenusaurEvosMoves
-	dw TentacruelEvosMoves
+	dw MissingNo9BEvosMoves
 	dw MissingNo9CEvosMoves
 	dw GoldeenEvosMoves
 	dw SeakingEvosMoves
@@ -1320,10 +1320,13 @@ GalvantulaEvosMoves:
 	db 53, AGILITY
 	db 0
 
-MissingNo5FEvosMoves:
+LandorusEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 51, ROCK_SLIDE
+	db 55, EARTHQUAKE
+	db 60, FISSURE
 	db 0
 
 MissingNo60EvosMoves:
@@ -1915,18 +1918,10 @@ VenusaurEvosMoves:
 	db 65, SOLARBEAM
 	db 0
 
-TentacruelEvosMoves:
+MissingNo9BEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, SUPERSONIC
-	db 13, WRAP
-	db 18, POISON_STING
-	db 22, WATER_GUN
-	db 27, CONSTRICT
-	db 35, BARRIER
-	db 43, SCREECH
-	db 50, HYDRO_PUMP
 	db 0
 
 MissingNo9CEvosMoves:

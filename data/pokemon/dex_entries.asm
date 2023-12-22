@@ -94,7 +94,7 @@ PokedexEntryPointers:
 	dw HorseaDexEntry
 	dw SeadraDexEntry
 	dw GalvantulaDexEntry
-	dw MissingNoDexEntry
+	dw LandorusDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw OmanyteDexEntry
@@ -154,7 +154,7 @@ PokedexEntryPointers:
 	dw StarmieDexEntry
 	dw BulbasaurDexEntry
 	dw VenusaurDexEntry
-	dw TentacruelDexEntry
+	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw GoldeenDexEntry
 	dw SeakingDexEntry
@@ -854,6 +854,13 @@ GalvantulaDexEntry:
 	dw 315
 	text_far _GalvantulaDexEntry
 	text_end
+	
+LandorusDexEntry:
+	db "ABUNDANCE@"
+	db 4,11
+	dw 1499
+	text_far _LandorusDexEntry
+	text_end
 
 OmanyteDexEntry:
 	db "SPIRAL@"
@@ -1154,13 +1161,6 @@ VenusaurDexEntry:
 	db 6,7
 	dw 2210
 	text_far _VenusaurDexEntry
-	text_end
-
-TentacruelDexEntry:
-	db "JELLYFISH@"
-	db 5,3
-	dw 1210
-	text_far _TentacruelDexEntry
 	text_end
 
 GoldeenDexEntry:

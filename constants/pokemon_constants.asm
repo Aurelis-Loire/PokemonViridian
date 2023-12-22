@@ -101,7 +101,7 @@
 	const HORSEA             ; $5C
 	const SEADRA             ; $5D
 	const GALVANTULA         ; $5E
-	const_skip               ; $5F
+	const LANDORUS           ; $5F
 	const_skip               ; $60
 	const_skip               ; $61
 	const OMANYTE            ; $62
@@ -161,7 +161,7 @@
 	const STARMIE            ; $98
 	const BULBASAUR          ; $99
 	const VENUSAUR           ; $9A
-	const TENTACRUEL         ; $9B
+	const_skip               ; $9B
 	const_skip               ; $9C
 	const GOLDEEN            ; $9D
 	const SEAKING            ; $9E

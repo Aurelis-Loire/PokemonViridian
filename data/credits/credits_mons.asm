@@ -3,7 +3,7 @@ CreditsMons:
 	db VENUSAUR
 	db ARBOK
 	db RHYHORN
-	db TENTACRUEL ; Was Fearow
+	db LEAFEON ; Was Fearow
 	db ABRA
 	db SLOWPOKE ; Was Graveler
 	db PERSIAN

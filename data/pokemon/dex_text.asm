@@ -932,6 +932,16 @@ _GalvantulaDexEntry::
 	next "charged threads"
 	dex
 
+_LandorusDexEntry::
+	text "Lands visited by"
+	next "Landorus grant"
+	next "such bountiful"
+
+	page "crops that it has"
+	next "been hailed as"
+	next "'The Guardian'"
+	dex
+	
 _OmanyteDexEntry::
 	text "Although long"
 	next "extinct, in rare"
@@ -1362,16 +1372,6 @@ _VenusaurDexEntry::
 	next "seek sunlight"
 	dex
 
-_TentacruelDexEntry::
-	text "The tentacles are"
-	next "normally kept"
-	next "short. On hunts,"
-
-	page "they are extended"
-	next "to ensnare and"
-	next "immobilize prey"
-	dex
-
 _GoldeenDexEntry::
 	text "Its tail fin"
 	next "billows like an"
@@ -1500,34 +1500,4 @@ _CharizardDexEntry::
 	page "Known to cause"
 	next "forest fires"
 	next "unintentionally"
-	dex
-
-_BellsproutDexEntry::
-	text "A carnivorous"
-	next "#MON that traps"
-	next "and eats bugs."
-
-	page "It uses its root"
-	next "feet to soak up"
-	next "needed moisture"
-	dex
-
-_WeepinbellDexEntry::
-	text "It spits out"
-	next "POISONPOWDER to"
-	next "immobilize the"
-
-	page "enemy and then"
-	next "finishes it with"
-	next "a spray of ACID"
-	dex
-
-_VictreebelDexEntry::
-	text "Said to live in"
-	next "huge colonies"
-	next "deep in jungles,"
-
-	page "although no one"
-	next "has ever returned"
-	next "from there"
 	dex

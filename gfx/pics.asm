@@ -194,12 +194,14 @@ SeadraPicFront::      INCBIN "gfx/pokemon/front/seadra.pic"
 SeadraPicBack::       INCBIN "gfx/pokemon/back/seadrab.pic"
 GalvantulaPicFront::  INCBIN "gfx/pokemon/front/galvantula.pic"
 GalvantulaPicBack::   INCBIN "gfx/pokemon/back/galvantulab.pic"
-OmanytePicFront::     INCBIN "gfx/pokemon/front/omanyte.pic"
-OmanytePicBack::      INCBIN "gfx/pokemon/back/omanyteb.pic"
+LandorusPicFront::    INCBIN "gfx/pokemon/front/landorus.pic"
+LandorusPicBack::     INCBIN "gfx/pokemon/back/landorusb.pic"
 
 
 SECTION "Pics 4", ROMX
 
+OmanytePicFront::      INCBIN "gfx/pokemon/front/omanyte.pic"
+OmanytePicBack::       INCBIN "gfx/pokemon/back/omanyteb.pic"
 OmastarPicFront::      INCBIN "gfx/pokemon/front/omastar.pic"
 OmastarPicBack::       INCBIN "gfx/pokemon/back/omastarb.pic"
 EeveePicFront::        INCBIN "gfx/pokemon/front/eevee.pic"
@@ -258,12 +260,12 @@ KinglerPicFront::      INCBIN "gfx/pokemon/front/kingler.pic"
 KinglerPicBack::       INCBIN "gfx/pokemon/back/kinglerb.pic"
 CloysterPicFront::     INCBIN "gfx/pokemon/front/cloyster.pic"
 CloysterPicBack::      INCBIN "gfx/pokemon/back/cloysterb.pic"
-ElectrodePicFront::    INCBIN "gfx/pokemon/front/electrode.pic"
-ElectrodePicBack::     INCBIN "gfx/pokemon/back/electrodeb.pic"
 
 
 SECTION "Pics 5", ROMX
 
+ElectrodePicFront::    INCBIN "gfx/pokemon/front/electrode.pic"
+ElectrodePicBack::     INCBIN "gfx/pokemon/back/electrodeb.pic"
 ClefablePicFront::     INCBIN "gfx/pokemon/front/clefable.pic"
 ClefablePicBack::      INCBIN "gfx/pokemon/back/clefableb.pic"
 WeezingPicFront::      INCBIN "gfx/pokemon/front/weezing.pic"
@@ -288,8 +290,6 @@ BulbasaurPicFront::    INCBIN "gfx/pokemon/front/bulbasaur.pic"
 BulbasaurPicBack::     INCBIN "gfx/pokemon/back/bulbasaurb.pic"
 VenusaurPicFront::     INCBIN "gfx/pokemon/front/venusaur.pic"
 VenusaurPicBack::      INCBIN "gfx/pokemon/back/venusaurb.pic"
-TentacruelPicFront::   INCBIN "gfx/pokemon/front/tentacruel.pic"
-TentacruelPicBack::    INCBIN "gfx/pokemon/back/tentacruelb.pic"
 GoldeenPicFront::      INCBIN "gfx/pokemon/front/goldeen.pic"
 GoldeenPicBack::       INCBIN "gfx/pokemon/back/goldeenb.pic"
 SeakingPicFront::      INCBIN "gfx/pokemon/front/seaking.pic"
