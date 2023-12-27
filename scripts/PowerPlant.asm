@@ -108,7 +108,7 @@ VoltorbBattleText:
 ZapdosBattleText:
 	text_far _ZapdosBattleText
 	text_asm
-	ld a, WAILORD
+	ld a, LANDORUS
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
