@@ -6,12 +6,12 @@ _Route4Text1::
 
 _Route4BattleText1::
 	text "I came to get my"
-	line "mushroom #MON!"
+	line "mushrooms!"
 	done
 
 _Route4EndBattleText1::
 	text "Oh! My cute"
-	line "mushroom #MON!"
+	line "#MON!"
 	prompt
 
 _Route4AfterBattleText1::
