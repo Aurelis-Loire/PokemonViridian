@@ -941,6 +941,16 @@ _LandorusDexEntry::
 	next "been hailed as"
 	next "'The Guardian'"
 	dex
+
+_AnorithDexEntry::
+	text "Anorith was"
+	next "regenerated from a"
+	next "prehistoric"
+
+	page "fossil. This"
+	next "#MON once lived"
+	next "in warm seas"
+	dex
 	
 _OmanyteDexEntry::
 	text "Although long"
@@ -1410,16 +1420,6 @@ _RapidashDexEntry::
 	page "that moves fast"
 	next "in the hopes of"
 	next "racing it"
-	dex
-
-_GeodudeDexEntry::
-	text "Found in fields"
-	next "and mountains."
-	next "Mistaking them"
-
-	page "for boulders,"
-	next "people often step"
-	next "or trip on them"
 	dex
 
 _PorygonDexEntry::

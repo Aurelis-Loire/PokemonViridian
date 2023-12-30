@@ -95,7 +95,7 @@ PokedexEntryPointers:
 	dw SeadraDexEntry
 	dw GalvantulaDexEntry
 	dw LandorusDexEntry
-	dw MissingNoDexEntry
+	dw AnorithDexEntry
 	dw MissingNoDexEntry
 	dw OmanyteDexEntry
 	dw OmastarDexEntry
@@ -168,7 +168,7 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw GeodudeDexEntry
+	dw MissingNoDexEntry
 	dw PorygonDexEntry
 	dw AerodactylDexEntry
 	dw MissingNoDexEntry
@@ -861,6 +861,13 @@ LandorusDexEntry:
 	dw 1499
 	text_far _LandorusDexEntry
 	text_end
+	
+AnorithDexEntry:
+	db "OLD SHRIMP@"
+	db 2,4
+	dw 276
+	text_far _AnorithDexEntry
+	text_end
 
 OmanyteDexEntry:
 	db "SPIRAL@"
@@ -1189,13 +1196,6 @@ RapidashDexEntry:
 	db 5,7
 	dw 2090
 	text_far _RapidashDexEntry
-	text_end
-
-GeodudeDexEntry:
-	db "ROCK@"
-	db 1,4
-	dw 440
-	text_far _GeodudeDexEntry
 	text_end
 
 PorygonDexEntry:

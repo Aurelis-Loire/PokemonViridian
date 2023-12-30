@@ -98,7 +98,7 @@ EvosMovesPointerTable:
 	dw SeadraEvosMoves
 	dw GalvantulaEvosMoves
 	dw LandorusEvosMoves
-	dw MissingNo60EvosMoves
+	dw AnorithEvosMoves
 	dw MissingNo61EvosMoves
 	dw OmanyteEvosMoves
 	dw OmastarEvosMoves
@@ -171,7 +171,7 @@ EvosMovesPointerTable:
 	dw MissingNoA6EvosMoves
 	dw MissingNoA7EvosMoves
 	dw MissingNoA8EvosMoves
-	dw GeodudeEvosMoves
+	dw MissingNoA9EvosMoves
 	dw PorygonEvosMoves
 	dw AerodactylEvosMoves
 	dw MissingNoACEvosMoves
@@ -1329,10 +1329,17 @@ LandorusEvosMoves:
 	db 60, FISSURE
 	db 0
 
-MissingNo60EvosMoves:
+AnorithEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 9, HARDEN
+	db 14, WATER_GUN
+	db 19, LOW_KICK
+	db 24, DOUBLE_TEAM
+	db 29, ANCIENTPOWER
+	db 34, LEECH_LIFE
+	db 39, SLASH
 	db 0
 
 MissingNo61EvosMoves:
@@ -2028,16 +2035,10 @@ MissingNoA8EvosMoves:
 ; Learnset
 	db 0
 
-GeodudeEvosMoves:
+MissingNoA9EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 11, DEFENSE_CURL
-	db 16, ROCK_THROW
-	db 21, SELFDESTRUCT
-	db 26, HARDEN
-	db 31, EARTHQUAKE
-	db 36, EXPLOSION
 	db 0
 
 PorygonEvosMoves:

@@ -101,7 +101,7 @@ CryData::
 	mon_cry SFX_CRY_19, $3C, $01 ; Seadra
 	mon_cry SFX_CRY_11, $7A, $0A ; Galvantula
 	mon_cry SFX_CRY_05, $77, $55 ; Landorus
-	mon_cry SFX_CRY_00, $20, $40 ; MissingNo.
+	mon_cry SFX_CRY_21, $75, $CD ; Anorith
 	mon_cry SFX_CRY_00, $FF, $FF ; MissingNo.
 	mon_cry SFX_CRY_1F, $F0, $01 ; Omanyte
 	mon_cry SFX_CRY_1F, $FF, $40 ; Omastar
@@ -174,7 +174,7 @@ CryData::
 	mon_cry SFX_CRY_22, $20, $FF ; MissingNo.
 	mon_cry SFX_CRY_19, $00, $7A ; MissingNo.
 	mon_cry SFX_CRY_01, $2C, $E0 ; MissingNo.
-	mon_cry SFX_CRY_24, $F0, $10 ; Geodude
+	mon_cry SFX_CRY_24, $F0, $10 ; MissingNo.
 	mon_cry SFX_CRY_25, $AA, $FF ; Porygon
 	mon_cry SFX_CRY_23, $20, $F0 ; Aerodactyl
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.

@@ -375,7 +375,7 @@ GamblerData:
 ; Route 8
 	db 22, VULPIX, RHYHORN, VULPIX, 0
 ; Unused
-	db 22, ONIX, GEODUDE, FLAAFFY, 0
+	db 22, ONIX, ANORITH, FLAAFFY, 0
 ; Route 8
 	db 24, GROWLITHE, VULPIX, 0
 

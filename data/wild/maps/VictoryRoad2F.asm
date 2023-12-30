@@ -1,7 +1,7 @@
 VictoryRoad2FWildMons:
 	def_grass_wildmons 10 ; encounter rate
 	db 22, CHANSEY
-	db 24, GEODUDE
+	db 24, GYARADOS
 	db 26, ZUBAT
 	db 36, ONIX
 	db 39, ONIX

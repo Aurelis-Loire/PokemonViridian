@@ -135,7 +135,7 @@
 	const DEX_MUK        ; 129
 	const DEX_DEWGONG    ; 130
 	const DEX_CHANDELURE ; 131
-	const DEX_GEODUDE    ; 132
+	const DEX_ANORITH    ; 132
 	const DEX_GOLETT     ; 133
 	const DEX_GARCHOMP   ; 134
 	const DEX_MAMOSWINE  ; 135

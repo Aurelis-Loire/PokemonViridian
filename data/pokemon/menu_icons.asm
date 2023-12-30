@@ -131,7 +131,7 @@ MonPartyData:
 	nybble ICON_MON       ; Muk
 	nybble ICON_WATER     ; Dewgong
 	nybble ICON_BALL      ; Chandelure
-	nybble ICON_MON       ; Geodude
+	nybble ICON_HELIX     ; Anorith
 	nybble ICON_MON       ; Golett
 	nybble ICON_MON       ; Garchomp
 	nybble ICON_QUADRUPED ; Mamoswine

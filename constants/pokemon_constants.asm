@@ -102,7 +102,7 @@
 	const SEADRA             ; $5D
 	const GALVANTULA         ; $5E
 	const LANDORUS           ; $5F
-	const_skip               ; $60
+	const ANORITH            ; $60
 	const_skip               ; $61
 	const OMANYTE            ; $62
 	const OMASTAR            ; $63
@@ -175,7 +175,7 @@
 	const_skip               ; $A6
 	const_skip               ; $A7
 	const_skip               ; $A8
-	const GEODUDE            ; $A9
+	const_skip               ; $A9
 	const PORYGON            ; $AA
 	const AERODACTYL         ; $AB
 	const_skip               ; $AC
