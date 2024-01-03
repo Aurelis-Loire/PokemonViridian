@@ -194,16 +194,16 @@ GalvantulaPicFront::  INCBIN "gfx/pokemon/front/galvantula.pic"
 GalvantulaPicBack::   INCBIN "gfx/pokemon/back/galvantulab.pic"
 LandorusPicFront::    INCBIN "gfx/pokemon/front/landorus.pic"
 LandorusPicBack::     INCBIN "gfx/pokemon/back/landorusb.pic"
-AnorithPicFront::     INCBIN "gfx/pokemon/front/anorith.pic"
-AnorithPicBack::      INCBIN "gfx/pokemon/back/anorithb.pic"
 
 
 SECTION "Pics 4", ROMX
 
-ArmaldoPicFront::      INCBIN "gfx/pokemon/front/armaldo.pic"
-ArmaldoPicBack::       INCBIN "gfx/pokemon/back/armaldob.pic"
 GarchompPicFront::     INCBIN "gfx/pokemon/front/garchomp.pic"
 GarchompPicBack::      INCBIN "gfx/pokemon/back/garchompb.pic"
+AnorithPicFront::      INCBIN "gfx/pokemon/front/anorith.pic"
+AnorithPicBack::       INCBIN "gfx/pokemon/back/anorithb.pic"
+ArmaldoPicFront::      INCBIN "gfx/pokemon/front/armaldo.pic"
+ArmaldoPicBack::       INCBIN "gfx/pokemon/back/armaldob.pic"
 OmanytePicFront::      INCBIN "gfx/pokemon/front/omanyte.pic"
 OmanytePicBack::       INCBIN "gfx/pokemon/back/omanyteb.pic"
 OmastarPicFront::      INCBIN "gfx/pokemon/front/omastar.pic"
@@ -258,12 +258,12 @@ MagikarpPicFront::     INCBIN "gfx/pokemon/front/magikarp.pic"
 MagikarpPicBack::      INCBIN "gfx/pokemon/back/magikarpb.pic"
 MukPicFront::          INCBIN "gfx/pokemon/front/muk.pic"
 MukPicBack::           INCBIN "gfx/pokemon/back/mukb.pic"
-KinglerPicFront::      INCBIN "gfx/pokemon/front/kingler.pic"
-KinglerPicBack::       INCBIN "gfx/pokemon/back/kinglerb.pic"
 
 
 SECTION "Pics 5", ROMX
 
+KinglerPicFront::      INCBIN "gfx/pokemon/front/kingler.pic"
+KinglerPicBack::       INCBIN "gfx/pokemon/back/kinglerb.pic"
 CloysterPicFront::     INCBIN "gfx/pokemon/front/cloyster.pic"
 CloysterPicBack::      INCBIN "gfx/pokemon/back/cloysterb.pic"
 ElectrodePicFront::    INCBIN "gfx/pokemon/front/electrode.pic"
@@ -308,8 +308,6 @@ MagnemitePicFront::    INCBIN "gfx/pokemon/front/magnemite.pic"
 MagnemitePicBack::     INCBIN "gfx/pokemon/back/magnemiteb.pic"
 CharmanderPicFront::   INCBIN "gfx/pokemon/front/charmander.pic"
 CharmanderPicBack::    INCBIN "gfx/pokemon/back/charmanderb.pic"
-SquirtlePicFront::     INCBIN "gfx/pokemon/front/squirtle.pic"
-SquirtlePicBack::      INCBIN "gfx/pokemon/back/squirtleb.pic"
 
 
 SECTION "Pics 6", ROMX
@@ -362,6 +360,8 @@ LancePic::         INCBIN "gfx/trainers/john.pic"
 
 SECTION "Pics 7", ROMX
 
+SquirtlePicFront::     INCBIN "gfx/pokemon/front/squirtle.pic"
+SquirtlePicBack::      INCBIN "gfx/pokemon/back/squirtleb.pic"
 CharmeleonPicFront::   INCBIN "gfx/pokemon/front/charmeleon.pic"
 CharmeleonPicBack::    INCBIN "gfx/pokemon/back/charmeleonb.pic"
 WartortlePicFront::    INCBIN "gfx/pokemon/front/wartortle.pic"
