@@ -18,7 +18,7 @@ CryData::
 	mon_cry SFX_CRY_0D, $00, $80 ; Exeggutor
 	mon_cry SFX_CRY_0C, $00, $80 ; Lickitung
 	mon_cry SFX_CRY_0B, $00, $80 ; Exeggcute
-	mon_cry SFX_CRY_09, $00, $80 ; Vivillon
+	mon_cry SFX_CRY_09, $00, $80 ; Nidoking
 	mon_cry SFX_CRY_07, $00, $FF ; Gengar
 	mon_cry SFX_CRY_25, $E6, $39 ; Wooper
 	mon_cry SFX_CRY_0A, $1C, $12 ; Frigibax
@@ -102,7 +102,7 @@ CryData::
 	mon_cry SFX_CRY_11, $7A, $0A ; Galvantula
 	mon_cry SFX_CRY_05, $77, $55 ; Landorus
 	mon_cry SFX_CRY_21, $75, $CD ; Anorith
-	mon_cry SFX_CRY_00, $FF, $FF ; MissingNo.
+	mon_cry SFX_CRY_16, $E8, $19 ; Armaldo
 	mon_cry SFX_CRY_1F, $F0, $01 ; Omanyte
 	mon_cry SFX_CRY_1F, $FF, $40 ; Omastar
 	mon_cry SFX_CRY_0E, $FF, $35 ; MissingNo.
@@ -125,7 +125,7 @@ CryData::
 	mon_cry SFX_CRY_0A, $AF, $40 ; Primeape
 	mon_cry SFX_CRY_0B, $2A, $10 ; Dugtrio
 	mon_cry SFX_CRY_1A, $29, $80 ; Venomoth
-	mon_cry SFX_CRY_0C, $23, $FF ; Dewgong
+	mon_cry SFX_CRY_0C, $23, $FF ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_16, $80, $20 ; Caterpie

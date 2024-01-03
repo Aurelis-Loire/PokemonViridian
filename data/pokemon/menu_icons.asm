@@ -129,7 +129,7 @@ MonPartyData:
 	nybble ICON_MON       ; Larvitar
 	nybble ICON_MON       ; Froslass
 	nybble ICON_MON       ; Muk
-	nybble ICON_WATER     ; Dewgong
+	nybble ICON_HELIX     ; Armaldo
 	nybble ICON_BALL      ; Chandelure
 	nybble ICON_HELIX     ; Anorith
 	nybble ICON_MON       ; Golett

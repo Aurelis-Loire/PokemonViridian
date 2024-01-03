@@ -99,7 +99,7 @@ EvosMovesPointerTable:
 	dw GalvantulaEvosMoves
 	dw LandorusEvosMoves
 	dw AnorithEvosMoves
-	dw MissingNo61EvosMoves
+	dw ArmaldoEvosMoves
 	dw OmanyteEvosMoves
 	dw OmastarEvosMoves
 	dw MissingNo64EvosMoves
@@ -122,7 +122,7 @@ EvosMovesPointerTable:
 	dw PrimeapeEvosMoves
 	dw DugtrioEvosMoves
 	dw VenomothEvosMoves
-	dw DewgongEvosMoves
+	dw MissingNo78EvosMoves
 	dw MissingNo79EvosMoves
 	dw MissingNo7AEvosMoves
 	dw CaterpieEvosMoves
@@ -1331,6 +1331,7 @@ LandorusEvosMoves:
 
 AnorithEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 40, ARMALDO
 	db 0
 ; Learnset
 	db 9, HARDEN
@@ -1342,10 +1343,17 @@ AnorithEvosMoves:
 	db 39, SLASH
 	db 0
 
-MissingNo61EvosMoves:
+ArmaldoEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 9, HARDEN
+	db 14, WATER_GUN
+	db 19, LOW_KICK
+	db 24, DOUBLE_TEAM
+	db 29, ANCIENTPOWER
+	db 34, LEECH_LIFE
+	db 39, SLASH
 	db 0
 
 OmanyteEvosMoves:
@@ -1574,15 +1582,10 @@ VenomothEvosMoves:
 	db 50, PSYCHIC_M
 	db 0
 
-DewgongEvosMoves:
+MissingNo78EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, GROWL
-	db 35, AURORA_BEAM
-	db 44, REST
-	db 50, TAKE_DOWN
-	db 56, ICE_BEAM
 	db 0
 
 MissingNo79EvosMoves:

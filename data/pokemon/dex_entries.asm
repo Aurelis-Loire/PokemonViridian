@@ -96,7 +96,7 @@ PokedexEntryPointers:
 	dw GalvantulaDexEntry
 	dw LandorusDexEntry
 	dw AnorithDexEntry
-	dw MissingNoDexEntry
+	dw ArmaldoDexEntry
 	dw OmanyteDexEntry
 	dw OmastarDexEntry
 	dw MissingNoDexEntry
@@ -119,7 +119,7 @@ PokedexEntryPointers:
 	dw PrimeapeDexEntry
 	dw DugtrioDexEntry
 	dw VenomothDexEntry
-	dw DewgongDexEntry
+	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw CaterpieDexEntry
@@ -868,6 +868,13 @@ AnorithDexEntry:
 	dw 276
 	text_far _AnorithDexEntry
 	text_end
+	
+ArmaldoDexEntry:
+	db "PLATE@"
+	db 4,11
+	dw 1504
+	text_far _ArmaldoDexEntry
+	text_end
 
 OmanyteDexEntry:
 	db "SPIRAL@"
@@ -979,13 +986,6 @@ VenomothDexEntry:
 	db 4,11
 	dw 280
 	text_far _VenomothDexEntry
-	text_end
-
-DewgongDexEntry:
-	db "SEA LION@"
-	db 5,7
-	dw 2650
-	text_far _DewgongDexEntry
 	text_end
 
 CaterpieDexEntry:

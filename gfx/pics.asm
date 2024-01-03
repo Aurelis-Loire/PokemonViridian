@@ -200,6 +200,8 @@ AnorithPicBack::      INCBIN "gfx/pokemon/back/anorithb.pic"
 
 SECTION "Pics 4", ROMX
 
+ArmaldoPicFront::      INCBIN "gfx/pokemon/front/armaldo.pic"
+ArmaldoPicBack::       INCBIN "gfx/pokemon/back/armaldob.pic"
 GarchompPicFront::     INCBIN "gfx/pokemon/front/garchomp.pic"
 GarchompPicBack::      INCBIN "gfx/pokemon/back/garchompb.pic"
 OmanytePicFront::      INCBIN "gfx/pokemon/front/omanyte.pic"
@@ -234,8 +236,6 @@ DugtrioPicFront::      INCBIN "gfx/pokemon/front/dugtrio.pic"
 DugtrioPicBack::       INCBIN "gfx/pokemon/back/dugtriob.pic"
 VenomothPicFront::     INCBIN "gfx/pokemon/front/venomoth.pic"
 VenomothPicBack::      INCBIN "gfx/pokemon/back/venomothb.pic"
-DewgongPicFront::      INCBIN "gfx/pokemon/front/dewgong.pic"
-DewgongPicBack::       INCBIN "gfx/pokemon/back/dewgongb.pic"
 CaterpiePicFront::     INCBIN "gfx/pokemon/front/caterpie.pic"
 CaterpiePicBack::      INCBIN "gfx/pokemon/back/caterpieb.pic"
 MetapodPicFront::      INCBIN "gfx/pokemon/front/metapod.pic"

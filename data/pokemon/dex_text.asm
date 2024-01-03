@@ -952,6 +952,16 @@ _AnorithDexEntry::
 	next "in warm seas"
 	dex
 	
+_ArmaldoDexEntry::
+	text "Armaldo's tough"
+	next "armor makes all"
+	next "attacks bounce"
+
+	page "off. This"
+	next "#MON's claws"
+	next "can be extended"
+	dex
+	
 _OmanyteDexEntry::
 	text "Although long"
 	next "extinct, in rare"
@@ -1110,16 +1120,6 @@ _VenomothDexEntry::
 	page "color coded to"
 	next "indicate the kinds"
 	next "of poison it has"
-	dex
-
-_DewgongDexEntry::
-	text "Stores thermal"
-	next "energy in its"
-	next "body. Swims at a"
-
-	page "steady 8 knots"
-	next "even in intensely"
-	next "cold waters"
 	dex
 
 _CaterpieDexEntry::

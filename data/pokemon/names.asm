@@ -119,7 +119,7 @@ MonsterNames::
 	db "PRIMEAPE@@"
 	db "DUGTRIO@@@"
 	db "VENOMOTH@@"
-	db "DEWGONG@@@"
+	db "ARMALDO@@@"
 	db "MISSINGNO."
 	db "MISSINGNO."
 	db "CATERPIE@@"

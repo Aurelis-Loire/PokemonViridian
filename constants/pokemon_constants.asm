@@ -103,7 +103,7 @@
 	const GALVANTULA         ; $5E
 	const LANDORUS           ; $5F
 	const ANORITH            ; $60
-	const_skip               ; $61
+	const ARMALDO            ; $61
 	const OMANYTE            ; $62
 	const OMASTAR            ; $63
 	const_skip               ; $64
@@ -126,7 +126,7 @@
 	const PRIMEAPE           ; $75
 	const DUGTRIO            ; $76
 	const VENOMOTH           ; $77
-	const DEWGONG            ; $78
+	const_skip               ; $78
 	const_skip               ; $79
 	const_skip               ; $7A
 	const CATERPIE           ; $7B
