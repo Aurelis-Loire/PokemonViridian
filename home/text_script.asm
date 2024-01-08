@@ -152,6 +152,10 @@ DisplayPokemartDialogue::
 PokemartGreetingText::
 	text_far _PokemartGreetingText
 	text_end
+	
+RematchTrainerText::	;joenote - for trainer rematch
+	text_far _OneMoreGoSlotMachineText
+	text_end
 
 LoadItemList::
 	ld a, 1
