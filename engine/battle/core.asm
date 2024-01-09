@@ -5433,6 +5433,8 @@ MoveHitTest:
 	jp z, .moveMissed
 	cp DREAM_EATER_EFFECT
 	jp z, .moveMissed
+	cp LEECH_SEED_EFFECT	;joenote - leech seed should miss a substitute
+	jp z, .moveMissed
 .checkForDigOrFlyStatus
 	bit INVULNERABLE, [hl]
 	jp nz, .moveMissed

@@ -33,6 +33,9 @@ SleepEffect:
 	ld bc, wPlayerBattleStatus2
 
 .sleepEffect
+	;joenote - should not be able to sleep an opponent with substitute up
+	call CheckTargetSubstitute
+	jr nz, .didntAffect
 ;	ld a, [bc]
 ;	bit NEEDS_TO_RECHARGE, a ; does the target need to recharge? (hyper beam)
 ;	res NEEDS_TO_RECHARGE, a ; target no longer needs to recharge
