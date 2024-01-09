@@ -981,6 +981,16 @@ _OmastarDexEntry::
 	next "it impossible to"
 	next "catch prey"
 	dex
+	
+_GolurkDexEntry::
+	text "It flies across"
+	next "the sky at Mach"
+	next "speeds. Removing"
+
+	page "the seal on its"
+	next "chest makes its"
+	next "energy unstable"
+	dex
 
 _EeveeDexEntry::
 	text "Its genetic code"
@@ -1220,16 +1230,6 @@ _MagikarpDexEntry::
 	page "than the horribly"
 	next "weak descendants"
 	next "that exist today"
-	dex
-
-_MukDexEntry::
-	text "Thickly covered"
-	next "with a filthy,"
-	next "vile sludge. It"
-
-	page "is so toxic, even"
-	next "its footprints"
-	next "contain poison"
 	dex
 
 _KinglerDexEntry::

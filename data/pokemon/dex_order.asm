@@ -99,7 +99,7 @@ PokedexOrder:
 	db DEX_ARMALDO
 	db DEX_OMANYTE
 	db DEX_OMASTAR
-	db 0 ; MISSINGNO.
+	db DEX_GOLURK
 	db 0 ; MISSINGNO.
 	db DEX_EEVEE
 	db DEX_FLAREON
@@ -135,7 +135,7 @@ PokedexOrder:
 	db DEX_MAGIKARP
 	db 0 ; MISSINGNO.
 	db 0 ; MISSINGNO.
-	db DEX_MUK
+	db 0 ; MISSINGNO.
 	db 0 ; MISSINGNO.
 	db DEX_KINGLER
 	db DEX_CLOYSTER

@@ -128,7 +128,7 @@ MonPartyData:
 	nybble ICON_MON       ; Magmar
 	nybble ICON_MON       ; Larvitar
 	nybble ICON_MON       ; Froslass
-	nybble ICON_MON       ; Muk
+	nybble ICON_MON       ; Golurk
 	nybble ICON_HELIX     ; Armaldo
 	nybble ICON_BALL      ; Chandelure
 	nybble ICON_HELIX     ; Anorith

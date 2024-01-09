@@ -99,7 +99,7 @@ PokedexEntryPointers:
 	dw ArmaldoDexEntry
 	dw OmanyteDexEntry
 	dw OmastarDexEntry
-	dw MissingNoDexEntry
+	dw GolurkDexEntry
 	dw MissingNoDexEntry
 	dw EeveeDexEntry
 	dw FlareonDexEntry
@@ -135,7 +135,7 @@ PokedexEntryPointers:
 	dw MagikarpDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw MukDexEntry
+	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw KinglerDexEntry
 	dw CloysterDexEntry
@@ -889,6 +889,13 @@ OmastarDexEntry:
 	dw 770
 	text_far _OmastarDexEntry
 	text_end
+	
+GolurkDexEntry:
+	db "AUTOMATON@"
+	db 9,2
+	dw 7275
+	text_far _GolurkDexEntry
+	text_end
 
 EeveeDexEntry:
 	db "EVOLUTION@"
@@ -1056,13 +1063,6 @@ MagikarpDexEntry:
 	db 2,11
 	dw 220
 	text_far _MagikarpDexEntry
-	text_end
-
-MukDexEntry:
-	db "SLUDGE@"
-	db 3,11
-	dw 660
-	text_far _MukDexEntry
 	text_end
 
 KinglerDexEntry:

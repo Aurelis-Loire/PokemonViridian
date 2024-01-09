@@ -105,7 +105,7 @@ CryData::
 	mon_cry SFX_CRY_16, $E8, $19 ; Armaldo
 	mon_cry SFX_CRY_1F, $F0, $01 ; Omanyte
 	mon_cry SFX_CRY_1F, $FF, $40 ; Omastar
-	mon_cry SFX_CRY_0E, $FF, $35 ; MissingNo.
+	mon_cry SFX_CRY_08, $58, $C2 ; Golurk
 	mon_cry SFX_CRY_0E, $68, $60 ; MissingNo.
 	mon_cry SFX_CRY_1A, $88, $60 ; Eevee
 	mon_cry SFX_CRY_1A, $10, $20 ; Flareon
@@ -141,7 +141,7 @@ CryData::
 	mon_cry SFX_CRY_17, $80, $00 ; Magikarp
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_07, $EF, $FF ; Muk
+	mon_cry SFX_CRY_07, $EF, $FF ; MissingNo.
 	mon_cry SFX_CRY_0F, $40, $80 ; MissingNo.
 	mon_cry SFX_CRY_20, $EE, $E0 ; Kingler
 	mon_cry SFX_CRY_18, $6F, $E0 ; Cloyster

@@ -132,7 +132,7 @@
 	const DEX_MAGMAR     ; 126
 	const DEX_LARVITAR   ; 127
 	const DEX_FROSLASS   ; 128
-	const DEX_MUK        ; 129
+	const DEX_GOLURK     ; 129
 	const DEX_ARMALDO    ; 130
 	const DEX_CHANDELURE ; 131
 	const DEX_ANORITH    ; 132

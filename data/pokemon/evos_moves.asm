@@ -102,7 +102,7 @@ EvosMovesPointerTable:
 	dw ArmaldoEvosMoves
 	dw OmanyteEvosMoves
 	dw OmastarEvosMoves
-	dw MissingNo64EvosMoves
+	dw GolurkEvosMoves
 	dw MissingNo65EvosMoves
 	dw EeveeEvosMoves
 	dw FlareonEvosMoves
@@ -138,7 +138,7 @@ EvosMovesPointerTable:
 	dw MagikarpEvosMoves
 	dw MissingNo86EvosMoves
 	dw MissingNo87EvosMoves
-	dw MukEvosMoves
+	dw MissingNo88EvosMoves
 	dw MissingNo89EvosMoves
 	dw KinglerEvosMoves
 	dw CloysterEvosMoves
@@ -946,6 +946,7 @@ SigilyphEvosMoves:
 
 GolettEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 43, GOLURK
 	db 0
 ; Learnset
 	db 12, DEFENSE_CURL
@@ -1377,10 +1378,16 @@ OmastarEvosMoves:
 	db 49, HYDRO_PUMP
 	db 0
 
-MissingNo64EvosMoves:
+GolurkEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 12, DEFENSE_CURL
+	db 17, MUD_SLAP
+	db 24, ROCK_THROW
+	db 29, MEGA_PUNCH
+	db 32, NIGHT_SHADE
+	db 37, EARTHQUAKE
 	db 0
 
 MissingNo65EvosMoves:
@@ -1723,15 +1730,10 @@ MissingNo87EvosMoves:
 ; Learnset
 	db 0
 
-MukEvosMoves:
+MissingNo88EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, POISON_GAS
-	db 33, MINIMIZE
-	db 45, HARDEN
-	db 53, SCREECH
-	db 60, ACID_ARMOR
 	db 0
 
 MissingNo89EvosMoves:

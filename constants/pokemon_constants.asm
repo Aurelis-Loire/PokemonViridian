@@ -106,7 +106,7 @@
 	const ARMALDO            ; $61
 	const OMANYTE            ; $62
 	const OMASTAR            ; $63
-	const_skip               ; $64
+	const GOLURK             ; $64
 	const_skip               ; $65
 	const EEVEE              ; $66
 	const FLAREON            ; $67
@@ -142,7 +142,7 @@
 	const MAGIKARP           ; $85
 	const_skip               ; $86
 	const_skip               ; $87
-	const MUK                ; $88
+	const_skip               ; $88
 	const_skip               ; $89
 	const KINGLER            ; $8A
 	const CLOYSTER           ; $8B
