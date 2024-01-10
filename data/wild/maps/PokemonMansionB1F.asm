@@ -5,7 +5,7 @@ PokemonMansionB1FWildMons:
 	db 35, GROWLITHE
 	db 32, PONYTA
 	db 31, SALANDIT
-	db 40, WEEZING
+	db 40, TOXICROAK
 	db 34, PONYTA
 	db 35, CHANDELURE
 	db 38, MAGMAR
