@@ -1175,6 +1175,8 @@ RecoilEffect:
 	jpfar RecoilEffect_
 
 ConfusionSideEffect:
+	call CheckTargetSubstitute	;joenote - return if opponent has substitute up
+	ret nz
 	call BattleRandom
 	cp 10 percent ; chance of confusion
 	ret nc
