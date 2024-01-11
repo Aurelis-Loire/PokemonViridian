@@ -104,7 +104,7 @@ SpecialTrainerMoves:
 	db 3, 4, CONFUSION
 	db 4, 1, PSYCHIC_M
 	db 4, 2, DISABLE
-	db 4, 4, WITHDRAW
+	db 4, 4, BLIZZARD
 	db 0
 
 	db SABRINA, 1

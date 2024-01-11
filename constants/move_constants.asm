@@ -174,7 +174,8 @@
 	const MUD_SLAP	   ; a6
 	const SYNTHESIS    ; a7
 	const SCARY_FACE   ; a8
-	const STRUGGLE     ; a9
+	const MEDITATE     ; a9
+	const STRUGGLE     ; aa
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

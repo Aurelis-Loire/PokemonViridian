@@ -168,5 +168,6 @@ MoveNames::
 	li "MUD-SLAP"
 	li "SYNTHESIS"
 	li "SCARY FACE"
+	li "MEDITATE"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS
