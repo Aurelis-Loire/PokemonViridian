@@ -100,11 +100,11 @@ SpecialTrainerMoves:
 	db 0
 
 	db BLAINE, 1
-	db 1, 1, FLAMETHROWER
-	db 1, 4, CONFUSE_RAY
-	db 3, 1, FLAMETHROWER
-	db 3, 2, FIRE_BLAST
-	db 3, 3, REFLECT
+	db 1, 4, WATER_GUN
+	db 3, 4, CONFUSION
+	db 4, 1, PSYCHIC_M
+	db 4, 2, DISABLE
+	db 4, 4, WITHDRAW
 	db 0
 
 	db SABRINA, 1

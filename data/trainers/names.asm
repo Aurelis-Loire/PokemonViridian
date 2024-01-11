@@ -38,7 +38,7 @@ TrainerNames::
 	li "ALEX"
 	li "SPECTRE"
 	li "ALYSSA"
-	li "BLAINE"
+	li "MIKE"
 	li "ANDREW"
 	li "GENTLEMAN"
 	li "RIVAL2"

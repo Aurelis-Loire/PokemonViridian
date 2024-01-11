@@ -27,7 +27,7 @@ CinnabarGymSetMapAndTiles:
 	db "CINNABAR ISLAND@"
 
 .LeaderName:
-	db "BLAINE@"
+	db "MIKE@"
 
 CinnabarGymResetScripts:
 	xor a
@@ -147,7 +147,7 @@ CinnabarGymReceiveTM38:
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	SetEvent EVENT_BEAT_BLAINE
-	lb bc, TM_FIRE_BLAST, 1
+	lb bc, TM_PSYCHIC_M, 1
 	call GiveItem
 	jr nc, .BagFull
 	ld a, $b
