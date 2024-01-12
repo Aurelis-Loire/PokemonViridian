@@ -951,9 +951,9 @@ GolettEvosMoves:
 ; Learnset
 	db 12, DEFENSE_CURL
 	db 17, MUD_SLAP
-	db 24, ROCK_THROW
-	db 29, MEGA_PUNCH
-	db 32, NIGHT_SHADE
+	db 24, MEGA_PUNCH
+	db 29, NIGHT_SHADE
+	db 32, MEDITATE
 	db 37, EARTHQUAKE
 	db 0
 
@@ -1384,9 +1384,9 @@ GolurkEvosMoves:
 ; Learnset
 	db 12, DEFENSE_CURL
 	db 17, MUD_SLAP
-	db 24, ROCK_THROW
-	db 29, MEGA_PUNCH
-	db 32, NIGHT_SHADE
+	db 24, MEGA_PUNCH
+	db 29, NIGHT_SHADE
+	db 32, MEDITATE
 	db 37, EARTHQUAKE
 	db 0
 
