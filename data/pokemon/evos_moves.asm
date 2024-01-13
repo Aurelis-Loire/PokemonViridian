@@ -2107,7 +2107,7 @@ CharmanderEvosMoves:
 	db 19, RAGE
 	db 25, SCARY_FACE
 	db 31, FLAMETHROWER
-	db 32, SLASH
+	db 33, SLASH
 	db 43, DRAGON_RAGE
 	db 46, FIRE_SPIN
 	db 0
@@ -2135,7 +2135,7 @@ CharmeleonEvosMoves:
 	db 20, RAGE
 	db 27, SCARY_FACE
     db 34, FLAMETHROWER
-	db 35, SLASH
+	db 37, SLASH
 	db 48, DRAGON_RAGE
 	db 56, FIRE_SPIN
 	db 0
@@ -2162,8 +2162,9 @@ CharizardEvosMoves:
 	db 20, RAGE
 	db 27, SCARY_FACE
 	db 34, FLAMETHROWER
-	db 35, SLASH
-	DB 54, DRAGON_RAGE
+	db 36, WING_ATTACK
+	db 37, SLASH
+	db 54, DRAGON_RAGE
 	db 55, FIRE_SPIN
 	db 0
 

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/charizard.pic", 0, 1 ; sprite dimensions
 	dw CharizardPicFront, CharizardPicBack
 
-	db RAGE, SCARY_FACE, FLAMETHROWER, SLASH ; level 1 learnset
+	db RAGE, SCARY_FACE, FLAMETHROWER, WING_ATTACK ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
