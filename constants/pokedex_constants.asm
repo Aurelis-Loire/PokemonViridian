@@ -79,7 +79,7 @@
 	const DEX_LEAFEON    ; 73
 	const DEX_GIBLE      ; 74
 	const DEX_GABITE     ; 75
-	const DEX_ARCTIBAX   ; 76
+	const DEX_KINGLER    ; 76
 	const DEX_PONYTA     ; 77
 	const DEX_RAPIDASH   ; 78
 	const DEX_DUCKLETT   ; 79
@@ -123,33 +123,33 @@
 	const DEX_TOXICROAK  ; 117
 	const DEX_SIGILYPH   ; 118
 	const DEX_LAPRAS     ; 119
-	const DEX_LUCARIO    ; 120
-	const DEX_FRIGIBAX   ; 121
-	const DEX_WEEZING    ; 122
-	const DEX_JOLTIK     ; 123
-	const DEX_KINGLER    ; 124
-	const DEX_ELECTABUZZ ; 125
-	const DEX_MAGMAR     ; 126
-	const DEX_LARVITAR   ; 127
-	const DEX_FROSLASS   ; 128
-	const DEX_GOLURK     ; 129
-	const DEX_ARMALDO    ; 130
-	const DEX_CHANDELURE ; 131
-	const DEX_ANORITH    ; 132
-	const DEX_GOLETT     ; 133
+	const DEX_ELECTABUZZ ; 120
+	const DEX_MAGMAR     ; 121
+	const DEX_CHANDELURE ; 122
+	const DEX_MAMOSWINE  ; 123
+	const DEX_FROSLASS   ; 124
+	const DEX_JOLTIK     ; 125
+	const DEX_GALVANTULA ; 126
+	const DEX_GOLETT     ; 127
+	const DEX_GOLURK     ; 128
+	const DEX_FRIGIBAX   ; 129
+	const DEX_ARCTIBAX   ; 130
+	const DEX_WEEZING    ; 131
+	const DEX_PORYGON    ; 132
+	const DEX_LARVITAR   ; 133
 	const DEX_GARCHOMP   ; 134
-	const DEX_MAMOSWINE  ; 135
-	const DEX_GALVANTULA ; 136
-	const DEX_PORYGON    ; 137
-	const DEX_OMANYTE    ; 138
-	const DEX_OMASTAR    ; 139
-	const DEX_KABUTO     ; 140
-	const DEX_KABUTOPS   ; 141
-	const DEX_AERODACTYL ; 142
+	const DEX_LUCARIO    ; 135	
+	const DEX_OMANYTE    ; 136
+	const DEX_OMASTAR    ; 136
+	const DEX_KABUTO     ; 138
+	const DEX_KABUTOPS   ; 139
+	const DEX_AERODACTYL ; 140
+	const DEX_ANORITH    ; 141
+	const DEX_ARMALDO    ; 142
 	const DEX_SNORLAX    ; 143
 	const DEX_ARTICUNO   ; 144
-	const DEX_HYPNO      ; 145
-	const DEX_LANDORUS   ; 146
+	const DEX_LANDORUS   ; 145
+	const DEX_HYPNO      ; 146
 	const DEX_DRATINI    ; 147
 	const DEX_DRAGONAIR  ; 148
 	const DEX_DRAGONITE  ; 149
