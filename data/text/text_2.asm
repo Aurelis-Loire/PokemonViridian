@@ -344,7 +344,7 @@ _CinnabarQuizQuestionsText1::
 
 _CinnabarQuizQuestionsText2::
 	text "Can SLOWBRO learn"
-	line "the move TACKLE?"
+	line "the move CURSE?"
 	done
 
 _CinnabarQuizQuestionsText3::
