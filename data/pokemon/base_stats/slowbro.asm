@@ -1,6 +1,6 @@
 	db DEX_SLOWBRO ; pokedex id
 
-	db  95,  75, 110,  30,  90
+	db  95,  75, 110,  30,  95
 	;   hp  atk  def  spd  spc
 
 	db WATER, PSYCHIC_TYPE ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/slowbro.pic", 0, 1 ; sprite dimensions
 	dw SlowbroPicFront, SlowbroPicBack
 
-	db TACKLE, CONFUSION, DISABLE, HEADBUTT, ; level 1 learnset
+	db GROWL, CONFUSION, DISABLE, HEADBUTT, ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

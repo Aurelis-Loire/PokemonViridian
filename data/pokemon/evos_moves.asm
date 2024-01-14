@@ -284,9 +284,10 @@ SlowbroEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+    db 6, GROWL
+	db 7, CONFUSION
 	db 18, DISABLE
 	db 22, HEADBUTT
-	db 27, GROWL
 	db 33, WATER_GUN
 	db 37, WITHDRAW
 	db 44, AMNESIA
@@ -643,9 +644,10 @@ SlowpokeEvosMoves:
 	db EV_LEVEL, 37, SLOWBRO
 	db 0
 ; Learnset
+    db 6, GROWL
+	db 7, CONFUSION
 	db 18, DISABLE
 	db 22, HEADBUTT
-	db 27, GROWL
 	db 33, WATER_GUN
 	db 40, AMNESIA
 	db 48, PSYCHIC_M
@@ -2107,7 +2109,7 @@ CharmanderEvosMoves:
 	db 19, RAGE
 	db 25, SCARY_FACE
 	db 31, FLAMETHROWER
-	db 33, SLASH
+	db 37, SLASH
 	db 43, DRAGON_RAGE
 	db 46, FIRE_SPIN
 	db 0
@@ -2135,7 +2137,7 @@ CharmeleonEvosMoves:
 	db 20, RAGE
 	db 27, SCARY_FACE
     db 34, FLAMETHROWER
-	db 37, SLASH
+	db 41, SLASH
 	db 48, DRAGON_RAGE
 	db 56, FIRE_SPIN
 	db 0
@@ -2163,7 +2165,7 @@ CharizardEvosMoves:
 	db 27, SCARY_FACE
 	db 34, FLAMETHROWER
 	db 36, WING_ATTACK
-	db 37, SLASH
+	db 44, SLASH
 	db 54, DRAGON_RAGE
 	db 55, FIRE_SPIN
 	db 0
