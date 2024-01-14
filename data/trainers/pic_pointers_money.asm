@@ -48,7 +48,7 @@ TrainerPicAndMoneyPointers::
 	pic_money MikePic,         9900
 	pic_money AndrewPic,       9900
 	pic_money GentlemanPic,    7000
-	pic_money Rival2Pic,       6500
+	pic_money Iscaria2Pic,     6500
 	pic_money Rival3Pic,       9900
 	pic_money LoreleiPic,      9900
 	pic_money ChannelerPic,    3000
