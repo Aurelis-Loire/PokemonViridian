@@ -285,10 +285,10 @@ SlowbroEvosMoves:
 	db 0
 ; Learnset
     db 6, GROWL
-	db 7, CONFUSION
-	db 18, DISABLE
+	db 15, WATER_GUN
+	db 20, CONFUSION
+	db 21, DISABLE
 	db 22, HEADBUTT
-	db 33, WATER_GUN
 	db 37, WITHDRAW
 	db 44, AMNESIA
 	db 55, PSYCHIC_M
@@ -645,10 +645,10 @@ SlowpokeEvosMoves:
 	db 0
 ; Learnset
     db 6, GROWL
-	db 7, CONFUSION
-	db 18, DISABLE
+	db 15, WATER_GUN
+	db 20, CONFUSION
+	db 21, DISABLE
 	db 22, HEADBUTT
-	db 33, WATER_GUN
 	db 40, AMNESIA
 	db 48, PSYCHIC_M
 	db 0
@@ -2111,7 +2111,7 @@ CharmanderEvosMoves:
 	db 31, FLAMETHROWER
 	db 37, SLASH
 	db 43, DRAGON_RAGE
-	db 46, FIRE_SPIN
+	db 49, FIRE_SPIN
 	db 0
 
 SquirtleEvosMoves:
@@ -2139,7 +2139,7 @@ CharmeleonEvosMoves:
     db 34, FLAMETHROWER
 	db 41, SLASH
 	db 48, DRAGON_RAGE
-	db 56, FIRE_SPIN
+	db 55, FIRE_SPIN
 	db 0
 
 WartortleEvosMoves:
@@ -2167,7 +2167,7 @@ CharizardEvosMoves:
 	db 36, WING_ATTACK
 	db 44, SLASH
 	db 54, DRAGON_RAGE
-	db 55, FIRE_SPIN
+	db 64, FIRE_SPIN
 	db 0
 
 MissingNoB5EvosMoves:

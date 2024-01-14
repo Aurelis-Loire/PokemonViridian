@@ -101,10 +101,10 @@ SpecialTrainerMoves:
 
 	db BLAINE, 1
 	db 1, 4, WATER_GUN
-	db 3, 4, CONFUSION
+	db 3, 4, BODY_SLAM
 	db 4, 1, PSYCHIC_M
-	db 4, 2, DISABLE
-	db 4, 4, BLIZZARD
+	db 4, 2, THUNDER_WAVE
+	db 4, 3, BLIZZARD
 	db 0
 
 	db SABRINA, 1
