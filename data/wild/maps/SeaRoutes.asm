@@ -10,7 +10,7 @@ SeaRoutesWildMons:
 	db 10, PSYDUCK
 	db 15, PSYDUCK
 	db 20, GYARADOS
-	db 30, MAGIKARP
-	db 35, MAGIKARP
-	db 40, MAGIKARP
+	db 25, GYARADOS
+	db 30, GYARADOS
+	db 35, GYARADOS
 	end_water_wildmons
