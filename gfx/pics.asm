@@ -186,14 +186,14 @@ KabutoPicFront::      INCBIN "gfx/pokemon/front/kabuto.pic"
 KabutoPicBack::       INCBIN "gfx/pokemon/back/kabutob.pic"
 KabutopsPicFront::    INCBIN "gfx/pokemon/front/kabutops.pic"
 KabutopsPicBack::     INCBIN "gfx/pokemon/back/kabutopsb.pic"
-HorseaPicFront::      INCBIN "gfx/pokemon/front/horsea.pic"
-HorseaPicBack::       INCBIN "gfx/pokemon/back/horseab.pic"
 
 
 SECTION "Pics 4", ROMX
 
 GarchompPicFront::     INCBIN "gfx/pokemon/front/garchomp.pic"
 GarchompPicBack::      INCBIN "gfx/pokemon/back/garchompb.pic"
+HorseaPicFront::      INCBIN "gfx/pokemon/front/horsea.pic"
+HorseaPicBack::       INCBIN "gfx/pokemon/back/horseab.pic"
 SeadraPicFront::       INCBIN "gfx/pokemon/front/seadra.pic"
 SeadraPicBack::        INCBIN "gfx/pokemon/back/seadrab.pic"
 GalvantulaPicFront::   INCBIN "gfx/pokemon/front/galvantula.pic"
