@@ -288,9 +288,9 @@ SlowbroEvosMoves:
 	db 15, WATER_GUN
 	db 20, CONFUSION
 	db 29, DISABLE
-	db 30, HEADBUTT
+	db 34, HEADBUTT
 	db 37, WITHDRAW
-	db 44, AMNESIA
+	db 46, AMNESIA
 	db 55, PSYCHIC_M
 	db 0
 
@@ -534,7 +534,7 @@ BlastoiseEvosMoves:
 ; Learnset
 	db 7, BUBBLE
 	db 10, WITHDRAW
-	db 15, WATER_GUN
+	db 13, WATER_GUN
 	db 24, BITE
 	db 42, SKULL_BASH
 	db 52, HYDRO_PUMP
@@ -648,8 +648,8 @@ SlowpokeEvosMoves:
 	db 15, WATER_GUN
 	db 20, CONFUSION
 	db 29, DISABLE
-	db 30, HEADBUTT
-	db 40, AMNESIA
+	db 34, HEADBUTT
+	db 43, AMNESIA
 	db 48, PSYCHIC_M
 	db 0
 
@@ -2121,7 +2121,7 @@ SquirtleEvosMoves:
 ; Learnset
 	db 7, BUBBLE
 	db 10, WITHDRAW
-	db 15, WATER_GUN
+	db 13, WATER_GUN
 	db 22, BITE
 	db 35, SKULL_BASH
 	db 42, HYDRO_PUMP
@@ -2149,7 +2149,7 @@ WartortleEvosMoves:
 ; Learnset
 	db 7, BUBBLE
 	db 10, WITHDRAW
-	db 15, WATER_GUN
+	db 13, WATER_GUN
 	db 24, BITE
 	db 39, SKULL_BASH
 	db 47, HYDRO_PUMP
