@@ -13,11 +13,11 @@ _ReceivedTM29Text::
 	text_end
 
 _TM29ExplanationText::
-	text "TM29 is PSYCHIC!"
+	text "TM38's FIRE BLAST!"
 
-	para "It can lower the"
-	line "target's SPECIAL"
-	cont "abilities."
+	para "It can leave the"
+	line "target with a sick"
+	cont "burn."
 	done
 
 _TM29NoRoomText::

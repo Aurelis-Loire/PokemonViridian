@@ -1,6 +1,6 @@
 	db DEX_SLOWBRO ; pokedex id
 
-	db  95,  75, 110,  30,  80
+	db  95,  75, 110,  30, 100
 	;   hp  atk  def  spd  spc
 
 	db WATER, PSYCHIC_TYPE ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/slowbro.pic", 0, 1 ; sprite dimensions
 	dw SlowbroPicFront, SlowbroPicBack
 
-	db CONFUSION, DISABLE, HEADBUTT, NO_MOVE ; level 1 learnset
+	db CONFUSION, DISABLE, HEADBUTT, WITHDRAW, ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
@@ -19,9 +19,9 @@
 	     BLIZZARD,     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, POWDER_SNOW,  EARTHQUAKE,   FISSURE,      DIG,          \
 	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, \
-	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   SURF,         STRENGTH,     \
-	     FLASH
+	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   HEADBUTT,     REST,         \
+	     THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   SURF,         \
+	     STRENGTH,     FLASH
 	; end
 
 	db BANK(SlowbroPicFront)

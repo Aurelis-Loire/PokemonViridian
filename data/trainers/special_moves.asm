@@ -37,7 +37,6 @@ SpecialTrainerMoves:
 	db 0
 
 	db LT_SURGE, 1
-	db 1, 1, TACKLE
 	db 2, 1, TAIL_WHIP
 	db 3, 1, THUNDER_WAVE
 	db 3, 2, DOUBLE_TEAM
@@ -49,6 +48,10 @@ SpecialTrainerMoves:
 	db 4, 3, TACKLE
 	db 0
 	
+	db RIVAL2, 3
+	db 4, 1, SCRATCH
+	db 0
+	
 	db RIVAL2, 4
 	db 1, 3, GROWL
 	db 4, 1, TACKLE
@@ -58,13 +61,13 @@ SpecialTrainerMoves:
 	db RIVAL2, 5
 	db 1, 3, GROWL
 	db 4, 1, TACKLE
-	db 5, 3, TACKLE
+	db 5, 2, LEECH_SEED
 	db 0
 
 	db RIVAL2, 6
 	db 1, 3, GROWL
 	db 4, 1, TACKLE
-	db 5, 4, SCRATCH
+	db 5, 1, SCRATCH
 	db 0
 	
 	db RIVAL2, 7
@@ -81,6 +84,7 @@ SpecialTrainerMoves:
 	db RIVAL2, 9
 	db 1, 2, CONFUSION
 	db 2, 2, RAZOR_LEAF
+	db 5, 3, EMBER
 	db 0
 	
 	db ERIKA, 1
@@ -96,18 +100,30 @@ SpecialTrainerMoves:
 	db 0
 
 	db BLAINE, 1
-	db 1, 1, FLAMETHROWER
-	db 1, 4, CONFUSE_RAY
-	db 3, 1, FLAMETHROWER
-	db 3, 2, FIRE_BLAST
-	db 3, 3, REFLECT
+	db 1, 2, PSYCHIC_M
+	db 1, 3, BLIZZARD
+	db 1, 4, THUNDER_WAVE
+	db 2, 3, PSYCHIC_M
+	db 2, 4, THUNDERBOLT
+	db 3, 1, FIRE_PUNCH
+	db 3, 4, BODY_SLAM
+	db 4, 1, PSYCHIC_M
+	db 4, 2, THUNDER_WAVE
+	db 4, 3, BLIZZARD
 	db 0
 
 	db SABRINA, 1
-	db 1, 3, DOUBLE_KICK
-	db 2, 4, EMBER
+	db 1, 2, EARTHQUAKE
+	db 1, 3, SHADOW_BALL
+	db 1, 4, THUNDERBOLT
+	db 2, 1, SHADOW_BALL
+	db 2, 4, FIRE_BLAST
+	db 3, 1, FIRE_BLAST
+	db 3, 2, SLUDGE_BOMB
+	db 3, 3, THUNDER_WAVE
+	db 4, 1, DOUBLE_TEAM
 	db 4, 2, ROCK_SLIDE
-	db 4, 3, SLUDGE_BOMB
+	db 4, 4, SLUDGE_BOMB
 	db 0
 
 	db GIOVANNI, 1
@@ -116,6 +132,7 @@ SpecialTrainerMoves:
 	
 	db GIOVANNI, 2
 	db 1, 1, WRAP
+	db 2, 3, SCRATCH
 	db 0
 	
 	db GIOVANNI, 3

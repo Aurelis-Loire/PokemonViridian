@@ -18,8 +18,8 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     POWDER_SNOW,  DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   SURF,         \
-	     STRENGTH
+	     SWIFT,        SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE,   \
+	     SURF,         STRENGTH
 	; end
 
 	db BANK(GolduckPicFront)

@@ -161,11 +161,14 @@ AttackAnimationPointers:
 	dw ForcePalmAnim
 	dw SludgeBombAnim
 	dw TriAttackAnim
-	dw SuperFangAnim
+	dw AncientPowerAnim
 	dw SlashAnim
 	dw SubstituteAnim
 	dw ShadowBallAnim
 	dw MudSlapAnim
+	dw SynthesisAnim
+	dw ScaryFaceAnim
+	dw MeditateAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -1130,10 +1133,10 @@ TriAttackAnim:
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
 	db -1 ; end
 
-SuperFangAnim:
-	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
-	battle_anim SUPER_FANG, SUBANIM_1_STAR_BIG_MOVING, 1, 6
-	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+AncientPowerAnim:
+	battle_anim ANCIENTPOWER, SUBANIM_0_ROCKS_LIFT, 0, 4
+	battle_anim ANCIENTPOWER, SUBANIM_0_ROCKS_TOSS, 0, 3
+	battle_anim BITE, SUBANIM_0_STAR_TWICE, 0, 8
 	db -1 ; end
 
 SlashAnim:
@@ -1153,6 +1156,26 @@ ShadowBallAnim:
 MudSlapAnim:
 	battle_anim MUD_SLAP, SUBANIM_1_SAND, 1, 6
 	battle_anim NO_MOVE, SUBANIM_1_BLOB_DRIP_ENEMY, 1, 6
+	db -1 ; end
+	
+SynthesisAnim:
+	battle_anim SYNTHESIS, SE_LIGHT_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+	
+ScaryFaceAnim:
+	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
+	battle_anim SCARY_FACE, SE_DARK_SCREEN_FLASH
+	battle_anim SCARY_FACE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+	
+MeditateAnim:
+	battle_anim MEDITATE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_CLOSING, 1, 6
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
 BallTossAnim:

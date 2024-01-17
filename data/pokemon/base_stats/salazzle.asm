@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/salazzle.pic", 0, 1 ; sprite dimensions
 	dw SalazzlePicFront, SalazzlePicBack
 
-	db SCRATCH, POISON_GAS, EMBER, NO_MOVE ; level 1 learnset
+	db POISON_GAS, EMBER, SWEET_SCENT, DRAGON_RAGE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

@@ -85,21 +85,21 @@ PokedexEntryPointers:
 	dw NinetalesDexEntry
 	dw PikachuDexEntry
 	dw RaichuDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw GarchompDexEntry
+	dw MamoswineDexEntry
 	dw DratiniDexEntry
 	dw DragonairDexEntry
 	dw KabutoDexEntry
 	dw KabutopsDexEntry
 	dw HorseaDexEntry
 	dw SeadraDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw GalvantulaDexEntry
+	dw LandorusDexEntry
+	dw AnorithDexEntry
+	dw ArmaldoDexEntry
 	dw OmanyteDexEntry
 	dw OmastarDexEntry
-	dw MissingNoDexEntry
+	dw GolurkDexEntry
 	dw MissingNoDexEntry
 	dw EeveeDexEntry
 	dw FlareonDexEntry
@@ -119,7 +119,7 @@ PokedexEntryPointers:
 	dw PrimeapeDexEntry
 	dw DugtrioDexEntry
 	dw VenomothDexEntry
-	dw DewgongDexEntry
+	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw CaterpieDexEntry
@@ -135,7 +135,7 @@ PokedexEntryPointers:
 	dw MagikarpDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw MukDexEntry
+	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw KinglerDexEntry
 	dw CloysterDexEntry
@@ -154,7 +154,7 @@ PokedexEntryPointers:
 	dw StarmieDexEntry
 	dw BulbasaurDexEntry
 	dw VenusaurDexEntry
-	dw TentacruelDexEntry
+	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw GoldeenDexEntry
 	dw SeakingDexEntry
@@ -168,7 +168,7 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw GeodudeDexEntry
+	dw MissingNoDexEntry
 	dw PorygonDexEntry
 	dw AerodactylDexEntry
 	dw MissingNoDexEntry
@@ -187,9 +187,9 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw BellsproutDexEntry
-	dw WeepinbellDexEntry
-	dw VictreebelDexEntry
+	dw MissingNoDexEntry
+	dw MissingNoDexEntry
+	dw MissingNoDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
 
 ; string: species name
@@ -791,6 +791,20 @@ RaichuDexEntry:
 	dw 660
 	text_far _RaichuDexEntry
 	text_end
+	
+GarchompDexEntry:
+	db "MACH@"
+	db 6,3
+	dw 2094
+	text_far _GarchompDexEntry
+	text_end
+	
+MamoswineDexEntry:
+	db "TWIN TUSK@"
+	db 8,2
+	dw 6415
+	text_far _MamoswineDexEntry
+	text_end
 
 DratiniDexEntry:
 	db "DRAGON@"
@@ -833,6 +847,34 @@ SeadraDexEntry:
 	dw 550
 	text_far _SeadraDexEntry
 	text_end
+	
+GalvantulaDexEntry:
+	db "ELESPIDER@"
+	db 2,7
+	dw 315
+	text_far _GalvantulaDexEntry
+	text_end
+	
+LandorusDexEntry:
+	db "ABUNDANCE@"
+	db 4,11
+	dw 1499
+	text_far _LandorusDexEntry
+	text_end
+	
+AnorithDexEntry:
+	db "OLD SHRIMP@"
+	db 2,4
+	dw 276
+	text_far _AnorithDexEntry
+	text_end
+	
+ArmaldoDexEntry:
+	db "PLATE@"
+	db 4,11
+	dw 1504
+	text_far _ArmaldoDexEntry
+	text_end
 
 OmanyteDexEntry:
 	db "SPIRAL@"
@@ -846,6 +888,13 @@ OmastarDexEntry:
 	db 3,3
 	dw 770
 	text_far _OmastarDexEntry
+	text_end
+	
+GolurkDexEntry:
+	db "AUTOMATON@"
+	db 9,2
+	dw 7275
+	text_far _GolurkDexEntry
 	text_end
 
 EeveeDexEntry:
@@ -946,13 +995,6 @@ VenomothDexEntry:
 	text_far _VenomothDexEntry
 	text_end
 
-DewgongDexEntry:
-	db "SEA LION@"
-	db 5,7
-	dw 2650
-	text_far _DewgongDexEntry
-	text_end
-
 CaterpieDexEntry:
 	db "WORM@"
 	db 1,0
@@ -1021,13 +1063,6 @@ MagikarpDexEntry:
 	db 2,11
 	dw 220
 	text_far _MagikarpDexEntry
-	text_end
-
-MukDexEntry:
-	db "SLUDGE@"
-	db 3,11
-	dw 660
-	text_far _MukDexEntry
 	text_end
 
 KinglerDexEntry:
@@ -1135,13 +1170,6 @@ VenusaurDexEntry:
 	text_far _VenusaurDexEntry
 	text_end
 
-TentacruelDexEntry:
-	db "JELLYFISH@"
-	db 5,3
-	dw 1210
-	text_far _TentacruelDexEntry
-	text_end
-
 GoldeenDexEntry:
 	db "GOLDFISH@"
 	db 2,0
@@ -1168,13 +1196,6 @@ RapidashDexEntry:
 	db 5,7
 	dw 2090
 	text_far _RapidashDexEntry
-	text_end
-
-GeodudeDexEntry:
-	db "ROCK@"
-	db 1,4
-	dw 440
-	text_far _GeodudeDexEntry
 	text_end
 
 PorygonDexEntry:
@@ -1231,27 +1252,6 @@ CharizardDexEntry:
 	db 5,7
 	dw 2000
 	text_far _CharizardDexEntry
-	text_end
-
-BellsproutDexEntry:
-	db "FLOWER@"
-	db 2,4
-	dw 90
-	text_far _BellsproutDexEntry
-	text_end
-
-WeepinbellDexEntry:
-	db "FLYCATCHER@"
-	db 3,3
-	dw 140
-	text_far _WeepinbellDexEntry
-	text_end
-
-VictreebelDexEntry:
-	db "FLYCATCHER@"
-	db 5,7
-	dw 340
-	text_far _VictreebelDexEntry
 	text_end
 
 MissingNoDexEntry:

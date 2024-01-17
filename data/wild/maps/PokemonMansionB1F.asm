@@ -1,29 +1,15 @@
 PokemonMansionB1FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-IF DEF(_RED)
-	db 33, PERSIAN
-	db 31, PERSIAN
+	db 33, GOLETT
+	db 31, CROAGUNK
 	db 35, GROWLITHE
 	db 32, PONYTA
-	db 31, PERSIAN
-	db 40, WEEZING
+	db 31, SALANDIT
+	db 40, TOXICROAK
 	db 34, PONYTA
-	db 35, VENUSAUR
-	db 42, WEEZING
-	db 42, MUK
-ENDC
-IF DEF(_BLUE)
-	db 33, VENUSAUR
-	db 31, VENUSAUR
-	db 35, VULPIX
-	db 32, PONYTA
-	db 31, VENUSAUR
-	db 40, MUK
-	db 34, PONYTA
-	db 35, PERSIAN
+	db 35, CHANDELURE
 	db 38, MAGMAR
-	db 42, WEEZING
-ENDC
+	db 42, CHANDELURE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

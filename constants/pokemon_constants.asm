@@ -92,21 +92,21 @@
 	const NINETALES          ; $53
 	const PIKACHU            ; $54
 	const RAICHU             ; $55
-	const_skip               ; $56
-	const_skip               ; $57
+	const GARCHOMP           ; $56
+	const MAMOSWINE          ; $57
 	const DRATINI            ; $58
 	const DRAGONAIR          ; $59
 	const KABUTO             ; $5A
 	const KABUTOPS           ; $5B
 	const HORSEA             ; $5C
 	const SEADRA             ; $5D
-	const_skip               ; $5E
-	const_skip               ; $5F
-	const_skip               ; $60
-	const_skip               ; $61
+	const GALVANTULA         ; $5E
+	const LANDORUS           ; $5F
+	const ANORITH            ; $60
+	const ARMALDO            ; $61
 	const OMANYTE            ; $62
 	const OMASTAR            ; $63
-	const_skip               ; $64
+	const GOLURK             ; $64
 	const_skip               ; $65
 	const EEVEE              ; $66
 	const FLAREON            ; $67
@@ -126,7 +126,7 @@
 	const PRIMEAPE           ; $75
 	const DUGTRIO            ; $76
 	const VENOMOTH           ; $77
-	const DEWGONG            ; $78
+	const_skip               ; $78
 	const_skip               ; $79
 	const_skip               ; $7A
 	const CATERPIE           ; $7B
@@ -142,7 +142,7 @@
 	const MAGIKARP           ; $85
 	const_skip               ; $86
 	const_skip               ; $87
-	const MUK                ; $88
+	const_skip               ; $88
 	const_skip               ; $89
 	const KINGLER            ; $8A
 	const CLOYSTER           ; $8B
@@ -161,7 +161,7 @@
 	const STARMIE            ; $98
 	const BULBASAUR          ; $99
 	const VENUSAUR           ; $9A
-	const TENTACRUEL         ; $9B
+	const_skip               ; $9B
 	const_skip               ; $9C
 	const GOLDEEN            ; $9D
 	const SEAKING            ; $9E
@@ -175,7 +175,7 @@
 	const_skip               ; $A6
 	const_skip               ; $A7
 	const_skip               ; $A8
-	const GEODUDE            ; $A9
+	const_skip               ; $A9
 	const PORYGON            ; $AA
 	const AERODACTYL         ; $AB
 	const_skip               ; $AC
@@ -194,9 +194,9 @@
 	const_skip               ; $B9
 	const_skip               ; $BA
 	const_skip               ; $BB
-	const BELLSPROUT         ; $BC
-	const WEEPINBELL         ; $BD
-	const VICTREEBEL         ; $BE
+	const_skip               ; $BC
+	const_skip               ; $BD
+	const_skip               ; $BE
 
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 

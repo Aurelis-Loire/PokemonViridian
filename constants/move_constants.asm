@@ -167,12 +167,15 @@
 	const FORCE_PALM   ; 9f
 	const SLUDGE_BOMB  ; a0
 	const TRI_ATTACK   ; a1
-	const SUPER_FANG   ; a2
+	const ANCIENTPOWER ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
 	const SHADOW_BALL  ; a5
 	const MUD_SLAP	   ; a6
-	const STRUGGLE     ; a7
+	const SYNTHESIS    ; a7
+	const SCARY_FACE   ; a8
+	const MEDITATE     ; a9
+	const STRUGGLE     ; aa
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

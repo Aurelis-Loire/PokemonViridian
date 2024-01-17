@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/mareep.pic", 0, 1 ; sprite dimensions
 	dw MareepPicFront, MareepPicBack
 
-	db TACKLE, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  THUNDERBOLT,  \
-	     THUNDER,      MIMIC,        DOUBLE_TEAM,  SWIFT,        REST,         \
-	     THUNDER_WAVE, SUBSTITUTE,   FLASH
+	     THUNDER,      MIMIC,        DOUBLE_TEAM,  SWIFT,        HEADBUTT,     \
+	     REST,         THUNDER_WAVE, SUBSTITUTE,   FLASH
 	; end
 
 	db BANK(MareepPicFront)

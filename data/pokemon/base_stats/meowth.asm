@@ -17,7 +17,7 @@
 	tmhm SHADOW_BALL,  TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    PAY_DAY,      THUNDERBOLT,  THUNDER,      \
 	     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        SKULL_BASH,   \
-	     REST,         SUBSTITUTE
+	     HEADBUTT,     REST,         SUBSTITUTE
 	; end
 
 	db BANK(MeowthPicFront)

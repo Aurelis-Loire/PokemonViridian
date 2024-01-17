@@ -48,13 +48,16 @@ _ReceivedTM41Text::
 
 _TM41ExplanationText::
 	text "TM41 teaches"
-	line "SOFTBOILED!"
+	line "BODY SLAM!"
 
-	para "Only one #MON"
-	line "can use it!"
+	para "Give it to a"
+	line "#MON to have a"
+	cont "slamming good"
+	cont "time!"
 
-	para "That #MON is"
-	line "CHANSEY!"
+	para "It could leave"
+	line "your opponent"
+	cont "stunned!"
 	done
 
 _TM41NoRoomText::

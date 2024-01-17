@@ -17,8 +17,8 @@
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     POWDER_SNOW,  DRAGON_RAGE,  \
 	     THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         \
-	     THUNDER_WAVE, SUBSTITUTE,   SURF
+	     BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   HEADBUTT,     \
+	     REST,         THUNDER_WAVE, SUBSTITUTE,   SURF
 	; end
 
 	db BANK(DratiniPicFront)

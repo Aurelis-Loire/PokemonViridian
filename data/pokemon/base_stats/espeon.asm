@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm SHADOW_BALL,  TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         SWIFT,        SKULL_BASH,   DREAM_EATER,  REST,         \
-	     SUBSTITUTE,   CUT,          FLASH
+	     BIDE,         SWIFT,        SKULL_BASH,   HEADBUTT,     DREAM_EATER,  \
+	     REST,         SUBSTITUTE,   CUT,          FLASH
 	; end
 
 	db BANK(EspeonPicFront)

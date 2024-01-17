@@ -75,7 +75,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Leafeon
 	nybble ICON_MON       ; Gible
 	nybble ICON_MON       ; Gabite
-	nybble ICON_MON       ; Arctibax
+	nybble ICON_WATER     ; Kingler
 	nybble ICON_QUADRUPED ; Ponyta
 	nybble ICON_QUADRUPED ; Rapidash
 	nybble ICON_BIRD      ; Ducklett
@@ -119,33 +119,33 @@ MonPartyData:
 	nybble ICON_MON       ; Toxicroak
 	nybble ICON_BIRD      ; Sigilyph
 	nybble ICON_WATER     ; Lapras
-	nybble ICON_MON       ; Lucario
-	nybble ICON_MON       ; Frigibax
-	nybble ICON_MON       ; Weezing
-	nybble ICON_BUG       ; Joltik
-	nybble ICON_WATER     ; Kingler
 	nybble ICON_MON       ; Electabuzz
 	nybble ICON_MON       ; Magmar
-	nybble ICON_MON       ; Larvitar
-	nybble ICON_MON       ; Froslass
-	nybble ICON_MON       ; Muk
-	nybble ICON_WATER     ; Dewgong
 	nybble ICON_BALL      ; Chandelure
-	nybble ICON_MON       ; Geodude
+	nybble ICON_QUADRUPED ; Mamoswine
+	nybble ICON_MON       ; Froslass
+	nybble ICON_BUG       ; Joltik
+	nybble ICON_BUG       ; Galvantula
 	nybble ICON_MON       ; Golett
-	nybble ICON_GRASS     ; Bellsprout
-	nybble ICON_GRASS     ; Weepinbell
-	nybble ICON_GRASS     ; Victreebel
+	nybble ICON_MON       ; Golurk
+	nybble ICON_MON       ; Frigibax
+	nybble ICON_MON       ; Arctibax
+	nybble ICON_MON       ; Weezing
 	nybble ICON_MON       ; Porygon
+	nybble ICON_MON       ; Larvitar
+	nybble ICON_MON       ; Garchomp
+	nybble ICON_MON       ; Lucario
 	nybble ICON_HELIX     ; Omanyte
 	nybble ICON_HELIX     ; Omastar
 	nybble ICON_HELIX     ; Kabuto
 	nybble ICON_HELIX     ; Kabutops
 	nybble ICON_BIRD      ; Aerodactyl
+	nybble ICON_HELIX     ; Anorith
+	nybble ICON_HELIX     ; Armaldo
 	nybble ICON_MON       ; Snorlax
 	nybble ICON_BIRD      ; Articuno
+	nybble ICON_MON       ; Landorus
 	nybble ICON_MON       ; Hypno
-	nybble ICON_WATER     ; Tentacruel
 	nybble ICON_SNAKE     ; Dratini
 	nybble ICON_SNAKE     ; Dragonair
 	nybble ICON_SNAKE     ; Dragonite

@@ -343,38 +343,37 @@ _CinnabarGymQuizIntroText::
 	prompt
 
 _CinnabarQuizQuestionsText1::
-	text "CATERPIE evolves"
-	line "into BUTTERFREE?"
+	text "BULBASAUR evolves"
+	line "into VENUSAUR?"
 	done
 
 _CinnabarQuizQuestionsText2::
-	text "There are 9"
-	line "certified #MON"
-	cont "LEAGUE BADGEs?"
+	text "Can SLOWBRO learn"
+	line "the move CURSE?"
 	done
 
 _CinnabarQuizQuestionsText3::
-	text "POLIWAG evolves 3"
+	text "VULPIX evolves 2"
 	line "times?"
 	done
 
 _CinnabarQuizQuestionsText4::
-	text "Are thunder moves"
+	text "Are water moves"
 	line "effective against"
-	cont "ground element-"
-	cont "type #MON?"
+	cont "grass type"
+	cont "#MON?"
 	done
 
 _CinnabarQuizQuestionsText5::
-	text "#MON of the"
-	line "same kind and"
-	cont "level are not"
-	cont "identical?"
+	text "The MASTER BALL"
+	line "can be used to"
+	cont "catch #MON"
+	cont "without fail."
 	done
 
 _CinnabarQuizQuestionsText6::
-	text "TM28 contains"
-	line "TOMBSTONER?"
+	text "TM09 contains"
+	line "SKY ATTACK?"
 	done
 
 _CinnabarGymQuizCorrectText::

@@ -4201,6 +4201,8 @@ GetDamageVarsForPlayerAttack:
 ; if the enemy has used Reflect, double the enemy's defense
 	sla c
 	rl b
+;;;999 Cap from Shinpokered.
+	predef BC999cap
 .physicalAttackCritCheck
 	ld hl, wBattleMonAttack
 	ld a, [wCriticalHitOrOHKO]
@@ -4233,6 +4235,8 @@ GetDamageVarsForPlayerAttack:
 	rl b
 ; reflect and light screen boosts do not cap the stat at MAX_STAT_VALUE, so weird things will happen during stats scaling
 ; if a Pokemon with 512 or more Defense has used Reflect, or if a Pokemon with 512 or more Special has used Light Screen
+;;;999 Cap from Shinpokered.
+	predef BC999cap
 .specialAttackCritCheck
 	ld hl, wBattleMonSpecial
 	ld a, [wCriticalHitOrOHKO]
@@ -4321,6 +4325,8 @@ GetDamageVarsForEnemyAttack:
 ; if the player has used Reflect, double the player's defense
 	sla c
 	rl b
+;;;999 Cap from Shinpokered.
+	predef BC999cap
 .physicalAttackCritCheck
 	ld hl, wEnemyMonAttack
 	ld a, [wCriticalHitOrOHKO]
@@ -4353,6 +4359,8 @@ GetDamageVarsForEnemyAttack:
 	rl b
 ; reflect and light screen boosts do not cap the stat at MAX_STAT_VALUE, so weird things will happen during stats scaling
 ; if a Pokemon with 512 or more Defense has used Reflect, or if a Pokemon with 512 or more Special has used Light Screen
+;;;999 Cap from Shinpokered.
+	predef BC999cap
 .specialAttackCritCheck
 	ld hl, wEnemyMonSpecial
 	ld a, [wCriticalHitOrOHKO]
@@ -4940,6 +4948,10 @@ ApplyAttackToPlayerPokemon:
 ; it's possible for the enemy to do 0 damage with Psywave, but the player always does at least 1 damage
 .loop
 	call BattleRandom
+	;;Psywave fix from shinpokered.
+	and a
+	jr z, .loop
+	;;
 	cp b
 	jr nc, .loop
 	ld b, a
@@ -5424,9 +5436,12 @@ MoveHitTest:
 	jr z, .checkForDigOrFlyStatus
 ; The fix for Swift broke this code. It's supposed to prevent HP draining moves from working on Substitutes.
 ; Since CheckTargetSubstitute overwrites a with either $00 or $01, it never works.
+	ld a, [de]
 	cp DRAIN_HP_EFFECT
 	jp z, .moveMissed
 	cp DREAM_EATER_EFFECT
+	jp z, .moveMissed
+	cp LEECH_SEED_EFFECT	;joenote - leech seed should miss a substitute
 	jp z, .moveMissed
 .checkForDigOrFlyStatus
 	bit INVULNERABLE, [hl]

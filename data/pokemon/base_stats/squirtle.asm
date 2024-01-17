@@ -1,6 +1,6 @@
 	db DEX_SQUIRTLE ; pokedex id
 
-	db  44,  48,  65,  43,  50
+	db  44,  48,  65,  43,  64
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type
@@ -18,7 +18,7 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, POWDER_SNOW,  DIG,          \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SKULL_BASH,   \
-	     REST,         SUBSTITUTE,   SURF,         STRENGTH
+	     HEADBUTT,     REST,         SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
 	db BANK(SquirtlePicFront)

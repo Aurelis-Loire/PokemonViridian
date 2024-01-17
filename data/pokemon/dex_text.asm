@@ -841,6 +841,26 @@ _RaichuDexEntry::
 	page "causes of its"
 	next "change in form"
 	dex
+	
+_GarchompDexEntry::
+	text "When it folds up"
+	next "its body and"
+	next "extends its wings,"
+
+	page "it looks like a"
+	next "jet plane. It"
+	next "flies at Mach 1"
+	dex
+	
+_MamoswineDexEntry::
+	text "Its impressive"
+	next "tusks are made of"
+	next "ice. The"
+
+	page "population thinned"
+	next "when it turned"
+	next "warm post-ice age"
+	dex
 
 _DratiniDexEntry::
 	text "Long considered a"
@@ -901,7 +921,47 @@ _SeadraDexEntry::
 	next "pectoral fins and"
 	next "stout tail"
 	dex
+	
+_GalvantulaDexEntry::
+	text "When attacked,"
+	next "they create an"
+	next "electric barrier"
 
+	page "by spitting out"
+	next "many electrically"
+	next "charged threads"
+	dex
+
+_LandorusDexEntry::
+	text "Lands visited by"
+	next "Landorus grant"
+	next "such bountiful"
+
+	page "crops that it has"
+	next "been hailed as"
+	next "'The Guardian'"
+	dex
+
+_AnorithDexEntry::
+	text "Anorith was"
+	next "regenerated from a"
+	next "prehistoric"
+
+	page "fossil. This"
+	next "#MON once lived"
+	next "in warm seas"
+	dex
+	
+_ArmaldoDexEntry::
+	text "Armaldo's tough"
+	next "armor makes all"
+	next "attacks bounce"
+
+	page "off. This"
+	next "#MON's claws"
+	next "can be extended"
+	dex
+	
 _OmanyteDexEntry::
 	text "Although long"
 	next "extinct, in rare"
@@ -920,6 +980,16 @@ _OmastarDexEntry::
 	page "heavy shell made"
 	next "it impossible to"
 	next "catch prey"
+	dex
+	
+_GolurkDexEntry::
+	text "It flies across"
+	next "the sky at Mach"
+	next "speeds. Removing"
+
+	page "the seal on its"
+	next "chest makes its"
+	next "energy unstable"
 	dex
 
 _EeveeDexEntry::
@@ -1062,16 +1132,6 @@ _VenomothDexEntry::
 	next "of poison it has"
 	dex
 
-_DewgongDexEntry::
-	text "Stores thermal"
-	next "energy in its"
-	next "body. Swims at a"
-
-	page "steady 8 knots"
-	next "even in intensely"
-	next "cold waters"
-	dex
-
 _CaterpieDexEntry::
 	text "Its short feet"
 	next "are tipped with"
@@ -1170,16 +1230,6 @@ _MagikarpDexEntry::
 	page "than the horribly"
 	next "weak descendants"
 	next "that exist today"
-	dex
-
-_MukDexEntry::
-	text "Thickly covered"
-	next "with a filthy,"
-	next "vile sludge. It"
-
-	page "is so toxic, even"
-	next "its footprints"
-	next "contain poison"
 	dex
 
 _KinglerDexEntry::
@@ -1332,16 +1382,6 @@ _VenusaurDexEntry::
 	next "seek sunlight"
 	dex
 
-_TentacruelDexEntry::
-	text "The tentacles are"
-	next "normally kept"
-	next "short. On hunts,"
-
-	page "they are extended"
-	next "to ensnare and"
-	next "immobilize prey"
-	dex
-
 _GoldeenDexEntry::
 	text "Its tail fin"
 	next "billows like an"
@@ -1380,16 +1420,6 @@ _RapidashDexEntry::
 	page "that moves fast"
 	next "in the hopes of"
 	next "racing it"
-	dex
-
-_GeodudeDexEntry::
-	text "Found in fields"
-	next "and mountains."
-	next "Mistaking them"
-
-	page "for boulders,"
-	next "people often step"
-	next "or trip on them"
 	dex
 
 _PorygonDexEntry::
@@ -1470,34 +1500,4 @@ _CharizardDexEntry::
 	page "Known to cause"
 	next "forest fires"
 	next "unintentionally"
-	dex
-
-_BellsproutDexEntry::
-	text "A carnivorous"
-	next "#MON that traps"
-	next "and eats bugs."
-
-	page "It uses its root"
-	next "feet to soak up"
-	next "needed moisture"
-	dex
-
-_WeepinbellDexEntry::
-	text "It spits out"
-	next "POISONPOWDER to"
-	next "immobilize the"
-
-	page "enemy and then"
-	next "finishes it with"
-	next "a spray of ACID"
-	dex
-
-_VictreebelDexEntry::
-	text "Said to live in"
-	next "huge colonies"
-	next "deep in jungles,"
-
-	page "although no one"
-	next "has ever returned"
-	next "from there"
 	dex

@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm TOXIC,        SLUDGE_BOMB,  BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   MEGA_DRAIN,   EARTHQUAKE,   FISSURE,      DIG,          \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SKULL_BASH,   REST,         \
-	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         SKULL_BASH,   HEADBUTT,     \
+	     REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(ArbokPicFront)

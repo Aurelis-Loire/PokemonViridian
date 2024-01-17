@@ -18,7 +18,8 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, POWDER_SNOW,  \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     SKULL_BASH,   REST,         SUBSTITUTE,   SURF,         STRENGTH
+	     SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE,   SURF,         \
+		 STRENGTH
 	; end
 
 	db BANK(PsyduckPicFront)

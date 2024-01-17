@@ -27,7 +27,7 @@ Moves:
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, NORMAL,       100, 30
 	move CUT,          NO_ADDITIONAL_EFFECT,        50, NORMAL,        95, 30
 	move GUST,         NO_ADDITIONAL_EFFECT,        40, FLYING,       100, 35
-	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        35, FLYING,       100, 35
+	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        40, FLYING,       100, 35
 	move WHIRLWIND,    SWITCH_AND_TELEPORT_EFFECT,   0, NORMAL,        85, 20
 	move FLY,          FLY_EFFECT,                  70, FLYING,        95, 15
 	move BIND,         TRAPPING_EFFECT,             15, NORMAL,        75, 20
@@ -172,10 +172,13 @@ Moves:
 	move FORCE_PALM,   PARALYZE_SIDE_EFFECT2,       60, FIGHTING,     100, 10
 	move SLUDGE_BOMB,  POISON_SIDE_EFFECT2,         90, POISON,       100, 10
 	move TRI_ATTACK,   NO_ADDITIONAL_EFFECT,        80, NORMAL,       100, 10
-	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,        90, 10
+	move ANCIENTPOWER, NO_ADDITIONAL_EFFECT,        60, ROCK,         100, 5
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10
 	move SHADOW_BALL,  SPECIAL_DOWN_SIDE_EFFECT,    80, GHOST,        100, 15
 	move MUD_SLAP,     ACCURACY_DOWN_SIDE_EFFECT,   20, GROUND,       100, 10
+	move SYNTHESIS,    HEAL_EFFECT,                  0, GRASS,        100, 5
+	move SCARY_FACE,   SPEED_DOWN2_EFFECT,           0, NORMAL,        90, 10
+	move MEDITATE,     ATTACK_UP1_EFFECT,            0, PSYCHIC_TYPE, 100, 40
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

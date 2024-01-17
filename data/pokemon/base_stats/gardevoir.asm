@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SHADOW_BALL,  MEGA_KICK,    TOXIC,        BODY_SLAM,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   THUNDERBOLT,  PSYCHIC_M,    MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      DREAM_EATER,  REST,         THUNDER_WAVE, \
-	     SUBSTITUTE,   FLASH
+	     DOUBLE_TEAM,  REFLECT,      FIRE_PUNCH,   HEADBUTT,     DREAM_EATER,  \
+	     REST,         THUNDER_WAVE, SUBSTITUTE,   FLASH
 	; end
 
 	db BANK(GardevoirPicFront)
