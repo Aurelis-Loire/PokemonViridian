@@ -419,12 +419,12 @@ KogaAI:
 	jp AIUseXSpecial
 
 BlaineAI:
-	cp 25 percent + 1
+	cp 33 percent + 1
 	ret nc
 	ld a, 10
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseSuperPotion
+	jp AIUseHyperPotion
 
 SabrinaAI:
 	cp 25 percent + 1

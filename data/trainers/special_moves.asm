@@ -100,7 +100,12 @@ SpecialTrainerMoves:
 	db 0
 
 	db BLAINE, 1
-	db 1, 4, WATER_GUN
+	db 1, 2, PSYCHIC_M
+	db 1, 3, BLIZZARD
+	db 1, 4, THUNDER_WAVE
+	db 2, 3, PSYCHIC_M
+	db 2, 4, THUNDERBOLT
+	db 3, 1, FIRE_PUNCH
 	db 3, 4, BODY_SLAM
 	db 4, 1, PSYCHIC_M
 	db 4, 2, THUNDER_WAVE
