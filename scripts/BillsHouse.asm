@@ -205,6 +205,12 @@ BillsHouseText_1e8cb:
 
 BillsHouseText3: ;Give Eevee here.
 	text_asm
+	CheckEvent EVENT_GOT_HM01
+	jr nz, .GotCut
+	ld hl, BillsHouseText_1e8cb
+	call PrintText
+	jp TextScriptEnd
+.GotCut
 	CheckEvent EVENT_GOT_EEVEE
 	jr z, .GiveEevee
 	ld hl, BillsHouseText_1e8da
