@@ -291,7 +291,7 @@ SlowbroEvosMoves:
 	db 34, HEADBUTT
 	db 37, WITHDRAW
 	db 46, AMNESIA
-	db 55, PSYCHIC_M
+	db 54, PSYCHIC_M
 	db 0
 
 IvysaurEvosMoves:
@@ -535,7 +535,8 @@ BlastoiseEvosMoves:
 	db 7, BUBBLE
 	db 10, WITHDRAW
 	db 13, WATER_GUN
-	db 24, BITE
+	db 19, BITE
+	db 25, STOMP
 	db 42, SKULL_BASH
 	db 52, HYDRO_PUMP
 	db 0
@@ -661,7 +662,7 @@ KadabraEvosMoves:
 ; Learnset
 	db 16, CONFUSION
 	db 17, KINESIS
-	db 20, DISABLE
+	db 18, DISABLE
 	db 27, PSYBEAM
 	db 31, RECOVER
 	db 38, PSYCHIC_M
@@ -1856,7 +1857,7 @@ AlakazamEvosMoves:
 ; Learnset
 	db 16, CONFUSION
 	db 17, KINESIS
-	db 20, DISABLE
+	db 18, DISABLE
 	db 27, PSYBEAM
 	db 31, RECOVER
 	db 38, PSYCHIC_M
@@ -2122,7 +2123,8 @@ SquirtleEvosMoves:
 	db 7, BUBBLE
 	db 10, WITHDRAW
 	db 13, WATER_GUN
-	db 22, BITE
+	db 18, BITE
+	db 23, STOMP
 	db 35, SKULL_BASH
 	db 42, HYDRO_PUMP
 	db 0
@@ -2150,7 +2152,8 @@ WartortleEvosMoves:
 	db 7, BUBBLE
 	db 10, WITHDRAW
 	db 13, WATER_GUN
-	db 24, BITE
+	db 19, BITE
+	db 25, STOMP
 	db 39, SKULL_BASH
 	db 47, HYDRO_PUMP
 	db 0

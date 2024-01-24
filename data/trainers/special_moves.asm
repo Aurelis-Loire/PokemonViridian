@@ -4,27 +4,23 @@
 ;	db 0
 
 SpecialTrainerMoves:
-	db BUG_CATCHER, 15
-	db 2, 2, TACKLE
-	db 2, 3, STRING_SHOT
-	db 0
-
-	db YOUNGSTER, 14
-	db 1, 4, FISSURE
-	db 0
-	
 	db LASS, 18
 	db 1, 4, LEECH_LIFE
 	db 0
-	
+
 	db COOLTRAINER_F, 1
 	db 2, 2, TWINEEDLE
 	db 3, 1, TACKLE
 	db 0
 	
+	db RIVAL1, 7
+	db 4, 1, TACKLE
+	db 0
+	
 	db RIVAL1, 8
 	db 4, 3, TACKLE
-
+	db 0
+	
 	db BROCK, 1
 	db 2, 2, POWDER_SNOW
 	db 0
@@ -44,6 +40,10 @@ SpecialTrainerMoves:
 	db 3, 4, THUNDERBOLT
 	db 0
 
+	db RIVAL2, 1
+	db 4, 2, TACKLE
+	db 0
+	
 	db RIVAL2, 2
 	db 4, 3, TACKLE
 	db 0
@@ -55,7 +55,7 @@ SpecialTrainerMoves:
 	db RIVAL2, 4
 	db 1, 3, GROWL
 	db 4, 1, TACKLE
-	db 5, 2, TACKLE
+	db 5, 1, TACKLE
 	db 0
 
 	db RIVAL2, 5
@@ -72,11 +72,12 @@ SpecialTrainerMoves:
 	
 	db RIVAL2, 7
 	db 1, 2, CONFUSION
-	db 5, 1, TAIL_WHIP
+	db 4, 1, TACKLE
 	db 0
 	
 	db RIVAL2, 8
 	db 1, 2, CONFUSION
+	db 4, 1, TACKLE
 	db 5, 1, LEECH_SEED
 	db 5, 4, VINE_WHIP
 	db 0
@@ -84,7 +85,9 @@ SpecialTrainerMoves:
 	db RIVAL2, 9
 	db 1, 2, CONFUSION
 	db 2, 2, RAZOR_LEAF
-	db 5, 3, EMBER
+	db 4, 1, TACKLE
+	db 5, 1, SCRATCH
+	db 5, 2, SMOKESCREEN
 	db 0
 	
 	db ERIKA, 1

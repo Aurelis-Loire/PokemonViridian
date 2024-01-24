@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/ampharos.pic", 0, 1 ; sprite dimensions
 	dw AmpharosPicFront, AmpharosPicBack
 
-	db THUNDER_WAVE, TAKE_DOWN, CONFUSE_RAY, THUNDERPUNCH ; level 1 learnset
+	db GROWL, THUNDERSHOCK, THUNDER_WAVE, THUNDERPUNCH ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/flaaffy.pic", 0, 1 ; sprite dimensions
 	dw FlaaffyPicFront, FlaaffyPicBack
 
-	db TACKLE, GROWL, THUNDERSHOCK, THUNDER_WAVE ; level 1 learnset
+	db TACKLE, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
