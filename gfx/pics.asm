@@ -184,12 +184,12 @@ DragonairPicFront::   INCBIN "gfx/pokemon/front/dragonair.pic"
 DragonairPicBack::    INCBIN "gfx/pokemon/back/dragonairb.pic"
 KabutoPicFront::      INCBIN "gfx/pokemon/front/kabuto.pic"
 KabutoPicBack::       INCBIN "gfx/pokemon/back/kabutob.pic"
-KabutopsPicFront::    INCBIN "gfx/pokemon/front/kabutops.pic"
-KabutopsPicBack::     INCBIN "gfx/pokemon/back/kabutopsb.pic"
 
 
 SECTION "Pics 4", ROMX
 
+KabutopsPicFront::    INCBIN "gfx/pokemon/front/kabutops.pic"
+KabutopsPicBack::     INCBIN "gfx/pokemon/back/kabutopsb.pic"
 GarchompPicFront::     INCBIN "gfx/pokemon/front/garchomp.pic"
 GarchompPicBack::      INCBIN "gfx/pokemon/back/garchompb.pic"
 HorseaPicFront::      INCBIN "gfx/pokemon/front/horsea.pic"
@@ -248,14 +248,14 @@ GabitePicFront::       INCBIN "gfx/pokemon/front/gabite.pic"
 GabitePicBack::        INCBIN "gfx/pokemon/back/gabiteb.pic"
 GolduckPicFront::      INCBIN "gfx/pokemon/front/golduck.pic"
 GolduckPicBack::       INCBIN "gfx/pokemon/back/golduckb.pic"
-HypnoPicFront::        INCBIN "gfx/pokemon/front/hypno.pic"
-HypnoPicBack::         INCBIN "gfx/pokemon/back/hypnob.pic"
-GolbatPicFront::       INCBIN "gfx/pokemon/front/golbat.pic"
-GolbatPicBack::        INCBIN "gfx/pokemon/back/golbatb.pic"
 
 
 SECTION "Pics 5", ROMX
 
+HypnoPicFront::        INCBIN "gfx/pokemon/front/hypno.pic"
+HypnoPicBack::         INCBIN "gfx/pokemon/back/hypnob.pic"
+GolbatPicFront::       INCBIN "gfx/pokemon/front/golbat.pic"
+GolbatPicBack::        INCBIN "gfx/pokemon/back/golbatb.pic"
 MewtwoPicFront::       INCBIN "gfx/pokemon/front/mewtwo.pic"
 MewtwoPicBack::        INCBIN "gfx/pokemon/back/mewtwob.pic"
 SnorlaxPicFront::      INCBIN "gfx/pokemon/front/snorlax.pic"
@@ -294,10 +294,6 @@ VenusaurPicFront::     INCBIN "gfx/pokemon/front/venusaur.pic"
 VenusaurPicBack::      INCBIN "gfx/pokemon/back/venusaurb.pic"
 GoldeenPicFront::      INCBIN "gfx/pokemon/front/goldeen.pic"
 GoldeenPicBack::       INCBIN "gfx/pokemon/back/goldeenb.pic"
-SeakingPicFront::      INCBIN "gfx/pokemon/front/seaking.pic"
-SeakingPicBack::       INCBIN "gfx/pokemon/back/seakingb.pic"
-PonytaPicFront::       INCBIN "gfx/pokemon/front/ponyta.pic"
-PonytaPicBack::        INCBIN "gfx/pokemon/back/ponytab.pic"
 
 
 SECTION "Pics 6", ROMX
@@ -350,6 +346,10 @@ LancePic::         INCBIN "gfx/trainers/john.pic"
 
 SECTION "Pics 7", ROMX
 
+SeakingPicFront::      INCBIN "gfx/pokemon/front/seaking.pic"
+SeakingPicBack::       INCBIN "gfx/pokemon/back/seakingb.pic"
+PonytaPicFront::       INCBIN "gfx/pokemon/front/ponyta.pic"
+PonytaPicBack::        INCBIN "gfx/pokemon/back/ponytab.pic"
 RapidashPicFront::     INCBIN "gfx/pokemon/front/rapidash.pic"
 RapidashPicBack::      INCBIN "gfx/pokemon/back/rapidashb.pic"
 PorygonPicFront::      INCBIN "gfx/pokemon/front/porygon.pic"
