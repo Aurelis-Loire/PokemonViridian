@@ -74,8 +74,8 @@ _RockTunnel1EndBattleText5::
 	prompt
 
 _RockTunnel1AfterBattleText5::
-	text "I saw a MACHOP"
-	line "in this tunnel!"
+	text "I saw a GIBLE in"
+	line "this tunnel!"
 	done
 
 _RockTunnel1BattleText6::

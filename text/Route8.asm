@@ -40,7 +40,7 @@ _Route8EndBattleText3::
 	prompt
 
 _Route8AfterBattleText3::
-	text "Go with MAGNEMITE"
+	text "Go with CROAGUNK"
 	line "first...and..."
 	cont "...and...then..."
 	done
