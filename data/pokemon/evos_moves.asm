@@ -779,10 +779,10 @@ JoltikEvosMoves:
     db EV_LEVEL, 36, GALVANTULA
 	db 0
 ; Learnset
-	db 17, ABSORB
-	db 37, THUNDER_WAVE
-	db 40, SCREECH
-	db 45, SLASH
+	db 9, ABSORB
+	db 17, THUNDER_WAVE
+	db 32, SCREECH
+	db 37, SLASH
 	db 48, AGILITY
 	db 0
 
@@ -1318,9 +1318,10 @@ GalvantulaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 39, THUNDER_WAVE
-	db 43, SCREECH
-	db 49, SLASH
+	db 9, ABSORB
+	db 17, THUNDER_WAVE
+	db 32, SCREECH
+	db 39, SLASH
 	db 53, AGILITY
 	db 0
 

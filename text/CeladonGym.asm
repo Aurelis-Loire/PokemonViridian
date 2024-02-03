@@ -72,7 +72,7 @@ _ReceivedTM21Text::
 _TM21ExplanationText::
 	text_start
 
-	para "TM04 contains"
+	para "TM30 contains"
 	line "PIN MISSILE."
 
 	para "It will launch a"

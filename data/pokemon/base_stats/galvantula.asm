@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/galvantula.pic", 0, 1 ; sprite dimensions
 	dw GalvantulaPicFront, GalvantulaPicBack
 
-	db STRING_SHOT, LEECH_LIFE, ABSORB, NO_MOVE ; level 1 learnset
+	db STRING_SHOT, LEECH_LIFE, ABSORB, THUNDER_WAVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
