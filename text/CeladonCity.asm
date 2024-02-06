@@ -117,8 +117,8 @@ _CeladonCityText13::
 	line "#MON GYM"
 	cont "LEADER: SPECTRE"
 
-	para "The Nature Loving"
-	line "Princess!"
+	para "The Eccentric"
+	line "Entomologist!"
 	done
 
 _CeladonCityText14::

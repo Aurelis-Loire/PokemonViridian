@@ -34,7 +34,7 @@ _ReceivedRainbowBadgeText::
 	line "strong."
 
 	para "I must confer you"
-	line "the RAINBOWBADGE."
+	line "the ENTOMNIBADGE."
 	prompt
 
 _ErikaPostBattleAdviceText::
@@ -49,7 +49,7 @@ _ErikaPostBattleAdviceText::
 	done
 
 _ErikaRainbowBadgeInfoText::
-	text "The RAINBOWBADGE"
+	text "The ENTOMNIBADGE"
 	line "will make #MON"
 	cont "up to L50 obey."
 
