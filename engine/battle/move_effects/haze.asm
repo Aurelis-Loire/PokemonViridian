@@ -13,24 +13,25 @@ HazeEffect_:
 	ld de, wEnemyMonAttack
 	call ResetStats
 ; cure non-volatile status, but only for the target
+; joenote - do the non-volatile statuses even for the user as was originally intended
 	ld hl, wEnemyMonStatus
 	ld de, wEnemySelectedMove
-	ldh a, [hWhoseTurn]
-	and a
-	jr z, .cureStatuses
+	;ldh a, [hWhoseTurn]
+	;and a
+	;jr z, .cureStatuses
+	ld a, [hl]	; joenote - added
+	ld [hl], $0 ; joenote - added
 	ld hl, wBattleMonStatus
 	dec de ; wPlayerSelectedMove
-
-.cureStatuses
+;.cureStatuses
 	ld a, [hl]
 	ld [hl], $0
-	and (1 << FRZ) | SLP_MASK
-	jr z, .cureVolatileStatuses
+;	and (1 << FRZ) | SLP_MASK
+;	jr z, .cureVolatileStatuses
 ; prevent the Pokemon from executing a move if it was asleep or frozen
-	ld a, $ff
-	ld [de], a
-
-.cureVolatileStatuses
+;	ld a, $ff
+;	ld [de], a
+;.cureVolatileStatuses
 	xor a
 	ld [wPlayerDisabledMove], a
 	ld [wEnemyDisabledMove], a

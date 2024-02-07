@@ -33,7 +33,29 @@ HealEffect_:
 	jr z, .restEffect
 	ld hl, wEnemyMonStatus
 .restEffect
+;;;joenote - undo the stat-changing effects of burn and paralyze and clear toxic info
+	callfar UndoBurnParStats
+.checkToxic	;remove toxic and clear toxic counter
+	ld hl, wPlayerBattleStatus3	;load in for toxic bit
+	ld de, wPlayerToxicCounter	;load in for toxic counter
+	ld a, [hWhoseTurn]
+	and a
+	jr z, .undoToxic
+	ld hl, wEnemyBattleStatus3	;load in for toxic bit
+	ld de, wEnemyToxicCounter	;load in for toxic counter
+.undoToxic
+	res BADLY_POISONED, [hl] ; heal Toxic status
+	xor a	;clear a
+	ld [de], a	;write a to toxic counter
+;reload the initial status info so the correct condtions can be cleared
+	ld hl, wBattleMonStatus
+	ld a, [hWhoseTurn]
+	and a
+	jr z, .noCondition
+	ld hl, wEnemyMonStatus
+.noCondition
 	ld a, [hl]
+;;;;;;;;
 	and a
 	ld [hl], 3 ; clear status and set number of turns asleep to 2
 	ld hl, StartedSleepingEffect ; if mon didn't have an status
