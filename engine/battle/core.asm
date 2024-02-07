@@ -5497,10 +5497,6 @@ MoveHitTest:
 	jr c, .skipEnemySafeguardCheck
 	cp PARALYZE_EFFECT + 1
 	jr c, .enemySafeguardCheck
-	cp CONFUSION_SIDE_EFFECT
-	jr c, .skipEnemySafeguardCheck
-	cp CONFUSION_SIDE_EFFECT + 1
-	jr c, .enemySafeguardCheck
 	jr .skipEnemySafeguardCheck
 .enemySafeguardCheck
 	ld a, [wEnemyBattleStatus2]
@@ -5547,10 +5543,6 @@ MoveHitTest:
 	cp POISON_EFFECT
 	jr c, .skipPlayerSafeguardCheck
 	cp PARALYZE_EFFECT + 1
-	jr c, .playerSafeguardCheck
-	cp CONFUSION_SIDE_EFFECT
-	jr c, .skipPlayerSafeguardCheck
-	cp CONFUSION_SIDE_EFFECT + 1
 	jr c, .playerSafeguardCheck
 	jr .skipPlayerSafeguardCheck
 .playerSafeguardCheck
