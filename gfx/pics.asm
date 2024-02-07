@@ -246,12 +246,12 @@ ButterfreePicFront::   INCBIN "gfx/pokemon/front/butterfree.pic"
 ButterfreePicBack::    INCBIN "gfx/pokemon/back/butterfreeb.pic"
 GabitePicFront::       INCBIN "gfx/pokemon/front/gabite.pic"
 GabitePicBack::        INCBIN "gfx/pokemon/back/gabiteb.pic"
-GolduckPicFront::      INCBIN "gfx/pokemon/front/golduck.pic"
-GolduckPicBack::       INCBIN "gfx/pokemon/back/golduckb.pic"
 
 
 SECTION "Pics 5", ROMX
 
+GolduckPicFront::      INCBIN "gfx/pokemon/front/golduck.pic"
+GolduckPicBack::       INCBIN "gfx/pokemon/back/golduckb.pic"
 HypnoPicFront::        INCBIN "gfx/pokemon/front/hypno.pic"
 HypnoPicBack::         INCBIN "gfx/pokemon/back/hypnob.pic"
 GolbatPicFront::       INCBIN "gfx/pokemon/front/golbat.pic"
@@ -292,8 +292,6 @@ BulbasaurPicFront::    INCBIN "gfx/pokemon/front/bulbasaur.pic"
 BulbasaurPicBack::     INCBIN "gfx/pokemon/back/bulbasaurb.pic"
 VenusaurPicFront::     INCBIN "gfx/pokemon/front/venusaur.pic"
 VenusaurPicBack::      INCBIN "gfx/pokemon/back/venusaurb.pic"
-GoldeenPicFront::      INCBIN "gfx/pokemon/front/goldeen.pic"
-GoldeenPicBack::       INCBIN "gfx/pokemon/back/goldeenb.pic"
 
 
 SECTION "Pics 6", ROMX
@@ -346,6 +344,8 @@ LancePic::         INCBIN "gfx/trainers/john.pic"
 
 SECTION "Pics 7", ROMX
 
+GoldeenPicFront::      INCBIN "gfx/pokemon/front/goldeen.pic"
+GoldeenPicBack::       INCBIN "gfx/pokemon/back/goldeenb.pic"
 SeakingPicFront::      INCBIN "gfx/pokemon/front/seaking.pic"
 SeakingPicBack::       INCBIN "gfx/pokemon/back/seakingb.pic"
 PonytaPicFront::       INCBIN "gfx/pokemon/front/ponyta.pic"
