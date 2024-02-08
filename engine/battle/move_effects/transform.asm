@@ -64,6 +64,7 @@ TransformEffect_:
 	inc bc
 	inc bc
 	call CopyData
+	call CopyDataTransform	;joenote - want to do a special copy that doesn't copy the transform move and replaces it
 	ldh a, [hWhoseTurn]
 	and a
 	jr z, .next
@@ -146,3 +147,24 @@ TransformEffect_:
 TransformedText:
 	text_far _TransformedText
 	text_end
+
+;joenote - custom-edited function just for copying transform moves.
+;Insted of copying the move Transform, it will replace it with Struggle.
+;This prevents endless battles between two pokemon with Transform
+CopyDataTransform:
+;; Copy bc bytes from hl to de.
+	ld a, c	;load counter into a
+	cp $5 ;is a < 5? set carry if true
+	ld a, [hli] ;load current byte into a. increment to next byte
+	jr nc, .notatrans	;skip down if carry not set
+	cp TRANSFORM	;is the current byte the transform move?
+	jr nz, .notatrans	; if not, then skip down
+	ld a, STRUGGLE	;if transform move, replace it with Struggle
+.notatrans
+	ld [de], a	;load a into de
+	inc de	;increment de to next byte
+	dec bc	;decrement the counter
+	ld a, c
+	or b	;is counter zero?
+	jr nz, CopyDataTransform
+	ret

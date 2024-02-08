@@ -3155,7 +3155,21 @@ PlayerCalcMoveDamage:
 	ld hl, SetDamageEffects
 	ld de, 1
 	call IsInArray
-	jp c, .moveHitTest ; SetDamageEffects moves (e.g. Seismic Toss and Super Fang) skip damage calculation
+;;;joenote - if there is a static damage effect like superfang or seismic toss, make it obey type immunities
+	ld a, [wUnusedC000] ; get ready to set or clear static damage flag
+	;jp c, .moveHitTest ; SetDamageEffects moves (e.g. Seismic Toss and Super Fang) skip damage calculation	;joenote - not needed anymore
+	jp nc, .not_static	;skip all this if not a static damage move
+	set 4, a
+	ld [wUnusedC000], a	;a static move, so set the flag
+	ld a, $1	;set wDamage to 1 point. just need a non-zero value otherwise it counts as a miss later on.
+	ld [wDamage+1], a
+	xor a
+	ld [wCriticalHitOrOHKO], a
+	jr .static_skiphere		;skip the normal calculations for static damage moves
+.not_static
+	res 4, a
+	ld [wUnusedC000], a	;not a static move, so clear the flag
+;;;;;;;;;;;;;;;;;;;;
 	call CriticalHitTest
 	call HandleCounterMove
 	jr z, handleIfPlayerMoveMissed
@@ -3163,6 +3177,7 @@ PlayerCalcMoveDamage:
 	call CalculateDamage
 	jp z, playerCheckIfFlyOrChargeEffect ; for moves with 0 BP, skip any further damage calculation and, for now, skip MoveHitTest
 	               ; for these moves, accuracy tests will only occur if they are called as part of the effect itself
+.static_skiphere	;joenote - skip here if a static damage move
 	call AdjustDamageForMoveType
 	call RandomizeDamage
 .moveHitTest
@@ -4666,6 +4681,10 @@ CriticalHitTest:
 	ld a, [hld]                  ; read base power from RAM
 	and a
 	ret z                        ; do nothing if zero
+	;joenote - Also do not do a critical hit if a special damage move is being used (dragon rage, seismic toss, etc)
+    ; ;		- base power of 1 now signifies an expanded range to include moves like bide and counter 
+	cp 2
+	ret c	;do nothing if base power is 0 or 1
 	dec hl
 	ld c, [hl]                   ; read move id
 	ld a, [de]
@@ -5773,7 +5792,21 @@ EnemyCalcMoveDamage:
 	ld hl, SetDamageEffects
 	ld de, $1
 	call IsInArray
-	jp c, EnemyMoveHitTest
+;;;joenote - if there is a static damage effect like superfang or seismic toss, make it obey type immunities
+;	jp c, EnemyMoveHitTest	;joenote - don't need this anymore
+	ld a, [wUnusedC000]	;get ready to set or reset static move flag
+	jp nc, .not_static	;skip all this if not a static damage move
+	set 4, a
+	ld [wUnusedC000], a	;static move so set the flag
+	ld a, $1	;set wDamage to 1 point. just need a non-zero value otherwise it counts as a miss later on.
+	ld [wDamage+1], a
+	xor a
+	ld [wCriticalHitOrOHKO], a
+	jr .static_skiphere		;skip the normal calculations for static damage moves
+.not_static
+	res 4, a
+	ld [wUnusedC000], a	;not a static move so reset the flag
+;;;;;;;;;;;;;;;;;;;;
 	call CriticalHitTest
 	call HandleCounterMove
 	jr z, handleIfEnemyMoveMissed
@@ -5782,6 +5815,7 @@ EnemyCalcMoveDamage:
 	call SwapPlayerAndEnemyLevels
 	call CalculateDamage
 	jp z, EnemyCheckIfFlyOrChargeEffect
+.static_skiphere	;joenote - skip here if a static damage move
 	call AdjustDamageForMoveType
 	call RandomizeDamage
 
