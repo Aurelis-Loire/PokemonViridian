@@ -77,7 +77,7 @@ _SilphCo6BattleText3::
 
 	para "He shouldn't have"
 	line "sent me to the"
-	cont "TIKSI BRANCH!"
+	cont "TRENTON BRANCH!"
 	done
 
 _SilphCo6EndBattleText3::
@@ -85,9 +85,9 @@ _SilphCo6EndBattleText3::
 	prompt
 
 _SilphCo6AfterBattleText3::
-	text "TIKSI BRANCH?"
-	line "It's in Russian"
-	cont "no man's land!"
+	text "TRENTON BRANCH?"
+	line "It's in no man's"
+	cont "land. New Jersey!"
 	done
 
 _SilphCo6BattleText4::

@@ -15,25 +15,25 @@ _SilphCo5BattleText5::
 	done
 
 _SilphCo5EndBattleText5::
-	text "Cough..."
-	line "Cough..."
+	text "I'm gonna wail!"
 	prompt
 
 _SilphCo5AfterBattleText5::
 	text "Which reminds me."
 
-	para "KOFFING evolves"
-	line "into WEEZING!"
+	para "WAILMER evolves"
+	line "into WAILORD!"
 	done
 
 _SilphCo5Text9::
 	text "It's a #MON"
 	line "REPORT!"
 
-	para "#MON LAB"
-	line "created PORYGON,"
-	cont "the first virtual"
-	cont "reality #MON."
+	para "#MON LAB is"
+	line "working on"
+	cont "creating the"
+	cont "first man-made"
+	cont "#MON."
 	done
 
 _SilphCo5Text10::
@@ -49,7 +49,7 @@ _SilphCo5Text11::
 	text "It's a #MON"
 	line "REPORT!"
 
-	para "4 #MON evolve"
+	para "2 #MON evolve"
 	line "only when traded"
 	cont "by link-cable."
 	done
