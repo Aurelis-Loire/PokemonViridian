@@ -3,9 +3,9 @@ _SabrinaPreBattleText::
 	line "at this hour?"
 
 	para "Whatever... if"
-	line "this has to happen"
-	cont "let's make it"
-	cont "quick!"
+	line "this has to"
+	cont "happen let's make"
+	cont "it quick!"
 
 	para "If you need"
 	line "someone to play"
@@ -114,8 +114,9 @@ _SaffronGymBattleText1::
 	done
 
 _SaffronGymEndBattleText1::
-	text "Damn it,"
-	line "not good enough!"
+	text "Damn"
+	line "it, not good"
+	cont "enough!"
 	prompt
 
 _SaffronGymAfterBattleText1::
@@ -136,8 +137,8 @@ _SaffronGymBattleText2::
 	done
 
 _SaffronGymEndBattleText2::
-	text "Well... looks like"
-	line "you're brave!"
+	text "Well... looks"
+	line "like you're brave!"
 	prompt
 
 _SaffronGymAfterBattleText2::
@@ -156,7 +157,8 @@ _SaffronGymBattleText3::
 	done
 
 _SaffronGymEndBattleText3::
-	text "Hello and goodbye!"
+	text "Hello and"
+	line "goodbye!"
 	prompt
 
 _SaffronGymAfterBattleText3::
@@ -178,8 +180,9 @@ _SaffronGymEndBattleText4::
 
 _SaffronGymAfterBattleText4::
 	text "ANDREW just wiped"
-	line "the floor with the"
-	cont "KARATE MASTER!"
+	line "the floor with"
+	cont "the KARATE"
+	cont "MASTER!"
 	done
 
 _SaffronGymBattleText5::
@@ -201,15 +204,16 @@ _SaffronGymAfterBattleText5::
 
 _SaffronGymBattleText6::
 	text "Can your eyes keep"
-	line "up with our fight?"
+	line "up with our"
+	cont "fight?"
 
 	para "You won't reach"
-	line "him easily!"
+	line "ANDREW easily!"
 	done
 
 _SaffronGymEndBattleText6::
-	text "You saw through my"
-	line "illusion!"
+	text "You saw through"
+	line "my illusion!"
 	prompt
 
 _SaffronGymAfterBattleText6::
@@ -240,6 +244,7 @@ _SaffronGymEndBattleText7::
 
 _SaffronGymAfterBattleText7::
 	text "That's right! I"
-	line "will cancel you on"
-	cont "Twitter! Er... X!"
+	line "will cancel you"
+	cont "on Twitter! Er..."
+	cont "X!"
 	done
