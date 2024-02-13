@@ -5233,6 +5233,16 @@ MetronomePickMove:
 ; it's used to prevent moves that run another move within the same turn
 ; (like Mirror Move and Metronome) from losing 2 PP
 IncrementMovePP:
+;;;joenote - do not increment pp of transformed active pkmn
+	ld a, [hWhoseTurn]	;load the current turn
+	and a	; who's turn is it?
+	ld a, [wPlayerBattleStatus3]	;load the player status
+	jr z, .skipIncPP	;if it's player turn, skip ahead
+	ld a, [wEnemyBattleStatus3]	;else load enemy status
+.skipIncPP
+	bit TRANSFORMED, a ; is pkmn transformed?
+	ret nz	;return without incrementing if transformed
+;;;
 	ldh a, [hWhoseTurn]
 	and a
 ; values for player turn
