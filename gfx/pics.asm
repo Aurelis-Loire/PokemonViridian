@@ -116,12 +116,12 @@ SalanditPicFront::    INCBIN "gfx/pokemon/front/salandit.pic"
 SalanditPicBack::     INCBIN "gfx/pokemon/back/salanditb.pic"
 MankeyPicFront::      INCBIN "gfx/pokemon/front/mankey.pic"
 MankeyPicBack::       INCBIN "gfx/pokemon/back/mankeyb.pic"
-CroagunkPicFront::    INCBIN "gfx/pokemon/front/croagunk.pic"
-CroagunkPicBack::     INCBIN "gfx/pokemon/back/croagunkb.pic"
 
 
 SECTION "Pics 3", ROMX
 
+CroagunkPicFront::    INCBIN "gfx/pokemon/front/croagunk.pic"
+CroagunkPicBack::     INCBIN "gfx/pokemon/back/croagunkb.pic"
 DiglettPicFront::     INCBIN "gfx/pokemon/front/diglett.pic"
 DiglettPicBack::      INCBIN "gfx/pokemon/back/diglettb.pic"
 TaurosPicFront::      INCBIN "gfx/pokemon/front/tauros.pic"
