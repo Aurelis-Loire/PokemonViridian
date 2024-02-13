@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/blastoise.pic", 0, 1 ; sprite dimensions
 	dw BlastoisePicFront, BlastoisePicBack
 
-	db WITHDRAW, WATER_GUN, BITE, STOMP ; level 1 learnset
+	db WATER_GUN, BITE, STOMP, HAZE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

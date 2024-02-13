@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/armaldo.pic", 0, 1 ; sprite dimensions
 	dw ArmaldoPicFront, ArmaldoPicBack
 
-	db DOUBLE_TEAM, ANCIENTPOWER, LEECH_LIFE, SLASH ; level 1 learnset
+	db SWORDS_DANCE, ANCIENTPOWER, LEECH_LIFE, SLASH ; level 1 learnset
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset

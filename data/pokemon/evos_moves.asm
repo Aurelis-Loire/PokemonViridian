@@ -537,6 +537,7 @@ BlastoiseEvosMoves:
 	db 13, WATER_GUN
 	db 19, BITE
 	db 25, STOMP
+	db 31, HAZE
 	db 42, SKULL_BASH
 	db 52, HYDRO_PUMP
 	db 0
@@ -1064,6 +1065,7 @@ SalazzleEvosMoves:
 	db 16, EMBER
 	db 21, SWEET_SCENT
 	db 32, DRAGON_RAGE
+	db 43, DISABLE
 	db 56, SMOG
 	db 0
 
@@ -1342,7 +1344,7 @@ AnorithEvosMoves:
 	db 9, HARDEN
 	db 14, WATER_GUN
 	db 19, LOW_KICK
-	db 24, DOUBLE_TEAM
+	db 24, SWORDS_DANCE
 	db 29, ANCIENTPOWER
 	db 34, LEECH_LIFE
 	db 39, SLASH
@@ -1355,7 +1357,7 @@ ArmaldoEvosMoves:
 	db 9, HARDEN
 	db 14, WATER_GUN
 	db 19, LOW_KICK
-	db 24, DOUBLE_TEAM
+	db 24, SWORDS_DANCE
 	db 29, ANCIENTPOWER
 	db 34, LEECH_LIFE
 	db 39, SLASH
@@ -2126,6 +2128,7 @@ SquirtleEvosMoves:
 	db 13, WATER_GUN
 	db 18, BITE
 	db 23, STOMP
+	db 28, HAZE
 	db 35, SKULL_BASH
 	db 42, HYDRO_PUMP
 	db 0
@@ -2155,6 +2158,7 @@ WartortleEvosMoves:
 	db 13, WATER_GUN
 	db 19, BITE
 	db 25, STOMP
+	db 31, HAZE
 	db 39, SKULL_BASH
 	db 47, HYDRO_PUMP
 	db 0
