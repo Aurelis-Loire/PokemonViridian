@@ -19,10 +19,10 @@ _SabrinaPreBattleText::
 	done
 
 _ReceivedMarshBadgeText::
-	text "Well damn, looks"
-	line "like Croak choked!"
-	cont "But, a loss is a"
-	cont "loss."
+	text "Well damn,"
+	line "looks like Croak"
+	cont "choked! But, a"
+	cont "loss is a loss."
 
 	para "At least I suck"
 	line "less than Koga!"
@@ -32,7 +32,7 @@ _ReceivedMarshBadgeText::
 	text_end
 
 _SabrinaPostBattleAdviceText::
-	text "Sometimes it's okay"
+	text "Sometimes it's"
 	line "okay to be a"
 	cont "little toxic! Ask"
 	cont "Taylor Swift"
