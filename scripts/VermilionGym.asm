@@ -25,7 +25,7 @@ VermilionGym_Script:
 	db "VERMILION CITY@"
 
 .LeaderName:
-	db "LT.SURGE@"
+	db "ALEX@"
 
 VermilionGymSetDoorTile:
 	CheckEvent EVENT_2ND_LOCK_OPENED
