@@ -252,10 +252,10 @@ ItemUseBall:
 
 ; Determine BallFactor. It's 8 for Great Balls and 12 for the others.
 	ld a, [wcf91]
-	cp GREAT_BALL
+	;cp GREAT_BALL
 	ld a, 12
-	jr nz, .skip1
-	ld a, 8
+	;jr nz, .skip1
+	;ld a, 8
 
 .skip1
 ; Note that the results of all division operations are floored.
