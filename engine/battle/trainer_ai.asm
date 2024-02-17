@@ -419,7 +419,7 @@ KogaAI:
 	jp AIUseXSpecial
 
 BlaineAI:
-	cp 33 percent + 1
+	cp 40 percent + 1
 	ret nc
 	ld a, 10
 	call AICheckIfHPBelowFraction
