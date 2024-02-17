@@ -14,7 +14,7 @@ _GiovanniPreBattleText::
 
 	para "Once more, you"
 	line "shall face"
-	cont "GIOVANNI, the"
+	cont "JOHANNA, the"
 	cont "greatest trainer!"
 	done
 
@@ -229,12 +229,12 @@ _ViridianGymGuidePreBattleText::
 
 	para "I heard that the"
 	line "trainers here"
-	cont "like ground-type"
+	cont "like dragon-type"
 	cont "#MON!"
 	done
 
 _ViridianGymGuidePostBattleText::
 	text "Blow me away!"
-	line "GIOVANNI was the"
+	line "JOHANNA was the"
 	cont "GYM LEADER here?"
 	done
