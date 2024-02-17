@@ -13,6 +13,19 @@ SpecialTrainerMoves:
 	db 3, 1, TACKLE
 	db 0
 	
+	db COOLTRAINER_M, 1
+	db 2, 1, WRAP
+	db 0
+	
+	db COOLTRAINER_M, 9
+	db 1, 1, TACKLE
+	db 2, 3, SCRATCH
+	db 0
+	
+	db COOLTRAINER_M, 10
+	db 1, 3, TACKLE
+	db 0
+	
 	db RIVAL1, 7
 	db 4, 1, TACKLE
 	db 0
@@ -92,7 +105,7 @@ SpecialTrainerMoves:
 	
 	db ERIKA, 1
 	db 1, 1, DISABLE
-	db 3, 4, PIN_MISSILE
+	db 3, 1, PIN_MISSILE
 	db 0
 
 	db KOGA, 1

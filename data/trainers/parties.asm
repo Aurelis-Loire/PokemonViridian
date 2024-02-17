@@ -437,8 +437,8 @@ TamerData:
 	db 34, LAPRAS, VULPIX, 0
 	db 33, GOLETT, DRIFBLIM, DRIFBLIM, 0
 ; Viridian Gym
-	db 43, RHYHORN, 0
-	db 39, ARBOK, TAUROS, 0
+	db 43, ARCTIBAX, 0
+	db 39, DRATINI, GIBLE, 0
 ; Victory Road 2F
 	db 44, PERSIAN, GOLDUCK, 0
 ; Unused
@@ -478,9 +478,9 @@ BlackbeltData:
 	db 36, PRIMEAPE, 0
 	db 31, CROAGUNK, PRIMEAPE, PRIMEAPE, 0
 ; Viridian Gym
-	db 40, CHANSEY, STEENEE, 0
-	db 43, STEENEE, 0
-	db 38, STEENEE, CHANSEY, STEENEE, 0
+	db 40, ARCTIBAX, DRAGONAIR, 0
+	db 43, FRIGIBAX, 0
+	db 38, SALAZZLE, GABITE, DRAGONAIR, 0
 ; Victory Road 2F
 	db 43, STEENEE, CHANSEY, STEENEE, 0
 
@@ -606,7 +606,7 @@ RocketData:
 
 CooltrainerMData:
 ; Viridian Gym
-	db 39, SIGILYPH, NIDORINO, 0
+	db 39, GABITE, DRAGONAIR, 0
 ; Victory Road 3F
 	db 43, EXEGGUTOR, CLOYSTER, ARCANINE, 0
 	db 43, KINGLER, LANDORUS, BLASTOISE, 0
@@ -619,8 +619,8 @@ CooltrainerMData:
 	db 49, NIDORINO, 0
 	db 44, KINGLER, CLOYSTER, 0
 ; Viridian Gym
-	db 39, LARVITAR, DUGTRIO, 0
-	db 43, RHYHORN, 0
+	db 39, ARCTIBAX, SALAZZLE, 0
+	db 43, GYARADOS, 0
 
 CooltrainerFData:
 ; Celadon Gym
