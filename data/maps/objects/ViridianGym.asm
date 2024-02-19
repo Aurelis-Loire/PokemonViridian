@@ -8,7 +8,7 @@ ViridianGym_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  2,  1, SPRITE_GIOVANNI, STAY, DOWN, 1, OPP_GIOVANNI, 3
+	object_event  2,  1, SPRITE_LORELEI, STAY, DOWN, 1, OPP_GIOVANNI, 3
 	object_event 12,  7, SPRITE_COOLTRAINER_M, STAY, DOWN, 2, OPP_COOLTRAINER_M, 9
 	object_event 11, 11, SPRITE_HIKER, STAY, UP, 3, OPP_BLACKBELT, 6
 	object_event 10,  7, SPRITE_ROCKER, STAY, DOWN, 4, OPP_TAMER, 3

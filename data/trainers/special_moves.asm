@@ -152,15 +152,13 @@ SpecialTrainerMoves:
 	db 0
 	
 	db GIOVANNI, 3
-	db 1, 3, FISSURE
-	db 2, 2, DOUBLE_TEAM
-	db 3, 1, EARTHQUAKE
-	db 3, 3, THUNDER
-	db 4, 1, EARTHQUAKE
-	db 4, 2, LEER
-	db 4, 3, THUNDER
-	db 5, 1, ROCK_SLIDE
-	db 5, 4, EARTHQUAKE
+	db 1, 2, ICE_BEAM
+	db 2, 2, HYDRO_PUMP
+	db 3, 1, SMOKESCREEN
+	db 4, 2, WRAP
+	db 5, 1, DRAGON_TAIL
+	db 5, 2, SLASH
+	db 5, 3, DIG
 	db 0
 
 	db LORELEI, 1
