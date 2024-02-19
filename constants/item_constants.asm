@@ -183,7 +183,7 @@ DEF TM01 EQU const_value
 	add_tm THUNDERBOLT  ; $E0
 	add_tm THUNDER      ; $E1
 	add_tm EARTHQUAKE   ; $E2
-	add_tm FISSURE      ; $E3
+	add_tm DRAGON_TAIL  ; $E3
 	add_tm DIG          ; $E4
 	add_tm PSYCHIC_M    ; $E5
 	add_tm PIN_MISSILE  ; $E6

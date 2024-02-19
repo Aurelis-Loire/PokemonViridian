@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  ICE_BEAM,     \
-	     BLIZZARD,     HYPER_BEAM,   POWDER_SNOW,  EARTHQUAKE,   FISSURE,      \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      HEADBUTT,     \
-	     REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     BLIZZARD,     HYPER_BEAM,   POWDER_SNOW,  EARTHQUAKE,   DIG,          \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      HEADBUTT,     REST,         \
+	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(MamoswinePicFront)

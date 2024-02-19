@@ -18,7 +18,7 @@
 	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
 	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, POWDER_SNOW,  THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
-	     FISSURE,      MIMIC,        DOUBLE_TEAM,  BIDE,         FIRE_PUNCH,   \
+	     DRAGON_TAIL,  MIMIC,        DOUBLE_TEAM,  BIDE,         FIRE_PUNCH,   \
 	     FIRE_BLAST,   SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE,   \
 		 CUT,          SURF,         STRENGTH
 	; end

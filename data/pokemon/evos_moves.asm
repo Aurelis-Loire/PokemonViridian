@@ -926,6 +926,7 @@ DiglettEvosMoves:
 	db 24, SAND_ATTACK
 	db 31, SLASH
 	db 40, EARTHQUAKE
+	db 49, FISSURE
 	db 0
 
 TaurosEvosMoves:
@@ -1592,6 +1593,7 @@ DugtrioEvosMoves:
 	db 24, SAND_ATTACK
 	db 35, SLASH
 	db 47, EARTHQUAKE
+	db 61, FISSURE
 	db 0
 
 VenomothEvosMoves:

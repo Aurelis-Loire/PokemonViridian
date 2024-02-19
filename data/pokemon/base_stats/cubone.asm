@@ -17,9 +17,9 @@
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, POWDER_SNOW,  EARTHQUAKE,   \
-	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     FIRE_PUNCH,   FIRE_BLAST,   SKULL_BASH,   HEADBUTT,     REST,         \
-		 SUBSTITUTE,   STRENGTH
+	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         FIRE_PUNCH,   \
+	     FIRE_BLAST,   SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE,   \
+		 STRENGTH
 	; end
 
 	db BANK(CubonePicFront)

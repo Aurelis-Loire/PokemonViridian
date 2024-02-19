@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        SLUDGE_BOMB,  BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     MEGA_DRAIN,   EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         SKULL_BASH,   HEADBUTT,     REST,         \
-	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     MEGA_DRAIN,   EARTHQUAKE,   DIG,          MIMIC,        DOUBLE_TEAM,  \
+	     BIDE,         SKULL_BASH,   HEADBUTT,     REST,         ROCK_SLIDE,   \
+	     SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(EkansPicFront)

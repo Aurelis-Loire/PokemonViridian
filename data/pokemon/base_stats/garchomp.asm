@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   DRAGON_RAGE,  EARTHQUAKE,   DIG,          DOUBLE_TEAM,  \
-	     FIRE_BLAST,   SWIFT,        HEADBUTT,     REST,         ROCK_SLIDE,   \
-		 SUBSTITUTE,   CUT,          SURF,         STRENGTH
+	     HYPER_BEAM,   DRAGON_RAGE,  EARTHQUAKE,   DRAGON_TAIL,  DIG,          \
+	     DOUBLE_TEAM,  FIRE_BLAST,   SWIFT,        HEADBUTT,     REST,         \
+		 ROCK_SLIDE,   SUBSTITUTE,   CUT,          SURF,         STRENGTH
 	; end
 
 	db BANK(GarchompPicFront)

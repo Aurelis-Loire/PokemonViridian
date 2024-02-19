@@ -14,9 +14,9 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        SLUDGE_BOMB,  TAKE_DOWN,    DRAGON_RAGE,  DOUBLE_TEAM,  \
-	     FIRE_BLAST,   SWIFT,        BIDE,         REST,         THUNDER_WAVE, \
-		 SUBSTITUTE
+	tmhm TOXIC,        SLUDGE_BOMB,  TAKE_DOWN,    DRAGON_RAGE,  DRAGON_TAIL,  \
+	     DOUBLE_TEAM,  FIRE_BLAST,   SWIFT,        BIDE,         REST,         \
+		 THUNDER_WAVE, SUBSTITUTE
 	; end
 
 	db BANK(SalazzlePicFront)
