@@ -149,7 +149,7 @@
 	const DEX_SNORLAX    ; 143
 	const DEX_ARTICUNO   ; 144
 	const DEX_LANDORUS   ; 145
-	const DEX_HYPNO      ; 146
+	const DEX_BAXCALIBUR ; 146
 	const DEX_DRATINI    ; 147
 	const DEX_DRAGONAIR  ; 148
 	const DEX_DRAGONITE  ; 149

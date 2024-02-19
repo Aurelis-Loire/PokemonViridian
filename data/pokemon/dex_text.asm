@@ -991,6 +991,16 @@ _GolurkDexEntry::
 	next "chest makes its"
 	next "energy unstable"
 	dex
+	
+_BaxcaliburDexEntry::
+	text "This #MON"
+	next "blasts cryogenic"
+	next "air out from its"
+
+	page "mouth. This air"
+	next "can instantly"
+	next "freeze even lava"
+	dex
 
 _EeveeDexEntry::
 	text "Its genetic code"
@@ -1180,16 +1190,6 @@ _GolduckDexEntry::
 	page "is often mistaken"
 	next "for the Japanese"
 	next "monster, Kappa"
-	dex
-
-_HypnoDexEntry::
-	text "When it locks eyes"
-	next "with an enemy, it"
-	next "will use a mix of"
-
-	page "PSI moves such as"
-	next "HYPNOSIS and"
-	next "CONFUSION"
 	dex
 
 _GolbatDexEntry::

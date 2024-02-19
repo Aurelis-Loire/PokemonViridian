@@ -106,7 +106,7 @@ CryData::
 	mon_cry SFX_CRY_1F, $F0, $01 ; Omanyte
 	mon_cry SFX_CRY_1F, $FF, $40 ; Omastar
 	mon_cry SFX_CRY_08, $58, $C2 ; Golurk
-	mon_cry SFX_CRY_0E, $68, $60 ; MissingNo.
+	mon_cry SFX_CRY_04, $B2, $3C ; Baxcalibur
 	mon_cry SFX_CRY_1A, $88, $60 ; Eevee
 	mon_cry SFX_CRY_1A, $10, $20 ; Flareon
 	mon_cry SFX_CRY_1A, $3D, $80 ; Jolteon
@@ -134,7 +134,7 @@ CryData::
 	mon_cry SFX_CRY_11, $04, $A1 ; Gabite
 	mon_cry SFX_CRY_11, $20, $10 ; MissingNo.
 	mon_cry SFX_CRY_21, $FF, $40 ; Golduck
-	mon_cry SFX_CRY_0D, $EE, $40 ; Hypno
+	mon_cry SFX_CRY_0D, $EE, $40 ; MissingNo.
 	mon_cry SFX_CRY_1D, $FA, $80 ; Golbat
 	mon_cry SFX_CRY_1E, $99, $FF ; Mewtwo
 	mon_cry SFX_CRY_05, $55, $01 ; Snorlax

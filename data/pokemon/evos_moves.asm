@@ -103,7 +103,7 @@ EvosMovesPointerTable:
 	dw OmanyteEvosMoves
 	dw OmastarEvosMoves
 	dw GolurkEvosMoves
-	dw MissingNo65EvosMoves
+	dw BaxcaliburEvosMoves
 	dw EeveeEvosMoves
 	dw FlareonEvosMoves
 	dw JolteonEvosMoves
@@ -131,7 +131,7 @@ EvosMovesPointerTable:
 	dw GabiteEvosMoves
 	dw MissingNo7FEvosMoves
 	dw GolduckEvosMoves
-	dw HypnoEvosMoves
+	dw MissingNo81EvosMoves
 	dw GolbatEvosMoves
 	dw MewtwoEvosMoves
 	dw SnorlaxEvosMoves
@@ -1159,6 +1159,7 @@ LucarioEvosMoves:
 
 ArctibaxEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 54, BAXCALIBUR
 	db 0
 ; Learnset
 	db 16, LEER
@@ -1397,10 +1398,16 @@ GolurkEvosMoves:
 	db 37, EARTHQUAKE
 	db 0
 
-MissingNo65EvosMoves:
+BaxcaliburEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 16, LEER
+	db 19, DRAGON_TAIL
+	db 25, FOCUS_ENERGY
+	db 31, BITE
+	db 41, TAKE_DOWN
+	db 49, ICE_BEAM
 	db 0
 
 EeveeEvosMoves:
@@ -1674,15 +1681,10 @@ GolduckEvosMoves:
 	db 59, HYDRO_PUMP
 	db 0
 
-HypnoEvosMoves:
+MissingNo81EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, DISABLE
-	db 17, CONFUSION
-	db 24, HEADBUTT
-	db 33, POISON_GAS
-	db 37, PSYCHIC_M
 	db 0
 
 GolbatEvosMoves:

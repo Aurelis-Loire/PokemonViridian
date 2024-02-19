@@ -100,7 +100,7 @@ PokedexEntryPointers:
 	dw OmanyteDexEntry
 	dw OmastarDexEntry
 	dw GolurkDexEntry
-	dw MissingNoDexEntry
+	dw BaxcaliburDexEntry
 	dw EeveeDexEntry
 	dw FlareonDexEntry
 	dw JolteonDexEntry
@@ -128,7 +128,7 @@ PokedexEntryPointers:
 	dw GabiteDexEntry
 	dw MissingNoDexEntry
 	dw GolduckDexEntry
-	dw HypnoDexEntry
+	dw MissingNoDexEntry
 	dw GolbatDexEntry
 	dw MewtwoDexEntry
 	dw SnorlaxDexEntry
@@ -896,6 +896,13 @@ GolurkDexEntry:
 	dw 7275
 	text_far _GolurkDexEntry
 	text_end
+	
+BaxcaliburDexEntry:
+	db "ICE DRAGON@"
+	db 6,11
+	dw 4630
+	text_far _BaxcaliburDexEntry
+	text_end
 
 EeveeDexEntry:
 	db "EVOLUTION@"
@@ -1028,13 +1035,6 @@ GolduckDexEntry:
 	db 5,7
 	dw 1690
 	text_far _GolduckDexEntry
-	text_end
-
-HypnoDexEntry:
-	db "HYPNOSIS@"
-	db 5,3
-	dw 1670
-	text_far _HypnoDexEntry
 	text_end
 
 GolbatDexEntry:

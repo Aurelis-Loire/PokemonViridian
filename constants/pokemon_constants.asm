@@ -107,7 +107,7 @@
 	const OMANYTE            ; $62
 	const OMASTAR            ; $63
 	const GOLURK             ; $64
-	const_skip               ; $65
+	const BAXCALIBUR         ; $65
 	const EEVEE              ; $66
 	const FLAREON            ; $67
 	const JOLTEON            ; $68
@@ -135,7 +135,7 @@
 	const GABITE             ; $7E
 	const_skip               ; $7F
 	const GOLDUCK            ; $80
-	const HYPNO              ; $81
+	const_skip               ; $81
 	const GOLBAT             ; $82
 	const MEWTWO             ; $83
 	const SNORLAX            ; $84

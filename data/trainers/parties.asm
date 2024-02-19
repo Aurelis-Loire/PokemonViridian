@@ -420,14 +420,14 @@ JugglerData:
 ; Silph Co. 5F
 	db 29, KADABRA, KADABRA, 0
 ; Victory Road 2F
-	db 41, JOLTIK, HYPNO, KADABRA, KADABRA, 0
+	db 41, JOLTIK, BAXCALIBUR, KADABRA, KADABRA, 0
 ; Fuchsia Gym
 	db 31, FROSLASS, DRIFBLIM, FROSLASS, MAROWAK, 0
 	db 34, GOLETT, MAROWAK, 0
 ; Victory Road 2F
 	db 48, WAILMER, 0
 ; Unused
-	db 33, HYPNO, 0
+	db 33, BAXCALIBUR, 0
 ; Fuchsia Gym
 	db 38, MAROWAK, 0
 	db 34, GOLETT, HAUNTER, 0
