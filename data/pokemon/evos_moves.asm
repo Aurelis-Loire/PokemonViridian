@@ -538,7 +538,8 @@ BlastoiseEvosMoves:
 	db 19, BITE
 	db 25, STOMP
 	db 31, HAZE
-	db 42, SKULL_BASH
+	db 42, MIST
+	db 43, SKULL_BASH
 	db 52, HYDRO_PUMP
 	db 0
 
@@ -664,7 +665,7 @@ KadabraEvosMoves:
 	db 16, CONFUSION
 	db 17, KINESIS
 	db 18, DISABLE
-	db 27, PSYBEAM
+	db 21, PSYBEAM
 	db 31, RECOVER
 	db 38, PSYCHIC_M
 	db 42, REFLECT
@@ -871,9 +872,9 @@ MiloticEvosMoves:
 	db 28, REFRESH
 	db 33, DRAGON_TAIL
 	db 38, RECOVER
-	db 43, HYDRO_PUMP
-	db 48, SAFEGUARD
-	db 53, WATER_PULSE
+	db 43, CONFUSE_RAY
+	db 48, HYDRO_PUMP
+	db 53, SAFEGUARD
 	db 0
 
 SalanditEvosMoves:
@@ -1861,7 +1862,7 @@ AlakazamEvosMoves:
 	db 16, CONFUSION
 	db 17, KINESIS
 	db 18, DISABLE
-	db 27, PSYBEAM
+	db 21, PSYBEAM
 	db 31, RECOVER
 	db 38, PSYCHIC_M
 	db 42, REFLECT
@@ -2129,6 +2130,7 @@ SquirtleEvosMoves:
 	db 18, BITE
 	db 23, STOMP
 	db 28, HAZE
+	db 33, MIST
 	db 35, SKULL_BASH
 	db 42, HYDRO_PUMP
 	db 0
@@ -2159,6 +2161,7 @@ WartortleEvosMoves:
 	db 19, BITE
 	db 25, STOMP
 	db 31, HAZE
+	db 37, MIST
 	db 39, SKULL_BASH
 	db 47, HYDRO_PUMP
 	db 0
