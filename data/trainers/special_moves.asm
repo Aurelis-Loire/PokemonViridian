@@ -103,6 +103,31 @@ SpecialTrainerMoves:
 	db 5, 2, SMOKESCREEN
 	db 0
 	
+	db RIVAL2, 10
+	db 1, 1, PSYBEAM
+	db 3, 4, BITE
+	db 4, 1, RAZOR_LEAF
+	db 4, 4, SWEET_SCENT
+	db 6, 1, WITHDRAW
+	db 6, 4, WATER_GUN
+	db 0
+	
+	db RIVAL2, 11
+	db 1, 1, PSYBEAM
+	db 3, 1, WRAP
+	db 4, 4, BITE
+	db 6, 2, LEECH_SEED
+	db 6, 4, SLEEP_POWDER
+	db 0
+	
+	db RIVAL2, 12
+	db 1, 1, PSYBEAM
+	db 3, 1, RAZOR_LEAF
+	db 3, 4, SWEET_SCENT
+	db 4, 1, WRAP
+	db 6, 3, SMOKESCREEN
+	db 0
+	
 	db ERIKA, 1
 	db 1, 1, DISABLE
 	db 3, 1, PIN_MISSILE
