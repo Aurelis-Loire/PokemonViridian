@@ -539,8 +539,8 @@ BlastoiseEvosMoves:
 	db 25, STOMP
 	db 31, HAZE
 	db 42, MIST
-	db 43, SKULL_BASH
-	db 52, HYDRO_PUMP
+	db 55, SKULL_BASH
+	db 56, HYDRO_PUMP
 	db 0
 
 RaltsEvosMoves:
@@ -1232,7 +1232,6 @@ GarchompEvosMoves:
 ; Evolutions
     db 0
 ; Learnset
-	db 20, SAND_ATTACK
 	db 26, DRAGON_RAGE
 	db 36, TAKE_DOWN
 	db 44, SAND_TOMB
@@ -1478,7 +1477,6 @@ GibleEvosMoves:
     db EV_LEVEL, 24, GABITE
     db 0
 ; Learnset
-	db 20, SAND_ATTACK
 	db 25, DRAGON_RAGE
 	db 32, TAKE_DOWN
 	db 39, SAND_TOMB
@@ -1658,7 +1656,6 @@ GabiteEvosMoves:
 	db EV_LEVEL, 48, GARCHOMP
 	db 0
 ; Learnset
-	db 20, SAND_ATTACK
 	db 26, DRAGON_RAGE
 	db 36, TAKE_DOWN
 	db 44, SAND_TOMB
@@ -2135,7 +2132,7 @@ SquirtleEvosMoves:
 	db 23, STOMP
 	db 28, HAZE
 	db 33, MIST
-	db 35, SKULL_BASH
+	db 40, SKULL_BASH
 	db 42, HYDRO_PUMP
 	db 0
 
@@ -2166,7 +2163,7 @@ WartortleEvosMoves:
 	db 25, STOMP
 	db 31, HAZE
 	db 37, MIST
-	db 39, SKULL_BASH
+	db 45, SKULL_BASH
 	db 47, HYDRO_PUMP
 	db 0
 
