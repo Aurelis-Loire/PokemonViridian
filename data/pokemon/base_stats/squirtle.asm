@@ -16,9 +16,10 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, POWDER_SNOW,  DIG,          \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SKULL_BASH,   \
-	     HEADBUTT,     REST,         SUBSTITUTE,   SURF,         STRENGTH
+	     ICE_PUNCH,    SUBMISSION,   COUNTER,      SEISMIC_TOSS, POWDER_SNOW,  \
+	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE,   SURF,         \
+		 STRENGTH
 	; end
 
 	db BANK(SquirtlePicFront)

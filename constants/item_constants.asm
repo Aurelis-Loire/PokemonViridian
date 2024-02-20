@@ -172,7 +172,7 @@ DEF TM01 EQU const_value
 	add_tm ICE_BEAM     ; $D5
 	add_tm BLIZZARD     ; $D6
 	add_tm HYPER_BEAM   ; $D7
-	add_tm PAY_DAY      ; $D8
+	add_tm ICE_PUNCH    ; $D8
 	add_tm SUBMISSION   ; $D9
 	add_tm COUNTER      ; $DA
 	add_tm SEISMIC_TOSS ; $DB

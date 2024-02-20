@@ -16,10 +16,10 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, POWDER_SNOW,  \
-	     EARTHQUAKE,   DRAGON_TAIL,  DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SKULL_BASH,   HEADBUTT,     REST,         \
-	     SUBSTITUTE,   SURF,         STRENGTH
+	     HYPER_BEAM,   ICE_PUNCH,    SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
+	     POWDER_SNOW,  EARTHQUAKE,   DRAGON_TAIL,  DIG,          MIMIC,        \
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         SKULL_BASH,   HEADBUTT,     \
+	     REST,         SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
 	db BANK(BlastoisePicFront)

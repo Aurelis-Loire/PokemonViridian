@@ -15,9 +15,10 @@
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         METRONOME,    FIRE_PUNCH,   SWIFT,        \
-	     SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE,   STRENGTH
+	     DOUBLE_EDGE,  ICE_PUNCH,    SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    FIRE_PUNCH,   \
+	     SWIFT,        SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE,   \
+		 STRENGTH
 	; end
 
 	db BANK(HitmonchanPicFront)

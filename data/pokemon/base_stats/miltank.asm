@@ -15,11 +15,11 @@
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SHADOW_BALL,  MEGA_KICK,    TOXIC,        BODY_SLAM,    \
-	     DOUBLE_EDGE,  ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   COUNTER,      \
-	     SEISMIC_TOSS, POWDER_SNOW,  THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    FIRE_PUNCH,   \
-	     HEADBUTT,     REST,         THUNDER_WAVE, ROCK_SLIDE,   SUBSTITUTE,   \
-		 SURF,         STRENGTH
+	     DOUBLE_EDGE,  ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   ICE_PUNCH,    \
+	     COUNTER,      SEISMIC_TOSS, POWDER_SNOW,  THUNDERBOLT,  THUNDER,      \
+	     EARTHQUAKE,   MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     FIRE_PUNCH,   HEADBUTT,     REST,         THUNDER_WAVE, ROCK_SLIDE,   \
+		 SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
 	db BANK(MiltankPicFront)

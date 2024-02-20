@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm SHADOW_BALL,  TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    HYPER_BEAM,   PAY_DAY,      THUNDERBOLT,  \
-	     THUNDER,      MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE
+	     BUBBLEBEAM,   WATER_GUN,    HYPER_BEAM,   THUNDERBOLT,  THUNDER,      \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        SKULL_BASH,   \
+	     HEADBUTT,     REST,         SUBSTITUTE
 	; end
 
 	db BANK(PersianPicFront)

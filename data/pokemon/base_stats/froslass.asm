@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm SHADOW_BALL,  TOXIC,        BODY_SLAM,    TAKE_DOWN,    ICE_BEAM,     \
-	     BLIZZARD,     HYPER_BEAM,   POWDER_SNOW,  THUNDERBOLT,  THUNDER,      \
-	     PSYCHIC_M,    DOUBLE_TEAM,  BIDE,         HEADBUTT,     DREAM_EATER,  \
-	     REST,         THUNDER_WAVE, SUBSTITUTE,   FLASH
+	     BLIZZARD,     HYPER_BEAM,   ICE_PUNCH,    POWDER_SNOW,  THUNDERBOLT,  \
+	     THUNDER,      PSYCHIC_M,    DOUBLE_TEAM,  BIDE,         HEADBUTT,     \
+	     DREAM_EATER,  REST,         THUNDER_WAVE, SUBSTITUTE,   FLASH
 	; end
 
 	db BANK(FroslassPicFront)
