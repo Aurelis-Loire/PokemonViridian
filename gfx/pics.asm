@@ -178,12 +178,12 @@ RaichuPicFront::      INCBIN "gfx/pokemon/front/raichu.pic"
 RaichuPicBack::       INCBIN "gfx/pokemon/back/raichub.pic"
 MamoswinePicFront::   INCBIN "gfx/pokemon/front/mamoswine.pic"
 MamoswinePicBack::    INCBIN "gfx/pokemon/back/mamoswineb.pic"
-DratiniPicFront::     INCBIN "gfx/pokemon/front/dratini.pic"
-DratiniPicBack::      INCBIN "gfx/pokemon/back/dratinib.pic"
 
 
 SECTION "Pics 4", ROMX
 
+DratiniPicFront::      INCBIN "gfx/pokemon/front/dratini.pic"
+DratiniPicBack::       INCBIN "gfx/pokemon/back/dratinib.pic"
 GarchompPicFront::     INCBIN "gfx/pokemon/front/garchomp.pic"
 GarchompPicBack::      INCBIN "gfx/pokemon/back/garchompb.pic"
 DragonairPicFront::    INCBIN "gfx/pokemon/front/dragonair.pic"
@@ -240,12 +240,12 @@ DugtrioPicFront::      INCBIN "gfx/pokemon/front/dugtrio.pic"
 DugtrioPicBack::       INCBIN "gfx/pokemon/back/dugtriob.pic"
 VenomothPicFront::     INCBIN "gfx/pokemon/front/venomoth.pic"
 VenomothPicBack::      INCBIN "gfx/pokemon/back/venomothb.pic"
-CaterpiePicFront::     INCBIN "gfx/pokemon/front/caterpie.pic"
-CaterpiePicBack::      INCBIN "gfx/pokemon/back/caterpieb.pic"
 
 
 SECTION "Pics 5", ROMX
 
+CaterpiePicFront::     INCBIN "gfx/pokemon/front/caterpie.pic"
+CaterpiePicBack::      INCBIN "gfx/pokemon/back/caterpieb.pic"
 MetapodPicFront::      INCBIN "gfx/pokemon/front/metapod.pic"
 MetapodPicBack::       INCBIN "gfx/pokemon/back/metapodb.pic"
 ButterfreePicFront::   INCBIN "gfx/pokemon/front/butterfree.pic"
