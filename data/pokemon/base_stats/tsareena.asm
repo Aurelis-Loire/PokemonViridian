@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/tsareena.pic", 0, 1 ; sprite dimensions
 	dw TsareenaPicFront, TsareenaPicBack
 
-	db RAZOR_LEAF, SWEET_SCENT, DOUBLESLAP, STOMP ; level 1 learnset
+	db SPLASH, GROWL, TACKLE, RAZOR_LEAF ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

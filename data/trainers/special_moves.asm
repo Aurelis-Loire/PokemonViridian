@@ -104,7 +104,7 @@ SpecialTrainerMoves:
 	db 0
 	
 	db RIVAL2, 10
-	db 1, 1, PSYBEAM
+	db 1, 1, DOUBLE_TEAM
 	db 3, 4, BITE
 	db 4, 1, RAZOR_LEAF
 	db 4, 4, SWEET_SCENT
@@ -113,7 +113,7 @@ SpecialTrainerMoves:
 	db 0
 	
 	db RIVAL2, 11
-	db 1, 1, PSYBEAM
+	db 1, 1, DOUBLE_TEAM
 	db 3, 1, WRAP
 	db 4, 4, BITE
 	db 6, 2, LEECH_SEED
@@ -121,8 +121,8 @@ SpecialTrainerMoves:
 	db 0
 	
 	db RIVAL2, 12
-	db 1, 1, PSYBEAM
-	db 3, 1, RAZOR_LEAF
+	db 1, 1, DOUBLE_TEAM
+	db 3, 2, RAZOR_LEAF
 	db 3, 4, SWEET_SCENT
 	db 4, 1, WRAP
 	db 6, 3, SMOKESCREEN

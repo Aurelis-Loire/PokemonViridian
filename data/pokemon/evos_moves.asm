@@ -1036,6 +1036,11 @@ TsareenaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 8, TACKLE
+	db 12, RAZOR_LEAF
+	db 17, SWEET_SCENT
+	db 27, DOUBLESLAP
+	db 29, STOMP
 	db 36, HI_JUMP_KICK
 	db 47, PETAL_DANCE
 	db 0
