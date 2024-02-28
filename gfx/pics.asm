@@ -284,8 +284,6 @@ AlakazamPicFront::     INCBIN "gfx/pokemon/front/alakazam.pic"
 AlakazamPicBack::      INCBIN "gfx/pokemon/back/alakazamb.pic"
 PidgeottoPicFront::    INCBIN "gfx/pokemon/front/pidgeotto.pic"
 PidgeottoPicBack::     INCBIN "gfx/pokemon/back/pidgeottob.pic"
-PidgeotPicFront::      INCBIN "gfx/pokemon/front/pidgeot.pic"
-PidgeotPicBack::       INCBIN "gfx/pokemon/back/pidgeotb.pic"
 
 
 SECTION "Pics 6", ROMX
@@ -338,6 +336,8 @@ LancePic::         INCBIN "gfx/trainers/john.pic"
 
 SECTION "Pics 7", ROMX
 
+PidgeotPicFront::      INCBIN "gfx/pokemon/front/pidgeot.pic"
+PidgeotPicBack::       INCBIN "gfx/pokemon/back/pidgeotb.pic"
 StarmiePicFront::      INCBIN "gfx/pokemon/front/starmie.pic"
 StarmiePicBack::       INCBIN "gfx/pokemon/back/starmieb.pic"
 BulbasaurPicFront::    INCBIN "gfx/pokemon/front/bulbasaur.pic"
