@@ -1237,7 +1237,7 @@ GarchompEvosMoves:
 ; Evolutions
     db 0
 ; Learnset
-	db 26, DRAGON_RAGE
+	db 7, DRAGON_RAGE
 	db 36, TAKE_DOWN
 	db 44, SAND_TOMB
 	db 53, SLASH
@@ -1482,7 +1482,7 @@ GibleEvosMoves:
     db EV_LEVEL, 24, GABITE
     db 0
 ; Learnset
-	db 25, DRAGON_RAGE
+	db 7, DRAGON_RAGE
 	db 32, TAKE_DOWN
 	db 39, SAND_TOMB
 	db 43, SLASH
@@ -1661,7 +1661,7 @@ GabiteEvosMoves:
 	db EV_LEVEL, 48, GARCHOMP
 	db 0
 ; Learnset
-	db 26, DRAGON_RAGE
+	db 7, DRAGON_RAGE
 	db 36, TAKE_DOWN
 	db 44, SAND_TOMB
 	db 52, SLASH
