@@ -1,15 +1,15 @@
 VictoryRoad2FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 22, CHANSEY
-	db 24, GYARADOS
-	db 26, ZUBAT
+	db 27, VOLTORB
+	db 32, KADABRA
+	db 37, GOLBAT
 	db 36, ONIX
 	db 39, ONIX
 	db 42, ONIX
-	db 41, BEEDRILL
-	db 40, GOLBAT
-	db 40, MAROWAK
-	db 43, BUTTERFREE
+	db 20, LARVITAR
+	db 41, GOLBAT
+	db 42, LUCARIO
+	db 44, MAROWAK
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

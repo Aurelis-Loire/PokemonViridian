@@ -1,15 +1,15 @@
 VictoryRoad3FWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 24, CHANSEY
-	db 26, GYARADOS
-	db 22, ZUBAT
+	db 28, VOLTORB
+	db 33, KADABRA
+	db 38, GOLBAT
 	db 42, ONIX
 	db 40, VENOMOTH
 	db 45, ONIX
-	db 43, BUTTERFREE
+	db 25, LARVITAR
+	db 43, LUCARIO
 	db 41, GOLBAT
-	db 42, BEEDRILL
-	db 45, BEEDRILL
+	db 29, LARVITAR
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
