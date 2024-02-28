@@ -111,7 +111,7 @@ EvosMovesPointerTable:
 	dw GibleEvosMoves
 	dw ZubatEvosMoves
 	dw EkansEvosMoves
-	dw MissingNo6DEvosMoves
+	dw PupitarEvosMoves
 	dw MissingNo6EEvosMoves
 	dw MissingNo6FEvosMoves
 	dw WeedleEvosMoves
@@ -140,7 +140,7 @@ EvosMovesPointerTable:
 	dw MissingNo87EvosMoves
 	dw MissingNo88EvosMoves
 	dw MissingNo89EvosMoves
-	dw KinglerEvosMoves
+	dw MissingNo8AEvosMoves
 	dw CloysterEvosMoves
 	dw MissingNo8CEvosMoves
 	dw ElectrodeEvosMoves
@@ -830,6 +830,7 @@ MagmarEvosMoves:
 
 LarvitarEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 30, PUPITAR
 	db 0
 ; Learnset
 	db 13, ROCK_THROW
@@ -1513,10 +1514,18 @@ EkansEvosMoves:
 	db 38, ACID
 	db 0
 
-MissingNo6DEvosMoves:
+PupitarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 13, ROCK_THROW
+	db 15, BITE
+	db 18, SCREECH
+	db 21, ROCK_SLIDE
+	db 26, THRASH
+	db 30, SCARY_FACE
+	db 38, EARTHQUAKE
+	db 49, HYPER_BEAM
 	db 0
 
 MissingNo6EEvosMoves:
@@ -1755,12 +1764,10 @@ MissingNo89EvosMoves:
 ; Learnset
 	db 0
 
-KinglerEvosMoves:
+MissingNo8AEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, STOMP
-	db 49, HARDEN
 	db 0
 
 CloysterEvosMoves:

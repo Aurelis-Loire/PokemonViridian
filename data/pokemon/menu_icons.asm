@@ -75,7 +75,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Leafeon
 	nybble ICON_MON       ; Gible
 	nybble ICON_MON       ; Gabite
-	nybble ICON_WATER     ; Kingler
+	nybble ICON_MON       ; Garchomp
 	nybble ICON_QUADRUPED ; Ponyta
 	nybble ICON_QUADRUPED ; Rapidash
 	nybble ICON_BIRD      ; Ducklett
@@ -133,7 +133,7 @@ MonPartyData:
 	nybble ICON_MON       ; Weezing
 	nybble ICON_MON       ; Porygon
 	nybble ICON_MON       ; Larvitar
-	nybble ICON_MON       ; Garchomp
+	nybble ICON_MON       ; Pupitar
 	nybble ICON_MON       ; Lucario
 	nybble ICON_HELIX     ; Omanyte
 	nybble ICON_HELIX     ; Omastar

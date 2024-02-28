@@ -114,7 +114,7 @@ CryData::
 	mon_cry SFX_CRY_11, $20, $F8 ; Gible
 	mon_cry SFX_CRY_1D, $E0, $80 ; Zubat
 	mon_cry SFX_CRY_17, $12, $40 ; Ekans
-	mon_cry SFX_CRY_1E, $20, $E0 ; MissingNo.
+	mon_cry SFX_CRY_1C, $D4, $55 ; Pupitar
 	mon_cry SFX_CRY_0E, $77, $60 ; MissingNo.
 	mon_cry SFX_CRY_0E, $00, $FF ; MissingNo.
 	mon_cry SFX_CRY_15, $EE, $01 ; Weedle
@@ -143,7 +143,7 @@ CryData::
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_07, $EF, $FF ; MissingNo.
 	mon_cry SFX_CRY_0F, $40, $80 ; MissingNo.
-	mon_cry SFX_CRY_20, $EE, $E0 ; Kingler
+	mon_cry SFX_CRY_20, $EE, $E0 ; MissingNo.
 	mon_cry SFX_CRY_18, $6F, $E0 ; Cloyster
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_06, $A8, $90 ; Electrode

@@ -108,7 +108,7 @@ PokedexEntryPointers:
 	dw GibleDexEntry
 	dw ZubatDexEntry
 	dw EkansDexEntry
-	dw MissingNoDexEntry
+	dw PupitarDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw WeedleDexEntry
@@ -137,7 +137,7 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw KinglerDexEntry
+	dw MissingNoDexEntry
 	dw CloysterDexEntry
 	dw MissingNoDexEntry
 	dw ElectrodeDexEntry
@@ -952,6 +952,13 @@ EkansDexEntry:
 	dw 150
 	text_far _EkansDexEntry
 	text_end
+	
+PupitarDexEntry:
+	db "HARD SHELL@"
+	db 3,11
+	dw 3351
+	text_far _PupitarDexEntry
+	text_end
 
 WeedleDexEntry:
 	db "HAIRY BUG@"
@@ -1063,13 +1070,6 @@ MagikarpDexEntry:
 	db 2,11
 	dw 220
 	text_far _MagikarpDexEntry
-	text_end
-
-KinglerDexEntry:
-	db "PINCER@"
-	db 4,3
-	dw 1320
-	text_far _KinglerDexEntry
 	text_end
 
 CloysterDexEntry:

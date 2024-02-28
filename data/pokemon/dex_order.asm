@@ -108,7 +108,7 @@ PokedexOrder:
 	db DEX_GIBLE
 	db DEX_ZUBAT
 	db DEX_EKANS
-	db 0 ; MISSINGNO.
+	db DEX_PUPITAR
 	db 0 ; MISSINGNO.
 	db 0 ; MISSINGNO.
 	db DEX_WEEDLE
@@ -137,7 +137,7 @@ PokedexOrder:
 	db 0 ; MISSINGNO.
 	db 0 ; MISSINGNO.
 	db 0 ; MISSINGNO.
-	db DEX_KINGLER
+	db 0 ; MISSINGNO.
 	db DEX_CLOYSTER
 	db 0 ; MISSINGNO.
 	db DEX_ELECTRODE

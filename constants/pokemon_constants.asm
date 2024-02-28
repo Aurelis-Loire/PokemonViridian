@@ -115,7 +115,7 @@
 	const GIBLE              ; $6A
 	const ZUBAT              ; $6B
 	const EKANS              ; $6C
-	const_skip               ; $6D
+	const PUPITAR            ; $6D
 	const_skip               ; $6E
 	const_skip               ; $6F
 	const WEEDLE             ; $70
@@ -144,7 +144,7 @@
 	const_skip               ; $87
 	const_skip               ; $88
 	const_skip               ; $89
-	const KINGLER            ; $8A
+	const_skip               ; $8A
 	const CLOYSTER           ; $8B
 	const_skip               ; $8C
 	const ELECTRODE          ; $8D

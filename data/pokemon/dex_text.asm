@@ -1071,6 +1071,16 @@ _EkansDexEntry::
 	next "PIDGEY and"
 	next "DUCKLETT, whole"
 	dex
+	
+_PupitarDexEntry::
+	text "Its shell is as"
+	next "hard as sheet"
+	next "rock, and it is"
+
+	page "also very strong."
+	next "Its Thrashing can"
+	next "topple a mountain"
+	dex
 
 _WeedleDexEntry::
 	text "Often found in"
@@ -1230,16 +1240,6 @@ _MagikarpDexEntry::
 	page "than the horribly"
 	next "weak descendants"
 	next "that exist today"
-	dex
-
-_KinglerDexEntry::
-	text "The large pincer"
-	next "has 10000 hp of"
-	next "crushing power."
-
-	page "However, its huge"
-	next "size makes it"
-	next "unwieldy to use"
 	dex
 
 _CloysterDexEntry::

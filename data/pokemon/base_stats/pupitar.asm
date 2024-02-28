@@ -1,16 +1,16 @@
-	db DEX_LARVITAR ; pokedex id
+	db DEX_PUPITAR ; pokedex id
 
-	db  50, 64,  50,  41,  50
+	db  70, 84,  70,  51,  70
 	;   hp  atk  def  spd  spc
 
 	db ROCK, GROUND ; type
 	db 45 ; catch rate
-	db 67 ; base exp
+	db 144 ; base exp
 
-	INCBIN "gfx/pokemon/front/larvitar.pic", 0, 1 ; sprite dimensions
-	dw LarvitarPicFront, LarvitarPicBack
+	INCBIN "gfx/pokemon/front/pupitar.pic", 0, 1 ; sprite dimensions
+	dw PupitarPicFront, PupitarPicBack
 
-	db TACKLE, LEER, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, LEER, ROCK_THROW, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
@@ -19,5 +19,5 @@
 	     REST,         ROCK_SLIDE,   SUBSTITUTE
 	; end
 
-	db BANK(LarvitarPicFront)
-	assert BANK(LarvitarPicFront) == BANK(LarvitarPicBack)
+	db BANK(PupitarPicFront)
+	assert BANK(PupitarPicFront) == BANK(PupitarPicBack)

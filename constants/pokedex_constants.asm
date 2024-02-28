@@ -79,7 +79,7 @@
 	const DEX_LEAFEON    ; 73
 	const DEX_GIBLE      ; 74
 	const DEX_GABITE     ; 75
-	const DEX_KINGLER    ; 76
+	const DEX_GARCHOMP   ; 76
 	const DEX_PONYTA     ; 77
 	const DEX_RAPIDASH   ; 78
 	const DEX_DUCKLETT   ; 79
@@ -137,7 +137,7 @@
 	const DEX_WEEZING    ; 131
 	const DEX_PORYGON    ; 132
 	const DEX_LARVITAR   ; 133
-	const DEX_GARCHOMP   ; 134
+	const DEX_PUPITAR    ; 134
 	const DEX_LUCARIO    ; 135	
 	const DEX_OMANYTE    ; 136
 	const DEX_OMASTAR    ; 136
