@@ -1,25 +1,15 @@
 Route23WildMons:
 	def_grass_wildmons 10 ; encounter rate
-IF DEF(_RED)
-	db 26, EKANS
-ENDC
-IF DEF(_BLUE)
-	db 26, CLEFABLE
-ENDC
-	db 33, HITMONCHAN
-	db 26, NIDORAN
-	db 38, BLASTOISE
-	db 38, HITMONCHAN
-	db 38, BLASTOISE
-IF DEF(_RED)
+	db 36, ARBOK
+	db 33, BUTTERFREE
+	db 33, DUCKLETT
+	db 38, SWANNA
+	db 38, BUTTERFREE
+	db 41, SWANNA
 	db 41, ARBOK
-ENDC
-IF DEF(_BLUE)
-	db 41, NINETALES
-ENDC
-	db 43, HITMONCHAN
-	db 41, BLASTOISE
-	db 43, BLASTOISE
+	db 42, SWANNA
+	db 41, AMPHAROS
+	db 43, SWANNA
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
