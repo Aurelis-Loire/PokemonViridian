@@ -134,7 +134,7 @@
 	const DEX_GOLURK     ; 128
 	const DEX_FRIGIBAX   ; 129
 	const DEX_ARCTIBAX   ; 130
-	const DEX_WEEZING    ; 131
+	const DEX_TYRANITAR  ; 131
 	const DEX_PORYGON    ; 132
 	const DEX_LARVITAR   ; 133
 	const DEX_PUPITAR    ; 134

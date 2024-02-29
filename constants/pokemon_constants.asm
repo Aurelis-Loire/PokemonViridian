@@ -116,7 +116,7 @@
 	const ZUBAT              ; $6B
 	const EKANS              ; $6C
 	const PUPITAR            ; $6D
-	const_skip               ; $6E
+	const TYRANITAR          ; $6E
 	const_skip               ; $6F
 	const WEEDLE             ; $70
 	const KAKUNA             ; $71
@@ -149,7 +149,7 @@
 	const_skip               ; $8C
 	const ELECTRODE          ; $8D
 	const CLEFABLE           ; $8E
-	const WEEZING            ; $8F
+	const_skip               ; $8F
 	const PERSIAN            ; $90
 	const MAROWAK            ; $91
 	const_skip               ; $92

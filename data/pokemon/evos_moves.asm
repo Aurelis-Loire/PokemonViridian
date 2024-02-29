@@ -112,7 +112,7 @@ EvosMovesPointerTable:
 	dw ZubatEvosMoves
 	dw EkansEvosMoves
 	dw PupitarEvosMoves
-	dw MissingNo6EEvosMoves
+	dw TyranitarEvosMoves
 	dw MissingNo6FEvosMoves
 	dw WeedleEvosMoves
 	dw KakunaEvosMoves
@@ -145,7 +145,7 @@ EvosMovesPointerTable:
 	dw MissingNo8CEvosMoves
 	dw ElectrodeEvosMoves
 	dw ClefableEvosMoves
-	dw WeezingEvosMoves
+	dw MissingNo8FEvosMoves
 	dw PersianEvosMoves
 	dw MarowakEvosMoves
 	dw MissingNo92EvosMoves
@@ -540,7 +540,7 @@ BlastoiseEvosMoves:
 	db 31, HAZE
 	db 42, MIST
 	db 55, SKULL_BASH
-	db 56, HYDRO_PUMP
+	db 68, HYDRO_PUMP
 	db 0
 
 RaltsEvosMoves:
@@ -1516,6 +1516,7 @@ EkansEvosMoves:
 
 PupitarEvosMoves:
 ; Evolutions
+    db EV_LEVEL, 55, TYRANITAR
 	db 0
 ; Learnset
 	db 13, ROCK_THROW
@@ -1528,10 +1529,18 @@ PupitarEvosMoves:
 	db 49, HYPER_BEAM
 	db 0
 
-MissingNo6EEvosMoves:
+TyranitarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 13, ROCK_THROW
+	db 15, BITE
+	db 18, SCREECH
+	db 21, ROCK_SLIDE
+	db 26, THRASH
+	db 30, SCARY_FACE
+	db 38, EARTHQUAKE
+	db 49, HYPER_BEAM
 	db 0
 
 MissingNo6FEvosMoves:
@@ -1811,14 +1820,10 @@ ClefableEvosMoves:
 	db 48, LIGHT_SCREEN
 	db 0
 
-WeezingEvosMoves:
+MissingNo8FEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 39, SMOKESCREEN
-	db 43, SELFDESTRUCT
-	db 49, HAZE
-	db 53, EXPLOSION
 	db 0
 
 PersianEvosMoves:
@@ -2145,7 +2150,7 @@ SquirtleEvosMoves:
 	db 28, HAZE
 	db 33, MIST
 	db 40, SKULL_BASH
-	db 42, HYDRO_PUMP
+	db 47, HYDRO_PUMP
 	db 0
 
 CharmeleonEvosMoves:
@@ -2176,7 +2181,7 @@ WartortleEvosMoves:
 	db 31, HAZE
 	db 37, MIST
 	db 45, SKULL_BASH
-	db 47, HYDRO_PUMP
+	db 53, HYDRO_PUMP
 	db 0
 
 CharizardEvosMoves:

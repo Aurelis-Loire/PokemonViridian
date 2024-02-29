@@ -1081,6 +1081,16 @@ _PupitarDexEntry::
 	next "Its Thrashing can"
 	next "topple a mountain"
 	dex
+	
+_TyranitarDexEntry::
+	text "Its body can't be"
+	next "harmed by any sort"
+	next "of attack, so it"
+
+	page "is very eager to"
+	next "make challenges"
+	next "against enemies"
+	dex
 
 _WeedleDexEntry::
 	text "Often found in"
@@ -1270,16 +1280,6 @@ _ClefableDexEntry::
 	page "will run and hide"
 	next "the moment it"
 	next "senses people"
-	dex
-
-_WeezingDexEntry::
-	text "Where two kinds"
-	next "of poison gases"
-	next "meet, 2 KOFFINGs"
-
-	page "can fuse into a"
-	next "WEEZING over many"
-	next "years"
 	dex
 
 _PersianDexEntry::

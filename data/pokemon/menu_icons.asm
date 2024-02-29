@@ -130,7 +130,7 @@ MonPartyData:
 	nybble ICON_MON       ; Golurk
 	nybble ICON_MON       ; Frigibax
 	nybble ICON_MON       ; Arctibax
-	nybble ICON_MON       ; Weezing
+	nybble ICON_MON       ; Tyranitar
 	nybble ICON_MON       ; Porygon
 	nybble ICON_MON       ; Larvitar
 	nybble ICON_MON       ; Pupitar

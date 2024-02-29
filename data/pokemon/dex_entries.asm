@@ -109,7 +109,7 @@ PokedexEntryPointers:
 	dw ZubatDexEntry
 	dw EkansDexEntry
 	dw PupitarDexEntry
-	dw MissingNoDexEntry
+	dw TyranitarDexEntry
 	dw MissingNoDexEntry
 	dw WeedleDexEntry
 	dw KakunaDexEntry
@@ -142,7 +142,7 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw ElectrodeDexEntry
 	dw ClefableDexEntry
-	dw WeezingDexEntry
+	dw MissingNoDexEntry
 	dw PersianDexEntry
 	dw MarowakDexEntry
 	dw MissingNoDexEntry
@@ -959,6 +959,13 @@ PupitarDexEntry:
 	dw 3351
 	text_far _PupitarDexEntry
 	text_end
+	
+TyranitarDexEntry:
+	db "ARMOR@"
+	db 6,7
+	dw 4453
+	text_far _TyranitarDexEntry
+	text_end
 
 WeedleDexEntry:
 	db "HAIRY BUG@"
@@ -1091,13 +1098,6 @@ ClefableDexEntry:
 	db 4,3
 	dw 880
 	text_far _ClefableDexEntry
-	text_end
-
-WeezingDexEntry:
-	db "POISON GAS@"
-	db 3,11
-	dw 210
-	text_far _WeezingDexEntry
 	text_end
 
 PersianDexEntry:

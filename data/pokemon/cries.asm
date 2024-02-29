@@ -115,7 +115,7 @@ CryData::
 	mon_cry SFX_CRY_1D, $E0, $80 ; Zubat
 	mon_cry SFX_CRY_17, $12, $40 ; Ekans
 	mon_cry SFX_CRY_1C, $D4, $55 ; Pupitar
-	mon_cry SFX_CRY_0E, $77, $60 ; MissingNo.
+	mon_cry SFX_CRY_1C, $91, $1D ; Tyranitar
 	mon_cry SFX_CRY_0E, $00, $FF ; MissingNo.
 	mon_cry SFX_CRY_15, $EE, $01 ; Weedle
 	mon_cry SFX_CRY_13, $FF, $01 ; Kakuna
