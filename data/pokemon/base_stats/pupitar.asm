@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/pupitar.pic", 0, 1 ; sprite dimensions
 	dw PupitarPicFront, PupitarPicBack
 
-	db TACKLE, LEER, ROCK_THROW, NO_MOVE ; level 1 learnset
+	db TACKLE, LEER, FOCUS_ENERGY, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

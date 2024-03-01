@@ -833,7 +833,7 @@ LarvitarEvosMoves:
 	db EV_LEVEL, 30, PUPITAR
 	db 0
 ; Learnset
-	db 13, ROCK_THROW
+	db 13, FOCUS_ENERGY
 	db 15, BITE
 	db 18, SCREECH
 	db 21, ROCK_SLIDE
@@ -1239,10 +1239,11 @@ GarchompEvosMoves:
     db 0
 ; Learnset
 	db 7, DRAGON_RAGE
-	db 36, TAKE_DOWN
-	db 44, SAND_TOMB
-	db 53, SLASH
-    db 55, DIG
+	db 13, SCARY_FACE
+	db 19, TAKE_DOWN
+	db 26, SAND_TOMB
+	db 34, SLASH
+    db 43, DIG
 	db 0
 
 MamoswineEvosMoves:
@@ -1484,10 +1485,11 @@ GibleEvosMoves:
     db 0
 ; Learnset
 	db 7, DRAGON_RAGE
-	db 32, TAKE_DOWN
-	db 39, SAND_TOMB
-	db 43, SLASH
-    db 46, DIG
+	db 13, SCARY_FACE
+	db 19, TAKE_DOWN
+	db 25, SAND_TOMB
+	db 31, SLASH
+    db 37, DIG
 	db 0
 
 ZubatEvosMoves:
@@ -1519,7 +1521,7 @@ PupitarEvosMoves:
     db EV_LEVEL, 55, TYRANITAR
 	db 0
 ; Learnset
-	db 13, ROCK_THROW
+	db 13, FOCUS_ENERGY
 	db 15, BITE
 	db 18, SCREECH
 	db 21, ROCK_SLIDE
@@ -1533,7 +1535,7 @@ TyranitarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, ROCK_THROW
+	db 13, FOCUS_ENERGY
 	db 15, BITE
 	db 18, SCREECH
 	db 21, ROCK_SLIDE
@@ -1569,11 +1571,12 @@ BeedrillEvosMoves:
 	db 0
 ; Learnset
 	db 10, FURY_ATTACK
-	db 16, FOCUS_ENERGY
+	db 15, FOCUS_ENERGY
 	db 20, TWINEEDLE
 	db 25, RAGE
-	db 30, PIN_MISSILE
-	db 35, AGILITY
+	db 30, QUICK_ATTACK
+	db 35, PIN_MISSILE
+	db 40, AGILITY
 	db 0
 
 MissingNo73EvosMoves:
@@ -1680,10 +1683,11 @@ GabiteEvosMoves:
 	db 0
 ; Learnset
 	db 7, DRAGON_RAGE
-	db 36, TAKE_DOWN
-	db 44, SAND_TOMB
-	db 52, SLASH
-    db 53, DIG
+	db 13, SCARY_FACE
+	db 19, TAKE_DOWN
+	db 26, SAND_TOMB
+	db 34, SLASH
+    db 43, DIG
 	db 0
 
 MissingNo7FEvosMoves:
