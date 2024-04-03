@@ -169,6 +169,7 @@ AttackAnimationPointers:
 	dw SynthesisAnim
 	dw ScaryFaceAnim
 	dw MeditateAnim
+	dw CrunchAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -1176,6 +1177,11 @@ MeditateAnim:
 	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_CLOSING, 1, 6
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+	
+CrunchAnim:
+	battle_anim CRUNCH, SUBANIM_0_STAR_THRICE, 0, 8
+	battle_anim CRUNCH, SUBANIM_0_STAR_THRICE, 0, 8
 	db -1 ; end
 
 BallTossAnim:

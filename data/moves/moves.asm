@@ -180,5 +180,6 @@ Moves:
 	move SYNTHESIS,    HEAL_EFFECT,                  0, GRASS,        100, 5
 	move SCARY_FACE,   SPEED_DOWN2_EFFECT,           0, NORMAL,        90, 10
 	move MEDITATE,     ATTACK_UP1_EFFECT,            0, PSYCHIC_TYPE, 100, 40
+	move CRUNCH,       DEFENSE_DOWN_SIDE_EFFECT,    80, NORMAL,       100, 15
 	move STRUGGLE,     RECOIL_EFFECT,               50, DRAGON,       100, 10
 	assert_table_length NUM_ATTACKS

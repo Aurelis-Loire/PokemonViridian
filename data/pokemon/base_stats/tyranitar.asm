@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/tyranitar.pic", 0, 1 ; sprite dimensions
 	dw TyranitarPicFront, TyranitarPicBack
 
-	db TACKLE, LEER, FOCUS_ENERGY, BITE ; level 1 learnset
+	db LEER, FOCUS_ENERGY, BITE, SCREECH ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

@@ -833,12 +833,12 @@ LarvitarEvosMoves:
 	db EV_LEVEL, 30, PUPITAR
 	db 0
 ; Learnset
-	db 13, FOCUS_ENERGY
-	db 15, BITE
-	db 18, SCREECH
-	db 21, ROCK_SLIDE
-	db 26, THRASH
-	db 30, SCARY_FACE
+	db 13, BITE
+	db 15, SCREECH
+	db 18, ROCK_SLIDE
+	db 21, THRASH
+	db 26, SCARY_FACE
+	db 30, CRUNCH
 	db 33, EARTHQUAKE
 	db 42, HYPER_BEAM
 	db 0
@@ -1244,6 +1244,7 @@ GarchompEvosMoves:
 	db 26, SAND_TOMB
 	db 34, SLASH
     db 43, DIG
+	db 52, CRUNCH
 	db 0
 
 MamoswineEvosMoves:
@@ -1521,12 +1522,12 @@ PupitarEvosMoves:
     db EV_LEVEL, 55, TYRANITAR
 	db 0
 ; Learnset
-	db 13, FOCUS_ENERGY
-	db 15, BITE
-	db 18, SCREECH
-	db 21, ROCK_SLIDE
-	db 26, THRASH
-	db 30, SCARY_FACE
+	db 13, BITE
+	db 15, SCREECH
+	db 18, ROCK_SLIDE
+	db 21, THRASH
+	db 26, SCARY_FACE
+	db 30, CRUNCH
 	db 38, EARTHQUAKE
 	db 49, HYPER_BEAM
 	db 0
@@ -1535,12 +1536,12 @@ TyranitarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, FOCUS_ENERGY
-	db 15, BITE
-	db 18, SCREECH
-	db 21, ROCK_SLIDE
-	db 26, THRASH
-	db 30, SCARY_FACE
+	db 13, BITE
+	db 15, SCREECH
+	db 18, ROCK_SLIDE
+	db 21, THRASH
+	db 26, SCARY_FACE
+	db 30, CRUNCH
 	db 38, EARTHQUAKE
 	db 49, HYPER_BEAM
 	db 0

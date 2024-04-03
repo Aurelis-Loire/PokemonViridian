@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/larvitar.pic", 0, 1 ; sprite dimensions
 	dw LarvitarPicFront, LarvitarPicBack
 
-	db TACKLE, LEER, NO_MOVE, NO_MOVE ; level 1 learnset
+	db LEER, FOCUS_ENERGY, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
