@@ -388,10 +388,10 @@ FrigibaxEvosMoves:
 ; Learnset
 	db 16, LEER
 	db 19, DRAGON_TAIL
-	db 25, FOCUS_ENERGY
-	db 31, BITE
-	db 38, TAKE_DOWN
-	db 45, ICE_BEAM
+	db 25, DRAGONBREATH
+	db 31, FOCUS_ENERGY
+	db 38, BITE
+	db 45, TAKE_DOWN
 	db 0
 
 CuboneEvosMoves:
@@ -635,7 +635,8 @@ PidgeyEvosMoves:
 	db 0
 ; Learnset
 	db 5, SAND_ATTACK
-	db 12, QUICK_ATTACK
+	db 9, GUST
+	db 15, QUICK_ATTACK
 	db 19, WHIRLWIND
 	db 28, WING_ATTACK
 	db 36, AGILITY
@@ -1171,10 +1172,10 @@ ArctibaxEvosMoves:
 ; Learnset
 	db 16, LEER
 	db 19, DRAGON_TAIL
-	db 25, FOCUS_ENERGY
-	db 31, BITE
-	db 41, TAKE_DOWN
-	db 49, ICE_BEAM
+	db 25, DRAGONBREATH
+	db 31, FOCUS_ENERGY
+	db 41, BITE
+	db 49, TAKE_DOWN
 	db 0
 
 VulpixEvosMoves:
@@ -1238,13 +1239,14 @@ GarchompEvosMoves:
 ; Evolutions
     db 0
 ; Learnset
-	db 7, DRAGON_RAGE
-	db 13, SCARY_FACE
-	db 19, TAKE_DOWN
-	db 26, SAND_TOMB
-	db 34, SLASH
-    db 43, DIG
-	db 52, CRUNCH
+	db 7, DRAGONBREATH
+	db 13, DRAGON_RAGE
+	db 19, SCARY_FACE
+	db 26, TAKE_DOWN
+	db 34, SAND_TOMB
+	db 43, SLASH
+    db 53, DIG
+	db 61, CRUNCH
 	db 0
 
 MamoswineEvosMoves:
@@ -1412,10 +1414,10 @@ BaxcaliburEvosMoves:
 ; Learnset
 	db 16, LEER
 	db 19, DRAGON_TAIL
-	db 25, FOCUS_ENERGY
-	db 31, BITE
-	db 41, TAKE_DOWN
-	db 49, ICE_BEAM
+	db 25, DRAGONBREATH
+	db 31, FOCUS_ENERGY
+	db 41, BITE
+	db 49, TAKE_DOWN
 	db 0
 
 EeveeEvosMoves:
@@ -1485,12 +1487,13 @@ GibleEvosMoves:
     db EV_LEVEL, 24, GABITE
     db 0
 ; Learnset
-	db 7, DRAGON_RAGE
-	db 13, SCARY_FACE
-	db 19, TAKE_DOWN
-	db 25, SAND_TOMB
-	db 31, SLASH
-    db 37, DIG
+	db 7, DRAGONBREATH
+	db 13, DRAGON_RAGE
+	db 19, SCARY_FACE
+	db 25, TAKE_DOWN
+	db 31, SAND_TOMB
+	db 37, SLASH
+    db 43, DIG
 	db 0
 
 ZubatEvosMoves:
@@ -1683,12 +1686,13 @@ GabiteEvosMoves:
 	db EV_LEVEL, 48, GARCHOMP
 	db 0
 ; Learnset
-	db 7, DRAGON_RAGE
-	db 13, SCARY_FACE
-	db 19, TAKE_DOWN
-	db 26, SAND_TOMB
-	db 34, SLASH
-    db 43, DIG
+	db 7, DRAGONBREATH
+	db 13, DRAGON_RAGE
+	db 19, SCARY_FACE
+	db 26, TAKE_DOWN
+	db 34, SAND_TOMB
+	db 43, SLASH
+    db 52, DIG
 	db 0
 
 MissingNo7FEvosMoves:
@@ -1897,7 +1901,8 @@ PidgeottoEvosMoves:
 	db 0
 ; Learnset
 	db 5, SAND_ATTACK
-	db 12, QUICK_ATTACK
+	db 9, GUST
+	db 15, QUICK_ATTACK
 	db 21, WHIRLWIND
 	db 31, WING_ATTACK
 	db 40, AGILITY
@@ -1909,7 +1914,8 @@ PidgeotEvosMoves:
 	db 0
 ; Learnset
 	db 5, SAND_ATTACK
-	db 12, QUICK_ATTACK
+	db 9, GUST
+	db 15, QUICK_ATTACK
 	db 21, WHIRLWIND
 	db 31, WING_ATTACK
 	db 44, AGILITY

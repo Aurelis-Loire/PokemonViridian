@@ -170,6 +170,7 @@ AttackAnimationPointers:
 	dw ScaryFaceAnim
 	dw MeditateAnim
 	dw CrunchAnim
+	dw DragonBreathAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -1182,6 +1183,12 @@ MeditateAnim:
 CrunchAnim:
 	battle_anim CRUNCH, SUBANIM_0_STAR_THRICE, 0, 8
 	battle_anim CRUNCH, SUBANIM_0_STAR_THRICE, 0, 8
+	db -1 ; end
+	
+DragonBreathAnim:
+	battle_anim DRAGONBREATH, SUBANIM_1_FLAME_BEAM, 1, 6
+	battle_anim DRAGONBREATH, SUBANIM_1_LIGHTNING_BALL, 1, 2
+	battle_anim NO_MOVE, SUBANIM_0_BIND, 0, 2
 	db -1 ; end
 
 BallTossAnim:

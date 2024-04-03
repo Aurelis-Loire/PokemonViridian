@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/baxcalibur.pic", 0, 1 ; sprite dimensions
 	dw BaxcaliburPicFront, BaxcaliburPicBack
 
-	db FOCUS_ENERGY, BITE, TAKE_DOWN, ICE_BEAM ; level 1 learnset
+	db TACKLE, LEER, DRAGON_TAIL, DRAGONBREATH ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

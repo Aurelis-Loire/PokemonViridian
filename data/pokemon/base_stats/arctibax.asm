@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/arctibax.pic", 0, 1 ; sprite dimensions
 	dw ArctibaxPicFront, ArctibaxPicBack
 
-	db LEER, DRAGON_TAIL, FOCUS_ENERGY, BITE ; level 1 learnset
+	db TACKLE, LEER, DRAGON_TAIL, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

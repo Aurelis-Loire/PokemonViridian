@@ -170,5 +170,6 @@ MoveNames::
 	li "SCARY FACE"
 	li "MEDITATE"
 	li "CRUNCH"
+	li "DRAGONBREATH"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

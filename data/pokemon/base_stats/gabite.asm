@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/gabite.pic", 0, 1 ; sprite dimensions
 	dw GabitePicFront, GabitePicBack
 
-	db TACKLE, SAND_ATTACK, DRAGON_RAGE, NO_MOVE ; level 1 learnset
+	db TACKLE, SAND_ATTACK, DRAGONBREATH, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
