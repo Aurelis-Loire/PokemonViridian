@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SHADOW_BALL,  MEGA_KICK,    TOXIC,        ICE_BEAM,     \
 	     ICE_PUNCH,    POWDER_SNOW,  EARTHQUAKE,   PSYCHIC_M,    DOUBLE_TEAM,  \
-	     SELFDESTRUCT, FIRE_PUNCH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
-		 STRENGTH,     FLASH
+	     THUNDERPUNCH, SELFDESTRUCT, FIRE_PUNCH,   REST,         ROCK_SLIDE,   \
+		 SUBSTITUTE,   STRENGTH,     FLASH
 	; end
 
 	db BANK(GolettPicFront)

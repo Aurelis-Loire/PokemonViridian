@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm SHADOW_BALL,  TOXIC,        BODY_SLAM,    DOUBLE_EDGE,  ICE_PUNCH,    \
 	     THUNDERBOLT,  PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     FIRE_PUNCH,   HEADBUTT,     DREAM_EATER,  REST,         THUNDER_WAVE, \
-		 SUBSTITUTE,   FLASH
+	     THUNDERPUNCH, FIRE_PUNCH,   HEADBUTT,     DREAM_EATER,  REST,         \
+		 THUNDER_WAVE, SUBSTITUTE,   FLASH
 	; end
 
 	db BANK(KirliaPicFront)

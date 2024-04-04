@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   MEGA_DRAIN,   \
 	     SOLARBEAM,    PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         SELFDESTRUCT, HEADBUTT,     REST,         PSYWAVE,      \
-	     EXPLOSION,    SUBSTITUTE,   STRENGTH
+	     SELFDESTRUCT, HEADBUTT,     REST,         PSYWAVE,      EXPLOSION,    \
+	     SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(ExeggutorPicFront)

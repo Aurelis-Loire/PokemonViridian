@@ -17,9 +17,8 @@
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     ICE_PUNCH,    SUBMISSION,   COUNTER,      SEISMIC_TOSS, POWDER_SNOW,  \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE,   SURF,         \
-		 STRENGTH
+	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      SKULL_BASH,   \
+	     HEADBUTT,     REST,         SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
 	db BANK(WartortlePicFront)

@@ -15,9 +15,8 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        TAKE_DOWN,    THUNDERBOLT,  THUNDER,      MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         SELFDESTRUCT, SWIFT,        \
-	     HEADBUTT,     REST,         THUNDER_WAVE, EXPLOSION,    SUBSTITUTE,   \
-		 FLASH
+	     DOUBLE_TEAM,  REFLECT,      SELFDESTRUCT, SWIFT,        HEADBUTT,     \
+	     REST,         THUNDER_WAVE, EXPLOSION,    SUBSTITUTE,   FLASH
 	; end
 
 	db BANK(VoltorbPicFront)

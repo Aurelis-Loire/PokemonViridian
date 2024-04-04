@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   POWDER_SNOW,  \
-	     DRAGON_RAGE,  EARTHQUAKE,   DRAGON_TAIL,  DIG,          MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         SKULL_BASH,   REST,         SUBSTITUTE
+	     DRAGON_RAGE,  EARTHQUAKE,   DRAGONBREATH, DIG,          MIMIC,        \
+	     DOUBLE_TEAM,  SKULL_BASH,   REST,         SUBSTITUTE
 	; end
 
 	db BANK(BaxcaliburPicFront)

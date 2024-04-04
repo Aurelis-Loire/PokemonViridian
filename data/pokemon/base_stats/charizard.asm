@@ -16,10 +16,10 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, MEGA_KICK,    TOXIC,        BODY_SLAM,    \
 	     TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      \
-	     SEISMIC_TOSS, DRAGON_RAGE,  EARTHQUAKE,   DRAGON_TAIL,  DIG,          \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_PUNCH,   \
-	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   HEADBUTT,     REST,         \
-	     ROCK_SLIDE,   SUBSTITUTE,   CUT,          FLY,          STRENGTH
+	     SEISMIC_TOSS, DRAGON_RAGE,  EARTHQUAKE,   DRAGONBREATH, DIG,          \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      FIRE_PUNCH,   FIRE_BLAST,   \
+	     SWIFT,        SKULL_BASH,   HEADBUTT,     REST,         ROCK_SLIDE,   \
+	     SUBSTITUTE,   CUT,          FLY,          STRENGTH
 	; end
 
 	db BANK(CharizardPicFront)

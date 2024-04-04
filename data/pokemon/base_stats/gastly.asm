@@ -15,8 +15,8 @@
 
 	; tm/hm learnset
 	tmhm SHADOW_BALL,  TOXIC,        MEGA_DRAIN,   THUNDERBOLT,  THUNDER,      \
-	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, \
-	     DREAM_EATER,  REST,         PSYWAVE,      EXPLOSION,    SUBSTITUTE
+	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  SELFDESTRUCT, DREAM_EATER,  \
+	     REST,         PSYWAVE,      EXPLOSION,    SUBSTITUTE
 	; end
 
 	db BANK(GastlyPicFront)

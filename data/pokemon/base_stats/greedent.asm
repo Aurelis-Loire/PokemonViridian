@@ -16,8 +16,7 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    HYPER_BEAM,   COUNTER,      EARTHQUAKE,   DIG,          \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SKULL_BASH,   REST,         \
-		 SUBSTITUTE
+	     MIMIC,        DOUBLE_TEAM,  SKULL_BASH,   REST,         SUBSTITUTE
 	; end
 
 	db BANK(GreedentPicFront)

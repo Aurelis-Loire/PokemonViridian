@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  ICE_BEAM,     \
 	     BLIZZARD,     POWDER_SNOW,  DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   HEADBUTT,     \
-		 REST,         SUBSTITUTE
+	     REFLECT,      SWIFT,        SKULL_BASH,   HEADBUTT,     REST,         \
+		 SUBSTITUTE
 	; end
 
 	db BANK(VulpixPicFront)

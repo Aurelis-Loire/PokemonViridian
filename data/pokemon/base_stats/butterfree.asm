@@ -16,8 +16,7 @@
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     MEGA_DRAIN,   SOLARBEAM,    PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SWIFT,        REST,         PSYWAVE,      \
-	     SUBSTITUTE
+	     REFLECT,      SWIFT,        REST,         PSYWAVE,      SUBSTITUTE
 	; end
 
 	db BANK(ButterfreePicFront)

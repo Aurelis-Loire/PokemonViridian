@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  THUNDERPUNCH, METRONOME,    \
 	     FIRE_PUNCH,   FIRE_BLAST,   SKULL_BASH,   HEADBUTT,     REST,         \
 	     PSYWAVE,      SUBSTITUTE,   STRENGTH
 	; end

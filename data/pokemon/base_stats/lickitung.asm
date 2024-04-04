@@ -18,9 +18,9 @@
 	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
 	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   ICE_PUNCH,    SUBMISSION,   \
 	     COUNTER,      SEISMIC_TOSS, POWDER_SNOW,  THUNDERBOLT,  THUNDER,      \
-	     EARTHQUAKE,   DRAGON_TAIL,  MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     FIRE_PUNCH,   FIRE_BLAST,   SKULL_BASH,   HEADBUTT,     REST,         \
-		 SUBSTITUTE,   CUT,          SURF,         STRENGTH
+	     EARTHQUAKE,   MIMIC,        DOUBLE_TEAM,  THUNDERPUNCH, FIRE_PUNCH,   \
+	     FIRE_BLAST,   SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE,   \
+		 CUT,          SURF,         STRENGTH
 	; end
 
 	db BANK(LickitungPicFront)

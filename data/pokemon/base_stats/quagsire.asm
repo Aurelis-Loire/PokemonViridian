@@ -17,8 +17,8 @@
 	tmhm TOXIC,        SLUDGE_BOMB,  BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   ICE_PUNCH,    \
 	     POWDER_SNOW,  EARTHQUAKE,   DIG,          MIMIC,        DOUBLE_TEAM,  \
-		 BIDE,         HEADBUTT,     REST,         ROCK_SLIDE,   SUBSTITUTE,   \
-		 SURF,         STRENGTH,     FLASH
+		 HEADBUTT,     REST,         ROCK_SLIDE,   SUBSTITUTE,   SURF,         \
+		 STRENGTH,     FLASH
 	; end
 
 	db BANK(QuagsirePicFront)

@@ -15,8 +15,8 @@
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     REST,         SUBSTITUTE
+	     MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  SWIFT,        REST,         \
+	     SUBSTITUTE
 	; end
 
 	db BANK(GolbatPicFront)

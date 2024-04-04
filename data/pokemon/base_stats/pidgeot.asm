@@ -15,8 +15,8 @@
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        \
-	     SKY_ATTACK,   REST,         SUBSTITUTE,   FLY
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      SWIFT,        SKY_ATTACK,   \
+	     REST,         SUBSTITUTE,   FLY
 	; end
 
 	db BANK(PidgeotPicFront)
