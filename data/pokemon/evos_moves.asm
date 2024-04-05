@@ -589,7 +589,7 @@ DucklettEvosMoves:
 ; Learnset
 	db 9, WING_ATTACK
 	db 15, BUBBLEBEAM
-	db 22, GUST
+	db 22, DRILL_PECK
 	db 29, WATERFALL
 	db 36, WATER_PULSE
 	db 0
@@ -637,8 +637,8 @@ PidgeyEvosMoves:
 	db 5, SAND_ATTACK
 	db 9, GUST
 	db 15, QUICK_ATTACK
-	db 19, WHIRLWIND
-	db 28, WING_ATTACK
+	db 21, WHIRLWIND
+	db 29, WING_ATTACK
 	db 36, AGILITY
 	db 44, MIRROR_MOVE
 	db 0
@@ -761,8 +761,7 @@ MiltankEvosMoves:
 	db 20, DEFENSE_CURL
 	db 25, STOMP
 	db 34, SOFTBOILED
-	db 42, BIDE
-	db 49, BODY_SLAM
+	db 43, BODY_SLAM
 	db 0
 
 PsyduckEvosMoves:
@@ -872,7 +871,7 @@ MiloticEvosMoves:
 	db 0
 ; Learnset
 	db 28, REFRESH
-	db 33, DRAGON_TAIL
+	db 33, TWISTER
 	db 38, RECOVER
 	db 43, CONFUSE_RAY
 	db 48, HYDRO_PUMP
@@ -1007,7 +1006,8 @@ DragoniteEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, THUNDER_WAVE
+	db 8, THUNDER_WAVE
+	db 15, TWISTER
 	db 20, AGILITY
 	db 35, SLAM
 	db 45, DRAGON_RAGE
@@ -1064,6 +1064,10 @@ SwannaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 9, WING_ATTACK
+	db 15, BUBBLEBEAM
+	db 22, DRILL_PECK
+	db 29, WATERFALL
 	db 43, WATER_PULSE
 	db 0
 
@@ -1265,7 +1269,8 @@ DratiniEvosMoves:
 	db EV_LEVEL, 30, DRAGONAIR
 	db 0
 ; Learnset
-	db 10, THUNDER_WAVE
+	db 8, THUNDER_WAVE
+	db 15, TWISTER
 	db 20, AGILITY
 	db 30, SLAM
 	db 40, DRAGON_RAGE
@@ -1277,7 +1282,8 @@ DragonairEvosMoves:
 	db EV_LEVEL, 55, DRAGONITE
 	db 0
 ; Learnset
-	db 10, THUNDER_WAVE
+	db 8, THUNDER_WAVE
+	db 15, TWISTER
 	db 20, AGILITY
 	db 35, SLAM
 	db 45, DRAGON_RAGE
@@ -1903,8 +1909,8 @@ PidgeottoEvosMoves:
 	db 5, SAND_ATTACK
 	db 9, GUST
 	db 15, QUICK_ATTACK
-	db 21, WHIRLWIND
-	db 31, WING_ATTACK
+	db 23, WHIRLWIND
+	db 33, WING_ATTACK
 	db 40, AGILITY
 	db 49, MIRROR_MOVE
 	db 0
@@ -1916,8 +1922,8 @@ PidgeotEvosMoves:
 	db 5, SAND_ATTACK
 	db 9, GUST
 	db 15, QUICK_ATTACK
-	db 21, WHIRLWIND
-	db 31, WING_ATTACK
+	db 23, WHIRLWIND
+	db 33, WING_ATTACK
 	db 44, AGILITY
 	db 54, MIRROR_MOVE
 	db 0

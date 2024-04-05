@@ -6,7 +6,7 @@ ExclamationPointMoveSets:
 
 ; set 1
 	db RECOVER
-	db BIDE
+	db TWISTER
 	db SELFDESTRUCT
 	db AMNESIA
 	db 0 ; end set

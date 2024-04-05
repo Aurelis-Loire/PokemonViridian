@@ -3486,10 +3486,10 @@ CheckPlayerStatusConditions:
 .ParalysisCheck
 	ld hl, wBattleMonStatus
 	bit PAR, [hl]
-	jr z, .BideCheck
+	;jr z, .BideCheck ; No more Bide.
 	call BattleRandom
 	cp $3F ; 25% to be fully paralyzed
-	jr nc, .BideCheck
+	;jr nc, .BideCheck ; No more Bide.
 	ld hl, FullyParalyzedText
 	call PrintText
 
@@ -3515,55 +3515,56 @@ CheckPlayerStatusConditions:
 	ld hl, ExecutePlayerMoveDone
 	jp .returnToHL ; if using a two-turn move, we need to recharge the first turn
 
-.BideCheck
-	ld hl, wPlayerBattleStatus1
-	bit STORING_ENERGY, [hl] ; is mon using bide?
-	jr z, .ThrashingAboutCheck
-	xor a
-	ld [wPlayerMoveNum], a
-	ld hl, wDamage
-	ld a, [hli]
-	ld b, a
-	ld c, [hl]
-	ld hl, wPlayerBideAccumulatedDamage + 1
-	ld a, [hl]
-	add c ; accumulate damage taken
-	ld [hld], a
-	ld a, [hl]
-	adc b
-	ld [hl], a
-	ld hl, wPlayerNumAttacksLeft
-	dec [hl] ; did Bide counter hit 0?
-	jr z, .UnleashEnergy
-	ld hl, ExecutePlayerMoveDone
-	jp .returnToHL ; unless mon unleashes energy, can't move this turn
-.UnleashEnergy
-	ld hl, wPlayerBattleStatus1
-	res STORING_ENERGY, [hl] ; not using bide any more
-	ld hl, UnleashedEnergyText
-	call PrintText
-	ld a, 1
-	ld [wPlayerMovePower], a
-	ld hl, wPlayerBideAccumulatedDamage + 1
-	ld a, [hld]
-	add a
-	ld b, a
-	ld [wDamage + 1], a
-	ld a, [hl]
-	rl a ; double the damage
-	ld [wDamage], a
-	or b
-	jr nz, .next
-	ld a, 1
-	ld [wMoveMissed], a
-.next
-	xor a
-	ld [hli], a
-	ld [hl], a
-	ld a, BIDE
-	ld [wPlayerMoveNum], a
-	ld hl, handleIfPlayerMoveMissed ; skip damage calculation, DecrementPP and MoveHitTest
-	jp .returnToHL
+;;;Removed Bide from the game.
+;.BideCheck
+;	ld hl, wPlayerBattleStatus1
+;	bit STORING_ENERGY, [hl] ; is mon using bide?
+;	jr z, .ThrashingAboutCheck
+;	xor a
+;	ld [wPlayerMoveNum], a
+;	ld hl, wDamage
+;	ld a, [hli]
+;	ld b, a
+;	ld c, [hl]
+;	ld hl, wPlayerBideAccumulatedDamage + 1
+;	ld a, [hl]
+;	add c ; accumulate damage taken
+;	ld [hld], a
+;	ld a, [hl]
+;	adc b
+;	ld [hl], a
+;	ld hl, wPlayerNumAttacksLeft
+;	dec [hl] ; did Bide counter hit 0?
+;	jr z, .UnleashEnergy
+;	ld hl, ExecutePlayerMoveDone
+;	jp .returnToHL ; unless mon unleashes energy, can't move this turn
+;.UnleashEnergy
+;	ld hl, wPlayerBattleStatus1
+;	res STORING_ENERGY, [hl] ; not using bide any more
+;	ld hl, UnleashedEnergyText
+;	call PrintText
+;	ld a, 1
+;	ld [wPlayerMovePower], a
+;	ld hl, wPlayerBideAccumulatedDamage + 1
+;	ld a, [hld]
+;	add a
+;	ld b, a
+;	ld [wDamage + 1], a
+;	ld a, [hl]
+;	rl a ; double the damage
+;	ld [wDamage], a
+;	or b
+;	jr nz, .next
+;	ld a, 1
+;	ld [wMoveMissed], a
+;.next
+;	xor a
+;	ld [hli], a
+;	ld [hl], a
+;	ld a, BIDE
+;	ld [wPlayerMoveNum], a
+;	ld hl, handleIfPlayerMoveMissed ; skip damage calculation, DecrementPP and MoveHitTest
+;	jp .returnToHL
 
 .ThrashingAboutCheck
 	bit THRASHING_ABOUT, [hl] ; is mon using thrash or petal dance?
@@ -6120,10 +6121,10 @@ CheckEnemyStatusConditions:
 .checkIfParalysed
 	ld hl, wEnemyMonStatus
 	bit PAR, [hl]
-	jr z, .checkIfUsingBide
+	;jr z, .checkIfUsingBide ; No more Bide.
 	call BattleRandom
 	cp 25 percent ; chance to be fully paralysed
-	jr nc, .checkIfUsingBide
+	;jr nc, .checkIfUsingBide ; No more Bide.
 	ld hl, FullyParalyzedText
 	call PrintText
 .monHurtItselfOrFullyParalysed
@@ -6146,56 +6147,57 @@ CheckEnemyStatusConditions:
 .notFlyOrChargeEffect
 	ld hl, ExecuteEnemyMoveDone
 	jp .enemyReturnToHL ; if using a two-turn move, enemy needs to recharge the first turn
-.checkIfUsingBide
-	ld hl, wEnemyBattleStatus1
-	bit STORING_ENERGY, [hl] ; is mon using bide?
-	jr z, .checkIfThrashingAbout
-	xor a
-	ld [wEnemyMoveNum], a
-	ld hl, wDamage
-	ld a, [hli]
-	ld b, a
-	ld c, [hl]
-	ld hl, wEnemyBideAccumulatedDamage + 1
-	ld a, [hl]
-	add c ; accumulate damage taken
-	ld [hld], a
-	ld a, [hl]
-	adc b
-	ld [hl], a
-	ld hl, wEnemyNumAttacksLeft
-	dec [hl] ; did Bide counter hit 0?
-	jr z, .unleashEnergy
-	ld hl, ExecuteEnemyMoveDone
-	jp .enemyReturnToHL ; unless mon unleashes energy, can't move this turn
-.unleashEnergy
-	ld hl, wEnemyBattleStatus1
-	res STORING_ENERGY, [hl] ; not using bide any more
-	ld hl, UnleashedEnergyText
-	call PrintText
-	ld a, $1
-	ld [wEnemyMovePower], a
-	ld hl, wEnemyBideAccumulatedDamage + 1
-	ld a, [hld]
-	add a
-	ld b, a
-	ld [wDamage + 1], a
-	ld a, [hl]
-	rl a ; double the damage
-	ld [wDamage], a
-	or b
-	jr nz, .next
-	ld a, $1
-	ld [wMoveMissed], a
-.next
-	xor a
-	ld [hli], a
-	ld [hl], a
-	ld a, BIDE
-	ld [wEnemyMoveNum], a
-	call SwapPlayerAndEnemyLevels
-	ld hl, handleIfEnemyMoveMissed ; skip damage calculation, DecrementPP and MoveHitTest
-	jp .enemyReturnToHL
+;;; No more bide.
+;.checkIfUsingBide
+;	ld hl, wEnemyBattleStatus1
+;	bit STORING_ENERGY, [hl] ; is mon using bide?
+;	jr z, .checkIfThrashingAbout
+;	xor a
+;	ld [wEnemyMoveNum], a
+;	ld hl, wDamage
+;	ld a, [hli]
+;	ld b, a
+;	ld c, [hl]
+;	ld hl, wEnemyBideAccumulatedDamage + 1
+;	ld a, [hl]
+;	add c ; accumulate damage taken
+;	ld [hld], a
+;	ld a, [hl]
+;	adc b
+;	ld [hl], a
+;	ld hl, wEnemyNumAttacksLeft
+;	dec [hl] ; did Bide counter hit 0?
+;	jr z, .unleashEnergy
+;	ld hl, ExecuteEnemyMoveDone
+;	jp .enemyReturnToHL ; unless mon unleashes energy, can't move this turn
+;.unleashEnergy
+;	ld hl, wEnemyBattleStatus1
+;	res STORING_ENERGY, [hl] ; not using bide any more
+;	ld hl, UnleashedEnergyText
+;	call PrintText
+;	ld a, $1
+;	ld [wEnemyMovePower], a
+;	ld hl, wEnemyBideAccumulatedDamage + 1
+;	ld a, [hld]
+;	add a
+;	ld b, a
+;	ld [wDamage + 1], a
+;	ld a, [hl]
+;	rl a ; double the damage
+;	ld [wDamage], a
+;	or b
+;	jr nz, .next
+;	ld a, $1
+;	ld [wMoveMissed], a
+;.next
+;	xor a
+;	ld [hli], a
+;	ld [hl], a
+;	ld a, BIDE
+;	ld [wEnemyMoveNum], a
+;	call SwapPlayerAndEnemyLevels
+;	ld hl, handleIfEnemyMoveMissed ; skip damage calculation, DecrementPP and MoveHitTest
+;	jp .enemyReturnToHL
 .checkIfThrashingAbout
 	bit THRASHING_ABOUT, [hl] ; is mon using thrash or petal dance?
 	jr z, .checkIfUsingMultiturnMove
