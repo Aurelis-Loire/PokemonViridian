@@ -182,7 +182,9 @@ SpecialTrainerMoves:
 	db 0
 	
 	db GIOVANNI, 3
-	db 1, 2, BLIZZARD
+	db 1, 1, REST
+	db 1, 3, BLIZZARD
+	db 1, 4, HYPER_BEAM
 	db 2, 2, HYDRO_PUMP
 	db 3, 1, DRAGON_RAGE
 	db 4, 1, BLIZZARD
