@@ -162,12 +162,12 @@ MeowthPicFront::      INCBIN "gfx/pokemon/front/meowth.pic"
 MeowthPicBack::       INCBIN "gfx/pokemon/back/meowthb.pic"
 FroslassPicFront::    INCBIN "gfx/pokemon/front/froslass.pic"
 FroslassPicBack::     INCBIN "gfx/pokemon/back/froslassb.pic"
-ToxicroakPicFront::   INCBIN "gfx/pokemon/front/toxicroak.pic"
-ToxicroakPicBack::    INCBIN "gfx/pokemon/back/toxicroakb.pic"
 
 
 SECTION "Pics 4", ROMX
 
+ToxicroakPicFront::   INCBIN "gfx/pokemon/front/toxicroak.pic"
+ToxicroakPicBack::    INCBIN "gfx/pokemon/back/toxicroakb.pic"
 LucarioPicFront::      INCBIN "gfx/pokemon/front/lucario.pic"
 LucarioPicBack::       INCBIN "gfx/pokemon/back/lucariob.pic"
 ArctibaxPicFront::     INCBIN "gfx/pokemon/front/arctibax.pic"
@@ -224,12 +224,12 @@ GiblePicFront::        INCBIN "gfx/pokemon/front/gible.pic"
 GiblePicBack::         INCBIN "gfx/pokemon/back/gibleb.pic"
 ZubatPicFront::        INCBIN "gfx/pokemon/front/zubat.pic"
 ZubatPicBack::         INCBIN "gfx/pokemon/back/zubatb.pic"
-EkansPicFront::        INCBIN "gfx/pokemon/front/ekans.pic"
-EkansPicBack::         INCBIN "gfx/pokemon/back/ekansb.pic"
 
 
 SECTION "Pics 5", ROMX
 
+EkansPicFront::        INCBIN "gfx/pokemon/front/ekans.pic"
+EkansPicBack::         INCBIN "gfx/pokemon/back/ekansb.pic"
 PupitarPicFront::      INCBIN "gfx/pokemon/front/pupitar.pic"
 PupitarPicBack::       INCBIN "gfx/pokemon/back/pupitarb.pic"
 TyranitarPicFront::    INCBIN "gfx/pokemon/front/tyranitar.pic"
@@ -268,8 +268,6 @@ MagikarpPicFront::     INCBIN "gfx/pokemon/front/magikarp.pic"
 MagikarpPicBack::      INCBIN "gfx/pokemon/back/magikarpb.pic"
 CloysterPicFront::     INCBIN "gfx/pokemon/front/cloyster.pic"
 CloysterPicBack::      INCBIN "gfx/pokemon/back/cloysterb.pic"
-ElectrodePicFront::    INCBIN "gfx/pokemon/front/electrode.pic"
-ElectrodePicBack::     INCBIN "gfx/pokemon/back/electrodeb.pic"
 
 
 SECTION "Pics 6", ROMX
@@ -322,6 +320,8 @@ LancePic::         INCBIN "gfx/trainers/john.pic"
 
 SECTION "Pics 7", ROMX
 
+ElectrodePicFront::    INCBIN "gfx/pokemon/front/electrode.pic"
+ElectrodePicBack::     INCBIN "gfx/pokemon/back/electrodeb.pic"
 ClefablePicFront::     INCBIN "gfx/pokemon/front/clefable.pic"
 ClefablePicBack::      INCBIN "gfx/pokemon/back/clefableb.pic"
 PersianPicFront::      INCBIN "gfx/pokemon/front/persian.pic"
@@ -369,11 +369,11 @@ WartortlePicBack::     INCBIN "gfx/pokemon/back/wartortleb.pic"
 CharizardPicFront::    INCBIN "gfx/pokemon/front/charizard.pic"
 CharizardPicBack::     INCBIN "gfx/pokemon/back/charizardb.pic"
 FossilKabutopsPic::    INCBIN "gfx/pokemon/front/fossilkabutops.pic"
-FossilAerodactylPic::  INCBIN "gfx/pokemon/front/fossilaerodactyl.pic"
-GhostPic::             INCBIN "gfx/battle/ghost.pic"
 
 SECTION "Pics 8", ROMX
 
+FossilAerodactylPic::  INCBIN "gfx/pokemon/front/fossilaerodactyl.pic"
+GhostPic::             INCBIN "gfx/battle/ghost.pic"
 ChiefPic::
 ProfOakPic::           INCBIN "gfx/trainers/prof.oak.pic"
 RedPicBack::           INCBIN "gfx/player/redb.pic"
