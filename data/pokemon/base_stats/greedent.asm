@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/greedent.pic", 0, 1 ; sprite dimensions
 	dw GreedentPicFront, GreedentPicBack
 
-	db BITE, BODY_SLAM, REST, NO_MOVE ; level 1 learnset
+	db TACKLE, TAIL_WHIP, BITE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

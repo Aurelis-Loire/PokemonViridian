@@ -224,8 +224,8 @@ SkwovetEvosMoves:
 	db 0
 ; Learnset
 	db 7,  BITE
-	db 14, BODY_SLAM
-	db 23, REST
+	db 13, BODY_SLAM
+	db 20, REST
 	db 34, COUNTER
 	db 0
 
@@ -639,8 +639,8 @@ PidgeyEvosMoves:
 	db 15, QUICK_ATTACK
 	db 21, WHIRLWIND
 	db 29, WING_ATTACK
-	db 36, AGILITY
-	db 44, MIRROR_MOVE
+	db 37, AGILITY
+	db 47, MIRROR_MOVE
 	db 0
 
 SlowpokeEvosMoves:
@@ -728,6 +728,9 @@ GreedentEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 7,  BITE
+	db 13, BODY_SLAM
+	db 20, REST
 	db 24, BULLET_SEED
 	db 41, COUNTER
 	db 0
@@ -1008,9 +1011,10 @@ DragoniteEvosMoves:
 ; Learnset
 	db 8, THUNDER_WAVE
 	db 15, TWISTER
-	db 20, AGILITY
-	db 35, SLAM
-	db 45, DRAGON_RAGE
+	db 22, DRAGON_RAGE
+	db 29, SLAM
+	db 38, AGILITY
+	db 47, SAFEGUARD
 	db 60, HYPER_BEAM
 	db 0
 
@@ -1271,9 +1275,10 @@ DratiniEvosMoves:
 ; Learnset
 	db 8, THUNDER_WAVE
 	db 15, TWISTER
-	db 20, AGILITY
-	db 30, SLAM
-	db 40, DRAGON_RAGE
+	db 22, DRAGON_RAGE
+	db 29, SLAM
+	db 36, AGILITY
+	db 43, SAFEGUARD
 	db 50, HYPER_BEAM
 	db 0
 
@@ -1284,9 +1289,10 @@ DragonairEvosMoves:
 ; Learnset
 	db 8, THUNDER_WAVE
 	db 15, TWISTER
-	db 20, AGILITY
-	db 35, SLAM
-	db 45, DRAGON_RAGE
+	db 22, DRAGON_RAGE
+	db 29, SLAM
+	db 38, AGILITY
+	db 47, SAFEGUARD
 	db 55, HYPER_BEAM
 	db 0
 
@@ -1911,8 +1917,8 @@ PidgeottoEvosMoves:
 	db 15, QUICK_ATTACK
 	db 23, WHIRLWIND
 	db 33, WING_ATTACK
-	db 40, AGILITY
-	db 49, MIRROR_MOVE
+	db 43, AGILITY
+	db 55, MIRROR_MOVE
 	db 0
 
 PidgeotEvosMoves:
@@ -1924,8 +1930,8 @@ PidgeotEvosMoves:
 	db 15, QUICK_ATTACK
 	db 23, WHIRLWIND
 	db 33, WING_ATTACK
-	db 44, AGILITY
-	db 54, MIRROR_MOVE
+	db 46, AGILITY
+	db 61, MIRROR_MOVE
 	db 0
 
 StarmieEvosMoves:
