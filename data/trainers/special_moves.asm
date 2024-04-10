@@ -186,7 +186,11 @@ SpecialTrainerMoves:
 	db 1, 3, BLIZZARD
 	db 1, 4, HYPER_BEAM
 	db 2, 2, HYDRO_PUMP
-	db 3, 1, DRAGON_RAGE
+	db 2, 3, BLIZZARD
+	db 3, 1, EARTHQUAKE
+	db 3, 2, FIRE_BLAST
+	db 3, 3, FLY
+	db 3, 4, SWORDS_DANCE
 	db 4, 1, BLIZZARD
 	db 4, 2, DRAGONBREATH
 	db 4, 3, HYPER_BEAM
