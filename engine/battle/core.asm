@@ -3487,9 +3487,11 @@ CheckPlayerStatusConditions:
 	ld hl, wBattleMonStatus
 	bit PAR, [hl]
 	;jr z, .BideCheck ; No more Bide.
+	jr z, .ThrashingAboutCheck ; Jump straight to thrash check.
 	call BattleRandom
 	cp $3F ; 25% to be fully paralyzed
 	;jr nc, .BideCheck ; No more Bide.
+	jr nc, .ThrashingAboutCheck ; Jump straight to thrash check.
 	ld hl, FullyParalyzedText
 	call PrintText
 
@@ -6122,9 +6124,11 @@ CheckEnemyStatusConditions:
 	ld hl, wEnemyMonStatus
 	bit PAR, [hl]
 	;jr z, .checkIfUsingBide ; No more Bide.
+	jr z, .checkIfThrashingAbout ; Jump straight to thrash check.
 	call BattleRandom
 	cp 25 percent ; chance to be fully paralysed
 	;jr nc, .checkIfUsingBide ; No more Bide.
+	jr nc, .checkIfThrashingAbout ; Jump straight to thrash check.
 	ld hl, FullyParalyzedText
 	call PrintText
 .monHurtItselfOrFullyParalysed
