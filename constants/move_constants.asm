@@ -177,7 +177,8 @@
 	const MEDITATE     ; a9
 	const CRUNCH	   ; aa
 	const DRAGONBREATH ; ab
-	const STRUGGLE     ; ac
+	const OUTRAGE      ; ac
+	const STRUGGLE     ; ad
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

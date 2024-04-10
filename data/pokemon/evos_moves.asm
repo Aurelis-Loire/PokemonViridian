@@ -226,7 +226,7 @@ SkwovetEvosMoves:
 	db 7,  BITE
 	db 13, BODY_SLAM
 	db 20, REST
-	db 34, COUNTER
+	db 34, BULLET_SEED
 	db 0
 
 ClefairyEvosMoves:
@@ -731,8 +731,8 @@ GreedentEvosMoves:
 	db 7,  BITE
 	db 13, BODY_SLAM
 	db 20, REST
-	db 24, BULLET_SEED
-	db 41, COUNTER
+    db 24, COUNTER
+	db 41, BULLET_SEED
 	db 0
 
 HitmonchanEvosMoves:
@@ -1015,6 +1015,7 @@ DragoniteEvosMoves:
 	db 29, SLAM
 	db 38, AGILITY
 	db 47, SAFEGUARD
+	db 55, WING_ATTACK
 	db 60, HYPER_BEAM
 	db 0
 

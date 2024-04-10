@@ -171,6 +171,7 @@ AttackAnimationPointers:
 	dw MeditateAnim
 	dw CrunchAnim
 	dw DragonBreathAnim
+	dw OutrageAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -895,7 +896,7 @@ FocusEnergyAnim:
 
 TwisterAnim:
 	battle_anim TWISTER, SUBANIM_1_TORNADO, 1, 6
-	battle_anim POUND, SUBANIM_0_STAR_TWICE, 0, 8
+	battle_anim POUND, SUBANIM_0_STAR_TWICE, 0, 5
 	db -1 ; end
 
 MetronomeAnim:
@@ -1190,6 +1191,12 @@ DragonBreathAnim:
 	battle_anim DRAGONBREATH, SUBANIM_1_FLAME_BEAM, 1, 6
 	battle_anim DRAGONBREATH, SUBANIM_1_LIGHTNING_BALL, 1, 2
 	battle_anim NO_MOVE, SUBANIM_0_BIND, 0, 2
+	db -1 ; end
+	
+OutrageAnim:
+	battle_anim OUTRAGE, SE_BLINK_MON
+	battle_anim OUTRAGE, SUBANIM_0_STAR_THRICE, 0, 4
+	battle_anim OUTRAGE, SUBANIM_0_STAR_THRICE, 0, 4
 	db -1 ; end
 
 BallTossAnim:

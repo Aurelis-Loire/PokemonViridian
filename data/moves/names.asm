@@ -171,5 +171,6 @@ MoveNames::
 	li "MEDITATE"
 	li "CRUNCH"
 	li "DRAGONBREATH"
+	li "OUTRAGE"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS
