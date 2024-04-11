@@ -137,15 +137,16 @@ CalcEnemyStatEXP:
 .loop
 	ld de, $0000
 	ld e, a	;load level into low nybble of de
-	;sla e	;multiply de by 4
-	;rl d
-	;sla e	
-	;rl d
+	sla e	;multiply de by 4
+	rl d
+	add hl, de
+	sla e	
+	rl d
 	add hl, de	;add 12[level] + 50 to hl
 	;add hl, de
 	;add hl, de
-	;ld de, $0032
-	;add hl, de
+	ld de, $0019
+	add hl, de
 	inc a
 	cp b
 	jr nz, .loop
