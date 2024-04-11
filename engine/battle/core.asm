@@ -6337,6 +6337,54 @@ LoadEnemyMonData:
 	ld b, $0
 	ld hl, wEnemyMonHP
 	push hl
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;joenote - assign calculated stat exp to all stats if this is a trainer ai battle 
+
+;is this a trainer battle? Wild pkmn do not have statexp
+	ld a, [wIsInBattle]
+	cp $2 ; is it a trainer battle?
+	jr nz, .nottrainer2	;not a trainer battle, so hl will continue to point to wEnemyMonHP and b=0 for CalcStats
+	
+;this is a trainer battle, so point hl to the HP statExp address of the correct mon in the enemy party data
+	ld hl, wEnemyMon1HPExp	;make hl point to HP statExp of the first enemy party mon
+	ld a, [wWhichPokemon]	;get the party position
+	ld bc, wEnemyMon2 - wEnemyMon1	;get the size to advance between party positions
+	call AddNTimes	;advance the pointer to the correct party position
+	dec hl	;move the pointer back one position so it points at party data wEnemyMon<x>HPExp - 1
+	;save this position to recall it later
+	ld a, h
+	ld [wUnusedD153], a
+	ld a, l
+	ld [wUnusedD153 + 1], a
+	
+;has this pkmn been sent out before? If so, then it already has statExp values
+	push hl
+	callfar CheckAISentOut
+	pop hl
+	jr nz, .noloops
+	
+;the pkmn is out for the first time, so give it some statExp
+	push de	;preserve de
+	push hl
+	callfar CalcEnemyStatEXP	;based on the enemy pkmn level, get a stat exp amount into de 
+	pop hl
+	push hl	;save position for party data wEnemyMon<x>HPExp - 1
+	inc hl ; move hl forward one position to MSB of first stat exp
+	ld b, $05	;load loops into b to loop through the five stats
+.writeStatExp_loop
+	ld a, d	;set some statExp for MSB
+	ld [hli], a		;load MSB and point hl to the LSB position
+	ld a, e	;set some statExp for LSB
+	ld [hli], a		;load LSB and point hl to MSB of next statexp location
+	dec b
+	jr nz, .writeStatExp_loop
+	
+	pop hl	;point hl back to the saved position for party data wEnemyMon<x>HPExp - 1
+	pop de	;restore the prior de
+.noloops
+	ld b, $1	;make CalcStats account for statExp and recognize that hl points to wEnemyMon<x>HPExp - 1
+.nottrainer2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	call CalcStats
 	pop hl
 	ld a, [wIsInBattle]
@@ -6364,6 +6412,29 @@ LoadEnemyMonData:
 	ld [wEnemyMonHP], a
 	ld a, [hli]
 	ld [wEnemyMonHP + 1], a
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;joenote - if this is a trainer battle and it's the first time the pkmn is sent out
+;		   then make sure it's current hp = it's max hp
+
+	ld a, [wIsInBattle]
+	cp $2 ; is it a trainer battle?
+	jr nz, .nottrainer3
+	
+	;has pkmn already been sent out?
+	push bc
+	push hl
+	callfar CheckAISentOut
+	pop hl
+	pop bc
+	jr nz, .nottrainer3
+	
+;set hp equal to max hp
+	ld a, [wEnemyMonMaxHP]
+	ld [wEnemyMonHP], a
+	ld a, [wEnemyMonMaxHP+1]
+	ld [wEnemyMonHP + 1], a
+.nottrainer3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	ld a, [wWhichPokemon]
 	ld [wEnemyMonPartyPos], a
 	inc hl

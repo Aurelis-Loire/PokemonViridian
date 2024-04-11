@@ -356,3 +356,7 @@ INCLUDE "data/battle_anims/subanimations.asm"
 INCLUDE "data/battle_anims/frame_blocks.asm"
 INCLUDE "engine/movie/evolution.asm"
 INCLUDE "engine/overworld/elevator.asm"
+
+SECTION "Custom Functions", ROMX
+
+INCLUDE "engine/custom/func_ai.asm"
