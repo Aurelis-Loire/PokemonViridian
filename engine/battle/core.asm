@@ -4775,6 +4775,18 @@ HandleCounterMove:
 	jr z, .counterableType
 	cp FIGHTING
 	jr z, .counterableType
+	cp FLYING
+	jr z, .counterableType
+	cp POISON
+	jr z, .counterableType
+	cp GROUND
+	jr z, .counterableType
+	cp ROCK
+	jr z, .counterableType
+	cp GHOST
+	jr z, .counterableType
+	cp BUG
+	jr z, .counterableType
 ; if the move wasn't Normal or Fighting type, miss
 	xor a
 	ret
