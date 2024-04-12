@@ -117,7 +117,7 @@
 	const EKANS              ; $6C
 	const PUPITAR            ; $6D
 	const TYRANITAR          ; $6E
-	const_skip               ; $6F
+	const SPECTRIER          ; $6F
 	const WEEDLE             ; $70
 	const KAKUNA             ; $71
 	const BEEDRILL           ; $72
@@ -176,7 +176,7 @@
 	const_skip               ; $A7
 	const_skip               ; $A8
 	const_skip               ; $A9
-	const PORYGON            ; $AA
+	const_skip               ; $AA
 	const AERODACTYL         ; $AB
 	const_skip               ; $AC
 	const MAGNEMITE          ; $AD

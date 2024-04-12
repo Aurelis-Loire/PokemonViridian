@@ -1091,6 +1091,16 @@ _TyranitarDexEntry::
 	next "make challenges"
 	next "against enemies"
 	dex
+	
+_SpectrierDexEntry::
+	text "It probes its"
+	next "surroundings with"
+	next "all its senses"
+
+	page "save one--it"
+	next "doesn't use its"
+	next "sense of sight"
+	dex
 
 _WeedleDexEntry::
 	text "Often found in"
@@ -1420,16 +1430,6 @@ _RapidashDexEntry::
 	page "that moves fast"
 	next "in the hopes of"
 	next "racing it"
-	dex
-
-_PorygonDexEntry::
-	text "A #MON that"
-	next "consists entirely"
-	next "of programming"
-
-	page "code. Capable of"
-	next "moving freely in"
-	next "cyberspace"
 	dex
 
 _AerodactylDexEntry::

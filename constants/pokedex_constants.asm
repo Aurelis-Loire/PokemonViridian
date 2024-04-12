@@ -135,7 +135,7 @@
 	const DEX_FRIGIBAX   ; 129
 	const DEX_ARCTIBAX   ; 130
 	const DEX_TYRANITAR  ; 131
-	const DEX_PORYGON    ; 132
+	const DEX_SPECTRIER  ; 132
 	const DEX_LARVITAR   ; 133
 	const DEX_PUPITAR    ; 134
 	const DEX_LUCARIO    ; 135	

@@ -110,7 +110,7 @@ PokedexEntryPointers:
 	dw EkansDexEntry
 	dw PupitarDexEntry
 	dw TyranitarDexEntry
-	dw MissingNoDexEntry
+	dw SpectrierDexEntry
 	dw WeedleDexEntry
 	dw KakunaDexEntry
 	dw BeedrillDexEntry
@@ -169,7 +169,7 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw PorygonDexEntry
+	dw MissingNoDexEntry
 	dw AerodactylDexEntry
 	dw MissingNoDexEntry
 	dw MagnemiteDexEntry
@@ -966,6 +966,13 @@ TyranitarDexEntry:
 	dw 4453
 	text_far _TyranitarDexEntry
 	text_end
+	
+SpectrierDexEntry:
+	db "SWIFTHORSE@"
+	db 6,7
+	dw 981
+	text_far _SpectrierDexEntry
+	text_end
 
 WeedleDexEntry:
 	db "HAIRY BUG@"
@@ -1196,13 +1203,6 @@ RapidashDexEntry:
 	db 5,7
 	dw 2090
 	text_far _RapidashDexEntry
-	text_end
-
-PorygonDexEntry:
-	db "VIRTUAL@"
-	db 2,7
-	dw 800
-	text_far _PorygonDexEntry
 	text_end
 
 AerodactylDexEntry:

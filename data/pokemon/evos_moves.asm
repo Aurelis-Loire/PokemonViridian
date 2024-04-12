@@ -113,7 +113,7 @@ EvosMovesPointerTable:
 	dw EkansEvosMoves
 	dw PupitarEvosMoves
 	dw TyranitarEvosMoves
-	dw MissingNo6FEvosMoves
+	dw SpectrierEvosMoves
 	dw WeedleEvosMoves
 	dw KakunaEvosMoves
 	dw BeedrillEvosMoves
@@ -172,7 +172,7 @@ EvosMovesPointerTable:
 	dw MissingNoA7EvosMoves
 	dw MissingNoA8EvosMoves
 	dw MissingNoA9EvosMoves
-	dw PorygonEvosMoves
+	dw MissingNoAAEvosMoves
 	dw AerodactylEvosMoves
 	dw MissingNoACEvosMoves
 	dw MagnemiteEvosMoves
@@ -1562,11 +1562,13 @@ TyranitarEvosMoves:
 	db 49, HYPER_BEAM
 	db 0
 
-MissingNo6FEvosMoves:
+SpectrierEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 0
+	db 51, DOUBLE_KICK
+	db 55, STOMP
+	db 60, CONFUSE_RAY
 
 WeedleEvosMoves:
 ; Evolutions
@@ -2095,14 +2097,10 @@ MissingNoA9EvosMoves:
 ; Learnset
 	db 0
 
-PorygonEvosMoves:
+MissingNoAAEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 23, PSYBEAM
-	db 28, RECOVER
-	db 35, AGILITY
-	db 42, TRI_ATTACK
 	db 0
 
 AerodactylEvosMoves:

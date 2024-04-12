@@ -131,7 +131,7 @@ MonPartyData:
 	nybble ICON_MON       ; Frigibax
 	nybble ICON_MON       ; Arctibax
 	nybble ICON_MON       ; Tyranitar
-	nybble ICON_MON       ; Porygon
+	nybble ICON_QUADRUPED ; Spectrier
 	nybble ICON_MON       ; Larvitar
 	nybble ICON_MON       ; Pupitar
 	nybble ICON_MON       ; Lucario
