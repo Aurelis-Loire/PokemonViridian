@@ -14,7 +14,8 @@ SpecialTrainerMoves:
 	db 0
 	
 	db COOLTRAINER_M, 1
-	db 2, 1, WRAP
+	db 1, 2, DRAGONBREATH
+	db 2, 4, THUNDER_WAVE
 	db 0
 	
 	db COOLTRAINER_M, 9
@@ -108,7 +109,8 @@ SpecialTrainerMoves:
 	db 3, 4, BITE
 	db 4, 1, RAZOR_LEAF
 	db 4, 4, SWEET_SCENT
-	db 5, 4, DRAGON_RAGE
+	db 5, 1, BRAGONBREATH
+	db 5, 2, DRAGON_RAGE
 	db 6, 1, WITHDRAW
 	db 6, 4, WATER_GUN
 	db 0
@@ -117,7 +119,8 @@ SpecialTrainerMoves:
 	db 1, 1, DOUBLE_TEAM
 	db 3, 1, WRAP
 	db 4, 4, BITE
-	db 5, 4, DRAGON_RAGE
+	db 5, 1, BRAGONBREATH
+	db 5, 2, DRAGON_RAGE
 	db 6, 2, LEECH_SEED
 	db 6, 4, SLEEP_POWDER
 	db 0
@@ -127,7 +130,8 @@ SpecialTrainerMoves:
 	db 3, 2, RAZOR_LEAF
 	db 3, 4, SWEET_SCENT
 	db 4, 1, WRAP
-	db 5, 4, DRAGON_RAGE
+	db 5, 1, BRAGONBREATH
+	db 5, 2, DRAGON_RAGE
 	db 6, 3, SMOKESCREEN
 	db 0
 	
@@ -172,13 +176,12 @@ SpecialTrainerMoves:
 
 	db GIOVANNI, 1
 	db 1, 1, GROWL
-	db 3, 2, TACKLE
+	db 3, 3, TACKLE
 	db 0
 	
 	db GIOVANNI, 2
-	db 1, 1, WRAP
 	db 2, 3, SCRATCH
-	db 3, 1, DRAGON_RAGE
+	db 3, 2, DRAGONBREATH
 	db 0
 	
 	db GIOVANNI, 3
