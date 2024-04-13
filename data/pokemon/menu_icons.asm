@@ -130,10 +130,10 @@ MonPartyData:
 	nybble ICON_MON       ; Golurk
 	nybble ICON_MON       ; Frigibax
 	nybble ICON_MON       ; Arctibax
-	nybble ICON_MON       ; Tyranitar
-	nybble ICON_QUADRUPED ; Spectrier
+	nybble ICON_MON       ; Baxcalibur
 	nybble ICON_MON       ; Larvitar
 	nybble ICON_MON       ; Pupitar
+	nybble ICON_MON       ; Tyranitar
 	nybble ICON_MON       ; Lucario
 	nybble ICON_HELIX     ; Omanyte
 	nybble ICON_HELIX     ; Omastar
@@ -145,7 +145,7 @@ MonPartyData:
 	nybble ICON_MON       ; Snorlax
 	nybble ICON_BIRD      ; Articuno
 	nybble ICON_MON       ; Landorus
-	nybble ICON_MON       ; Baxcalibur
+	nybble ICON_QUADRUPED ; Spectrier
 	nybble ICON_SNAKE     ; Dratini
 	nybble ICON_SNAKE     ; Dragonair
 	nybble ICON_SNAKE     ; Dragonite
