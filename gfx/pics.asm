@@ -222,12 +222,12 @@ VaporeonPicFront::     INCBIN "gfx/pokemon/front/vaporeon.pic"
 VaporeonPicBack::      INCBIN "gfx/pokemon/back/vaporeonb.pic"
 GiblePicFront::        INCBIN "gfx/pokemon/front/gible.pic"
 GiblePicBack::         INCBIN "gfx/pokemon/back/gibleb.pic"
-ZubatPicFront::        INCBIN "gfx/pokemon/front/zubat.pic"
-ZubatPicBack::         INCBIN "gfx/pokemon/back/zubatb.pic"
 
 
 SECTION "Pics 5", ROMX
 
+ZubatPicFront::        INCBIN "gfx/pokemon/front/zubat.pic"
+ZubatPicBack::         INCBIN "gfx/pokemon/back/zubatb.pic"
 EkansPicFront::        INCBIN "gfx/pokemon/front/ekans.pic"
 EkansPicBack::         INCBIN "gfx/pokemon/back/ekansb.pic"
 PupitarPicFront::      INCBIN "gfx/pokemon/front/pupitar.pic"

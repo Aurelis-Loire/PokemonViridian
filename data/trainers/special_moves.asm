@@ -109,7 +109,7 @@ SpecialTrainerMoves:
 	db 3, 4, BITE
 	db 4, 1, RAZOR_LEAF
 	db 4, 4, SWEET_SCENT
-	db 5, 1, BRAGONBREATH
+	db 5, 1, DRAGONBREATH
 	db 5, 2, DRAGON_RAGE
 	db 6, 1, WITHDRAW
 	db 6, 4, WATER_GUN
@@ -119,7 +119,7 @@ SpecialTrainerMoves:
 	db 1, 1, DOUBLE_TEAM
 	db 3, 1, WRAP
 	db 4, 4, BITE
-	db 5, 1, BRAGONBREATH
+	db 5, 1, DRAGONBREATH
 	db 5, 2, DRAGON_RAGE
 	db 6, 2, LEECH_SEED
 	db 6, 4, SLEEP_POWDER
@@ -130,7 +130,7 @@ SpecialTrainerMoves:
 	db 3, 2, RAZOR_LEAF
 	db 3, 4, SWEET_SCENT
 	db 4, 1, WRAP
-	db 5, 1, BRAGONBREATH
+	db 5, 1, DRAGONBREATH
 	db 5, 2, DRAGON_RAGE
 	db 6, 3, SMOKESCREEN
 	db 0
