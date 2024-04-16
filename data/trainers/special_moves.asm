@@ -13,9 +13,47 @@ SpecialTrainerMoves:
 	db 3, 1, TACKLE
 	db 0
 	
+	db COOLTRAINER_F, 2
+	db 1, 4, WATER_GUN
+	db 2, 1, EMBER
+	db 3, 3, PECK
+	db 0
+	
+	db COOLTRAINER_F, 3
+	db 1, 4, WATER_GUN
+	db 2, 2, EARTHQUAKE
+	db 3, 1, POISON_STING
+	db 0
+	
+	db COOLTRAINER_F, 5
+	db 1, 4, THUNDER_WAVE
+	db 2, 1, SLEEP_POWDER
+	db 2, 4, SUPERSONIC
+	db 0
+	
 	db COOLTRAINER_M, 1
 	db 1, 2, DRAGONBREATH
 	db 2, 4, THUNDER_WAVE
+	db 0
+	
+	db COOLTRAINER_M, 2
+	db 1, 1, GROWL
+	db 2, 2, HYPNOSIS
+	db 2, 3, LEECH_SEED
+	db 2, 4, PSYCHIC
+	db 3, 1, LEECH_LIFE
+	db 0
+	
+	db COOLTRAINER_M, 3
+	db 3, 4, BITE
+	db 0
+	
+	db COOLTRAINER_M, 5
+	db 1, 2, HYPNOSIS
+	db 1, 3, LEECH_SEED
+	db 2, 3, SCREECH
+	db 3, 3, WATER_GUN
+	db 4, 2, BONE_CLUB
 	db 0
 	
 	db COOLTRAINER_M, 9
