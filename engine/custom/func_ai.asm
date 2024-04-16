@@ -38,3 +38,48 @@ CheckAISentOut:
 	bit 1, a
 .partyret
 	ret
+	
+SetAISentOut:
+	ld a, [wWhichPokemon]	
+	cp $05
+	jr z, .party5
+	cp $04
+	jr z, .party4
+	cp $03
+	jr z, .party3
+	cp $02
+	jr z, .party2
+	cp $01
+	jr z, .party1
+	jr .party0
+.party5
+	ld a, [wFontLoaded]
+	set 6, a
+	ld [wFontLoaded], a
+	jr .partyret
+.party4
+	ld a, [wFontLoaded]
+	set 5, a
+	ld [wFontLoaded], a
+	jr .partyret
+.party3
+	ld a, [wFontLoaded]
+	set 4, a
+	ld [wFontLoaded], a
+	jr .partyret
+.party2
+	ld a, [wFontLoaded]
+	set 3, a
+	ld [wFontLoaded], a
+	jr .partyret
+.party1
+	ld a, [wFontLoaded]
+	set 2, a
+	ld [wFontLoaded], a
+	jr .partyret
+.party0
+	ld a, [wFontLoaded]
+	set 1, a
+	ld [wFontLoaded], a
+.partyret
+	ret

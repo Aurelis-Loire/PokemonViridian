@@ -6414,7 +6414,7 @@ LoadEnemyMonData:
 	ld [wEnemyMonHP + 1], a
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;joenote - if this is a trainer battle and it's the first time the pkmn is sent out
-;		   then make sure it's current hp = it's max hp
+;		   then make sure its current hp = it's max hp
 
 	ld a, [wIsInBattle]
 	cp $2 ; is it a trainer battle?
@@ -6530,6 +6530,17 @@ LoadEnemyMonData:
 	ld [hli], a
 	dec b
 	jr nz, .statModLoop
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;joenote - if this is a trainer battle, set the pkmn as being sent out and apply any burn/par stat changes
+	push af
+	ld a, [wIsInBattle]
+	cp $2 ; is it a trainer battle?
+	jr nz, .end_set_sendout
+	callfar SetAISentOut	;joenote - custom function
+	call ApplyBurnAndParalysisPenaltiesToEnemy
+.end_set_sendout
+	pop af
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	ret
 
 ; calls BattleTransition to show the battle transition animation and initializes some battle variables
