@@ -40,7 +40,7 @@ SpecialTrainerMoves:
 	db 1, 1, GROWL
 	db 2, 2, HYPNOSIS
 	db 2, 3, LEECH_SEED
-	db 2, 4, PSYCHIC
+	db 2, 4, PSYCHIC_M
 	db 3, 1, LEECH_LIFE
 	db 0
 	
