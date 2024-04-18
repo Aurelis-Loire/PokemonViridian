@@ -39,7 +39,7 @@ TrainerPicAndMoneyPointers::
 	pic_money RocketPic,       3000
 	pic_money CooltrainerMPic, 3500
 	pic_money CooltrainerFPic, 3500
-	pic_money BrunoPic,        9900
+	pic_money GrantPic,        9900
 	pic_money DianaPic,        9900
 	pic_money MattPic,         9900
 	pic_money AlexPic,         9900

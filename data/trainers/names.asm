@@ -32,7 +32,7 @@ TrainerNames::
 	li "ROCKET"
 	li "COOLTRAINER♂"
 	li "COOLTRAINER♀"
-	li "BRUNO"
+	li "GRANT"
 	li "DIANA"
 	li "MATT"
 	li "ALEX"

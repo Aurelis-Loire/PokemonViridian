@@ -256,19 +256,13 @@ SpecialTrainerMoves:
 	db 0
 
 	db BRUNO, 1
-	db 1, 1, ROCK_SLIDE
-	db 1, 2, SCREECH
-	db 1, 4, DIG
-	db 2, 3, FIRE_PUNCH
-	db 2, 4, DOUBLE_TEAM
-	db 3, 1, DOUBLE_KICK
-	db 3, 2, MEGA_KICK
-	db 3, 4, DOUBLE_TEAM
-	db 4, 1, ROCK_SLIDE
-	db 4, 2, SCREECH
-	db 4, 4, EARTHQUAKE
-	db 5, 2, KARATE_CHOP
-	db 5, 3, STRENGTH
+	db 1, 3, LEER
+	db 2, 4, SCARY_FACE
+	db 3, 1, BITE
+	db 4, 1, AGILITY
+	db 4, 2, WRAP
+	db 4, 3, THUNDER_WAVE
+	db 5, 3, SKY_ATTACK
 	db 0
 
 	db AGATHA, 1
