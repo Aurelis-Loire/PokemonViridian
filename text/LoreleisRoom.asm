@@ -2,20 +2,20 @@ _LoreleiBeforeBattleText::
 	text "Welcome to"
 	line "#MON LEAGUE!"
 
-	para "I am LORELEI of"
+	para "I am KEVIN of"
 	line "the ELITE FOUR!"
 
 	para "No one can best"
 	line "me when it comes"
-	cont "to icy #MON!"
+	cont "to fiery #MON!"
 
-	para "Freezing moves"
+	para "Burning moves"
 	line "are powerful!"
 
 	para "Your #MON will"
 	line "be at my mercy"
 	cont "when they are"
-	cont "frozen solid!"
+	cont "burned to ash!"
 
 	para "Hahaha!"
 	line "Are you ready?"

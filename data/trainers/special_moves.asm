@@ -243,12 +243,16 @@ SpecialTrainerMoves:
 	db 0
 
 	db LORELEI, 1
-	db 1, 1, BUBBLEBEAM
-	db 2, 3, ICE_BEAM
-	db 3, 1, PSYCHIC_M
-	db 3, 2, SURF
-	db 4, 3, POWDER_SNOW
-	db 5, 3, BLIZZARD
+	db 1, 1, EMBER
+	db 1, 4, BITE
+	db 2, 1, BONE_CLUB
+	db 2, 4, HEADBUTT
+	db 3, 2, POISON_GAS
+	db 4, 1, FIRE_SPIN
+	db 4, 2, BITE
+	db 4, 3, QUICK_ATTACK
+	db 4, 4, EMBER
+	db 5, 4, EARTHQUAKE
 	db 0
 
 	db BRUNO, 1

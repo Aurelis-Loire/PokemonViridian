@@ -43,7 +43,7 @@ TrainerNames::
 	li "GENTLEMAN"
 	li "RIVAL2"
 	li "RIVAL3"
-	li "LORELEI"
+	li "KEVIN"
 	li "CHANNELER"
 	li "AGATHA"
 	li "LANCE"
