@@ -454,12 +454,12 @@ Rival3AI:
 	jp AIUseFullRestore
 
 LoreleiAI:
-	cp 50 percent + 1
+	cp 60 percent + 1
 	ret nc
-	ld a, 5
+	ld a, 10
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseSuperPotion
+	jp AIUseHyperPotion
 
 BrunoAI:
 	cp 25 percent + 1
