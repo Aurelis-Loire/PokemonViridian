@@ -5293,7 +5293,14 @@ IncrementMovePP:
 	ret
 
 ; function to adjust the base damage of an attack to account for type effectiveness
+;joenote - re-writing this function to fix various bugs
+;Effectiveness multiplier will be adjusted for both type 1 and 2 of the defender
+;Type 1 and 2 are checked individually, so their order no longer matters
+;Static damage moves will give a neutral multiplier if super effective or not very effective
+;Static damage moves will obey type immunity
 AdjustDamageForMoveType:
+	ld a, $a
+	ld [wDamageMultipliers], a	;joenote - move this to AdjustDamageForMoveType to prevent multi-attack overflows
 ; values for player turn
 	ld hl, wBattleMonType
 	ld a, [hli]
@@ -5305,7 +5312,7 @@ AdjustDamageForMoveType:
 	ld e, [hl] ; e = type 2 of defender
 	ld a, [wPlayerMoveType]
 	ld [wMoveType], a
-	ldh a, [hWhoseTurn]
+	ld a, [hWhoseTurn]
 	and a
 	jr z, .next
 ; values for enemy turn
@@ -5320,6 +5327,7 @@ AdjustDamageForMoveType:
 	ld a, [wEnemyMoveType]
 	ld [wMoveType], a
 .next
+;here is where STAB is handled
 	ld a, [wMoveType]
 	cp b ; does the move type match type 1 of the attacker?
 	jr z, .sameTypeAttackBonus
@@ -5327,7 +5335,7 @@ AdjustDamageForMoveType:
 	jr z, .sameTypeAttackBonus
 	jr .skipSameTypeAttackBonus
 .sameTypeAttackBonus
-; if the move type matches one of the attacker's types
+; if the move type matches one of the attacker's types, multiply damage by 1.5
 	ld hl, wDamage + 1
 	ld a, [hld]
 	ld h, [hl]
@@ -5345,6 +5353,88 @@ AdjustDamageForMoveType:
 	ld hl, wDamageMultipliers
 	set 7, [hl]
 .skipSameTypeAttackBonus
+
+;now to check move type effectiveness against defender's type 1 and 2
+	ld c, d 	;start by checking against type 1
+	call TypeXEffectiveness
+	;make sure that there is a type 2 to even look at
+	ld a, d
+	cp e
+	ld c, e 	
+	call nz, TypeXEffectiveness	;now check against type 2
+
+;wDamageMultipliers will now be either 0, 2, 5, 10, 20, or 40 (immune, quarter, half, neutral, double, quadruple)	
+;Adjust the damage accordingly
+	ld hl, wDamage
+	ld a, [wDamageMultipliers]
+	and $7F
+	jr z, .negate
+	
+	;static moves return neutral except for type immunity
+	push af
+	ld a, [wUnusedC000]
+	ld b, a
+	pop af
+	bit 4, b
+	jr nz, .static_move
+	
+	cp 3
+	push af
+	call c, .halve
+	pop af
+	cp 10
+	push af
+	call c, .halve
+	pop af
+	cp 11
+	push af
+	call nc, .double
+	pop af
+	cp 21
+	call nc, .double
+	jr .done
+.negate
+	xor a
+	ld [hli], a
+	ld [hl], a
+;damage is 0, make the move miss
+	ld a, 2
+	ld [wMoveMissed], a
+.done
+	ret
+.halve
+	srl [hl]
+	inc hl
+	rr [hl]
+	dec hl
+	call .zerocheck
+	ret
+.double
+	inc hl
+	sla [hl]
+	dec hl
+	rl [hl]
+	ret
+.zerocheck
+; if damage is 0, make the move miss
+; this only occurs if a move that would do 2 or 3 damage is 0.25x effective against the target
+	ld a, [hli]
+	ld b, a
+	ld a, [hld]
+	or b
+	ret nz
+	ld a, 2
+	ld [wMoveMissed], a	
+	ret
+.static_move
+	ld a, [wDamageMultipliers]
+	and $80
+	or $A
+	ld [wDamageMultipliers], a
+	jr .done
+	
+;c = defender type 1 or 2
+TypeXEffectiveness:
 	ld a, [wMoveType]
 	ld b, a
 	ld hl, TypeEffects
@@ -5355,71 +5445,183 @@ AdjustDamageForMoveType:
 	cp b ; does move type match "attacking type"?
 	jr nz, .nextTypePair
 	ld a, [hl] ; a = "defending type" of the current type pair
-	cp d ; does type 1 of defender match "defending type"?
+	cp c ; does type 1 or 2 of defender match "defending type"?
 	jr z, .matchingPairFound
-	cp e ; does type 2 of defender match "defending type"?
-	jr z, .matchingPairFound
-	jr .nextTypePair
-.matchingPairFound
-; if the move type matches the "attacking type" and one of the defender's types matches the "defending type"
-	push hl
-	push bc
-	inc hl
-	ld a, [wDamageMultipliers]
-	and $80
-	ld b, a
-	ld a, [hl] ; a = damage multiplier
-	ldh [hMultiplier], a
-	and a  ; cp NO_EFFECT
-	jr z, .gotMultiplier
-	cp NOT_VERY_EFFECTIVE
-	jr nz, .nothalf
-	ld a, [wDamageMultipliers]
-	and $7f
-	srl a
-	jr .gotMultiplier
-.nothalf
-	cp SUPER_EFFECTIVE
-	jr nz, .gotMultiplier
-	ld a, [wDamageMultipliers]
-	and $7f
-	sla a
-.gotMultiplier
-	add b
-	ld [wDamageMultipliers], a
-	xor a
-	ldh [hMultiplicand], a
-	ld hl, wDamage
-	ld a, [hli]
-	ldh [hMultiplicand + 1], a
-	ld a, [hld]
-	ldh [hMultiplicand + 2], a
-	call Multiply
-	ld a, 10
-	ldh [hDivisor], a
-	ld b, $04
-	call Divide
-	ldh a, [hQuotient + 2]
-	ld [hli], a
-	ld b, a
-	ldh a, [hQuotient + 3]
-	ld [hl], a
-	or b ; is damage 0?
-	jr nz, .skipTypeImmunity
-.typeImmunity
-; if damage is 0, make the move miss
-; this only occurs if a move that would do 2 or 3 damage is 0.25x effective against the target
-	inc a
-	ld [wMoveMissed], a
-.skipTypeImmunity
-	pop bc
-	pop hl
 .nextTypePair
 	inc hl
 	inc hl
-	jp .loop
+	jr .loop
+.matchingPairFound
+	inc hl
+	ld a, [wDamageMultipliers]
+	and $80
+	ld b, a		;b will hold the STAB bit
+	ld a, [wDamageMultipliers]
+	and $7F
+	ld c, a		;c will hold the current multiplier
+	ld a, [hl]	;a = effectiveness multiplier of the current type pair (05, 20, or 00)
+	and a
+	jr z, .negate
+	cp 20
+	jr z, .double
+	cp 05
+	jr z, .halve
+	jr .done	;don't do anything for invalid multiplier
+.halve
+	srl c
+	jr .update_multiplier
+.double
+	ld a, c
+	sla a
+	and $7F
+	ld c, a
+	jr .update_multiplier
+.negate
+	xor a
+	ld c, a
+.update_multiplier
+	ld a, b
+	or c
+	ld [wDamageMultipliers], a
 .done
 	ret
+	
+; function to adjust the base damage of an attack to account for type effectiveness
+;AdjustDamageForMoveType:
+; values for player turn
+;	ld hl, wBattleMonType
+;	ld a, [hli]
+;	ld b, a    ; b = type 1 of attacker
+;	ld c, [hl] ; c = type 2 of attacker
+;	ld hl, wEnemyMonType
+;	ld a, [hli]
+;	ld d, a    ; d = type 1 of defender
+;	ld e, [hl] ; e = type 2 of defender
+;	ld a, [wPlayerMoveType]
+;	ld [wMoveType], a
+;	ldh a, [hWhoseTurn]
+;	and a
+;	jr z, .next
+; values for enemy turn
+;	ld hl, wEnemyMonType
+;	ld a, [hli]
+;	ld b, a    ; b = type 1 of attacker
+;	ld c, [hl] ; c = type 2 of attacker
+;	ld hl, wBattleMonType
+;	ld a, [hli]
+;	ld d, a    ; d = type 1 of defender
+;	ld e, [hl] ; e = type 2 of defender
+;	ld a, [wEnemyMoveType]
+;	ld [wMoveType], a
+;.next
+;	ld a, [wMoveType]
+;	cp b ; does the move type match type 1 of the attacker?
+;	jr z, .sameTypeAttackBonus
+;	cp c ; does the move type match type 2 of the attacker?
+;	jr z, .sameTypeAttackBonus
+;	jr .skipSameTypeAttackBonus
+;.sameTypeAttackBonus
+; if the move type matches one of the attacker's types
+;	ld hl, wDamage + 1
+;	ld a, [hld]
+;	ld h, [hl]
+;	ld l, a    ; hl = damage
+;	ld b, h
+;	ld c, l    ; bc = damage
+;	srl b
+;	rr c      ; bc = floor(0.5 * damage)
+;	add hl, bc ; hl = floor(1.5 * damage)
+; store damage
+;	ld a, h
+;	ld [wDamage], a
+;	ld a, l
+;	ld [wDamage + 1], a
+;	ld hl, wDamageMultipliers
+;	set 7, [hl]
+;.skipSameTypeAttackBonus
+;;;Static Damage Moves ignore typing. This should fix static moves "missing" against NVE enemies.
+;	push af
+;	ld a, [wUnusedC000]
+;	ld b, a
+;	pop af
+;	bit 4, b
+;	jr nz, .static_move
+;;;
+;	ld a, [wMoveType]
+;	ld b, a
+;	ld hl, TypeEffects
+;.loop
+;	ld a, [hli] ; a = "attacking type" of the current type pair
+;	cp $ff
+;	jr z, .done
+;	cp b ; does move type match "attacking type"?
+;	jr nz, .nextTypePair
+;	ld a, [hl] ; a = "defending type" of the current type pair
+;	cp d ; does type 1 of defender match "defending type"?
+;	jr z, .matchingPairFound
+;	cp e ; does type 2 of defender match "defending type"?
+;	jr z, .matchingPairFound
+;	jr .nextTypePair
+;.matchingPairFound
+; if the move type matches the "attacking type" and one of the defender's types matches the "defending type"
+;	push hl
+;	push bc
+;	inc hl
+;	ld a, [wDamageMultipliers]
+;	and $80
+;	ld b, a
+;	ld a, [hl] ; a = damage multiplier
+;	ldh [hMultiplier], a
+;	and a  ; cp NO_EFFECT
+;	jr z, .gotMultiplier
+;	cp NOT_VERY_EFFECTIVE
+;	jr nz, .nothalf
+;	ld a, [wDamageMultipliers]
+;	and $7f
+;	srl a
+;	jr .gotMultiplier
+;.nothalf
+;	cp SUPER_EFFECTIVE
+;	jr nz, .gotMultiplier
+;	ld a, [wDamageMultipliers]
+;	and $7f
+;	sla a
+;.gotMultiplier
+;	add b
+;	ld [wDamageMultipliers], a
+;	xor a
+;	ldh [hMultiplicand], a
+;	ld hl, wDamage
+;	ld a, [hli]
+;	ldh [hMultiplicand + 1], a
+;	ld a, [hld]
+;	ldh [hMultiplicand + 2], a
+;	call Multiply
+;	ld a, 10
+;	ldh [hDivisor], a
+;	ld b, $04
+;	call Divide
+;	ldh a, [hQuotient + 2]
+;	ld [hli], a
+;	ld b, a
+;	ldh a, [hQuotient + 3]
+;	ld [hl], a
+;	or b ; is damage 0?
+;	jr nz, .skipTypeImmunity
+;.typeImmunity
+; if damage is 0, make the move miss
+; this only occurs if a move that would do 2 or 3 damage is 0.25x effective against the target
+;	inc a
+;	ld [wMoveMissed], a
+;.skipTypeImmunity
+;	pop bc
+;	pop hl
+;.nextTypePair
+;	inc hl
+;	inc hl
+;	jp .loop
+;.done
+;	ret
 
 ; function to tell how effective the type of an enemy attack is on the player's current pokemon
 ; this doesn't take into account the effects that dual types can have
