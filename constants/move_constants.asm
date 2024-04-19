@@ -177,7 +177,8 @@
 	const MEDITATE     ; a9
 	const CRUNCH	   ; aa
 	const DRAGONBREATH ; ab
-	const OUTRAGE      ; ac
+	const SUPER_FANG   ; ac
+	const OUTRAGE      ; ad
 	const STRUGGLE     ; ad
 DEF NUM_ATTACKS EQU const_value - 1
 

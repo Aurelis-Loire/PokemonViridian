@@ -171,6 +171,7 @@ AttackAnimationPointers:
 	dw MeditateAnim
 	dw CrunchAnim
 	dw DragonBreathAnim
+	dw SuperFangAnim
 	dw OutrageAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
@@ -1191,6 +1192,12 @@ DragonBreathAnim:
 	battle_anim DRAGONBREATH, SUBANIM_1_FLAME_BEAM, 1, 6
 	battle_anim DRAGONBREATH, SUBANIM_1_LIGHTNING_BALL, 1, 2
 	battle_anim NO_MOVE, SUBANIM_0_BIND, 0, 2
+	db -1 ; end
+	
+SuperFangAnim:
+	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
+	battle_anim SUPER_FANG, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 	
 OutrageAnim:

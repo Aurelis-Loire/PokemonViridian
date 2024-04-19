@@ -172,6 +172,7 @@ MoveSoundTable:
 	db SFX_BATTLE_09,          $20, $c0 ; MEDITATE
 	db SFX_BATTLE_13,          $1e, $63 ; CRUNCH
 	db SFX_BATTLE_14,          $f5, $d7 ; DRAGONBREATH
+	db SFX_BATTLE_26,          $f0, $ff ; SUPER_FANG
 	db SFX_BATTLE_16,          $ac, $94 ; OUTRAGE
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
