@@ -269,14 +269,13 @@ SpecialTrainerMoves:
 	db 0
 
 	db AGATHA, 1
-	db 1, 2, SUBSTITUTE
-	db 1, 3, LICK
-	db 1, 4, MEGA_DRAIN
-	db 2, 2, TOXIC
-	db 2, 4, LEECH_LIFE
-	db 3, 2, LICK
-	db 4, 1, WRAP
-	db 5, 2, PSYCHIC_M
+	db 1, 2, TAKE_DOWN
+	db 1, 4, POWDER_SNOW
+	db 2, 3, ASTONISH
+	db 3, 2, DOUBLE_KICK
+	db 3, 3, HORN_ATTACK
+	db 5, 1, ROCK_SLIDE
+	db 5, 2, SUBSTITUTE
 	db 0
 
 	db LANCE, 1

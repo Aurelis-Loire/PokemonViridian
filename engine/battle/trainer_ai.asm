@@ -462,9 +462,12 @@ LoreleiAI:
 	jp AIUseHyperPotion
 
 BrunoAI:
-	cp 25 percent + 1
+	cp 66 percent + 1
 	ret nc
-	jp AIUseXDefend
+	ld a, 10
+	call AICheckIfHPBelowFraction
+	ret nc
+	jp AIUseHyperPotion
 
 AgathaAI:
 	cp 8 percent

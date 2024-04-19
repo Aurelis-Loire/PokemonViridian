@@ -312,7 +312,7 @@ Iscaria2Pic::      INCBIN "gfx/trainers/iscaria2.pic"
 Rival3Pic::        INCBIN "gfx/trainers/rival3.pic"
 KevinPic::         INCBIN "gfx/trainers/kevin.pic"
 ChannelerPic::     INCBIN "gfx/trainers/channeler.pic"
-AgathaPic::        INCBIN "gfx/trainers/agatha.pic"
+ThomPic::          INCBIN "gfx/trainers/thom.pic"
 LancePic::         INCBIN "gfx/trainers/john.pic"
 
 
