@@ -226,7 +226,8 @@ SkwovetEvosMoves:
 	db 7,  BITE
 	db 13, BODY_SLAM
 	db 20, REST
-	db 34, BULLET_SEED
+	db 27, BULLET_SEED
+	db 34, SUPER_FANG
 	db 0
 
 ClefairyEvosMoves:
@@ -437,8 +438,8 @@ ArcanineEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 18, EMBER
-	db 23, LEER
+	db 9, EMBER
+	db 18, LEER
 	db 30, TAKE_DOWN
 	db 39, AGILITY
 	db 50, FLAMETHROWER
@@ -587,7 +588,7 @@ DucklettEvosMoves:
 	db EV_LEVEL, 35, SWANNA
 	db 0
 ; Learnset
-	db 9, WING_ATTACK
+	db 7, GUST
 	db 15, BUBBLEBEAM
 	db 22, DRILL_PECK
 	db 29, WATERFALL
@@ -599,8 +600,8 @@ GrowlitheEvosMoves:
 	db EV_ITEM, FIRE_STONE, 1, ARCANINE
 	db 0
 ; Learnset
-	db 18, EMBER
-	db 23, LEER
+	db 9, EMBER
+	db 18, LEER
 	db 30, TAKE_DOWN
 	db 39, AGILITY
 	db 50, FLAMETHROWER
@@ -732,7 +733,8 @@ GreedentEvosMoves:
 	db 13, BODY_SLAM
 	db 20, REST
     db 24, COUNTER
-	db 41, BULLET_SEED
+	db 30, BULLET_SEED
+	db 40, SUPER_FANG
 	db 0
 
 HitmonchanEvosMoves:
@@ -889,7 +891,7 @@ SalanditEvosMoves:
 	db 16, EMBER
 	db 21, SWEET_SCENT
 	db 32, DRAGON_RAGE
-	db 50, SMOG
+	db 48, SMOG
 	db 0
 
 MankeyEvosMoves:
@@ -1069,7 +1071,7 @@ SwannaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 9, WING_ATTACK
+	db 7, GUST
 	db 15, BUBBLEBEAM
 	db 22, DRILL_PECK
 	db 29, WATERFALL
@@ -1084,7 +1086,7 @@ SalazzleEvosMoves:
 	db 21, SWEET_SCENT
 	db 32, DRAGON_RAGE
 	db 43, DISABLE
-	db 56, SMOG
+	db 60, SMOG
 	db 0
 
 DrifblimEvosMoves:

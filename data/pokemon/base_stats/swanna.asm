@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/swanna.pic", 0, 1 ; sprite dimensions
 	dw SwannaPicFront, SwannaPicBack
 
-	db WATER_GUN, SWEET_SCENT, WING_ATTACK, NO_MOVE ; level 1 learnset
+	db BUBBLE, PECK, GUST, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

@@ -252,6 +252,9 @@ SpecialTrainerMoves:
 	db 4, 2, BITE
 	db 4, 3, QUICK_ATTACK
 	db 4, 4, EMBER
+	db 5, 1, FIRE_BLAST
+	db 5, 2, SEISMIC_TOSS
+	db 5, 3, TOXIC
 	db 5, 4, EARTHQUAKE
 	db 0
 
@@ -262,7 +265,7 @@ SpecialTrainerMoves:
 	db 4, 1, AGILITY
 	db 4, 2, WRAP
 	db 4, 3, THUNDER_WAVE
-	db 5, 3, SKY_ATTACK
+	db 5, 2, SKY_ATTACK
 	db 0
 
 	db AGATHA, 1
