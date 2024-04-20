@@ -440,7 +440,8 @@ ArcanineEvosMoves:
 ; Learnset
 	db 9, EMBER
 	db 18, LEER
-	db 30, TAKE_DOWN
+	db 26, TAKE_DOWN
+	db 34, FLAME_WHEEL
 	db 39, AGILITY
 	db 50, FLAMETHROWER
 	db 0
@@ -589,10 +590,10 @@ DucklettEvosMoves:
 	db 0
 ; Learnset
 	db 7, GUST
-	db 15, BUBBLEBEAM
-	db 22, DRILL_PECK
+	db 13, WATER_GUN
+	db 25, WATER_PULSE
 	db 29, WATERFALL
-	db 36, WATER_PULSE
+	db 36, DRILL_PECK
 	db 0
 
 GrowlitheEvosMoves:
@@ -602,7 +603,8 @@ GrowlitheEvosMoves:
 ; Learnset
 	db 9, EMBER
 	db 18, LEER
-	db 30, TAKE_DOWN
+	db 26, TAKE_DOWN
+	db 34, FLAME_WHEEL
 	db 39, AGILITY
 	db 50, FLAMETHROWER
 	db 0
@@ -1072,10 +1074,10 @@ SwannaEvosMoves:
 	db 0
 ; Learnset
 	db 7, GUST
-	db 15, BUBBLEBEAM
-	db 22, DRILL_PECK
+	db 13, WATER_GUN
+	db 25, WATER_PULSE
 	db 29, WATERFALL
-	db 43, WATER_PULSE
+	db 43, DRILL_PECK
 	db 0
 
 SalazzleEvosMoves:
@@ -1870,7 +1872,7 @@ MarowakEvosMoves:
 	db 10, BONE_CLUB
 	db 18, HEADBUTT
 	db 25, LEER
-	db 33, EMBER
+	db 33, FLAME_WHEEL
 	db 41, THRASH
 	db 48, BONEMERANG
 	db 55, ASTONISH

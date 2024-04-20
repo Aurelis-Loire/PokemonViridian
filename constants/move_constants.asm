@@ -178,8 +178,9 @@
 	const CRUNCH	   ; aa
 	const DRAGONBREATH ; ab
 	const SUPER_FANG   ; ac
-	const OUTRAGE      ; ad
-	const STRUGGLE     ; ad
+	const FLAME_WHEEL  ; ad
+	const OUTRAGE      ; ae
+	const STRUGGLE     ; af
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.
