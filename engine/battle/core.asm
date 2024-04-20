@@ -369,7 +369,21 @@ MainInBattleLoop:
 .specialMoveNotUsed
 	callfar SwitchEnemyMon
 .noLinkBattle
+;;;Extreme Speed code - JG
 	ld a, [wPlayerSelectedMove]
+	cp EXTREMESPEED
+	jr nz, .playerDidNotUseExtremeSpeed
+	ld a, [wEnemySelectedMove]
+	cp EXTREMESPEED
+	jr z, .compareSpeed  ; if both used Extreme Speed
+	jp .playerMovesFirst ; if player used Extreme Speed and enemy didn't
+.playerDidNotUseExtremeSpeed
+	ld a, [wEnemySelectedMove]
+	cp EXTREMESPEED
+	jr z, .enemyMovesFirst ; if enemy used Extreme Speed and player didn't
+.enemyDidNotUseExtremeSpeed
+;;;
+    ld a, [wPlayerSelectedMove]
 	cp QUICK_ATTACK
 	jr nz, .playerDidNotUseQuickAttack
 	ld a, [wEnemySelectedMove]

@@ -173,6 +173,7 @@ AttackAnimationPointers:
 	dw DragonBreathAnim
 	dw SuperFangAnim
 	dw FlameWheelAnim
+	dw ExtremeSpeedAnim
 	dw OutrageAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
@@ -1205,6 +1206,12 @@ FlameWheelAnim:
 	battle_anim FLAME_WHEEL, SUBANIM_0_STAR_THRICE, 0, 6
 	battle_anim FLAME_WHEEL, SUBANIM_1_FLAME_COLUMN_1, 1, 6
 	battle_anim FLAME_WHEEL, SUBANIM_1_FLAME_COLUMN_2, 1, 6
+	db -1 ; end
+	
+ExtremeSpeedAnim:
+	battle_anim EXTREMESPEED, SE_SLIDE_MON_OFF
+	battle_anim NO_MOVE, SUBANIM_0_SLICE, 0, 4
+	battle_anim NO_MOVE, SE_SHOW_MON_PIC
 	db -1 ; end
 	
 OutrageAnim:

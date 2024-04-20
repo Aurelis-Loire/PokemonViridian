@@ -173,6 +173,7 @@ MoveNames::
 	li "DRAGONBREATH"
 	li "SUPER FANG"
 	li "FLAME WHEEL"
+	li "EXTREMESPEED"
 	li "OUTRAGE"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

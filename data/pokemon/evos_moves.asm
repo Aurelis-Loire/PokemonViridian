@@ -442,8 +442,9 @@ ArcanineEvosMoves:
 	db 18, LEER
 	db 26, TAKE_DOWN
 	db 34, FLAME_WHEEL
-	db 39, AGILITY
+	db 42, AGILITY
 	db 50, FLAMETHROWER
+	db 51, EXTREMESPEED
 	db 0
 
 MewEvosMoves:
@@ -592,8 +593,8 @@ DucklettEvosMoves:
 	db 7, GUST
 	db 13, WATER_GUN
 	db 25, WATER_PULSE
-	db 29, WATERFALL
-	db 36, DRILL_PECK
+	db 31, WING_ATTACK
+	db 37, BUBBLEBEAM
 	db 0
 
 GrowlitheEvosMoves:
@@ -605,7 +606,7 @@ GrowlitheEvosMoves:
 	db 18, LEER
 	db 26, TAKE_DOWN
 	db 34, FLAME_WHEEL
-	db 39, AGILITY
+	db 42, AGILITY
 	db 50, FLAMETHROWER
 	db 0
 
@@ -1076,8 +1077,8 @@ SwannaEvosMoves:
 	db 7, GUST
 	db 13, WATER_GUN
 	db 25, WATER_PULSE
-	db 29, WATERFALL
-	db 43, DRILL_PECK
+	db 31, WING_ATTACK
+	db 40, BUBBLEBEAM
 	db 0
 
 SalazzleEvosMoves:
@@ -1169,13 +1170,13 @@ LucarioEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, COUNTER
-	db 25, FORCE_PALM
-	db 30, SEISMIC_TOSS
-	db 36, BONE_CLUB
-	db 43, SCREECH
-	db 49, SWORDS_DANCE
-	db 54, GROWTH
+	db 21, AGILITY
+	db 25, COUNTER
+	db 30, FORCE_PALM
+	db 36, SCREECH
+	db 43, SWORDS_DANCE
+	db 49, GROWTH
+	db 54, EXTREMESPEED
 	db 0
 
 ArctibaxEvosMoves:
