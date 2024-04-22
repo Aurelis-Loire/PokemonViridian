@@ -407,7 +407,7 @@ CuboneEvosMoves:
 	db 25, BONEMERANG
 	db 29, RAGE
 	db 33, SCREECH
-	db 38, THRASH
+	db 37, THRASH
 	db 0
 
 RhyhornEvosMoves:
@@ -1229,8 +1229,7 @@ PikachuEvosMoves:
 	db 11, QUICK_ATTACK
 	db 15, DOUBLE_TEAM
 	db 20, SLAM
-	db 26, SWIFT
-	db 27, THUNDERBOLT
+	db 26, THUNDERBOLT
 	db 33, AGILITY
 	db 41, THUNDER
 	db 50, LIGHT_SCREEN
@@ -1245,11 +1244,10 @@ RaichuEvosMoves:
 	db 11, QUICK_ATTACK
 	db 15, DOUBLE_TEAM
 	db 20, SLAM
-	db 26, SWIFT
-	db 27, THUNDERBOLT
+	db 26, THUNDERBOLT
 	db 33, AGILITY
 	db 41, THUNDER
-	db 43, PSYCHIC_M
+	db 42, PSYCHIC_M
 	db 50, LIGHT_SCREEN
 	db 0
 
@@ -1882,7 +1880,7 @@ MarowakEvosMoves:
 	db 25, BONEMERANG
 	db 32, FLAME_WHEEL
 	db 39, ASTONISH
-	db 41, THRASH
+	db 46, THRASH
 	db 0
 
 MissingNo92EvosMoves:

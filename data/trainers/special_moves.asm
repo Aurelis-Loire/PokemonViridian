@@ -247,7 +247,8 @@ SpecialTrainerMoves:
 	db 1, 2, SUBSTITUTE
 	db 1, 3, DIG
 	db 1, 4, SWIFT
-	db 2, 1, HEADBUTT
+	db 2, 3, HEADBUTT
+	db 2, 4, TOXIC
 	db 3, 1, FIRE_BLAST
 	db 3, 2, TOXIC
 	db 3, 3, DOUBLE_TEAM
