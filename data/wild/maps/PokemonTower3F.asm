@@ -6,8 +6,8 @@ PokemonTower3FWildMons:
 	db 23, GASTLY
 	db 19, GASTLY
 	db 18, GASTLY
+	db 16, CUBONE
 	db 20, CUBONE
-	db 22, CUBONE
 	db 25, HAUNTER
 	db 24, DRIFLOON
 	end_grass_wildmons

@@ -243,11 +243,15 @@ SpecialTrainerMoves:
 	db 0
 
 	db LORELEI, 1
-	db 1, 3, TAKE_DOWN
-	db 1, 4, BITE
-	db 2, 1, BONE_CLUB
-	db 2, 4, HEADBUTT
+	db 1, 1, FIRE_BLAST
+	db 1, 2, SUBSTITUTE
+	db 1, 3, DIG
+	db 1, 4, SWIFT
+	db 2, 1, HEADBUTT
+	db 3, 1, FIRE_BLAST
 	db 3, 2, TOXIC
+	db 3, 3, DOUBLE_TEAM
+	db 3, 4, SLUDGE_BOMB
 	db 4, 1, FIRE_SPIN
 	db 4, 2, DOUBLE_TEAM
 	db 4, 3, TOXIC

@@ -400,13 +400,14 @@ CuboneEvosMoves:
 	db EV_LEVEL, 28, MAROWAK
 	db 0
 ; Learnset
-	db 10, BONE_CLUB
-	db 18, HEADBUTT
-	db 25, LEER
-	db 31, FOCUS_ENERGY
+	db 9, BONE_CLUB
+	db 13, HEADBUTT
+	db 17, LEER
+	db 21, FOCUS_ENERGY
+	db 25, BONEMERANG
+	db 29, RAGE
+	db 33, SCREECH
 	db 38, THRASH
-	db 43, BONEMERANG
-	db 46, RAGE
 	db 0
 
 RhyhornEvosMoves:
@@ -595,6 +596,7 @@ DucklettEvosMoves:
 	db 25, WATER_PULSE
 	db 31, WING_ATTACK
 	db 37, BUBBLEBEAM
+	db 43, MIRROR_MOVE
 	db 0
 
 GrowlitheEvosMoves:
@@ -755,11 +757,12 @@ ArbokEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, POISON_STING
-	db 17, BITE
-	db 27, GLARE
-	db 36, SCREECH
-	db 47, ACID
+	db 9, POISON_STING
+	db 15, BITE
+	db 25, GLARE
+	db 33, SCREECH
+	db 43, ACID
+	db 51, HAZE
 	db 0
 
 MiltankEvosMoves:
@@ -1079,6 +1082,7 @@ SwannaEvosMoves:
 	db 25, WATER_PULSE
 	db 31, WING_ATTACK
 	db 40, BUBBLEBEAM
+	db 47, MIRROR_MOVE
 	db 0
 
 SalazzleEvosMoves:
@@ -1531,11 +1535,12 @@ EkansEvosMoves:
 	db EV_LEVEL, 22, ARBOK
 	db 0
 ; Learnset
-	db 10, POISON_STING
-	db 17, BITE
-	db 24, GLARE
-	db 31, SCREECH
-	db 38, ACID
+	db 9, POISON_STING
+	db 15, BITE
+	db 23, GLARE
+	db 29, SCREECH
+	db 37, ACID
+	db 43, HAZE
 	db 0
 
 PupitarEvosMoves:
@@ -1870,13 +1875,14 @@ MarowakEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, BONE_CLUB
-	db 18, HEADBUTT
-	db 25, LEER
-	db 33, FLAME_WHEEL
+	db 9, BONE_CLUB
+	db 13, HEADBUTT
+	db 17, LEER
+	db 21, FOCUS_ENERGY
+	db 25, BONEMERANG
+	db 32, FLAME_WHEEL
+	db 39, ASTONISH
 	db 41, THRASH
-	db 48, BONEMERANG
-	db 55, ASTONISH
 	db 0
 
 MissingNo92EvosMoves:
