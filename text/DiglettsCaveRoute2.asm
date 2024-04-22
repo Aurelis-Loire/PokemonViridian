@@ -4,6 +4,7 @@ _DiglettsCaveRoute2Text1::
 	cont "dark and scary."
 
 	para "If a #MON's"
-	line "FLASH could light"
-	cont "it up..."
+	line "THUNDER WAVE"
+	cont "could light it"
+	cont "up..."
 	done

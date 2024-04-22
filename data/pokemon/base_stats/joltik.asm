@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        THUNDERBOLT,  PIN_MISSILE,  DOUBLE_TEAM,  SWIFT,        \
-	     REST,         THUNDER_WAVE, SUBSTITUTE,   CUT
+	     REST,         SUBSTITUTE,   CUT,          THUNDER_WAVE
 	; end
 
 	db BANK(JoltikPicFront)

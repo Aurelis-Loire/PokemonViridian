@@ -141,7 +141,7 @@ DEF HM01 EQU const_value
 	add_hm FLY          ; $C5
 	add_hm SURF         ; $C6
 	add_hm STRENGTH     ; $C7
-	add_hm FLASH        ; $C8
+	add_hm THUNDER_WAVE ; $C8
 DEF NUM_HMS EQU const_value - HM01
 
 DEF __tmhm_value__ = 1
@@ -201,7 +201,7 @@ DEF TM01 EQU const_value
 	add_tm DREAM_EATER  ; $F2
 	add_tm SKY_ATTACK   ; $F3
 	add_tm REST         ; $F4
-	add_tm THUNDER_WAVE ; $F5
+	add_tm FLAMETHROWER ; $F5
 	add_tm PSYWAVE      ; $F6
 	add_tm EXPLOSION    ; $F7
 	add_tm ROCK_SLIDE   ; $F8

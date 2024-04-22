@@ -18,7 +18,7 @@
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   ICE_PUNCH,    \
 	     POWDER_SNOW,  EARTHQUAKE,   DIG,          MIMIC,        DOUBLE_TEAM,  \
 		 HEADBUTT,     REST,         ROCK_SLIDE,   SUBSTITUTE,   SURF,         \
-		 STRENGTH,     FLASH
+		 STRENGTH
 	; end
 
 	db BANK(QuagsirePicFront)

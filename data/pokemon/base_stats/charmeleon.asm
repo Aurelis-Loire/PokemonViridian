@@ -18,8 +18,8 @@
 	     TAKE_DOWN,    DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     DRAGON_RAGE,  DRAGONBREATH, DIG,          MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      FIRE_PUNCH,   FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
-	     HEADBUTT,     REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT,          \
-		 STRENGTH
+	     HEADBUTT,     REST,         FLAMETHROWER, ROCK_SLIDE,   SUBSTITUTE,   \
+		 CUT,          STRENGTH
 	; end
 
 	db BANK(CharmeleonPicFront)

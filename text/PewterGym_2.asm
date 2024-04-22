@@ -76,8 +76,9 @@ _BrockBoulerBadgeInfoText::
 	cont "more powerful!"
 
 	para "The technique"
-	line "FLASH can now be"
-	cont "used any time!"
+	line "THUNDER WAVE can"
+	cont "now be used any"
+	cont "time!"
 	prompt
 
 _PewterGymBattleText1::

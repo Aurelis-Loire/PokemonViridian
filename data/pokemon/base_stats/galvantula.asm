@@ -15,8 +15,7 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        HYPER_BEAM,   THUNDERBOLT,  PIN_MISSILE,  DOUBLE_TEAM,  \
-	     SWIFT,        REST,         THUNDER_WAVE, SUBSTITUTE,   CUT,          \
-		 FLASH
+	     SWIFT,        REST,         SUBSTITUTE,   CUT,          THUNDER_WAVE
 	; end
 
 	db BANK(GalvantulaPicFront)

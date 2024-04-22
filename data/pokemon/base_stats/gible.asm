@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  DRAGON_RAGE,  \
 	     EARTHQUAKE,   DRAGONBREATH, DIG,          DOUBLE_TEAM,  FIRE_BLAST,   \
-	     SWIFT,        HEADBUTT,     REST,         ROCK_SLIDE,   SUBSTITUTE,   \
-		 CUT,          STRENGTH
+	     SWIFT,        HEADBUTT,     REST,         FLAMETHROWER, ROCK_SLIDE,   \
+		 SUBSTITUTE,   CUT,          STRENGTH
 	; end
 
 	db BANK(GiblePicFront)

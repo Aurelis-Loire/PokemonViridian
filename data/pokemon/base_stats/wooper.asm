@@ -17,7 +17,7 @@
 	tmhm TOXIC,        SLUDGE_BOMB,  BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     ICE_PUNCH,    POWDER_SNOW,  \
 	     EARTHQUAKE,   DIG,          MIMIC,        DOUBLE_TEAM,  HEADBUTT,     \
-		 REST,         ROCK_SLIDE,   SUBSTITUTE,   SURF,         FLASH
+		 REST,         ROCK_SLIDE,   SUBSTITUTE,   SURF
 	; end
 
 	db BANK(WooperPicFront)

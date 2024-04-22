@@ -17,8 +17,8 @@
 	tmhm MEGA_PUNCH,   SHADOW_BALL,  MEGA_KICK,    TOXIC,        ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   ICE_PUNCH,    POWDER_SNOW,  SOLARBEAM,    \
 	     THUNDERBOLT,  THUNDER,      DIG,          DOUBLE_TEAM,  THUNDERPUNCH, \
-	     FIRE_PUNCH,   SWIFT,        HEADBUTT,     REST,         THUNDER_WAVE, \
-		 SUBSTITUTE,   CUT,          STRENGTH
+	     FIRE_PUNCH,   SWIFT,        HEADBUTT,     REST,         SUBSTITUTE,   \
+		 CUT,          STRENGTH,     THUNDER_WAVE
 	; end
 
 	db BANK(LopunnyPicFront)

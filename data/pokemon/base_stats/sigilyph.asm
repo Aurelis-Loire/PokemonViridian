@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm SHADOW_BALL,  TOXIC,        ICE_BEAM,     HYPER_BEAM,   POWDER_SNOW,  \
 	     SOLARBEAM,    PSYCHIC_M,    DOUBLE_TEAM,  REFLECT,      SWIFT,        \
-	     DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, PSYWAVE,      \
-	     SUBSTITUTE,   FLY,          FLASH
+	     DREAM_EATER,  SKY_ATTACK,   REST,         PSYWAVE,      SUBSTITUTE,   \
+	     FLY,          THUNDER_WAVE
 	; end
 
 	db BANK(SigilyphPicFront)

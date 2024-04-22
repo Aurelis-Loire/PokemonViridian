@@ -17,7 +17,7 @@
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  POWDER_SNOW,  \
 	     THUNDERBOLT,  THUNDER,      EARTHQUAKE,   DIG,          MIMIC,        \
 	     DOUBLE_TEAM,  FIRE_BLAST,   SKULL_BASH,   HEADBUTT,     REST,         \
-	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     FLAMETHROWER, ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(RhyhornPicFront)

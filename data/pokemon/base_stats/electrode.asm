@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm TOXIC,        TAKE_DOWN,    HYPER_BEAM,   THUNDERBOLT,  THUNDER,      \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      SELFDESTRUCT, SWIFT,        \
-	     SKULL_BASH,   HEADBUTT,     REST,         THUNDER_WAVE, EXPLOSION,    \
-	     SUBSTITUTE,   FLASH
+	     SKULL_BASH,   HEADBUTT,     REST,         EXPLOSION,    SUBSTITUTE,   \
+	     THUNDER_WAVE
 	; end
 
 	db BANK(ElectrodePicFront)

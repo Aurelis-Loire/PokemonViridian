@@ -23,8 +23,9 @@ _DexRatingText_Own0To9::
 _DexRatingText_Own10To19::
 	text "You're on the"
 	line "right track! "
-	cont "Get a FLASH HM"
-	cont "from my AIDE!"
+	cont "Get a THUNDER"
+	cont "WAVE HM from my"
+	cont "AIDE!"
 	done
 
 _DexRatingText_Own20To29::

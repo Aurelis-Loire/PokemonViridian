@@ -18,7 +18,7 @@
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     POWDER_SNOW,  DRAGON_RAGE,  \
 	     THUNDERBOLT,  THUNDER,      DRAGONBREATH, MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      FIRE_BLAST,   SWIFT,        SKULL_BASH,   HEADBUTT,     \
-	     REST,         THUNDER_WAVE, SUBSTITUTE,   SURF
+	     REST,         FLAMETHROWER, SUBSTITUTE,   SURF,         THUNDER_WAVE
 	; end
 
 	db BANK(DragonairPicFront)

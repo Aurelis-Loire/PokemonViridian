@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  THUNDERBOLT,  THUNDER,      \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      SWIFT,        REST,         \
-	     THUNDER_WAVE, SUBSTITUTE,   FLASH
+	     SUBSTITUTE,   THUNDER_WAVE
 	; end
 
 	db BANK(MagnemitePicFront)

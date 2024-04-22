@@ -19,8 +19,8 @@
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, POWDER_SNOW,  \
 	     THUNDERBOLT,  THUNDER,      EARTHQUAKE,   DIG,          MIMIC,        \
 	     DOUBLE_TEAM,  THUNDERPUNCH, FIRE_PUNCH,   FIRE_BLAST,   SKULL_BASH,   \
-	     HEADBUTT,     REST,         ROCK_SLIDE,   SUBSTITUTE,   SURF,         \
-	     STRENGTH
+	     HEADBUTT,     REST,         FLAMETHROWER, ROCK_SLIDE,   SUBSTITUTE,   \
+	     SURF,         STRENGTH
 	; end
 
 	db BANK(RhydonPicFront)

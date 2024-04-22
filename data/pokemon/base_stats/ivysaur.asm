@@ -17,7 +17,7 @@
 	tmhm RAZOR_WIND,   SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  MEGA_DRAIN,   SOLARBEAM,    MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE,   \
-		 CUT,          FLASH
+		 CUT
 	; end
 
 	db BANK(IvysaurPicFront)

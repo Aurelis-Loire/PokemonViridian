@@ -17,7 +17,7 @@
 	tmhm SHADOW_BALL,  TOXIC,        BODY_SLAM,    TAKE_DOWN,    ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   ICE_PUNCH,    POWDER_SNOW,  THUNDERBOLT,  \
 	     THUNDER,      PSYCHIC_M,    DOUBLE_TEAM,  HEADBUTT,     DREAM_EATER,  \
-	     REST,         THUNDER_WAVE, SUBSTITUTE,   FLASH
+	     REST,         SUBSTITUTE,   THUNDER_WAVE
 	; end
 
 	db BANK(FroslassPicFront)

@@ -17,8 +17,8 @@
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  COUNTER,      SEISMIC_TOSS, THUNDERBOLT,  THUNDER,      \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      THUNDERPUNCH, FIRE_PUNCH,   \
-	     SWIFT,        HEADBUTT,     REST,         THUNDER_WAVE, SUBSTITUTE,   \
-		 STRENGTH,     FLASH
+	     SWIFT,        HEADBUTT,     REST,         SUBSTITUTE,   STRENGTH,     \
+		 THUNDER_WAVE
 	; end
 
 	db BANK(FlaaffyPicFront)

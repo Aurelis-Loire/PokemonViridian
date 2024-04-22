@@ -19,8 +19,8 @@
 	     BLIZZARD,     HYPER_BEAM,   ICE_PUNCH,    SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, POWDER_SNOW,  EARTHQUAKE,   DIG,          PSYCHIC_M,    \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      FIRE_BLAST,   SWIFT,        \
-	     SKULL_BASH,   HEADBUTT,     REST,         THUNDER_WAVE, PSYWAVE,      \
-	     TRI_ATTACK,   SUBSTITUTE,   SURF,         STRENGTH,     FLASH
+	     SKULL_BASH,   HEADBUTT,     REST,         FLAMETHROWER, PSYWAVE,      \
+	     TRI_ATTACK,   SUBSTITUTE,   SURF,         STRENGTH,     THUNDER_WAVE
 	; end
 
 	db BANK(SlowbroPicFront)

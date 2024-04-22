@@ -5,7 +5,7 @@ FieldMoveNames:
 	db "@"
 	db "SURF@"
 	db "STRENGTH@"
-	db "FLASH@"
+	db "THUNDER WAVE@"
 	db "DIG@"
 	db "TELEPORT@"
 	db "SOFTBOILED@"

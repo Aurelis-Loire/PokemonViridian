@@ -17,7 +17,7 @@
 	tmhm RAZOR_WIND,   TOXIC,        SLUDGE_BOMB,  TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   MEGA_DRAIN,   SOLARBEAM,    PSYCHIC_M,    MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      SWIFT,        REST,         PSYWAVE,      \
-	     SUBSTITUTE,   FLASH
+	     SUBSTITUTE
 	; end
 
 	db BANK(VenomothPicFront)

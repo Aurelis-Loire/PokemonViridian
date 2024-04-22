@@ -22,9 +22,9 @@
 	     EARTHQUAKE,   DRAGONBREATH, DIG,          PSYCHIC_M,    PIN_MISSILE,  \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      THUNDERPUNCH, METRONOME,    \
 	     SELFDESTRUCT, FIRE_PUNCH,   FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
-	     HEADBUTT,     DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
+	     HEADBUTT,     DREAM_EATER,  SKY_ATTACK,   REST,         FLAMETHROWER, \
 	     PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
-	     CUT,          FLY,          SURF,         STRENGTH,     FLASH,        \
+	     CUT,          FLY,          SURF,         STRENGTH,     THUNDER_WAVE, \
 	     UNUSED
 	; end
 

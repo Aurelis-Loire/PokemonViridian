@@ -17,7 +17,7 @@
 	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     DRAGON_RAGE,  DRAGONBREATH, MIMIC,        DOUBLE_TEAM,  REFLECT,      \
 	     FIRE_BLAST,   SWIFT,        HEADBUTT,     SKY_ATTACK,   REST,         \
-	     SUBSTITUTE,   FLY
+	     FLAMETHROWER, SUBSTITUTE,   FLY
 	; end
 
 	db BANK(AerodactylPicFront)

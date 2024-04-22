@@ -15,8 +15,8 @@
 
 	; tm/hm learnset
 	tmhm SHADOW_BALL,  TOXIC,        HYPER_BEAM,   SOLARBEAM,    PSYCHIC_M,    \
-	     DOUBLE_TEAM,  FIRE_BLAST,   DREAM_EATER,  REST,         SUBSTITUTE,   \
-		 FLASH
+	     DOUBLE_TEAM,  FIRE_BLAST,   DREAM_EATER,  REST,         FLAMETHROWER,   \
+		 SUBSTITUTE
 	; end
 
 	db BANK(ChandelurePicFront)

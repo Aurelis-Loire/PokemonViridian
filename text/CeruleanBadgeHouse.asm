@@ -29,8 +29,9 @@ _CeruleanHouse2Text_74e96::
 	cont "a little bit."
 
 	para "It also lets you"
-	line "use FLASH any"
-	cont "time you desire."
+	line "use THUNDER WAVE"
+	cont "any time you"
+	cont "desire."
 	prompt
 
 _CeruleanHouse2Text_74e9b::

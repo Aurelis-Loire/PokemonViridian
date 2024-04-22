@@ -6,5 +6,5 @@
 	db FLY
 	db SURF
 	db STRENGTH
-	db FLASH
+	db THUNDER_WAVE
 	db -1 ; end
