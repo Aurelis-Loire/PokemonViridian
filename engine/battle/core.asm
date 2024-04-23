@@ -3618,6 +3618,15 @@ CheckPlayerStatusConditions:
 	ld hl, getPlayerAnimationType ; if it didn't, skip damage calculation (deal damage equal to last hit),
 	                ; DecrementPP and MoveHitTest
 	jp nz, .returnToHL
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	;joenote - play cry to signal end of trapping move
+	ld a, [wBattleMonSpecies]
+	push hl
+	push bc
+	call PlayCry
+	pop bc
+	pop hl
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	jp .returnToHL
 
 .RageCheck
