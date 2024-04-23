@@ -16,9 +16,10 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  ICE_PUNCH,    SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     THUNDERBOLT,  THUNDER,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     THUNDERPUNCH, METRONOME,    FIRE_PUNCH,   SWIFT,        SKULL_BASH,   \
-	     HEADBUTT,     REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     THUNDERBOLT,  THUNDER,      OUTRAGE,      DIG,          MIMIC,        \
+	     DOUBLE_TEAM,  THUNDERPUNCH, METRONOME,    FIRE_PUNCH,   SWIFT,        \
+	     SKULL_BASH,   HEADBUTT,     REST,         ROCK_SLIDE,   SUBSTITUTE,   \
+		 STRENGTH
 	; end
 
 	db BANK(MankeyPicFront)

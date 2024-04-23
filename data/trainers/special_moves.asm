@@ -233,10 +233,10 @@ SpecialTrainerMoves:
 	db 3, 3, FLY
 	db 3, 4, SWORDS_DANCE
 	db 4, 1, BLIZZARD
-	db 4, 2, DRAGONBREATH
+	db 4, 2, OUTRAGE
 	db 4, 3, HYPER_BEAM
 	db 4, 4, THUNDER
-	db 5, 1, DRAGONBREATH
+	db 5, 1, OUTRAGE
 	db 5, 2, HYPER_BEAM
 	db 5, 3, EARTHQUAKE
 	db 5, 4, SWORDS_DANCE
@@ -247,7 +247,9 @@ SpecialTrainerMoves:
 	db 1, 2, SUBSTITUTE
 	db 1, 3, DIG
 	db 1, 4, SWIFT
-	db 2, 3, HEADBUTT
+	db 2, 1, FLAMETHROWER
+	db 2, 2, BONEMERANG
+	db 2, 3, SHADOW_BALL
 	db 2, 4, TOXIC
 	db 3, 1, FIRE_BLAST
 	db 3, 2, TOXIC

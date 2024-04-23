@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   DRAGON_RAGE,  EARTHQUAKE,   DRAGONBREATH, DIG,          \
+	     HYPER_BEAM,   DRAGON_RAGE,  EARTHQUAKE,   OUTRAGE,      DIG,          \
 	     DOUBLE_TEAM,  FIRE_BLAST,   SWIFT,        HEADBUTT,     REST,         \
 		 FLAMETHROWER, ROCK_SLIDE,   SUBSTITUTE,   CUT,          SURF,         \
 		 STRENGTH

@@ -376,7 +376,7 @@ WooperEvosMoves:
 	db 0
 ; Learnset
 	db 6, TAIL_WHIP
-	db 17, SLAM
+	db 11, SLAM
 	db 24, AMNESIA
 	db 31, EARTHQUAKE
 	db 38, MIST
@@ -491,7 +491,7 @@ QuagsireEvosMoves:
 	db 0
 ; Learnset
 	db 6, TAIL_WHIP
-	db 17, SLAM
+	db 11, SLAM
 	db 27, AMNESIA
 	db 36, EARTHQUAKE
 	db 47, MIST
@@ -1025,7 +1025,8 @@ DragoniteEvosMoves:
 	db 38, AGILITY
 	db 47, SAFEGUARD
 	db 55, WING_ATTACK
-	db 60, HYPER_BEAM
+	db 61, OUTRAGE
+	db 62, HYPER_BEAM
 	db 0
 
 GardevoirEvosMoves:
@@ -1288,7 +1289,8 @@ DratiniEvosMoves:
 	db 29, SLAM
 	db 36, AGILITY
 	db 43, SAFEGUARD
-	db 50, HYPER_BEAM
+	db 50, OUTRAGE
+	db 51, HYPER_BEAM
 	db 0
 
 DragonairEvosMoves:
@@ -1302,7 +1304,8 @@ DragonairEvosMoves:
 	db 29, SLAM
 	db 38, AGILITY
 	db 47, SAFEGUARD
-	db 55, HYPER_BEAM
+	db 56, OUTRAGE
+	db 57, HYPER_BEAM
 	db 0
 
 KabutoEvosMoves:

@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   POWDER_SNOW,  \
-	     SOLARBEAM,    DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      DRAGONBREATH, \
+	     SOLARBEAM,    DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      OUTRAGE,      \
 	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      SKULL_BASH,   \
 	     HEADBUTT,     REST,         PSYWAVE,      SUBSTITUTE,   SURF,         \
 		 STRENGTH

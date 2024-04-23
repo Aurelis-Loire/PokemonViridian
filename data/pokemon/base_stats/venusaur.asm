@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  HYPER_BEAM,   MEGA_DRAIN,   SOLARBEAM,    MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      SKULL_BASH,   HEADBUTT,     REST,         \
-		 SUBSTITUTE,   CUT
+	     DOUBLE_EDGE,  HYPER_BEAM,   MEGA_DRAIN,   SOLARBEAM,    OUTRAGE,      \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      SKULL_BASH,   HEADBUTT,     \
+		 REST,         SUBSTITUTE,   CUT
 	; end
 
 	db BANK(VenusaurPicFront)
