@@ -174,6 +174,7 @@ AttackAnimationPointers:
 	dw SuperFangAnim
 	dw FlameWheelAnim
 	dw ExtremeSpeedAnim
+	dw BoneRushAnim
 	dw OutrageAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
@@ -1212,6 +1213,11 @@ ExtremeSpeedAnim:
 	battle_anim EXTREMESPEED, SE_SLIDE_MON_OFF
 	battle_anim NO_MOVE, SUBANIM_0_SLICE, 0, 4
 	battle_anim NO_MOVE, SE_SHOW_MON_PIC
+	db -1 ; end
+	
+BoneRushAnim:
+	battle_anim BONE_RUSH, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim BONE_RUSH, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 	
 OutrageAnim:

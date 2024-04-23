@@ -180,8 +180,9 @@
 	const SUPER_FANG   ; ac
 	const FLAME_WHEEL  ; ad
 	const EXTREMESPEED ; ae
-	const OUTRAGE      ; af
-	const STRUGGLE     ; b0
+	const BONE_RUSH    ; af
+	const OUTRAGE      ; b0
+	const STRUGGLE     ; b1
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

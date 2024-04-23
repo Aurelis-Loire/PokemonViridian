@@ -175,6 +175,7 @@ MoveSoundTable:
 	db SFX_BATTLE_26,          $f0, $ff ; SUPER_FANG
 	db SFX_BATTLE_16,          $ac, $94 ; FLAME_WHEEL
 	db SFX_BATTLE_17,          $dc, $ab ; EXTREMESPEED
+	db SFX_BATTLE_18,          $44, $e9 ; BONE_RUSH
 	db SFX_BATTLE_0B,          $00, $80 ; OUTRAGE
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS

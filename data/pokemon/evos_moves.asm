@@ -375,7 +375,7 @@ WooperEvosMoves:
     db EV_LEVEL, 20, QUAGSIRE
 	db 0
 ; Learnset
-	db 10, TAIL_WHIP
+	db 6, TAIL_WHIP
 	db 17, SLAM
 	db 24, AMNESIA
 	db 31, EARTHQUAKE
@@ -408,6 +408,7 @@ CuboneEvosMoves:
 	db 29, RAGE
 	db 33, SCREECH
 	db 37, THRASH
+	db 41, BONE_RUSH
 	db 0
 
 RhyhornEvosMoves:
@@ -489,7 +490,7 @@ QuagsireEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, TAIL_WHIP
+	db 6, TAIL_WHIP
 	db 17, SLAM
 	db 27, AMNESIA
 	db 36, EARTHQUAKE
@@ -1174,9 +1175,9 @@ LucarioEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, AGILITY
-	db 25, COUNTER
-	db 30, FORCE_PALM
+	db 21, COUNTER
+	db 25, FORCE_PALM
+	db 30, BONE_RUSH
 	db 36, SCREECH
 	db 43, SWORDS_DANCE
 	db 49, GROWTH
@@ -1881,6 +1882,7 @@ MarowakEvosMoves:
 	db 32, FLAME_WHEEL
 	db 39, ASTONISH
 	db 46, THRASH
+	db 53, BONE_RUSH
 	db 0
 
 MissingNo92EvosMoves:

@@ -174,6 +174,7 @@ MoveNames::
 	li "SUPER FANG"
 	li "FLAME WHEEL"
 	li "EXTREMESPEED"
+	li "BONE RUSH"
 	li "OUTRAGE"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

@@ -185,6 +185,7 @@ Moves:
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,        90, 10
 	move FLAME_WHEEL,  BURN_SIDE_EFFECT1,           60, FIRE,         100, 25
 	move EXTREMESPEED, NO_ADDITIONAL_EFFECT,        80, NORMAL,       100, 5
+	move BONE_RUSH,    TWO_TO_FIVE_ATTACKS_EFFECT,  25, GROUND,        80, 10
 	move OUTRAGE,      THRASH_PETAL_DANCE_EFFECT,   90, DRAGON,       100, 15
 	move STRUGGLE,     RECOIL_EFFECT,               50, DRAGON,       100, 10
 	assert_table_length NUM_ATTACKS
