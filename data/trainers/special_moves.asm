@@ -181,7 +181,6 @@ SpecialTrainerMoves:
 	db KOGA, 1
 	db 1, 4, EMBER
 	db 3, 4, POWDER_SNOW
-	db 4, 1, BONE_CLUB
 	db 4, 4, SHADOW_BALL
 	db 0
 
@@ -251,7 +250,7 @@ SpecialTrainerMoves:
 	db 2, 2, BONEMERANG
 	db 2, 3, SHADOW_BALL
 	db 2, 4, TOXIC
-	db 3, 1, FIRE_BLAST
+	db 3, 1, FLAMETHROWER
 	db 3, 2, TOXIC
 	db 3, 3, DOUBLE_TEAM
 	db 3, 4, SLUDGE_BOMB
@@ -273,6 +272,7 @@ SpecialTrainerMoves:
 	db 4, 2, WRAP
 	db 4, 3, THUNDER_WAVE
 	db 5, 2, SKY_ATTACK
+	db 5, 4, DOUBLE_EDGE
 	db 0
 
 	db AGATHA, 1

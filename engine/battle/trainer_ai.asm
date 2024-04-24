@@ -472,12 +472,12 @@ BrunoAI:
 AgathaAI:
 	cp 8 percent
 	jp c, AISwitchIfEnoughMons
-	cp 50 percent + 1
+	cp 75 percent + 1
 	ret nc
-	ld a, 4
+	ld a, 10
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseSuperPotion
+	jp AIUseHyperPotion
 
 LanceAI:
 	cp 50 percent + 1
