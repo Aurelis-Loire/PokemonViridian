@@ -378,8 +378,9 @@ WooperEvosMoves:
 	db 6, TAIL_WHIP
 	db 11, SLAM
 	db 17, AMNESIA
-	db 31, EARTHQUAKE
-	db 38, MIST
+	db 23, EARTHQUAKE
+	db 30, SAFEGUARD
+	db 37, MIST
 	db 0
 
 FrigibaxEvosMoves:
@@ -468,8 +469,9 @@ GyaradosEvosMoves:
 	db 0
 ; Learnset
 	db 20, BITE
+	db 21, THRASH
 	db 25, DRAGON_RAGE
-	db 32, LEER
+	db 30, LEER
 	db 41, HYDRO_PUMP
 	db 52, HYPER_BEAM
 	db 0
@@ -493,8 +495,9 @@ QuagsireEvosMoves:
 	db 6, TAIL_WHIP
 	db 11, SLAM
 	db 17, AMNESIA
-	db 36, EARTHQUAKE
-	db 47, MIST
+	db 24, EARTHQUAKE
+	db 33, SAFEGUARD
+	db 42, MIST
 	db 0
 
 GastlyEvosMoves:
@@ -845,7 +848,8 @@ LarvitarEvosMoves:
 	db EV_LEVEL, 30, PUPITAR
 	db 0
 ; Learnset
-	db 13, BITE
+	db 6, LEER
+	db 7, FOCUS_ENERGY
 	db 15, SCREECH
 	db 18, ROCK_SLIDE
 	db 21, THRASH
@@ -1550,7 +1554,8 @@ PupitarEvosMoves:
     db EV_LEVEL, 55, TYRANITAR
 	db 0
 ; Learnset
-	db 13, BITE
+	db 6, LEER
+	db 7, FOCUS_ENERGY
 	db 15, SCREECH
 	db 18, ROCK_SLIDE
 	db 21, THRASH
@@ -1564,7 +1569,8 @@ TyranitarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, BITE
+	db 6, LEER
+	db 7, FOCUS_ENERGY
 	db 15, SCREECH
 	db 18, ROCK_SLIDE
 	db 21, THRASH

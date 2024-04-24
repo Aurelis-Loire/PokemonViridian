@@ -79,9 +79,7 @@ SpecialTrainerMoves:
 
 	db MISTY, 1
 	db 1, 1, TACKLE
-	db 2, 1, TACKLE
-	db 2, 2, BITE
-	db 2, 3, BUBBLEBEAM
+	db 2, 1, BUBBLEBEAM
 	db 0
 
 	db LT_SURGE, 1
@@ -124,11 +122,13 @@ SpecialTrainerMoves:
 	
 	db RIVAL2, 7
 	db 1, 2, CONFUSION
+	db 2, 2, BITE
 	db 4, 1, TACKLE
 	db 0
 	
 	db RIVAL2, 8
 	db 1, 2, CONFUSION
+	db 3, 2, BITE
 	db 4, 1, TACKLE
 	db 5, 1, LEECH_SEED
 	db 5, 4, VINE_WHIP
@@ -212,7 +212,6 @@ SpecialTrainerMoves:
 	db 0
 
 	db GIOVANNI, 1
-	db 1, 1, GROWL
 	db 3, 3, TACKLE
 	db 0
 	
@@ -271,7 +270,9 @@ SpecialTrainerMoves:
 	db 4, 1, AGILITY
 	db 4, 2, WRAP
 	db 4, 3, THUNDER_WAVE
+	db 5, 1, REFLECT
 	db 5, 2, SKY_ATTACK
+	db 5, 3, HYPER_BEAM
 	db 5, 4, DOUBLE_EDGE
 	db 0
 
@@ -283,6 +284,7 @@ SpecialTrainerMoves:
 	db 3, 3, HORN_ATTACK
 	db 5, 1, ROCK_SLIDE
 	db 5, 2, SUBSTITUTE
+	db 5, 4, DOUBLE_EDGE
 	db 0
 
 	db LANCE, 1
