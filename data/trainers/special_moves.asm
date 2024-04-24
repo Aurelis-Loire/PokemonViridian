@@ -286,18 +286,16 @@ SpecialTrainerMoves:
 	db 0
 
 	db LANCE, 1
-	db 1, 1, DRAGON_RAGE
-	db 2, 1, THUNDER_WAVE
-	db 2, 3, THUNDERBOLT
-	db 3, 1, BUBBLEBEAM
-	db 3, 2, WRAP
-	db 3, 3, ICE_BEAM
-	db 4, 1, WING_ATTACK
-	db 4, 2, SWIFT
-	db 4, 3, FLY
-	db 5, 1, BLIZZARD
-	db 5, 2, FIRE_BLAST
-	db 5, 3, THUNDER
+	db 1, 1, RAZOR_LEAF
+	db 1, 2, SYNTHESIS
+	db 2, 1, SLEEP_POWDER
+	db 2, 4, SUPERSONIC
+	db 3, 1, REFLECT
+	db 3, 2, LEECH_SEED
+	db 3, 3, STOMP
+	db 4, 1, RAZOR_LEAF
+	db 5, 2, SLEEP_POWDER
+	db 5, 3, HYPER_BEAM
 	db 0
 
 	db RIVAL3, 1

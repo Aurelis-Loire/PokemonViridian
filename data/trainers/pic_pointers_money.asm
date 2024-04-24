@@ -53,5 +53,5 @@ TrainerPicAndMoneyPointers::
 	pic_money KevinPic,        9900
 	pic_money ChannelerPic,    3000
 	pic_money ThomPic,         9900
-	pic_money LancePic,        9900
+	pic_money JohnPic,         9900
 	assert_table_length NUM_TRAINERS

@@ -1,48 +1,53 @@
 _LanceBeforeBattleText::
-	text "Ah! I heard about"
-	line "you <PLAYER>!"
+	text "So you're"
+	line "<PLAYER>..."
 
-	para "I lead the ELITE"
-	line "FOUR! You can"
-	cont "call me LANCE the"
-	cont "dragon trainer!"
+	para "My name is JOHN."
+	line "I'm the leader of"
+	cont "the ELITE FOUR."
 
-	para "You know that"
-	line "dragons are"
-	cont "mythical #MON!"
+	para "You must be"
+	line "skilled to have"
+	cont "made it this far."
 
-	para "They're hard to"
-	line "catch and raise,"
-	cont "but their powers"
-	cont "are superior!"
+	para "Unfortunately,"
+	line "your LEAGUE"
+	cont "challenge ends"
+	cont "with me."
 
-	para "They're virtually"
-	line "indestructible!"
+	para "My #MON and I"
+	line "have journeyed"
+    cont "together twenty-"
+    cont "five years now."
 
-	para "Well, are you"
-	line "ready to lose?"
+	para "My trust and love"
+	line "for them is"
+	cont "absolute." 
 
-	para "Your LEAGUE"
-	line "challenge ends"
-	cont "with me, <PLAYER>!"
+	para "There exists no"
+	line "obstacle we"
+	cont "cannot overcome."
+	
+	para "Come. I shall give"
+	line "my all."
 	done
 
 _LanceEndBattleText::
-	text "That's it!"
+	text "Splendid!"
 
-	para "I hate to admit"
-	line "it, but you are a"
-	cont "#MON master!"
+	para "This victory shall"
+	line "be remembered!"
 	prompt
 
 _LanceAfterBattleText::
-	text "I still can't"
-	line "believe my"
-	cont "dragons lost to"
-	cont "you, <PLAYER>!"
+	text "So I have no"
+	line "choice..."
 
-	para "You are now the"
-	line "#MON LEAGUE"
+	para "I acknowledge your"
+	line "strength. You've"
+	cont "earned the right"
+	cont "to be called the"
+	cont "#MON LEAGUE"
 	cont "champion!"
 
 	para "...Or, you would"
@@ -52,13 +57,13 @@ _LanceAfterBattleText::
 
 	para "You have to face"
 	line "another trainer!"
-	cont "His name is..."
+	cont "Her name is..."
 
-	para "<RIVAL>!"
-	line "He beat the ELITE"
+	para "<RIVAL>! She"
+	line "beat the ELITE"
 	cont "FOUR before you!"
 
-	para "He is the real"
+	para "She is the current"
 	line "#MON LEAGUE"
 	cont "champion!@"
 	text_end

@@ -46,5 +46,5 @@ TrainerNames::
 	li "KEVIN"
 	li "CHANNELER"
 	li "THOM"
-	li "LANCE"
+	li "JOHN"
 	assert_list_length NUM_TRAINERS

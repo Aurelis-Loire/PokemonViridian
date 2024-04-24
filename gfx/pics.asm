@@ -311,7 +311,7 @@ Rival3Pic::        INCBIN "gfx/trainers/rival3.pic"
 KevinPic::         INCBIN "gfx/trainers/kevin.pic"
 ChannelerPic::     INCBIN "gfx/trainers/channeler.pic"
 ThomPic::          INCBIN "gfx/trainers/thom.pic"
-LancePic::         INCBIN "gfx/trainers/john.pic"
+JohnPic::          INCBIN "gfx/trainers/john.pic"
 
 
 SECTION "Pics 7", ROMX
