@@ -31,9 +31,9 @@ SpecialTrainerMoves:
 	db 2, 4, SUPERSONIC
 	db 0
 	
-	db COOLTRAINER_M, 1
+	db COOLTRAINER_M, 1 ;Viridian Gym - Gabite/Dragonair
 	db 1, 2, DRAGONBREATH
-	db 2, 4, THUNDER_WAVE
+	db 2, 4, WRAP
 	db 0
 	
 	db COOLTRAINER_M, 2
@@ -61,8 +61,9 @@ SpecialTrainerMoves:
 	db 2, 3, SCRATCH
 	db 0
 	
-	db COOLTRAINER_M, 10
-	db 1, 3, TACKLE
+	db COOLTRAINER_M, 10 ;Viridian Gym - Gyarados
+	db 1, 2, BITE
+	db 1, 3, THRASH
 	db 0
 	
 	db RIVAL1, 7
@@ -144,9 +145,9 @@ SpecialTrainerMoves:
 	
 	db RIVAL2, 10
 	db 1, 1, DOUBLE_TEAM
+	db 3, 1, EMBER
 	db 3, 4, BITE
 	db 4, 1, RAZOR_LEAF
-	db 4, 4, SWEET_SCENT
 	db 5, 1, DRAGONBREATH
 	db 5, 2, DRAGON_RAGE
 	db 6, 1, WITHDRAW
@@ -156,6 +157,7 @@ SpecialTrainerMoves:
 	db RIVAL2, 11
 	db 1, 1, DOUBLE_TEAM
 	db 3, 1, WRAP
+	db 4, 1, EMBER
 	db 4, 4, BITE
 	db 5, 1, DRAGONBREATH
 	db 5, 2, DRAGON_RAGE
@@ -166,7 +168,6 @@ SpecialTrainerMoves:
 	db RIVAL2, 12
 	db 1, 1, DOUBLE_TEAM
 	db 3, 2, RAZOR_LEAF
-	db 3, 4, SWEET_SCENT
 	db 4, 1, WRAP
 	db 5, 1, DRAGONBREATH
 	db 5, 2, DRAGON_RAGE
@@ -266,10 +267,11 @@ SpecialTrainerMoves:
 	db BRUNO, 1
 	db 1, 3, LEER
 	db 2, 4, SCARY_FACE
-	db 3, 1, BITE
-	db 4, 1, AGILITY
-	db 4, 2, WRAP
-	db 4, 3, THUNDER_WAVE
+	db 3, 1, LEER
+	db 3, 3, BITE
+	db 4, 1, BLIZZARD
+	db 4, 2, BODY_SLAM
+	db 4, 3, THUNDERBOLT
 	db 5, 1, REFLECT
 	db 5, 2, SKY_ATTACK
 	db 5, 3, HYPER_BEAM
@@ -282,6 +284,7 @@ SpecialTrainerMoves:
 	db 2, 3, ASTONISH
 	db 3, 2, DOUBLE_KICK
 	db 3, 3, HORN_ATTACK
+	db 4, 2, EARTHQUAKE
 	db 5, 1, ROCK_SLIDE
 	db 5, 2, SUBSTITUTE
 	db 5, 4, DOUBLE_EDGE

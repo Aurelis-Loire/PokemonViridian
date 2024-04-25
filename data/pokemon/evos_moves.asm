@@ -235,8 +235,8 @@ ClefairyEvosMoves:
 	db EV_ITEM, MOON_STONE, 1, CLEFABLE
 	db 0
 ; Learnset
-	db 13, SING
-	db 18, DOUBLESLAP
+	db 8, SING
+	db 13, DOUBLESLAP
 	db 24, MINIMIZE
 	db 31, METRONOME
 	db 39, DEFENSE_CURL
@@ -475,6 +475,7 @@ GyaradosEvosMoves:
 	db 30, LEER
 	db 35, TWISTER
 	db 40, HYDRO_PUMP
+	db 45, ROAR
 	db 52, HYPER_BEAM
 	db 0
 
@@ -853,7 +854,7 @@ LarvitarEvosMoves:
 	db 0
 ; Learnset
 	db 6, LEER
-	db 7, FOCUS_ENERGY
+	db 11, FOCUS_ENERGY
 	db 15, SCREECH
 	db 18, ROCK_SLIDE
 	db 21, THRASH
@@ -1066,8 +1067,8 @@ TsareenaEvosMoves:
 	db 17, POUND
 	db 27, DOUBLESLAP
 	db 29, STOMP
-	db 36, HI_JUMP_KICK
-	db 47, PETAL_DANCE
+	db 36, CONFUSE_RAY
+	db 47, HI_JUMP_KICK
 	db 0
 
 DoduoEvosMoves:
@@ -1559,7 +1560,7 @@ PupitarEvosMoves:
 	db 0
 ; Learnset
 	db 6, LEER
-	db 7, FOCUS_ENERGY
+	db 11, FOCUS_ENERGY
 	db 15, SCREECH
 	db 18, ROCK_SLIDE
 	db 21, THRASH
@@ -1574,7 +1575,7 @@ TyranitarEvosMoves:
 	db 0
 ; Learnset
 	db 6, LEER
-	db 7, FOCUS_ENERGY
+	db 11, FOCUS_ENERGY
 	db 15, SCREECH
 	db 18, ROCK_SLIDE
 	db 21, THRASH
@@ -1858,8 +1859,8 @@ ClefableEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-    db 13, SING
-	db 18, DOUBLESLAP
+    db 8, SING
+	db 13, DOUBLESLAP
 	db 24, MINIMIZE
 	db 31, METRONOME
 	db 39, DEFENSE_CURL

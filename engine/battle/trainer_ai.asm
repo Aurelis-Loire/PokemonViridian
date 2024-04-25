@@ -480,9 +480,9 @@ AgathaAI:
 	jp AIUseHyperPotion
 
 LanceAI:
-	cp 50 percent + 1
+	cp 80 percent + 1
 	ret nc
-	ld a, 5
+	ld a, 10
 	call AICheckIfHPBelowFraction
 	ret nc
 	jp AIUseHyperPotion
