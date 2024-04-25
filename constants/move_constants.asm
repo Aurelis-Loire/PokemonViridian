@@ -182,7 +182,8 @@
 	const EXTREMESPEED ; ae
 	const BONE_RUSH    ; af
 	const OUTRAGE      ; b0
-	const STRUGGLE     ; b1
+	const CHARM        ; b1
+	const STRUGGLE     ; b2
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

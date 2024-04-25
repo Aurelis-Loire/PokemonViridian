@@ -176,6 +176,7 @@ AttackAnimationPointers:
 	dw ExtremeSpeedAnim
 	dw BoneRushAnim
 	dw OutrageAnim
+	dw CharmAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -1224,6 +1225,10 @@ OutrageAnim:
 	battle_anim OUTRAGE, SE_BLINK_MON
 	battle_anim OUTRAGE, SUBANIM_0_STAR_THRICE, 0, 4
 	battle_anim OUTRAGE, SUBANIM_0_STAR_THRICE, 0, 4
+	db -1 ; end
+	
+CharmAnim:
+	battle_anim CHARM, SUBANIM_0_HEART_1_MUSIC, 1, 6
 	db -1 ; end
 
 BallTossAnim:

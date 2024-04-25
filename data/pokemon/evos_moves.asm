@@ -381,6 +381,7 @@ WooperEvosMoves:
 	db 23, EARTHQUAKE
 	db 30, SAFEGUARD
 	db 37, MIST
+	db 45, HAZE
 	db 0
 
 FrigibaxEvosMoves:
@@ -472,7 +473,8 @@ GyaradosEvosMoves:
 	db 21, THRASH
 	db 25, DRAGON_RAGE
 	db 30, LEER
-	db 41, HYDRO_PUMP
+	db 35, TWISTER
+	db 40, HYDRO_PUMP
 	db 52, HYPER_BEAM
 	db 0
 
@@ -498,6 +500,7 @@ QuagsireEvosMoves:
 	db 24, EARTHQUAKE
 	db 33, SAFEGUARD
 	db 42, MIST
+	db 52, HAZE
 	db 0
 
 GastlyEvosMoves:
@@ -584,10 +587,9 @@ BounsweetEvosMoves:
     db EV_LEVEL, 18, STEENEE
 	db 0
 ; Learnset
-	db 8, TACKLE
-	db 12, RAZOR_LEAF
-	db 17, SWEET_SCENT
-	db 38, PETAL_DANCE
+	db 8, RAZOR_LEAF
+	db 12, SWEET_SCENT
+	db 17, POUND
 	db 0
 
 DucklettEvosMoves:
@@ -714,9 +716,11 @@ SteeneeEvosMoves:
     db EV_LEVEL, 30, TSAREENA
 	db 0
 ; Learnset
+	db 8, RAZOR_LEAF
+	db 12, SWEET_SCENT
+	db 17, POUND
 	db 27, DOUBLESLAP
 	db 29, STOMP
-	db 46, PETAL_DANCE
 	db 0
 
 WailmerEvosMoves:
@@ -1057,9 +1061,9 @@ TsareenaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 8, TACKLE
-	db 12, RAZOR_LEAF
-	db 17, SWEET_SCENT
+	db 8, RAZOR_LEAF
+	db 12, SWEET_SCENT
+	db 17, POUND
 	db 27, DOUBLESLAP
 	db 29, STOMP
 	db 36, HI_JUMP_KICK

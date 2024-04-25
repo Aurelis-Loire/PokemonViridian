@@ -187,5 +187,6 @@ Moves:
 	move EXTREMESPEED, NO_ADDITIONAL_EFFECT,        80, NORMAL,       100, 5
 	move BONE_RUSH,    TWO_TO_FIVE_ATTACKS_EFFECT,  25, GROUND,        80, 10
 	move OUTRAGE,      THRASH_PETAL_DANCE_EFFECT,   90, DRAGON,       100, 15
+	move CHARM,        ATTACK_DOWN2_EFFECT,          0, NORMAL,       100, 20
 	move STRUGGLE,     RECOIL_EFFECT,               50, DRAGON,       100, 10
 	assert_table_length NUM_ATTACKS

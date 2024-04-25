@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/bounsweet.pic", 0, 1 ; sprite dimensions
 	dw BounsweetPicFront, BounsweetPicBack
 
-	db SPLASH, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
+	db SPLASH, TACKLE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

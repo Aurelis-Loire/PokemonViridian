@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/steenee.pic", 0, 1 ; sprite dimensions
 	dw SteeneePicFront, SteeneePicBack
 
-	db GROWL, TACKLE, RAZOR_LEAF, SWEET_SCENT ; level 1 learnset
+	db SPLASH, TACKLE, RAZOR_LEAF, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

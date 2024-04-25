@@ -176,5 +176,6 @@ MoveNames::
 	li "EXTREMESPEED"
 	li "BONE RUSH"
 	li "OUTRAGE"
+	li "CHARM"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS
