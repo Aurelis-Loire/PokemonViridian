@@ -237,9 +237,9 @@ ClefairyEvosMoves:
 ; Learnset
 	db 8, SING
 	db 13, DOUBLESLAP
-	db 24, MINIMIZE
-	db 31, METRONOME
-	db 39, DEFENSE_CURL
+	db 19, MINIMIZE
+	db 26, DEFENSE_CURL
+	db 34, METRONOME
 	db 48, LIGHT_SCREEN
 	db 0
 
@@ -315,7 +315,7 @@ ExeggutorEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, REFLECT
+	db 7, REFLECT
 	db 28, LEECH_SEED
 	db 29, STOMP
 	db 31, EGG_BOMB
@@ -341,7 +341,7 @@ ExeggcuteEvosMoves:
 	db EV_ITEM, LEAF_STONE, 1, EXEGGUTOR
 	db 0
 ; Learnset
-	db 25, REFLECT
+	db 7, REFLECT
 	db 28, LEECH_SEED
 	db 32, STUN_SPORE
 	db 37, POISONPOWDER
@@ -476,7 +476,7 @@ GyaradosEvosMoves:
 	db 35, TWISTER
 	db 40, HYDRO_PUMP
 	db 45, ROAR
-	db 52, HYPER_BEAM
+	db 50, HYPER_BEAM
 	db 0
 
 ShellderEvosMoves:
@@ -856,7 +856,7 @@ LarvitarEvosMoves:
 	db 6, LEER
 	db 11, FOCUS_ENERGY
 	db 15, SCREECH
-	db 18, ROCK_SLIDE
+	db 17, ROCK_SLIDE
 	db 21, THRASH
 	db 26, SCARY_FACE
 	db 30, CRUNCH
@@ -1562,7 +1562,7 @@ PupitarEvosMoves:
 	db 6, LEER
 	db 11, FOCUS_ENERGY
 	db 15, SCREECH
-	db 18, ROCK_SLIDE
+	db 17, ROCK_SLIDE
 	db 21, THRASH
 	db 26, SCARY_FACE
 	db 30, CRUNCH
@@ -1577,7 +1577,7 @@ TyranitarEvosMoves:
 	db 6, LEER
 	db 11, FOCUS_ENERGY
 	db 15, SCREECH
-	db 18, ROCK_SLIDE
+	db 17, ROCK_SLIDE
 	db 21, THRASH
 	db 26, SCARY_FACE
 	db 30, CRUNCH
@@ -1861,9 +1861,9 @@ ClefableEvosMoves:
 ; Learnset
     db 8, SING
 	db 13, DOUBLESLAP
-	db 24, MINIMIZE
-	db 31, METRONOME
-	db 39, DEFENSE_CURL
+	db 19, MINIMIZE
+	db 26, DEFENSE_CURL
+	db 34, METRONOME
 	db 48, LIGHT_SCREEN
 	db 0
 

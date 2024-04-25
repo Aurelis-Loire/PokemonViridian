@@ -272,6 +272,7 @@ SpecialTrainerMoves:
 	db 4, 1, BLIZZARD
 	db 4, 2, BODY_SLAM
 	db 4, 3, THUNDERBOLT
+	db 4, 4, ICE_BEAM
 	db 5, 1, REFLECT
 	db 5, 2, SKY_ATTACK
 	db 5, 3, HYPER_BEAM
@@ -284,6 +285,7 @@ SpecialTrainerMoves:
 	db 2, 3, ASTONISH
 	db 3, 2, DOUBLE_KICK
 	db 3, 3, HORN_ATTACK
+	db 4, 1, SUBSTITUTE
 	db 4, 2, EARTHQUAKE
 	db 5, 1, ROCK_SLIDE
 	db 5, 2, SUBSTITUTE
@@ -301,6 +303,7 @@ SpecialTrainerMoves:
 	db 4, 1, RAZOR_LEAF
 	db 5, 2, SLEEP_POWDER
 	db 5, 3, HYPER_BEAM
+	db 5, 4, SWORDS_DANCE
 	db 0
 
 	db RIVAL3, 1
