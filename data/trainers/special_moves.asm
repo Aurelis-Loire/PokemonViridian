@@ -304,34 +304,37 @@ SpecialTrainerMoves:
 	db 0
 
 	db RIVAL3, 1
-	db 1, 3, EARTHQUAKE
-	db 2, 4, KINESIS
-	db 3, 4, LEECH_SEED
-	db 4, 1, ICE_BEAM
-	db 5, 1, CONFUSE_RAY
-	db 5, 4, FIRE_SPIN
-	db 6, 3, QUICK_ATTACK
+	db 1, 4, DOUBLE_TEAM
+	db 2, 3, GROWL
+	db 3, 1, SWORDS_DANCE
+	db 3, 4, DRAGON_RAGE
+	db 4, 2, BITE
+	db 5, 1, RAZOR_LEAF
+	db 6, 1, WATER_GUN
+	db 6, 3, SURF
 	db 0
 
 	db RIVAL3, 2
-	db 1, 3, EARTHQUAKE
-	db 2, 4, KINESIS
-	db 3, 4, LEECH_SEED
-	db 4, 1, THUNDERBOLT
-	db 5, 1, ICE_BEAM
-	db 6, 2, REFLECT
-	db 6, 3, QUICK_ATTACK
+	db 1, 4, DOUBLE_TEAM
+	db 2, 3, GROWL
+	db 3, 1, SWORDS_DANCE
+	db 3, 4, DRAGON_RAGE
+	db 4, 1, WRAP
+	db 5, 2, BITE
+	db 6, 1, FLAMETHROWER
+	db 6, 4, SWORDS_DANCE
 	db 0
 
 	db RIVAL3, 3
-	db 1, 3, EARTHQUAKE
-	db 2, 4, KINESIS
-	db 3, 4, LEECH_SEED
-	db 4, 1, CONFUSE_RAY
-	db 4, 4, FIRE_SPIN
-	db 5, 1, THUNDERBOLT
-	db 6, 1, AURORA_BEAM
-	db 6, 3, QUICK_ATTACK
+	db 1, 4, DOUBLE_TEAM
+	db 2, 3, GROWL
+	db 3, 1, SWORDS_DANCE
+	db 3, 4, DRAGON_RAGE
+	db 4, 1, RAZOR_LEAF
+	db 5, 1, WRAP
+	db 6, 1, SLEEP_POWDER
+	db 6, 2, RAZOR_LEAF
+	db 6, 4, HYPER_BEAM
 	db 0
 
 	db -1 ; end
