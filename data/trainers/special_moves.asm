@@ -267,8 +267,8 @@ SpecialTrainerMoves:
 	db BRUNO, 1
 	db 1, 3, LEER
 	db 2, 4, SCARY_FACE
-	db 3, 1, LEER
-	db 3, 3, BITE
+	db 3, 1, BLIZZARD
+	db 3, 3, BODY_SLAM
 	db 4, 1, BLIZZARD
 	db 4, 2, BODY_SLAM
 	db 4, 3, THUNDERBOLT
@@ -285,8 +285,10 @@ SpecialTrainerMoves:
 	db 2, 3, ASTONISH
 	db 3, 2, DOUBLE_KICK
 	db 3, 3, HORN_ATTACK
-	db 4, 1, SUBSTITUTE
+	db 4, 1, HYPER_BEAM
 	db 4, 2, EARTHQUAKE
+	db 4, 3, SUBSTITUTE
+	db 4, 4, SWORDS_DANCE
 	db 5, 1, ROCK_SLIDE
 	db 5, 2, SUBSTITUTE
 	db 5, 4, DOUBLE_EDGE
@@ -297,10 +299,12 @@ SpecialTrainerMoves:
 	db 1, 2, SYNTHESIS
 	db 2, 1, SLEEP_POWDER
 	db 2, 4, SUPERSONIC
-	db 3, 1, REFLECT
+	db 3, 1, CONFUSION
 	db 3, 2, LEECH_SEED
 	db 3, 3, STOMP
 	db 4, 1, RAZOR_LEAF
+	db 4, 2, DOUBLE_TEAM
+	db 4, 3, MEGA_KICK
 	db 5, 2, SLEEP_POWDER
 	db 5, 3, HYPER_BEAM
 	db 5, 4, SWORDS_DANCE
@@ -324,8 +328,9 @@ SpecialTrainerMoves:
 	db 3, 4, DRAGON_RAGE
 	db 4, 1, WRAP
 	db 5, 2, BITE
-	db 6, 1, FLAMETHROWER
-	db 6, 4, SWORDS_DANCE
+	db 6, 1, SLEEP_POWDER
+	db 6, 2, RAZOR_LEAF
+	db 6, 4, HYPER_BEAM
 	db 0
 
 	db RIVAL3, 3
@@ -335,9 +340,8 @@ SpecialTrainerMoves:
 	db 3, 4, DRAGON_RAGE
 	db 4, 1, RAZOR_LEAF
 	db 5, 1, WRAP
-	db 6, 1, SLEEP_POWDER
-	db 6, 2, RAZOR_LEAF
-	db 6, 4, HYPER_BEAM
+	db 6, 1, FLAMETHROWER
+	db 6, 4, SWORDS_DANCE
 	db 0
 
 	db -1 ; end

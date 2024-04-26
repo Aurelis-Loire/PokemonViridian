@@ -6,7 +6,7 @@ VictoryRoad2FWildMons:
 	db 36, ONIX
 	db 39, ONIX
 	db 42, ONIX
-	db 20, LARVITAR
+	db 18, LARVITAR
 	db 41, GOLBAT
 	db 42, LUCARIO
 	db 44, MAROWAK

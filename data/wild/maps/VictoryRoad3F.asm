@@ -6,7 +6,7 @@ VictoryRoad3FWildMons:
 	db 42, ONIX
 	db 40, VENOMOTH
 	db 45, ONIX
-	db 25, LARVITAR
+	db 22, LARVITAR
 	db 43, LUCARIO
 	db 41, GOLBAT
 	db 29, LARVITAR

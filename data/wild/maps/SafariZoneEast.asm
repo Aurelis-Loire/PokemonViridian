@@ -5,7 +5,7 @@ SafariZoneEastWildMons:
 	db 22, CUBONE
 	db 25, EXEGGCUTE
 	db 33, NIDORINO
-	db 23, EXEGGCUTE
+	db 18, EXEGGCUTE
 	db 24, LICKITUNG
 	db 25, LOPUNNY
 	db 25, KANGASKHAN

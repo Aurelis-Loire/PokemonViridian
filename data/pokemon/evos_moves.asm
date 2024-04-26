@@ -240,7 +240,8 @@ ClefairyEvosMoves:
 	db 19, MINIMIZE
 	db 26, DEFENSE_CURL
 	db 34, METRONOME
-	db 48, LIGHT_SCREEN
+	db 43, SYNTHESIS
+	db 53, LIGHT_SCREEN
 	db 0
 
 NidoranEvosMoves:
@@ -316,8 +317,8 @@ ExeggutorEvosMoves:
 	db 0
 ; Learnset
 	db 7, REFLECT
-	db 28, LEECH_SEED
-	db 29, STOMP
+	db 13, LEECH_SEED
+	db 20, STOMP
 	db 31, EGG_BOMB
 	db 32, STUN_SPORE
 	db 37, POISONPOWDER
@@ -342,7 +343,8 @@ ExeggcuteEvosMoves:
 	db 0
 ; Learnset
 	db 7, REFLECT
-	db 28, LEECH_SEED
+	db 13, LEECH_SEED
+	db 19, CONFUSION
 	db 32, STUN_SPORE
 	db 37, POISONPOWDER
 	db 42, SOLARBEAM
@@ -517,8 +519,7 @@ ScytherEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 17, LEER
-	db 20, FOCUS_ENERGY
+	db 6, FOCUS_ENERGY
 	db 24, DOUBLE_TEAM
 	db 29, SLASH
 	db 35, SWORDS_DANCE
@@ -857,8 +858,8 @@ LarvitarEvosMoves:
 	db 11, FOCUS_ENERGY
 	db 15, SCREECH
 	db 17, ROCK_SLIDE
-	db 21, THRASH
-	db 26, SCARY_FACE
+	db 19, THRASH
+	db 23, SCARY_FACE
 	db 30, CRUNCH
 	db 33, EARTHQUAKE
 	db 42, HYPER_BEAM
@@ -1212,9 +1213,10 @@ VulpixEvosMoves:
 	db EV_ITEM, FIRE_STONE, 1, NINETALES
 	db 0
 ; Learnset
-	db 16, QUICK_ATTACK
-	db 21, ROAR
-	db 28, CONFUSE_RAY
+	db 7, QUICK_ATTACK
+	db 13, ROAR
+	db 19, CONFUSE_RAY
+	db 25, SAFEGUARD
 	db 35, AURORA_BEAM
 	db 42, ICE_BEAM
 	db 0
@@ -1223,7 +1225,7 @@ NinetalesEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, QUICK_ATTACK
+	db 7, QUICK_ATTACK
 	db 21, ROAR
 	db 28, CONFUSE_RAY
 	db 35, AURORA_BEAM
@@ -1563,8 +1565,8 @@ PupitarEvosMoves:
 	db 11, FOCUS_ENERGY
 	db 15, SCREECH
 	db 17, ROCK_SLIDE
-	db 21, THRASH
-	db 26, SCARY_FACE
+	db 19, THRASH
+	db 23, SCARY_FACE
 	db 30, CRUNCH
 	db 38, EARTHQUAKE
 	db 49, HYPER_BEAM
@@ -1578,8 +1580,8 @@ TyranitarEvosMoves:
 	db 11, FOCUS_ENERGY
 	db 15, SCREECH
 	db 17, ROCK_SLIDE
-	db 21, THRASH
-	db 26, SCARY_FACE
+	db 19, THRASH
+	db 23, SCARY_FACE
 	db 30, CRUNCH
 	db 38, EARTHQUAKE
 	db 49, HYPER_BEAM
@@ -1864,7 +1866,8 @@ ClefableEvosMoves:
 	db 19, MINIMIZE
 	db 26, DEFENSE_CURL
 	db 34, METRONOME
-	db 48, LIGHT_SCREEN
+	db 43, SYNTHESIS
+	db 53, LIGHT_SCREEN
 	db 0
 
 MissingNo8FEvosMoves:
