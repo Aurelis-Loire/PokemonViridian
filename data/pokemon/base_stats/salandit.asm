@@ -15,8 +15,8 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        SLUDGE_BOMB,  TAKE_DOWN,    DRAGON_RAGE,  DOUBLE_TEAM,  \
-	     FIRE_BLAST,   SWIFT,        REST,         FLAMETHROWER, SUBSTITUTE,   \
-		 THUNDER_WAVE
+	     FIRE_BLAST,   SWIFT,        MUD_SLAP,     REST,         FLAMETHROWER, \
+		 SUBSTITUTE,   THUNDER_WAVE
 	; end
 
 	db BANK(SalanditPicFront)

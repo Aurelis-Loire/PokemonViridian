@@ -18,8 +18,8 @@
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     POWDER_SNOW,  \
 	     EARTHQUAKE,   DIG,          PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      FIRE_BLAST,   SWIFT,        SKULL_BASH,   HEADBUTT,     \
-	     REST,         FLAMETHROWER, PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   \
-	     SURF,         STRENGTH,     THUNDER_WAVE
+	     MUD_SLAP,     REST,         FLAMETHROWER, PSYWAVE,      TRI_ATTACK,   \
+	     SUBSTITUTE,   SURF,         STRENGTH,     THUNDER_WAVE
 	; end
 
 	db BANK(SlowpokePicFront)

@@ -17,7 +17,7 @@
 	tmhm SHADOW_BALL,  TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    HYPER_BEAM,   THUNDERBOLT,  THUNDER,      \
 	     MIMIC,        DOUBLE_TEAM,  SWIFT,        SKULL_BASH,   HEADBUTT,     \
-	     REST,         SUBSTITUTE
+	     MUD_SLAP,     REST,         SUBSTITUTE
 	; end
 
 	db BANK(PersianPicFront)

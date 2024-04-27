@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     EARTHQUAKE,   DIG,          MIMIC,        DOUBLE_TEAM,  HEADBUTT,     \
-	     REST,         ROCK_SLIDE,   SUBSTITUTE
+	     MUD_SLAP,     REST,         ROCK_SLIDE,   SUBSTITUTE
 	; end
 
 	db BANK(LarvitarPicFront)

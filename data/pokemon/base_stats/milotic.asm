@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    DOUBLE_EDGE,  WATER_GUN,    ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   POWDER_SNOW,  MIMIC,        DOUBLE_TEAM,  \
-	     SWIFT,        REST,         SUBSTITUTE,   SURF
+	     SWIFT,        MUD_SLAP,     REST,         SUBSTITUTE,   SURF
 	; end
 
 	db BANK(MiloticPicFront)

@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
 	     COUNTER,      DIG,          MIMIC,        DOUBLE_TEAM,  SKULL_BASH,   \
-	     REST,         SUBSTITUTE
+	     MUD_SLAP,     REST,         SUBSTITUTE
 	; end
 
 	db BANK(SkwovetPicFront)

@@ -17,7 +17,8 @@
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, SHADOW_BALL,  MEGA_KICK,    TOXIC,        \
 	     SLUDGE_BOMB,  TAKE_DOWN,    HYPER_BEAM,   ICE_PUNCH,    COUNTER,      \
 	     EARTHQUAKE,   DIG,          DOUBLE_TEAM,  THUNDERPUNCH, HEADBUTT,     \
-		 REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT,          STRENGTH
+		 MUD_SLAP,     REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT,          \
+		 STRENGTH
 	; end
 
 	db BANK(ToxicroakPicFront)

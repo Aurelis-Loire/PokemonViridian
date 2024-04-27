@@ -18,8 +18,8 @@
 	     DOUBLE_EDGE,  ICE_PUNCH,    SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     THUNDERBOLT,  THUNDER,      OUTRAGE,      DIG,          MIMIC,        \
 	     DOUBLE_TEAM,  THUNDERPUNCH, METRONOME,    FIRE_PUNCH,   SWIFT,        \
-	     SKULL_BASH,   HEADBUTT,     REST,         ROCK_SLIDE,   SUBSTITUTE,   \
-		 STRENGTH
+	     SKULL_BASH,   HEADBUTT,     MUD_SLAP,     REST,         ROCK_SLIDE,   \
+		 SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(MankeyPicFront)

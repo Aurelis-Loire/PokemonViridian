@@ -19,8 +19,8 @@
 	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   ICE_PUNCH,    SUBMISSION,   \
 	     COUNTER,      SEISMIC_TOSS, POWDER_SNOW,  THUNDERBOLT,  THUNDER,      \
 	     EARTHQUAKE,   MIMIC,        DOUBLE_TEAM,  THUNDERPUNCH, FIRE_PUNCH,   \
-	     FIRE_BLAST,   SKULL_BASH,   HEADBUTT,     REST,         FLAMETHROWER, \
-		 SUBSTITUTE,   CUT,          SURF,         STRENGTH
+	     FIRE_BLAST,   SKULL_BASH,   HEADBUTT,     MUD_SLAP,     REST,         \
+		 FLAMETHROWER, SUBSTITUTE,   CUT,          SURF,         STRENGTH
 	; end
 
 	db BANK(LickitungPicFront)

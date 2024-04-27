@@ -17,8 +17,8 @@
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  ICE_PUNCH,    SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     MIMIC,        DOUBLE_TEAM,  THUNDERPUNCH, METRONOME,    FIRE_PUNCH,   \
-	     SWIFT,        SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE,   \
-		 STRENGTH
+	     SWIFT,        SKULL_BASH,   HEADBUTT,     MUD_SLAP,     REST,         \
+		 SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(HitmonchanPicFront)

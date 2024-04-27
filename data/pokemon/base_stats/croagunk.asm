@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SHADOW_BALL,  MEGA_KICK,    TOXIC,        SLUDGE_BOMB,  \
 	     TAKE_DOWN,    ICE_PUNCH,    COUNTER,      EARTHQUAKE,   DIG,          \
-	     DOUBLE_TEAM,  THUNDERPUNCH, HEADBUTT,     REST,         ROCK_SLIDE,   \
-		 SUBSTITUTE,   STRENGTH
+	     DOUBLE_TEAM,  THUNDERPUNCH, HEADBUTT,     MUD_SLAP,     REST,         \
+		 ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(CroagunkPicFront)

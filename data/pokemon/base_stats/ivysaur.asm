@@ -10,14 +10,14 @@
 	INCBIN "gfx/pokemon/front/ivysaur.pic", 0, 1 ; sprite dimensions
 	dw IvysaurPicFront, IvysaurPicBack
 
-	db LEECH_SEED, VINE_WHIP, POISONPOWDER, SLEEP_POWDER ; level 1 learnset
+	db TACKLE, GROWL, LEECH_SEED, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  MEGA_DRAIN,   SOLARBEAM,    MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE,   \
-		 CUT
+	     REFLECT,      SKULL_BASH,   HEADBUTT,     MUD_SLAP,     REST,         \
+		 SUBSTITUTE,   CUT
 	; end
 
 	db BANK(IvysaurPicFront)

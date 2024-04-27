@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm SHADOW_BALL,  TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   MIMIC,        DOUBLE_TEAM,  REFLECT,      FIRE_BLAST,   \
-	     SWIFT,        SKULL_BASH,   HEADBUTT,     REST,         FLAMETHROWER, \
-		 SUBSTITUTE
+	     SWIFT,        SKULL_BASH,   HEADBUTT,     MUD_SLAP,     REST,         \
+		 FLAMETHROWER, SUBSTITUTE
 	; end
 
 	db BANK(FlareonPicFront)

@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm SHADOW_BALL,  TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    THUNDERBOLT,  THUNDER,      MIMIC,        \
-	     DOUBLE_TEAM,  SWIFT,        SKULL_BASH,   HEADBUTT,     REST,         \
-	     SUBSTITUTE
+	     DOUBLE_TEAM,  SWIFT,        SKULL_BASH,   HEADBUTT,     MUD_SLAP,     \
+	     REST,         SUBSTITUTE
 	; end
 
 	db BANK(MeowthPicFront)

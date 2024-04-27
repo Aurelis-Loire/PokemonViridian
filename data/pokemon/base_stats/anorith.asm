@@ -15,8 +15,8 @@
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    DOUBLE_EDGE,  WATER_GUN,    \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  HEADBUTT,     REST,         \
-	     ROCK_SLIDE,   SUBSTITUTE,   CUT
+	     DIG,          MIMIC,        DOUBLE_TEAM,  HEADBUTT,     MUD_SLAP,     \
+	     REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT
 	; end
 
 	db BANK(AnorithPicFront)

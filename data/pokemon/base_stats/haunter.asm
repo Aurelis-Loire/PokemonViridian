@@ -15,8 +15,8 @@
 
 	; tm/hm learnset
 	tmhm SHADOW_BALL,  TOXIC,        MEGA_DRAIN,   THUNDERBOLT,  THUNDER,      \
-	     MIMIC,        DOUBLE_TEAM,  SELFDESTRUCT, PSYCHIC_M,    DREAM_EATER,  \
-	     REST,         PSYWAVE,      EXPLOSION,    SUBSTITUTE
+	     MIMIC,        DOUBLE_TEAM,  SELFDESTRUCT, PSYCHIC_M,    REST,         \
+	     PSYWAVE,      EXPLOSION,    SUBSTITUTE
 	; end
 
 	db BANK(HaunterPicFront)

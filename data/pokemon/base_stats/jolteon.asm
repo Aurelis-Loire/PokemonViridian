@@ -17,7 +17,7 @@
 	tmhm SHADOW_BALL,  TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   THUNDERBOLT,  THUNDER,      PIN_MISSILE,  MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      SWIFT,        SKULL_BASH,   HEADBUTT,     \
-	     REST,         SUBSTITUTE,   THUNDER_WAVE
+	     MUD_SLAP,     REST,         SUBSTITUTE,   THUNDER_WAVE
 	; end
 
 	db BANK(JolteonPicFront)

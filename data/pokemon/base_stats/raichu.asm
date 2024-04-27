@@ -17,8 +17,8 @@
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   SEISMIC_TOSS, THUNDERBOLT,  \
 	     THUNDER,      PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     THUNDERPUNCH, SWIFT,        SKULL_BASH,   HEADBUTT,     REST,         \
-	     SUBSTITUTE,   THUNDER_WAVE
+	     THUNDERPUNCH, SWIFT,        SKULL_BASH,   HEADBUTT,     MUD_SLAP,     \
+	     REST,         SUBSTITUTE,   STRENGTH,     THUNDER_WAVE
 	; end
 
 	db BANK(RaichuPicFront)

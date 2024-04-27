@@ -15,8 +15,8 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        SLUDGE_BOMB,  BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     EARTHQUAKE,   DIG,          MIMIC,        DOUBLE_TEAM,  REST,         \
-	     ROCK_SLIDE,   SUBSTITUTE,   CUT
+	     EARTHQUAKE,   DIG,          MIMIC,        DOUBLE_TEAM,  MUD_SLAP,     \
+	     REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT
 	; end
 
 	db BANK(DiglettPicFront)

@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm SHADOW_BALL,  TOXIC,        BODY_SLAM,    THUNDERBOLT,  THUNDER,      \
-	     PSYCHIC_M,    DOUBLE_TEAM,  SELFDESTRUCT, SWIFT,        DREAM_EATER,  \
+	     PSYCHIC_M,    DOUBLE_TEAM,  SELFDESTRUCT, SWIFT,        MUD_SLAP,     \
 	     REST,         EXPLOSION,    SUBSTITUTE,   CUT,          THUNDER_WAVE
 	; end
 

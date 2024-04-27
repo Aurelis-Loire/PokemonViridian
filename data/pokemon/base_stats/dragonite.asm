@@ -19,8 +19,8 @@
 	     ICE_PUNCH,    POWDER_SNOW,  DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
 	     OUTRAGE,      MIMIC,        DOUBLE_TEAM,  REFLECT,      THUNDERPUNCH, \
 	     FIRE_PUNCH,   FIRE_BLAST,   SWIFT,        SKULL_BASH,   HEADBUTT,     \
-	     REST,         FLAMETHROWER, SUBSTITUTE,   SURF,         STRENGTH,     \
-		 THUNDER_WAVE
+	     MUD_SLAP,     REST,         FLAMETHROWER, SUBSTITUTE,   SURF,         \
+		 STRENGTH,     THUNDER_WAVE
 	; end
 
 	db BANK(DragonitePicFront)

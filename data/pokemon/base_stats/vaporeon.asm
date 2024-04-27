@@ -17,7 +17,8 @@
 	tmhm SHADOW_BALL,  TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
 	     POWDER_SNOW,  MIMIC,        DOUBLE_TEAM,  REFLECT,      SWIFT,        \
-	     SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE,   SURF
+	     SKULL_BASH,   HEADBUTT,     MUD_SLAP,     REST,         SUBSTITUTE,   \
+		 SURF
 	; end
 
 	db BANK(VaporeonPicFront)

@@ -18,8 +18,8 @@
 	     DOUBLE_EDGE,  ICE_BEAM,     HYPER_BEAM,   COUNTER,      SEISMIC_TOSS, \
 	     THUNDERBOLT,  THUNDER,      EARTHQUAKE,   OUTRAGE,      DIG,          \
 		 MIMIC,        DOUBLE_TEAM,  FIRE_PUNCH,   FIRE_BLAST,   HEADBUTT,     \
-		 REST,         FLAMETHROWER, ROCK_SLIDE,   SUBSTITUTE,   CUT,          \
-		 SURF,         STRENGTH,     THUNDER_WAVE
+		 MUD_SLAP,     REST,         FLAMETHROWER, ROCK_SLIDE,   SUBSTITUTE,   \
+		 CUT,          SURF,         STRENGTH,     THUNDER_WAVE
 	; end
 
 	db BANK(TyranitarPicFront)

@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    DOUBLE_EDGE,  WATER_GUN,    \
 	     HYPER_BEAM,   SEISMIC_TOSS, EARTHQUAKE,   DIG,          MIMIC,        \
-	     DOUBLE_TEAM,  HEADBUTT,     REST,         ROCK_SLIDE,   SUBSTITUTE,   \
-		 CUT,          STRENGTH
+	     DOUBLE_TEAM,  HEADBUTT,     MUD_SLAP,     REST,         ROCK_SLIDE,   \
+		 SUBSTITUTE,   CUT,          STRENGTH
 	; end
 
 	db BANK(ArmaldoPicFront)

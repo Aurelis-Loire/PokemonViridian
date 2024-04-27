@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   POWDER_SNOW,  \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      SWIFT,        SKY_ATTACK,   \
-	     REST,         SUBSTITUTE,   FLY
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      SWIFT,        MUD_SLAP,     \
+	     SKY_ATTACK,   REST,         SUBSTITUTE,   FLY
 	; end
 
 	db BANK(ArticunoPicFront)

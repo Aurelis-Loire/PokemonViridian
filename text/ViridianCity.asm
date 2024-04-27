@@ -71,8 +71,10 @@ _ViridianCityText_191ca::
 	cont "off in the sun."
 
 	para "I had this dream"
-	line "about a DROWZEE"
-	cont "eating my dream."
+	line "about a man in a"
+	cont "racing suit"
+	cont "asking me to show"
+	cont "him my moves."
 	cont "What's this?"
 	cont "Where did this TM"
 	cont "come from?"
@@ -89,7 +91,7 @@ _ReceivedTM42Text::
 
 _TM42Explanation::
 	text "TM42 contains"
-	line "DREAM EATER..."
+	line "MEGA PUNCH..."
 	cont "...Snore..."
 	done
 
