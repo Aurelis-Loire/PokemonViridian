@@ -299,7 +299,7 @@ BurglarData:
 ; Mansion 2F
 	db 34, CHARMELEON, CHARMELEON, 0
 ; Mansion 3F
-	db 38, VULPIX, 0
+	db 38, NINETALES, 0
 ; Mansion B1F
 	db 34, GROWLITHE, PONYTA, 0
 

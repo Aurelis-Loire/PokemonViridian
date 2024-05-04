@@ -269,6 +269,7 @@ SpecialTrainerMoves:
 	db 2, 4, SCARY_FACE
 	db 3, 1, BLIZZARD
 	db 3, 3, BODY_SLAM
+	db 3, 4, THUNDERBOLT
 	db 4, 1, BLIZZARD
 	db 4, 2, BODY_SLAM
 	db 4, 3, THUNDERBOLT
@@ -282,7 +283,7 @@ SpecialTrainerMoves:
 	db AGATHA, 1
 	db 1, 2, TAKE_DOWN
 	db 1, 4, POWDER_SNOW
-	db 2, 3, ASTONISH
+	db 2, 3, ICE_BEAM
 	db 3, 2, DOUBLE_KICK
 	db 3, 3, HORN_ATTACK
 	db 4, 1, HYPER_BEAM
@@ -297,6 +298,7 @@ SpecialTrainerMoves:
 	db LANCE, 1
 	db 1, 1, RAZOR_LEAF
 	db 1, 2, SYNTHESIS
+	db 1, 3, DOUBLE_EDGE
 	db 2, 1, SLEEP_POWDER
 	db 2, 4, SUPERSONIC
 	db 3, 1, CONFUSION

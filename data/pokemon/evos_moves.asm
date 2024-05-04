@@ -319,8 +319,8 @@ ExeggutorEvosMoves:
 	db 7, REFLECT
 	db 13, LEECH_SEED
 	db 20, STOMP
+	db 25, STUN_SPORE
 	db 31, EGG_BOMB
-	db 32, STUN_SPORE
 	db 37, POISONPOWDER
 	db 42, SOLARBEAM
 	db 48, SLEEP_POWDER
@@ -345,7 +345,7 @@ ExeggcuteEvosMoves:
 	db 7, REFLECT
 	db 13, LEECH_SEED
 	db 19, CONFUSION
-	db 32, STUN_SPORE
+	db 25, STUN_SPORE
 	db 37, POISONPOWDER
 	db 42, SOLARBEAM
 	db 48, SLEEP_POWDER
@@ -520,6 +520,7 @@ ScytherEvosMoves:
 	db 0
 ; Learnset
 	db 6, FOCUS_ENERGY
+	db 12, CUT
 	db 24, DOUBLE_TEAM
 	db 29, SLASH
 	db 35, SWORDS_DANCE
@@ -861,7 +862,7 @@ LarvitarEvosMoves:
 	db 19, THRASH
 	db 23, SCARY_FACE
 	db 30, CRUNCH
-	db 33, EARTHQUAKE
+	db 37, EARTHQUAKE
 	db 42, HYPER_BEAM
 	db 0
 
@@ -1217,8 +1218,8 @@ VulpixEvosMoves:
 	db 13, ROAR
 	db 19, CONFUSE_RAY
 	db 25, SAFEGUARD
-	db 35, AURORA_BEAM
-	db 42, ICE_BEAM
+	db 31, AURORA_BEAM
+	db 37, ICE_BEAM
 	db 0
 
 NinetalesEvosMoves:
@@ -1226,10 +1227,12 @@ NinetalesEvosMoves:
 	db 0
 ; Learnset
 	db 7, QUICK_ATTACK
-	db 21, ROAR
-	db 28, CONFUSE_RAY
-	db 35, AURORA_BEAM
-	db 42, ICE_BEAM
+	db 13, ROAR
+	db 19, CONFUSE_RAY
+	db 25, SAFEGUARD
+	db 31, AURORA_BEAM
+	db 37, ICE_BEAM
+	db 43, ICE_BEAM
 	db 0
 
 PikachuEvosMoves:
@@ -1261,7 +1264,7 @@ RaichuEvosMoves:
 	db 33, AGILITY
 	db 41, THUNDER
 	db 42, PSYCHIC_M
-	db 50, LIGHT_SCREEN
+	db 51, LIGHT_SCREEN
 	db 0
 
 GarchompEvosMoves:
@@ -1388,10 +1391,9 @@ AnorithEvosMoves:
 	db EV_LEVEL, 40, ARMALDO
 	db 0
 ; Learnset
-	db 9, HARDEN
 	db 14, WATER_GUN
 	db 19, LOW_KICK
-	db 24, SWORDS_DANCE
+	db 25, SWORDS_DANCE
 	db 29, ANCIENTPOWER
 	db 34, LEECH_LIFE
 	db 39, SLASH
@@ -1401,10 +1403,9 @@ ArmaldoEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 9, HARDEN
 	db 14, WATER_GUN
 	db 19, LOW_KICK
-	db 24, SWORDS_DANCE
+	db 25, SWORDS_DANCE
 	db 29, ANCIENTPOWER
 	db 34, LEECH_LIFE
 	db 39, SLASH
@@ -1568,7 +1569,7 @@ PupitarEvosMoves:
 	db 19, THRASH
 	db 23, SCARY_FACE
 	db 30, CRUNCH
-	db 38, EARTHQUAKE
+	db 42, EARTHQUAKE
 	db 49, HYPER_BEAM
 	db 0
 
@@ -1583,7 +1584,7 @@ TyranitarEvosMoves:
 	db 19, THRASH
 	db 23, SCARY_FACE
 	db 30, CRUNCH
-	db 38, EARTHQUAKE
+	db 42, EARTHQUAKE
 	db 49, HYPER_BEAM
 	db 0
 
