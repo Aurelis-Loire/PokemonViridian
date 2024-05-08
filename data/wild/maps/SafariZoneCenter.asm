@@ -8,7 +8,7 @@ SafariZoneCenterWildMons:
 	db 25, EXEGGCUTE
 	db 31, LOPUNNY
 	db 30, LICKITUNG
-	db 23, SCYTHER
+	db 17, SCYTHER
 	db 23, CHANSEY
 	end_grass_wildmons
 

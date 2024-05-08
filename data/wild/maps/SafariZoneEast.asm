@@ -9,7 +9,7 @@ SafariZoneEastWildMons:
 	db 24, LICKITUNG
 	db 25, LOPUNNY
 	db 25, KANGASKHAN
-	db 28, SCYTHER
+	db 23, SCYTHER
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

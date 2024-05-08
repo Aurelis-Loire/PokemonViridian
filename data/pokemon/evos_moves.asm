@@ -521,6 +521,7 @@ ScytherEvosMoves:
 ; Learnset
 	db 6, FOCUS_ENERGY
 	db 12, CUT
+	db 18, SWIFT
 	db 24, DOUBLE_TEAM
 	db 29, SLASH
 	db 35, SWORDS_DANCE
@@ -1391,7 +1392,7 @@ AnorithEvosMoves:
 	db EV_LEVEL, 40, ARMALDO
 	db 0
 ; Learnset
-	db 14, WATER_GUN
+	db 9, WATER_GUN
 	db 19, LOW_KICK
 	db 25, SWORDS_DANCE
 	db 29, ANCIENTPOWER
@@ -1403,7 +1404,7 @@ ArmaldoEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 14, WATER_GUN
+	db 9, WATER_GUN
 	db 19, LOW_KICK
 	db 25, SWORDS_DANCE
 	db 29, ANCIENTPOWER
