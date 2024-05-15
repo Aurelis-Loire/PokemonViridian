@@ -1067,6 +1067,7 @@ wListPointer:: dw
 
 ; used to store pointers, but never read
 wUnusedCF8D:: dw
+;joenote - used as a temp location for storing pointers for PP tracking
 
 wItemPrices:: dw
 
