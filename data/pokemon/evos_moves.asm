@@ -1396,9 +1396,9 @@ AnorithEvosMoves:
 	db 14, LOW_KICK
 	db 25, SWORDS_DANCE 
 	db 26, ROCK_THROW
-	db 29, ANCIENTPOWER
-	db 34, LEECH_LIFE
-	db 39, SLASH
+	db 29, LEECH_LIFE
+	db 34, SLASH
+	db 39, ANCIENTPOWER
 	db 0
 
 ArmaldoEvosMoves:
@@ -1407,11 +1407,11 @@ ArmaldoEvosMoves:
 ; Learnset
 	db 9, WATER_GUN
 	db 14, LOW_KICK
-	db 25, SWORDS_DANCE
+	db 25, SWORDS_DANCE 
 	db 26, ROCK_THROW
-	db 29, ANCIENTPOWER
-	db 34, LEECH_LIFE
-	db 39, SLASH
+	db 29, LEECH_LIFE
+	db 34, SLASH
+	db 39, ANCIENTPOWER
 	db 0
 
 OmanyteEvosMoves:
@@ -1540,9 +1540,9 @@ ZubatEvosMoves:
 	db EV_LEVEL, 22, GOLBAT
 	db 0
 ; Learnset
-	db 10, SUPERSONIC
-	db 15, BITE
-	db 21, CONFUSE_RAY
+	db 6, SUPERSONIC
+	db 12, BITE
+	db 19, CONFUSE_RAY
 	db 28, WING_ATTACK
 	db 36, HAZE
 	db 0
@@ -1766,9 +1766,9 @@ GolbatEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, SUPERSONIC
-	db 15, BITE
-	db 21, CONFUSE_RAY
+	db 6, SUPERSONIC
+	db 12, BITE
+	db 19, CONFUSE_RAY
 	db 32, WING_ATTACK
 	db 43, HAZE
 	db 0
