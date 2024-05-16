@@ -356,11 +356,11 @@ RapidashPicFront::     INCBIN "gfx/pokemon/front/rapidash.pic"
 RapidashPicBack::      INCBIN "gfx/pokemon/back/rapidashb.pic"
 AerodactylPicFront::   INCBIN "gfx/pokemon/front/aerodactyl.pic"
 AerodactylPicBack::    INCBIN "gfx/pokemon/back/aerodactylb.pic"
-MagnemitePicFront::    INCBIN "gfx/pokemon/front/magnemite.pic"
-MagnemitePicBack::     INCBIN "gfx/pokemon/back/magnemiteb.pic"
 
 SECTION "Pics 8", ROMX
 
+MagnemitePicFront::    INCBIN "gfx/pokemon/front/magnemite.pic"
+MagnemitePicBack::     INCBIN "gfx/pokemon/back/magnemiteb.pic"
 CharmanderPicFront::   INCBIN "gfx/pokemon/front/charmander.pic"
 CharmanderPicBack::    INCBIN "gfx/pokemon/back/charmanderb.pic"
 SquirtlePicFront::     INCBIN "gfx/pokemon/front/squirtle.pic"
