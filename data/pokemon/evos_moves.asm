@@ -522,11 +522,11 @@ ScytherEvosMoves:
 	db 6, FOCUS_ENERGY
 	db 12, CUT
 	db 18, SWIFT
-	db 24, DOUBLE_TEAM
-	db 29, SLASH
+	db 24, AGILITY
+	db 30, WING_ATTACK
+	db 31, DOUBLE_TEAM
+	db 32, SLASH
 	db 35, SWORDS_DANCE
-	db 42, AGILITY
-	db 50, WING_ATTACK
 	db 0
 
 StaryuEvosMoves:
@@ -864,7 +864,7 @@ LarvitarEvosMoves:
 	db 23, SCARY_FACE
 	db 30, CRUNCH
 	db 37, EARTHQUAKE
-	db 42, HYPER_BEAM
+	db 45, HYPER_BEAM
 	db 0
 
 ElectabuzzEvosMoves:
@@ -1393,8 +1393,9 @@ AnorithEvosMoves:
 	db 0
 ; Learnset
 	db 9, WATER_GUN
-	db 19, LOW_KICK
-	db 25, SWORDS_DANCE
+	db 14, LOW_KICK
+	db 25, SWORDS_DANCE 
+	db 26, ROCK_THROW
 	db 29, ANCIENTPOWER
 	db 34, LEECH_LIFE
 	db 39, SLASH
@@ -1405,8 +1406,9 @@ ArmaldoEvosMoves:
 	db 0
 ; Learnset
 	db 9, WATER_GUN
-	db 19, LOW_KICK
+	db 14, LOW_KICK
 	db 25, SWORDS_DANCE
+	db 26, ROCK_THROW
 	db 29, ANCIENTPOWER
 	db 34, LEECH_LIFE
 	db 39, SLASH
@@ -1571,7 +1573,7 @@ PupitarEvosMoves:
 	db 23, SCARY_FACE
 	db 30, CRUNCH
 	db 42, EARTHQUAKE
-	db 49, HYPER_BEAM
+	db 54, HYPER_BEAM
 	db 0
 
 TyranitarEvosMoves:
@@ -1586,7 +1588,7 @@ TyranitarEvosMoves:
 	db 23, SCARY_FACE
 	db 30, CRUNCH
 	db 42, EARTHQUAKE
-	db 49, HYPER_BEAM
+	db 54, HYPER_BEAM
 	db 0
 
 SpectrierEvosMoves:
