@@ -265,7 +265,8 @@ SpecialTrainerMoves:
 	db 0
 
 	db BRUNO, 1
-	db 1, 2, LEER
+	db 1, 4, HYPER_BEAM
+	db 2, 2, EARTHQUAKE
 	db 2, 3, FIRE_BLAST
 	db 2, 4, BODY_SLAM
 	db 3, 1, BLIZZARD
@@ -283,8 +284,10 @@ SpecialTrainerMoves:
 	db 0
 
 	db AGATHA, 1
+	db 1, 1, BLIZZARD
 	db 1, 2, TAKE_DOWN
 	db 1, 4, POWDER_SNOW
+	db 2, 1, SELFDESTRUCT
 	db 2, 2, SUBSTITUTE
 	db 2, 3, ICE_BEAM
 	db 3, 2, DOUBLE_KICK

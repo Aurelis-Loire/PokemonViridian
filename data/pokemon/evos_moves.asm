@@ -524,9 +524,9 @@ ScytherEvosMoves:
 	db 18, SWIFT
 	db 24, AGILITY
 	db 30, WING_ATTACK
-	db 31, DOUBLE_TEAM
-	db 32, SLASH
-	db 35, SWORDS_DANCE
+	db 36, SLASH
+	db 42, SWORDS_DANCE
+	db 43, DOUBLE_TEAM
 	db 0
 
 StaryuEvosMoves:
@@ -980,8 +980,8 @@ GolettEvosMoves:
 	db EV_LEVEL, 43, GOLURK
 	db 0
 ; Learnset
-	db 12, DEFENSE_CURL
-	db 17, MUD_SLAP
+	db 10, DEFENSE_CURL
+	db 18, MUD_SLAP
 	db 24, MEGA_PUNCH
 	db 29, NIGHT_SHADE
 	db 32, MEDITATE
@@ -1439,8 +1439,8 @@ GolurkEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, DEFENSE_CURL
-	db 17, MUD_SLAP
+	db 10, DEFENSE_CURL
+	db 18, MUD_SLAP
 	db 24, MEGA_PUNCH
 	db 29, NIGHT_SHADE
 	db 32, MEDITATE
@@ -1543,8 +1543,9 @@ ZubatEvosMoves:
 	db 6, SUPERSONIC
 	db 12, BITE
 	db 19, CONFUSE_RAY
-	db 28, WING_ATTACK
-	db 36, HAZE
+	db 27, WING_ATTACK
+	db 36, WHIRLWIND
+	db 46, HAZE
 	db 0
 
 EkansEvosMoves:
@@ -1769,8 +1770,10 @@ GolbatEvosMoves:
 	db 6, SUPERSONIC
 	db 12, BITE
 	db 19, CONFUSE_RAY
-	db 32, WING_ATTACK
-	db 43, HAZE
+	db 22, SCREECH
+	db 30, WING_ATTACK
+	db 42, WHIRLWIND
+	db 52, HAZE
 	db 0
 
 MewtwoEvosMoves:
