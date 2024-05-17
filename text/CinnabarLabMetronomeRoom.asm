@@ -1,9 +1,9 @@
 _TM35PreReceiveText::
-	text "Tch-tch-tch!"
+	text "Work sucks. So"
 	line "I made a cool TM!"
 
-	para "It can cause all"
-	line "kinds of fun!"
+	para "It represents the"
+	line "adult experience!"
 	prompt
 
 _ReceivedTM35Text::
@@ -14,14 +14,13 @@ _ReceivedTM35Text::
 	text_end
 
 _TM35ExplanationText::
-	text "Tch-tch-tch!"
-	line "That's the sound"
-	cont "of a METRONOME!"
+	text "I call it"
+	line "MEGA DRAIN!"
 
-	para "It tweaks your"
-	line "#MON's brain"
-	cont "into using moves"
-	cont "it doesn't know!"
+	para "It sucks the life"
+	line "out of the enemy."
+	cont "Then it heals"
+	cont "your #MON!"
 	done
 
 _TM35NoRoomText::

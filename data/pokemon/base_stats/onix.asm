@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  EARTHQUAKE,   \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  SELFDESTRUCT, SKULL_BASH,   \
-	     HEADBUTT,     MUD_SLAP,     REST,         EXPLOSION,    ROCK_SLIDE,   \
-	     SUBSTITUTE,   STRENGTH
+	     DIG,          MIMIC,        DOUBLE_TEAM,  ROCK_SMASH,   SELFDESTRUCT, \
+	     SKULL_BASH,   HEADBUTT,     MUD_SLAP,     REST,         EXPLOSION,    \
+	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(OnixPicFront)

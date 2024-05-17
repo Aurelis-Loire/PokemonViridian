@@ -17,8 +17,9 @@
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   POWDER_SNOW,  \
 	     DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      OUTRAGE,      MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      FIRE_BLAST,   SKULL_BASH,   HEADBUTT,     \
-	     REST,         FLAMETHROWER, SUBSTITUTE,   SURF,         STRENGTH
+	     DOUBLE_TEAM,  REFLECT,      ROCK_SMASH,   FIRE_BLAST,   SKULL_BASH,   \
+	     HEADBUTT,     REST,         FLAMETHROWER, SUBSTITUTE,   SURF,         \
+		 STRENGTH
 	; end
 
 	db BANK(GyaradosPicFront)

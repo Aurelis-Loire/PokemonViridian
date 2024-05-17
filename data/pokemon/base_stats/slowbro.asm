@@ -18,10 +18,10 @@
 	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   ICE_PUNCH,    SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, POWDER_SNOW,  EARTHQUAKE,   DIG,          PSYCHIC_M,    \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      FIRE_BLAST,   SWIFT,        \
-	     SKULL_BASH,   HEADBUTT,     MUD_SLAP,     REST,         FLAMETHROWER, \
-	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   SURF,         STRENGTH,     \
-		 THUNDER_WAVE
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      ROCK_SMASH,   FIRE_BLAST,   \
+	     SWIFT,        SKULL_BASH,   HEADBUTT,     MUD_SLAP,     REST,         \
+	     FLAMETHROWER, PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   SURF,         \
+		 STRENGTH,     THUNDER_WAVE
 	; end
 
 	db BANK(SlowbroPicFront)

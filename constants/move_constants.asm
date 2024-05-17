@@ -183,7 +183,8 @@
 	const BONE_RUSH    ; af
 	const OUTRAGE      ; b0
 	const CHARM        ; b1
-	const STRUGGLE     ; b2
+	const ROCK_SMASH   ; b2
+	const STRUGGLE     ; b3
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

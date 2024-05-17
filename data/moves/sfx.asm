@@ -178,6 +178,7 @@ MoveSoundTable:
 	db SFX_BATTLE_18,          $44, $e9 ; BONE_RUSH
 	db SFX_BATTLE_19,          $a7, $8a ; OUTRAGE
 	db SFX_SUPER_EFFECTIVE,    $46, $93 ; CHARM
+	db SFX_BATTLE_1B,          $2c, $1d ; ROCK_SMASH
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

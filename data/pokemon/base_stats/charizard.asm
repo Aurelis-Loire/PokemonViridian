@@ -17,10 +17,10 @@
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, MEGA_KICK,    TOXIC,        BODY_SLAM,    \
 	     TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, DRAGON_RAGE,  EARTHQUAKE,   OUTRAGE,      DIG,          \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      FIRE_PUNCH,   FIRE_BLAST,   \
-	     SWIFT,        SKULL_BASH,   HEADBUTT,     MUD_SLAP,     REST,         \
-	     FLAMETHROWER, ROCK_SLIDE,   SUBSTITUTE,   CUT,          FLY,          \
-		 STRENGTH
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      ROCK_SMASH,   FIRE_PUNCH,   \
+	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   HEADBUTT,     MUD_SLAP,     \
+	     REST,         FLAMETHROWER, ROCK_SLIDE,   SUBSTITUTE,   CUT,          \
+		 FLY,          STRENGTH
 	; end
 
 	db BANK(CharizardPicFront)

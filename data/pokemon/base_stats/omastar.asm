@@ -17,8 +17,8 @@
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   \
 	     SEISMIC_TOSS, POWDER_SNOW,  PIN_MISSILE,  MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE,   \
-	     SURF
+	     REFLECT,      ROCK_SMASH,   SKULL_BASH,   HEADBUTT,     REST,         \
+	     SUBSTITUTE,   SURF
 	; end
 
 	db BANK(OmastarPicFront)

@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,        SLUDGE_BOMB,  BODY_SLAM,    HYPER_BEAM,   \
 	     EARTHQUAKE,   OUTRAGE,      DIG,          PSYCHIC_M,    DOUBLE_TEAM,  \
-	     SELFDESTRUCT, MUD_SLAP,     REST,         EXPLOSION,    ROCK_SLIDE,   \
-	     SUBSTITUTE,   FLY,          STRENGTH
+	     ROCK_SMASH,   SELFDESTRUCT, MUD_SLAP,     REST,         EXPLOSION,    \
+	     ROCK_SLIDE,   SUBSTITUTE,   FLY,          STRENGTH
 	; end
 
 	db BANK(LandorusPicFront)

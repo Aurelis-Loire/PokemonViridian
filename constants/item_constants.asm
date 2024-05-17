@@ -191,7 +191,7 @@ DEF TM01 EQU const_value
 	add_tm DOUBLE_TEAM  ; $E8
 	add_tm REFLECT      ; $E9
 	add_tm THUNDERPUNCH ; $EA
-	add_tm METRONOME    ; $EB
+	add_tm ROCK_SMASH   ; $EB
 	add_tm SELFDESTRUCT ; $EC
 	add_tm FIRE_PUNCH   ; $ED
 	add_tm FIRE_BLAST   ; $EE

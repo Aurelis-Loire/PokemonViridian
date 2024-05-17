@@ -16,9 +16,9 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, SHADOW_BALL,  MEGA_KICK,    TOXIC,        \
 	     TAKE_DOWN,    HYPER_BEAM,   ICE_PUNCH,    COUNTER,      EARTHQUAKE,   \
-	     DIG,          PSYCHIC_M,    DOUBLE_TEAM,  THUNDERPUNCH, SWIFT,        \
-	     HEADBUTT,     MUD_SLAP,     REST,         ROCK_SLIDE,   SUBSTITUTE,   \
-		 STRENGTH
+	     DIG,          PSYCHIC_M,    DOUBLE_TEAM,  THUNDERPUNCH, ROCK_SMASH,   \
+	     SWIFT,        HEADBUTT,     MUD_SLAP,     REST,         ROCK_SLIDE,   \
+		 SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(LucarioPicFront)

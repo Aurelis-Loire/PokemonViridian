@@ -16,9 +16,9 @@
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   POWDER_SNOW,  THUNDERBOLT,  THUNDER,      \
-	     EARTHQUAKE,   OUTRAGE,      MIMIC,        DOUBLE_TEAM,  FIRE_BLAST,   \
-	     SKULL_BASH,   HEADBUTT,     REST,         FLAMETHROWER, SUBSTITUTE,   \
-		 STRENGTH
+	     EARTHQUAKE,   OUTRAGE,      MIMIC,        DOUBLE_TEAM,  ROCK_SMASH,   \
+	     FIRE_BLAST,   SKULL_BASH,   HEADBUTT,     REST,         FLAMETHROWER, \
+		 SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(TaurosPicFront)

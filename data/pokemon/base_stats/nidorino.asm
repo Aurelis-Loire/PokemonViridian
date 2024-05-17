@@ -17,8 +17,8 @@
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     COUNTER,      POWDER_SNOW,  \
 	     THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     SKULL_BASH,   HEADBUTT,     MUD_SLAP,     REST,         SUBSTITUTE,   \
-		 STRENGTH
+	     ROCK_SMASH,   SKULL_BASH,   HEADBUTT,     MUD_SLAP,     REST,         \
+		 SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(NidorinoPicFront)

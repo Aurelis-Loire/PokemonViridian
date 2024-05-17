@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     DRAGON_RAGE,  MIMIC,        DOUBLE_TEAM,  REFLECT,      FIRE_BLAST,   \
-	     SWIFT,        HEADBUTT,     SKY_ATTACK,   REST,         FLAMETHROWER, \
-	     SUBSTITUTE,   FLY
+	     DRAGON_RAGE,  MIMIC,        DOUBLE_TEAM,  REFLECT,      ROCK_SMASH,   \
+	     FIRE_BLAST,   SWIFT,        HEADBUTT,     SKY_ATTACK,   REST,         \
+	     FLAMETHROWER, SUBSTITUTE,   FLY
 	; end
 
 	db BANK(AerodactylPicFront)

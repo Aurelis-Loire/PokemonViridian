@@ -16,7 +16,8 @@
 	; tm/hm learnset
 	tmhm TOXIC,        SLUDGE_BOMB,  BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   EARTHQUAKE,   DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     MUD_SLAP,     REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT
+	     ROCK_SMASH,   MUD_SLAP,     REST,         ROCK_SLIDE,   SUBSTITUTE,   \
+		 CUT
 	; end
 
 	db BANK(DugtrioPicFront)
