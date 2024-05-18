@@ -35,7 +35,6 @@ ROM0
 	"Home"
 ROMX $1
 	"bank1"
-	"Custom Functions"
 ROMX $2
 	"Sound Effect Headers 1"
 	"Music Headers 1"
@@ -178,6 +177,8 @@ ROMX $2B
 	"Pokédex Text"
 ROMX $2C
 	"Move Names"
+ROMX $2D
+	"Custom Functions"
 WRAM0
 	"Audio RAM"
 	org $c100

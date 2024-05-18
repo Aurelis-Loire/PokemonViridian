@@ -141,6 +141,15 @@ AIMoveChoiceModification1:
 	ld a, [wEnemyMovePower]
 	and a
 	jr nz, .nextMove
+	;joenote - discourage using confuse-only moves on confused pkmn
+	ld a, [wEnemyMoveEffect]
+	cp CONFUSION_EFFECT	;see if the move has a confusion effect
+	jr nz, .notconfuse	;skip out if move is not a zero-power confusion move
+	ld a, [wPlayerBattleStatus1]	;load the player pkmn volatile status
+	and $80	;check bit 7 for confusion bit
+	jp nz, .heavydiscourage	;heavily discourage using zero-power confusion moves on confused pkmn
+	jp .nextMove	;if opponent is not confused, then neither encourage or discourage and go to next move
+.notconfuse
 	ld a, [wEnemyMoveEffect]
 	push hl
 	push de
