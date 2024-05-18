@@ -1,6 +1,6 @@
 PokemonMansion1FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 23, GOLETT
+	db 24, GOLETT
 	db 30, CROAGUNK
 	db 34, PONYTA
 	db 30, PONYTA

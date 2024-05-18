@@ -75,7 +75,7 @@ SpecialTrainerMoves:
 	db 0
 	
 	db BROCK, 1
-	db 2, 2, POWDER_SNOW
+	db 2, 4, POWDER_SNOW
 	db 0
 
 	db MISTY, 1
@@ -265,6 +265,9 @@ SpecialTrainerMoves:
 	db 0
 
 	db BRUNO, 1
+	db 1, 1, TOXIC
+	db 1, 2, SKULL_BASH
+	db 1, 3, DOUBLE_EDGE
 	db 1, 4, HYPER_BEAM
 	db 2, 2, EARTHQUAKE
 	db 2, 3, FIRE_BLAST
@@ -285,8 +288,8 @@ SpecialTrainerMoves:
 
 	db AGATHA, 1
 	db 1, 1, BLIZZARD
-	db 1, 2, TAKE_DOWN
-	db 1, 4, POWDER_SNOW
+	db 1, 2, HYPER_BEAM
+	db 1, 4, EARTHQUAKE
 	db 2, 1, SELFDESTRUCT
 	db 2, 2, SUBSTITUTE
 	db 2, 3, ICE_BEAM
@@ -307,7 +310,7 @@ SpecialTrainerMoves:
 	db 1, 3, DOUBLE_EDGE
 	db 2, 1, SLEEP_POWDER
 	db 2, 4, SUPERSONIC
-	db 3, 1, CONFUSION
+	db 3, 1, PSYCHIC_M
 	db 3, 2, LEECH_SEED
 	db 3, 3, STOMP
 	db 4, 1, RAZOR_LEAF

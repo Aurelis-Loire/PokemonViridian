@@ -320,8 +320,8 @@ ExeggutorEvosMoves:
 	db 13, LEECH_SEED
 	db 20, STOMP
 	db 25, STUN_SPORE
-	db 31, EGG_BOMB
-	db 37, POISONPOWDER
+	db 31, POISONPOWDER
+	db 32, EGG_BOMB
 	db 42, SOLARBEAM
 	db 48, SLEEP_POWDER
 	db 0
@@ -346,7 +346,7 @@ ExeggcuteEvosMoves:
 	db 13, LEECH_SEED
 	db 19, CONFUSION
 	db 25, STUN_SPORE
-	db 37, POISONPOWDER
+	db 31, POISONPOWDER
 	db 42, SOLARBEAM
 	db 48, SLEEP_POWDER
 	db 0
@@ -391,8 +391,8 @@ FrigibaxEvosMoves:
 	db EV_LEVEL, 35, ARCTIBAX
 	db 0
 ; Learnset
-	db 16, LEER
-	db 19, DRAGON_TAIL
+	db 7, LEER
+	db 13, DRAGON_TAIL
 	db 25, DRAGONBREATH
 	db 31, FOCUS_ENERGY
 	db 38, BITE
@@ -526,7 +526,7 @@ ScytherEvosMoves:
 	db 30, WING_ATTACK
 	db 36, SLASH
 	db 42, SWORDS_DANCE
-	db 43, DOUBLE_TEAM
+	db 48, DOUBLE_TEAM
 	db 0
 
 StaryuEvosMoves:
@@ -982,9 +982,10 @@ GolettEvosMoves:
 ; Learnset
 	db 10, DEFENSE_CURL
 	db 18, MUD_SLAP
-	db 24, MEGA_PUNCH
-	db 29, NIGHT_SHADE
-	db 32, MEDITATE
+	db 25, ROCK_THROW
+	db 31, MEGA_PUNCH
+	db 32, NIGHT_SHADE
+	db 33, MEDITATE
 	db 37, EARTHQUAKE
 	db 0
 
@@ -993,10 +994,12 @@ DrifloonEvosMoves:
 	db EV_LEVEL, 28, DRIFBLIM
 	db 0
 ; Learnset
-	db 13, MINIMIZE
-	db 20, ASTONISH
-	db 27, GUST
-	db 34, FOCUS_ENERGY
+	db 7, MINIMIZE
+	db 13, ASTONISH
+	db 19, GUST
+	db 25, FOCUS_ENERGY
+	db 31, HAZE
+	db 37, SHADOW_BALL
 	db 41, EXPLOSION
 	db 0
 
@@ -1114,7 +1117,12 @@ DrifblimEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 39, FOCUS_ENERGY
+	db 7, MINIMIZE
+	db 13, ASTONISH
+	db 19, GUST
+	db 25, FOCUS_ENERGY
+	db 37, HAZE
+	db 46, SHADOW_BALL
 	db 48, EXPLOSION
 	db 0
 
@@ -1202,8 +1210,8 @@ ArctibaxEvosMoves:
 	db EV_LEVEL, 54, BAXCALIBUR
 	db 0
 ; Learnset
-	db 16, LEER
-	db 19, DRAGON_TAIL
+	db 7, LEER
+	db 13, DRAGON_TAIL
 	db 25, DRAGONBREATH
 	db 31, FOCUS_ENERGY
 	db 41, BITE
@@ -1441,9 +1449,10 @@ GolurkEvosMoves:
 ; Learnset
 	db 10, DEFENSE_CURL
 	db 18, MUD_SLAP
-	db 24, MEGA_PUNCH
-	db 29, NIGHT_SHADE
-	db 32, MEDITATE
+	db 25, ROCK_THROW
+	db 31, MEGA_PUNCH
+	db 32, NIGHT_SHADE
+	db 33, MEDITATE
 	db 37, EARTHQUAKE
 	db 0
 
@@ -1451,8 +1460,8 @@ BaxcaliburEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, LEER
-	db 19, DRAGON_TAIL
+	db 7, LEER
+	db 13, DRAGON_TAIL
 	db 25, DRAGONBREATH
 	db 31, FOCUS_ENERGY
 	db 41, BITE
