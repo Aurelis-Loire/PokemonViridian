@@ -289,6 +289,7 @@ SpecialTrainerMoves:
 	db AGATHA, 1
 	db 1, 1, BLIZZARD
 	db 1, 2, HYPER_BEAM
+	db 1, 3, SUBSTITUTE
 	db 1, 4, EARTHQUAKE
 	db 2, 1, SELFDESTRUCT
 	db 2, 2, SUBSTITUTE
@@ -312,7 +313,7 @@ SpecialTrainerMoves:
 	db 2, 4, SUPERSONIC
 	db 3, 1, PSYCHIC_M
 	db 3, 2, LEECH_SEED
-	db 3, 3, STOMP
+	db 3, 4, DOUBLE_EDGE
 	db 4, 1, RAZOR_LEAF
 	db 4, 2, DOUBLE_TEAM
 	db 4, 3, MEGA_KICK

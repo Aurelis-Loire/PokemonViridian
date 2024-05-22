@@ -322,8 +322,8 @@ ExeggutorEvosMoves:
 	db 25, STUN_SPORE
 	db 31, POISONPOWDER
 	db 32, EGG_BOMB
+	db 37, SLEEP_POWDER
 	db 42, SOLARBEAM
-	db 48, SLEEP_POWDER
 	db 0
 
 LickitungEvosMoves:
@@ -347,8 +347,8 @@ ExeggcuteEvosMoves:
 	db 19, CONFUSION
 	db 25, STUN_SPORE
 	db 31, POISONPOWDER
+	db 37, SLEEP_POWDER
 	db 42, SOLARBEAM
-	db 48, SLEEP_POWDER
 	db 0
 
 NidokingEvosMoves:
@@ -984,9 +984,10 @@ GolettEvosMoves:
 	db 18, MUD_SLAP
 	db 25, ROCK_THROW
 	db 31, MEGA_PUNCH
-	db 32, NIGHT_SHADE
-	db 33, MEDITATE
-	db 37, EARTHQUAKE
+	db 36, BONE_RUSH
+	db 37, NIGHT_SHADE
+	db 38, MEDITATE
+	db 39, EARTHQUAKE
 	db 0
 
 DrifloonEvosMoves:
@@ -1000,7 +1001,7 @@ DrifloonEvosMoves:
 	db 25, FOCUS_ENERGY
 	db 31, HAZE
 	db 37, SHADOW_BALL
-	db 41, EXPLOSION
+	db 43, EXPLOSION
 	db 0
 
 ChandelureEvosMoves:
@@ -1123,7 +1124,7 @@ DrifblimEvosMoves:
 	db 25, FOCUS_ENERGY
 	db 37, HAZE
 	db 46, SHADOW_BALL
-	db 48, EXPLOSION
+	db 55, EXPLOSION
 	db 0
 
 ArticunoEvosMoves:
@@ -1451,9 +1452,10 @@ GolurkEvosMoves:
 	db 18, MUD_SLAP
 	db 25, ROCK_THROW
 	db 31, MEGA_PUNCH
-	db 32, NIGHT_SHADE
-	db 33, MEDITATE
-	db 37, EARTHQUAKE
+	db 36, BONE_RUSH
+	db 37, NIGHT_SHADE
+	db 38, MEDITATE
+	db 39, EARTHQUAKE
 	db 0
 
 BaxcaliburEvosMoves:
