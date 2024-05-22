@@ -296,6 +296,7 @@ SpecialTrainerMoves:
 	db 2, 3, ICE_BEAM
 	db 3, 2, DOUBLE_KICK
 	db 3, 3, HORN_ATTACK
+	db 3, 4, EARTHQUAKE
 	db 4, 1, HYPER_BEAM
 	db 4, 2, EARTHQUAKE
 	db 4, 3, SUBSTITUTE
@@ -312,7 +313,7 @@ SpecialTrainerMoves:
 	db 2, 1, SLEEP_POWDER
 	db 2, 4, SUPERSONIC
 	db 3, 1, PSYCHIC_M
-	db 3, 2, LEECH_SEED
+	db 3, 2, MEGA_DRAIN
 	db 3, 4, DOUBLE_EDGE
 	db 4, 1, RAZOR_LEAF
 	db 4, 2, DOUBLE_TEAM
@@ -330,6 +331,7 @@ SpecialTrainerMoves:
 	db 4, 2, BITE
 	db 5, 1, RAZOR_LEAF
 	db 6, 1, WATER_GUN
+	db 6, 2, BLIZZARD
 	db 6, 3, SURF
 	db 0
 
@@ -342,6 +344,7 @@ SpecialTrainerMoves:
 	db 5, 2, BITE
 	db 6, 1, SLEEP_POWDER
 	db 6, 2, RAZOR_LEAF
+	db 6, 3, SWORDS_DANCE
 	db 6, 4, HYPER_BEAM
 	db 0
 
@@ -353,6 +356,7 @@ SpecialTrainerMoves:
 	db 4, 1, RAZOR_LEAF
 	db 5, 1, WRAP
 	db 6, 1, FLAMETHROWER
+	db 6, 2, HYPER_BEAM
 	db 6, 4, SWORDS_DANCE
 	db 0
 

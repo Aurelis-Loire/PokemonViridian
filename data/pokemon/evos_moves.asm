@@ -279,7 +279,7 @@ NidorinoEvosMoves:
 	db 19, POISON_STING
 	db 27, FOCUS_ENERGY
 	db 36, FURY_ATTACK
-	db 46, HORN_DRILL
+	db 47, HORN_DRILL
 	db 0
 
 SlowbroEvosMoves:
@@ -323,7 +323,7 @@ ExeggutorEvosMoves:
 	db 31, POISONPOWDER
 	db 32, EGG_BOMB
 	db 37, SLEEP_POWDER
-	db 42, SOLARBEAM
+	db 44, SOLARBEAM
 	db 0
 
 LickitungEvosMoves:
@@ -348,7 +348,7 @@ ExeggcuteEvosMoves:
 	db 25, STUN_SPORE
 	db 31, POISONPOWDER
 	db 37, SLEEP_POWDER
-	db 42, SOLARBEAM
+	db 43, SOLARBEAM
 	db 0
 
 NidokingEvosMoves:
@@ -894,6 +894,7 @@ MiloticEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 6, WRAP
 	db 28, REFRESH
 	db 33, TWISTER
 	db 38, RECOVER
@@ -985,9 +986,9 @@ GolettEvosMoves:
 	db 25, ROCK_THROW
 	db 31, MEGA_PUNCH
 	db 36, BONE_RUSH
-	db 37, NIGHT_SHADE
-	db 38, MEDITATE
-	db 39, EARTHQUAKE
+	db 40, MEDITATE
+	db 41, NIGHT_SHADE
+	db 42, EARTHQUAKE
 	db 0
 
 DrifloonEvosMoves:
@@ -1020,9 +1021,9 @@ VenonatEvosMoves:
 	db EV_LEVEL, 31, VENOMOTH
 	db 0
 ; Learnset
-	db 11, SUPERSONIC
-	db 19, CONFUSION
-	db 22, POISONPOWDER
+	db 9, SUPERSONIC
+	db 17, CONFUSION
+	db 20, POISONPOWDER
 	db 27, LEECH_LIFE
 	db 30, STUN_SPORE
 	db 35, PSYBEAM
@@ -1453,9 +1454,9 @@ GolurkEvosMoves:
 	db 25, ROCK_THROW
 	db 31, MEGA_PUNCH
 	db 36, BONE_RUSH
-	db 37, NIGHT_SHADE
-	db 38, MEDITATE
-	db 39, EARTHQUAKE
+	db 40, MEDITATE
+	db 41, NIGHT_SHADE
+	db 42, EARTHQUAKE
 	db 0
 
 BaxcaliburEvosMoves:
@@ -1684,6 +1685,9 @@ VenomothEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 9, SUPERSONIC
+	db 17, CONFUSION
+	db 20, POISONPOWDER
 	db 38, PSYBEAM
 	db 43, SLEEP_POWDER
 	db 50, PSYCHIC_M
@@ -1885,7 +1889,7 @@ ClefableEvosMoves:
 	db 26, DEFENSE_CURL
 	db 34, METRONOME
 	db 43, SYNTHESIS
-	db 53, LIGHT_SCREEN
+	db 54, LIGHT_SCREEN
 	db 0
 
 MissingNo8FEvosMoves:
