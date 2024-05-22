@@ -1,12 +1,12 @@
 _KogaPostBattleAdviceText::
-	text "SHADOW BALL is a"
-	line "sinister attack"
-	cont "that will shred"
+	text "SHADOW BALL has"
+	line "a chance to shred"
 	cont "your opponent's"
-	cont "SPECIAL!"
+	cont "SPECIAL."
+	cont "Spooky."
 
-	para "It will surely"
-	line "terrorize foes!"
+	para "And it still"
+	line "packs a punch!"
 	done
 
 _KogaSoulBadgeInfoText::
@@ -20,8 +20,8 @@ _KogaSoulBadgeInfoText::
 	line "SURF outside of"
 	cont "battle!"
 
-	para "Ah! Take this"
-	line "too!"
+	para "Take this. It's"
+	line "to die for!"
 	done
 
 _ReceivedTM06Text::
@@ -36,14 +36,14 @@ _TM06ExplanationText::
 	para "TM04 contains"
 	line "SHADOW BALL!"
 
-	para "It is a secret"
+	para "It's a haunting"
 	line "technique over"
 	cont "400 years old!"
 	done
 
 _TM06NoRoomText::
-	text "Make space for"
-	line "this, child!"
+	text "Exorcise some"
+	line "boo-ring items."
 	done
 
 _FuchsiaGymBattleText1::
@@ -53,20 +53,20 @@ _FuchsiaGymBattleText1::
 
 	para "It's strategy!"
 
-	para "I'll show you how"
-	line "strategy can beat"
-	cont "brute strength!"
+	para "And the key to"
+	line "a good life is a"
+	cont "seance of humor!"
 	done
 
 _FuchsiaGymEndBattleText1::
-	text "What?"
-	line "Extraordinary!"
+	text "Hey!"
+	line "Not funny..."
 	prompt
 
 _FuchsiaGymAfterBattleText1::
 	text "So, you mix brawn"
 	line "with brains?"
-	cont "Good strategy!"
+	cont "AAH! ZOMBIE!!"
 	done
 
 _FuchsiaGymBattleText2::
@@ -76,8 +76,8 @@ _FuchsiaGymBattleText2::
 	done
 
 _FuchsiaGymEndBattleText2::
-	text "I'm done"
-	line "for!"
+	text "No!"
+	line "Curse you!"
 	prompt
 
 _FuchsiaGymAfterBattleText2::
@@ -89,13 +89,13 @@ _FuchsiaGymAfterBattleText2::
 
 _FuchsiaGymBattleText3::
 	text "Let's see you"
-	line "beat my special"
+	line "beat my haunting"
 	cont "techniques!"
 	done
 
 _FuchsiaGymEndBattleText3::
 	text "You"
-	line "had me fooled!"
+	line "saw through me!"
 	prompt
 
 _FuchsiaGymAfterBattleText3::
@@ -108,14 +108,14 @@ _FuchsiaGymAfterBattleText3::
 _FuchsiaGymBattleText4::
 	text "Stop right there!"
 
-	para "Our invisible"
-	line "walls have you"
-	cont "frustrated?"
+	para "I'm the"
+	line "Inspectre! I'll"
+	cont "check your skill!"
 	done
 
 _FuchsiaGymEndBattleText4::
 	text "Whoa!"
-	line "He's got it!"
+	line "Boo-tiful skills!"
 	prompt
 
 _FuchsiaGymAfterBattleText4::
@@ -139,12 +139,12 @@ _FuchsiaGymBattleText5::
 	done
 
 _FuchsiaGymEndBattleText5::
-	text "Awoo!"
+	text "Scary!"
 	prompt
 
 _FuchsiaGymAfterBattleText5::
-	text "I still have much"
-	line "to learn!"
+	text "Treat your"
+	line "familiars well!"
 	done
 
 _FuchsiaGymBattleText6::
@@ -152,13 +152,13 @@ _FuchsiaGymBattleText6::
 	line "comes from a long"
 	cont "line of witches!"
 
-	para "What did you"
-	line "descend from?"
+	para "Who are your"
+	line "ancestors?"
 	done
 
 _FuchsiaGymEndBattleText6::
-	text "Dropped"
-	line "my balls!"
+	text "Were"
+	line "they exorcists?"
 	prompt
 
 _FuchsiaGymAfterBattleText6::
@@ -184,9 +184,9 @@ _FuchsiaGymGuidePreBattleText::
 	cont "she's blocked"
 	cont "off!"
 
-	para "You have to find"
-	line "gaps in the walls"
-	cont "to reach her!"
+	para "You're no ghost,"
+	line "so find gaps in"
+	cont "the walls!"
 	done
 
 _FuchsiaGymGuidePostBattleText::

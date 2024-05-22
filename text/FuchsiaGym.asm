@@ -1,26 +1,26 @@
 _KogaBeforeBattleText::
-	text "ALYSSA: Fwahahaha!"
+	text "ALYSSA: AAAAH! Oh."
 
-	para "A mere child like"
-	line "you dares to"
-	cont "challenge me?"
+	para "I thought that you"
+	line "were a ghost. Or"
+	cont "another groupie."
 
-	para "Very well, I"
-	line "shall show you"
-	cont "true terror as a"
-	cont "high witch!"
+	para "A challenge?"
+	line "Meeting a new"
+	cont "challenger always"
+	cont "lifts my spirits!"
 
-	para "You shall feel"
-	line "the despair of"
-	cont "poison and sleep"
-	cont "techniques!"
+	para "But I'm afraid"
+	line "you have come to"
+	cont "the place we all"
+	cont "go: A dead end!"
 	done
 
 _ReceivedSoulBadgeText::
-	text "Humph!"
-	line "You have proven"
-	cont "your worth!"
+	text "Okay!"
+	line "I'll admit it..."
+	cont "You got soul!"
 
-	para "Here! Take the"
+	para "Now, anyway. The"
 	line "SOULBADGE!"
 	prompt
