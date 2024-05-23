@@ -987,8 +987,8 @@ GolettEvosMoves:
 	db 31, MEGA_PUNCH
 	db 36, BONE_RUSH
 	db 40, MEDITATE
-	db 41, NIGHT_SHADE
-	db 42, EARTHQUAKE
+	db 43, NIGHT_SHADE
+	db 45, EARTHQUAKE
 	db 0
 
 DrifloonEvosMoves:
@@ -1024,8 +1024,8 @@ VenonatEvosMoves:
 	db 9, SUPERSONIC
 	db 17, CONFUSION
 	db 20, POISONPOWDER
-	db 27, LEECH_LIFE
-	db 30, STUN_SPORE
+	db 25, LEECH_LIFE
+	db 28, STUN_SPORE
 	db 35, PSYBEAM
 	db 38, SLEEP_POWDER
 	db 43, PSYCHIC_M
@@ -1455,8 +1455,8 @@ GolurkEvosMoves:
 	db 31, MEGA_PUNCH
 	db 36, BONE_RUSH
 	db 40, MEDITATE
-	db 41, NIGHT_SHADE
-	db 42, EARTHQUAKE
+	db 43, NIGHT_SHADE
+	db 60, EARTHQUAKE
 	db 0
 
 BaxcaliburEvosMoves:
@@ -1688,6 +1688,8 @@ VenomothEvosMoves:
 	db 9, SUPERSONIC
 	db 17, CONFUSION
 	db 20, POISONPOWDER
+	db 25, LEECH_LIFE
+	db 28, STUN_SPORE
 	db 38, PSYBEAM
 	db 43, SLEEP_POWDER
 	db 50, PSYCHIC_M

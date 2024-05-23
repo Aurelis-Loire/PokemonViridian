@@ -294,8 +294,9 @@ SpecialTrainerMoves:
 	db 2, 1, SELFDESTRUCT
 	db 2, 2, SUBSTITUTE
 	db 2, 3, ICE_BEAM
+	db 2, 4, EARTHQUAKE
 	db 3, 2, DOUBLE_KICK
-	db 3, 3, HORN_ATTACK
+	db 3, 3, THUNDER
 	db 3, 4, EARTHQUAKE
 	db 4, 1, HYPER_BEAM
 	db 4, 2, EARTHQUAKE
@@ -311,7 +312,7 @@ SpecialTrainerMoves:
 	db 1, 2, SYNTHESIS
 	db 1, 3, DOUBLE_EDGE
 	db 2, 1, SLEEP_POWDER
-	db 2, 4, SUPERSONIC
+	db 2, 4, PSYCHIC_M
 	db 3, 1, PSYCHIC_M
 	db 3, 2, MEGA_DRAIN
 	db 3, 4, DOUBLE_EDGE
