@@ -178,6 +178,7 @@ AttackAnimationPointers:
 	dw OutrageAnim
 	dw CharmAnim
 	dw RockSmashAnim
+	dw DynamicPunchAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -1235,6 +1236,14 @@ CharmAnim:
 RockSmashAnim:
 	battle_anim ROCK_SMASH, SUBANIM_0_STAR_TWICE, 0, 8
 	db -1 ; end
+	
+DynamicPunchAnim:
+	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim DYNAMICPUNCH, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 
 BallTossAnim:
 	battle_anim NO_MOVE, SUBANIM_0_BALL_TOSS_HIGH, 0, 3

@@ -184,7 +184,8 @@
 	const OUTRAGE      ; b0
 	const CHARM        ; b1
 	const ROCK_SMASH   ; b2
-	const STRUGGLE     ; b3
+	const DYNAMICPUNCH ; b3
+	const STRUGGLE     ; b4
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

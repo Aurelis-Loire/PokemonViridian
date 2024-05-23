@@ -15,10 +15,10 @@ _ReceivedTM18Text::
 	text_end
 
 _TM18ExplanationText::
-	text "TM18 is COUNTER!"
-	line "Not like the one"
-	cont "I'm leaning on,"
-	cont "mind you!"
+	text "TM18 is"
+	line "SUBMISSION!"
+	cont "Consider it a"
+	cont "free sample."
 	done
 
 _TM18NoRoomText::

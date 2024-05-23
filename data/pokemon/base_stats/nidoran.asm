@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BLIZZARD,     \
-	     COUNTER,      POWDER_SNOW,  THUNDERBOLT,  THUNDER,      MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      SKULL_BASH,   HEADBUTT,     MUD_SLAP,     \
-		 REST,         SUBSTITUTE
+	     POWDER_SNOW,  THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  \
+	     REFLECT,      SKULL_BASH,   HEADBUTT,     MUD_SLAP,     REST,         \
+		 SUBSTITUTE
 	; end
 
 	db BANK(NidoranPicFront)

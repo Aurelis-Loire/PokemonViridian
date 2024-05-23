@@ -15,10 +15,10 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        SLUDGE_BOMB,  BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     ICE_PUNCH,    POWDER_SNOW,  \
-	     EARTHQUAKE,   DIG,          MIMIC,        DOUBLE_TEAM,  ROCK_SMASH,   \
-		 HEADBUTT,     MUD_SLAP,     REST,         ROCK_SLIDE,   SUBSTITUTE,   \
-		 SURF
+	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     ICE_PUNCH,    DYNAMICPUNCH, \
+	     POWDER_SNOW,  EARTHQUAKE,   DIG,          MIMIC,        DOUBLE_TEAM,  \
+		 ROCK_SMASH,   HEADBUTT,     MUD_SLAP,     REST,         ROCK_SLIDE,   \
+		 SUBSTITUTE,   SURF
 	; end
 
 	db BANK(WooperPicFront)

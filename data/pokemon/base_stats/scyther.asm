@@ -14,9 +14,9 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     MIMIC,        DOUBLE_TEAM,  ROCK_SMASH,   SWIFT,        SKULL_BASH,   \
-	     HEADBUTT,     REST,         SUBSTITUTE,   CUT
+	tmhm RAZOR_WIND,   SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
+	     HYPER_BEAM,   MIMIC,        DOUBLE_TEAM,  ROCK_SMASH,   SWIFT,        \
+	     SKULL_BASH,   HEADBUTT,     REST,         SUBSTITUTE,   CUT
 	; end
 
 	db BANK(ScytherPicFront)
