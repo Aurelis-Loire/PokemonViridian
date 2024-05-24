@@ -141,6 +141,26 @@ AIMoveChoiceModification1:
 	ld a, [wEnemyMovePower]
 	and a
 	jr nz, .nextMove
+	;At this line onward all moves are assumed to be zero power
+	;joenote - do not use moves that are ineffective against substitute if a substitute is up
+	push hl	;save hl register on the stack
+	ld hl, wPlayerBattleStatus2
+	bit HAS_SUBSTITUTE_UP, [hl]	;check hl for substitute bit
+	pop hl	;restore original hl data from the stack
+	jr z, .noSubImm	;if the substitute bit is not set, then skip out of this block
+	ld a, [wEnemyMoveEffect]	;get the move effect into a
+	push hl
+	push de
+	push bc
+	ld hl, SubstituteImmuneEffects
+	ld de, $0001
+	call IsInArray	;see if a is found in the hl array (carry flag set if true)
+	pop bc
+	pop de
+	pop hl
+	jp c, .heavydiscourage	;carry flag means the move effect is blocked by substitute
+	;else continue onward
+.noSubImm
 	;joenote - discourage using confuse-only moves on confused pkmn
 	ld a, [wEnemyMoveEffect]
 	cp CONFUSION_EFFECT	;see if the move has a confusion effect
@@ -182,6 +202,29 @@ StatusAilmentMoveEffects:
 	db POISON_EFFECT
 	db PARALYZE_EFFECT
 	db -1 ; end
+	
+SubstituteImmuneEffects:	;joenote - added this table to track for substitute immunities
+	db $01 ; unused sleep effect
+	db SLEEP_EFFECT
+	db POISON_EFFECT
+	db PARALYZE_EFFECT
+	db CONFUSION_EFFECT
+	db ATTACK_DOWN1_EFFECT
+	db DEFENSE_DOWN1_EFFECT
+	db SPEED_DOWN1_EFFECT
+	db SPECIAL_DOWN1_EFFECT
+	db ACCURACY_DOWN1_EFFECT
+	db EVASION_DOWN1_EFFECT
+	db ATTACK_DOWN2_EFFECT
+	db DEFENSE_DOWN2_EFFECT
+	db SPEED_DOWN2_EFFECT
+	db SPECIAL_DOWN2_EFFECT
+	db ACCURACY_DOWN2_EFFECT
+	db EVASION_DOWN2_EFFECT
+	db DRAIN_HP_EFFECT
+	db LEECH_SEED_EFFECT
+	db DREAM_EATER_EFFECT
+	db $FF
 
 ; slightly encourage moves with specific effects.
 ; in particular, stat-modifying moves and other move effects
