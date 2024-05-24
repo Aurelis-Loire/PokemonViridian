@@ -4,7 +4,7 @@
 ;	db 0
 
 SpecialTrainerMoves:
-	db LASS, 18
+	db LASS, 18 ;Celadon Gym - Salandit
 	db 1, 4, LEECH_LIFE
 	db 0
 
@@ -36,34 +36,35 @@ SpecialTrainerMoves:
 	db 2, 4, WRAP
 	db 0
 	
-	db COOLTRAINER_M, 2
+	db COOLTRAINER_M, 2 ;Victory Road - Miltank/Exeggutor/Galvantula
 	db 1, 1, GROWL
-	db 2, 2, HYPNOSIS
-	db 2, 3, LEECH_SEED
-	db 2, 4, PSYCHIC_M
+	db 2, 1, LEECH_SEED
+	db 2, 2, PSYCHIC_M
 	db 3, 1, LEECH_LIFE
 	db 0
 	
-	db COOLTRAINER_M, 3
+	db COOLTRAINER_M, 3 ;Victory Road - Dragonair/Swanna/Arcanine
+	db 1, 1, WRAP
+	db 1, 2, TWISTER
+	db 3, 1, EMBER
 	db 3, 4, BITE
 	db 0
 	
-	db COOLTRAINER_M, 5
-	db 1, 2, HYPNOSIS
-	db 1, 3, LEECH_SEED
+	db COOLTRAINER_M, 5 ;Victory Road - Exeggutor/Onix/Blastoise/Marowak
+	db 1, 1, LEECH_SEED
+	db 1, 2, CONFUSION
 	db 2, 3, SCREECH
 	db 3, 3, WATER_GUN
-	db 4, 2, BONE_CLUB
+	db 4, 1, HEADBUTT
 	db 0
 	
-	db COOLTRAINER_M, 9
+	db COOLTRAINER_M, 9 ;Viridian Gym - Arctibax/Salazzle
 	db 1, 1, TACKLE
 	db 2, 3, SCRATCH
 	db 0
 	
 	db COOLTRAINER_M, 10 ;Viridian Gym - Gyarados
-	db 1, 2, BITE
-	db 1, 3, THRASH
+	db 1, 2, THRASH
 	db 0
 	
 	db RIVAL1, 7
