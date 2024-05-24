@@ -895,8 +895,8 @@ MiloticEvosMoves:
 	db 0
 ; Learnset
 	db 6, WRAP
-	db 28, REFRESH
-	db 33, TWISTER
+	db 11, REFRESH
+	db 16, TWISTER
 	db 38, RECOVER
 	db 43, CONFUSE_RAY
 	db 48, HYDRO_PUMP
@@ -947,7 +947,7 @@ DiglettEvosMoves:
 	db EV_LEVEL, 26, DUGTRIO
 	db 0
 ; Learnset
-	db 15, GROWL
+	db 9, MUD_SLAP
 	db 19, DIG
 	db 24, SAND_ATTACK
 	db 31, SLASH
@@ -1026,9 +1026,9 @@ VenonatEvosMoves:
 	db 20, POISONPOWDER
 	db 25, LEECH_LIFE
 	db 28, STUN_SPORE
-	db 35, PSYBEAM
-	db 38, SLEEP_POWDER
-	db 43, PSYCHIC_M
+	db 33, PSYBEAM
+	db 36, SLEEP_POWDER
+	db 41, PSYCHIC_M
 	db 0
 
 DragoniteEvosMoves:
@@ -1296,10 +1296,11 @@ MamoswineEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, TAKE_DOWN
-	db 15, FURY_ATTACK
-	db 23, HORN_ATTACK
-	db 31, ANCIENTPOWER
+	db 7, POWDER_SNOW
+	db 13, ANCIENTPOWER
+	db 19, TAKE_DOWN
+	db 25, FURY_ATTACK
+	db 31, HORN_ATTACK
 	db 39, MIST
 	db 0
 
@@ -1673,7 +1674,7 @@ DugtrioEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, GROWL
+	db 9, MUD_SLAP
 	db 19, DIG
 	db 24, SAND_ATTACK
 	db 35, SLASH
@@ -1690,9 +1691,10 @@ VenomothEvosMoves:
 	db 20, POISONPOWDER
 	db 25, LEECH_LIFE
 	db 28, STUN_SPORE
-	db 38, PSYBEAM
-	db 43, SLEEP_POWDER
-	db 50, PSYCHIC_M
+	db 31, GUST
+	db 36, PSYBEAM
+	db 42, SLEEP_POWDER
+	db 52, PSYCHIC_M
 	db 0
 
 MissingNo78EvosMoves:

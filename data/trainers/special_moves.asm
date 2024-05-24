@@ -295,7 +295,8 @@ SpecialTrainerMoves:
 	db 2, 2, SUBSTITUTE
 	db 2, 3, ICE_BEAM
 	db 2, 4, EARTHQUAKE
-	db 3, 2, DOUBLE_KICK
+	db 3, 1, ROCK_SLIDE
+	db 3, 2, BLIZZARD
 	db 3, 3, THUNDER
 	db 3, 4, EARTHQUAKE
 	db 4, 1, HYPER_BEAM
@@ -312,6 +313,8 @@ SpecialTrainerMoves:
 	db 1, 2, SYNTHESIS
 	db 1, 3, DOUBLE_EDGE
 	db 2, 1, SLEEP_POWDER
+	db 2, 2, MEGA_DRAIN
+	db 2, 3, PSYWAVE
 	db 2, 4, PSYCHIC_M
 	db 3, 1, PSYCHIC_M
 	db 3, 2, MEGA_DRAIN
@@ -325,24 +328,48 @@ SpecialTrainerMoves:
 	db 0
 
 	db RIVAL3, 1
+	db 1, 2, REST
 	db 1, 4, DOUBLE_TEAM
-	db 2, 3, GROWL
+	db 2, 1, BODY_SLAM
+	db 2, 2, SUBSTITUTE
+	db 2, 3, DOUBLE_TEAM
+	db 2, 4, TOXIC
 	db 3, 1, SWORDS_DANCE
-	db 3, 4, DRAGON_RAGE
-	db 4, 2, BITE
+	db 3, 2, HYPER_BEAM
+	db 3, 3, EARTHQUAKE
+	db 3, 4, DOUBLE_TEAM
+	db 4, 1, REST
+	db 4, 2, BODY_SLAM
+	db 4, 3, FIRE_BLAST
+	db 4, 4, HYPER_BEAM
 	db 5, 1, RAZOR_LEAF
-	db 6, 1, WATER_GUN
+	db 5, 2, DOUBLE_TEAM
+	db 5, 3, REST
+	db 5, 4, TOXIC
+	db 6, 1, EARTHQUAKE
 	db 6, 2, BLIZZARD
 	db 6, 3, SURF
+	db 6, 4, REST
 	db 0
 
 	db RIVAL3, 2
+	db 1, 2, REST
 	db 1, 4, DOUBLE_TEAM
-	db 2, 3, GROWL
+	db 2, 1, BODY_SLAM
+	db 2, 2, SUBSTITUTE
+	db 2, 3, DOUBLE_TEAM
+	db 2, 4, TOXIC
 	db 3, 1, SWORDS_DANCE
-	db 3, 4, DRAGON_RAGE
-	db 4, 1, WRAP
-	db 5, 2, BITE
+	db 3, 2, HYPER_BEAM
+	db 3, 3, EARTHQUAKE
+	db 3, 4, DOUBLE_TEAM
+	db 4, 2, TOXIC
+	db 4, 3, SURF
+	db 4, 4, WRAP
+	db 5, 1, REST
+	db 5, 2, BODY_SLAM
+	db 5, 3, FIRE_BLAST
+	db 5, 4, HYPER_BEAM
 	db 6, 1, SLEEP_POWDER
 	db 6, 2, RAZOR_LEAF
 	db 6, 3, SWORDS_DANCE
@@ -350,14 +377,26 @@ SpecialTrainerMoves:
 	db 0
 
 	db RIVAL3, 3
+	db 1, 2, REST
 	db 1, 4, DOUBLE_TEAM
-	db 2, 3, GROWL
+	db 2, 1, BODY_SLAM
+	db 2, 2, SUBSTITUTE
+	db 2, 3, DOUBLE_TEAM
+	db 2, 4, TOXIC
 	db 3, 1, SWORDS_DANCE
-	db 3, 4, DRAGON_RAGE
+	db 3, 2, HYPER_BEAM
+	db 3, 3, EARTHQUAKE
+	db 3, 4, DOUBLE_TEAM
 	db 4, 1, RAZOR_LEAF
-	db 5, 1, WRAP
-	db 6, 1, FLAMETHROWER
+	db 4, 2, DOUBLE_TEAM
+	db 4, 3, REST
+	db 4, 4, TOXIC
+	db 5, 2, TOXIC
+	db 5, 3, SURF
+	db 5, 4, WRAP
+	db 6, 1, FIRE_BLAST
 	db 6, 2, HYPER_BEAM
+	db 6, 3, EARTHQUAKE
 	db 6, 4, SWORDS_DANCE
 	db 0
 
