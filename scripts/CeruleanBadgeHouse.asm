@@ -34,7 +34,7 @@ CeruleanHouse2Text1:
 	jr c, .asm_74e60
 	ld hl, TextPointers_74e86
 	ld a, [wcf91]
-	sub BOULDERBADGE
+	sub GLACIERBADGE
 	add a
 	ld d, $0
 	ld e, a
@@ -53,14 +53,14 @@ CeruleanHouse2Text1:
 
 BadgeItemList:
 	db 8 ; #
-	db BOULDERBADGE
+	db GLACIERBADGE
 	db CASCADEBADGE
 	db THUNDERBADGE
-	db RAINBOWBADGE
+	db ENTOMNIBADGE
 	db SOULBADGE
+	db FLAREBADGE
 	db MARSHBADGE
-	db VOLCANOBADGE
-	db EARTHBADGE
+	db RISINGBADGE
 	db -1 ; end
 
 CeruleanHouse2Text_74e77:

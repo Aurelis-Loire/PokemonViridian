@@ -99,19 +99,19 @@ BadgeTextPointers:
 	dw EarthBadgeText
 
 EarthBadgeText:
-	db "EARTHBADGE@"
+	db "RISINGBADGE@"
 
 VolcanoBadgeText:
-	db "VOLCANOBADGE@"
+	db "MARSHBADGE@"
 
 MarshBadgeText:
-	db "MARSHBADGE@"
+	db "FLAREBADGE@"
 
 SoulBadgeText:
 	db "SOULBADGE@"
 
 RainbowBadgeText:
-	db "RAINBOWBADGE@"
+	db "ENTOMNIBADGE@"
 
 ThunderBadgeText:
 	db "THUNDERBADGE@"
