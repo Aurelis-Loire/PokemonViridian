@@ -8,24 +8,27 @@ SpecialTrainerMoves:
 	db 1, 4, LEECH_LIFE
 	db 0
 
-	db COOLTRAINER_F, 1
+	db COOLTRAINER_F, 1 ;Celadon Gym - Scyther/Shellder/Venonat
+	db 1, 4, QUICK_ATTACK
 	db 2, 2, TWINEEDLE
 	db 3, 1, TACKLE
 	db 0
 	
-	db COOLTRAINER_F, 2
+	db COOLTRAINER_F, 2 ;Victory Road - Starmie/Rapidash/Seaking
 	db 1, 4, WATER_GUN
 	db 2, 1, EMBER
 	db 3, 3, PECK
 	db 0
 	
-	db COOLTRAINER_F, 3
+	db COOLTRAINER_F, 3 ;Victory Road - Quagsire/Marowak/Toxicroak
+	db 1, 3, SLAM
 	db 1, 4, WATER_GUN
+	db 2, 1, HEADBUTT
 	db 2, 2, EARTHQUAKE
 	db 3, 1, POISON_STING
 	db 0
 	
-	db COOLTRAINER_F, 5
+	db COOLTRAINER_F, 5 ;Victory Road - Dragonair/Butterfree
 	db 1, 4, THUNDER_WAVE
 	db 2, 1, SLEEP_POWDER
 	db 2, 4, SUPERSONIC
@@ -67,24 +70,24 @@ SpecialTrainerMoves:
 	db 1, 2, THRASH
 	db 0
 	
-	db RIVAL1, 7
+	db RIVAL1, 7 ;Cerulean Rival - Nidorino/Ralts/Flaaffy/Wartortle
 	db 4, 1, TACKLE
 	db 0
 	
-	db RIVAL1, 8
+	db RIVAL1, 8 ;Cerulean Rival - Nidorino/Ralts/Flaaffy/Ivysaur
 	db 4, 3, TACKLE
 	db 0
 	
-	db BROCK, 1
+	db BROCK, 1 ;Diana - Vulpix/Frigibax
 	db 2, 4, POWDER_SNOW
 	db 0
 
-	db MISTY, 1
+	db MISTY, 1 ;Matt - Wailmer/Gyarados
 	db 1, 1, TACKLE
 	db 2, 1, BUBBLEBEAM
 	db 0
 
-	db LT_SURGE, 1
+	db LT_SURGE, 1 ;Alex - Flaaffy/Jolteon/Raichu
 	db 2, 1, TAIL_WHIP
 	db 3, 1, THUNDER_WAVE
 	db 3, 2, DOUBLE_TEAM
@@ -92,43 +95,44 @@ SpecialTrainerMoves:
 	db 3, 4, THUNDERBOLT
 	db 0
 
-	db RIVAL2, 1
+	db RIVAL2, 1 ;SS Anne Rival - Ralts/Flaaffy/Nidorino/Wartortle
+	db 1, 3, GROWL
 	db 4, 2, TACKLE
 	db 0
 	
-	db RIVAL2, 2
+	db RIVAL2, 2 ;SS Anne Rival - Ralts/Flaaffy/Nidorino/Ivysaur
+	db 1, 3, GROWL
 	db 4, 3, TACKLE
 	db 0
 	
-	db RIVAL2, 3
-	db 4, 1, SCRATCH
+	db RIVAL2, 3 ;SS Anne Rival - Ralts/Flaaffy/Nidorino/Charmeleon
+	db 1, 3, GROWL
+	db 4, 4, SCRATCH
 	db 0
 	
-	db RIVAL2, 4
+	db RIVAL2, 4 ;Tower Rival - Kirlia/Growlithe/Steenee/Flaaffy/Wartortle
 	db 1, 3, GROWL
-	db 4, 1, TACKLE
-	db 5, 1, TACKLE
 	db 0
 
-	db RIVAL2, 5
+	db RIVAL2, 5 ;Tower Rival - Kirlia/Milotic/Growlithe/Flaaffy/Ivysaur
 	db 1, 3, GROWL
-	db 4, 1, TACKLE
 	db 5, 2, LEECH_SEED
 	db 0
 
-	db RIVAL2, 6
+	db RIVAL2, 6 ;Tower Rival - Kirlia/Steenee/Milotic/Flaaffy/Charmeleon
 	db 1, 3, GROWL
-	db 4, 1, TACKLE
-	db 5, 1, SCRATCH
+	db 5, 4, SCRATCH
 	db 0
 	
-	db RIVAL2, 7
+	db RIVAL2, 7 ;Silph Rival - Gardevoir/Growlithe/Tsareena/Ampharos/Blastoise
 	db 1, 2, CONFUSION
 	db 2, 2, BITE
+	db 3, 1, RAZOR_LEAF
 	db 4, 1, TACKLE
+	db 5, 4, WITHDRAW
 	db 0
 	
-	db RIVAL2, 8
+	db RIVAL2, 8 ;Silph Rival - Gardevoir/Milotic/Growlithe/Ampharos/Venusaur
 	db 1, 2, CONFUSION
 	db 3, 2, BITE
 	db 4, 1, TACKLE
@@ -136,15 +140,15 @@ SpecialTrainerMoves:
 	db 5, 4, VINE_WHIP
 	db 0
 	
-	db RIVAL2, 9
+	db RIVAL2, 9 ;Silph Rival - Gardevoir/Tsareena/Milotic/Ampharos/Charizard
 	db 1, 2, CONFUSION
-	db 2, 2, RAZOR_LEAF
+	db 2, 1, RAZOR_LEAF
 	db 4, 1, TACKLE
 	db 5, 1, SCRATCH
 	db 5, 2, SMOKESCREEN
 	db 0
 	
-	db RIVAL2, 10
+	db RIVAL2, 10 ;Rt. 22 Rival - Gardevoir/Ampharos/Growlithe/Tsareena/Garchomp/Blastoise
 	db 1, 1, DOUBLE_TEAM
 	db 3, 1, EMBER
 	db 3, 4, BITE
@@ -155,7 +159,7 @@ SpecialTrainerMoves:
 	db 6, 4, WATER_GUN
 	db 0
 	
-	db RIVAL2, 11
+	db RIVAL2, 11 ;Rt. 22 Rival - Gardevoir/Ampharos/Milotic/Growlithe/Garchomp/Venusaur
 	db 1, 1, DOUBLE_TEAM
 	db 3, 1, WRAP
 	db 4, 1, EMBER
@@ -166,27 +170,28 @@ SpecialTrainerMoves:
 	db 6, 4, SLEEP_POWDER
 	db 0
 	
-	db RIVAL2, 12
+	db RIVAL2, 12 ;Rt. 22 Rival - Gardevoir/Ampharos/Tsareena/Milotic/Garchomp/Charizard
 	db 1, 1, DOUBLE_TEAM
-	db 3, 2, RAZOR_LEAF
+	db 3, 1, RAZOR_LEAF
 	db 4, 1, WRAP
 	db 5, 1, DRAGONBREATH
 	db 5, 2, DRAGON_RAGE
-	db 6, 3, SMOKESCREEN
+	db 6, 1, SMOKESCREEN
 	db 0
 	
-	db ERIKA, 1
-	db 1, 1, DISABLE
+	db ERIKA, 1 ;Spectre - Venonat/Scyther/Galvantula
+	db 1, 2, SUPERSONIC
+	db 2, 4, QUICK_ATTACK
 	db 3, 1, PIN_MISSILE
 	db 0
 
-	db KOGA, 1
+	db KOGA, 1 ;Alyssa - Chandelure/Gengar/Froslass/Marowak
 	db 1, 4, EMBER
 	db 3, 4, POWDER_SNOW
 	db 4, 4, SHADOW_BALL
 	db 0
 
-	db BLAINE, 1
+	db BLAINE, 1 ;Mike - Starmie/Gengar/Alakazam/Slowbro
 	db 1, 2, PSYCHIC_M
 	db 1, 3, BLIZZARD
 	db 1, 4, THUNDER_WAVE
@@ -199,7 +204,7 @@ SpecialTrainerMoves:
 	db 4, 3, BLIZZARD
 	db 0
 
-	db SABRINA, 1
+	db SABRINA, 1 ;Andrew - Nidoking/Chandelure/Salazzle/Toxicroak
 	db 1, 2, EARTHQUAKE
 	db 1, 3, SHADOW_BALL
 	db 1, 4, THUNDERBOLT
@@ -213,16 +218,16 @@ SpecialTrainerMoves:
 	db 4, 4, SLUDGE_BOMB
 	db 0
 
-	db GIOVANNI, 1
-	db 3, 3, TACKLE
+	db GIOVANNI, 1 ;Celadon Johanna - Gyarados/Salandit/Gabite
+	db 3, 3, SAND_ATTACK
 	db 0
 	
-	db GIOVANNI, 2
+	db GIOVANNI, 2 ;Silph Co Johanna - Dragonair/Salazzle/Gabite/Arctibax
 	db 2, 3, SCRATCH
 	db 3, 2, DRAGONBREATH
 	db 0
 	
-	db GIOVANNI, 3
+	db GIOVANNI, 3 ;Johanna - Baxcalibur/Milotic/Charizard/Dragonite/Garchomp
 	db 1, 1, REST
 	db 1, 3, BLIZZARD
 	db 1, 4, HYPER_BEAM
@@ -242,7 +247,7 @@ SpecialTrainerMoves:
 	db 5, 4, SWORDS_DANCE
 	db 0
 
-	db LORELEI, 1
+	db LORELEI, 1 ;Kevin - Arcanine/Marowak/Salazzle/Flareon/Charizard
 	db 1, 1, FIRE_BLAST
 	db 1, 2, SUBSTITUTE
 	db 1, 3, DIG
@@ -265,7 +270,7 @@ SpecialTrainerMoves:
 	db 5, 4, EARTHQUAKE
 	db 0
 
-	db BRUNO, 1
+	db BRUNO, 1 ;Grant - Scyther/Charizard/Gyarados/Dragonite/Pidgeot
 	db 1, 1, TOXIC
 	db 1, 2, SKULL_BASH
 	db 1, 3, DOUBLE_EDGE
@@ -287,7 +292,7 @@ SpecialTrainerMoves:
 	db 5, 4, DOUBLE_EDGE
 	db 0
 
-	db AGATHA, 1
+	db AGATHA, 1 ;Thom - Mamoswine/Golurk/Nidoking/Garchomp/Tyranitar
 	db 1, 1, BLIZZARD
 	db 1, 2, HYPER_BEAM
 	db 1, 3, SUBSTITUTE
@@ -309,7 +314,7 @@ SpecialTrainerMoves:
 	db 5, 4, DOUBLE_EDGE
 	db 0
 
-	db LANCE, 1
+	db LANCE, 1 ;John - Leafeon/Butterfree/Exeggutor/Tsareena/Venusaur
 	db 1, 1, RAZOR_LEAF
 	db 1, 2, SYNTHESIS
 	db 1, 3, DOUBLE_EDGE
@@ -328,7 +333,7 @@ SpecialTrainerMoves:
 	db 5, 4, SWORDS_DANCE
 	db 0
 
-	db RIVAL3, 1
+	db RIVAL3, 1 ;Champion Iscaria - Gardevoir/Ampharos/Garchomp/Arcanine/Tsareena/Blastoise
 	db 1, 2, REST
 	db 1, 4, DOUBLE_TEAM
 	db 2, 1, BODY_SLAM
@@ -353,7 +358,7 @@ SpecialTrainerMoves:
 	db 6, 4, REST
 	db 0
 
-	db RIVAL3, 2
+	db RIVAL3, 2 ;Champion Iscaria - Gardevoir/Ampharos/Garchomp/Milotic/Arcanine/Venusaur
 	db 1, 2, REST
 	db 1, 4, DOUBLE_TEAM
 	db 2, 1, BODY_SLAM
@@ -377,7 +382,7 @@ SpecialTrainerMoves:
 	db 6, 4, HYPER_BEAM
 	db 0
 
-	db RIVAL3, 3
+	db RIVAL3, 3 ;Champion Iscaria - Gardevoir/Ampharos/Garchomp/Tsareena/Milotic/Charizard
 	db 1, 2, REST
 	db 1, 4, DOUBLE_TEAM
 	db 2, 1, BODY_SLAM

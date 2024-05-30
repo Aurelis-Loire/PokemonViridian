@@ -318,6 +318,7 @@ ExeggutorEvosMoves:
 ; Learnset
 	db 7, REFLECT
 	db 13, LEECH_SEED
+	db 19, CONFUSION
 	db 20, STOMP
 	db 25, STUN_SPORE
 	db 31, POISONPOWDER
@@ -781,9 +782,9 @@ MiltankEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, DEFENSE_CURL
-	db 25, STOMP
-	db 34, SOFTBOILED
+	db 8, DEFENSE_CURL
+	db 13, STOMP
+	db 19, SOFTBOILED
 	db 43, BODY_SLAM
 	db 0
 
@@ -1050,6 +1051,11 @@ GardevoirEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 8, CONFUSION
+	db 15, DOUBLE_TEAM
+	db 17, TELEPORT
+	db 19, PSYBEAM
+	db 28, GROWTH
 	db 39, PSYCHIC_M
 	db 54, HYPNOSIS
 	db 0
