@@ -222,6 +222,7 @@ DEF SHOW EQU $15
 	const HS_MEWTWO                        ; D1 X
 	const HS_CERULEAN_CAVE_B1F_ITEM_1      ; D2 X
 	const HS_CERULEAN_CAVE_B1F_ITEM_2      ; D3 X
+	const HS_CERULEAN_CAVE_B1F_FOSSIL      ; Newly Added
 	const HS_VICTORY_ROAD_1F_ITEM_1        ; D4 X
 	const HS_VICTORY_ROAD_1F_ITEM_2        ; D5 X
 	const HS_CHAMPIONS_ROOM_OAK            ; D6

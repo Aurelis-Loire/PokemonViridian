@@ -16,6 +16,7 @@ CeruleanCaveB1F_TextPointers:
 	dw MewtwoText
 	dw PickUpItemText
 	dw PickUpItemText
+	dw CeruleanFossilText
 
 CeruleanCaveB1FTrainerHeaders:
 	def_trainers
@@ -36,3 +37,46 @@ MewtwoBattleText:
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
+
+CeruleanFossilText:
+	text_asm
+	CheckEvent EVENT_GOT_HELIX_FOSSIL
+	jr z, .getHelix
+	lb bc, DOME_FOSSIL, 1
+	call GiveItem
+	jp nc, BagFullScript
+	call FossilObtainedScript
+	ld a, HS_CERULEAN_CAVE_B1F_FOSSIL
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	jr .gotFossil
+.getHelix
+	lb bc, HELIX_FOSSIL, 1
+	call GiveItem
+	jp nc, BagFullScript
+	call FossilObtainedScript
+	ld a, HS_CERULEAN_CAVE_B1F_FOSSIL
+	ld [wMissableObjectIndex], a
+	predef HideObject
+.gotFossil
+	jp TextScriptEnd
+	
+BagFullScript:
+	ld hl, BagFullMessage
+	call PrintText
+	jp TextScriptEnd
+	
+FossilObtainedScript:
+	ld hl, FossilObtained
+	jp PrintText
+	
+BagFullMessage:
+	text_far _BagFullText
+	text_waitbutton
+	text_end
+	
+FossilObtained:
+	text_far _FossilObtainedText
+	sound_get_key_item
+	text_waitbutton
+	text_end
