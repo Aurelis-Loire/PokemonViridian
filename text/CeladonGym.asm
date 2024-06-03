@@ -1,29 +1,29 @@
 _ErikaPreBattleText::
-	text "Hello. Lovely"
-	line "weather isn't it?"
-	cont "It's so pleasant."
+	text "Oh! I would love a"
+	cont "chai tea."
 
-	para "...Oh dear..."
-	line "I must have dozed"
-	cont "off. Welcome."
+	para "You're still here?"
+	line "A capricious one"
+	cont "are you?"
 
 	para "My name is"
 	line "SPECTRE. I am the"
 	cont "LEADER of CELADON"
 	cont "GYM."
 
-	para "I teach the art of"
-	line "flower arranging."
-	cont "My #MON are of"
+	para "Journey through"
+	line "this cabinet of"
+	cont "curiosity! My"
+	cont "#MON are of"
 	cont "the bug-type."
 
-	para "Oh, I'm sorry, I"
-	line "had no idea that"
-	cont "you wished to"
-	cont "challenge me."
+	para "By the way, what's"
+	line "the ETA on the"
+	cont "Chai Tea?"
 
-	para "Very well, but I"
-	line "shall not lose."
+	para "Ahh, you wish to"
+	line "see my taxon in"
+	cont "action? So be it."
 	done
 
 _ReceivedRainbowBadgeText::
@@ -44,8 +44,8 @@ _ErikaPostBattleAdviceText::
 
 	para "I would never"
 	line "collect #MON"
-	cont "if they were"
-	cont "unattractive."
+	cont "that reside"
+	cont "beyond insectum."
 	done
 
 _ErikaRainbowBadgeInfoText::
@@ -58,8 +58,9 @@ _ErikaRainbowBadgeInfoText::
 	cont "STRENGTH in and"
 	cont "out of battle."
 
-	para "Please also take"
-	line "this with you."
+	para "Sorry can't talk"
+	line "anymore." 
+	cont "Just take this!"
 	done
 
 _ReceivedTM21Text::
@@ -88,10 +89,10 @@ _TM21NoRoomText::
 	done
 
 _CeladonGymBattleText2::
-	text "Hey!"
+	text "You!"
 
-	para "You are not"
-	line "allowed in here!"
+	para "Why are you here?"
+	line "Get out!"
 	done
 
 _CeladonGymEndBattleText2::
@@ -111,8 +112,9 @@ _CeladonGymBattleText3::
 	done
 
 _CeladonGymEndBattleText3::
-	text "My"
-	line "makeup!"
+	text "Don't"
+	line "get too yummy"
+	line "there, Cupcake."
 	prompt
 
 _CeladonGymAfterBattleText3::
@@ -128,7 +130,7 @@ _CeladonGymAfterBattleText3::
 
 _CeladonGymBattleText4::
 	text "Aren't you the"
-	line "peeping Tom?"
+	line "creeper?"
 	done
 
 _CeladonGymEndBattleText4::
@@ -137,9 +139,9 @@ _CeladonGymEndBattleText4::
 	prompt
 
 _CeladonGymAfterBattleText4::
-	text "Oh, you weren't"
-	line "peeping? We get a"
-	cont "lot of gawkers!"
+	text "Your outfit is a"
+	line "bit much. But the"
+	cont "confidence..."
 	done
 
 _CeladonGymBattleText5::
@@ -207,7 +209,8 @@ _CeladonGymBattleText8::
 
 	para "You better not"
 	line "underestimate"
-	cont "girl power!"
+	cont "arthropod"
+	cont "artistry!"
 	done
 
 _CeladonGymEndBattleText8::
@@ -216,9 +219,10 @@ _CeladonGymEndBattleText8::
 	prompt
 
 _CeladonGymAfterBattleText8::
-	text "I didn't bring my"
-	line "best #MON!"
+	text "What do I know? I"
+	line "failed art"
+	cont "school!"
 
-	para "Wait 'til next"
-	line "time!"
+	para "Keep moving you're"
+	line "bugging me!"
 	done
