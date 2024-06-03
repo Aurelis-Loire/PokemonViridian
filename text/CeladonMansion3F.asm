@@ -41,6 +41,11 @@ _CompletedDexText::
 	cont "Congratulations!"
 	cont "...@"
 	text_end
+	
+_MewText::
+	text "I've been saving"
+	line "this for you."
+	done
 
 _CeladonMansion3Text5::
 	text "It's the game"

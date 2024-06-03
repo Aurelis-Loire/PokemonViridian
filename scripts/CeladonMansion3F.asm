@@ -50,7 +50,23 @@ DirectorText:
 	callfar DisplayDiploma
 	ld a, TRUE
 	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
+	CheckEvent EVENT_GOT_MEW
+	jr z, .GiveMew
 	jp TextScriptEnd
+.GiveMew
+	lb bc, MEW, 5
+	call GivePokemon
+	SetEvent EVENT_GOT_MEW
+	ld hl, GiveMewText
+	call PrintText
+	jp TextScriptEnd
+	;jr .MewDone
+;.GiveMewText:
+	;text_far _MewText
+	;text_end
+;.MewDone
+	;call PrintText
+	;jp TextScriptEnd
 
 GameFreakPCText1:
 	text_far _CeladonMansion3Text5
@@ -66,4 +82,8 @@ GameFreakPCText3:
 
 GameFreakSignText:
 	text_far _CeladonMansion3Text8
+	text_end
+
+GiveMewText:
+	text_far _MewText
 	text_end
