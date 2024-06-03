@@ -32,6 +32,6 @@ _CinnabarIslandText7::
 	line "#MON GYM"
 	cont "LEADER: MIKE"
 
-	para "The Hot-Headed"
-	line "Quiz Master!"
+	para "The Mirage"
+	line "Wielding Menace!"
 	done

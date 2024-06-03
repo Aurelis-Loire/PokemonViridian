@@ -1,45 +1,48 @@
 _BlainePreBattleText::
-	text "Hah!"
+	text "Muwaha!"
 
 	para "I am MIKE! I am"
 	line "the LEADER of"
 	cont "CINNABAR GYM!"
 
-	para "My fiery #MON"
-	line "will incinerate"
-	cont "all challengers!"
+	para "Believe in the" 
+	line "ideal, not the"
+	cont "idol!"
 
-	para "Hah! You better"
-	line "have BURN HEAL!"
+	para "Even the strongest"
+	line "of opponents"
+	cont "always have a"
+	cont "weakness."
 	done
 
 _ReceivedVolcanoBadgeText::
-	text "I have"
-	line "burnt out!"
+	text "You"
+	line "are truly"
+	cont "awesomeness!"
 
 	para "You have earned"
-	line "the VOLCANOBADGE!@"
+	line "the MARSHBADGE!@"
 	text_end
 
 _BlainePostBattleAdviceText::
-	text "FIRE BLAST is the"
-	line "ultimate fire"
+	text "PSYCHIC is the"
+	line "ultimate mental"
 	cont "technique!"
 
 	para "Don't waste it on"
-	line "water #MON!"
+	line "weak #MON!"
 	done
 
 _BlaineVolcanoBadgeInfoText::
 	text "Hah!"
 
-	para "The VOLCANOBADGE"
+	para "The MARSHBADGE"
 	line "heightens the"
 	cont "SPECIAL abilities"
 	cont "of your #MON!"
 
-	para "Here, you can"
-	line "have this too!"
+	para "Here, you earned"
+	line "this as well...!"
 	done
 
 _ReceivedTM38Text::
@@ -53,50 +56,50 @@ _TM38ExplanationText::
 	text_start
 
 	para "TM38 contains"
-	line "FIRE BLAST!"
+	line "PSYCHIC!"
 
-	para "Teach it to fire-"
+	para "Teach it to psy-"
 	line "type #MON!"
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
-	cont "good bets!"
+	para "KADABRA or RALTZ"
+	line "would be good"
+	cont "fits!"
 	done
 
 _TM38NoRoomText::
-	text "Make room for my"
-	line "gift!"
+	text "Clean up you bag"
+	line "for gifts!"
 	done
 
 _CinnabarGymBattleText2::
-	text "Do you know how"
-	line "hot #MON fire"
-	cont "breath can get?"
+	text "Have you ever seen"
+	line "a Mortivore fly?"
 	done
 
 _CinnabarGymEndBattleText2::
 	text "Yow!"
-	line "Hot, hot, hot!"
+	line "I'm counted in"
+	cont "the grave too!"
 	prompt
 
 _CinnabarGymAfterBattleText2::
-	text "Fire, or to be"
-	line "more precise,"
-	cont "combustion..."
+	text "My extrasensory"
+	line "ability has"
+	cont "spoiled this"
+	cont "ending."
 
-	para "Blah, blah, blah,"
-	line "blah..."
+	para "DAMMIT!"
 	done
 
 _CinnabarGymBattleText1::
-	text "I was a thief, but"
-	line "I became straight"
-	cont "as a trainer!"
+	text "Allow me to reach"
+	line "new calculations!"
 	done
 
 _CinnabarGymEndBattleText1::
-	text "I"
-	line "surrender!"
+	text "MIKE"
+	line "will destroy your"
+	cont "hopes!"
 	prompt
 
 _CinnabarGymAfterBattleText1::
@@ -106,9 +109,10 @@ _CinnabarGymAfterBattleText1::
 	done
 
 _CinnabarGymBattleText3::
-	text "You can't win!"
-	line "I have studied"
-	cont "#MON totally!"
+	text "I dislike"
+	line "bragging, but I"
+	cont "could be leader,"
+	cont "if I wanted to."
 	done
 
 _CinnabarGymEndBattleText3::
@@ -117,9 +121,9 @@ _CinnabarGymEndBattleText3::
 	prompt
 
 _CinnabarGymAfterBattleText3::
-	text "My theories are"
-	line "too complicated"
-	cont "for you!"
+	text "Theoretically of"
+	line "course, I meant I"
+	cont "could be leader."
 	done
 
 _CinnabarGymBattleText4::
@@ -128,14 +132,15 @@ _CinnabarGymBattleText4::
 	done
 
 _CinnabarGymEndBattleText4::
-	text "Too hot"
-	line "to handle!"
+	text "I like"
+	line "them but not"
+	cont "great at it!"
 	prompt
 
 _CinnabarGymAfterBattleText4::
-	text "I wish there was"
-	line "a thief #MON!"
-	cont "I'd use that!"
+	text "Slow down bro! My"
+	line "#MON is"
+	cont "innocent!"
 	done
 
 _CinnabarGymBattleText5::
@@ -148,8 +153,8 @@ _CinnabarGymEndBattleText5::
 	prompt
 
 _CinnabarGymAfterBattleText5::
-	text "MIKE was lost in"
-	line "the mountains when"
+	text "MIKE was lost at"
+	line "Red Cliffs when"
 	cont "an icy bird"
 	cont "#MON appeared."
 
@@ -166,47 +171,52 @@ _CinnabarGymBattleText6::
 
 _CinnabarGymEndBattleText6::
 	text "Yowza!"
-	line "Too hot!"
+	line "Off to the beach!"
 	prompt
 
 _CinnabarGymAfterBattleText6::
-	text "Us fire #MON"
-	line "fans like PONYTA"
-	cont "and NINETALES!"
+	text "Us Psychic #MON"
+	line "fans like KADABRA"
+	cont "and GARDEVOIR!"
 	done
 
 _CinnabarGymBattleText7::
-	text "Fire is weak"
-	line "against H2O!"
+	text "Manipulation is"
+	line "impossible"
+	cont "against the"
+	line "incorporeal!"
 	done
 
 _CinnabarGymEndBattleText7::
 	text "Oh!"
-	line "Snuffed out!"
+	line "Haunted and lost!"
 	prompt
 
 _CinnabarGymAfterBattleText7::
-	text "Water beats fire!"
-	line "But, fire melts"
-	cont "ice #MON!"
+	text "Psychic fears"
+	line "Ghost! But,"
+	cont "illusion folds"
+	cont "fighting #MON!"
 	done
 
 _CinnabarGymGuidePreBattleText::
 	text "Yo! Champ in"
 	line "making!"
 
-	para "The hot-headed"
+	para "The enigmatic"
 	line "MIKE is a psychic"
 	cont "#MON pro!"
 
-	para "Douse his spirits"
-	line "with water!"
+	para "Rattle his mind"
+	line "with ghosts!"
 
-	para "You better take"
-	line "some BURN HEALs!"
+	para "You better steel"
+	line "your mental"
+	cont "resolve!"
 	done
 
 _CinnabarGymGuidePostBattleText::
 	text "<PLAYER>! You beat"
-	line "that fire brand!"
+	line "that cutthroat"
+	cont "conjuror!"
 	done
