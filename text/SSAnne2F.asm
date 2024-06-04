@@ -12,8 +12,9 @@ _SSAnneRivalBeforeBattleText::
 	text "<RIVAL>: Bonjour!"
 	line "<PLAYER>!"
 
-	para "Imagine seeing"
-	line "you here!"
+	para "Did you find a"
+	line "ticket on the"
+	cont "ground?"
 
 	para "<PLAYER>, were you"
 	line "really invited?"
@@ -22,42 +23,48 @@ _SSAnneRivalBeforeBattleText::
 	line "#DEX coming?"
 
 	para "I already caught"
-	line "40 kinds, pal!"
+	line "like 45 kinds!"
 
-	para "Different kinds"
-	line "are everywhere!"
+	para "New #MON are"
+	line "everywhere!"
 
-	para "Crawl around in"
-	line "grassy areas!"
+	para "Crawl around,"
+	line "go swimming,"
+	cont "get lost!"
 	done
 
 _SSAnneRivalDefeatedText::
-	text "Humph!"
+	text "Wah?!"
 
-	para "At least you're"
-	line "raising your"
-	cont "#MON!"
+	para "Well, at least"
+	line "your #MON"
+	cont "aren't as lame as"
+	cont "you!"
 	prompt
 
 _SSAnneRivalWonText::
-	text "<PLAYER>! What are"
+	text "<PLAYER>! A-are"
 	line "you, seasick?"
 
-	para "You should shape"
-	line "up, pal!"
+	para "Don't you dare"
+	line "puke on me!"
 	prompt
 
 _SSAnneRivalCaptainText::
-	text "<RIVAL>: I heard"
-	line "there was a CUT"
-	cont "master on board."
+	text "<RIVAL>: I came"
+	line "here for CUT and"
+	cont "all I got was"
+	cont "this stupid"
+	cont "t-shirt."
 
-	para "But, he was just a"
-	line "seasick, old man!"
+	para "The captain was"
+	line "just a seasick,"
+	cont "old man!"
 
 	para "But, CUT itself is"
 	line "really useful!"
 
-	para "You should go see"
-	line "him! Smell ya!"
+	para "Go see him, and"
+	line "bring a clean" 
+	cont "shirt."
 	done

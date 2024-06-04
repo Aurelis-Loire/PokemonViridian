@@ -2,18 +2,20 @@ _CeruleanCityText_19668::
 	text "<RIVAL>: Yo!"
 	line "<PLAYER>!"
 
-	para "You're still"
-	line "struggling along"
-	cont "back here?"
+	para "Were you born slow"
+	line "or is it a"
+	cont "choice?"
 
-	para "I'm doing great!"
-	line "I caught a bunch"
-	cont "of strong and"
-	cont "smart #MON!"
+	para "I've been on a"
+	line "tear! My new"
+	cont "#MON are"
+	cont "stronger and"
+	cont "smarter than the"
+	cont "last!"
 
-	para "Here, let me see"
-	line "what you caught,"
-	cont "<PLAYER>!"
+	para "Don't believe me?"
+	line "Let's compare"
+	cont "notes, <PLAYER>!"
 	done
 
 _CeruleanCityText_1966d::
@@ -23,26 +25,27 @@ _CeruleanCityText_1966d::
 	prompt
 
 _CeruleanCityText_19672::
-	text "Heh!"
-	line "You're no match"
-	cont "for my genius!"
+	text "As if"
+	line "there was any"
+	cont "doubt! YOU LOSER!"
 	prompt
 
 _CeruleanCityText_19677::
-	text "<RIVAL>: Hey,"
-	line "guess what?"
+	text "<RIVAL>: Hey, pro"
+	line "tip?"
 
 	para "I went to BILL's"
-	line "and got him to"
-	cont "show me his rare"
-	cont "#MON!"
+	line "and there was"
+	cont "only a #MON"
+	cont "trying to call"
+	cont "the police."
 
-	para "That added a lot"
-	line "of pages to my"
-	cont "#DEX!"
+	para "Weird right?"
+	line "Especially since"
+	cont "they're busy now."
 
-	para "After all, BILL's"
-	line "world famous as a"
+	para "I guess BILL isn't"
+	line "the only"
 	cont "#MANIAC!"
 
 	para "He invented the"
@@ -53,9 +56,9 @@ _CeruleanCityText_19677::
 	line "his system, go"
 	cont "thank him!"
 
-	para "Well, I better"
-	line "get rolling!"
-	cont "Smell ya later!"
+	para "Thank me for tips"
+	line "later! Not like I"
+	cont "care i-idiot!"
 	done
 
 _CeruleanCityText_196d9::

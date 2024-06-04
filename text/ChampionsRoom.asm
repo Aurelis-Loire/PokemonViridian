@@ -1,44 +1,47 @@
 _GaryChampionIntroText::
-	text "<RIVAL>: Hey!"
+	text "<RIVAL>: Now..."
 
-	para "I was looking"
-	line "forward to seeing"
-	cont "you, <PLAYER>!"
+	para "I always knew we'd"
+	line "get to this"
+	cont "point, <PLAYER>!"
 
-	para "My rival should"
-	line "be strong to keep"
-	cont "me sharp!"
-
-	para "While working on"
-	line "#DEX, I looked"
-	cont "all over for"
-	cont "powerful #MON!"
-
-	para "Not only that, I"
-	line "assembled teams"
-	cont "that would beat"
-	cont "any #MON type!"
-
-	para "And now!"
+	para "We've been rivals"
+	line "forever, so you"
+	cont "better be worthy!"
 
 	para "I'm the #MON"
 	line "LEAGUE champion!"
-
+	
 	para "<PLAYER>! Do you"
 	line "know what that"
 	cont "means?"
+	
+	para "Why am I asking"
+	line "you?"
+	
+	para "Ask not a sparrow"
+	line "how the eagle"
+	cont "soars!"
+	
+	para "My energy and my"
+	line "#MON are too"
+	cont "damn precious to"
+	cont "waste!"
 
-	para "I'll tell you!"
+	para "If you don't like"
+	line "pain, stand"
+	cont "still. I'll"
+	cont "finish you off"
+	cont "nice and quick!"
 
-	para "I am the most"
-	line "powerful trainer"
-	cont "in the world!"
+	para "YOUR JOURNEY"
+	line "ENDS HERE!"
 	done
 
 _GaryDefeatedText::
-	text "NO!"
-	line "That can't be!"
-	cont "You beat my best!"
+	text "..."
+	line "YOU CHEATED!"
+	cont "I am the best!"
 
 	para "After all that"
 	line "work to become"
@@ -51,34 +54,39 @@ _GaryDefeatedText::
 
 _GaryVictoryText::
 	text "Hahaha!"
-	line "I won, I won!"
+	line "I told you I was"
+	cont "on the next"
+	cont "level!"
 
-	para "I'm too good for"
-	line "you, <PLAYER>!"
+	para "The Goddess Level,"
+	line "<PLAYER>!"
 
-	para "You did well to"
-	line "even reach me,"
-	cont "<RIVAL>, the"
-	cont "#MON genius!"
+	para "Falling short just"
+	line "how it should"
+	cont "always be!"
+	cont "<RIVAL> defeats"
+	cont "<PLAYER>!"
 
-	para "Nice try, loser!"
-	line "Hahaha!"
+	para "What an idiot and"
+	line "loser! Hahahaha!"
 	prompt
 
 _GaryText_76103::
 	text "Why?"
-	line "Why did I lose?"
+	line "Why can't I beat"
+	cont "you, <PLAYER>?"
 
-	para "I never made any"
-	line "mistakes raising"
-	cont "my #MON..."
+	para "Everything was"
+	line "perfect. I was"
+	cont "champion..."
 
-	para "Darn it! You're"
+	para "But you! You are"
 	line "the new #MON"
 	cont "LEAGUE champion!"
 
-	para "Although I don't"
-	line "like to admit it."
+	para "I'm not happy for"
+	line "you or anything,"
+	cont "idiot."
 	done
 
 _GaryText2::

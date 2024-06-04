@@ -2,33 +2,43 @@ _BrunoBeforeBattleText::
 	text "I am GRANT of"
 	line "the ELITE FOUR!"
 
-	para "Through rigorous"
-	line "training, people"
-	cont "and #MON can"
-	cont "become stronger!"
+	para "After years in the"
+	line "sky my volitant"
+	cont "#MON can soar"
+	cont "at Mach speed!"
 
-	para "I've weight"
-	line "trained with"
-	cont "my #MON!"
+	para "But first!"
+	line "This is NATE!"
+	cont "Would you like to"
+	cont "see pictures as"
+	cont "well?"
 
 	para "<PLAYER>!"
 
-	para "We will grind you"
-	line "down with our"
-	cont "superior power!"
+	para "I have an entire"
+	line "sleeve of"
+	cont "pictures in my"
+	cont "wallet!"
 
-	para "Hoo hah!"
+	para "Fine, after the"
+	line "match - Captain"
+	cont "Buzzkill."
 	done
 
 _BrunoEndBattleText::
-	text "Why?"
-	line "How could I lose?"
+	text "Oh?"
+	line "I should have"
+	cont "paid more"
+	cont "attention!"
 	prompt
 
 _BrunoAfterBattleText::
-	text "My job is done!"
-	line "Go face your next"
-	cont "challenge!"
+	text "But NATE is just" 
+	line "soo cute!"
+	cont "Erhm!"
+	cont "You should head"
+	cont "out to your next"
+	cont "challenge."
 	done
 
 _BrunoDontRunAwayText::

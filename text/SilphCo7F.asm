@@ -145,65 +145,74 @@ _SilphCo7AfterBattleText4::
 	done
 
 _SilphCo7Text_51ebe::
-	text "<RIVAL>: What"
-	line "kept you <PLAYER>?"
+	text "<RIVAL>: You are"
+	line "hopeless"
+    cont "<PLAYER>!"
 	done
 
 _SilphCo7Text_51ec3::
-	text "<RIVAL>: Hahaha!"
-	line "I thought you'd"
-	cont "turn up if I"
-	cont "waited here!"
+	text "<RIVAL>: All I"
+	line "have to do is"
+	cont "wait around and"
+	cont "here you come"
+	cont "trailing behind!"
 
-	para "I guess TEAM"
-	line "ROCKET slowed you"
-	cont "down! Not that I"
-	cont "care!"
+	para "TEAM ROCKET"
+	line "somehow make you"
+	cont "slower than the"
+	cont "speed of smell?"
 
 	para "I saw you in"
-	line "SAFFRON, so I"
-	cont "decided to see if"
-	cont "you got better!"
+	line "SAFFRON, and"
+	cont "decided to beat"
+	cont "you down like"
+	cont "usual!"
 	done
 
 _SilphCo7Text_51ec8::
 	text "Oh ho!"
-	line "So, you are ready"
-	cont "for BOSS ROCKET!"
+	line "The turtle still"
+	cont "won't win the"
+	cont "race. But You"
+	cont "might beat BOSS"
+	cont "ROCKET!"
 	prompt
 
 _SilphCo7Text_51ecd::
-	text "<RIVAL>: How can"
-	line "I put this?"
+	text "<RIVAL>: Dude,"
+	line "seriously?"
 
-	para "You're not good"
-	line "enough to play"
-	cont "with us big boys!"
+	para "I'm honestly"
+	line "embarassed for"
+	cont "you at this"
+	cont "point!"
 	prompt
 
 _SilphCo7Text_51ed2::
 	text "Well, <PLAYER>!"
 
-	para "I'm moving on up"
-	line "and ahead!"
+	para "I've got better"
+	line "things to do with"
+	cont "my time!"
 
-	para "By checking my"
-	line "#DEX, I'm"
-	cont "starting to see"
-	cont "what's strong and"
-	cont "how they evolve!"
+	para "My #DEX is"
+	line "coming along and"
+	cont "showing me nice"
+	cont "evolution paths!"
 
 	para "I'm going to the"
 	line "#MON LEAGUE"
-	cont "to boot out the"
-	cont "ELITE FOUR!"
+	cont "and I'll stomp"
+	cont "the ELITE FOUR!"
 
-	para "I'll become the"
-	line "world's most"
-	cont "powerful trainer!"
+	para "It's my destiny to"
+	line "be the best,"
+	cont "everything and"
+	cont "everyone is in my"
+	cont "way!"
 
-	para "<PLAYER>, well"
-	line "good luck to you!"
-	cont "Don't sweat it!"
+	para "<PLAYER>, you'll"
+	line "need some luck!"
+	cont "Try to keep up!"
 	cont "Smell ya!"
 	done

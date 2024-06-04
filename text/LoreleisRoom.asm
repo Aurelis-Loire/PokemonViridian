@@ -7,23 +7,23 @@ _LoreleiBeforeBattleText::
 
 	para "No one can best"
 	line "me when it comes"
-	cont "to fiery #MON!"
+	cont "to fire #MON!"
 
-	para "Burning moves"
-	line "are powerful!"
+	para "Fire types exhibit"
+	line "great strength."
 
 	para "Your #MON will"
 	line "be at my mercy"
-	cont "when they are"
-	cont "burned to ash!"
+	cont "when faced with"
+	cont "unyielding fire."
 
-	para "Hahaha!"
+	para "No mercy now."
 	line "Are you ready?"
 	done
 
 _LoreleiEndBattleText::
-	text "How"
-	line "dare you!"
+	text "That's an"
+	line "impressive team!"
 	prompt
 
 _LoreleiAfterBattleText::

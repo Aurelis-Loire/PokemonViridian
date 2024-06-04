@@ -120,7 +120,7 @@ _VermilionCityText12::
 	cont "LEADER: ALEX"
 
 	para "The Lightning "
-	line "American!"
+	line "Virtuoso!"
 	done
 
 _VermilionCityText13::

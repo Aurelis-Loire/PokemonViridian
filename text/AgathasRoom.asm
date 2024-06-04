@@ -2,43 +2,45 @@ _AgathaBeforeBattleText::
 	text "I am THOM of"
 	line "the ELITE FOUR!"
 
-	para "OAK's taken a lot"
-	line "of interest in"
-	cont "you, child!"
+	para "You ever go to the"
+	line "beach and sit on"
+	cont "your phone?"
+	cont "That's a SANDILE!"
 
-	para "That old duff was"
-	line "once tough and"
-	cont "handsome! That"
-	cont "was decades ago!"
+	para "You seem less than"
+	line "amused. I"
+	cont "PUNderstand. They"
+	cont "just fly right"
+	cont "out of MEOWTH!"
 
-	para "Now he just wants"
-	line "to fiddle with"
-	cont "his #DEX! He's"
-	cont "wrong! #MON"
-	cont "are for fighting!"
-
-	para "<PLAYER>! I'll show"
-	line "you how a real"
-	cont "trainer fights!"
+	para "<PLAYER>! Allow me"
+	line "to take the place"
+	cont "of your mother,"
+	cont "and GROUND you!"
 	done
 
 _AgathaEndBattleText::
-	text "Oh ho!"
-	line "You're something"
-	cont "special, child!"
+	text "Oof!"
+	line "GRAVELER? I"
+	cont "barely knew her!"
 	prompt
 
 _AgathaAfterBattleText::
-	text "You win! I see"
-	line "what the old duff"
-	cont "sees in you now!"
+	text "Fine, you win. You"
+	line "better become"
+	cont "champ, anything"
+	cont "less is"
+	cont "ONIX-ceptable!"
 
-	para "I have nothing"
-	line "else to say! Run"
-	cont "along now, child!"
+	para "I have a WHISCASH"
+	line "of puns left."
+	cont "..."
+	cont "You could at"
+	cont "least run"
+	cont "slower..."
 	done
 
 _AgathaDontRunAwayText::
 	text "Someone's voice:"
-	line "Don't run away!"
+	line "WYNAUT stay?"
 	done

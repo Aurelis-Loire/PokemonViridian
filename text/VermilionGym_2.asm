@@ -1,13 +1,18 @@
 _LTSurgePostBattleAdviceText::
-	text "A little word of"
-	line "advice, kid!"
+	text "You're like"
+	line "shock treatment!"
+	cont "I thought I"
+	cont "knew it all..."
 
-	para "Electricity is"
-	line "sure powerful!"
+	para "I'll whisper"
+	line "words of wisdom."
 
-	para "But, it's useless"
-	line "against ground-"
-	cont "type #MON!"
+	para "No matter how"
+	line "prodigious your"
+	cont "electric talent,"
+	cont "GROUND will"
+	cont "hit you with a"
+	cont "reality check!"
 	done
 
 _LTSurgeThunderBadgeInfoText::
@@ -56,9 +61,9 @@ _ReceivedThunderBadgeText::
 	prompt
 
 _VermilionGymBattleText1::
-	text "When I was in the"
-	line "Army, ALEX was my"
-	cont "strict CO!"
+	text "I always wanted to"
+	line "be in a band with"
+	cont "ALEX!"
 	done
 
 _VermilionGymEndBattleText1::
@@ -71,7 +76,7 @@ _VermilionGymAfterBattleText1::
 	line "open?"
 
 	para "ALEX always was"
-	line "cautious!"
+	line "systematic!"
 	done
 
 _VermilionGymBattleText2::
@@ -85,11 +90,13 @@ _VermilionGymEndBattleText2::
 	prompt
 
 _VermilionGymAfterBattleText2::
-	text "OK, I'll talk!"
+	text "Switches?"
 
-	para "ALEX said he hid"
-	line "door switches"
-	cont "inside something!"
+	para "ALEX only tells us"
+	line "so much. But"
+	cont "these cans aren't"
+	cont "for a rendition"
+	cont "of STOMP!"
 	done
 
 _VermilionGymBattleText3::
@@ -119,12 +126,13 @@ _VermilionGymGuidePreBattleText::
 
 	para "ALEX has a"
 	line "nickname. People"
-	cont "refer to him as"
-	cont "the Lightning"
-	cont "American!"
+	cont "call him the"
+	cont "Lightning"
+	cont "Virtuoso!"
 
-	para "He's an expert on"
-	line "electric #MON!"
+	para "Electric #MON"
+	line "light show"
+	cont "incoming!"
 
 	para "Birds and water"
 	line "#MON are at"

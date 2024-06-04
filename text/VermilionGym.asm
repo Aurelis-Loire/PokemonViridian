@@ -1,21 +1,23 @@
 _LTSurgePreBattleText::
-	text "Hey, kid! What do"
-	line "you think you're"
-	cont "doing here?"
+	text "Finding a"
+	line "light in the"
+	cont "velvet darkness."
 
-	para "You won't live"
-	line "long in combat!"
-	cont "That's for sure!"
+	para "You should've"
+	line "left this door"
+	cont "locked, and"
+	cont "never knocked."
 
-	para "I tell you kid,"
-	line "electric #MON"
-	cont "saved me during"
-	cont "the war!"
+	para "Prepare for,"
+	line "a symphonic"
+	cont "arpeggio of"
+	cont "electric #MON."
 
-	para "They zapped my"
-	line "enemies into"
-	cont "paralysis!"
+	para "<PLAYER> do you"
+	line "know what man is?"
+	cont "A miserable pile"
+	cont "of secrets."
 
-	para "The same as I'll"
-	line "do to you!"
+	para "But enough talk"
+	line "have at you!"
 	done
