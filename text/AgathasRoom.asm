@@ -13,10 +13,11 @@ _AgathaBeforeBattleText::
 	cont "just fly right"
 	cont "out of MEOWTH!"
 
-	para "<PLAYER>! Allow me"
-	line "to take the place"
-	cont "of your mother,"
-	cont "and GROUND you!"
+	para "<PLAYER>! Word to"
+	line "yo' mother, shall"
+	cont "this father step"
+	cont "up and GROUND"
+	cont "you?"
 	done
 
 _AgathaEndBattleText::
