@@ -8,9 +8,19 @@ _CeladonCityText1::
 	done
 
 _CeladonCityText2::
-	text "Heheh! This GYM"
-	line "is great! It's"
-	cont "full of women!"
+	text "How much I gotta"
+    line "pay to get into"
+    cont "that lab?"
+
+    para "I wanna see that"
+    line "robot bu--"
+
+    para "AAAGGH!!!"
+
+    para "Don't sneak up on"
+    line "people! I nearly"
+    cont "CATERPIE'd my"
+    cont "pants!"
 	done
 
 _CeladonCityText3::

@@ -85,20 +85,35 @@ _CeladonGameCornerText6::
 
 _CeladonGameCornerText_48dca::
 	text "Hey!"
+    line "Good to see you,"
+    cont "champ in making!"
 
-	para "You have better"
-	line "things to do,"
-	cont "champ in making!"
+    para "Curious about"
+    line "CELADON GYM?"
 
-	para "CELADON GYM's"
-	line "LEADER is SPECTRE!"
-	cont "She uses bug-"
-	cont "type #MON!"
+    para "It started as a"
+    line "research lab for"
+    cont "bug-type #MON!"
 
-	para "She might appear"
-	line "docile, but don't"
-	cont "be fooled!"
-	done
+    para "The leader is an"
+    line "odd one, by the"
+    cont "name of SPECTRE."
+    cont "They're a bit of"
+    cont "a mad scientist"
+    cont "if you ask me."
+
+    para "Oh, me? I'm not"
+    line "about to crawl in"
+    cont "there. What if"
+    cont "they turn me into"
+    cont "an insect?!"
+
+    para "I'm just here"
+    line "'cause it's safe."
+    cont "Yeah, that's it!"
+    cont "I can stop any-"
+    cont "time I want!"
+    done
 
 _CeladonGameCornerText_48dcf::
 	text "They offer rare"
