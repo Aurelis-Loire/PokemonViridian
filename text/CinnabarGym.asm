@@ -55,7 +55,7 @@ _ReceivedTM38Text::
 _TM38ExplanationText::
 	text_start
 
-	para "TM38 contains"
+	para "TM29 contains"
 	line "PSYCHIC!"
 
 	para "Teach it to psy-"

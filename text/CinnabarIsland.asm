@@ -5,8 +5,8 @@ _CinnabarIslandText8::
 
 _CinnabarIslandText1::
 	text "CINNABAR GYM's"
-	line "MIKE is an odd man"
-	cont "who has lived"
+	line "MIKE is an odd"
+	cont "man who has lived"
 	cont "here for decades."
 	done
 

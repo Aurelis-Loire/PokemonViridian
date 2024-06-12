@@ -15,7 +15,7 @@ _ReceivedTM18Text::
 	text_end
 
 _TM18ExplanationText::
-	text "TM18 is"
+	text "TM17 is"
 	line "SUBMISSION!"
 	cont "Consider it a"
 	cont "free sample."

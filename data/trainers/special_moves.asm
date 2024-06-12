@@ -188,6 +188,7 @@ SpecialTrainerMoves:
 	db KOGA, 1 ;Alyssa - Chandelure/Gengar/Froslass/Marowak
 	db 1, 4, EMBER
 	db 3, 4, POWDER_SNOW
+	db 4, 3, FLAMETHROWER
 	db 4, 4, SHADOW_BALL
 	db 0
 

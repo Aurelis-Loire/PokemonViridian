@@ -259,9 +259,10 @@ _OaksLabRivalChallengeText::
 	done
 
 _OaksLabText_1d3be::
-	text "Tch! I wasn't"
-	line "trying! It's a"
-	cont "new #MON after"
+	text "Tch! I"
+	line "wasn't trying!"
+	cont "It's a new"
+	cont "#MON after"
 	cont "all!"
 	prompt
 

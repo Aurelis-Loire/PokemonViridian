@@ -15,7 +15,8 @@ _SilphCo5BattleText5::
 	done
 
 _SilphCo5EndBattleText5::
-	text "I'm gonna wail!"
+	text "I'm gonna"
+	line "wail!"
 	prompt
 
 _SilphCo5AfterBattleText5::

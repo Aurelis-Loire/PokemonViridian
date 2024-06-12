@@ -137,8 +137,9 @@ _SaffronGymBattleText2::
 	done
 
 _SaffronGymEndBattleText2::
-	text "Well... looks"
-	line "like you're brave!"
+	text "Well..."
+	line "looks like you're"
+	cont "brave!"
 	prompt
 
 _SaffronGymAfterBattleText2::
@@ -157,8 +158,8 @@ _SaffronGymBattleText3::
 	done
 
 _SaffronGymEndBattleText3::
-	text "Hello and"
-	line "goodbye!"
+	text "Hello"
+	line "and goodbye!"
 	prompt
 
 _SaffronGymAfterBattleText3::
@@ -212,8 +213,9 @@ _SaffronGymBattleText6::
 	done
 
 _SaffronGymEndBattleText6::
-	text "You saw through"
-	line "my illusion!"
+	text "You saw"
+	line "through my"
+	cont "illusion!"
 	prompt
 
 _SaffronGymAfterBattleText6::
