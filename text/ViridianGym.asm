@@ -69,10 +69,13 @@ _ReceivedTM27Text::
 _TM27ExplanationText::
 	text_start
 
-	para "TM27 is FISSURE!"
-	line "It will take out"
-	cont "#MON with just"
-	cont "one hit!"
+	para "TM27 is OUTRAGE!"
+	line "It's the ultimate"
+	cont "DRAGON move. Be"
+	cont "sure to defeat"
+	cont "your opponent or"
+	cont "your #MON will"
+	cont "become fatigued!"
 
 	para "I made it when I"
 	line "ran the GYM here,"

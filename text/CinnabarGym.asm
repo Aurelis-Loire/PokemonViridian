@@ -184,7 +184,7 @@ _CinnabarGymBattleText7::
 	text "Manipulation is"
 	line "impossible"
 	cont "against the"
-	line "incorporeal!"
+	cont "incorporeal!"
 	done
 
 _CinnabarGymEndBattleText7::

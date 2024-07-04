@@ -183,11 +183,13 @@ SpecialTrainerMoves:
 	db 1, 2, SUPERSONIC
 	db 2, 4, QUICK_ATTACK
 	db 3, 1, PIN_MISSILE
+	db 3, 2, THUNDERBOLT
 	db 0
 
 	db KOGA, 1 ;Alyssa - Chandelure/Gengar/Froslass/Marowak
 	db 1, 4, EMBER
 	db 3, 4, POWDER_SNOW
+	db 4, 1, THUNDERBOLT
 	db 4, 3, FLAMETHROWER
 	db 4, 4, SHADOW_BALL
 	db 0
